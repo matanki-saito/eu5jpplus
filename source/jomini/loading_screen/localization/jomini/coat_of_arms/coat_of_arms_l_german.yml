@@ -1,0 +1,3 @@
+﻿l_german:
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER: "Farbe ist Teil der Liste $NAME$"
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER_NOT: "Farbe ist NICHT Teil der Liste $NAME$"

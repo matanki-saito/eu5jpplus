@@ -1,0 +1,4 @@
+﻿l_spanish:
+ DATE_AD_YEAR: "$YEAR$ d. C."
+ DATE_BC_YEAR: "$YEAR$ a. C."
+ DATE_FORMATTING_LONG: "$DAY$ $MONTH$ $YEAR$"

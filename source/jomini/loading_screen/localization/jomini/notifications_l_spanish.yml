@@ -1,0 +1,8 @@
+﻿l_spanish:
+ JOMINI_NOTIFICATION_TIMESTAMP_NOW: "Ahora"
+ JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "Hace $MINUTES$ minutos"
+ JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "Mods deshabilitados"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "El juego se encontró con un problema la última vez que se inició, posiblemente debido a un mod no compatible.\nPara garantizar la estabilidad, se han deshabilitado temporalmente todos los mods.\nPara reactivar los mods, ve al conjunto de juegos «$MESSAGE$», elimina los mods problemáticos y aplica los cambios."
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "Se han detectado mods no compatibles"
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "Algunos de tus mods son para una versión distinta de $GAME$. Es posible que no funcionen correctamente y provoquen problemas en la partida. Para aumentar la estabilidad, te recomendamos deshabilitarlos hasta que se actualicen.\n\nLos siguientes mods están desfasados:\n$MODS_OUTDATED_LIST$"

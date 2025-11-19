@@ -1,0 +1,5 @@
+﻿l_japanese:
+ AND: " と "
+ AND_LIST: "、および "
+ COMMA: "、 "
+ NEWLINE: "\n"

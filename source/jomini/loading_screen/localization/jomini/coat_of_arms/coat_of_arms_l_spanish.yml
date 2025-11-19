@@ -1,0 +1,3 @@
+﻿l_spanish:
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER: "El color está en la lista $NAME$"
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER_NOT: "El color NO está en la lista $NAME$"

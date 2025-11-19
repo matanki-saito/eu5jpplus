@@ -1,0 +1,5 @@
+﻿l_korean:
+ SETTING_ANIMATED_PORTRAITS: "인물 애니메이션"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!주요 인물의 애니메이션 적용 여부를 결정합니다.\n\n비활성화하면 성능이 향상됩니다."
+ SETTING_PORTRAITS_SSAO: "인물 SSAO"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!초상화의 스크린 스페이스 앰비언트 오클루전 적용 여부를 결정합니다.\n\n비활성화하면 성능이 향상됩니다."

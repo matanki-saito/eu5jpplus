@@ -1,0 +1,8 @@
+﻿l_korean:
+ JOMINI_NOTIFICATION_TIMESTAMP_NOW: "방금"
+ JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "$MINUTES$분 전"
+ JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "모드 비활성화"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "최근 게임을 시작할 때 문제가 발생했습니다. 호환되지 않는 모드가 문제의 원인일 수 있습니다.\n게임 안정성을 위해 모든 모드를 일시적으로 비활성화했습니다.\n모드를 다시 활성화하려면 \"$MESSAGE$\" 플레이 세트로 이동하여 문제가 있는 모드를 제거한 뒤 변경 사항을 적용해 주십시오."
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "지원하지 않는 모드 감지"
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "사용 중인 일부 모드가 $GAME$ 현재 버전과 호환되지 않습니다. 해당 모드는 제대로 작동하지 않을 위험이 있으며, 게임에 부정적인 영향을 미칠 수 있습니다. 안정성을 유지하기 위해 해당 모드를 업데이트될 때까지 잠시 비활성화할 것을 권장합니다.\n\n구버전으로 감지된 모드는 다음과 같습니다.\n$MODS_OUTDATED_LIST$"

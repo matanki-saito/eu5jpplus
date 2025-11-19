@@ -1,0 +1,8 @@
+﻿l_french:
+ SETTING_REFRACTION: "Reflets"
+ SETTING_REFRACTION_QUALITY: "Qualité des reflets"
+ SETTING_MAPOBJECT_QUALITY: "Objets de la carte"
+ SETTING_MAP_SSAO: "Carte SSAO"
+ SETTING_DOF: "Profondeur de champ"
+ SETTING_LENS_FLARE: "Lumière parasite"
+ SETTING_SECONDARY_LENS_FLARE: "Lumière parasite secondaire"

@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "存在问题"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "微软账号无法登录。一些游戏内容可能无法使用。"
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "账户权限"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "您没有访问用户生成内容的权限。模组将被禁用。"

@@ -1,0 +1,8 @@
+﻿l_turkish:
+ SETTING_REFRACTION: "Işık Kırılmaları"
+ SETTING_REFRACTION_QUALITY: "Işık Kırılmalarının Kalitesi"
+ SETTING_MAPOBJECT_QUALITY: "Harita Nesneleri"
+ SETTING_MAP_SSAO: "Harita SSAO"
+ SETTING_DOF: "Alan Derinliği"
+ SETTING_LENS_FLARE: "Lens parlaması"
+ SETTING_SECONDARY_LENS_FLARE: "İkincil lens parlaması"

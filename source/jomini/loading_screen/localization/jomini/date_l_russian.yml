@@ -1,0 +1,4 @@
+﻿l_russian:
+ DATE_AD_YEAR: "$YEAR$ н. э."
+ DATE_BC_YEAR: "$YEAR$ до н. э."
+ DATE_FORMATTING_LONG: "$DAY$ $MONTH$, $YEAR$"

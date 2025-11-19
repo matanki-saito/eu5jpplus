@@ -1,0 +1,8 @@
+﻿l_turkish:
+ JOMINI_NOTIFICATION_TIMESTAMP_NOW: "Az önce"
+ JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "$MINUTES$ dakika önce"
+ JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "Modlar Devre Dışı"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "Büyük ihtimalle uyumsuz bir mod sebebiyle oyun son başlatmada bir sorunla karşılaştı.\nSorunsuz çalıştırma için tüm modlar geçici olarak devre dışı bırakıldı.\nModları yeniden etkinleştirmek için \"$MESSAGE$\" Oyun setine git, sorunlu modları kaldır ve değişiklikleri uygula."
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "Desteklenmeyen Modlar Tespit Edildi"
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "Modlarından bazıları farklı bir $GAME$ sürümüyle uyumlu. Bu modlar düzgün çalışmayabilir ve oyunla ilgili sorunlar yaşamana sebep olabilir. Daha sorunsuz bir oyun deneyimi için bu modları güncellenene dek devre dışı bırakmanı öneririz.\n\nŞu modlar güncel değildir:\n$MODS_OUTDATED_LIST$"

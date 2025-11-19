@@ -1,0 +1,5 @@
+﻿l_turkish:
+ SETTING_ANIMATED_PORTRAITS: "Animasyonlu Karakterler"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Önemli karakterlerin animasyonlu olup olmayacağını belirler.\n\nBu ayarı kapatmak performansı arttırabilir."
+ SETTING_PORTRAITS_SSAO: "Karakter SSAO"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!SSAO (ekran alanı çevresel perdeleme) yönteminin portrelere uygulanıp uygulanmayacağını belirler.\n\nBu ayarı kapatmak performansı arttırabilir."

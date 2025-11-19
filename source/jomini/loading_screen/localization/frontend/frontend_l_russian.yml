@@ -1,0 +1,5 @@
+﻿l_russian:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "Была проблема"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "Мы не смогли войти через вашу учетную запись Microsoft. Некоторые игровые особенности могут быть недоступны."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "Настройки доступа учетной записи"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "У вас нет доступа к пользовательскому контенту. Модификации будут отключены."

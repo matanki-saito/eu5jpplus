@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ DATE_AD_YEAR: "公元$YEAR$"
+ DATE_BC_YEAR: "公元前$YEAR$"
+ DATE_FORMATTING_LONG: "$YEAR$年$MONTH$$DAY$日"

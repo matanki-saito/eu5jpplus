@@ -1,0 +1,5 @@
+﻿l_turkish:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "Bir sorun oluştu"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "Seni Microsoft hesabına bağlayamadık. Bazı oyun özellikleri kullanılamayabilir."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "Hesap izni"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "Kullanıcıların oluşturduğu içeriklere erişme iznin yok. Modlar devre dışı bırakılacak."

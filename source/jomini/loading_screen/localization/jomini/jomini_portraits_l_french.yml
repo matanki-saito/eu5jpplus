@@ -1,0 +1,5 @@
+﻿l_french:
+ SETTING_ANIMATED_PORTRAITS: "Personnages animés"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Détermine si les personnages doivent être animés.\n\nLes désactiver peut améliorer les performances."
+ SETTING_PORTRAITS_SSAO: "Personnages SSAO"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Détermine si l'occlusion ambiante de l'espace à l'écran doit être appliquée aux portraits.\n\nLa désactiver peut améliorer les performances."

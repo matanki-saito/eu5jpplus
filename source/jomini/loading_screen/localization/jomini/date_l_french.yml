@@ -1,0 +1,4 @@
+﻿l_french:
+ DATE_AD_YEAR: "$YEAR$ ap. J.-C."
+ DATE_BC_YEAR: "$YEAR$ av. J.-C."
+ DATE_FORMATTING_LONG: "$DAY$ $MONTH$ $YEAR$"

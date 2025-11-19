@@ -1,0 +1,5 @@
+﻿l_french:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "Un problème est survenu"
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "Nous n'avons pas pu vous connecter avec votre compte Microsoft. Certaines fonctionnalités du jeu pourraient ne pas être accessibles."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "Permissions du compte"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "Vous n'avez pas la permission pour accéder au contenu créé par les utilisateurs. Les mods vont être désactivés."

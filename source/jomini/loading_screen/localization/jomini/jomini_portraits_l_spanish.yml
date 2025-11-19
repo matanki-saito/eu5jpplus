@@ -1,0 +1,5 @@
+﻿l_spanish:
+ SETTING_ANIMATED_PORTRAITS: "Personajes animados"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Establece si se animarán los personajes destacados.\n\nDesactivarlo puede mejorar el rendimiento."
+ SETTING_PORTRAITS_SSAO: "Oclusión ambiental del espacio de pantalla (SSAO) de personajes"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Determina si debe aplicarse a los retratos la oclusión ambiental de espacio en pantalla.\n\nDesactivarlo puede mejorar el rendimiento."

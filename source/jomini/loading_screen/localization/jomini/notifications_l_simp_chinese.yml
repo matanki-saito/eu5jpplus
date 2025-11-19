@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+ JOMINI_NOTIFICATION_TIMESTAMP_NOW: "刚才"
+ JOMINI_NOTIFICATION_TIMESTAMP_MINUTES: "$MINUTES$分钟前"
+ JOMINI_NOTIFICATION_TIMESTAMP: "$DATE$"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_TITLE: "Mod被禁用"
+ JOMINI_DLC_MANAGER_DISABLED_MODS_CRASH_DESC: "游戏在上次启动时遇到了问题，可能是由于不兼容的mod。\n为了确保稳定性，所有mod都被暂时禁用。\n要重新启用你的mod，请前往“$MESSAGE$”游玩设定，删除任何有问题的mod并应用更改。"
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_TITLE: "检测到不支持的模组"
+ JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "你的一些mod适用于$GAME$的不同版本。这些mod可能无法正常工作，并导致游戏出现问题。为了稳定性，我们建议禁用这些mod，直到它们更新为止。\n\n以下mod已过期：\n$MODS_OUTDATED_LIST$"

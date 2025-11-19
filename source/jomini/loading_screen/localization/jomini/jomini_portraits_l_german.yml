@@ -1,0 +1,5 @@
+﻿l_german:
+ SETTING_ANIMATED_PORTRAITS: "Animierte Charaktere"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Legt fest, ob prominente Charaktere animiert werden.\n\nDas Deaktivieren kann die Leistung verbessern."
+ SETTING_PORTRAITS_SSAO: "Charaktere-SSAO"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Legt fest, ob Screen Space Ambient Occlusion auf die Porträts angewendet wird.\n\nDas Deaktivieren kann die Leistung verbessern."

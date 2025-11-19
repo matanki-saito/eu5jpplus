@@ -1,0 +1,3 @@
+﻿l_turkish:
+ FILE_WRITE_ERROR: "Kayıtlı oyun oluşturulamadı"
+ FILE_WRITE_ERROR_DESC: "Kayıtlı bir oyun oluşturulamadı. Bunun sebebi şunlardan biri olabilir:\n- Diskte yeterli alan olmayabilir\n- Dosya izin sorunları yaşanıyor olabilir\n- Antivirüs ya da fidye yazılımlara karşı koruma programı engelliyor olabilir\n- Oyun dosyaları bozulmuş olabilir\n- Yüklenen modlardan kaynaklanan sorunlar yaşanıyor olabilir"

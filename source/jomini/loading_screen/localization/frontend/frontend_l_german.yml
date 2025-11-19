@@ -1,0 +1,5 @@
+﻿l_german:
+ JOMINI_MSGRDK_SIGNIN_FAILED_TITLE: "Es gab ein Problem."
+ JOMINI_MSGRDK_SIGNIN_FAILED_TEXT: "Die Anmeldung mit dem Microsoft-Konto ist fehlgeschlagen. Einige Spielfunktionen sind möglicherweise nicht verfügbar."
+ JOMINI_MSGRDK_NO_PERMISSION_TITLE: "Kontoberechtigungen"
+ JOMINI_MSGRDK_NO_UGC_TEXT: "Ihr habt keine Berechtigung für den Zugriff auf nutzergenerierte Inhalte. Mods werden deaktiviert."

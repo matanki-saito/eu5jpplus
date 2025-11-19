@@ -1,0 +1,8 @@
+﻿l_german:
+ SETTING_REFRACTION: "Reflexion"
+ SETTING_REFRACTION_QUALITY: "Reflexionsqualität"
+ SETTING_MAPOBJECT_QUALITY: "Kartenobjekte"
+ SETTING_MAP_SSAO: "Karten-SSAO"
+ SETTING_DOF: "Schärfentiefe"
+ SETTING_LENS_FLARE: "Lens Flare"
+ SETTING_SECONDARY_LENS_FLARE: "Sekundärer Lens Flare"

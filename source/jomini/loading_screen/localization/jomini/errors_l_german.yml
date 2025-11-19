@@ -1,0 +1,3 @@
+﻿l_german:
+ FILE_WRITE_ERROR: "Erstellung des Speicherstands fehlgeschlagen"
+ FILE_WRITE_ERROR_DESC: "Das Spiel konnte keinen Speicherstand erstellen. Das könnte folgende Gründe haben:\n- Nicht genug Speicherplatz auf dem Datenträger\n- Probleme mit Datei-Berechtigungen\n- Software zum Schutz vor Viren oder Ransomware\n- Speicherstand beschädigt\n- Probleme durch installierte Mods"

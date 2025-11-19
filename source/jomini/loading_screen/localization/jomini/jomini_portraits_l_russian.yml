@@ -1,0 +1,5 @@
+﻿l_russian:
+ SETTING_ANIMATED_PORTRAITS: "Анимированные персонажи"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Определяет, будут ли персонажи анимированными.\n\nОтключение анимации может повысить производительность."
+ SETTING_PORTRAITS_SSAO: "SSAO для персонажей"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Определяет, будет ли применяться к портретам преграждение окружающего света в экранном пространстве.\n\nОтключение параметра может повысить производительность."

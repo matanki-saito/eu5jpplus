@@ -1,0 +1,4 @@
+﻿l_turkish:
+ DATE_AD_YEAR: "MS $YEAR$"
+ DATE_BC_YEAR: "MÖ $YEAR$"
+ DATE_FORMATTING_LONG: "$DAY$ $MONTH$ $YEAR$"

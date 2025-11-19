@@ -1,0 +1,4 @@
+﻿l_german:
+ DATE_AD_YEAR: "$YEAR$ n. u. Z."
+ DATE_BC_YEAR: "$YEAR$ v. u. Z."
+ DATE_FORMATTING_LONG: "$DAY$. $MONTH$ $YEAR$"

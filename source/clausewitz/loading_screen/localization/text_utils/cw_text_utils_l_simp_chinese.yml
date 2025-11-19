@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+ AND: " 以及 "
+ AND_LIST: "，以及 "
+ COMMA: "， "
+ NEWLINE: "\n"

@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER: "颜色在$NAME$列表中"
+ COAT_OF_ARMS_IN_COLOR_LIST_TRIGGER_NOT: "颜色不在$NAME$列表中"

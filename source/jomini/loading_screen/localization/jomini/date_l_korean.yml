@@ -1,0 +1,4 @@
+﻿l_korean:
+ DATE_AD_YEAR: "$YEAR$ CE"
+ DATE_BC_YEAR: "$YEAR$ BCE"
+ DATE_FORMATTING_LONG: "$YEAR$년 $MONTH$ $DAY$일"

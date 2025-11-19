@@ -1,0 +1,8 @@
+﻿l_spanish:
+ SETTING_REFRACTION: "Reflejos"
+ SETTING_REFRACTION_QUALITY: "Calidad de los reflejos"
+ SETTING_MAPOBJECT_QUALITY: "Objetos del mapa"
+ SETTING_MAP_SSAO: "Oclusión ambiental del espacio de pantalla (SSAO) del mapa"
+ SETTING_DOF: "Profundidad de campo"
+ SETTING_LENS_FLARE: "Destello de lente"
+ SETTING_SECONDARY_LENS_FLARE: "Destello de lente secundario"
