@@ -1,13 +1,27 @@
 import os
 import re
+import shutil
 import subprocess
 import tempfile
+from pathlib import Path
 
-STEAMCMD_PATH = r"C:\steamcmd\steamcmd.exe"  # steamcmd.exe のパス
-APPID = 3450310  # 調べたい AppID（例：Dota2）
+import requests
+
+STEAMCMD_PATH = os.environ.get("STEAMCMD_PATH", r"C:\steamcmd\steamcmd.exe")
+APPID = int(os.environ.get("APPID", 3450310))
+
+REPO_OWNER = os.environ.get("REPO_OWNER", "matanki-saito")
+REPO_NAME = os.environ.get("REPO_NAME", "eu5jpplus")
+
+STEAM_LOGIN_NAME = os.environ.get("STEAM_LOGIN_NAME", "gnagaoka")
+STEAM_LOGIN_PASSWORD = os.environ.get("STEAM_LOGIN_PASSWORD", "123")
+
+STEAM_GAME_DIR = os.environ.get("STEAM_GAME_DIR", "./install")
+
+SOURCE_DIR = "./source"
 
 
-def run_steamcmd(appid: int) -> str:
+def run_steamcmd_info(appid: int) -> str:
     """
     SteamCMD を実行して app_info_print の出力を取得する
     """
@@ -24,6 +38,42 @@ def run_steamcmd(appid: int) -> str:
         "+app_info_print", str(appid),
         "+quit"
     ]
+
+    # SteamCMD の標準出力をファイルに保存
+    with open(temp_path, "w", encoding="utf-8", errors="ignore") as f:
+        subprocess.run(cmd, stdout=f, stderr=subprocess.STDOUT)
+
+    # 読み込み
+    with open(temp_path, "r", encoding="utf-8", errors="ignore") as f:
+        data = f.read()
+
+    # 一時ファイル削除
+    os.remove(temp_path)
+    return data
+
+
+def run_steamcmd_update(appid: int, game_dir: str, login_name: str, login_pass: str) -> str:
+    """
+    SteamCMD を実行してゲームをupdateする
+    """
+
+    # 一時ファイルに出力させる
+    temp_file = tempfile.NamedTemporaryFile(delete=False, suffix=".txt")
+    temp_path = temp_file.name
+    temp_file.close()
+
+    cmd = [
+        STEAMCMD_PATH,
+        "-dev",
+        "-textmode",
+        "-ignoredxsupportcfg",
+        "+force_install_dir", game_dir,
+        "+login", login_name, login_pass,
+        "+app_update", str(appid), "validate",
+        "+quit"
+    ]
+
+    print(cmd)
 
     # SteamCMD の標準出力をファイルに保存
     with open(temp_path, "w", encoding="utf-8", errors="ignore") as f:
@@ -81,19 +131,113 @@ def parse_buildids(text: str):
     return result
 
 
+def get_latest_branch_public_number(owner, repo):
+    url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
+    r = requests.get(url)
+    r.raise_for_status()
+
+    body = r.json().get("body", "")
+
+    m = re.search(r"Branch\s+public:\s*(\d+)", body)
+    if not m:
+        raise ValueError("Branch public の数字が見つかりませんでした。")
+
+    return int(m.group(1))
+
+
+def copy_items_from_base(base_dir, item_names, dest):
+    """
+    base_dir   : 元のフォルダ（この中からコピーしたいものを探す）
+    item_names : base_dir 内のコピーしたい名前のリスト（ファイル名 or フォルダ名）
+    dest       : コピー先ディレクトリ
+    """
+    base_dir = Path(base_dir)
+    dest = Path(dest)
+    dest.mkdir(parents=True, exist_ok=True)
+
+    for name in item_names:
+        src = base_dir / name
+
+        if not src.exists():
+            print(f"Skip (not found): {src}")
+            continue
+
+        target = dest / name
+
+        # ---------- フォルダのコピー ----------
+        if src.is_dir():
+            if target.exists():
+                shutil.rmtree(target)  # 上書きのため削除
+            print(f"Copying directory: {src} → {target}")
+            shutil.copytree(src, target)
+
+        # ---------- ファイルのコピー ----------
+        else:
+            print(f"Copying file: {src} → {target}")
+            shutil.copy2(src, target)
+
+
+def empty_directory(dir_path):
+    """
+    指定フォルダ内のファイル・フォルダを全部削除し、空にする
+    """
+    d = Path(dir_path)
+
+    if not d.exists() or not d.is_dir():
+        print(f"Not a directory: {d}")
+        return
+
+    for item in d.iterdir():
+        if item.is_dir():
+            shutil.rmtree(item)
+        else:
+            item.unlink()
+
+
 def main():
     print(f"SteamCMD を使用して AppID {APPID} の buildID を取得します…")
 
-    output = run_steamcmd(APPID)
+    output = run_steamcmd_info(APPID)
     parsed = parse_buildids(output)
 
     print("\n=== Depot buildIDs ===")
     for d, b in parsed["depots"].items():
         print(f"  Depot {d}: {b}")
 
+    public_id = -1
     print("\n=== Branch buildIDs ===")
     for name, b in parsed["branches"].items():
         print(f"  Branch {name}: {b}")
+        if name == "public":
+            public_id = b
+
+    current_public_id = get_latest_branch_public_number(REPO_OWNER, REPO_NAME)
+    if public_id == current_public_id:
+        print("更新が不要です")
+        return
+
+    print("ゲーム更新を行います")
+    # install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME, STEAM_LOGIN_PASSWORD)
+
+    print("フォルダクリア")
+    empty_directory(SOURCE_DIR)
+
+    print("対象を更新")
+    items_to_copy = [
+        "clausewitz\\loading_screen\\localization",
+        "jomini\\loading_screen\\localization",
+        "game\\main_menu\\localization\\english",
+        "game\\main_menu\\localization\\japanese",
+        "game\\main_menu\\localization\\jomini",
+        "game\\main_menu\\localization\\music_player_gui",
+        "game\\loading_screen\\localization",
+        "caesar_branch.txt",
+        "caesar_rev.txt",
+        "clausewitz_branch.txt",
+        "clausewitz_rev.txt"
+    ]
+
+    copy_items_from_base(STEAM_GAME_DIR, items_to_copy, SOURCE_DIR)
 
 
 if __name__ == "__main__":
