@@ -20,6 +20,8 @@ STEAM_GAME_DIR = os.environ.get("STEAM_GAME_DIR", "./install")
 
 SOURCE_DIR = "./source"
 
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+
 
 def run_steamcmd_info(appid: int) -> str:
     """
@@ -140,7 +142,7 @@ def get_latest_branch_public_number(owner, repo):
 
     m = re.search(r"Branch\s+public:\s*(\d+)", body)
     if not m:
-        raise ValueError("Branch public の数字が見つかりませんでした。")
+        return -1
 
     return int(m.group(1))
 
@@ -194,6 +196,96 @@ def empty_directory(dir_path):
             item.unlink()
 
 
+def run_git_command(cmd, cwd=None, ignore_error=False):
+    """Git コマンドを実行するラッパー"""
+    # print(f"Running: {cmd}")
+
+    try:
+        subprocess.run(cmd, shell=True, check=True, cwd=cwd)
+    except subprocess.CalledProcessError as e:
+        if ignore_error:
+            print(f"Non-critical error ignored: {e}")
+        else:
+            raise
+
+
+def git_commit_and_push(repo_dir, commit_message):
+    # 1) Git config
+    run_git_command('git remote add origin https://github.com/matanki-saito/eu5jpplus', cwd=repo_dir, ignore_error=True)
+
+    run_git_command('git config --global user.email "matanki.saito@gmail.com"')
+    run_git_command(f'git config --global user.name "{REPO_OWNER}"')
+
+    # ★★ 追加：改行コード変換を無効化 ★★
+    run_git_command('git config --global core.autocrlf false')
+
+    # 2) GitHub 認証設定
+    run_git_command(
+        f'git config --global url."https://{GITHUB_TOKEN}:x-oauth-basic@github.com/".'
+        'insteadOf "https://github.com/"'
+    )
+
+    # 3) add
+    run_git_command(f"git add {SOURCE_DIR}", cwd=repo_dir)
+
+    # 4) commit（変更がなければ無視）
+    run_git_command(
+        f'git commit -m "{commit_message}"',
+        cwd=repo_dir,
+        ignore_error=True
+    )
+
+    # 5) push
+    run_git_command("git push origin HEAD:master", cwd=repo_dir)
+
+
+def read_branch_values(base_dir):
+    # 読み込むファイル名
+    caesar_file = os.path.join(base_dir, "caesar_branch.txt")
+    clausewitz_file = os.path.join(base_dir, "clausewitz_branch.txt")
+
+    # ファイル読み込み
+    def read_file(path):
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"File not found: {path}")
+        with open(path, "r", encoding="utf-8") as f:
+            return f.read().strip()
+
+    caesar_value = read_file(caesar_file)
+    clausewitz_value = read_file(clausewitz_file)
+
+    # 指定の形式で出力テキスト作成
+    output_text = f"{caesar_value}+{clausewitz_value}"
+
+    return output_text
+
+
+def create_github_release(repo_owner, repo_name, token, tag_name, release_name, body=""):
+    url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases"
+
+    headers = {
+        "Authorization": f"token {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    payload = {
+        "tag_name": tag_name,
+        "name": release_name,
+        "body": body,
+        "draft": False,
+        "prerelease": False
+    }
+
+    response = requests.post(url, json=payload, headers=headers)
+
+    if response.status_code == 201:
+        print("✅ Release created successfully!")
+        print("URL:", response.json().get("html_url"))
+    else:
+        print("❌ Failed to create release:")
+        print(response.status_code, response.text)
+
+
 def main():
     print(f"SteamCMD を使用して AppID {APPID} の buildID を取得します…")
 
@@ -238,6 +330,20 @@ def main():
     ]
 
     copy_items_from_base(STEAM_GAME_DIR, items_to_copy, SOURCE_DIR)
+
+    print("タグ名を作成")
+    tag_name = read_branch_values(SOURCE_DIR)
+    print(tag_name)
+
+    print("Git push")
+    git_commit_and_push(
+        repo_dir=".",
+        commit_message="Extract files from game [ci skip]"
+    )
+
+    print("create release")
+    create_github_release(REPO_OWNER, REPO_NAME, GITHUB_TOKEN, tag_name, tag_name,
+                          f"Branch public: {public_id}")
 
 
 if __name__ == "__main__":
