@@ -46,3 +46,8 @@ jobs:
         env:
           AWS_S3_ACCESS_KEY: ${{ secrets.AWS_S3_ACCESS_KEY }}
           AWS_S3_SECRET_ACCESS_KEY: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
+      - name: login steam
+        run: steamcmd/steamcmd.exe +login %STEAM_LOGIN_NAME% +quit
+        env:
+          STEAM_LOGIN_NAME: ${{ secrets.STEAM_LOGIN_NAME }}
+          STEAM_LOGIN_PASSWORD: ${{ secrets.STEAM_LOGIN_PASSWORD }}
