@@ -41,9 +41,19 @@ def run_steamcmd_info(appid: int) -> str:
     ]
     print(cmd)
 
-    # SteamCMD の標準出力をファイルに保存
+    # SteamCMD 実行 ＋ stdout/stderr をファイルに保存
     with open(temp_path, "w", encoding="utf-8", errors="ignore") as f:
-        subprocess.run(cmd, stdout=f, stderr=subprocess.STDOUT)
+        result = subprocess.run(cmd, stdout=f, stderr=subprocess.STDOUT)
+
+    # exit code を判定
+    if result.returncode != 0:
+        # エラーの中身を読んで例外に含める
+        with open(temp_path, "r", encoding="utf-8", errors="ignore") as f:
+            log = f.read()
+        os.remove(temp_path)
+        raise RuntimeError(
+            f"SteamCMD failed (exit {result.returncode}). Log:\n{log}"
+        )
 
     # 読み込み
     with open(temp_path, "r", encoding="utf-8", errors="ignore") as f:
