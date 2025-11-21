@@ -6639,9 +6639,9 @@
  NAVY_BRK_POT_LEVIES: "@levy!Potential Levies: [Country.GetNavyLevyPower]@navy_strength!"
  
  
- LEVY_COMBAT_POWER_FOR_SD_TT: "[levy_combat_efficiency|e] is $VAL|V%2$ vs [regulars|e]"
- LEVY_COMBAT_POWER_BASE: "Base: $VAL|2%$"
- LEVY_COMBAT_POWER_VALUE: "[AGE.GetIcon][SUBUNITCATEGORY.GetIcon] Strength vs $BASE|V$: #G x$VAL|2$#!"
+ LEVY_COMBAT_POWER_FOR_SD_TT: "[AGE.GetIcon][levy_combat_efficiency|e] default vs [regulars|e]: #V x$VAL|2$#!"
+ LEVY_COMBAT_POWER_MOD: "And modified for [Player.GetLongName]: [Player.GetModifierValue('levy_combat_efficiency_modifier')]"
+ LEVY_COMBAT_POWER_TOTAL: "Total Efficiency in [battle|e]: $VAL|2G%$"
  
  NAVY_BRK_REG: "@regular![SUBUNITCATEGORY.GetName]: $VAL$@navy_strength!" 
  NAVY_BRK_MERC: "@mercenary![SUBUNITCATEGORY.GetName]: $VAL$@navy_strength!"
