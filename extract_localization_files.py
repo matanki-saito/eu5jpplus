@@ -212,7 +212,7 @@ def run_git_command(cmd, cwd=None, ignore_error=False):
 
 def git_commit_and_push(repo_dir, commit_message, token):
     # 1) Git config
-    run_git_command('git remote add origin https://github.com/matanki-saito/eu5jpplus', cwd=repo_dir, ignore_error=True)
+    # run_git_command('git remote add origin https://github.com/matanki-saito/eu5jpplus', cwd=repo_dir, ignore_error=True)
 
     run_git_command('git config --global user.email "matanki.saito@gmail.com"')
     run_git_command(f'git config --global user.name "{REPO_OWNER}"')
@@ -288,55 +288,55 @@ def create_github_release(repo_owner, repo_name, token, tag_name, release_name, 
 
 
 def main():
-    print(f"SteamCMD を使用して AppID {APPID} の buildID を取得します…")
-
-    output = run_steamcmd_info(APPID)
-    parsed = parse_buildids(output)
-
-    print("\n=== Depot buildIDs ===")
-    for d, b in parsed["depots"].items():
-        print(f"  Depot {d}: {b}")
-
-    public_id = -1
-    print("\n=== Branch buildIDs ===")
-    for name, b in parsed["branches"].items():
-        print(f"  Branch {name}: {b}")
-        if name == "public":
-            public_id = b
-
-    current_public_id = get_latest_branch_public_number(REPO_OWNER, REPO_NAME)
-    if public_id == current_public_id:
-        print("更新が不要です")
-        return
-
-    print("ゲーム更新を行います")
-    os.makedirs(STEAM_GAME_DIR, exist_ok=True)
-    install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME)
-    print(install_result)
-
-    print("フォルダクリア")
-    empty_directory(SOURCE_DIR)
-
-    print("対象を更新")
-    items_to_copy = [
-        "clausewitz\\loading_screen\\localization",
-        "jomini\\loading_screen\\localization",
-        "game\\main_menu\\localization\\english",
-        "game\\main_menu\\localization\\japanese",
-        "game\\main_menu\\localization\\jomini",
-        "game\\main_menu\\localization\\music_player_gui",
-        "game\\loading_screen\\localization",
-        "caesar_branch.txt",
-        "caesar_rev.txt",
-        "clausewitz_branch.txt",
-        "clausewitz_rev.txt"
-    ]
-
-    copy_items_from_base(STEAM_GAME_DIR, items_to_copy, SOURCE_DIR)
-
-    print("タグ名を作成")
-    tag_name = read_branch_values(SOURCE_DIR)
-    print(tag_name)
+    # print(f"SteamCMD を使用して AppID {APPID} の buildID を取得します…")
+    #
+    # output = run_steamcmd_info(APPID)
+    # parsed = parse_buildids(output)
+    #
+    # print("\n=== Depot buildIDs ===")
+    # for d, b in parsed["depots"].items():
+    #     print(f"  Depot {d}: {b}")
+    #
+    # public_id = -1
+    # print("\n=== Branch buildIDs ===")
+    # for name, b in parsed["branches"].items():
+    #     print(f"  Branch {name}: {b}")
+    #     if name == "public":
+    #         public_id = b
+    #
+    # current_public_id = get_latest_branch_public_number(REPO_OWNER, REPO_NAME)
+    # if public_id == current_public_id:
+    #     print("更新が不要です")
+    #     return
+    #
+    # print("ゲーム更新を行います")
+    # os.makedirs(STEAM_GAME_DIR, exist_ok=True)
+    # install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME)
+    # print(install_result)
+    #
+    # print("フォルダクリア")
+    # empty_directory(SOURCE_DIR)
+    #
+    # print("対象を更新")
+    # items_to_copy = [
+    #     "clausewitz\\loading_screen\\localization",
+    #     "jomini\\loading_screen\\localization",
+    #     "game\\main_menu\\localization\\english",
+    #     "game\\main_menu\\localization\\japanese",
+    #     "game\\main_menu\\localization\\jomini",
+    #     "game\\main_menu\\localization\\music_player_gui",
+    #     "game\\loading_screen\\localization",
+    #     "caesar_branch.txt",
+    #     "caesar_rev.txt",
+    #     "clausewitz_branch.txt",
+    #     "clausewitz_rev.txt"
+    # ]
+    #
+    # copy_items_from_base(STEAM_GAME_DIR, items_to_copy, SOURCE_DIR)
+    #
+    # print("タグ名を作成")
+    # tag_name = read_branch_values(SOURCE_DIR)
+    # print(tag_name)
 
     print("Git push")
     git_commit_and_push(
@@ -345,9 +345,9 @@ def main():
         token=MY_GITHUB_TOKEN
     )
 
-    print("create release")
-    create_github_release(REPO_OWNER, REPO_NAME, MY_GITHUB_TOKEN, tag_name, tag_name,
-                          f"Branch public: {public_id}")
+    # print("create release")
+    # create_github_release(REPO_OWNER, REPO_NAME, MY_GITHUB_TOKEN, tag_name, tag_name,
+    #                       f"Branch public: {public_id}")
 
 
 if __name__ == "__main__":
