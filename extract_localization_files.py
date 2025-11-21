@@ -206,7 +206,7 @@ def run_git_command(cmd, cwd=None, ignore_error=False):
         if ignore_error:
             print(f"Non-critical error ignored: {e}")
         else:
-            print(e)
+            print(e.returncode, e.cmd, e.output)
             raise
 
 
