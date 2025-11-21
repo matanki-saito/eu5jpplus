@@ -18,6 +18,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Open UDP port 27015
+        run: |
+          netsh advfirewall firewall add rule name="Open27015UDP" dir=in action=allow protocol=UDP localport=27015
+          netsh advfirewall firewall add rule name="Open27015TCP" dir=in action=allow protocol=TCP localport=27015
+
+        shell: powershell
+
       - name: Get steamcmd
         run: |
           curl https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip --output steamcmd.zip
