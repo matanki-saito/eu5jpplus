@@ -48,15 +48,18 @@ jobs:
           AWS_S3_SECRET_ACCESS_KEY: ${{ secrets.AWS_S3_SECRET_ACCESS_KEY }}
 
       - name: login steam
-        run: |
-          mkdir tmp
-          cd tmp
-          mkdir game
-          cd ..
-          cd steamcmd
-          steamcmd.exe -dev -textmode -ignoredxsupportcfg +force_install_dir "../tmp/game" +login %STEAM_LOGIN_NAME% +app_update 3450310 validate +quit
+        run: python extract_localization_files.py
+
         env:
           STEAM_LOGIN_NAME: ${{ secrets.STEAM_LOGIN_NAME }}
           STEAM_LOGIN_PASSWORD: ${{ secrets.STEAM_LOGIN_PASSWORD }}
+          STEAMCMD_PATH: ${{ secrets.STEAMCMD_PATH }}
+          APPID: ${{ secrets.APPID }}
+          REPO_OWNER: ${{ secrets.REPO_OWNER }}
+          REPO_NAME: ${{ secrets.REPO_NAME }}
+          STEAM_GAME_DIR: ${{ secrets.STEAM_GAME_DIR }}
+          SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         continue-on-error: true
         shell: cmd
