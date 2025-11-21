@@ -42,7 +42,8 @@ jobs:
 
       - name: init steam
         run: |
-          steamcmd/steamcmd.exe +quit
+          cd steamcmd
+          steamcmd.exe +quit
         continue-on-error: true
         shell: cmd
 
@@ -75,7 +76,8 @@ jobs:
 
       - name: login steam
         run: |
-          steamcmd/steamcmd.exe +login %STEAM_LOGIN_NAME% +quit
+          cd steamcmd
+          steamcmd.exe +login %STEAM_LOGIN_NAME% +quit
         env:
           STEAM_LOGIN_NAME: ${{ secrets.STEAM_LOGIN_NAME }}
           STEAM_LOGIN_PASSWORD: ${{ secrets.STEAM_LOGIN_PASSWORD }}
