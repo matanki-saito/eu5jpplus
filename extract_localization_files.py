@@ -71,7 +71,7 @@ def run_steamcmd_update(appid: int, game_dir: str, login_name: str, login_pass: 
         "-textmode",
         "-ignoredxsupportcfg",
         "+force_install_dir", game_dir,
-        "+login", login_name, login_pass,
+        "+login", login_name,
         "+app_update", str(appid), "validate",
         "+quit"
     ]
@@ -312,6 +312,7 @@ def main():
     print("ゲーム更新を行います")
     os.makedirs(STEAM_GAME_DIR, exist_ok=True)
     install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME, STEAM_LOGIN_PASSWORD)
+    print(install_result)
 
     print("フォルダクリア")
     empty_directory(SOURCE_DIR)
