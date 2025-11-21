@@ -265,7 +265,7 @@ def create_github_release(repo_owner, repo_name, token, tag_name, release_name, 
     url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases"
 
     headers = {
-        "Authorization": f"token {token}",
+        "Authorization": f"Bearer {token}",
         "Accept": "application/vnd.github+json"
     }
 
