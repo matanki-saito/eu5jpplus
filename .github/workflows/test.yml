@@ -36,5 +36,9 @@ jobs:
           ls
           cd logs
           ls -l
+          cat console_log.txt
+          cat connection_log.txt
+          cat configstore_log.txt
+          cat bootstrap_log.txt
         shell: cmd
         continue-on-error: true
