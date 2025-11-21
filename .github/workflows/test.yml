@@ -45,6 +45,17 @@ jobs:
           steamcmd/steamcmd.exe +quit
         continue-on-error: true
 
+      - name: init steam
+        run: |
+          ls
+          cd steamcmd
+          ls
+          cd config
+          ls
+          
+        
+        continue-on-error: true
+
       - name: Set credentials
         run: |
           python download_credentials.py
