@@ -36,9 +36,14 @@ jobs:
           ls
           cd logs
           ls -l
+          echo "console"
           cat console_log.txt
+          echo "connection"
           cat connection_log.txt
+          echo "configstore"
           cat configstore_log.txt
+          echo "bootstrap"
           cat bootstrap_log.txt
+          netstat -ano
         shell: cmd
         continue-on-error: true
