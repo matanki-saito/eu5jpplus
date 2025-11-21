@@ -54,7 +54,7 @@ def run_steamcmd_info(appid: int) -> str:
     return data
 
 
-def run_steamcmd_update(appid: int, game_dir: str, login_name: str, login_pass: str) -> str:
+def run_steamcmd_update(appid: int, game_dir: str, login_name: str) -> str:
     """
     SteamCMD を実行してゲームをupdateする
     """
@@ -310,7 +310,7 @@ def main():
 
     print("ゲーム更新を行います")
     os.makedirs(STEAM_GAME_DIR, exist_ok=True)
-    install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME, STEAM_LOGIN_PASSWORD)
+    install_result = run_steamcmd_update(APPID, STEAM_GAME_DIR, STEAM_LOGIN_NAME)
     print(install_result)
 
     print("フォルダクリア")
