@@ -1,6 +1,6 @@
 ## 機能概要
 
-EU5はSteamcmdを通して4時間毎に更新があるかチェックされます。更新がある場合にはgithub actionsから利用できるwindows VMにインストールされ、その中にあるlocalization関係のファイルがgitに取り込まれます。対象は以下です。
+本スクリプトはEU5をSteamcmdを通して4時間毎に更新があるかチェックします。更新がある場合にはgithub actionsから利用できるwindows VMにインストールされ、その中にあるlocalization関係のファイルがgitに取り込まれます。対象は以下です。
 
 - clausewitz\loading_screen\localization
 - jomini\loading_screen\localization
