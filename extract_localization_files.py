@@ -198,7 +198,7 @@ def empty_directory(dir_path):
 
 def run_git_command(cmd, cwd=None, ignore_error=False):
     """Git コマンドを実行するラッパー"""
-    # print(f"Running: {cmd}")
+    print(f"Running: {cmd}")
 
     try:
         subprocess.run(cmd, shell=True, check=True, cwd=cwd)
@@ -206,6 +206,7 @@ def run_git_command(cmd, cwd=None, ignore_error=False):
         if ignore_error:
             print(f"Non-critical error ignored: {e}")
         else:
+            print(e)
             raise
 
 
