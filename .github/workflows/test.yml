@@ -39,7 +39,14 @@ jobs:
       - name: run
         run: |
           cd steamcmd
-          steamcmd.exe
+          steamcmd.exe  +quit
+        shell: cmd
+        continue-on-error: true
+
+      - name: run
+        run: |
+          cd steamcmd
+          steamcmd.exe  +quit
         shell: cmd
         continue-on-error: true
 
