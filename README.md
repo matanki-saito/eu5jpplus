@@ -1,6 +1,24 @@
 ## 機能概要
 
-EU5はSteamcmdを通して4時間毎に更新があるかチェックされます。更新がある場合にはgithub actionsから利用できるwindows VMにインストールされ、その中にあるlocalization関係のファイルがgitに取り込まれます。またゲームバージョンを含んだ２つのテキストファイルを読み取りリリースタグを作ります。
+EU5はSteamcmdを通して4時間毎に更新があるかチェックされます。更新がある場合にはgithub actionsから利用できるwindows VMにインストールされ、その中にあるlocalization関係のファイルがgitに取り込まれます。対象は以下です。
+
+- clausewitz\loading_screen\localization
+- jomini\loading_screen\localization
+- game\main_menu\localization\english
+- game\main_menu\localization\japanese
+- game\main_menu\localization\jomini
+- game\main_menu\localization\music_player_gui
+- game\loading_screen\localization
+
+またゲームバージョンを含んだ以下２つのテキストファイルを読み取りリリースタグを作ります。
+
+- caesar_branch.txt
+- clausewitz_branch.txt
+
+以下のファイルは使っていませんが念のために取り込んでいます。
+
+- caesar_rev.txt
+- clausewitz_rev.txt
 
 ## 処理フロー
 
