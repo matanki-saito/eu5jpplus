@@ -14,7 +14,6 @@ REPO_OWNER = os.environ.get("REPO_OWNER", "matanki-saito")
 REPO_NAME = os.environ.get("REPO_NAME", "eu5jpplus")
 
 STEAM_LOGIN_NAME = os.environ.get("STEAM_LOGIN_NAME", "gnagaoka")
-STEAM_LOGIN_PASSWORD = os.environ.get("STEAM_LOGIN_PASSWORD", "123")
 
 STEAM_GAME_DIR = os.environ.get("STEAM_GAME_DIR", "./install")
 
