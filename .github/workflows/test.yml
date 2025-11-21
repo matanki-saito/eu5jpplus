@@ -34,6 +34,9 @@ jobs:
         run: |
           cd steamcmd
           ls
+          cd public
+          ls -l
+          cd ..          
           cd logs
           ls -l
           echo "console"
