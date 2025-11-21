@@ -53,5 +53,5 @@ jobs:
           STEAM_LOGIN_PASSWORD: ${{ secrets.STEAM_LOGIN_PASSWORD }}
           STEAM_GAME_DIR: ${{ secrets.STEAM_GAME_DIR }}
           SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           PYTHONUTF8: 1

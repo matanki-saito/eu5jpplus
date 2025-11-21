@@ -19,7 +19,7 @@ STEAM_GAME_DIR = os.environ.get("STEAM_GAME_DIR", "./install")
 
 SOURCE_DIR = "./source"
 
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
+MY_GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
 
 
 def run_steamcmd_info(appid: int) -> str:
@@ -210,7 +210,7 @@ def run_git_command(cmd, cwd=None, ignore_error=False):
             raise
 
 
-def git_commit_and_push(repo_dir, commit_message):
+def git_commit_and_push(repo_dir, commit_message, token):
     # 1) Git config
     run_git_command('git remote add origin https://github.com/matanki-saito/eu5jpplus', cwd=repo_dir, ignore_error=True)
 
@@ -222,7 +222,7 @@ def git_commit_and_push(repo_dir, commit_message):
 
     # 2) GitHub 認証設定
     run_git_command(
-        f'git config --global url."https://{GITHUB_TOKEN}:x-oauth-basic@github.com/".'
+        f'git config --global url."https://{token}:x-oauth-basic@github.com/".'
         'insteadOf "https://github.com/"'
     )
 
@@ -341,11 +341,12 @@ def main():
     print("Git push")
     git_commit_and_push(
         repo_dir=".",
-        commit_message="Extract files from game [ci skip]"
+        commit_message="Extract files from game [ci skip]",
+        token=MY_GITHUB_TOKEN
     )
 
     print("create release")
-    create_github_release(REPO_OWNER, REPO_NAME, GITHUB_TOKEN, tag_name, tag_name,
+    create_github_release(REPO_OWNER, REPO_NAME, MY_GITHUB_TOKEN, tag_name, tag_name,
                           f"Branch public: {public_id}")
 
 
