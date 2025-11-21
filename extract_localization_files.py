@@ -40,6 +40,7 @@ def run_steamcmd_info(appid: int) -> str:
         "+app_info_print", str(appid),
         "+quit"
     ]
+    print(cmd)
 
     # SteamCMD の標準出力をファイルに保存
     with open(temp_path, "w", encoding="utf-8", errors="ignore") as f:
