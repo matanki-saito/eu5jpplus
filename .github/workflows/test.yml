@@ -18,12 +18,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Open UDP port 27015
-        run: |
-          netsh advfirewall firewall add rule name="Open27015UDP" dir=in action=allow protocol=UDP localport=27015
-          netsh advfirewall firewall add rule name="Open27015TCP" dir=in action=allow protocol=TCP localport=27015
-
+      - name: Open TCP ports 27015-27050
         shell: powershell
+        run: netsh advfirewall firewall add rule name="Open27015-27050TCP" dir=in action=allow protocol=TCP localport=27015-27050
+
+      - name: Open UDP ports 27000-27100
+        shell: powershell
+        run: netsh advfirewall firewall add rule name="Open27000-27100UDP" dir=in action=allow protocol=UDP localport=27000-27100
+
+      - name: Open UDP ports 4380
+        shell: powershell
+        run: netsh advfirewall firewall add rule name="Open4380UDP" dir=in action=allow protocol=UDP localport=4380
+
 
       - name: Get steamcmd
         run: |
