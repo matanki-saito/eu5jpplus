@@ -42,3 +42,4 @@ jobs:
           STEAM_GAME_DIR: ${{ secrets.STEAM_GAME_DIR }}
           SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONUTF8: 1
