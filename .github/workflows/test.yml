@@ -28,3 +28,13 @@ jobs:
           cd steamcmd
           steamcmd.exe +quit
         shell: cmd
+        continue-on-error: true
+
+      - name: run
+        run: |
+          cd steamcmd
+          ls
+          cd logs
+          ls -l
+        shell: cmd
+        continue-on-error: true
