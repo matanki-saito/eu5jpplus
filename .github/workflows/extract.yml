@@ -35,6 +35,13 @@ jobs:
           curl https://steamcdn-a.akamaihd.net/client/installer/steamcmd.zip --output steamcmd.zip
           Expand-Archive -Path steamcmd.zip
 
+      - name: Update steamcmd
+        run: |
+          cd steamcmd
+          steamcmd.exe +login anonymous +quit
+        shell: cmd
+        continue-on-error: true
+
       - name: Set credentials
         run: |
           python download_credentials.py
@@ -55,3 +62,4 @@ jobs:
           SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           PYTHONUTF8: 1
+
