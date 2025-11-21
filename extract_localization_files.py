@@ -19,7 +19,7 @@ STEAM_GAME_DIR = os.environ.get("STEAM_GAME_DIR", "./install")
 
 SOURCE_DIR = "./source"
 
-MY_GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
+MY_GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 
 def run_steamcmd_info(appid: int) -> str:
