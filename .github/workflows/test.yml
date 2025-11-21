@@ -46,9 +46,8 @@ jobs:
       - name: run
         run: |
           cd steamcmd
-          steamcmd.exe  +quit
+          steamcmd.exe +login anonymous +quit
         shell: cmd
-        continue-on-error: true
 
       - name: run
         run: |
