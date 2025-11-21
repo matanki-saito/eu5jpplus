@@ -25,5 +25,6 @@ jobs:
 
       - name: run
         run: |
-          ./steamcmd/steamcmd.exe +quit
+          cd steamcmd
+          steamcmd.exe +quit
         shell: cmd
