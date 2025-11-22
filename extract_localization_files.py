@@ -7,6 +7,8 @@ from pathlib import Path
 
 import requests
 
+import diff
+
 STEAMCMD_PATH = os.environ.get("STEAMCMD_PATH", r"C:\steamcmd\steamcmd.exe")
 APPID = int(os.environ.get("APPID", 3450310))
 
@@ -358,6 +360,9 @@ def main():
     print("create release")
     create_github_release(REPO_OWNER, REPO_NAME, MY_GITHUB_TOKEN, tag_name, tag_name,
                           f"Branch public: {public_id}")
+
+    # diffをアップロードする
+    diff.main()
 
 
 if __name__ == "__main__":

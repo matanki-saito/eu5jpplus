@@ -62,4 +62,3 @@ jobs:
           SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           PYTHONUTF8: 1
-
