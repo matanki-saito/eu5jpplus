@@ -1,5 +1,6 @@
 ## 機能概要
 
+### 機能１
 本スクリプトはEU5をSteamcmdを通して4時間毎に更新があるかチェックします。更新がある場合にはgithub actionsから利用できるwindows VMにインストールされ、その中にあるlocalization関係のファイルがgitに取り込まれます。対象は以下です。
 
 - clausewitz\loading_screen\localization
@@ -19,6 +20,9 @@
 
 - caesar_rev.txt
 - clausewitz_rev.txt
+
+### 機能２
+最新のタグと１つ前のタグのファイル差分を比較し、追加がある項目のみを残したファイルをそのままのディレクトリ構造でzip化したdiff_output.zipを最新リリースに貼り付けます。
 
 ## 処理フロー
 
