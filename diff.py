@@ -25,6 +25,7 @@ def run_git(args):
 def main():
     # 🔹タグの動的取得
     print("🔍 最新タグを取得中...")
+    run_git(["git", "fetch", "--tags", "--force"])
     tags = run_git(["git", "tag", "--sort=-creatordate"]).splitlines()
 
     if len(tags) < 2:
