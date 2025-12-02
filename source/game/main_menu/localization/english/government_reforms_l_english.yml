@@ -252,7 +252,7 @@
  por_casa_de_india: "Casa da Índia"
  por_casa_de_india_desc: "The Casa da Índia oversees all [GetCountry('POR').GetAdjective] possessions in [ShowContinentName('africa')] and $india$, and controls all the rights to trade there."
  tsardom: "Tsardom"
- tsardom_desc: "Our state upholds the legacy of the Roman Empire, and is a stalwart of our state religion. As Tsar of the entire [ShowRegionName('russia_region')], our ruler is the true overlord of the [ShowCultureGroupName('russian_group')] peoples."
+ tsardom_desc: "Our state upholds the legacy of the Roman Empire, and is a stalwart of our state religion. As Tsar of the entire [ShowRegionName('russian_region')], our ruler is the true overlord of the [ShowCultureGroupName('russian_group')] peoples."
  veche_republic: "Veche Republic"
  veche_republic_desc: "This state is governed by a Veche, a council with the highest legislative and judicial authority consisting of [ShowEstateTypeName('nobles_estate')], [ShowEstateTypeName('burghers_estate')], and even [ShowEstateTypeName('peasants_estate')]."
  sudebnik: "Sudebnik"
@@ -357,6 +357,8 @@
 
  ancient_french_taxation: "Ancient [GetCountry('FRA').GetAdjectiveWithNoTooltip] Taxation"
  ancient_french_taxation_desc: "Historically, taxes have been imposed and collected only in times of need, not by a recurrent system."
+ fra_ancient_french_taxation_removal_conditions: "Can be manually removed by reaching #G +50.00#! [ShowSocietyDirectionName('centralization')|l] or through $flavor_fra.1.title$ [dynamic_historical_event|e]."
+
  basic_timariot_system: "Timar System"
  basic_timariot_system_desc: "A system of feudal land holdings focused on building a formidable cavalry force. Our Sipâhi cavalrymen will be assigned land grants and obligated to provide cavalry forces proportional to the size of their holdings."
  expanded_timariot_system: "Expanded Timar System"

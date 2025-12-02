@@ -8,7 +8,7 @@
  good_add_2_points_to_hook_tt: "#Y フック派#!の影響力スコアが#G +2#!増加する$GetHookFactionInfluence$"
  good_add_1_points_to_cod_tt: "#Y コッド派#!の影響力スコアが#G +1#!増加する$GetCodFactionInfluence$"
  good_add_2_points_to_cod_tt: "#Y コッド派#!の影響力スコアが#G +2#!増加する$GetCodFactionInfluence$"
- bad_add_1_points_to_hook_tt: "#Y フック派#!の影響力スコアが#G +1#!増加得する$GetHookFactionInfluence$"
+ bad_add_1_points_to_hook_tt: "#Y フック派#!の影響力スコアが#G +1#!増加する$GetHookFactionInfluence$"
  bad_add_2_points_to_hook_tt: "#Y フック派#!の影響力スコアが#G +2#!増加する$GetHookFactionInfluence$"
  bad_add_1_points_to_cod_tt: "#Y コッド派#!の影響力スコアが#G +1#!増加する$GetCodFactionInfluence$"
  bad_add_2_points_to_cod_tt: "#Y コッド派#!の影響力スコアが#G +2#!増加する$GetCodFactionInfluence$"

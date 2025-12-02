@@ -46,7 +46,7 @@
  artist_events.10.title: "[target_character.GetNameWithNoTooltip]の人脈"
  artist_events.10.desc: "[target_character.GetName]の名は、芸術界の著名人なら誰もが口にする。[target_character.GetNameWithNoTooltip]は、緻密かつ美麗な芸術作品を生み出すための並外れた意欲と人脈を有しており、人を引き寄せる人物である。こうした事情もあり、[target_character.GetNameWithNoTooltip]は画家の知り合いである[connection_character.GetName]を後援してほしいと我々に持ちかけた。"
  country_event.10.a: "もちろんだ。[target_character.GetNameWithNoTooltip]には全幅の信頼がある！"
- country_event.10.b: "資金の使いみちはほかにある。"
+ country_event.10.b: "資金の使い途はほかにある。"
  artist_events.11.title: "頭上注意！"
  artist_events.11.desc: "[ROOT.GetCountry.GetCapital.GetName]は活気と喧噪に満ちた都である。庶民たちは絶えず畑で働き、多くの市場を練り歩き、何気なくお喋りを楽しんでいる。しかし、我々が地元の彫刻家たちに資金を投じたことで、事故が増加しつつある。彼らが安全に配慮せず、ひたすら仕事に打ち込んでいるため、瓦礫や大理石の破片が落下する事故が多く発生しているのだ。"
  artist_events.11.a: "迷惑をお詫びする。"

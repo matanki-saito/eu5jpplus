@@ -621,9 +621,9 @@
  flavor_chi.112.b: "Show leniency towards the rebels."
 
  flavor_chi.113.title: "[target_character.GetNameWithNoTooltip] Flees to [ShowAreaNameWithNoTooltip('taiwan_area')]"
- flavor_chi.113.desc: "[ROOT.GetCountry.GetName] is experiencing a period of unprecedented decline that is of great worry to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Believing the fate of the dynasty is sealed, [target_character.GetName], one of our generals, has fled the country to the island of [ShowAreaName('taiwan_area')], establishing [target_character.GetHerselfHimself] as a prince there who will carry on our legacy."
+ flavor_chi.113.desc: "[ROOT.GetCountry.GetName|U] are experiencing a period of unprecedented decline that is of great worry to the [ROOT.GetCountry.GetGovernment.GetCourtTitle]. Believing the fate of the dynasty is sealed, [target_character.GetName], one of our generals, has fled the country to the island of [ShowAreaName('taiwan_area')], establishing [target_character.GetHerselfHimself] as a prince there who will carry on our legacy."
  flavor_chi.113.a: "It cannot be that bad?"
- flavor_chi.113.b: "[ROOT.GetCountry.GetName] is truly lost."
+ flavor_chi.113.b: "[ROOT.GetCountry.GetNameWithNoTooltip] is truly lost."
 
  flavor_chi.114.title: "Personal Recommendation"
  flavor_chi.114.desc: "Since the abolishment of the [ShowLawName('imperial_examination_law')], the [ROOT.GetCountry.GetLongName] has been reliant on personal recommendations to fill the cabinet and other government positions. Well, [recommending_character.GetName] has just made one such recommendation, openly vouching for [target_character.GetName] to be a competent clerk who could help aid the [ROOT.GetCountry.GetGovernment.GetAdjective] matters."

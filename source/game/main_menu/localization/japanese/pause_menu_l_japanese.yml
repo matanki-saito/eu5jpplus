@@ -7,7 +7,7 @@
  PAUSE_MENU_GAME_RULES_TOOLTIP: "現在のゲームルールの設定を確認"
  PAUSE_MENU_SETTINGS_TOOLTIP: "現在の設定を表示"
  PAUSE_MENU_AI_SETTINGS_TOOLTIP: "国家のAI設定を表示\n自分が接続されていないときのAIの行動を管理する"
- PAUSE_MENU_MESSAGE_SETTINGS: "メッセージ設定を表示\nポップアップに表示する内容を管理する"
+ PAUSE_MENU_MESSAGE_SETTINGS: "通知設定を表示\nポップアップに表示する内容を管理する"
  PAUSE_MENU_RESUME_TOOLTIP: "このメニューを閉じてゲームを再開"
  PAUSE_MENU_ACHIEVEMENTS_TOOLTIP: "実績リストを開く"
  PAUSE_MENU_EXIT_TOOLTIP: "現在のゲームから退出するか、終了してデスクトップに移動するか、またはメインメニューに戻る"

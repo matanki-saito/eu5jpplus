@@ -70,7 +70,7 @@
  flavor_kor.14.title: "宋明理学の台頭"
  flavor_kor.14.desc: "宋明理学派と呼ばれる新たな勢力の台頭により、[ROOT.GetCountry.GetLongName]の政治的安定が揺らいでいる。地方出身の学者たちからなるこの学派は、これまで国を治めてきた保守的な[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]層には属さず、その卓越した才能を[ROOT.GetCountry.GetGovernment.GetRulerTitle]に認められて政界に登用された。しかし、改革的な思想を掲げる彼らと、土地や官職をめぐる[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]層との対立が激化し、政治の派閥争いはいっそう熾烈を極めている。"
  flavor_kor.14.a: "行く手には波乱が待ち受ける……"
- flavor_kor.14.a.tt: "以下をアンロックする：\n - #Y $age_2_renaissance$#!\nの[advances|e]「[ShowAdvanceName('confucian_academy_advance')]」 - [ShowEstatePrivilegeName('petty_bureaucracy')]と[ShowEstatePrivilegeName('scholar_officials')]の[estate_privileges|e]\n - [ShowLawName('bureaucracy_law')][law|e]の[policy|e]「[ShowLawName('imperial_examination_law')]」"
+ flavor_kor.14.a.tt: "以下をアンロックする：\n- #Y $age_2_renaissance$#!\nの[advances|e]「[ShowAdvanceName('confucian_academy_advance')]」 - [ShowEstatePrivilegeName('petty_bureaucracy')]と[ShowEstatePrivilegeName('scholar_officials')]の[estate_privileges|e]\n- [ShowLawName('bureaucracy_law')][law|e]の[policy|e]「[ShowLawName('imperial_examination_law')]」"
  has_neo_confucianism_tt: "イベント「#Y 宋明理学の台頭#!」が発生した"
  flavor_kor.15.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の政変"
  flavor_kor.15.desc: "[old_ruler.GetName]の政権は民の不満を招いているようだ。[ROOT.GetCountry.GetName]国民は[ROOT.GetCountry.GetGovernment.GetRulerTitle]を退け、[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]と[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]の双方から支持を集める有望な将軍、[target_character.GetName]を求めている。\n\nそして今日、ついに[target_character.GetShortNameWithNoTooltip]が動いた。自ら軍を率い、[old_ruler.GetShortNameWithNoTooltip]に対するクーデターを決行したのである。"

@@ -2046,6 +2046,16 @@
  THIRD_GOODS_OUTPUT_TRIGGER: "[LOCATION.GetName]'s [TARGET_GOODS.GetName] output is $COMPARATOR$ $NUM|V02$"
  NOT_THIRD_GOODS_OUTPUT_TRIGGER: "[LOCATION.GetName]'s [TARGET_GOODS.GetName] output is NOT $COMPARATOR$ $NUM|V02$"
 
+ LOCAL_ESTATE_POWER_TRIGGER_TRIGGER: "Has a [TARGET_ESTATE_TYPE.GetName] power of $COMPARATOR$ $NUM|V02$"
+ NOT_LOCAL_ESTATE_POWER_TRIGGER_TRIGGER: "Has NOT a [TARGET_ESTATE_TYPE.GetName] power of $COMPARATOR$ $NUM|V02$"
+ THIRD_LOCAL_ESTATE_POWER_TRIGGER_TRIGGER: "[LOCATION.GetName]'s [TARGET_ESTATE_TYPE.GetName] power is $COMPARATOR$ $NUM|V02$"
+ NOT_THIRD_LOCAL_ESTATE_POWER_TRIGGER_TRIGGER: "[LOCATION.GetName]'s [TARGET_ESTATE_TYPE.GetName] power is NOT $COMPARATOR$ $NUM|V02$"
+
+ LOCAL_RELATIVE_ESTATE_POWER_TRIGGER_TRIGGER: "Has a [TARGET_ESTATE_TYPE.GetName] relative power of $COMPARATOR$ $NUM|V02$"
+ NOT_LOCAL_RELATIVE_ESTATE_POWER_TRIGGER_TRIGGER: "Has NOT a [TARGET_ESTATE_TYPE.GetName] relative power of $COMPARATOR$ $NUM|V02$"
+ THIRD_LOCAL_RELATIVE_ESTATE_POWER_TRIGGER_TRIGGER: "[LOCATION.GetName]'s [TARGET_ESTATE_TYPE.GetName] relative power is $COMPARATOR$ $NUM|V02$"
+ NOT_THIRD_LOCAL_RELATIVE_ESTATE_POWER_TRIGGER_TRIGGER: "[LOCATION.GetName]'s [TARGET_ESTATE_TYPE.GetName] relative power is NOT $COMPARATOR$ $NUM|V02$"
+
  GARRISON_PERCENTAGE_TRIGGER: "Has $COMPARATOR$ $NUM|V%2$ of [garrison|e] capacity $current_value_Vpercent2$"
  NOT_GARRISON_PERCENTAGE_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V%2$ of [garrison|e] capacity $current_value_Vpercent2$"
  THIRD_GARRISON_PERCENTAGE_TRIGGER: "[LOCATION.GetName] has $COMPARATOR$ $NUM|V%2$ of [garrison|e] capacity $current_value_Vpercent2$"
@@ -3342,8 +3352,8 @@
  THIRD_COUNTRY_HIGHEST_RATED_SPECIAL_STATUS_POWER_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|Y2$ [special_status_power|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] based on the highest rated [special_status|e] $current_value_Y2$"
  NOT_THIRD_COUNTRY_HIGHEST_RATED_SPECIAL_STATUS_POWER_TRIGGER: "[COUNTRY.GetName] has NOT $COMPARATOR$ $NUM|Y2$ [special_status_power|e] in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] based on the highest rated [special_status|e] $current_value_Y2$"
  
- country_highest_rated_special_status_power_greater_than: "[COUNTRY.GetName] has at least $NUM|Y2$ [special_status_power|e] based on the highest rated [special_status|e] $current_value_Y2$"
- country_combined_special_status_power_greater_than: "[COUNTRY.GetName] has more than $NUM|Y2$ [special_status_power|e] from all [special_statuses|e] combined $current_value_Y2$"
+ country_highest_rated_special_status_power_greater_than: "Has at least $NUM|Y2$ [special_status_power|e] based on the highest rated [special_status|e] $current_value_Y2$"
+ country_combined_special_status_power_greater_than: "Has more than $NUM|Y2$ [special_status_power|e] from all [special_statuses|e] combined $current_value_Y2$"
  
 
  COUNTRY_RANK_TRIGGER: "Is $RANK$"
@@ -3472,10 +3482,10 @@
  THIRD_COUNTRY_RANK_LEVEL_ON_DATE_TRIGGER: "[COUNTRY.GetName] had a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$ on $DATE$"
  NOT_THIRD_COUNTRY_RANK_LEVEL_ON_DATE_TRIGGER: "[COUNTRY.GetName] did NOT have a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$ on $DATE$"
 
- ESTATE_SATISFACTION_TRIGGER: "[estate_satisfaction|E] is $COMPARATOR$ $NUM|2%V$"
- NOT_ESTATE_SATISFACTION_TRIGGER: "[estate_satisfaction|E] is NOT $COMPARATOR$ $NUM|2%V$"
- THIRD_ESTATE_SATISFACTION_TRIGGER: "The [ESTATE.GetName] have an [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$"
- NOT_THIRD_ESTATE_SATISFACTION_TRIGGER: "The [ESTATE.GetName] do NOT have an [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$"
+ ESTATE_SATISFACTION_TRIGGER: "[estate_satisfaction|E] is $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ NOT_ESTATE_SATISFACTION_TRIGGER: "[estate_satisfaction|E] is NOT $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ THIRD_ESTATE_SATISFACTION_TRIGGER: "The [ESTATE.GetName] have an [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ NOT_THIRD_ESTATE_SATISFACTION_TRIGGER: "The [ESTATE.GetName] do NOT have an [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
 
  ESTATE_TARGET_SATISFACTION_TRIGGER: "Target [estate_satisfaction|E] is $COMPARATOR$ $NUM|2%V$"
  NOT_ESTATE_TARGET_SATISFACTION_TRIGGER: "Target [estate_satisfaction|E] is NOT $COMPARATOR$ $NUM|2%V$"
@@ -3516,15 +3526,15 @@
  
  ESTATE_NUM_PRIVILEGES_TRIGGER: "The $NAME$ has $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
  NOT_ESTATE_NUM_PRIVILEGES_TRIGGER: "The $NAME$ does NOT have $COMPARATOR$ $VAL|0V$ [estate_privileges|e]!"
- ESTATE_NUM_PRIVILEGES_TRIGGER_FIRST: "Our $NAME$ has $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
- NOT_ESTATE_NUM_PRIVILEGES_TRIGGER_FIRST: "Our $NAME$ does NOT have $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
+ FIRST_ESTATE_NUM_PRIVILEGES_TRIGGER: "Our $NAME$ has $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
+ NOT_FIRST_ESTATE_NUM_PRIVILEGES_TRIGGER: "Our $NAME$ does NOT have $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
  THIRD_ESTATE_NUM_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] has $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
  NOT_THIRD_ESTATE_NUM_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] does NOT have $COMPARATOR$ $VAL|0V$ [estate_privileges|e]"
 
  ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ can have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
  NOT_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]!"
- ESTATE_NUM_POS_PRIVILEGES_TRIGGER_FIRST: "Our $NAME$ can have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
- NOT_ESTATE_NUM_POS_PRIVILEGES_TRIGGER_FIRST: "Our $NAME$ can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
+ FIRST_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "Our $NAME$ can have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
+ NOT_FIRST_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "Our $NAME$ can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
  THIRD_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] can have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
  NOT_THIRD_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
 
@@ -3558,12 +3568,12 @@
 
  SELECT_CASUS_BELLI: "Select [CASUS_BELLI.GetName]"
 
- PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "Has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
- NOT_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "Does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
- FIRST_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "We have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
- NOT_FIRST_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "We do NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
- THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[COUNTRY.GetName] has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
- NOT_THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[COUNTRY.GetName] does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ NONE_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[province_definition|e] has a [colonial_charter|E] belonging to [country|e]"
+ NOT_NONE_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[province_definition|e] does NOT have a [colonial_charter|E] belonging to [country|e]"
+ PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "Has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
+ NOT_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "Does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
+ THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[PROVINCE_DEFINITION.GetName] has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
+ NOT_THIRD_PROVINCE_HAS_COLONIAL_CHARTER_TRIGGER: "[PROVINCE_DEFINITION.GetName] does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
 
  IS_FRIEND_WITH_TRIGGER: "Is a [friend|E] of [TARGET_COUNTRY.GetName]"
  NOT_IS_FRIEND_WITH_TRIGGER: "Is NOT a [friend|E] of [TARGET_COUNTRY.GetName]"
@@ -6301,12 +6311,12 @@
  THIRD_HAS_MIGRATION_TRIGGER: "[PROVINCE_DEFINITION.GetName] has a [migration|E]"
  NOT_THIRD_HAS_MIGRATION_TRIGGER: "[PROVINCE_DEFINITION.GetName] does NOT have a [migration|E]"
 
- NONE_HAS_COLONIAL_CHARTER_TRIGGER: "[province|e] has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
- NOT_NONE_HAS_COLONIAL_CHARTER_TRIGGER: "[province|e] does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
- HAS_COLONIAL_CHARTER_TRIGGER: "Has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
- NOT_HAS_COLONIAL_CHARTER_TRIGGER: "Does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
- THIRD_HAS_COLONIAL_CHARTER_TRIGGER: "[PROVINCE_DEFINITION.GetName] has a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
- NOT_THIRD_HAS_COLONIAL_CHARTER_TRIGGER: "[PROVINCE_DEFINITION.GetName] does NOT have a [colonial_charter|E] belonging to [TARGET_COUNTRY.GetName]"
+ HAS_COLONIAL_CHARTER_TRIGGER: "Has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_HAS_COLONIAL_CHARTER_TRIGGER: "Does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ FIRST_HAS_COLONIAL_CHARTER_TRIGGER: "We have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_FIRST_HAS_COLONIAL_CHARTER_TRIGGER: "We do NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ THIRD_HAS_COLONIAL_CHARTER_TRIGGER: "[COUNTRY.GetName] has a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_THIRD_HAS_COLONIAL_CHARTER_TRIGGER: "[COUNTRY.GetName] does NOT have a [colonial_charter|E] in [TARGET_PROVINCE_DEFINITION.GetName]"
 
  NONE_POSSIBLE_INSTITUTION_SPAWN_TRIGGER: "[province|e] can promote an [institution|E] to appear"
  NOT_NONE_POSSIBLE_INSTITUTION_SPAWN_TRIGGER: "[province|e] can NOT promote an [institution|E] to appear"
@@ -6428,6 +6438,13 @@
  THIRD_PROVINCE_AVERAGE_PROSPERITY_TRIGGER: "[PROVINCE.GetName] has $COMPARATOR$ $NUM|%Y$ average [prosperity|e]"
  NOT_THIRD_PROVINCE_AVERAGE_PROSPERITY_TRIGGER: "[PROVINCE.GetName] does NOT have $COMPARATOR$ $NUM|%Y$ average [prosperity|e]"
 
+ NONE_HAS_PROVINCE_POPULATION_TRIGGER: "[province|e] has $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ NOT_NONE_HAS_PROVINCE_POPULATION_TRIGGER: "[province|e] does NOT have $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ HAS_HAS_PROVINCE_POPULATION_TRIGGER: "Has $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ NOT_HAS_HAS_PROVINCE_POPULATION_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ THIRD_HAS_PROVINCE_POPULATION_TRIGGER: "[PROVINCE.GetName] has $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ NOT_THIRD_HAS_PROVINCE_POPULATION_TRIGGER: "[PROVINCE.GetName] does NOT have $COMPARATOR$ $NUM|V0%2$ of the [population|e]"
+ 
  
  #
  # Subunits
@@ -7006,10 +7023,10 @@
  THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total of $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
  NOT_THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has NOT a total of $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
 
- NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_LESS_THAN_TRIGGER: "$COMPARATOR$ $NUM|V0$ members have the '$STATUS$' status"
- NOT_NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_LESS_THAN_TRIGGER: "$COMPARATOR$ $NUM|V0$ members have NOT the '$STATUS$' status"
- THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_LESS_THAN_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
- NOT_THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_EQUAL_LESS_THAN_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has NOT $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
+ NUM_COUNTRIES_WITH_SPECIAL_STATUS_LESS_THAN_TRIGGER: "$COMPARATOR$ $NUM|V0$ members have the '$STATUS$' status"
+ NOT_NUM_COUNTRIES_WITH_SPECIAL_STATUS_LESS_THAN_TRIGGER: "$COMPARATOR$ $NUM|V0$ members have NOT the '$STATUS$' status"
+ THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_LESS_THAN_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
+ NOT_THIRD_NUM_COUNTRIES_WITH_SPECIAL_STATUS_LESS_THAN_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has NOT $COMPARATOR$ $NUM|V0$ members with the '$STATUS$' status"
 
  VOTES_FOR_RESOLUTION_TRIGGER: "[TARGET_RESOLUTION.GetName] has a total of $COMPARATOR$ $NUM|V0$ votes for '$OUTCOME$' $current_value_V0$"
  NOT_VOTES_FOR_RESOLUTION_TRIGGER: "[TARGET_RESOLUTION.GetName] does NOT have a total of $COMPARATOR$ $NUM|V0$ votes for '$OUTCOME$' $current_value_V0$"
@@ -7471,6 +7488,13 @@
  THIRD_OPINION_DIFFERENCE_BETWEEN_TRIGGER: "[COUNTRY.GetName]'s [opinion|e] difference between $FIRST$ and $SECOND$ is $COMPARATOR$ $NUM|Y0$ $current_value_Y0$"
  NOT_THIRD_OPINION_DIFFERENCE_BETWEEN_TRIGGER: "[COUNTRY.GetName]'s [opinion|e] difference between $FIRST$ and $SECOND$ is NOT $COMPARATOR$ $NUM|Y0$ $current_value_Y0$"
 
+ AVERAGE_ESTATE_SATISFACTION_TRIGGER: "Has an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+ NOT_AVERAGE_ESTATE_SATISFACTION_TRIGGER: "Does NOT have an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+ FIRST_AVERAGE_ESTATE_SATISFACTION_TRIGGER: "We have an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+ NOT_FIRST_AVERAGE_ESTATE_SATISFACTION_TRIGGER: "We do NOT have an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+ THIRD_AVERAGE_ESTATE_SATISFACTION_TRIGGER: "[COUNTRY.GetName] has an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+ NOT_THIRD_AVERAGE_ESTATE_SATISFACTION_TRIGGER: "[COUNTRY.GetName] does NOT have an average [estate_satisfaction|e] of $COMPARATOR$ $NUM|V%2$ $current_value_Vpercent2$"
+
  NONE_CAN_BE_FORCE_BROKEN_IN_PEACE_TREATY_TRIGGER: "[subject_type|e] can be force broken in a [peace_treaty|e]"
  NOT_NONE_CAN_BE_FORCE_BROKEN_IN_PEACE_TREATY_TRIGGER: "[subject_type|e] can NOT be force broken in a [peace_treaty|e]"
  CAN_BE_FORCE_BROKEN_IN_PEACE_TREATY_TRIGGER: "Can be force broken in a [peace_treaty|e]"
@@ -7731,8 +7755,8 @@
 
  SOCIETAL_VALUE_PROGRESS_TRIGGER: "Has $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
  NOT_SOCIETAL_VALUE_PROGRESS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
- FIRSTSOCIETAL_VALUE_PROGRESS_TRIGGER: "We have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
- NOT_FIRSTSOCIETAL_VALUE_PROGRESS_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
+ FIRST_SOCIETAL_VALUE_PROGRESS_TRIGGER: "We have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
+ NOT_FIRST_SOCIETAL_VALUE_PROGRESS_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
  THIRD_SOCIETAL_VALUE_PROGRESS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
  NOT_THIRD_SOCIETAL_VALUE_PROGRESS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|Y$ [societal_value|e] progress"
 
@@ -7767,7 +7791,7 @@
  ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can be [commanders|e] of [units|e]"
  NOT_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can NOT be [commanders|e] of [units|e]"
  FIRST_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can be [commanders|e] of our [units|e]"
- NOT_FIRST_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can NOT participate in our [command|e]"
+ NOT_FIRST_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can NOT be [commanders|e] of our [units|e]"
  THIRD_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can be [commanders|e] of [COUNTRY.GetAdjective] [units|e]"
  NOT_THIRD_ESTATE_TYPE_ALLOWED_IN_COMMAND_TRIGGER: "$ESTATE_TYPE$ can NOT be [commanders|e] of [COUNTRY.GetAdjective] [units|e]"
 

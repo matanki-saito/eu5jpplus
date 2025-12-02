@@ -79,7 +79,7 @@
  ich_kaan_ti_ho: "イチ・カーン・ティホ"
  mayapan_holy_site: "$mayapan$"
  kaaba: "マスジド・ハラーム"
- kaaba_desc: "[ShowLocationName('mecca')]にある$kaaba$、現地で言うところのアル＝カアバは、[ShowReligionGroupName('muslim')]において最も神聖な神殿である。キスワと呼ばれる黒い布におおわれており、全$muslim_ADJ$徒がこの神殿の方角、すなわちキブラに向かって礼拝を行う。"
+ kaaba_desc: "[ShowLocationName('mecca')]にある$kaaba$、現地で言うところの「アル＝カアバ」は、[ShowReligionGroupName('muslim')]にとって最も神聖な神殿である。キスワと呼ばれる黒い布に覆われており、全$muslim_ADJ$徒がこの神殿の方角、すなわちキブラに向かって礼拝をおこなう。"
  prophets_mosque: "預言者のモスク"
  umayyad_mosque: "ウマイヤ・モスク"
  cave_patriarchs: "マクペラの洞穴"

@@ -13,7 +13,7 @@
  make_regent_ruler_desc: "[character|e]は対象の[country|e]の新たな[ruler|e]となる。"
  make_regent_ruler_past: "[SCOPE.sCharacter('recipient').GetName]は新たな[SCOPE.sCountry('actor').GetGovernment.GetRulerTitle]となった！"
  make_regent_ruler_act_past: "[SCOPE.sCharacter('recipient').GetName]は[SCOPE.sCountry('actor').GetNameWithNoTooltip]の王位を継承し、[SCOPE.sCountry('actor').GetLongName]の[SCOPE.sCountry('actor').GetGovernment.GetRulerTitle]となった。"
- resign_as_grand_master: "騎士団長を辞職"
+ resign_as_grand_master: "総長を辞職"
  resign_as_grand_master_concept: "[ruler|e]"
  resign_as_grand_master_act: "$resign_as_grand_master$"
  resign_as_grand_master_desc_specific: "[SCOPE.sCharacter('recipient').GetName]は[SCOPE.sCountry('actor').GetName]の[ruler|e]を辞職する。"

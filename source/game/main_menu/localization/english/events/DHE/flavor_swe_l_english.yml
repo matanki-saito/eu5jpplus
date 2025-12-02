@@ -192,7 +192,7 @@
  flavor_swe.32.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  
  flavor_swe.33.title: "Re-Evaluating Absolutism"
- flavor_swe.33.desc: "[ROOT.GetCountry.GetName] is on the brink of collapse. The current [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle] has as many detractors as supporters, with groups popping up to support rival claimants every day. There has been so much foreign interference in [ROOT.GetCountry.GetAdjectiveWithNoTooltip] rule that we feel more like a puppet state than a great nation, and people of all classes openly resent carrying the crushing weight of absolute rule.\n\nTo maintain total control could prove to be a fatal blunder on the [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle]'s part. We must prepare for violent opposition to whichever choice we make."
+ flavor_swe.33.desc: "[ROOT.GetCountry.GetName|U] is on the brink of collapse. The current [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle] has as many detractors as supporters, with groups popping up to support rival claimants every day. There has been so much foreign interference in [ROOT.GetCountry.GetAdjectiveWithNoTooltip] rule that we feel more like a puppet state than a great nation, and people of all classes openly resent carrying the crushing weight of absolute rule.\n\nTo maintain total control could prove to be a fatal blunder on the [ROOT.GetCountry.GetGovernment.GetActiveRegentTitle]'s part. We must prepare for violent opposition to whichever choice we make."
  flavor_swe.33.historical_info: "The death of the childless Charles XII left his younger sister Ulrika Eleonora in charge as Queen. The staunch parliamentarian, Chancellor Arvid Horn, immediately seized this opportunity to bring down the absolutism and strengthen the powers of Parliament. While his democratic leanings were in a way commendable, his actions were to completely destabilize Sweden and make her a puppet of foreign interests for the next 50 years. This so-called 'Age of Freedom' also saw the aristocracy regain some of their lost ground. However, the young queen saw no clear alternative that would not upset her war-weary people too much."
  flavor_swe.33.a: "Abandon absolutism."
  swe_age_of_freedom_always: "This is a locked reform that can not be removed by choice."
@@ -262,7 +262,7 @@
  flavor_swe.44.title: "The Ironmines of Ojamo"
  flavor_swe.44.desc: "There is possibly [ShowGoodsName('iron')] in the deep forest near the Lohjanjärvi lake. Ojamo holds rich veins of iron ore, a resource that could prove invaluable to the [ROOT.GetCountry.GetFlavorRank]'s budding industries and military ambitions. For decades, this region of [ShowAreaName('finland_area')] has been prized for its timber and farmland, but the discovery of iron at Ojamo marks a turning point for [ShowLocationName('lohja')]'s future."
  flavor_swe.44.historical_info: "King Gustav Vasa granted Sir Erik Flemming of Siuntio permission to mine for iron ore. In 1542, the iron ore started to be mined in Ojamo near Lohja, creating the oldest known iron mine in Finland."
- flavor_swe.44.a: "This can benefit all of [ShowAreaName('finland_area')]!"
+ flavor_swe.44.a: "This can benefit all of [ShowAreaNameWithNoTooltip('finland_area')]!"
  flavor_swe.44.b: "We have enough [ShowGoodsNameWithNoTooltip('iron')]."
  
  

@@ -74,7 +74,7 @@
  common_string_it_belongs_in_a_museum: "これは博物館のものだ！"
  #Utility
  common_string_go_to: "移動"
- common_string_prefix_article: " "
+ common_string_prefix_article: "$empty_text$"
  #Other
  common_string_aum: "オーム。"
  common_string_let_them_fend_for_themselves: "彼らのことは放っておけ。"

@@ -16,7 +16,7 @@
  flavor_bng.4.a: "我々は栄えている！"
  flavor_bng.5.title: "[ShowLocationNameWithNoTooltip('pandua')]のアディナ・モスク"
  flavor_bng.5.desc: "[target_character.GetName]は、[ShowLocationName('pandua')]で最近建設された[ShowBuildingTypeName('cathedral')]に装飾を施すことで、[GetCountry('DLH').GetName]の専制支配から勝ち取った独立を祝いたいという。この記念碑的な事業のためには、[ShowRegionName('persia_region')]様式と[ShowRegionName('crescent_region')]様式に精通した最高の建築家を雇う必要がある。かなりの費用がかかるだろうが、完成すれば我々の権威を示し、何世紀にもわたって崇敬の的となるはずだ。"
- flavor_bng.5.historical_info: "アディナ・モスクは1373年、シカンダル・シャーによって建設された。帝都パーンドゥアーに建てられたこのモスクは、ササン朝ペルシャの建築を模倣し、ダマスカスの大モスクからさらなる着想を得て作られた。このモスクはベンガル・スルタン朝の野望の証であり、14世紀のデリー・スルタン朝に対する勝利を称え、若き国の独立を確かなものとするために設計された。"
+ flavor_bng.5.historical_info: "アディナ・モスクは1373年、シカンダル・シャーによって建設された。帝都パーンドゥアーに建てられたこのモスクは、ササン朝ペルシアの建築を模倣し、ダマスカスの大モスクからさらなる着想を得て作られた。このモスクはベンガル・スルタン朝の野望の証であり、14世紀のデリー・スルタン朝に対する勝利を称え、若き国の独立を確かなものとするために設計された。"
  flavor_bng.5.a: "素晴らしい計画だ。"
  flavor_bng.5.b: "そのような贅沢な建物に出す金はない。"
  flavor_bng.6.title: "近隣諸国"

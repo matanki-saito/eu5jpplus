@@ -115,7 +115,7 @@
  devotion_events.117.a: "教会は返したのにまだ怒っているのか？"
  devotion_events.118.title: "先代[ROOT.GetCountry.GetGovernment.GetRulerTitle]の遺品"
  devotion_events.118.desc: "いまは亡き先代[old_ruler.GetName]は死後の位を案じ、さまざまな遺物を集めることで煉獄で苦しむ時間を短くしようとしたようだ。使用人が[old_ruler.GetHerHis]の所持品を収集したところ、8100点もの遺物と42体の聖骸骨が、[old_ruler.GetNameWithNoTooltip]の邸宅のあらゆる場所に隠されていたのが発見された。"
- devotion_events.118.a: "贖宥状の販売がすべての原因だ！ 隠しておけ。"
+ devotion_events.118.a: "免罪符の販売がすべての原因だ！ 隠しておけ。"
  devotion_events.118.b: "[old_ruler.GetNameWithNoTooltip]が天国に行く助けとなったのだろう。"
  devotion_events.119.title: "不名誉な噂話"
  devotion_events.119.desc: "[target_ruler.GetName]が[ROOT.GetCountry.GetCapital.GetName]を歩く際、民衆が囁き、視線を向けるのはある不穏な噂のせいである。噂の内容は、[target_ruler.GetNameWithNoTooltip]は教会で正しく聖別を受けておらず、本当は場末の酒場で首に聖書を押し当てられながら受けた、というものだった！"

@@ -18,7 +18,7 @@
  lateralview_situation_entry_name: "局面：[SITUATION.GetNameWithNoTooltip|L]"
  lateralview_army_entry_name: "「陸軍」パネル"
  lateralview_navy_entry_name: "「海軍」パネル"
- lateralview_military_objectives_entry_name: "「目標」パネル"
+ lateralview_military_objectives_entry_name: "「軍事目標」パネル"
  lateralview_military_objective_entry_name: "「目標」パネル"
  lateralview_technology_view_entry_name: "「技術」パネル"
  lateralview_advances_entry_name: "「進歩」パネル"

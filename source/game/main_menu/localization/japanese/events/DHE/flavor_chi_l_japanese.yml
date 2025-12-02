@@ -248,7 +248,7 @@
  flavor_chi.56.desc: "[target_character.GetName|U]は、[ROOT.GetCountry.GetLongName]のための偉大なビジョンをもつ賢明な統治者である。しかし、いつか必ず訪れるその死のあとに、子孫が[target_character.GetHerHim]と同等の知識を備えているという保証はない。\n\nそのため、[target_character.GetShortNameWithNoTooltip]は後継者が従うべき訓戒の一覧を作り、[ROOT.GetCountry.GetNameWithNoTooltip]がほかの王朝と同じ没落の道を辿らないようにする計画を立てている。"
  flavor_chi.56.a: "法律に関する事柄に最大限尽力するよう記す。"
  flavor_chi.56.b: "侵略されてはならない国の一覧を作成する。"
- flavor_chi.56.c: "内部の裏切者について警告を残す。"
+ flavor_chi.56.c: "内部の裏切り者について警告を残す。"
  flavor_chi.56.d: "公共事業に関する援助を記しておく。"
  flavor_chi.56.e: "立法の手法を伝える。"
  flavor_chi.56.f: "我々には必要ない。"

@@ -91,8 +91,8 @@
  flavor_hol.15.title: "[ShowReligionNameWithNoTooltip('calvinist')] in [ROOT.GetCountry.GetNameWithNoTooltip]"
  flavor_hol.15.desc: "For years, our nation has debated between a more conservative [ShowReligionName('calvinist')] or a more open minded one, trying to accommodate the diverse faiths that populate our country.\n\nA synod is being celebrated in [ShowLocationName('dordrecht')], where the two main representatives of both sides have met to judge the doctrine of their opponent. This could be a great opportunity to publicly show our support to one of the two contenders and, with it, end this debate for good."
  flavor_hol.15.historical_info: "In a clerical meeting in Dordrecht (1618-1619) hard-line Calvinism was made State-religion. This was the end of a long struggle between a pluralistic and humanitarian faction, the Arminians, and a dogmatic, narrow-minded 'True Calvinistic' faction, the Gomarists. Moritz of Oranien supported the Gomarists, composed mainly of petty bourgeois and farmers, while Oldenbarneveld supported the Arminians, composed of intellectuals and rich bourgeois."
- flavor_hol.15.a: "Support [target_character2.GetName]."
- flavor_hol.15.b: "[target_character1.GetName] is right."
+ flavor_hol.15.a: "Support [target_character2.GetNameWithNoTooltip]."
+ flavor_hol.15.b: "[target_character1.GetNameWithNoTooltip] is right."
 
  flavor_hol.16.title: "[target_character.GetNameWithNoTooltip]"
  flavor_hol.16.desc: "Born in one of the most important families of our nation, [target_character.GetName] is a great [target_character.GetWomanMan] whose talents are not being used correctly in [target_character.GetHerHis] position as Pensionary of [ShowLocationNameWithNoTooltip('dordrecht')]. We should hire [target_character.GetHerHim] and employ [target_character.GetHerHim] in our office."

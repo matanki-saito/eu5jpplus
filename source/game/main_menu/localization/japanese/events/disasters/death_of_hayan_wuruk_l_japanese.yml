@@ -8,7 +8,7 @@
  death_of_hayan_wuruk.2.a: "彼らに忠誠を宣言するよう要求せよ。"
  death_of_hayan_wuruk.2.b: "争うわけにはいかない。いくらかの自治権を与えよう。"
  death_of_hayan_wuruk.3.title: "[target_overlord.GetNameWithNoTooltip]が我々の忠誠を求める"
- death_of_hayan_wuruk.3.desc: "偉大なる[target_hayan.GetName]の逝去から間もなく、[target_overlord.GetLongName]は徐々に狂気と混沌に陥っている。その騒乱伴う継承のなかで、彼らは我々に忠誠を示せと要求してきた。これは攻撃的な振る舞いであり、権力にしがみつく腐敗した[target_overlord.GetGovernment.GetAdjective]家による、我々を犠牲にした侮辱的な権力誇示である。"
+ death_of_hayan_wuruk.3.desc: "偉大なる[target_hayan.GetName]の逝去から間もなく、[target_overlord.GetLongName]は徐々に狂気と混沌に陥っている。その騒乱伴う継承のなかで、彼らは我々に忠誠を示せと要求してきた。これは攻撃的な振る舞いであり、権力にしがみつく腐敗した[target_overlord.GetGovernment.GetAdjective]一族による、我々を犠牲にした侮辱的な権力誇示である。"
  death_of_hayan_wuruk.3.a: "従おう。"
  death_of_hayan_wuruk.3.b: "やつらに[target_hayan.GetShortNameWithNoTooltip]のあとを追わせてやる！"
  death_of_hayan_wuruk.4.title: "[target_subject.GetNameWithNoTooltip]が我々の権威に反駁"

@@ -5,7 +5,7 @@
  earthquake_events.1.desc: "なんということだ！ [target_location.GetName]が大災害に見舞われた。天と地が裂けるかのような巨大な地震により、多くの市民が家を失い、街中の建物が倒壊した。我々の誇りである[ShowWorkOfArtName('hagia_sophia')]は、特に甚大な被害を受けた。修復には何年もかかり、莫大な費用が必要となるだろう……"
  earthquake_events.1.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  earthquake_events.1.b: "すぐに修理せよ！"
- earthquake_events.title: "[GetCurrentYear]の[target_location.GetNameWithNoTooltip]地震"
+ earthquake_events.title: "[GetCurrentYear]年の[target_location.GetNameWithNoTooltip]地震"
  earthquake_events_minor.desc: "[target_location.GetName]周辺で、ここ数日地震が相次いでるという報告が入った。住民がパニックに陥り、地震や関連火災により被害が発生したが、幸い対応できる程度で済んだ。わが国の相談役も、この機会に[target_location.GetNameWithNoTooltip]に再投資し、我々の望むように作り替えてはどうかと提案している。"
  earthquake_events_minor.a: "[target_location.GetOwner.Custom('common_string_negative')]"
  earthquake_events_minor.a.tt: "災害により、[target_location.GetName]と近隣の[locations|E]で[prosperity|e]がわずかに減少し、[pops|e]が減少、一部の[buildings|e]が破壊される。"

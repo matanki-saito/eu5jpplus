@@ -275,6 +275,7 @@
  flavor_sco.200.a: "[ROOT.GetCountry.GetNameWithNoTooltip]の統治権は[sco_ruler.GetNameWithNoTooltip]のみに属する。"
  flavor_sco.200.b: "[GetCountry('PAP').GetAdjectiveWithNoTooltip]の監督権限を制限しつつ、高位聖職者には[ShowSpecialStatusNameWithNoTooltip('curia')]との接触を許可する。"
  flavor_sco.200.c: "提案を完全に破棄する。"
+ sco_retain_clergy_jurisdiction_requirements: "[ROOT.GetCountry.GetName]が[ShowReligionAdjective('catholic')]国家であるかぎり、わが国は「[ShowLawName('sco_authority_over_the_clergy')]」を利用できる。"
  flavor_sco.201.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle]が[sco_ruler.GetShortNameWithNoTooltip]に和解を要請"
  flavor_sco.201.desc: "[ShowPolicyName('crown_religious_jurisdiction')]の制定後、[sco_ruler.GetName]と[GetCountry('PAP').GetName]の関係は悪化した。にもかかわらず、多くの[ROOT.GetCountry.GetAdjective]の高位聖職者は依然として[GetCountry('PAP').GetNameWithNoTooltip]から[ShowSpecialStatusNameWithNoTooltip('curia')]関連行事への招待を受けている。\n\n[sco_ruler.GetNameWithNoTooltip]との和解を模索する[pap_ruler.GetName]は、[ShowPolicyNameWithNoTooltip('crown_religious_jurisdiction')]の廃止と引き換えに、[ShowSpecialStatusNameWithNoTooltip('curia')]内での大きな影響力と新たな和平の申し出をおこなった。"
  flavor_sco.201.a: "[pap_ruler.GetNameWithNoTooltip]との和解に同意しよう。"

@@ -172,7 +172,7 @@
  flavor_por.36.a: "[target_character.GetHerHis]の提案をすぐに実行に移せ！"
  flavor_por.36.b: "[ruler_scope.GetShortNameWithNoTooltip]はこの放蕩者に耳を貸さず、統治に集中すべきだ。"
  flavor_por.37.title: "[target_work_of_art.GetNameWithNoTooltip]"
- flavor_por.37.desc: "優れた探検家の[target_character.GetName]が、素晴らしい作品を書き上げた。『[target_work_of_art.GetName]』と題されたその書は、宇宙誌と航海術に関する[ShowWorkOfArtTypeName('treatise')]であり、[ROOT.GetCountry.GetAdjective]の海洋と探検に関する知識の集大成である。さらにわが国の発見の歴史と、発見に用いられた技術についても詳述される。この書は、出版前に読む機会を得た[ruler_scope.GetName]に献呈される。"
+ flavor_por.37.desc: "優れた探検家の[target_character.GetName]が、素晴らしい作品を書き上げた。『[target_work_of_art.GetName]』と題されたその書は、天地学と航海術に関する[ShowWorkOfArtTypeName('treatise')]であり、[ROOT.GetCountry.GetAdjective]の海洋と探検に関する知識の集大成である。さらにわが国の発見の歴史と、発見に用いられた技術についても詳述される。この書は、出版前に読む機会を得た[ruler_scope.GetName]に献呈される。"
  flavor_por.37.a: "この知識が広まらないよう書物を隠蔽しろ。"
  flavor_por.37.b: "我々の威信を高めるために出版しよう！"
  flavor_por.38.title: "[target_character.GetNameWithNoTooltip]"

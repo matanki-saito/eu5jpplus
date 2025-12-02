@@ -22,7 +22,7 @@
  prices.5.a: "これからはコーヒーの需要が増えるだろう。"
  coffee_boom_happened: "コーヒー熱"
  prices.6.title: "輸入綿花"
- prices.6.desc: "ルネッサンス時代、インドの綿織物はヨーロッパでますます人気が高まった。最終的に、[ROOT.GetCountry.GetAdjective]の羊毛産業に強い圧力がかかったため、同業界から綿花の輸入禁止を求める声が上がっている。"
+ prices.6.desc: "ルネサンス時代、インドの綿織物はヨーロッパでますます人気が高まった。最終的に、[ROOT.GetCountry.GetAdjective]の羊毛産業に強い圧力がかかったため、同業界から綿花の輸入禁止を求める声が上がっている。"
  prices.6.a: "自由交易を規制するつもりはない。"
  prices.6.b: "綿花の輸入を禁止せよ！"
  STATIC_MODIFIER_NAME_cotton_imports_banned: "綿花の輸入を禁止"

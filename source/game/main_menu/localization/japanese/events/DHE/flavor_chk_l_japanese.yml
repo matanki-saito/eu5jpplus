@@ -5,6 +5,8 @@
  flavor_chk.1.b: "我らの黄金時代は終わっていない。衰えゆく[ShowLocationNameWithNoTooltip('cahokia')]を甦らせるのだ！"
  events_to_weaken_cahokia_downfall: "[ShowLocationName('cahokia')]の衰退を食い止めるための追加の[events|e]が有効化される。"
  events_to_strengthen_cahokia: "[ShowLocationName('cahokia')]を安定させ、かつての広大な[ShowLocationRankName('city')]を再建するための追加の[events|e]が有効化される。"
+ cahokia_conditions_to_gain_golden_age: "[stability|e]と[prestige|e]を#G +50.00#!よりも高く保ち、[ShowLocationName('cahokia')]の[pops|e]を35,000人、[development|e]を15.00に回復すると、新たな黄金時代を迎えることができる。"
+ cahokia_conditions_to_avoid_migrations: "[stability|e]が#R -15.00#!を下回るか、[tribal_cohesion|e]が#R 60.00#!を下回る、または[dynamic_historical_event|e]「$flavor_chk.35.title$」が発生するなどにより、[ROOT.GetCountry.GetName]がさらに不安定化した場合、大量の[pops|e]がわが国の[locations|e]から[migrate|e]する可能性がある。"
  flavor_chk.2.title: "ウッドヘンジの部分的再建"
  flavor_chk.2.desc: "近年ではほとんど使われていないものの、[ShowLocationName('cahokia')]の地にはいまなお、かつて偉大な知性たちが用いた複数の「ウッドヘンジ」の遺構が残っている。現在ではその慣習は廃れてしまったが、我らの祖先は完全な円を描いて、太陽の昇る方角と沈む方角を測っていた。\n\nもし我々がウッドヘンジの再建に取り組むならば、再び偉大なる知性たちがこの慣習に従うようになるかもしれない。"
  flavor_chk.2.a: "ウッドヘンジの再建に必要な物資を供給しよう。"

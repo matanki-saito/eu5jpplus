@@ -158,7 +158,7 @@
  four_articles_desc: "教皇庁の十字軍の侵略者たちが、脆弱な力でもって我々の信仰を抑えつけんとしたことに対し、わが国と信仰の長が突きつけた要求。"
  flavor_boh.36.historical_info: "プラハの四箇条は、15世紀のバーゼル公会議において、ボヘミアの改革者である[GetCharacter('boh_jan_hus').GetName]の信奉者たちによって出された一連の要求。これらの条項は、プロテスタント宗教改革の先駆けとなったフス派運動において重要な役割を果たすことになる。この条文には、神の言葉を宣べ伝える自由、聖体拝領、教会制度の全般的改革、大罪人の教会からの排除などの条項が含まれていた。"
  flavor_boh.37.title: "同胞の結束"
- flavor_boh.37.desc: "[ShowReligionAdjective('hussite')]の典礼を実践したこの数年間で、我々の信仰の木は多くの枝を伸ばし、国中で栄え成長してきた。多くの信者が、道を踏み外した異端者の手から自由となった教会の儀式に参加するために、集会に集っている。\n\nしかし、このような敬虔と神の崇拝を示す環境のなかで、[ShowReligionNameWithNoTooltip('hussite')]の極端な解釈に傾倒し、貴族や商人を教会の代表から排除し、典礼は簡素で質素な儀式でおこない、使徒継承の拒否を説く[ShowEstateTypeName('clergy_estate')]が増えている。"
+ flavor_boh.37.desc: "[ShowReligionAdjective('hussite')]の典礼を実践したこの数年間で、我々の信仰の木は多くの枝を伸ばし、国中で栄え成長してきた。多くの信者が、道を踏み外した異端者の手から自由となった教会の儀式に参加するために、集会をおこなっている。\n\nしかし、このような敬虔と神の崇拝を示す環境のなかで、[ShowReligionNameWithNoTooltip('hussite')]の極端な解釈に傾倒し、貴族や商人を教会の代表から排除するとともに、典礼は簡素で質素な儀式でおこない、使徒継承の拒否を説く[ShowEstateTypeName('clergy_estate')]が増えている。"
  flavor_boh.37.a: "彼らに説教を続けさせよう。その言葉には真理がある。"
  flavor_boh.37.b: "彼らの声が社会を支配してはならない。"
  unity_brethren_privilege: "同胞の結束"

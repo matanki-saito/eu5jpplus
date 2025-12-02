@@ -235,7 +235,7 @@
  flavor_ira.45.title: "The [ShowDynastyNameWithNoTooltip('qajar_dynasty')] Tribes"
  flavor_ira.45.desc: "The recent migration of the [ShowDynastyName('qajar_dynasty')] tribes within [ROOT.GetCountry.GetName] has brought some destabilization within the [ROOT.GetCountry.GetFlavorRank]. Despite that, the rulers of the tribe, [target_character.GetName] and [target_character2.GetName], have shown themselves as capable strategists and administrators. Despite them being quite unpopular with everyone in the [ROOT.GetCountry.GetFlavorRank], it may still be possible to keep them in our current government, benefitting from their experiences and perhaps using their tribe for extra help."
  flavor_ira.45.historical_info: "As the Safavids' successors, the Qâjâr family mainly assisted the Iranian shahs during their early days. With the rise of Âqâ Mohammad Xân-e Qâjâr in the region, and the fragmentation of the Safavid realm, the Qâjâr family was able to proclaim themselves as Shahs, slowly conquering the numerous other tribes that resisted their legitimacy. Their reign would last until 1925, when a coup d'état would take place, replacing them with the Pahlavi dynasty."
- flavor_ira.45.a: "They are welcome in [ROOT.GetCountry.GetName]."
+ flavor_ira.45.a: "They are welcome in [ROOT.GetCountry.GetNameWithNoTooltip]."
  flavor_ira.45.b: "Away with them!"
  ira_qajar_dynasty_may_claim_crown: "The [ShowDynastyName('qajar_dynasty')] [dynasty|e] will try to claim our throne if we lack [legitimacy|e] and [stability|e]"
 

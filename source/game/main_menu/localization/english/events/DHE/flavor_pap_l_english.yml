@@ -353,3 +353,11 @@
  flavor_pap.9001.desc: "It truly saddens us to see that the dominions of the Pope have all but disappeared. Our strong devotion makes us the ideal candidate responsible for establishing a new Papal State. Perhaps we should cede a province of ours?"
  flavor_pap.9001.a: "For the Glory of God!"
  flavor_pap.9001.b: "Perhaps not."
+ 
+ flavor_pap.9002.title: "The Annexation of [ShowLocationNameWithNoTooltip('rome')]"
+ flavor_pap.9002.desc: "Despite our best efforts to mask our expansiosm in [ShowRegionName('italy_region')] with the help of our diplomacy, it appears the [ShowReligionAdjective('catholic')] has unanimously condemned our annexation of [target_location.GetName]. Representatives from every corner of the continent have brought forth their demands to relinquish the [target_location.GetRank.GetNameWithNoTooltip] back to the [GetCountry('PAP').GetGovernment.GetRulerTitle]!"
+ flavor_pap.9002.a: "This is a sound proposal."
+ flavor_pap.9002.b: "Fancy hat or not, the [GetCountry('PAP').GetGovernment.GetRulerTitle] will not have the [target_location.GetRank.GetNameWithNoTooltip]!"
+
+ accepted_to_return_rome_tt: "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('returned_rome')|+=0]"
+ declined_to_return_rome_tt: "Every [ShowReligionAdjective('catholic')] [country|e] changes their [opinion|e] of the [ROOT.GetCountry.GetLongName] by [ShowBiasValue('declined_return_rome')|+=0]"

@@ -41,4 +41,4 @@
  every_location_capital_area_tt: "[target_capital_area.GetName]のすべての所有[location|e]が以下を得る："
  random_owned_non_rural_location_tt: "所有するランダムな都市ロケーションが以下の影響を受ける："
  end_disaster_tt: "これにより現在の[disaster|e]が終了する"
- every_location_pops_dissatisfaction_tt: "[location|e]の全住民は以下の影響を受ける："
+ every_location_pops_dissatisfaction_tt: "[location|e]の全住民が以下の影響を受ける："

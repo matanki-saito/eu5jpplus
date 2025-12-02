@@ -389,7 +389,7 @@
  replace_rival: "ライバルを入れ替え"
  hire_mercenary: "傭兵の雇用"
  hire_mercenary_premium: "[mercenaries|e]の雇用費"
- hire_mercenary_leader: "傭兵のリーダーを雇用"
+ hire_mercenary_leader: "傭兵指揮官を雇用"
  bribe_units: "ユニットを買収"
  hire_prisoners: "捕虜を雇用"
  ransom_units: "身代金を支払ってユニットを取り戻す"

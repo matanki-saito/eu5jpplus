@@ -14,7 +14,7 @@
  flavor_sale_of_lusatia.1100.title: "The Matter of [GetCountry('SOR').GetNameWithNoTooltip]"
  flavor_sale_of_lusatia.1100.desc_normal: "The [GetCountry('SOR').GetLongName] is now supposed to return into our fold, as the pledge has completed.\n\nHowever, it remains a possession that offers us little value and selling the lands could give us necessary financial backing for more important issues. We could explore the option to sell the title altogether, ridding us of the troublesome land. Surely many would be interested in acquiring [GetCountry('SOR').GetName] and our good relations with [target_buyer.GetName] make them a trustworthy option."
  flavor_sale_of_lusatia.1100.desc_fallback: "The pledge of [GetCountry('SOR').GetName] has run its course but unfortunately it has ceased to exist in the possession of foreign fools. We have few legal options to regain those lands now."
- flavor_sale_of_lusatia.1100.a: "Approach [target_buyer.GetName] with the offer."
+ flavor_sale_of_lusatia.1100.a: "Approach [target_buyer.GetNameWithNoTooltip] with the offer."
  flavor_sale_of_lusatia.1100.b: "We are done with selling lands."
  flavor_sale_of_lusatia.1100.c: "We will get our rightful land back!"
  flavor_sale_of_lusatia.1100.d: "A lapse of judgment, perhaps."

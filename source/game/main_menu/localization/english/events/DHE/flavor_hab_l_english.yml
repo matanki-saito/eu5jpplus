@@ -512,7 +512,7 @@
  flavor_hab.93.historical_info: "Joseph Wenzel von Liechtenstein was an Austrian Field Marshall who is celebrated as the father of Austrian artillery. Laying the foundation for its modernization and professionalization, his visionary reforms turned artillery into a decisive element of the Austrian military, securing its place as one of the most respected arms of Europe during the 19th century."
  
  flavor_hab.94.title: "[ShowAdvanceNameWithNoTooltip('multicultural_empire')]"
- flavor_hab.94.desc: "[ROOT.GetCountry.GetName] is a patchwork of diverse cultures, religions, and languages, stretching across vast and varied lands. While this rich diversity has been a source of strength, it also presents challenges to our rule. To secure lasting peace and stability, we have embraced the identity of a [ShowAdvanceName('multicultural_empire')] by granting our minorities greater autonomy and fostering unity through inclusivity."
+ flavor_hab.94.desc: "[ROOT.GetCountry.GetName|U] are a patchwork of diverse cultures, religions, and languages, stretching across vast and varied lands. While this rich diversity has been a source of strength, it also presents challenges to our rule. To secure lasting peace and stability, we have embraced the identity of a [ShowAdvanceName('multicultural_empire')] by granting our minorities greater autonomy and fostering unity through inclusivity."
  flavor_hab.94.a: "Indivisibiliter ac Inseparabiliter!"
  flavor_hab.94.historical_info: "The Austrian Empire was one of the most ethnically diverse realms in Europe, encompassing Germans, Hungarians, Czechs, Slovaks, Poles, Ruthenians, Romanians, Croats, Serbs, Slovenes, and Italians, among others."
  

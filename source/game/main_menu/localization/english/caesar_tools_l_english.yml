@@ -9,7 +9,7 @@
  MOD_PATH_UPLOAD: "Path to upload content from:"
  MOD_EDITBOX_PATH: "Local path where the path will be created/from where it is uploaded"
  MOD_DESC: "Description:"
- MOD_EDITBOX_DESC: "Short desc for the mod, can be improved in the store website"
+ MOD_EDITBOX_DESC: "Short Description for the mod, can be improved in the store website"
  MOD_IS_INSTALLED: "Mod is installed locally: "
  MOD_IS_UPLOADED: "Mod has been uploaded: "
  MOD_CREATE_MOD_TAB: "Create mod"

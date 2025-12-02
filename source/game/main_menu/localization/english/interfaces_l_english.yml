@@ -233,7 +233,7 @@
  UNIT_MAINTENANCE_DET: "Maintenance of $VAL$[$ICON$_i] for [UNIT.GetNameWithNoTooltip] due to:"
  UNIT_REPAIR_DET: "Repair/reinforcement of $VAL$[$ICON$_i] for [UNIT.GetNameWithNoTooltip] due to:"
  
- AW_STR_SCALE: "At $VAL|%2$ of [strength|e]: #V x$VAL|$#!"
+ AW_STR_SCALE: "At $VAL|%2$ of [strength|e]: #V x$VAL|2$#!"
  
  CURRENTLY_REINFORCE_PER_MONTH: "Each month"
  
@@ -293,8 +293,8 @@
  
  WAR_SCORE_TT_TILE: "Warscore in [War.GetNameWithNoTooltip]"
  
- WAR_SCORE_SOURCES: "The Warscore of [War.GetWarScore|+=2%/] is due to:"
- PEACE_VIEW_WAR_SCORE_SOURCES: "The Warscore of [PeaceOfferLateralView.GetWarScore|+=2%/] is due to:"
+ WAR_SCORE_SOURCES: "The [war_score|e] of [War.GetWarScore|+=2%/] [war_score_icon] is due to:"
+ PEACE_VIEW_WAR_SCORE_SOURCES: "The [war_score|e] of [PeaceOfferLateralView.GetWarScore|+=2%/] [war_score_icon] is due to:"
  AND_X_MORE_OCCUPIED: "and $NUM$ more [occupied|e]: $VAL|+=2%/$"
  AND_X_MORE_BATTLES: "and $NUM$ more [battles|e]: $VAL|+=2%/$"
  
@@ -419,6 +419,7 @@
  MARKETS_FILTER: "Markets Filter"
  TOGGLE_INRANGE_MARKETS: "Toggle All Known Markets"
  INRANGE_MARKETS: "All Known Markets"
+ OPEN_TRADES_SUBTAB: "Open Trades in this Market"
 
  SCROLL_UP_UNIT_FILTER: "Select Previous Unit"
  SCROLL_DOWN_UNIT_FILTER: "Select Next Unit"
@@ -783,7 +784,7 @@
  RAISE_N_LEVY_IN_LOC: "Levies will be raised in [LOCATION.GetName]"
  
  NUM_ARTIST_HEADER: "Artists in [Country.GetNameWithNoTooltip]"
- NUM_POSSIBLE_ARTITS_WHY: "The [Country.GetLongName] can support [Country.GetModifierCappedValueWithNoTooltip('num_possible_artists')|W] $game_concept_artists$. There are currently [Country.GetCharacterArtistsAmount|W] $game_concept_artists$ in our country."
+ NUM_POSSIBLE_ARTITS_WHY: "There are currently [Country.GetCharacterArtistsAmount|W] $game_concept_artists$ in our [country|e].\n\n#italic We could pay to hire up to [Country.GetModifierCappedValueWithNoTooltip('num_possible_artists')|W] $game_concept_artists$ if we had fewer than that, but more could come to our [country] by other means, such as [events|e].#!"
  NUM_OF_CURR_ARTISTS: "These are our [artists|e]:"
  NO_NUMBER_OF_ARTISTS: "We currently have no [artists|e] available."
  CURR_ARTISTS_HAS_JOB_TT: "Working on a new [Character.GetArtInProgress.GetName], and is about [Character.GetArtProgress|%0Y] done."
@@ -886,13 +887,24 @@
  EXPENSE_MAINT_TT_TEXT_LONG: "At [MaintenanceSetting.GetSliderValue|2=%V] investment, the [MaintenanceSetting.GetNameWithNoTooltip|V] of [MaintenanceSetting.GetSettingOwner.GetName] is [MaintenanceSetting.GetExpense|+=2R]@gold!, resulting in a monthly change of [MaintenanceSetting.GetExpenseBenefit]."
  EXPENSE_MAINT_TT_TEXT_LONG_ALT: "At [MaintenanceSetting.GetSliderValue|2=%V] investment, the [MaintenanceSetting.GetNameWithNoTooltip|V] of [MaintenanceSetting.GetSettingOwner.GetName] is [MaintenanceSetting.GetExpense|+=2R]@gold!."
 
- EXPENSE_MAINT_MAX_INVESTMENT_T: "Max investment is [MaintenanceSetting.GetMaxExpenseNoFormat|2V]@gold! from our [economical_base|e] of [MaintenanceSetting.GetSettingOwner.GetEconomicalBase|2]@tax_base!.\nThis is due to our [Localize(Concatenate('MODIFIER_TYPE_NAME_', MaintenanceSetting.GetModifier))|V] of [MaintenanceSetting.GetSettingOwner.GetModifierValueNoFormat(MaintenanceSetting.GetModifier)]:"
+ EXPENSE_MAINT_MAX_INVESTMENT_T: "Max investment is [MaintenanceSetting.GetMaxExpenseNoFormat|2V]@gold! from our [economical_base|e] of [MaintenanceSetting.GetSettingOwner.GetEconomicalBaseWithLabel|2]@tax_base!.\nThis is due to our [Localize(Concatenate('MODIFIER_TYPE_NAME_', MaintenanceSetting.GetModifier))|V] of [MaintenanceSetting.GetSettingOwner.GetModifierValueNoFormat(MaintenanceSetting.GetModifier)]:"
  FORTS_LIMIT_TT_TEXT_TITLE: "Fort Limit of [Country.GetNameWithNoTooltip]"
  FORTS_LIMIT_TT_LIST_TITLE: "Fort Limit is [Country.GetFortLimit|W] due to:"
  FORTS_LIMIT_TT_LIST_TITLEb: "[fort_limit] usage is $AMOUNT|2$ due to:"
  FORTS_LIMIT_TT_TEXTb: "[Country.GetName] uses #TOOLTIP:$BREAKDOWN_TAG$ $AMOUNT|2L$#! of its [fort_limit_with_icon|e]."
  FORTS_LIMIT_TT_TEXT: "[fort_limit_with_icon|e]: [Player.GetCurrentFortsAmount|2] / #TOOLTIP:$BREAKDOWN_TAG$ $LIMIT|2L$#!"
  USED_FORT_SCORE_ENTRY: "[BUILDING.GetFlavorName]: $SCORE|2$"
+
+
+ ECO_BASE_LABEL: "#TOOLTIP:$BREAKDOWN_TAG$ $VAL|2L$@gold!#!"
+ ECO_BASE_HEADER: "Economical Base of $VAL|2$@gold!"
+ ECO_BASE_POP: "$POP$@population!: $VAL|+=2$"
+ ECO_BASE_TAX: "$TAX|2$ [tax_base|e]: $VAL|+=2$"
+ ECO_BASE_TRADE_VALUE: "$TRADE|2$ [trade|e] volume: $VAL|+=2$"
+ ECO_BASE_TRADE_PROFIT: "$TRADE|2$ [trade|e] profit: $VAL|+=2$"
+ ECO_BASE_SUBJECT: "$TAX|2$ [tax_base|e] from [subjects|e]: $VAL|+=2$"
+ ECO_BASE_INTEREST: "$INCOME|2$@gold! from [interest|e]: $VAL|+=2$"
+ ECO_BASE_INSTITUTIONS: "$NUM$ [institutions|e] [embraced|e]: $VAL|+=2%$"
 
 
  EXPENSE_IO_TOOLTIP: "\n[MaintenanceSetting.GetExpenseBreakdown]"
@@ -902,7 +914,7 @@
 
  LEGITIMACY_INVESTMENT_TOOLTIP_T: "$game_concept_court_maintenance$ of [CEconomy.GetCountry.GetNameWithNoTooltip]"
  LEGITIMACY_INVESTMENT_TT_TEXT: "At [CEconomy.GetMaintenancePercentage('court_maintenance')|2=%V] investment, the #V $game_concept_court_maintenance$#! of [CEconomy.GetCountry.GetName] is [CEconomy.GetExpenseSettingInvestmentExpenseInfo('court_maintenance')|2R]@gold!, for a monthly increase of [CEconomy.GetExpenseSettingChange('court_maintenance')|2=G]@[CEconomy.GetCountry.GetGovernment.GetGovernmentType.GetPowerKey]!."
- LEGITIMACY_INVESTMENT_TOOLTIP: "Max investment is [CEconomy.GetMaxExpenseSettingExpenseNoFormat('court_maintenance')|2V]@gold! from our [economical_base|e] of [CEconomy.GetCountry.GetEconomicalBase] @tax_base!.\nThis is due to our [Localize(Concatenate('MODIFIER_TYPE_NAME_', CEconomy.GetExpenseSettingModifier('court_maintenance')))|V] of [CEconomy.GetCountry.GetModifierValueNoFormat(CEconomy.GetExpenseSettingModifier('court_maintenance'))]:"
+ LEGITIMACY_INVESTMENT_TOOLTIP: "Max investment is [CEconomy.GetMaxExpenseSettingExpenseNoFormat('court_maintenance')|2V]@gold! from our [economical_base|e] of [CEconomy.GetCountry.GetEconomicalBaseWithLabel] @tax_base!.\nThis is due to our [Localize(Concatenate('MODIFIER_TYPE_NAME_', CEconomy.GetExpenseSettingModifier('court_maintenance')))|V] of [CEconomy.GetCountry.GetModifierValueNoFormat(CEconomy.GetExpenseSettingModifier('court_maintenance'))]:"
 
  CULTURE_INVESTMENT_TOOLTIP_T: "$game_concept_cultural_maintenance_s$ of [CEconomy.GetCountry.GetNameWithNoTooltip]"
  CULTURE_INVESTMENT_TT_TEXT: "At [CEconomy.GetMaintenancePercentage('cultural_maintenance')|2=%V] investment, the #V $game_concept_cultural_maintenance_s$#! of [CEconomy.GetCountry.GetName] is [CEconomy.GetExpenseSettingInvestmentExpenseInfo('cultural_maintenance')|2R]@gold!, for a monthly increase of [CEconomy.GetExpenseSettingChange('cultural_maintenance')|+2=G]@prestige!."
@@ -1346,7 +1358,7 @@
 
  ARMY_SIZE_TT_TITLE: "Army Size of [Country.GetNameWithNoTooltip]"
  ARMY_SIZE_TT_TEXT: "Army Size of [Country.GetNameWithNoTooltip]"
- ARMY_SIZE_TT_TABLE_TITLE: "[Country.GetName] can raise [Country.GetRaisedAndPotentialLevyStrength|L0] men, combining [regulars], raised [army_levies] and potential [army_levies]. Hover over the numbers to find details."
+ ARMY_SIZE_TT_TABLE_TITLE: "[Country.GetName] can raise [Country.GetTotalArmyStrengthAndPotentialLevies|L0] men, combining [regulars], raised [army_levies] and potential [army_levies]. Hover over the numbers to find details."
 
  NAVY_SIZE_TT_TITLE: "Navy Size of [Country.GetNameWithNoTooltip]"
  NAVY_SIZE_TT_TEXT: "Navy Size of [Country.GetNameWithNoTooltip]"
@@ -1449,7 +1461,6 @@
  PROMOTION_TT_TEXT: "The Pop Promotion Speed in [Player.GetName] is [Player.GetModifierValueNoFormat('global_pop_promotion_speed_modifier')]"
  LIST_TITLE_PROMOTION: "The [Player.GetModifierValueWithNoTooltipNoSign('global_pop_promotion_speed_modifier')|V] Pop Promotion Speed is due to:"
  LIST_TITLE_DEMOTION: "The [Player.GetModifierValueWithNoTooltipNoSign('global_pop_demotion_speed_modifier')|V] Pop Demotion Speed is due to:"
- PROMOTION_DEMOTION_CONCEPT: "#w | #e $game_concept_demotion$#!"
 
  #DIPLOMACY PANEL TAB
  DIPLOMACY_RELATIONS_TAB: "Relations"
@@ -1958,6 +1969,11 @@
  JOMINI_MULTIPLAYER_GUI_MULTIPLAYER_INACCESSIBLE_NAKAMA_RELOGIN: "@trigger_no! Multiplayer service currently unavailable. Relogin to Paradox Plaza or try again later."
  JOMINI_MULTIPLAYER_GUI_MULTIPLAYER_INACCESSIBLE_NO_CHECKSUM: "@trigger_no! Please wait until checksum has been established"
  JOMINI_MULTIPLAYER_GUI_MULTIPLAYER_INACCESSIBLE: "@trigger_no! Multiplayer inaccessible: please sign into $BACKEND$"
+ JOMINI_MULTIPLAYER_GUI_SERVER_SORT_LABEL_PASSWORD_DESC: "Sort by servers needing password"
+ JOMINI_MULTIPLAYER_GUI_SERVER_SORT_LABEL_SERVER_NAME_DESC: "Sort by Game Name"
+ JOMINI_MULTIPLAYER_GUI_SERVER_SORT_LABEL_VERSION_DESC: "Sort by checksum"
+ JOMINI_MULTIPLAYER_GUI_SERVER_SORT_LABEL_PLAYERS_DESC: "Sort by number of players"
+ JOMINI_MULTIPLAYER_GUI_SERVER_SORT_LABEL_STATUS_DESC: "Sort by game status"
  LOBBY_MULTIPLAYER_WAITING_TO_HOST: "Open Multiplayer and select host options"
  LOBBY_MULTIPLAYER_PLAYER_NOT_READY: "$PLAYER_TYPE$ $NAME$ has not selected a country"
  LOBBY_SELECT_MULTIPLAYER: "Select [LobbyView.GetSelectedPlayable.GetCountry.GetNameWithNoTooltip]"
@@ -2722,7 +2738,7 @@
  SORT_POP_GOODS_ACCESS: "Goods Access"
  SORT_POP_SATISFACTION: "Satisfaction"
  SORT_POP_REBEL: "Allegiance"
- LOYAL_POP: "(loyal)"
+ LOYAL_POP: "Loyal"
  POP_JOIN_REBELS: "If [pop_satisfaction|e] is below [LOCATION.GetModifierValueWithCountryCapped('local_pop_join_rebel_threshold', 'pop_join_rebel_threshold')], the pop will join a [rebel|e].\nIt will become loyal again if satisfaction rises above [LOCATION.GetModifierValueWithCountryCapped('local_pop_leave_rebels_threshold', 'pop_leave_rebels_threshold')]."
  POP_JOIN_REBELS_IS_REBEL: "If [pop_satisfaction|e] is below [LOCATION.GetModifierValueWithCountryCapped('local_pop_join_rebel_threshold', 'pop_join_rebel_threshold')], the pop will join a [rebel|e].\n#T It will become loyal again if satisfaction rises above [LOCATION.GetModifierValueWithCountryCapped('local_pop_leave_rebels_threshold', 'pop_leave_rebels_threshold')]#!."
  POP_CURRENT_SATISFACTION: "The satisfaction of [POP.GetUncappedSatisfaction|+=2%] is due to:"
@@ -2762,8 +2778,8 @@
  GOODS_POP_DEMAND_INFO_HEADER: "Pop Demands for [GOODS.GetIcon][GOODS.GetNameWithNoTooltip]"
  NO_POPS_WANTS_THIS: "@trigger_no!No [pop|e] will ever want this good."
  POP_ONLY_IF_DEVELOPMENT: "Pops need to live in a [location|e] with [development|e] above $VAL|0G$ to demand it."
- POP_WANT_IF_WEALTH: "Each 1000 [POP_TYPE.GetIcon][POP_TYPE.GetName] (if [estate|e] has $WEALTH|%2V$ income vs expense) : $NEED|+=G5$"
- POP_WANT_ALWAYS: "Each 1000 [POP_TYPE.GetIcon][POP_TYPE.GetName]: $NEED|+=G5$"
+ POP_WANT_IF_WEALTH: "Each 1000 [POP_TYPE.GetIcon] [POP_TYPE.GetName] (if [estate|e] has $WEALTH|%2V$ income vs expense) : $NEED|+=G5$"
+ POP_WANT_ALWAYS: "Each 1000 [POP_TYPE.GetIcon] [POP_TYPE.GetName]: $NEED|+=G5$"
 
  
  BUILDING_LEVELS_LABEL: "Building Levels in [Location.GetNameWithNoTooltip]"
@@ -3176,7 +3192,7 @@
  ESTATE_SATISFACTION_TAX_TOO_LOW: "@warning_icon! As the satisfaction is below $VAL|Y2%$, it is not possible to raise [taxes|e] from this estate."
  ESTATE_SATISFACTION_TAX_THRESHOLD: "If the satisfaction goes below $VAL|Y2%$, it would not be possible to raise [taxes|e] from this estate."
 
- ESTATE_SATISFACTION_TOOLTIP: "Current: [ESTATE.GetSatisfaction|Y2%]\nMonthly Change: $CHANGE_TARGET$\n[estate_satisfaction_equilibrium|e]: $TARGET$"
+ ESTATE_SATISFACTION_TOOLTIP: "[estate_satisfaction|e]: [ESTATE.GetSatisfactionWithTooltip|L2%]\nMonthly Change: $CHANGE_TARGET$\n[estate_satisfaction_equilibrium|e]: $TARGET$"
  ESTATE_SATISFACTION_LEVY_TOO_LOW: "@warning_icon! As the satisfaction is below $VAL|Y2%$, it is not possible to raise [army_levies|e] or [navy_levies|e] from this estate."
  ESTATE_SATISFACTION: "[estate_satisfaction|e]: [ESTATE.GetSatisfaction|Y%] (#TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|L$#! monthly to $TARGET$)"
  ESTATE_POWER: "[estate_power|e]: $VAL|2%V$"
@@ -3384,6 +3400,8 @@
  TRADE_PROFIT_BREAKDOWN: "#T Crown Income #!\nProfit of [TRADE.GetName]: [TRADE.GetProfit|2+=][gold_i]\nAnd the share for the country is $LOYAL|2L%$ is due to:\n$BREAKDOWN$"
  TRADE_PROFIT_ENTRY: "[TRADE.GetQuantityOfGoodsActuallyMoved|2Y] [TRADE.GetGoods.GetIcon] sold in [TRADE.GetToMarket.GetShortName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|2+=L$[gold_i]#!"
  TRADE_PROFIT_ENTRY_OVERFLOW: "And $VAL|2+=L$[gold_i] from $NUM$ more trades."
+ TRADE_PROFIT_GROUPED_BY_GOOD_ENTRY: "$AMOUNT$ [GOODS.GetIcon][GOODS.GetName]: $PROFIT|+G2V$@gold!" 
+ TRADE_PROFIT_GROUPED_BY_GOOD_TT_TTILE: "[profit|e] from exporting and importing [trades|e] in [Merchant.GetMarket.GetName]"
  
  TRADE_EXPENSE_BREAKDOWN: "#T Crown Costs #!\nProfit of [TRADE.GetName]: [TRADE.GetProfit|2+=][gold_i]"
  
@@ -3397,7 +3415,7 @@
  
  GOODS_COST_FOR_DEMAND_S_ENTRY: "$VAL|2V$ [GOODS.GetIcon][GOODS.GetName]: #TOOLTIP:GOODS_PRICE_ON_MARKET,$DESC_KEY$,X $COST|2-=L$@gold!#!"
  
- ESTATE_NON_ALWAYS_LOYAL_BREAKDOWN: "[gold|e]: [Estate.GetGold|2]@gold!\n[estate_satisfaction|e]: [Estate.GetSatisfactionWithTooltip]\n[estate_satisfaction_equilibrium|e]: [Estate.GetTargetSatisfactionTooltipWrapper]\n[estate_enrichment|e]: [Estate.GetCountry.GetModifierValue('estate_enrichment')]\n"
+ ESTATE_NON_ALWAYS_LOYAL_BREAKDOWN: "[estate_enrichment|e]: [Estate.GetCountry.GetModifierValue('estate_enrichment')]\n"
  ESTATE_BREAKDOWN: "[AddLocalizationIf(Not(Estate.GetType.IsAlwaysLoyal), 'ESTATE_NON_ALWAYS_LOYAL_BREAKDOWN')][estate_power|e]: [Estate.GetRelativePowerWithTooltip] @power!"
  ESTATE_INCOME_BREAKDOWN: "Tax Income Sources for [Estate.GetNameWithNoTooltip]"
  TAXING_ESTATE_INCOME_BREAKDOWN: "Taxed Income for [Estate.GetNameWithNoTooltip]"
@@ -3417,6 +3435,8 @@
  MAX_DIP_SOURCES: "Maximum of [Country.GetModifierValueWithNoTooltipNoSign('max_diplomats')|V] diplomats due to:"
  
  ESTATE_INCOME: "Incomes after taxes"
+ 
+ 
 
  MODIFIER_CAP_DESC: "Capped by $CAP_BY_DESC$ at $CAP_VALUE$"
  MAINTENANCE_INVESTMENT_MIN_MAX: "Minimum Maintenance: [MaintenanceSetting.GetMin|%]\nMaximum Maintenance: [MaintenanceSetting.GetMax|%]"
@@ -3543,11 +3563,12 @@
  GOODS_OUTPUT_BUILDING_ENTRY: "[BUILDING.GetName]: $VAL|+=2$"
  
  PROSPERITY_IN_LOC: "[prosperity] in [Location.GetNameWithNoTooltip]"
- PROSP_CHANGE_DUE_TO: "[prosperity] is [Location.GetProsperity|2%+], and it changes monthly by [Location.GetModifierValueWithCountryNoFormat('local_monthly_prosperity','global_monthly_prosperity')] due to:"
+ PROSP_CHANGE_DUE_TO: "[prosperity] is [Location.GetProsperity|2%+], and it changes monthly by [Location.GetProsperityChange|+=2%] due to:"
  PROSP_EFFECT_DUE_TO: "[prosperity] of [Location.GetProsperity|2%V+] has the following effects:"
- LOCATION_PROSPERTITY_TOOLTIP: "#T Prosperity#!\nThe [prosperity|e] of [LOCATION.GetName] is currently [LOCATION.GetProsperity|2%+], and it changes by [LOCATION.GetModifierValueWithCountry('local_monthly_prosperity','global_monthly_prosperity')] each month, while currently having the following effects:\n[LOCATION.GetProsperityEffect]"
- LOCATION_DEVASTATION_TOOLTIP: "Negative [prosperity] will also recover by [LOCATION.GetModifierValueWithCountry('local_devastation_recovery','global_devastation_recovery')] each month."
- LOCATION_DEVASTATION_UI_TOOLTIP: "If [prosperity] is negative, it will also recover by [Location.GetModifierValueWithCountryNoFormat('local_devastation_recovery','global_devastation_recovery')] each month due to:"
+ PROSPERITY_DECAY: "Decay: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2%$#!"
+
+ PROSP_DEC_TT: "Decay is $PERC|2R%$ of current Prosperity due to"
+ RECOVERY_DUE_TO: "As [prosperity|e] is below 0, it recovers by $VAL|+=2%$ due to"
 
  LOCATION_DEVELOPMENT_TOOLTIP: "#T Development#!\nThe [development|e] of [LOCATION.GetName] is currently [LOCATION.GetDevelopment|2], and it changes by [LOCATION.GetModifierValueAndPercentWithCountry('local_monthly_development','local_monthly_development_modifier','global_monthly_development')] each month, while currently having the following effects:\n[LOCATION.GetDevelopmentEffect]"
  
@@ -3584,7 +3605,7 @@
  RAW_MATERIAL_LOCATION_TABLE_TITLE_TT: "A total of [Location.GetRawMaterialsOutput|2W] [Location.GetRawMaterial.GetIcon] is sold every month for [Location.GetRawMaterialsPrice|G2]@gold! ([Location.GetMarketAccessWithTooltip]) in the [Location.GetMarket.GetName]."
  RAW_MATERIAL_LOCATION_TABLE_CURRENT_OUTPUT_TT_TITLE: "Total [Location.GetRawMaterial.GetNameWithNoTooltip] Output is [Location.GetRawMaterialsOutput|2]@good! due to:"
  RAW_MATERIAL_LOCATION_TABLE_CURRENT_OUTPUT_TT_TEXT: "Each level of this [rgo|e] produces [Divide_CFixedPoint(Location.GetRawMaterialsOutput, Location.GetMaxRGOWorkers)|W] [Location.GetRawMaterial.GetIcon]"
- RAW_MATERIAL_LOCATION_TABLE_MAX_LEVEL_T: "Maximum $game_concept_rgo$ Level"
+ RAW_MATERIAL_LOCATION_TABLE_MAX_LEVEL_T: "Maximum $game_concept_rgo$ Level in [Location.GetNameWithNoTooltip]"
  RAW_MATERIAL_LOCATION_TABLE_MAX_LEVEL_TT_TITLE: "Max RGO Level is [Location.GetMaximumMaxRGOWorkersValueForUI|0W] due to:"
  RAW_MATERIAL_LOCATION_TABLE_TT: "Current [employment|e]:"
  RAW_MATERIAL_LOCATION_TABLE_END_TT: "[output|e] per Level:"
@@ -3914,6 +3935,7 @@
  ATTRITION_TITLE_LOCATION: "#T Attrition#!"
  ATTRITION_TITLE: "#T Attrition#!\nCurrently, taking $VAL|%R2$ [attrition|e] each month."
  ATTRITION_NAVAL_TITLE: "#T Attrition#!\nThere is a $CHANCE|%0Y$ chance of taking $VAL|%R2$ [attrition|e] each day."
+ ATTRITION_MORE_SOURCES: "From external sources to this [location]:"
  ATTRITION_FROM_LACK_OF_FOOD: "Lack of [food|e]: $VAL|%-=2$"
  SUPPLY_LIMIT_EFFICIENCY: "[supply_limit|e] Efficiency"
  SUPPLY_BASE: "Base: $VAL|+=%2$\n"
@@ -4088,7 +4110,7 @@
  CCI_ALREADY: "@trigger_no!We already have a [colonial_charter|e] in [PROVINCE_DEFINITION.GetName]."
  CCI_WASTELAND: "@trigger_no![PROVINCE_DEFINITION.GetName] can not be colonized as it is impassable."
  CCI_OWNS: "@trigger_no!We can not colonize [LOCATION.GetName] as we already own it."
- CCI_BIG_POP: "@trigger_no!We can not colonize [LOCATION.GetName] as the population is already above we already own it."
+ CCI_BIG_POP: "@trigger_no!We can not colonize [LOCATION.GetName] as the population is already above $VAL$."
  CCI_TRUCE: "@trigger_no!We can not colonize [LOCATION.GetName] as we have a [truce|e] with [COUNTRY.GetLongNameWithFlag]."
  CCI_HAS_OWNER: "@trigger_no!We can not colonize [LOCATION.GetName] as it is owned by [COUNTRY.GetLongNameWithFlag]."
  CCI_TOOLOW_PP: "@trigger_no!We can not colonize [LOCATION.GetName] as [COUNTRY.GetLongNameWithFlag] has a too high [power_projection|e]."
@@ -4194,6 +4216,7 @@
  
  BUILDING_LEVEL_MAX_SCRIPT_TITLE: "Maximum Level in [Location.GetNameWithNoTooltip]"
  BUILDING_LEVEL_MAX_TITLE: "Maximum Level in [LOCATION.GetNameWithNoTooltip]"
+ BUILDING_LEVEL_MAX_TABLE_TITLE: "Maximum Level in [Location.GetNameWithNoTooltip] is [Building.GetMaxLevel|0Y] due to:"
  BUILDING_LEVEL_ONLY_ONE_LEVEL: "Can only ever have one level in a location."
  BUILDING_LEVEL_INFO: "Current Level: [BUILDING.GetLevel]\nMaximum Level in [BUILDING.GetLocation.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ [BUILDING.GetMaxLevel|0L]#!"
  BUILDING_FOREIGN_INFO: "[owner|e]: [BUILDING.GetOwner.GetLongNameWithFlag]"
@@ -4328,6 +4351,8 @@
  BUILD_IN_BEST_LOCATION_ACTION_CTRL: "Try to build [BuildingType.GetNameWithNoTooltip] up to [GetDefine('NGUI','BUILDINGS_QUEUE_CTRL_CLICK')] times in the best location"
  BUILD_IN_BEST_LOCATION_ACTION_SHIFT: "Try to Build [BuildingType.GetNameWithNoTooltip] as much as possible in the best locations"
  UPGRADE_BUILDING_ACTION: "Start upgrading to [BuildingType.GetNameWithNoTooltip]"
+ UPGRADE_BUILDING_ACTION_CTRL: "Start upgrading to [BuildingType.GetNameWithNoTooltip] up to [GetDefine('NGUI','BUILDINGS_QUEUE_CTRL_CLICK')] times"
+ UPGRADE_BUILDING_ACTION_SHIFT: "Start upgrading to [BuildingType.GetNameWithNoTooltip] as many times as possible"
  NOT_FILTERED_BUILDING: "This [location|e] is not in the filtered locations"
  
  UNIT_SELL_PRICE_TT: "#TOOLTIP:$BREAKDOWN_TAG$ $NUM|2L$#! #subtle_name [GOODS.GetIcon][GOODS.GetNameNoUnderline]#!: $VAL$"
@@ -4389,6 +4414,7 @@
  MARKET_CONST_LOC_TIP: "The [market|e] will finish being established in #Y $LOCATION$#! on #Y $DATE$#!."
  MARKET_CONST_STALLED_TIP: "Establishing a [market|e] has stalled:"
  CONSTRUCTION_INFO_STALLED: "@trigger_no! Currently stalled!"
+ CONSTRUCTION_INFO_STALLED_SHORT: "@trigger_no! Stalled!"
  STALLED_LACK_OF_GOODS_ACCESS: "@warning_icon!Lack of access to goods."
  STALLED_UNDER_SIEGE: "@warning_icon!Location is under siege."
  CONSTRUCTION_STALLED_OCCUPIED: "@warning_icon!Location is occupied."
@@ -4501,6 +4527,7 @@
  REDUCE_BUILDING_CTRL: "Ctrl + Left-click to destroy $VAL$ buildings."
  CANCEL_BUILDING_SHIFT: "Shift + Left-click to stop building as many buildings as possible."
  CANCEL_BUILDING_CTRL: "Ctrl + Left-click to stop building $VAL$ buildings."
+ CANT_UPGRADE_BUILD_WITHOUT_CANDIDATES: "@trigger_no! We can not build a [BUILDING_TYPE.GetName] as there are no possible [buildings|e] left to upgrade in [LOCATION.GetName]."
  CANT_BUILD_ESTATE_BUILD: "@trigger_no! We can not build a [BUILDING_TYPE.GetName] as only [estates|e] can build them."
  CANT_CLOSE_OTHERS_BUILDINGS: "@trigger_no! We can not close another country's [buildings|e]."
  CANT_CLOSE_ESTATE_BUILD: "@trigger_no! We can not close a building that is owned by an [estate|E]."
@@ -4565,7 +4592,8 @@
  NO_BUILD_ROAD_ENABLED: "@trigger_no! We need to have researched the [ADVANCE_DEFINITION.GetName] [advance|e] to be able to build [roads|e]"
  BUILD_ROAD_NOT_ADJACENT: "@trigger_no![LOCATION.GetName] and [TARGET_LOCATION.GetName] are not adjacent, so no [road|e] can be built."
  BUILD_ROAD_ALREADY: "@trigger_no! We are already building a [ROAD_TYPE.GetName] between [LOCATION.GetName] and [TARGET_LOCATION.GetName]."
- BUILD_ROAD_NOT_NO_ROUTE: "@trigger_no! [LOCATION.GetName] is not adjacent to our country's borders or no route towards it can be found from selected location"
+ BUILD_ROAD_NOT_NO_ROUTE: "@trigger_no! No route towards [LOCATION.GetName] can be found from selected [location|e]"
+ BUILD_ROAD_NOT_NOT_ADJACENT: "@trigger_no! [LOCATION.GetName] is not adjacent to our [country|e]'s or our [subjects|e]' borders"
  ROAD_DISTANCE_IMP: "Capital Distance Cost of $ROAD$ instead of $NOT_ROAD$"
  ROAD_MOVEMENTE_IMP: "$BULLET_WITH_TAB$Movement Cost for [armies|e]: $VAL|-=2%$\n\n"
  SELECT_PROVINCE_FOR_CASUS_BELLI: "Select [province|e] for [casus_belli|e]:"
@@ -5508,6 +5536,8 @@
  mapmode_natural_harbor_suitability_name: "Natural Harbor Suitability"
  MAPMODE_NATURAL_HARBOR_SUITABILITY: "#T $mapmode_natural_harbor_suitability_name$#!\n$mapmode_common_start$ how well the coastline lends itself to being a harbor."
  mapmode_harbor_capacity_name: "Harbor Capacity"
+ MAPMODE_TRADE_RANGE: "#T $mapmode_trade_range_name$#!\n$mapmode_common_start$ what [markets|e] are within your [trade_range|e] of a particular market."
+ mapmode_trade_range_name: "Trade Range"
  MAPMODE_HARBOR_CAPACITY: "#T $mapmode_harbor_capacity_name$#!\n$mapmode_common_start$ the capacity of harbors."
  mapmode_weather_name: "Current Weather"
  MAPMODE_WEATHER: "#T $mapmode_weather_name$#!\n$mapmode_common_start$ what strength of weather system affects the location."
@@ -6184,6 +6214,7 @@
  great_power_rank: "[great_power_rank|e]"
  unit_location: "Location"
  rank: "Rank"
+ heir_status_icon: "Heir status icon"
  characters_eligible_for_royal_marriage: "Eligible characters"
  loan_name_as_borrower: "Loaned to"
  loan_name_as_lender: "Loaned from"
@@ -6579,8 +6610,8 @@
  MP_CHAT_TO_PIN: "Left-click to pin the multiplayer chat"
  MP_CHAT_TO_UNPIN: "Left-click to unpin the multiplayer chat"
 
- FAV_MAPMODES_TO_PIN: "Left-click to pin the Favourite Mapmodes"
- FAV_MAPMODES_TO_UNPIN: "Left-click to unpin the Favourite Mapmodes"
+ FAV_MAPMODES_TO_PIN: "Left-click to pin the Favorite Mapmodes"
+ FAV_MAPMODES_TO_UNPIN: "Left-click to unpin the Favorite Mapmodes"
 
  ASSUME_CONTROL: "Assume Control"
  ASSUME_CONTROL_TT: "#T Assume Control of the Siege #!"
@@ -6610,12 +6641,12 @@
 
  GARRISON_SORTIE_TT: "Garrison Sortie"
  garrison_sortie: "$GARRISON_SORTIE_TT$"
- garrison_sortie_desc: "Attack the army assieging the fort with the [garrison|e].\nIf the [combat|e] is lost, the [siege|e] will be immediately lost too."
+ garrison_sortie_desc: "Attack the army sieging the fort with the [garrison|e].\nIf the [combat|e] is lost, the [siege|e] will be immediately lost too."
 
- MAP_COLOR_LEDGER_TITLE: "Legend Key"
- MAP_COLOR_LEDGER_SIMPLE: "#T Legend Key#! The searcher of this map mode."
- OPEN_MAP_COLOR_LEDGER: "Open the Searcher"
- CLOSE_MAP_COLOR_LEDGER: "Close the Searcher"
+ MAP_COLOR_LEDGER_TITLE: "Mapmode Legend"
+ MAP_COLOR_LEDGER_SIMPLE: "#T Mapmode Legend#! Show the legend of this map mode."
+ OPEN_MAP_COLOR_LEDGER: "Open the Legend"
+ CLOSE_MAP_COLOR_LEDGER: "Close the Legend"
  REQUIREMENT_ARE_NOT_MET: "@trigger_no! Requirements are not met"
  CURRENT_ARMIES_HEADER: "Current Armies"
  CURRENT_NAVIES_HEADER: "Current Navies"
@@ -6769,7 +6800,7 @@
  UNIT_DISEASE_SUBUNITS_PRESENCE_TT: "[Unit.GetNumSubunitsWithDiseasePresence(Disease.Self)|W] $game_concept_sub_units$ affected with an average of [Unit.GetDiseasePresence(Disease.Self)|0W%] Presence."
  UNIT_PRESENCES_LABEL: "$game_concept_disease$ presences for this [unit|e]"
  UNIT_RESISTANCES_LABEL: "$game_concept_disease$ resistances for this [unit|e]"
- TRANSPORT_CAPACITY_SIMPLE: "#T Transport Capacity #! Army [strength|e] this [navy|e] could transport, current we have [UnitMarkerItem.GetUnit.GetUsedTransportCapacity] transported up to a maximun of [UnitMarkerItem.GetUnit.GetMaxTransportCapacity]."
+ TRANSPORT_CAPACITY_SIMPLE: "#T Transport Capacity #! Army [strength|e] this [navy|e] could transport, current we have [UnitMarkerItem.GetUnit.GetUsedTransportCapacity] transported up to a maximum of [UnitMarkerItem.GetUnit.GetMaxTransportCapacity]."
  RECRUIT_ARMIES: "Recruit [armies]"
  RECRUIT_NAVIES: "Recruit [navies]"
  RAISE_ARMY_LEVIES_TT: "Raise [army_levies]"
@@ -6813,11 +6844,16 @@
  BANKRUPTCY_UNTIL: "Until [Country.GetBankruptcyEndDate|V] the following effects"
  IN_BANKRUPTCY: "We are bankrupt!"
  DECLARE_BANKRUPTCY: "Declare Bankruptcy"
- DECLARE_BANKRUPTCY_EFFECT: "Our country will declare bankruptcy. All our debt will be forgiven but the consequences on our economy and relations with our lenders will be severe. We will lose $STABHIT|=+0$ [stability|e]. $EFFECT$"
- BANKRUPTCY_NO_LOANS: "Cannot declare bankrupcy without being in debt."
+ DECLARE_BANKRUPTCY_EFFECT: "Our country will declare bankruptcy. All our debt will be forgiven but the consequences on our economy and relations with our lenders will be severe."
+ DEC_BAN_CONTROL: "$BULLET$[control|e] over [locations|e]: $VAL|+=2%$"
+ DEC_BAN_STABILITY: "$BULLET$ [stability|e]: $VAL|=+0$"
+ DEC_BAN_INFLATION: "$BULLET$ [inflation|e]: $VAL|=%-2$"
+ DEC_BAN_BUILDING: "$BULLET$ [building|e] levels lost: $VAL|2%R$"
+ 
+ BANKRUPTCY_NO_LOANS: "Cannot declare bankruptcy without being in debt."
 
  UNIT_BREAKDOWN: "[SubUnitType.GetNameWithNoTooltip] Attributes"
- UNIT_BREAKDOWN_TT: "#T [SubUnitType.GetNameWithNoTooltip] Attributes#!This shows all the details of a [SubUnitType.GetName], its different abilities and statistics."
+ UNIT_BREAKDOWN_TT: "#T [SubUnitType.GetNameWithNoTooltip] Attributes#! This shows all the details of a [SubUnitType.GetName], its different abilities and statistics."
  
  REB_CURRENT_PROGRESS: "Progress to Uprising"
  REB_MONTHLY_PROGRESS: "Monthly Progress"
@@ -7084,8 +7120,11 @@
  CONFIRM_ACTION: "Are you sure you want to\n'$ACTION$'?"
  CONFIRM_TITLE: "Are you sure?"
 
- PIN_ACTION: "Pin Action"
- UNPIN_ACTION: "Unpin Action"
+ PIN_ACTION: "Pin Action to Context Menu"
+ UNPIN_ACTION: "Unpin Action from Context Menu"
+
+ PIN_OUTLINER: "Pin to Outliner"
+ UNPIN_OUTLINER: "Unpin from Outliner"
 
  PIN_CATEGORY: "Pin Category"
  UNPIN_CATEGORY: "Unpin Category"

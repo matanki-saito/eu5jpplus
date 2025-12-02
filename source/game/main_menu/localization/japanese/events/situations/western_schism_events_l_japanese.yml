@@ -55,7 +55,7 @@
  western_schism.15.desc: "[ShowSituationName('western_schism')]が招いた我々の信仰の凋落は、[unrest_province.GetName]の人々の信頼を大きく切り崩した。この信頼と安定の空白地帯に、[target_character.GetName]が異端の説教と腐敗の告発を持ち込んできた。[target_character.GetSheHe]は真の[ROOT.GetCountry.GetReligion.GetAdjective]徒であると主張しているものの、その説教は[unrest_province.GetNameWithNoTooltip]の住民の一部を危険な思想に傾倒させており、この異端の拡大を防ぐためには迅速な行動を要する。"
  western_schism.15.a: "[target_character.GetHerHis|U]の思想はそれほど悪くなさそうだが。"
  western_schism.15.b: "[target_character.GetNameWithNoTooltip]の説教をやめさせろ。"
- western_schism.1000.title: "#italic Oboedientia#!（従順）の対価"
+ western_schism.1000.title: "オボエディエンティアの対価"
  western_schism_action_event_tt: "候補者のひとりに金銭的な援助を頼もう。"
  western_schism.1001.desc: "[target.GetName]は、我々のような重要かつ名誉ある[ROOT.GetCountry.GetFlavorRank]にふさわしい方法で、忠誠心に報いてくれた。我々の支持があれば、誰もが[target.GetNameWithNoTooltip]を真の[GetInternationalOrganization('catholic_church').GetLeaderTitle]として受け入れるに違いない。"
  western_schism.1001.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

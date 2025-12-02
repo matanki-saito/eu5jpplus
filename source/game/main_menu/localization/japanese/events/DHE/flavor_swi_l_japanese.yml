@@ -31,7 +31,7 @@
  flavor_swi.111.desc.fallback: "[ShowReligionAdjective('catholic')]と[ShowReligionAdjective('lutheran')]の構成国たちは互いを敵視している。この対立はやがて[target_location.GetName]で激化し、のちに「[target_location.GetNameWithNoTooltip]戦争」として知られることになる争乱の引き金となった。"
  flavor_swi.111.historical_info: "カッペル戦争は、カッペル・アム・アルビス近郊において、カトリック派とプロテスタント派のカントンのあいだで発生した2度にわたる武力衝突。第一次（1529年）はフルドリッヒ・ツヴィングリの影響力拡大が引き金となり、「キリスト教連合」の結成につながった。第二次（1531年）はミラノ公国とのムッソ戦争において、カトリック派がプロテスタント派のカントンへの援助を拒否したことが原因となった。カトリック派とプロテスタント派の関係修復は、1847年のゾンダーブント戦争の終結まで実現しなかった。"
  flavor_swi.111.a: "[GetUniqueInternationalOrganization('swiss_confederation').GetNameWithNoTooltip]にとって困難な時代だ。"
- sc_every_member_gains_force_convert_cb_tt: "すべてのメンバーが、ほかの異端メンバーに対して[casus_belli|e]「[ShowCasusBelliName('cb_heretic')]」を得る"
+ sc_every_member_gains_force_convert_cb_tt: "すべてのメンバーが、ほかの異端メンバーに対する[casus_belli|e]「[ShowCasusBelliName('cb_heretic')]」を得る"
  flavor_swi.120.title: "[GetUniqueInternationalOrganization('swiss_confederation').GetNameWithNoTooltip]と[GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]"
  flavor_swi.120.desc: "[GetUniqueInternationalOrganization('hre').GetName]のみならず、[ShowContinentName('europe')]の広範囲をも巻き込んだ大規模な宗教的動乱が終結したいま、[GetUniqueInternationalOrganization('swiss_confederation').GetName]の各カントンは、帝国との緩やかな関係を再考しはじめている。連邦の構成国は、[ShowLawName('sc_relations_with_hre')]に関する議題をさらに議論するよう提案した……"
  flavor_swi.120.historical_info: "スイス連邦は、その成立当初から法的には神聖ローマ帝国の一部とされていた。しかし、スイスのカントンは時とともに次第に自立性を高め、この地域における神聖ローマ皇帝の影響力を徐々に弱めていき、1499年までには事実上の独立を果たした。1648年のヴェストファーレン条約はスイス連邦の独立を承認し、スイス領が帝国の一部ではなくなったことを正式に確認した。"

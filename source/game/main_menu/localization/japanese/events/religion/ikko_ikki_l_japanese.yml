@@ -1,6 +1,6 @@
 ﻿l_japanese:
  ikko_ikki.1.title: "$ikko_ikki$が勃発！"
- ikko_ikki.1.desc: "終わりのない戦乱への不満が高まり、[ShowReligionGroupName('buddhist')]の[target_io.GetName]の教えに従う農民、僧侶、小作人たちが公然と[target_character.GetName]の支配に反旗を翻すようになった。ここで断固たる行動をとり、この寄せ集めの反乱軍を鎮圧しなければ、騒動が広がり、わが国の安定が大きく揺るぎかねない。"
+ ikko_ikki.1.desc: "終わりのない戦乱への不満が高まり、[target_io.GetName]の教えに従う農民、僧侶、小作人たちが公然と[target_character.GetName]の支配に反旗を翻すようになった。ここで断固たる行動をとり、この寄せ集めの反乱軍を鎮圧しなければ、騒動が広がり、わが国の安定が大きく揺るぎかねない。"
  ikko_ikki.1.a: "思い知らせてやれ！"
  ikko_ikki.1.b: "火に油を注ぐのはやめる。"
  ikko_ikki.2.title: "$ikko_ikki$、[ROOT.GetCountry.GetNameWithNoTooltip]に広がる！"
@@ -27,7 +27,7 @@
  ikko_ikki.6.desc: "$ikko_ikki$を抑え、彼らの支配下にあった町は廃止された。信者たちは武装解除され、いまや我々の代官だけが通行料や税金を徴収し、部外者に対する防衛をおこなう権限をもつようになった。"
  ikko_ikki.6.a: "秩序は取り戻された。"
  ikko_ikki_no_longer_available.tt: "[religious_faction|e]「$ikko_ikki$」が利用できなくなる"
- ikko_ikki.6.b: "もう一度、[target_io.GetNameWithNoTooltip]の信仰に慰めを見いだす。"
+ ikko_ikki.6.b: "もう一度、[target_io.GetNameWithNoTooltip]の信仰に慰めを見出す。"
  ikko_ikki.7.title: "並立する権力"
  ikko_ikki.7.desc: "$ikko_ikki$の共同体は、これからも続くようだ。我々は自分たちの権威を守ろうとしてきたが、その一方で、かなりの権利と特権を彼らの寺内町に譲ってきた。そして、彼らは今後も我々の社会で相応の役割を果たしつづけるだろう。"
  ikko_ikki.7.a: "彼らは我々の目的に役立つ。"

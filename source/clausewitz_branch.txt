@@ -1,1 +1,1 @@
-caesar/release/1.0.7
+caesar/release/1.0.8

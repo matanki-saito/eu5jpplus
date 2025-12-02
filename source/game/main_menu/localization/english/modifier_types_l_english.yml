@@ -165,6 +165,10 @@
  MODIFIER_TYPE_DESC_local_monthly_development_modifier: "This impacts how much [development|e] changes monthly in a [location|e]."
  MODIFIER_TYPE_NAME_global_monthly_prosperity: "Monthly Prosperity"
  MODIFIER_TYPE_DESC_global_monthly_prosperity: "This impacts how much [prosperity|e] changes monthly in all [locations|e] in a [country|e]."
+ MODIFIER_TYPE_NAME_local_prosperity_decay: "Prosperity Decay"
+ MODIFIER_TYPE_DESC_local_prosperity_decay: "This impacts how quickly [prosperity|e] dissapear in a [location|e]."
+ MODIFIER_TYPE_NAME_global_prosperity_decay: "Prosperity Decay"
+ MODIFIER_TYPE_DESC_global_prosperity_decay: "This impacts how quickly [prosperity|e] dissapears in all [locations|e] in a [country|e]."
  MODIFIER_TYPE_NAME_global_monthly_development: "Monthly Development"
  MODIFIER_TYPE_DESC_global_monthly_development: "This impacts how much [development|e] changes monthly in all [locations|e] in a [country|e]."
  MODIFIER_TYPE_NAME_power_projection: "Power Projection"
@@ -478,6 +482,8 @@
  MODIFIER_TYPE_DESC_casus_belli_creation_speed: "This impacts how quickly a [country|e] can create a new [casus_belli|e]."
  MODIFIER_TYPE_NAME_casus_belli_creation_speed_modifier: "Casus Belli Creation Speed"
  MODIFIER_TYPE_DESC_casus_belli_creation_speed_modifier: "This impacts how quickly a [country|e] can create a new [casus_belli|e]."
+ MODIFIER_TYPE_NAME_shared_border_impact: "Opinion Impact from Shared Borders"
+ MODIFIER_TYPE_DESC_shared_border_impact: "This impacts how large the negative [opinion|e] that other [countries|e] get from sharding borders."
  MODIFIER_TYPE_NAME_subject_opinions: "Subject Opinions"
  MODIFIER_TYPE_DESC_subject_opinions: "This impacts the [opinion|e] that [subjects|e] have of a [country|e]."
  MODIFIER_TYPE_NAME_antagonism_received_modifier: "Antagonism Received"
@@ -1407,6 +1413,8 @@
  MODIFIER_TYPE_DESC_train_general_cost_modifier: "This impacts how much it [costs|e] to train a new [general|e]."
  MODIFIER_TYPE_NAME_train_admiral_cost_modifier: "Train Admiral Cost"
  MODIFIER_TYPE_DESC_train_admiral_cost_modifier: "This impacts how much it [costs|e] to train a new [admiral|e]."
+ MODIFIER_TYPE_NAME_invite_foreign_cleric_cost_modifier: "Invite Foreign Cleric Cost"
+ MODIFIER_TYPE_DESC_invite_foreign_cleric_cost_modifier: "This impacts how much it [costs|e] to invite a new foreign cleric to our court."
  MODIFIER_TYPE_NAME_destroy_market_cost_modifier: "Destroy Market Cost"
  MODIFIER_TYPE_DESC_destroy_market_cost_modifier: "This impacts how much it [costs|e] to destroy a [market|e]."
  MODIFIER_TYPE_NAME_change_court_language_cost_modifier: "Change Court Language Cost"
@@ -2756,7 +2764,7 @@
  MODIFIER_TYPE_NAME_has_appanages_subjects: "Has Appanages"
  MODIFIER_TYPE_DESC_has_appanages_subjects: "Unlocks the Appanage [subject|e] type. Appanages represent landed titles that have been bestowed to a member of the ruling dynasty."
  MODIFIER_TYPE_NAME_appanage_prevented_from_call_to_war: "Disallowed from Call Appanage to War"
- MODIFIER_TYPE_DESC_appanage_prevented_from_call_to_war: "This Appanage has either recieved special privileges from their overlord or are disloyal and cannot be called into wars by their overlord."
+ MODIFIER_TYPE_DESC_appanage_prevented_from_call_to_war: "This Appanage has either received special privileges from their overlord or are disloyal and cannot be called into wars by their overlord."
 
  MODIFIER_TYPE_NAME_peace_offer_fairness: "Peace Offer Fairness"
  MODIFIER_TYPE_DESC_peace_offer_fairness: "This increases the importance of War Participation when giving treaties to allies in a war."
@@ -3944,3 +3952,9 @@
 
  MODIFIER_TYPE_NAME_change_government_type_price_cost_modifier: "$change_government_type_price$ Modifier"
  MODIFIER_TYPE_DESC_change_government_type_price_cost_modifier: "This impacts the [costs|e] of changing our [government_type|e] through [actions|e] in the $lateralview_form_new_country_entry_name$."
+
+ MODIFIER_TYPE_NAME_union_allowed_enforce_peace: "Allow $subject_enforce_peace$ in $union$"
+ MODIFIER_TYPE_DESC_union_allowed_enforce_peace: "This allows the [ShowSpecialStatusName('senior_partner')] to use the [ShowCountryInteractionName('subject_enforce_peace')] [diplomatic_action|e] on [ShowSpecialStatusNamePlural('junior_partner')]."
+
+ MODIFIER_TYPE_NAME_unlock_prikazi_reform_cabinet_actions: "Unlock $prikazi_reform$ [cabinet_actions|e]"
+ MODIFIER_TYPE_DESC_unlock_prikazi_reform_cabinet_actions: "Unlocks the [ShowCabinetActionName('aptekarsky')], [ShowCabinetActionName('bolshogo_dvortsa')], [ShowCabinetActionName('ispolneniya_zakonov')], [ShowCabinetActionName('kazenny')], [ShowCabinetActionName('posolsky')], [ShowCabinetActionName('razryadny')], and [ShowCabinetActionName('streltsy')] [cabinet_actions|e]"

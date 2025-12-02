@@ -47,7 +47,7 @@
  free_cities.12.b: "'...unfit to rule...' So, no help sent then."
  free_cities.13.title: "City League"
  free_cities.13.desc: "The Hanseatic League and the Lombard League have inspired us to inquire if any other Free Cities would be willing to enter a league together with us. We Free Cities are weak alone, but collectively it has already been proven that mutual cooperation between small nations in matters such as trade, keeping imperial peace, and supporting tribunals and maintaining a unified force makes us a force to be reckoned with that even Great Powers will struggle to suppress."
- free_cities.13.a: "Send diplomats to [SCOPE.sCountry('fc_league_invitation_target').GetName]!"
+ free_cities.13.a: "Send diplomats to [SCOPE.sCountry('fc_league_invitation_target').GetNameWithNoTooltip]!"
  free_cities.13.b: "Couldn't we just hire mercenaries instead?"
  free_cities.14.title: "The City League Suggestion"
  free_cities.14.desc: "There have been many Leagues of mutual cooperation within the [GetUniqueInternationalOrganization('hre').GetName]. The Hanseatic League, for example, was a league of merchant guilds in a commercial and defensive confederation, or the Swabian League which was a mutual defense and peacekeeping association. Some Leagues become so powerful and united that they are even viewed as a state in themselves, like the Swiss League. The [ShowSpecialStatusName('free_city')] of [SCOPE.sCountry('fc_league_invitation_source').GetName] has suggested that we join something similar, a cooperation of sorts, where we collaborate in matters of trade, keeping imperial peace, and supporting tribunals."

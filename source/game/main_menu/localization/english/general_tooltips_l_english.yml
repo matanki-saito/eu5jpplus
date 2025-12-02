@@ -189,7 +189,7 @@
  
  
  LANGUAGE_POWER_TT_TITLE: "Language Power"
- LANGUAGE_POWER_BREAKDOWN: "[LANGUAGE.GetNameWithNoTooltip] has a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $HIGH|Y2$\n\n"
+ LANGUAGE_POWER_BREAKDOWN: "[LANGUAGE.GetNameWithNoTooltip] has a power of $VAL|2G$ while [TARGET_LANGUAGE.GetName] has $TARGET_VAL|Y2$\n\n"
  
  LANGUAGE_POWER_CLERGY_HEAD: "#T For every #V 1,000#! [ShowPopTypeName('clergy')] [pops|e] of the [primary_religion|e] where its the [liturgical_language|e] gives $VAL|2Y$#!"
  LANGUAGE_POWER_CLERGY_ENTRY: "$BULLET_WITH_TAB$$CLERGY|Y$ in [COUNTRY.GetName]: $VAL|2+=$"
@@ -502,6 +502,7 @@
 
  OPEN_WORKS_OF_ART_TAB: "Show Works of Art"
  OPEN_ADVANCES_AGES_TAB: "Show Ages"
+ OPEN_KNOWN_COUNTRIES_TAB: "Open Known Countries"
 
  LOCATION_CLICK_IMPORT_EXPORT_LATERALVIEW: "Left-click to select this [market|e] to start an $IMPORT$"
  LOCATION_CLICK_RECRUIT_LATERALVIEW: "Left-click to select this [location|e] to start a recruiment\nRight click to select this [location|e] to remove an ongoing recruiment"
@@ -551,12 +552,12 @@
  ARMY_TOO_LARGE: "Above the [supply_limit|e]: $VAL|-=2$"
  LEADING_TO_ATTRITION: "[attrition|e]: #TOOLTIP:$BREAKDOWN_TAG$ $ATTRITION|RL%$#!"
  ATTRITION_NONE_SOURCE: "$BULLET_WITH_TAB$Currently not taking any attrition"
- OUTSIDE_OF_NAVAL_RANGE_ATTRITION: "Outside of naval range: $VALUE|2%-=$"
- FROZEN_ATTRITION: "[frozen|e] Sea: $VALUE|2%-=$"
+ OUTSIDE_OF_NAVAL_RANGE_ATTRITION: "Outside of naval range: $VALUE|2/-=$"
+ FROZEN_ATTRITION: "[frozen|e] Sea: $VALUE|2-=$"
  NAVY_FROZEN_ATTRITION: "Stuck in [frozen|e] Sea: $VALUE|2/-=$"
- ARMY_AT_SEA_ATTRITION: "At Sea: $VALUE|2%-=$"
- NAVAL_DAYS_AT_SEA: "Days at Sea: $VAL|2-=$"
- HOSTILE_NAVAL_ATTRITION: "Hostile Naval Batteries & Forts: $VALUE|2%-=$"
+ ARMY_AT_SEA_ATTRITION: "At Sea: $VALUE|2-=$"
+ NAVAL_DAYS_AT_SEA: "Days at Sea: $VAL|2/-=$"
+ HOSTILE_NAVAL_ATTRITION: "Hostile Naval Batteries & Forts: $VALUE|2-=$"
  STUCK_IN_ICE_TT: "Stuck in [frozen|e] water in [LOCATION.GetName]."
  UNIT_HIDDEN_TT_FROM_LAND: "[hidden|e] from adjacent land [locations|e]."
  UNIT_HIDDEN_TT_FROM_LAND_AND_SEA: "[hidden|e] from adjacent land [locations|e] and [seazones|e]."

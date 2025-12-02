@@ -2924,7 +2924,7 @@
  modernization_of_the_military: "Modernization of the Military"
  modernization_of_the_military_desc: "Our state lives and dies by the capabilities of our army. It was our military that not only ensured our survival but also our thrive to greatness. We cannot allow ourselves to fall behind in the military advances."
 
- 
+ #Naples
  
  university_naples: "The University of Naples"
  university_naples_desc: "Founded in 1224 by Emperor Frederick II, the University of Naples is one of Italy's oldest public institutions. Embracing a secular ethos, it has provided generations of students with a comprehensive education and contributed to intellectual advancements across various fields."
@@ -2950,6 +2950,20 @@
  neapolitan_industrialization_desc: "Starting in the 18th century, the Kingdom of Naples witnessed a gradual process of industrialization. Key sectors such as textiles, shipbuilding, and ironworks experienced growth, fueled by investments and technological advancements. This shift towards industrialization will play a significant role in transforming Naples into a major economic center."
  neapolitan_army_reforms: "Neapolitan Army Reforms"
  neapolitan_army_reforms_desc: "Our nation needs to undergo sweeping military reforms, modernizing its armed forces to meet the challenges of the changing battlefield. These reforms will bolster tactical capabilities, streamline command structures, and enhance training programs, positioning us as a formidable force in our region."
+
+ #Two Sicilies
+ tws_unified_legal_code: "Unified Legal Code"
+ tws_unified_legal_code_desc: "The territories which constitute our land have suffered revolts due to unjust applications of laws. In order to prevent these occurances in the future, we should standardize our legal code and ensure fair application of our laws. This will surely prevent any uprising spiraling into chaos."
+ tws_ensure_loyal_families: "Loyalty of the Noble Families"
+ tws_ensure_loyal_families_desc: "The Noble Families of both Sicilies exert much power in our stead. By granting them prestigious yet meaningless roles at court, we will ensure their loyalty and guarantee stable rule over our countryside."
+ tws_revitalize_the_lands: "Attract new People"
+ tws_revitalize_the_lands_desc: "Much of the previous rulers' attention was too focused on only specific areas of our lands. If we want to retain hold of both Sicilies, we will have to invest into both parts to an equal and just degree. One step towards this goal is to attract people to previously neglected areas."
+ tws_capable_vicars: "Capable Vicars"
+ tws_capable_vicars_desc: "A particular struggle of our unified country was the governance on the other side of the Strait of Messina. Since our ruler can only be present on one side at a time, the other will have to be given to a vicar, ruling in our name. This will have to be ensured by appointing only the most capable people to this vital rule and preventing corruption within the role."
+ tws_oversea_ambitions: "Overseas Ambitions"
+ tws_oversea_ambitions_desc: "Expanding our territories within Italy is a difficult task, navigating a treacherous web of alliances and risking the anger of the Pope himself. Therefore we should look overseas, where potentially rich lands lie in northern Africa and Greece."
+ tws_protect_the_coastline: "Increase Maritime Patrols"
+ tws_protect_the_coastline_desc: "Our coastline is vast and vunerable to raids by pirates hunting for slaves. We need to establish a navy to patrol, protect, and eventually defeat this vile threat to our people."
 
  #Florence & Tuscany
 
@@ -5920,3 +5934,30 @@
 
  cth_sufet_rule: "Rule of Šūfeṭ"
  cth_sufet_rule_desc: "Our ancient kingdom was headed by an elected head of state called the Šūfeṭ. In this new modern age, we shall reorganize our government, taking experience from antiquity and combining it with modern theories to create the most powerful Republican system, one that will outshine every Republic created up to this date."
+
+#Aztec Formable Advances
+
+ network_of_cities: "Network of Cities"
+ network_of_cities_desc: "Across lakes and valleys, our cities bind themselves through roads, markets, and shared purpose, strengthening our reach."
+
+ status_by_merit: "Status by Merit"
+ status_by_merit_desc: "Warriors and nobles rise through valor and service, ensuring authority belongs to those who have truly earned it."
+
+ expansion_merchant_guilds: "Expansion of Merchant Guilds"
+ expansion_merchant_guilds_desc: "Pochtēcah merchants extend their routes far beyond our lands, enriching every marketplace loyal to the Mexihcah."
+
+ centralized_city_governance: "Centralized City Governance"
+ centralized_city_governance_desc: "The refomation of our government, in an attempt to support the sprawl of our newly-attained urban territories, shall be united under firm oversight, creating a more orderly and dependable administration."
+
+ wealth_of_mesoamerica: "Wealth of Mesoamerica"
+ wealth_of_mesoamerica_desc: "The fertile soils, forests, and mines of Ānāhuac yield immense riches, sustaining our growth and imperial ambitions. Properly utilizing these resources will bolster our affluence."
+
+ study_european_colonizers: "Study the European Colonizers"
+ study_european_colonizers_desc: "Strangers have made contact with our people. Their unfamiliar ships and weapons strike awe and fear. Understanding their methods may be the key to survival."
+
+ new_fire_ceremonies: "New Fire Ceremonies"
+ new_fire_ceremonies_desc: "Once every fifty-two years, the world is renewed by flame, uniting the people in faith and cosmic balance."
+
+ sun_must_rise: "The Sun Must Rise"
+ sun_must_rise_desc: "Through devotion and ritual, we keep the sun's journey alive, easing the hearts and strengthening the spirit of our people. The preservation of equilibrium, and even the world, rests upon our shoulders."
+

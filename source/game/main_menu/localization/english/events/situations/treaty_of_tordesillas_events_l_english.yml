@@ -26,11 +26,11 @@
  treaty_of_tordesillas.4.c: "No matter, new treaties can be signed in its wake."
  treaty_of_tordesillas.4.d: "We no longer have a need for it."
 
- treaty_of_tordesillas.5.title: "The [actor.GetAdjective] Demand"
+ treaty_of_tordesillas.5.title: "The [actor.GetAdjectiveWithNoTooltip] Demand"
  treaty_of_tordesillas.5.desc: "A diplomat from the [actor.GetLongName] has brought us an outrageous demand. They claim that the $treaty_of_tordesillas$ gives them the right to colonize and rule over the province of [selected_province.GetName] even if those lands are currently under our control.\n\nThey vehemently demand that we transfer our holdings in [selected_province.GetNameWithNoTooltip] to them immediately or face the consequences."
  treaty_of_tordesillas.5.a: "We will regretfully agree to their demands."
  treaty_of_tordesillas.5.b: "We will not accept their tyrannical ultimatum."
- treaty_of_tordesillas.5.c: "Send message to [overlord.GetName], it is time for them to come to our aid."
+ treaty_of_tordesillas.5.c: "Send message to [overlord.GetNameWithNoTooltip], it is time for them to come to our aid."
 
  treaty_of_tordesillas.6.title: "An Amendment to the $treaty_of_tordesillas$"
  treaty_of_tordesillas.6.desc: "We have received a proposal from the [actor.GetLongName]. They are aware of our claim to the area of [target_recipient_area.GetName], a region they covet for themselves and that borders their claims to [target_actor_area.GetName].\n\nThey suggest a swap of those claims, so we will hold the claim to [target_actor_area.GetNameWithNoTooltip] and they will claim [target_recipient_area.GetNameWithNoTooltip].\n\nAs an amicable request, we are free to reject it, but they might not like it."

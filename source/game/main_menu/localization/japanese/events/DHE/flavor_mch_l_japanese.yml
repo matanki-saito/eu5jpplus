@@ -11,7 +11,7 @@
  flavor_mch.3.a: "軍を改革せよ。旧来のやり方はもはや時代遅れだ。"
  flavor_mch.3.b: "馬鹿な！ 蛮族ごときが孫子の国に何を教えられる？"
  flavor_mch.4.title: "[target_character.GetShortNameWithNoTooltip]の任命問題"
- flavor_mch.4.desc: "[target_character.GetShortName]という名の新進気鋭の大臣が、近ごろ注目を集めている。[target_character.GetSheHe]は外交と行政において卓越した手腕を誇るが、噂によれば完全に腐敗しており、その政治力を己の欲望を満たすためやえこひいきに使っているという。果たして、[target_character.GetSheHe]を首席大臣に任命するべきだろうか？"
+ flavor_mch.4.desc: "[target_character.GetShortName]という名の新進気鋭の大臣が、近ごろ注目を集めている。[target_character.GetSheHe]は外交と行政において卓越した手腕を誇るが、噂によれば完全に腐敗しており、その政治力を己の欲望を満たすためやえこひいきに使っているという。\n\n果たして、[target_character.GetSheHe]を首席大臣に任命するべきだろうか？"
  flavor_mch.4.a: "任命せよ。欠点は誰にでもある。"
  flavor_mch.4.b: "腐敗は国家をも腐らせる！"
  flavor_mch.5.title: "後金"

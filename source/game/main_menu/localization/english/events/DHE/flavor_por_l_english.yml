@@ -7,7 +7,7 @@
 
  flavor_por.2.title: "Atlantic Slave Trade"
  flavor_por.2.desc: "The establishment of Plantations has proven a successful endeavor for [ROOT.GetCountry.GetName]. With the growing demand for the goods of these specialized farms, there is also an increasing demand for cheap labor. With our existing connections to the African trade we have an opportunity to expand the acquisition of [ShowPopTypeName('slaves')] from [ShowSubContinentName('west_africa')] to satisfy the plantation's demands."
- flavor_por.2.a: "Encourage Slave trade from [ShowSubContinentName('west_africa')WithNoTooltip]"
+ flavor_por.2.a: "Encourage Slave trade from [ShowSubContinentNameWithNoTooltip('west_africa')]"
  african_slave_trade_encouraged: "Slave Trade Encouraged"
  flavor_por.2.b: "The Crown should not get involved"
  flavor_por.2.historical_info: "The exploitation of land and resources in the New World colonies led to an extensive use of slave labor. As a large part of the indigenous population died from overwork and diseases spread from Europe, the labor shortage soon became problematic for the colonizers. Indentured servitude lessened this somewhat but failed to provide the workforce required. This was the start of the Atlantic slave trade, where slaves bought along the West African coast were transported to Brazil. Over 3 million African slaves were sent to Brazil, mainly to work on the vast sugar plantations."
@@ -81,7 +81,7 @@
  flavor_por.17.title: "A Period of Uncertainty"
  flavor_por.17.desc: "The failure to produce a living male heir is putting the future of the [ROOT.GetCountry.GetFlavorRank] at risk of foreign intervention. Should the daughter of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] succeed [ROOT.GetCountry.GetGovernment.GetRuler.GetHimHer], she risks becoming a mere puppet to a husband who instead would rule [ROOT.GetCountry.GetName] in her place.\n\nThe [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] are proposing we change the law of succession to exclude [heir.GetName] from inheriting the crown. They have united in their cause to choose the illegitimate half-brother and noble [john_avis.GetName] to take [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] place, should the [ROOT.GetCountry.GetGovernment.GetRulerTitle] fail to produce a male heir."
  flavor_por.17.a: "Refuse their proposition."
- flavor_por.17.a.custom: "The [ShowPopTypeName('burghers')] and [ShowPopTypeName('nobles')] in [GetCountry('POR').GetName] loose #R 90.00%#! [pop_satisfaction|e]"
+ flavor_por.17.a.custom: "The [ShowPopTypeName('burghers')] and [ShowPopTypeName('nobles')] in [GetCountry('POR').GetName] lose #R 90.00%#! [pop_satisfaction|e]"
  flavor_por.17.tt1: "The [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')] will attempt to place [john_avis.GetNameWithNoTooltip] on the throne"
  flavor_por.17.tt2: "The valiance displayed by the [ROOT.GetCountry.GetGovernment.GetRulerTitle] is recognized for taking a stance against the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and the [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]"
  avis_supporters: "Supporters of João Avis"

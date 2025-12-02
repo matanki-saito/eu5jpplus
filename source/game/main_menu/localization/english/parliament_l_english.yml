@@ -69,7 +69,7 @@
  prepare_for_war_select_province_title: "Select [province|e] to set as the [war_goal|e]"
  select_a_country_to_get_casus_belli_on: "Select a [country|e] that our [Player.GetGovernment.GetParliament.GetName] will grant us a [casus_belli|e] on."
  prepare_for_war: "Fabricate Casus Belli"
- prepare_for_war_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to approve a [war|e] by giving us a legitimate [casus_belli|e].\n• We will choose a country that is not a [rebel|e] nation or our [subject|e], that lies within our [diplomatic_range|e], and with which we do not currently have a [truce|e], to get a: \n[ShowCasusBelliName('cb_fabricated_conquer_province')] [casus_belli|e]"
+ prepare_for_war_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to approve a [war|e] by giving us a legitimate [casus_belli|e].\n• We will choose a country that is not a [rebel|e] nation or our [subject|e], that lies within our [diplomatic_range|e], and with which we do not currently have a [truce|e], to get a: \n[ShowCasusBelliName('cb_parliament_conquer_province')] [casus_belli|e]"
  PARLIAMENT_IN_SESSION: "[Player.GetGovernment.GetParliament.GetName] in Session"
 
  #Issues

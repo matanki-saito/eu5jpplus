@@ -2,7 +2,7 @@
  coup_attempt.1.title: "鉄と反逆"
  coup_attempt.1.desc: "空気が裏切りの囁きに満ちている。わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]に、[target_character.GetName]の支配を失墜させようとする陰謀が渦巻いているのだ。廷臣たちは閉ざされた扉の向こうで密談を交わし、我らが[ROOT.GetCountry.GetFlavorRank]の基盤そのものが揺らいでいる。流血を伴う反逆が巻き起こってしまう前に、我々は迅速かつ果断に行動しなければならない。もしも評議員たちを結集させなければ、陰謀を企てる者たちはより大胆になり、我々が大きく弱みを見せた隙に、長く続く不安定な時代を作り出すことだろう。"
  coup_attempt.1.a: "陰謀者をあぶり出し、叩き潰せ！"
- explain_coup_attempt_tt: "[disaster|e][actions|e]「[ShowGenericActionName('conduct_investigation')]」、「[ShowGenericActionName('call_private_council')]」、「[ShowGenericActionName('execute_court_member')]」が利用可能になる。\n "
+ explain_coup_attempt_tt: "[disaster|e][actions|e]「[ShowGenericActionName('conduct_investigation')]」、「[ShowGenericActionName('call_private_council')]」、「[ShowGenericActionName('execute_court_member')]」が利用可能になる。\n"
  explain_coup_attempt_2tt: "#Y 5#!年以内、または陰謀者たちが[target_character.GetNameWithNoTooltip]の暗殺する前に我々の[legitimacy|e]を増加させるか、陰謀者を全員処刑することで[disaster|e]を乗り越えることができる"
  coup_attempt.2.title: "拡大する陰謀"
  coup_attempt.2.desc: "謀反の報告がいくつも届けられ、わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]は毒蛇の巣窟となりつつある。日々、新たな離反者と隠れた同盟の噂がもたらされる。かつて忠誠を誓った者たちが、いまや影の広間で共謀しているのだ。危機は深まるばかりで、やがて我々の手に負えないほどの悪循環へと陥ってしまうだろう。いまこそ行動を起こし、毒を撒き散らそうとする者たちを追い出す時なのだ！"

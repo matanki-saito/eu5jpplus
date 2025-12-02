@@ -149,7 +149,7 @@
  flavor_lit.22.b: "We must not allow their power to grow further."
 
  flavor_lit.23.title: "Religious Privilege of [target_character.GetNameWithNoTooltip]"
- flavor_lit.23.desc: "[ROOT.GetCountry.GetName] has long had a number of [ShowReligionAdjective('orthodox')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] within its borders. However, many of them do not enjoy equal status with their [ROOT.GetCountry.GetReligion.GetAdjective] counterparts. They now stand in opposition to [target_character.GetName], whom they blame for this injustice. If we are to win them over, we must guarantee them the same legal rights as the rest of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
+ flavor_lit.23.desc: "[ROOT.GetCountry.GetName|U] has long had a number of [ShowReligionAdjective('orthodox')] [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] within its borders. However, many of them do not enjoy equal status with their [ROOT.GetCountry.GetReligion.GetAdjective] counterparts. They now stand in opposition to [target_character.GetName], whom they blame for this injustice. If we are to win them over, we must guarantee them the same legal rights as the rest of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
 
  flavor_lit.23.historical_info: "To properly establish a feudal realm in Lithuania, Sigismund Kęstutaitis needed the trust of his Orthodox subjects. In 1434, he granted them privileges ensuring that no noble—regardless of religion — could be imprisoned or punished without a court's approval."
 

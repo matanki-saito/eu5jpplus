@@ -1823,6 +1823,8 @@
  STATIC_MODIFIER_NAME_curbed_peasants_power_modifier: "Curbed Peasant Power"
  STATIC_MODIFIER_NAME_cnc_local_authority_asserted: "Local Authority Asserted"
  STATIC_MODIFIER_NAME_cnc_refused_to_pay_taxes: "Tax Exemption"
+ STATIC_MODIFIER_NAME_absolutist_influences_government_modifier: "Absolutist Influences in the Government"
+ STATIC_MODIFIER_NAME_liberal_influences_government_modifier: "Liberal Influences in the Government"
 
 #Aspiration for Liberty
  STATIC_MODIFIER_NAME_reinstated_the_parliament_modifier: "Reinstated the Legislative Assemblies"
@@ -1980,6 +1982,7 @@
 #Nahua Reform
  STATIC_MODIFIER_NAME_major_push_for_reform: "Major Push for Reform"
  STATIC_MODIFIER_NAME_nahuatl_temple_expansion_modifier: "Temple Expansion"
+ nahuatl_temple_expansion_modifier: "[ShowModifier('nahuatl_temple_expansion_modifier')]"
 
 #Muscovy
  STATIC_MODIFIER_NAME_siege_artillery_engineer: "Employing Artillery Commander"

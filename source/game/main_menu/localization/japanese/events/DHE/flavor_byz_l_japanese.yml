@@ -57,7 +57,7 @@
  flavor_byz.14.b: "連中に頼ることはできん！"
  byz_magnates_wont_offer_again_tt: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]は海軍の問題で二度と支援を申し出なくなる"
  flavor_byz.15.title: "[target_character2.GetNameWithNoTooltip]の海軍改革"
- flavor_byz.15.desc: "わが海軍が落ちぶれたことは明白だ。国民が直面している近年の混乱は、帝国の国庫を枯渇させ、あらゆる分野での消耗と不足を招いている。このような状況にもかかわらず、我々の[target_character2.GetName]と称する顧問団は、かつての海軍の栄華を取り戻す計画を立案した！"
+ flavor_byz.15.desc: "わが海軍が落ちぶれたことは明白だ。国民が直面している近年の混乱は、帝国の国庫を枯渇させ、あらゆる分野での消耗と不足を招いている。このような状況にもかかわらず、我らが[target_character2.GetName]の権威を笠に着た顧問団は、かつての海軍の栄華を取り戻す計画を立案した！"
  flavor_byz.15.a: "これは重要な改革だ。"
  flavor_byz.15.b: "資金はほかの目的に使うべきだ……"
  flavor_byz.16.title: "[target_character.GetNameWithNoTooltip]"

@@ -87,7 +87,7 @@
  revolutionary_chaos.205.b: "[target_character.GetNameWithNoTooltip]が[ROOT.GetCountry.GetNameWithNoTooltip]を治めるべきだ！"
  revolutionary_chaos.205.c: "我々は革命の意味を見失ったのかもしれない。"
  revolutionary_chaos.1000.title: "統治者の運命"
- revolutionary_chaos.1000.desc: "革命以来、[target_character.GetName]をはじめとする旧体制の支配層は宮殿に軟禁され、[target_character.GetName]は新政府の消極的な操り人形と化している。[target_character.GetName]は革命の社会的進歩を保証すると約束していたものの、自らの権力が大きく損なわれたことに対する侮蔑的な態度を隠そうともしなかった。そして、[target_country.GetName]にいる我々の敵のもとに保護を求めて逃げ出し、[ROOT.GetCountry.GetName]の統治者として返り咲こうと企んでいたのだ。しかし、[target_character.GetName]が国境を越える前に、革命軍がそれを阻んだ。\n\nこのことは、#italic アンシャン・レジーム#!を軽蔑し、その災禍を永久に取り除くことを望むすべての人々を勇気づけた。彼らは[target_character.GetName]を国民議会に連行し、外国勢力と共謀した、つまり裏切者であるという罪で裁判にかけることにした。有罪となれば、[target_character.GetName]は退位を余儀なくされ、すべての称号を剥奪され、ギロチンによる処刑を免れない。だが、緊張は非常に高まっており、投票は接戦となる可能性が高いだろう。"
+ revolutionary_chaos.1000.desc: "革命以来、[target_character.GetName]をはじめとする旧体制の支配層は宮殿に軟禁され、[target_character.GetName]は新政府の消極的な操り人形と化している。[target_character.GetName]は革命の社会的進歩を保証すると約束していたものの、自らの権力が大きく損なわれたことに対する侮蔑的な態度を隠そうともしなかった。そして、[target_country.GetName]にいる我々の敵のもとに保護を求めて逃げ出し、[ROOT.GetCountry.GetName]の統治者として返り咲こうと企んでいたのだ。しかし、[target_character.GetName]が国境を越える前に、革命軍がそれを阻んだ。\n\nこのことは、#italic アンシャン・レジーム#!を軽蔑し、その災禍を永久に取り除くことを望むすべての人々を勇気づけた。彼らは[target_character.GetName]を国民議会に連行し、外国勢力と共謀した、つまり裏切り者であるという罪で裁判にかけることにした。有罪となれば、[target_character.GetName]は退位を余儀なくされ、すべての称号を剥奪され、ギロチンによる処刑を免れない。だが、緊張は非常に高まっており、投票は接戦となる可能性が高いだろう。"
  revolutionary_chaos.1000.a: "処刑に賛成361票、反対360票だ。"
  every_non_revolutionary_monarchy_dislikes_us_tt: "既知のすべての[ShowGovernmentTypeName('monarchy')]の、[ROOT.GetCountry.GetName]に対する[opinion|e]が[ShowBiasValue('opinion_guelphs_support_imperial_rivals')|-0]変化する"
  revolutionary_chaos.1000.b: "処刑に反対361票、賛成360票だ。"

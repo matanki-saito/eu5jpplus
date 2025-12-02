@@ -10,7 +10,7 @@
  rival_branch_sayfawa: "セフワの対立系譜"
  csd_every_pop_satisfaction_tt: "[target_province.GetName]のすべてのPOP：\n[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]減少する\n[rival_branch_sayfawa_scope.GetName]に加わる"
  crisis_of_the_sayfawa_dynasty.3.title: "一族の内紛"
- crisis_of_the_sayfawa_dynasty.3.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]と[ROOT.GetCountry.GetGovernment.GetAdjective]の血筋の者たちが、権力の切れ端をめぐって相争うのは珍しいことではない。貴族の血を引く王子が兄弟に対して武力を振りかざすのは、この争乱の時代にあってはごく伝統的なことである。作法を明らかに無視した[ROOT.GetCountry.GetGovernment.GetAdjective]の振る舞いから、世界の目には我々は無教養かつ衰退した国に映っている。\n\n家族に鞭打つことを怠れば、我々は必ずやその応報に苦しむことになるだろう。[ROOT.GetCountry.GetGovernment.GetAdjective]家は、かつての輝きを取り戻し、些細な不満や権力欲にまみれた愚か者を排除しなければならない。"
+ crisis_of_the_sayfawa_dynasty.3.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]と[ROOT.GetCountry.GetGovernment.GetAdjective]の血筋の者たちが、権力の切れ端をめぐって相争うのは珍しいことではない。貴族の血を引く王子が兄弟に対して武力を振りかざすのは、この争乱の時代にあってはごく伝統的なことである。作法を明らかに無視した[ROOT.GetCountry.GetGovernment.GetAdjective]の振る舞いから、世界の目には我々は無教養かつ衰退した国に映っている。\n\n家族に鞭打つことを怠れば、我々は必ずやその応報に苦しむことになるだろう。[ROOT.GetCountry.GetGovernment.GetAdjective]一族は、かつての輝きを取り戻し、些細な不満や権力欲にまみれた愚か者を排除しなければならない。"
  crisis_of_the_sayfawa_dynasty.3.a: "彼らに思い知らせなければ。"
  crisis_of_the_sayfawa_dynasty.3.b: "彼らもまた家族だ……"
  crisis_of_the_sayfawa_dynasty.4.title: "団結による力"

@@ -33,7 +33,7 @@
  savonarola.8.a: "すべて焼き尽くせ！"
  savonarola.8.b: "これは行きすぎだ。"
  savonarola.9.title: "サヴォナローラの破門"
- savonarola.9.desc: "[GetCharacter('flo_savonarola').GetName]と[GetCountry('PAP').GetGovernment.GetRuler.GetName][GetCountry('PAP').GetGovernment.GetRulerTitle]との意見の相違は、後戻りできないところまできてしまった。サヴォナローラの熱狂はますます大きなものとなり、教会の権威に対するやむことのない攻撃は、教皇庁にとって懸念の原因となっている。[GetCountry('PAP').GetGovernment.GetRulerTitle]の要求は何度も無視され、異端と扇動の告発が山積しつつある。\n\n結局、[GetCountry('PAP').GetGovernment.GetRulerTitle]は極端な措置をとることを決定した。彼を破門し、彼を匿う可能性のある者全員を脅したのだ。"
+ savonarola.9.desc: "[GetCharacter('flo_savonarola').GetName]と[GetCountry('PAP').GetGovernment.GetRuler.GetName][GetCountry('PAP').GetGovernment.GetRulerTitle]との意見の相違は、もはや後戻りできない状態である。サヴォナローラの熱狂はますます大きなものとなり、教会の権威に対するやむことのない攻撃は、教皇庁にとって懸念の原因となっている。[GetCountry('PAP').GetGovernment.GetRulerTitle]の要求は何度も無視され、異端と扇動の告発が山積しつつある。\n\n結局、[GetCountry('PAP').GetGovernment.GetRulerTitle]は極端な措置をとることを決定した。彼を破門し、彼を匿う可能性のある者全員を脅したのだ。"
  savonarola.9.a: "当然の結果だ！"
  savonarola.10.title: "炎による試練"
  savonarola.10.desc: "[GetCharacter('flo_savonarola').GetName]の熱狂さはかつてないほど高まっている。教会に対する彼の非難は、婉曲的な表現を遥かに超え、公然とした中傷に変わっていった。彼の最新の出版物による、「教会のなかに異端がいる」という告発に対する反論も、より過激になものとなっている。彼は奇跡を起こす能力があるとさえ主張しはじめたが、もしそれが本当なら、彼が神に導かれていることは間違いない。このような奇跡を証明するために、彼は燃え盛る炎のなかを歩むという、炎の試練に挑むこととなった。もし彼が本当に神に導かれているのであれば、彼は炎に焼かれることなく、無傷で通り抜けることができるだろう。\n\n試練の当日、中央広場には大勢の見物人が押しかけた。辺りには期待と緊張が満ちており、試練の開始を待たされる群衆の雰囲気はどんどん険悪なものになっていった。そしてついに、突然の降雨のために試練はすべて中止となり、人々はサヴォナローラに怒りを露わにして帰っていった。"

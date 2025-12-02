@@ -933,6 +933,8 @@
  CUSTOM_SEARCH_FILTER_DIPLO_SUBJECT_CAT_DESC: "Show only the Subject Actions."
  CUSTOM_SEARCH_FILTER_DIPLO_INFLUENCE_CAT_NAME: "Influence Actions"
  CUSTOM_SEARCH_FILTER_DIPLO_INFLUENCE_CAT_DESC: "Show only the Influence Actions."
+ CUSTOM_SEARCH_FILTER_DIPLO_HRE_CAT_NAME: "Imperial Actions"
+ CUSTOM_SEARCH_FILTER_DIPLO_HRE_CAT_DESC: "Show only the Imperial Actions."
 
  custom_search_filter_manage_subjects_category_name: "@subject! Subject Type filters"
  CUSTOM_SEARCH_FILTER_SUBJECT_TYPE_NAME: "$NAME$" 

@@ -26,7 +26,7 @@
  random_event.7.title: "素晴らしい年"
  random_event.7.desc: "昨年は豊作で、商人や起業家にとって素晴らしい一年となった。税基盤が強化され、わが[ROOT.GetCountry.GetFlavorRank]の収入が増加した。"
  random_event.7.a: "収入は[ROOT.GetCountry.GetFlavorRank]のために役立てよう。"
- random_event.7.b: "早速利益を活用する"
+ random_event.7.b: "さっそく利益を活用しよう。"
  random_event.7.c: "未来に投資する。"
  random_event.8.title: "外交関係の変化"
  random_event.8.desc: "国家間の外交関係はしばしば、両国の外交団の力の及ばない、偶発的な要因によって変化する。近隣諸国との関係がかつてない速度で変化するため、外交官は対応に苦慮している。"

@@ -222,7 +222,7 @@
  hint_unprofitable_buildings: "赤字の建造物"
  hint_unprofitable_buildings_hint_text: "$hint_unprofitable_buildings_hint_text_1$\n\n$hint_unprofitable_buildings_hint_text_2$\n\n$hint_unprofitable_buildings_hint_text_3$"
  hint_unprofitable_buildings_hint_text_1: "建造物は、投入される[goods|E]の合計コストがその[produced_goods|E]の利益を上回る場合、「赤字」とみなされます。"
- hint_unprofitable_buildings_hint_text_2: "#T 推奨されるプレイ：#!\n@arrow_bonus_tier_3!生産と[importing|E]を活用して投入交易品の供給量を確保し、コストを低下させる。\n@arrow_bonus_tier_3!交易品の需要を増加させ、その価格を高める。\n@arrow_bonus_tier_3!不要になった[buildings|E]は、閉鎖や破壊が可能です。\n@arrow_bonus_tier_3![market_owner|E]では、自国からの輸出品の価格を引き上げるために、同じ交易品を輸出する国家に禁輸措置をとることができます。"
+ hint_unprofitable_buildings_hint_text_2: "#T 推奨されるプレイ：#!\n@arrow_bonus_tier_3!生産と[importing|E]を活用して投入交易品の供給量を確保し、コストを低下させる。\n@arrow_bonus_tier_3!交易品の需要を増加させ、その価格を高める。\n@arrow_bonus_tier_3!不要になった[buildings|E]は、閉鎖@building_open!や破壊が可能です。\n@arrow_bonus_tier_3![market_owner|E]では、自国からの輸出品の価格を引き上げるために、同じ交易品を輸出する国家に禁輸措置をとることができます。"
  hint_unprofitable_buildings_hint_text_3: "#T 追加ヒント：#!\n@hint!一部の建造物には[subsidized|E]@subsidy!をおこなうことができます。これは[pop_needs|E]や、軍隊の維持に必要な交易品の[import|E]コストが高い場合などに有効です。"
  hint_unprofitable_buildings_diplomatic: "「国家の産業全体の収益性を管理するのは骨が折れる。細かい仕事に手を煩わされたくなければ、自国の官僚機構に任せることも可能だ」"
  hint_unprofitable_buildings_military: "「わが国の軍事力が高まるほど、健全な保護交易主義を維持する能力も高まる。競争相手に大砲を向ければ、禁輸措置や交易紛争はより効果的になるからだ」"

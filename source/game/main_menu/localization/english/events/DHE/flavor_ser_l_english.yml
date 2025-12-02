@@ -3,8 +3,8 @@
 #Events
   flavor_ser.10.title: "The Weakness of the Crown"
   flavor_ser.10.desc: "The conquests and legacy spearheaded by [GetCharacter('ser_stefan_dusan').GetName] gave way to the rise of a powerful new force in the Balkans. However, the passing of our former ruler led to the rise of [target_character.GetName]. Grappling with the loss of our country's most revered head of state, many advisors have begun whispering throughout our halls about the inadequacy of our leadership. Rumors of indecisiveness and impotence have corroded the royal authority, applying pressure and risking the destruction of what we have built. Our fate hangs in the balance, and [target_character.GetNameWithNoTooltip]'s rule risks eradicating our imperial legacy and an uncontrollable descent into chaos."
-  flavor_ser.10.a: "Let [target_parent.GetName] oversee the regency."
-  flavor_ser.10.b: "We will trust [target_dynasty_member_scope.GetName] with the throne."
+  flavor_ser.10.a: "Let [target_parent.GetNameWithNoTooltip] oversee the regency."
+  flavor_ser.10.b: "We will trust [target_dynasty_member_scope.GetNameWithNoTooltip] with the throne."
   flavor_ser.10.c: "[target_character.GetNameWithNoTooltip] must go!"
   flavor_ser.10.d: "We are no cowards, we will fight!"
   flavor_ser.10.e: "They will be brought on their knees."

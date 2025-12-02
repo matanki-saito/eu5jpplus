@@ -141,7 +141,7 @@
  red_turban_rebellions.1001.a: "新たな戦争を起こす余裕はまだない。"
  red_turban_rebellions.1001.b: "反乱軍を始末したら、やつらの首を槍に飾ってやろう……"
  #Scripted Effects / Triggers
- rtr_yuan_allegiance: "元への忠誠"
+ rtr_yuan_allegiance: "元への忠誠度"
  rtr_release_warlord_country_tt: "[target_country.GetName][ShowGovernmentReformName('warring_state')]を解放"
  rtr_lose_competent_characters: "[CULTURE.GetName]文化の最も有能な[characters|e]が、最大#R 8#!人、[TARGET_COUNTRY.GetName]に移動する"
  first_rtr_lose_competent_characters: "わが国の[CULTURE.GetName]文化の最も有能な[characters|e]が、最大#R 8#!人、[TARGET_COUNTRY.GetName]に移動する"
@@ -171,5 +171,5 @@
  rtr_annex_tt: "[ROOT.GetCountry.GetName]が[annex_target_country.GetName]を併合する"
  rtr_become_china_effect_tt: "[target_country.GetName]が[GetInternationalOrganizationType('middle_kingdom').GetName]の新たなリーダーとなる"
  rtr_core_all_of_china: "[GetInternationalOrganizationType('middle_kingdom').GetName]に属するすべての[location|e]が[TARGET_COUNTRY.GetName]の[core|e]となる"
- rtr_gain_annex_cb_on_china: "[TARGET_COUNTRY.GetName]が[ShowRegionName('east_china_region')]、[ShowRegionName('north_china_region')]、[ShowRegionName('south_china_region')]、[ShowRegionName('west_china_region')]のすべての独立国に対して[casus_belli|e]「[ShowCasusBelliName('cb_chinese_unification')]」を得る"
+ rtr_gain_annex_cb_on_china: "[TARGET_COUNTRY.GetName]が[ShowRegionName('east_china_region')]、[ShowRegionName('north_china_region')]、[ShowRegionName('south_china_region')]、[ShowRegionName('west_china_region')]のすべての独立国に対する[casus_belli|e]「[ShowCasusBelliName('cb_chinese_unification')]」を得る"
  rtr_recreate_middle_kingdom.tt: "[GetInternationalOrganizationType('middle_kingdom').GetName]が蘇る"

@@ -841,6 +841,10 @@
  request_cardinal_tt: "The designated [location|e] will gain a [ShowBuildingTypeName('seat_of_cardinal')], if sanctioned by [GetCountry('PAP').GetAdjective] authority."
  recently_requested_cardinal: "A Country recently requested a cardinal"
 
+ invite_foreign_cleric: "Invite Foreign Cleric"
+ invite_foreign_cleric_desc: "We will be sent an experienced clergyman from another country. It will anger our local [actor.GetGovernment.GetEstateName('clergy_estate')], but the expertise of this foreign cleric may be invaluable."
+ invite_foreign_cleric_tt: "A foreign [actor.GetReligion.GetAdjective] [character|e] of the [ShowEstateTypeName('clergy_estate')] with high [adm|e], medium [dip|e] and low [mil|e] will arrive in our [country|e].
+
 #Catholic Church Laws and Policies
  cc_indulgences: "The Purchase of Indulgence"
  cc_indulgences_desc: "The official stance of the [GetInternationalOrganization('catholic_church').GetName] on the matter of Indulgences."

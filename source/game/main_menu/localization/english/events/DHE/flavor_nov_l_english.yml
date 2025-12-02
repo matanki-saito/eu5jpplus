@@ -116,7 +116,7 @@
  nov_accepted_alliance_with_us: "Accepted Alliance with us"
  flavor_nov.24.title: "Alliance with [GetCountry('LIT').GetNameWithNoTooltip]"
  flavor_nov.24.desc: "Our envoys to [GetCountry('LIT').GetName] have come back with good news: [GetCountry('LIT').GetNameWithNoTooltip] decided to ally us!"
- flavor_nov.24.a: "[marfa_boretskaya.GetName] was right all along!"
+ flavor_nov.24.a: "[marfa_boretskaya.GetNameWithNoTooltip] was right all along!"
  flavor_nov.25.title: "Alliance with [GetCountry('LIT').GetNameWithNoTooltip]"
  flavor_nov.25.desc: "Our envoys to [GetCountry('LIT').GetName] have come back with bad news: [GetCountry('LIT').GetNameWithNoTooltip] rejected to ally us!"
  flavor_nov.25.a: "Why did we trust this woman?"

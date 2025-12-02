@@ -101,7 +101,7 @@
  JOIN_WAR_REASON_Instigator: "侵略国"
  JOIN_WAR_REASON_DESC_Instigator: "[COUNTRY.GetName]が[war|e]を開始した。"
  JOIN_WAR_REASON_Target: "最初の標的"
- JOIN_WAR_REASON_DESC_Target: "[COUNTRY.GetName]は[war|e]を宣言した相手である。"
+ JOIN_WAR_REASON_DESC_Target: "[COUNTRY.GetName]は宣戦布告した相手である。"
  JOIN_WAR_REASON_CoBelligerent: "共戦国"
  JOIN_WAR_REASON_DESC_CoBelligerent: "[COUNTRY.GetName]は[cobelligerent|e]として宣戦布告された。"
  JOIN_WAR_REASON_Subject: "[TARGET_COUNTRY.GetName]の従属国"

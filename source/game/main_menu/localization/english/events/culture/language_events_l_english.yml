@@ -12,7 +12,7 @@
  language.2.desc: "The [overlord.GetLongName]'s continued usage of [enemy_dialect.GetName] as the preferred language in their court has gained them some controversy due to the present conflict with the [enemy_country.GetLongName].\n\nAs a solution, they have instead decided to adopt [new_language.GetName] as their Court Language. Should we follow their lead?"
  language.2.a: "We too should promote official use of our native [common_dialect.GetNameWithNoTooltip] language."
  language.2.b: "We too should adopt [new_language.GetNameWithNoTooltip]."
- language.2.c: "No, but it is time to adopt the [common_dialect.GetName] speech ourselves."
+ language.2.c: "No, but it is time to adopt the [common_dialect.GetNameWithNoTooltip] speech ourselves."
  language.2.d: "No, there is nothing wrong with [enemy_dialect.GetNameWithNoTooltip]."
 
  language.10.title: "The [country.GetGovernment.GetRulerTitle|U]'s Speech"

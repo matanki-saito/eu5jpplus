@@ -647,6 +647,7 @@
  yakata_desc: "Originating from the residences of court nobility, the yakata are where the power of the warrior families congregates. Hosting facilities to gather their retainers as well as some elements for their defense, they host the best of each clan."
  shoen: "Shōen"
  shoen_desc: "Land assigned to be privately owned by a particular family or temple, they operate almost as independent manors or estates, becoming a great source of influence and wealth for their owners."
+ we_are_shugo_tt: "Needs to be [ShowSpecialStatusName('shugo_daimyo')] of this province"
  tatara: "Tatara"
  tatara_desc: "The traditional way of smelting iron and steel, they serve to provide the metal for the production of high quality tools and weapons."
  clan_shipyards: "Clan Shipyards"

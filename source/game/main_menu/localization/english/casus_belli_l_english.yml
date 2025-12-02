@@ -106,6 +106,7 @@
  cb_crush_hussitism_desc: "The garden of our faith has been infested with a powerful new sect. We must take quick action and protect our believers."
  cb_nanbokuchou: "$nanbokuchou$"
  cb_nanbokuchou_desc: "The $nanbokuchou$ is a time of conflict. We must take advantage of the situation."
+ not_same_side_in_nanbokucho_tt: "They are supporting a different side in the [ShowSituationName('nanbokuchou')]"
  cb_destroyed_building: "Destroyed Buildings"
  cb_destroyed_building_desc: "They have destroyed our buildings and need to pay for it!"
  cb_take_shogunate: "Take the Shogunate"

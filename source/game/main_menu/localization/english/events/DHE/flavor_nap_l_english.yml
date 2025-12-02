@@ -164,7 +164,7 @@
  flavor_nap.300.a: "[GetCountry('NAP').GetGovernment.GetHeir.GetNameWithNoTooltip] will be our new ruler."
  flavor_nap.300.b: "[queen_sister_spouse.GetNameWithNoTooltip] is the best possible successor."
  flavor_nap.300.c: "The Two Sicilies shall be reunited, [palermo_ruler.GetNameWithNoTooltip] will succeed us."
- flavor_nap.300.d: "[french_ruler.GetName] of [GetCountry('FRA').GetNameWithNoTooltip] will rule [GetCountry('NAP').GetNameWithNoTooltip]."
+ flavor_nap.300.d: "[french_ruler.GetNameWithNoTooltip] of [GetCountry('FRA').GetNameWithNoTooltip] will rule [GetCountry('NAP').GetNameWithNoTooltip]."
 
  flavor_nap.301.title: "[GetCountry('NAP').GetAdjectiveWithNoTooltip] Decision"
  flavor_nap.301.desc: "The [GetCountry('NAP').GetLongName] has a new ruler, and since we used to be joined by a personal union, if we want to preserve it, we will need to invite [naples_ruler.GetName] to also rule over [ROOT.GetCountry.GetName]. Doing so might ensure the union but might also make us look like the junior partner."
@@ -253,7 +253,7 @@
 
  flavor_nap.115.title: "San Leucio Experiment"
  flavor_nap.115.desc: "In [GetCurrentYear], [target_character.GetName] has selected San Leucio, a former royal hunting lodge in [target_location.GetName], for an innovative social and technological experiment. San Leucio resort will become a hub for pleasure, hunting, and [ShowGoodsName('silk')] production, featuring industrial buildings, a workers' village, and advanced technologies."
- flavor_nap.115.a: "[ShowGoodsName('silk')|U] of the finest quality will be produced here."
+ flavor_nap.115.a: "[ShowGoodsNameWithNoTooltip('silk')|U] of the finest quality will be produced here."
 
  flavor_nap.116.title: "Accademia Pontaniana Delights the World"
  flavor_nap.116.desc: "The Accademia Pontaniana, initially known as the Accademia Antoniana, serves as a learned society for scholars and humanists from where knowledge that enriches our nation is born."

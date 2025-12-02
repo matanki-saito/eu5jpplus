@@ -624,7 +624,7 @@
  MARKET_PRICE_WITH_CHANGE: "$VAL|2$@$DIFFERENCE$!@$ICON$!"
  GOODS_MARKET_ENTRY_TITLE: "[GoodsMarketEntry.GetGoods.GetNameWithNoTooltip] in [Market.GetShortNameWithNoTooltip]"
  GOODS_NOT_A_RAW_MATERIAL: "@trigger_no![GOODS.GetName] is not a [raw_material|e]"
- GOODS_NOT_IN_THIS_MARKET: "@trigger_no! We do not now own any [locations|e] in the [MARKET.GetName] that can produce more [GOODS.GetName] as a [raw_material|e]."
+ GOODS_NOT_IN_THIS_MARKET: "@trigger_no! We do not currently own any [locations|e] in the [MARKET.GetName] that can produce more [GOODS.GetName] as a [raw_material|e]."
  GOODS_CLICK_TO_SELECT_WHERE: "Select which location to expand in."
  GOODS_NOT_POSS_BUILDINGS: "@trigger_no! There are no [buildings|e] that [COUNTRY.GetName] knows about that can produce [GOODS.GetName]"
  GOODS_CLICK_TO_SELECT_WHERE_B: "Select which location to build in."
@@ -666,7 +666,7 @@
 
  equality: "Equality"
  equality_desc: "Buildings are filled in equal proportions with the employees available."
- first_come_first_serve: "First Come, First Serve"
+ first_come_first_serve: "First Come, First Served"
  first_come_first_serve_desc: "Buildings are filled in the order they were built."
  capitalism: "Most Profitable First"
  capitalism_desc: "Buildings are filled in order of which makes the most profit."

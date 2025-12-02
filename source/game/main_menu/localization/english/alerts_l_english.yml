@@ -16,6 +16,8 @@
  ALERT_CALL_ALLY: "#T Call Allies#!\nWe can call $DATA$ into our [wars|e]."
  ALERT_BREAKING_IO: "#T Breaking International Organization #!\nThe following [international_organizations|e] are in danger of breaking up as relations within them deteriorate:"
  ALERT_NO_LEADER: "#T Lack of Commander#!\nThe following [units|e] lack a [commander|e]:"
+ ALERT_RELATION_ABOUT_TO_BE_BROKEN: "#T Breaking Relations #!\nThe following relations with us are about to be broken by other countries:"
+ ALERT_RELATION_ABOUT_TO_BE_BROKEN_ENTRY: "[COUNTRY.GetName] breaking [RELATION_TYPE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|+2$#!"
  ALERT_VERY_LOW_FOOD: "#T Serious Lack of Food#!\nThe following [armies|e] lack [food|e] and their food supply is critical, they will start to take [attrition|e]:"
  ALERT_LOW_FOOD: "#T Lack of Food#!\nThe following [armies|e] lack [food|e] and their food supply is dwindling, they may soon start to take [attrition|e]:"
  ALERT_CBS: "#T Unpressed Casus Belli#!\nThe following [casus_bellis|e] have not been pressed:"

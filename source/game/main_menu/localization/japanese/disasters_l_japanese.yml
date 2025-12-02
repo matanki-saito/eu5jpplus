@@ -1,6 +1,6 @@
 ﻿l_japanese:
  #Common Loc
- DISASTER_BREAKDOWN: "Disaster Breakdown"
+ DISASTER_BREAKDOWN: "国難の概要"
  no_event_occurs_tt: "[event|e]は発生しない"
  an_event_occurs_tt: "この[disaster|e]に関連する[event|e]が発生する可能性がある"
  #Succession Crisis
@@ -118,7 +118,7 @@
  revolution_disaster_end_trigger_tt: "#Y 革命反乱者#!は[civil_war|e]を計画していない"
  MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip][army|e]規模：[DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip]の動員可能な[levy|e]：[DisasterView.GetDisaster.GetOwner.GetArmyLevyPotentialStrength]@levy\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip][manpower|e]：[DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
  REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]の見込み[military_strength|e]"
- REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip][army|e]規模：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip]の動員可能な[levy|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPotentialStrength]@levy\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
+ REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip][army|e]規模：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip]の動員可能な[levy|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPotentialStrength]@levy!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
  MONARCHIST_POTENTIAL_STRENGTH_TT: "[DisasterView.GetDisaster.GetOwner.GetName]の見込み[military_strength|e]"
  #Revolutionary Chaos
  #Disaster
@@ -214,8 +214,8 @@
  complete_the_ecw_and_lose_tt: "[ShowDisasterName('english_civil_war')]が終結する"
  #French Wars of Religion Disaster
  #Disaster
- french_wars_religion: "French Wars of Religion"
- french_wars_religion_desc: "As new branches of the [ShowReligionGroupAdjective('christian')] faith appear across [ShowContinentName('europe')], the subsequent religious friction created within our society has reached a boiling point. Now we are beset by armed zealots — heretics and defenders of the true faith alike — threatening to drag our entire realm into vicious civil conflict."
+ french_wars_religion: "フランス宗教戦争"
+ french_wars_religion_desc: "[ShowContinentName('europe')]各地で[ShowReligionGroupAdjective('christian')]の新たな宗派が台頭するなか、国内で生じた宗教摩擦は限界に達した。武装した狂信者たち——真の信仰を守る者たちと異端者ども——の衝突により、いまや国全体が激しい内乱に巻き込まれようとしている。"
  had_fwr_before_definitive_ending_tt: "この国難は[religious_unity|e]の達成、または[policy|e]「[ShowPolicyName('edict_of_nantes')]」の発布によって完了されていない"
  lutheran_huguenots: "$lutheran_ADJ$のユグノー"
  calvinist_huguenots: "$calvinist_ADJ$のユグノー"

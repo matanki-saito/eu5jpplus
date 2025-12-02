@@ -17,6 +17,9 @@
  DISEASE_AFFECTED_LOCATIONS_TOOLTIP: "Of our $TOTAL_AMOUNT$ owned locations, the [DISEASE.GetName] is present in $AMOUNT|0$:"
  DISEASE_OUTBREAK_AFFECTED_LOCATIONS_TOOLTIP: "The [DISEASE_OUTBREAK.GetName] has affected $AMOUNT|0$ of our $TOTAL_AMOUNT$ owned territories."
  AFFECTED_LOCATIONS_ENTRY: "$AMOUNT$ are a $TYPE$"
+ AFFECTED_MY_POPS_ENTRY: "$AMOUNT$ other [pops|e] inside your country are affected, maybe migrants from other areas."
+ AFFECTED_OTHER_POPS_ENTRY: "$AMOUNT$ other foreign [pops|e] inside your country are affected, maybe immigrants."
+ AFFECTED_FOREIGN_POPS_ENTRY: "$AMOUNT$ of your [pops|e] outside your country are also affected."
  ORIGIN: "Origin"
  ORIGIN_COUNTRY: "[country|e]"
  TOTAL_DEATHS: "Total Deaths"
@@ -26,7 +29,7 @@
  TOP_TOTAL_DEATHS_TITLE: "The most affected countries are:"
  RIVALS_TOTAL_DEATHS_TITLE: "Our rivals were also affected:"
  TOTAL_DEATHS_ENTRY: "[COUNTRY.GetLongNameWithFlag]: $AMOUNT|0$"
- TOTAL_DEATHS_ENTRY_UKNOWN_COUNTRY: "Extinct [countries|e]:  $AMOUNT|0$"
+ TOTAL_DEATHS_ENTRY_UKNOWN_COUNTRY: "Extinct [countries|e]: $AMOUNT|0$"
  TOTAL_DEATHS_LARGE: "From $NUM$ more countries: $VAL|0$"
  COUNTRY_DEATHS: "Country Deaths"
  NO_COUNTRY_DEATHS: "No deaths have been reported."
@@ -101,7 +104,7 @@
  SITUATION_ABSTENTIONS_VOTERS_TITLE: "Neutral voters: [VoteTargetGlue.GetVoterCount|V0]"
  SITUATION_ABSTENTIONS_VOTES_TITLE: "Neutral voters: [VoteTargetGlue.GetVotesCount|V0]"
  SITUATION_NOT_VOTED_TITLE: "Yet to vote: [GetDataModelSize(SituationView.GetNotVotedYet)|V0]"
- SITUATION_VOTES_PROGRESS: "#T [Country.GetNameWithNoTooltip] Council Vote Progress#!The progress towards [Country.GetName] being able to call a council is at [VoteTargetGlue.GetVotePercentage|V2%]. The support of the different [cardinals|e] grows each month by #Y 1#! while certain actions can increase it even further."
+ SITUATION_VOTES_PROGRESS: "#T [Country.GetNameWithNoTooltip] Council Vote Progress#! The progress towards [Country.GetName] being able to call a council is at [VoteTargetGlue.GetVotePercentage|V2%]. The support of the different [cardinals|e] grows each month by #Y 1#! while certain actions can increase it even further."
  western_schism_1_tt: "There exists a candidate for [ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] and [ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName]"
  western_schism_2_tt: "[ROOT.GetVariable('schism_pope_cardinal').GetCardinal.GetName] has held more than 2 Councils"
  western_schism_3_tt: "[ROOT.GetVariable('schism_opponent_cardinal').GetCardinal.GetName] has held more than 2 Councils"
@@ -139,7 +142,7 @@
  ws_schism_show_support_for_one_pope_tt: "The selected Candidate will receive support in the vote of the $western_schism$"
  ws_show_unity_of_faith_tt: "Every [location|e] in the designated [province|e] will gain [ShowModifier('ws_show_unity_of_faith')]"
  western_schism_pope_score: "Papal Candidate Score"
- western_schism_anti_pope_score: "Anti Papal Candidate Score"
+ western_schism_anti_pope_score: "Anti-Papal Candidate Score"
  #
  # The Great Pestilence
  #
@@ -199,7 +202,7 @@
  ROTT_GRAPH_TITLE_TT: "Score Breakdown"
  ROTT_LEADER_COUNTRY_SCORE_TT: "[military_strength|e]: [Country.GetMilitaryStrength]\n[monthly_income_trade_and_tax|e]: [Country.GetEstimatedMonthlyIncomeTradeAndTax|2]"
  ROTT_LEADER_COUNTRY_SCORE_TITLE_TT: "Strongest Country"
- ROTT_LEADER_COUNTRY_SCORE_FLAVOR_TT: "#italic Every month, the overall performance of the countries in the [ShowSituationNameWithNoTooltip('rise_of_the_ottomans')] [situation|e] is evaluated and the positions of the three most powerful ones are updated based on the new scores.#!\n\nIf the Beylik is a [subject|e], this applies a #R -25%#! reduction to their total score"
+ ROTT_LEADER_COUNTRY_SCORE_FLAVOR_TT: "#italic Every month, the overall performance of the countries in the [ShowSituationNameWithNoTooltip('rise_of_the_ottomans')] [situation|e] is evaluated and the positions of the three most powerful ones are updated based on the new scores.#!"
  ROTT_SECOND_COUNTRY_SCORE_TT: "[military_strength|e]: [Country.GetMilitaryStrength]\n[monthly_income_trade_and_tax|e]: [Country.GetEstimatedMonthlyIncomeTradeAndTax|2]"
  ROTT_SECOND_COUNTRY_SCORE_TITLE_TT: "Second Strongest"
  ROTT_SECOND_COUNTRY_SCORE_FLAVOR_TT: "$ROTT_LEADER_COUNTRY_SCORE_FLAVOR_TT$"
@@ -480,7 +483,7 @@
 
 #Tooltips
  has_never_had_situation_before_tt: "Has not had this [situation|e] before"
- delhi_situation_info_tt: "The [ShowSituationName('fall_of_delhi')] [situation|e] may commence soon. During that turbulent time, we will face massive rebellion across our lands. Our neighbors and subjects may take up the sword against us, should our authority not recover in time. internally, the scheming [ShowEstateTypeName('nobles_estate')] threaten to overthrow our unstable rule...\n"
+ delhi_situation_info_tt: "The [ShowSituationName('fall_of_delhi')] [situation|e] may commence soon. During that turbulent time, we will face massive rebellion across our lands. Our neighbors and subjects may take up the sword against us, should our authority not recover in time. Internally, the scheming [ShowEstateTypeName('nobles_estate')] threaten to overthrow our unstable rule...\n"
  has_decided_to_cede_territories_tt: "[GetCountry('DLH').GetName] has decided to cede territories in the event '#Y $delhi_situation.16.title$#!'"
  gain_2_progress_for_delhi_tt: "We will gain #G 2%#! [share_of_power_gc|e] during the [GetSituationByKey('fall_of_delhi').GetName] [situation|e]"
  gain_5_progress_for_claimants_tt: "Our foes will gain #R 5%#! [share_of_power_gc|e] during the [GetSituationByKey('fall_of_delhi').GetName] [situation|e]"
@@ -564,7 +567,7 @@
  RTR_GRAPH_TITLE_TT: "Power of the Country"
  RTR_GRAPH_TT: "[great_power_score|e]: [Country.GetGreatPowerScore|Y]"
  RTR_GRAPH_FLAVOR_CHINA_TT: "#italic [GetCountry('CHI').GetName] is always the antagonist of the [GetInternationalOrganizationType('red_turban_rebels').GetName]#!"
- RTR_GRAPH_FLAVOR_REBEL_TT: "#italic The strongest of the [GetUniqueInternationalOrganization('red_turban_rebels').GetName] is determined by the [great_power_score] of the members on a monthly base. Whoever has the highest score automatically becomes the warlord#!"
+ RTR_GRAPH_FLAVOR_REBEL_TT: "#italic The strongest of the [GetUniqueInternationalOrganization('red_turban_rebels').GetName] is determined by the [great_power_score] of the members on a monthly basis. Whoever has the highest score automatically becomes the warlord#!"
  #Situation Actions
  rtr_grant_titles: "Grant Titles"
  rtr_grant_titles_desc: "#flavor The promise of power and influence within the celestial court would seduce anyone. By granting special titles and privileges to the rebel factions, we might be able to persuade them to become our loyalists, or at least convince them to accept a temporary truce...#!\n\n[actor.GetName] will spend #R 5#! Legitimacy and transfer a portion of their [income|e] to raise the $rtr_yuan_allegiance$ of a target country by #G +15#!"
@@ -620,7 +623,7 @@
  #Action Loc
  join_league_choose_text: "Choose a league to join."
  join_a_league: "Join a League"
- join_a_league_desc: "War has come to [ShowRegionName('italy_region')]. We must safeguard our sovereignty against invaders from foreign leagues. To do so, we must be join an active Italian league!"
+ join_a_league_desc: "War has come to [ShowRegionName('italy_region')]. We must safeguard our sovereignty against invaders from foreign leagues. To do so, we must join an active Italian league!"
 
  create_italian_league: "Create an Italian League"
  create_italian_league_desc: "The defense of our home rests upon our shoulders. Should we fail to unite against the foreign conquerors, we will become easy prey for them..."
@@ -771,7 +774,7 @@
  request_antipiracy_policy_tt: "We will reach out and attempt to persuade them to change their law"
  choose_an_uncolonized_location: "Choose an uncolonized [location|e] to host our headquarters." 
  create_allied_pirate_nation: "Create Subject Pirate Nation"
- create_allied_pirate_nation_desc: "Through writing of letter of marque, granting a suitable headquarters location, and offering gold to entice the first crew members, we will create a den of pirates and cutthroats who will make life much more difficult for enemy ships, while ensuring ours pass through safely."
+ create_allied_pirate_nation_desc: "Through writing of letter of marque, granting a suitable headquarters' location, and offering gold to entice the first crew members, we will create a den of pirates and cutthroats who will make life much more difficult for enemy ships, while ensuring ours pass through safely."
  create_allied_pirate_nation_tt: "A [navy_based|e] [subject|e] will appear in the designated [location|e]. We will have the opportunity to play as them"
  request_antipiracy_policy: "Request Anti-Piracy Policy"
  request_antipiracy_policy_desc: "The scourge of piracy is impossible to eradicate because some cursed nations have the gall to openly encourage and finance these brigands! We must convince them to correct this terrible mistake through the strength of our diplomacy."
@@ -841,7 +844,7 @@
  STARVING_PROVINCE_ENTRY_REST: "...and up to $AMOUNT|Y0$ others!"
  EXTENDED_WINTER_AFFECTED_LOCATIONS_TOOLTIP: "There are $AMOUNT|0$ [locations|e] affected by $little_ice_age$ out of our $TOTAL_AMOUNT$ owned locations:"
  EXTENDED_WINTER_STARVING_PROVINCES_TOOLTIP: "$AMOUNT|0$ [provinces|e] out of the $TOTAL_AMOUNT|0$ owned provinces are [starving|e]:"
- little_ice_age_desc: "The bone-chilling cold of the Little Ice Age tests our resiliance, forcing our leader to adapt or watch their domain descend into frozen hell. Whether through careful governance or sheer survival instinct, history will remember those who make it through this time of great hardship."
+ little_ice_age_desc: "The bone-chilling cold of the Little Ice Age tests our resilience, forcing our leader to adapt or watch their domain descend into frozen hell. Whether through careful governance or sheer survival instinct, history will remember those who make it through this time of great hardship."
 
  locations_with_extended_winter_will_be_affected_by_the_following_modifiers_tt: "[locations|e] affected by extended [winter|e] will suffer from the following [location_modifiers|e] until the end of this [situation|e]:"
  locations_in_designated_market_get_enforced_rationing_policy_tt: "Every [province_capital|e] that we own in the designated [market|e] will gain [ShowModifier('enforced_rationing_policy')] for #Y 10#! years"

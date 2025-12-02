@@ -34,10 +34,10 @@
  
  flavor_pol.6.title: "The Groom of [ROOT.GetCountry.GetNameWithNoTooltip]"
  flavor_pol.6.desc: "Due to the many misfortunes that the [ROOT.GetCountry.GetLongName] had to face in the recent decades, it ended with a female [ROOT.GetCountry.GetGovernment.GetRulerTitle] sitting on the throne, [new_ruler.GetName]. The matter of her future husband is of pivotal importance and the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] will only allow her to marry a candidate that has their approval.\n\nOnce the groom is elected the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] is pressing to write down this procedure into law, so they keep choosing who their next ruler is going to be."
- flavor_pol.6.a: "Marry into [lithuania_groom_country.GetName]."
- flavor_pol.6.b: "Marry into [first_groom_country.GetName]."
- flavor_pol.6.c: "Marry into [second_groom_country.GetName]."
- flavor_pol.6.d: "Marry into [third_groom_country.GetName]."
+ flavor_pol.6.a: "Marry into [lithuania_groom_country.GetNameWithNoTooltip]."
+ flavor_pol.6.b: "Marry into [first_groom_country.GetNameWithNoTooltip]."
+ flavor_pol.6.c: "Marry into [second_groom_country.GetNameWithNoTooltip]."
+ flavor_pol.6.d: "Marry into [third_groom_country.GetNameWithNoTooltip]."
  flavor_pol.6.e: "The [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] has no right to intervene."
 
  flavor_pol.7.title: "Married to the [GetCountry('POL').GetAdjectiveWithNoTooltip] [GetCountry('POL').GetGovernment.GetRulerTitle]"

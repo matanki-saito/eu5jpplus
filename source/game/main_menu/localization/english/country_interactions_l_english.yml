@@ -766,6 +766,10 @@
  subject_enforce_peace_desc: "We will demand that they leave a war"
  subject_enforce_peace_effect_text: "[SCOPE.sCountry('actor').GetName] make [SCOPE.sCountry('recipient').GetName] leave the [SCOPE.sWar('target').GetName]"
  subject_enforce_peace_effect_text_past: "[SCOPE.sCountry('actor').GetName] made [SCOPE.sCountry('recipient').GetName] leave the [SCOPE.sWar('target').GetName]"
+ dip_subject_enforce_peace_CATEGORY: "CATEGORY_SUBJECT_ACTIONS"
+ INCOMING_OFFER_subject_enforce_peace: "$ACTOR$ demands from us to leave a war. Do we wish to comply?\n\n$INFO$"
+ subject_enforce_peace_reject_effect_text: "$generic_reject_demand_effect_string$"
+ subject_enforce_peace_reject_effect_text_past: "$generic_reject_demand_effect_string_past$"
  PROPOSE_subject_enforce_peace: "Make $RECIPIENT$ leave a war?\n$INFO$."
  select_a_war_to_leave: "Select a war for them to leave"
  #
@@ -978,8 +982,12 @@
  #
  negotiate_succession_law: "Negotiate Succession Law"
  negotiate_succession_law_desc: "Their succession law is volatile and will lead to an end of the union. The ruling class must be convinced to adopt our own laws for a secure succession."
+ negotiate_succession_law_at: "[SCOPE.sCountry('recipient').GetName] has a different [succession_law|e] other than [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName] and is able to change to it"
+ negotiate_succession_law_ct: "[SCOPE.sCountry('recipient').GetName] has a NOT a compatible [policy|e] for [ShowLawName('heir_religion_law')] which would allow a [SCOPE.sCountry('actor').GetReligion.GetName] [heir|e] to be eligible for them and is able to change their laws"
  negotiate_succession_law_tt: "Change the [heir_selection|e] of the target [country|e] to [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName]"
  negotiate_succession_law_bt: "Also change the [ShowLawName('heir_religion_law')] of the target country to [SCOPE.sCountry('actor').GetGovernment.GetImplementedPolicyForLawFromKey('heir_religion_law').GetName] if their policy is NOT locked"
+ negotiate_succession_law_dt: "@trigger_no! #Y [SCOPE.sCountry('actor').GetGovernment.GetHeirSelection.GetName] can not be applied to [SCOPE.sCountry('recipient').GetName]#!"
+ negotiate_succession_law_et: "@trigger_no! #Y [SCOPE.sCountry('actor').GetGovernment.GetImplementedPolicyForLawFromKey('heir_religion_law').GetName] can not be applied to [SCOPE.sCountry('recipient').GetName]#!"
  dip_negotiate_succession_law_CATEGORY: "CATEGORY_INFLUENCE_ACTIONS"
  PROPOSE_negotiate_succession_law: "Negotiate with $RECIPIENT$ to adopt our [heir_selection|e] and potentially [ShowLawName('heir_religion_law')?"
  INCOMING_OFFER_negotiate_succession_law: "$ACTOR$ wants us to adopt their [heir_selection|e]. Do we wish to accept?\n\n$INFO$"

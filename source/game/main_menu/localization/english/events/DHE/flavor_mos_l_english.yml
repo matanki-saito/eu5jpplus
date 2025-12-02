@@ -409,7 +409,7 @@
  flavor_mos.49.a: "The lineage is indisputible."
  flavor_mos.49.tt1: "The translation skills of [dmitry_gerasimov.GetName] facilitates the spread of the idea of [target_root_country.GetNameWithNoTooltip ] as the Third Rome"
  flavor_mos.49.b: "Superstitious nonsense."
- flavor_mos.49.c: "Have the tale adorn the walls of the [ShowWorkOfArtName('uspensky_sobor')]."
+ flavor_mos.49.c: "Have the tale adorn the walls of the [ShowWorkOfArtNameWithNoTooltip('uspensky_sobor')]."
  flavor_mos.49.historical_info: "The #italic Tale of the Princes of Vladimir#! was written either by Dmitry Gerasimov or Pachomius the Serb in the early sixteenth century, and was created to provide a background story to be used for the Tsar at the coronation ceremonies. Its primary objective was to establish a historical connection between the principality of Muscovy and the Roman Emperors, particularly Augustus, but it also served as a means to conceive the idea of Muscovy as the Third Rome and natural successor to the Eastern Roman Empire, which has collapsed following the conquest of Constantinople."
 
  flavor_mos.50.title: "[dmitry_gerasimov.GetNameWithNoTooltip]"

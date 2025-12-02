@@ -212,7 +212,7 @@
  flavor_nap.116.a: "この知識で世界の謎をさらに研究しよう。"
  flavor_nap.116.b: "このアカデミアとその聡明な学者に、誰もが畏敬の念を抱くようになるだろう。"
  flavor_nap.117.title: "[ShowCultureNameWithNoTooltip('albanian')]難民"
- flavor_nap.117.desc: "宗教対立に直面し、恐怖と絶望に駆られた[ShowCultureName('albanian')]の[ShowReligionAdjective('catholic')]徒難民たちが、迫り来るイスラム軍から逃れるため、危険な移住へと乗り出した。避難所と安全を求め、困難な道を進む彼らの運命は宙ぶらりんの状態であり、その魂には深い不安が刻まれている。"
+ flavor_nap.117.desc: "宗教対立に直面し、恐怖と絶望に駆られた[ShowCultureName('albanian')]の[ShowReligionAdjective('catholic')]教徒難民たちが、迫り来るイスラム軍から逃れるため、危険な移住へと乗り出した。避難所と安全を求め、困難な道を進む彼らの運命は宙ぶらりんの状態であり、その魂には深い不安が刻まれている。"
  flavor_nap.117.a: "信仰の同胞たちはいつでも歓迎だ。"
  flavor_nap.117.b: "難民ならよそへ行け。"
  flavor_nap.118.title: "[ShowCultureNameWithNoTooltip('croatian')]難民"

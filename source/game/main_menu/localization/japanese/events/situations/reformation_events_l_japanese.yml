@@ -1,6 +1,6 @@
 ﻿l_japanese:
  reformation.1.title: "ルター派の宗教改革"
- reformation.1.desc: "贖宥状の横行と教会の強欲さに対する疑問が高まっており、ローマ・[GetUniqueInternationalOrganization('catholic_church').GetName]への不満の声が[ShowContinentName('europe')]全土に広がっている。\n\nこれらの非難は、いまのところ広範かつ一般的なものが主である。しかし、[target_location.GetName]で起こったある出来事をきっかけに、[target_character.GetName]という名の一介の修道士が礼拝と信仰の本質についての論文を執筆、公表をおこなった。[target_character.GetName]は贖宥状の販売に焦点を当て、それを欲深い不必要な行為として非難し、神だけが与えられる赦しを販売する[GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]の権威にも異議を唱えている。"
+ reformation.1.desc: "免罪符の横行と教会の強欲さに対する疑問が高まっており、ローマ・[GetUniqueInternationalOrganization('catholic_church').GetName]への不満の声が[ShowContinentName('europe')]全土に広がっている。\n\nこれらの非難は、いまのところ広範かつ一般的なものが主である。しかし、[target_location.GetName]で起こったある出来事をきっかけに、[target_character.GetName]という名の一介の修道士が礼拝と信仰の本質についての論文を執筆、公表をおこなった。[target_character.GetName]は免罪符の販売に焦点を当て、それを欲深い不必要な行為として非難し、神だけが与えられる赦しを販売する[GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]の権威にも異議を唱えている。"
  reformation.1.a: "この先のことは時が経てばわかるだろう。"
  reformation.2.title: "聖書の翻訳"
  reformation.2.desc: "[ROOT.GetCountry.GetCapital.GetName]の司祭が聖書を[ROOT.GetCountry.GetCourtLanguage.GetName]に翻訳し、[ROOT.GetCountry.GetName]じゅうの村に配りはじめた。この司祭は、聖書を[ROOT.GetCountry.GetLiturgicalLanguage.GetName]以外の言語に翻訳することで、神の言葉が人々の心に直接伝わると主張している。しかし教会は、明らかに神の意志に反する行為であるとして、これに反対している。"

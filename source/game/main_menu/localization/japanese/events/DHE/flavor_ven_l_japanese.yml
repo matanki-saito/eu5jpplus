@@ -10,7 +10,7 @@
  flavor_ven.3.desc: "[GetCountry('PAP').GetGovernment.GetRulerTitle]が、アルビ派やバタリニ派の異端を鎮圧する目的で、[ShowRegionName('italy_region')]のいたるところにドミニコ会異端審問所を設立しようとしたが、[ROOT.GetCountry.GetFlavorRank]は[ROOT.GetCountry.GetName]での設立に抵抗した。国家は自ら異端者の発見をおこない、捕らえられた者は総主教やカステッロ司教、あるいはほかの[ROOT.GetCountry.GetAdjectiveWithNoTooltip]司教によって審問を受けた。審問所は事実の申告に限定され、被審問者が異端の罪を犯したか否かを述べるよう求められる。また、その処罰は世俗の権力に委ねられた。この取り決めは[ShowLocationName('rome')]の教皇庁を満足させるものではなく、[GetCountry('PAP').GetGovernment.GetRulerTitle]によって異端審問官が任命された。しかし、その審問官は[ROOT.GetCountry.GetGovernment.GetRulerTitle]の認可状がなければ行動できず、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の貴族3名による委員会が設けられ、聖務聖省の査定者となった。彼らの職務は、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]市民の権利を教会の干渉から守ることであり、植民地における宗教問題への不干渉も含まれていた。彼らの立ち合いと承認がなければ、[ROOT.GetCountry.GetNameWithNoTooltip]においては聖務聖省のいかなる行為も無効とされた。[ROOT.GetCountry.GetNameWithNoTooltip]における異端審問は、すべての審問に査定官の出席を主張した国家の独立的な態度のおかげもあり、凄惨なものではなかった。"
  flavor_ven.3.a: "まず[ROOT.GetCountry.GetAdjectiveWithNoTooltip]人であれ、次いで[ShowReligionGroupAdjectiveWithNoTooltip('christian')|U]であれ。"
  ven_venetian_first: "まずヴェネツィア人であれ、次いでキリスト教徒であれ"
- flavor_ven.3.b: "我らは真の[ShowReligionAdjectiveWithNoTooltip('catholic')]徒だ！"
+ flavor_ven.3.b: "我らは真の[ShowReligionAdjectiveWithNoTooltip('catholic')]教徒だ！"
  ven_christian_first: "まず[ShowReligionGroupAdjectiveWithNoTooltip('christian')|U]徒であれ！"
  flavor_ven.4.title: "トレヴィーゾ算術書"
  flavor_ven.4.desc: "「私が関心をもち、商いの道を志す若者たちから、一般にそろばんと呼ばれる算術の基本原理を書物にしてほしいと頼まれることがよくある。」——『トレヴィーゾ算術書』は、1478年に[ShowLocationName('treviso')]で印刷された、[ROOT.GetCountry.GetAdjective]語によるヨーロッパ初の数学書である。"

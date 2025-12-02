@@ -1,5 +1,8 @@
 ﻿l_english:
  #
+ # Warnings
+ UNSTABLE_UNION_WARNING: "#Y This $game_concept_succession_law$ might have unintended repercussions for any of our current or future unions.#!"
+ #
  # Custom Tags
  cannot_be_transferred: "Cannot be transferred"
  empty_heir_religion_law: "Independent of [ShowLawName('heir_religion_law')]"
@@ -70,9 +73,9 @@
  matrilineal_non_exclusive_desc: "It is a type of [heir_selection|e] of a realm in which the new [ruler|e] is the most capable person in the dynasty of the previous [ruler]."
  bank_selection: "Selection of the new Bank Executive"
  elective_succession: "Elective Succession"
- elective_succession_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')], in which the new ruler is elected by the [ShowEstateTypeName('nobles_estate')]. Although every noble would be eligible to be elected, the electors prefer a member of the current dynasty for the position of monarch."
+ elective_succession_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')], in which the new ruler is elected by the [ShowEstateTypeName('nobles_estate')]. Although every noble would be eligible to be elected, the electors prefer a member of the current dynasty for the position of monarch.\n\n$UNSTABLE_UNION_WARNING$"
  dynastic_elective_succession: "Dynastic Elective Succession"
- dynastic_elective_succession_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')], in which the new ruler is elected by the [ShowEstateTypeName('nobles_estate')]. Only members of the ruling dynasty are eligible to be elected."
+ dynastic_elective_succession_desc: "It is a type of [heir_selection|e] of a [ShowGovernmentTypeName('monarchy')], in which the new ruler is elected by the [ShowEstateTypeName('nobles_estate')]. Only members of the ruling dynasty are eligible to be elected.\n\n$UNSTABLE_UNION_WARNING$"
  dynastic_elective_succession_best_candidate_desc: "Determined by a vote by the [ShowEstateTypeName('nobles_estate')]."
  papal_election: "Papal Conclave"
  papal_election_desc: "When the Pope dies, the [cardinals|e] gather to debate who will be the new Pope. This can be quick, but sometimes it may take several years."
@@ -1109,7 +1112,7 @@
  settle_the_frontier_select_character: "Select [character|e] to send off:"
  settle_the_frontier_no_character: "$NO_POSSIBLE_CHARACTERS$"
  settle_the_frontier_active: "Settling [SCOPE.sProvinceDefinition('target').GetNameWithNoTooltip]"
- settle_the_frontier_action_progress: "[SCOPE.sCountry('actor').GetGovernment.GetCabinetActionImplementationProgress('settle_the_frontier')|2]%"
+ settle_the_frontier_action_progress: "[SCOPE.sCountry('actor').GetGovernment.GetCabinetActionImplementationProgress('settle_the_frontier')|2%]"
  settle_the_frontier_action_progress_wordier: "Settling will be finished in [SCOPE.sCountry('actor').GetGovernment.GetCabinetActionImplementationDate('settle_the_frontier')]"
  settle_the_frontier_action_progress_long_wordier: "@province_integration_speed! [SCOPE.sCountry('actor').GetGovernment.GetCabinetActionImplementationDate('settle_the_frontier')]"
  settle_the_frontier_action_progress_tooltip: "Settling progress of [SCOPE.sProvinceDefinition('target').GetName]: [SCOPE.sCountry('actor').GetGovernment.GetCabinetActionImplementationProgress('settle_the_frontier')|2%]\n#Y $settler_character_truthfulness$#! of [SCOPE.sCharacter('recipient').GetName]: [SCOPE.sCharacter('recipient').MakeScope.GetVariable('settling_no_mans_land_var').GetValue|+=0]"

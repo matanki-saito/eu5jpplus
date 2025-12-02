@@ -82,6 +82,7 @@
  VOTE_NUM_BREAKDOWN_TITLE: "Resolution Votes\n$VOTE$ has $VOTE_NUM|0V$ votes from:"
  VOTE_NUM_BREAKDOWN_ENTRY: "$VOTER$: #TOOLTIP:$BREAKDOWN_TAG$ $VOTE_NUM|0L$#!"
  RESOLUTION_PREDICTED_VOTE_OUTCOME: "Currently, the winning vote is projected to be [ResolutionGlue.GetHighestVote.GetVoteObject.GetName], with a total of [ResolutionGlue.GetVoteNumWithBreakdown(ResolutionGlue.GetHighestVote)] votes."
+ RESOLUTION_PREDICTED_VOTE_OUTCOME_NONE: "Currently, there is no winning outcome as no votes have been cast yet."
  LOCATION_HAS_CARDINAL: "[THIS.GetLocation.GetName] is the seat of a [cardinal|e]."
  CANNOT_REMOVE_LOCATION_NOT_OWNED: "[LOCATION.GetName] is not part of the [INTERNATIONAL_ORGANIZATION.GetName]"
  CANNOT_ADD_LOCATION_ALREADY_OWNED: "[LOCATION.GetName] is already part of the [INTERNATIONAL_ORGANIZATION.GetName]"
@@ -719,6 +720,7 @@
  shugo_daimyo: "Shugo $daimyo$"
  shugo_daimyo_plural: "$shugo_daimyo$"
  shugo_daimyo_desc: "A clan entrusted with the governorship of a province. They can potentially gather enough power and influence to defy the authority of the $JAPANESE_SHOGUNATE_LEADER_MALE$."
+ same_side_in_nanbokucho_tt: "We are supporting the same side in the [ShowSituationName('nanbokuchou')]"
 
  #HRE Resolutions
  hre_election: "Imperial Election"
