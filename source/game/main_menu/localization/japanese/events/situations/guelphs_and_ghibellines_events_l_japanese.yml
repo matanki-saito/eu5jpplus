@@ -27,7 +27,7 @@
  guelphs_and_ghibellines.6.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  guelphs_and_ghibellines.6.a.tt: "[ShowRegionName('italy_region')][region|e]に[capital|e]があり、[ShowAreaName('lazio_area')]、[ShowAreaName('campania_area')]、[ShowAreaName('apulia_area')]、[ShowAreaName('basilicata_area')]、[ShowAreaName('sicily_area')]外にあるすべての[country|e]が[GetUniqueInternationalOrganization('hre').GetName]に加わり、彼らが所有するすべての[location|e]を[GetUniqueInternationalOrganization('hre').GetName]に加える"
  guelphs_and_ghibellines.7.title: "砕かれた夢"
- guelphs_and_ghibellines.7.desc: "[ShowRegionName('italia_region')]をアルプス以北の他国の皇帝による圧政から解放するという我々の夢は、[rival_io.GetName]の拳によって打ち砕かれた。我々は[GetUniqueInternationalOrganization('hre').GetName]での地位に甘んじ、彼らのリーダーが我々に用意する低い地位を受け入れなければならない。"
+ guelphs_and_ghibellines.7.desc: "[ShowRegionName('italy_region')]をアルプス以北の他国の皇帝による圧政から解放するという我々の夢は、[rival_io.GetName]の拳によって打ち砕かれた。我々は[GetUniqueInternationalOrganization('hre').GetName]での地位に甘んじ、彼らのリーダーが我々に用意する低い地位を受け入れなければならない。"
  guelphs_and_ghibellines.7.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
  guelphs_and_ghibellines.8.title: "陳腐化した対立"
  guelphs_and_ghibellines.8.desc: "我々は何世紀にもわたって競合国と戦ってきたが、[ShowRegionName('italia_region')]で発生している膠着状態に、どの当事国も消耗し無関心になっている。疲弊した軍隊は国家の大義のために戦うことを拒否しているが、競合国からも同様の話が聞こえてくる。このような状況では、戦争行為を中止し、今後のために戦力を回復させることが最善策と思われる。"

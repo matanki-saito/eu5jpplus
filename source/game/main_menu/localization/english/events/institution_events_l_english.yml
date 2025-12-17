@@ -59,6 +59,7 @@
  institution_events.50.b: "Protect the role of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
  institution_events.51.title: "Demands of a Professional Army"
  institution_events.51.desc: "With [professional_armies_country.GetName]'s introduction of a professional, standing army, the demand of weapons and armor has increased significantly. This development not only affects the [professional_armies_country.GetAdjectiveWithNoTooltip] markets, but our own too as [professional_armies_country.GetAdjectiveWithNoTooltip] merchants scour for blades for their [professional_armies_country.GetGovernment.GetRulerTitle] and [professional_armies_country.GetGovernment.GetRulerOrRegent.GetHerHis] growing military."
+ institution_events.51.desc.fallback: "With the introduction of a professional, standing army, the demand of weapons and armor has increased significantly. Our merchants scour for blades and other kinds of weapons for the growing militaries of the nations around us."
  institution_events.51.a: "An interesting development."
  institution_events.51.b: "Our economy will not support the [professional_armies_country.GetAdjectiveWithNoTooltip] threat."
  institution_events.60.title: "Diffusion of [ShowInstitutionNameWithNoTooltip('new_world')] Crops"

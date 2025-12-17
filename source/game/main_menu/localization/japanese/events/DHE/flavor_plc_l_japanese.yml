@@ -113,7 +113,7 @@
  flavor_plc.1001.title: "総主教の訪問"
  flavor_plc.1001.desc: "最近、[ShowLocationName('constantinople')]総主教が[target_religion.GetAdjective]教会の発展のための資金集めに、[leader_of_the_kyiv_patriarchate.GetName]の[target_religion.GetAdjectiveWithNoTooltip]府主教区を訪問した。総主教は訪問中、教会の危機を救ってほしいという地元信者の要請に、口先だけで応じた。\n\nこのような状況では、我々は両教会を合同するための大きな一歩を踏み出せるだろう。"
  flavor_plc.1001.historical_info: "1588年、コンスタンティノープル総主教イェレミアス2世は、総主教庁の財力と自身の政治力の強化を目的に、資金集めのためにルーシの地を訪れた。その途上、総主教はモスクワに独立総主教区の地位を授けた。ルーシを訪れた際にはキエフ府主教オニシフォルを罷免し、聖職者の重婚について警告した。しかしルーシの民衆の信仰心が衰退し、イェレミアスの対策に不満を感じていたルーシの司教たちにとって、総主教のこれらの行動は不十分だった。"
- flavor_plc.1001.a: "[leader_of_the_kyiv_patriarchate.GetAdjective]府主教区に合同を提案する。"
+ flavor_plc.1001.a: "[leader_of_the_kyiv_patriarchate.GetAdjectiveWithNoTooltip]府主教区に合同を提案する。"
  flavor_plc.1001.b: "[target_religion.GetAdjectiveWithNoTooltip]の民衆を[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]へとなびかせよう。"
  plc_revoking_empowered_orthodox_nobility_will_prevent: "「[ShowEstatePrivilegeName('plc_empower_orthodox_nobility')]」を剥奪すると、将来の[events|e]の発生を防止できる。"
  STATIC_MODIFIER_NAME_plc_diplomatic_efforts_to_unify_churches: "教会の合同"

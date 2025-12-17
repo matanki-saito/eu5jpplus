@@ -9,7 +9,7 @@
  regencies.1.c: "[target_previous_ruler.GetShortNameWithNoTooltip]の遺言には、「[target_character.GetShortNameWithNoTooltip]を養子にする」とある。"
  regencies.2.title: "恵まれなかった摂政"
  regencies.2.desc: "[ROOT.GetCountry.GetGovernment.GetHeir.GetName]はその魅力的にも教養的にも優れており、統治の継承者として申し分のない選択肢に育った。一方で、[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]の拙い統治は、[ROOT.GetCountry.GetName]の不足する[stability|e]も相まって危険な道を辿っている。国家の統治とは、棘に触れず薔薇を摘むような難しく繊細な仕事である。そして、誰もがそれほどの才に恵まれるわけではないのだ。[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]に棘に触れてもらう日が来たかもしれない……"
- regencies.2.a: "手を汚してでも、[ROOT.GetCountry.GetName]の[stability|e]を守らねば。"
+ regencies.2.a: "手を汚してでも、[ROOT.GetCountry.GetNameWithNoTooltip]の[stability|e]を守らねば。"
  regencies.3.title: "疑心に狂った摂政"
  regencies.3.desc: "暗殺未遂に遭って以来、[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]は警戒心、あるいはそれ以上に不穏な感情に取り憑かれている。[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe]は社交の場を避け、国の統治を評議会の者に任せきりである。\n宮廷の多くの者は、[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]の著しい責任放棄を気に掛けているが、民衆からの評判を大きく損ねたのは、噂で流れる奇行の数々だった。[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetSheHe]は夜中に血走った目を見開き、闇に向かって「王座は決して譲らぬ」と繰り返し、見えない誰かに訴えかけているという。"
  regencies.3.a: "いますぐやめさせなければ。"

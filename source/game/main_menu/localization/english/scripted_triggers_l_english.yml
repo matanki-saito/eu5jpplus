@@ -662,3 +662,10 @@
  NOT_FIRST_CAN_CREATE_SUBJECT_ALLIANCE: "Our diplomatic status does NOT allow the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]"
  THIRD_CAN_CREATE_SUBJECT_ALLIANCE: "[COUNTRY.GetName]'s diplomatic status allows the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]"
  NOT_THIRD_CAN_CREATE_SUBJECT_ALLIANCE: "[COUNTRY.GetName]'s diplomatic status does NOT allow the creation of an [alliance|e] with [TARGET_COUNTRY.GetName]"
+
+ CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "A [cabinet_member|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "No [cabinet_member|e] is already performing the same [cabinet_action|e] on this target"
+ FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "One of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "One of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"

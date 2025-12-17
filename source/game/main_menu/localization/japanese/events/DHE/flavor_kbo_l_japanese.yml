@@ -60,7 +60,7 @@
  flavor_kbo.16.title: "アザライとタグラムト"
  flavor_kbo.16.desc: "西アフリカおよび中央アフリカでラクダが家畜化されて以来、何世紀にもわたり、多くの商人たちが富と商機を求めて、アザライやタグラムトなどの交易路を使い、過酷な環境を旅をしてきた。アメノカルと呼ばれる有力者たちは、オアシスからオアシスへと移動し、遠隔地を結びつけて貴重な[ShowGoodsName('salt')]を取引している。市場では塩は塊で売られ、食料や家畜、そのほかの生活必需品と交換される。果たして、このような特権的な監督の地位を彼らに与えるべきなのだろうか？ 信頼できる相談役による慎重な対応が求められる。"
  flavor_kbo.16.a: "取引は各隊商のアメノカルに監督させよう。"
- flavor_kbo.16.b: "監督権は[ROOT.GetCountry.GetGovernment.GetRuler.GetName]のものだ！"
+ flavor_kbo.16.b: "監督権は[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]のものだ！"
  flavor_kbo.17.title: "[ROOT.GetCountry.GetNameWithNoTooltip]における$sharia$"
  flavor_kbo.17.desc: "わが偉大なる国は、[ShowReligionAdjective('sunni')]をいち早く受け入れた、最古の[ShowReligionAdjective('sunni')]国家といえる。真なる信仰に対する活力を新たにする我々は、尽きることのない英気を胸に、宗教的価値を堅固に守り、民を異教徒から守るために尽力してきた。しかし、わが信仰において、$sharia$はいまだ十分に根づいていない。この法体系は、行政効率を左右し、民に与える影響をも規定しかねない。多くの相談役はシャリーアの導入に賛成する一方で、宗教と行政を結びつけることに慎重な立場を取る者もいる。"
  flavor_kbo.17.a: "$sharia$を施行することは、理に適っている。"

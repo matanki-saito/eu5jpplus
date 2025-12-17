@@ -76,7 +76,7 @@
  prices.23.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
  popularization_of_sugar: "砂糖の普及"
  prices.24.title: "絹織物の普及"
- prices.24.desc: "[ShowGoodsName('silk')]は何世紀にもわたり富と洗練の象徴であり、[ShowContinentName('asia')]、[ShowRegionName('middle_east')]、[ShowContinentName('europe')]諸地域の上流階級に渇望されてきた。その魅力は、特に[ShowAgeName('age_3_discovery')]の時代において交易路や世界的な探検の形成に重要な役割を果たした。しかし現在、生産と交易の改善により、生糸も織物もかつてないほど入手しやすくなった。この供給量の増加は新たな市場での需要の急増を引き起こし、[ShowGoodsNameWithNoTooltip('silk')]は贅沢品から、成長する都市の中産階級のあいだでの流行品へと急速に移り変わりつつある。"
+ prices.24.desc: "[ShowGoodsName('silk')]は何世紀にもわたり富と洗練の象徴であり、[ShowContinentName('asia')]、[ShowRegionName('middle_east')]、[ShowContinentName('europe')]諸地域の上流階級に渇望されてきた。その魅力は、特に[ShowAgeName('age_3_discovery')]の時代において交易路や世界的な探検の形成に重要な役割を果たした。しかし現在、生産と交易の改善により、生糸も織物もかつてないほど入手しやすくなった。この供給量の増加は新たな市場での需要の急増を引き起こし、絹は贅沢品から、成長する都市の中産階級のあいだでの流行品へと急速に移り変わりつつある。"
  prices.24.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
  popularization_of_silk: "絹の普及"
  prices.27.title: "東南アジアで象の頭数が減少"

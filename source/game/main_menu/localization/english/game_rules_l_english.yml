@@ -65,6 +65,11 @@
  setting_all_countries_explore: "All Countries"
  setting_all_countries_explore_desc: "All [countries|e] in the world that can afford it will attempt to [explore|e]."
 
+ rule_ai_religious_conversion_rule: "AI Religious Conversion"
+ setting_only_within_religion_group: "Inside Religion Group only"
+ setting_only_within_religion_group_desc: "[countries|e] will only convert [religion|e] to other religions belonging to the same [religion_group|e]."
+ setting_free_conversion: "Any Religion"
+ setting_free_conversion_desc: "[countries|e] will convert to any religion possible if it stabilizes their reign, even if they would leave their religion group."
 
  rule_culture_conversions_rule: "Culture Conversions"
  setting_dynamic_culture: "Dynamic rules"

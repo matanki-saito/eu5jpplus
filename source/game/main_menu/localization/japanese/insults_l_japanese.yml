@@ -36,7 +36,7 @@
  insult_against_denmark: "デンマークという国は何かが腐っているな。"
  insult_against_england: "[TARGET_COUNTRY.GetGovernment.GetRuler.GetName]がテムズ川に落ちるのは気の毒なことだが、誰かが[TARGET_COUNTRY.GetGovernment.GetRuler.GetHerHim]を助け上げたなら、救いようのない大惨事だ。"
  insult_marprelate: "[TARGET_COUNTRY.GetGovernment.GetRuler.GetName]は傲慢で、カトリック野郎で、無遠慮で、不敬で、邪悪で、有害な聖職者にして王位簒奪者だ。"
- insult_marprelate2: "貴国の[TARGET_COUNTRY.GetGovernment.GetRuler.GetTitle]は不法で、不自然で、偽りで、教会の庶出の長で、悪魔の布告で、けちな教皇で、反キリスト教徒で、悪魔の化身で、詐欺師で、大嘘つきだ。"
+ insult_marprelate2: "貴国の[TARGET_COUNTRY.GetGovernment.GetRulerTitle]は不法で、不自然で、偽りで、教会の庶出の長で、悪魔の布告で、けちな教皇で、反キリスト教徒で、悪魔の化身で、詐欺師で、大嘘つきだ。"
  insult_against_saxony: "貴様のマイセンの陶磁器に何かあったら残念だな……"
  insult_fort: "お前たちの城壁は、まるで海辺の砂のように、わが砲の前に崩れ去るだろう。"
  insult_revolutionary: "[TARGET_COUNTRY.GetGovernment.GetRuler.GetName]よ、お前の死体をわが国の発展に役立ててやろう！"

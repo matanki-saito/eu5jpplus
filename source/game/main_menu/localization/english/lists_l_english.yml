@@ -92,6 +92,7 @@
  LOCATION_SORT_BY_BUILDING_LEVEL: "Click to sort by [building|e] level"
  LOCATION_SORT_BY_CONTROL: "Click to sort by [control|e]"
  LOCATION_SORT_BY_DEVELOPMENT: "Click to sort by [development|e]"
+ LOCATION_SORT_BY_MIGRATION_ATTRACTION: "Click to sort by [migration_attraction|e]"
  LOCATION_SORT_BY_OWNER: "Click to sort by [owner|e]"
  LOCATION_SORT_BY_GOOD: "Click to sort by [raw_material|e]"
  LOCATION_SORT_BY_RANK: "Click to sort by [town_or_city|e]"
@@ -127,6 +128,8 @@
  PROVINCE_SORT_BY_AMOUNT_LOCATIONS: "Click to sort by amount of [locations|e] in the [province|e]"
  PROVINCE_SORT_BY_REBEL_PROGRESS: "Click to sort by [rebel|e] progress in the [province|e]"
  PROVINCE_SORT_BY_MARKET: "Sort by the [province|E] [market|E] name"
+ PROVINCE_SORT_BY_UNFILLED_JOBS: "Sort by the amount of missing employees in a [province|E]"
+ PROVINCE_SORT_BY_PEASANT_POPULATION: "Sort by the [province|E] peasant population"
 
  AREA_SORT_BY_NAME: "Sort by the [area|E] name"
  GEOGRAPHY_SORT_BY_NAME: "Sort by the [location|e], [province|e] or [area|E] name"

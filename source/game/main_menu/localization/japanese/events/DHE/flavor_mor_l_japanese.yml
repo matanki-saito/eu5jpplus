@@ -1,6 +1,6 @@
 ﻿l_japanese:
  flavor_mor.1.title: "[target_character.GetNameWithNoTooltip]"
- flavor_mor.1.desc: "イマーム・[target_character.GetLastName]やシャイフ・[target_character.GetLastNameWithNoTooltip]などの名で知られる[target_character.GetShortNameWithNoTooltip]が、信心深さ、敬虔さ、聖典の知識によって、近ごろ大きな注目を浴びている。自らを預言者の直系の子孫であるシャルファだと主張する[target_character.GetSheHe]は、その技能と奉仕を我々に提供すると申し出てきた。"
+ flavor_mor.1.desc: "イマーム・[target_character.GetLastName]やシャイフ・[target_character.GetLastNameWithNoTooltip]などの名で知られる[target_character.GetShortNameWithNoTooltip]が、信心深さ、敬虔さ、聖典の知識によって、近ごろ大きな注目を浴びている。自らを預言者の直系の子孫であるシュルファだと主張する[target_character.GetSheHe]は、その技能と奉仕を我々に提供すると申し出てきた。"
  flavor_mor.1.a: "[target_character.GetHerHim]を後援しよう。"
  flavor_mor.1.b: "これ以上、宮廷をうろつく怠け者は必要ない。"
  flavor_mor.1.historical_info: "15世紀のモロッコのスーフィーであるアル＝ジャズーリーは、シャディリー教団の重要人物。スース地方に生まれ、フェズで学び、預言者ムハンマド（彼に平安あれ）に祝福を求める祈りの集大成として広く読まれている『ダライル・アル・ハイラート』で有名になった。彼の作品はモロッコのスーフィズムの実践に多大な影響を残した。"

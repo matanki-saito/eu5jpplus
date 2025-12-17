@@ -32,7 +32,7 @@
  hre_subjugate_every_free_city_directly_tt: "Every [ShowSpecialStatusName('free_city')] in the [GetUniqueInternationalOrganization('hre').GetName] will become our [ShowSubjectTypeName('direct_imperial_free_city')] [subject|e]"
  hre.107.desc: "The Imperial Diet has passed a reform which has caused our autonomy as a [ShowSpecialStatusName('free_city')] to be completely revoked. From now on, all diplomatic affairs of our state are done from the court of [target_country.GetCapital.GetName]."
  hre.107.a: "Our City serves the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]!"
- hre.900.title: "The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] is Dead..."
+ hre.900.title: "[previous_emperor.GetNameWithNoTooltip] is Dead..."
  hre.900.desc: "Long Live the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]! The electors have decided to maintain their faith in us, and the Imperial Crown remains in [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]. As our country strengthens its grip on the Imperial Crown and the Princes begin to see us as the natural holders, our authority within the [GetUniqueInternationalOrganization('hre').GetName] increases."
  hre.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
 

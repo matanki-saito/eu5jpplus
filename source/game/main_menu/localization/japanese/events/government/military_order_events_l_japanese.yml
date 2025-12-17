@@ -37,6 +37,6 @@
  military_order_events.9.a: "我々は勝利を掴んだ！"
  forming_koj_easier_tt: "エルサレム王国を設立すると、わが国の[stability|e]と[government_power|e]が増加し、 [ShowModifier('jerusalem_resurgent_modifier')]を#Y 20#!年間得る"
  military_order_events.9.b: "この地はわが騎士団の統治下にある！"
- military_order_events.9.c: "[ShowLocationName('jerusalem')]の領土を正当な所有者の手に戻す。"
+ military_order_events.9.c: "[ShowLocationNameWithNoTooltip('jerusalem')]の領土を正当な所有者の手に戻す。"
  #Tooltips
  because_we_opted_inwards_tt: "イベント「#Y 十字軍時代の余波#!」で「#italic 内省し、砦の守りを固めなくては#!」を選択したため、この選択肢は強化されている"

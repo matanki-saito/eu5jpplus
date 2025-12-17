@@ -293,7 +293,7 @@
  flavor_mam.64.a: "[target_culture.GetNameWithNoTooltip]・マムルークの支持が必要だ。"
  flavor_mam.64.b: "[target_culture2.GetNameWithNoTooltip]・マムルークの支持も依然として重要だ。"
  flavor_mam.64.c: "さほど重要でないが、[third_ruler.GetNameWithNoTooltip]は手腕を示している。"
- flavor_mam.64.d: "我らが[target_culture4.GetName]出身の伝統的なマムルークだ。"
+ flavor_mam.64.d: "我らが[target_culture4.GetNameWithNoTooltip]出身の伝統的なマムルークだ。"
  flavor_mam.65.title: "[target_location.GetNameWithNoTooltip]の兵士"
  flavor_mam.65.desc: "わが軍の中核は$mamluks$であるものの、すべての戦力が奴隷戦士で構成されているわけではない。歩兵の大部分は地元[target_location.GetName]の兵士が占めており、彼らは警備や駐屯任務にも投入されている。\n\nしかし、昇進の機会が少なく給与も低いことは士気に悪影響を及ぼすため、彼らをどこまで信頼できるかは不透明である。確かに、彼らの訓練や装備は[ROOT.GetCountry.GetGovernment.GetRulerTitle]や[target_location.GetNameWithNoTooltip]の地方総督によりしばしば軽視されている。[target_location.GetArea.GetName]では、[target_location.GetNameWithNoTooltip]住民と$mamluks$総督とのあいだの不信感による反乱の兆しが見えるとの声もある。"
  flavor_mam.65.a: "事態が大きくなる前に対処しなくては！"

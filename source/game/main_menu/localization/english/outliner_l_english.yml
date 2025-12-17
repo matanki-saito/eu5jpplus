@@ -65,7 +65,7 @@
  OUTLINER_ITEM_GOVERNMENT_CABINET_TOOLTIP: "Left-click to open the Cabinet"
  OUTLINER_CATEGORY_GOVERNMENT_PARLIAMENT: "Parliament Session"
  OUTLINER_CATEGORY_GOVERNMENT_PARLIAMENT_TOOLTIP: "Toggle Parliament Session"
- OUTLINER_ITEM_GOVERNMENT_PARLIAMENT: "[Player.GetGovernment.GetParliament.GetName]: [Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]"
+ OUTLINER_ITEM_GOVERNMENT_PARLIAMENT: "[Player.GetGovernment.GetParliament.GetName]: [Player.GetGovernment.GetParliament.GetCurrentDebateName]"
  OUTLINER_ITEM_GOVERNMENT_PARLIAMENT_TOOLTIP: "Left-click to open the Parliament Session"
 
  OUTLINER_CATEGORY_DIPLOMACY_NAME: "Diplomacy Category"

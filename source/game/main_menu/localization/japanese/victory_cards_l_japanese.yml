@@ -42,7 +42,7 @@
  MIL_SCORE_ARMY: "[army|e]：$VAL|+=2$"
  MIL_SCORE_DISCIPLINE: "[discipline|e]：$VAL|+=2$"
  MIL_SCORE_EXHAUSTION: "[war_exhaustion|e]：$VAL|+=2$"
- ENDGAME_SCORE: "わが国の最終[score|e]は[Player.GetScore.GetScore|2]"
+ ENDGAME_SCORE: "わが国の最終[score|e]は[Player.GetScore.GetScore|0]"
  SORT_BY_RANK_TT: "[score|e]ランクで並べ替え"
  SORT_SCORE_RANK: "ランク"
  SORT_SCORE_NAME: "国家"

@@ -170,7 +170,7 @@
  flavor_boh.35.a: "That offer is acceptable."
  flavor_boh.35.b: "Unfortunately, we can not accept it."
 
- flavor_boh.36.title: "The Four Articles of [target_location.GetNameWithNoTooltip]"
+ flavor_boh.36.title: "The Four Articles of [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]"
  flavor_boh.36.desc: "The last few years have been a long struggle to defend our faith as countless of our people perished, our once-gentle folk have turned to savagery and a defensive stance against the world. As the dust settles and we gather our wounded to celebrate our victory and honor our dead, we have come to the negotiating table along with those who once wished to eradicate our faith.\n\nPerhaps God willed it for us to persevere, against the hubris of the [ShowReligionAdjective('catholic')] Church and their feeble transgressions against us. Now, we must decide whether to press our demands against these vultures or decline their pleas for truce and press on against the corruption of their faith."
  flavor_boh.36.a: "Peace in our time?"
  enable_4_articles_prague_reform: "Grants access to the [ShowGovernmentReformName('four_articles')] [government_reform|e]"

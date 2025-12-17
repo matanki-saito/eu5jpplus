@@ -5,6 +5,7 @@
  flavor_azt.70.a: "全都市が労働力を提供するのだ！"
  flavor_azt.70.b: "わが国の従属国には、正当な責務を果たさせよう。"
  flavor_azt.70.c: "この計画はまたの機会にすべきかもしれない。"
+ subject_contribution_reason: "従属国の貢献"
  we_will_be_able_to_construct_the_building_later_tt: "この[building|e]はあとで建設できるようになる"
  flavor_azt.70.historical_info: "テノチティトランの中心にそびえ立つウェイ・テオカリは、メシカの献身と権力の象徴である。14世紀以降に段階的に建設されたこの神殿は、戦いの神ウィツィロポチトリと、雨と豊穣の神トラロックのための別々の神殿へと続く二重の階段が特徴となっている。その近くには、風の神エエカトルの祠も築かれている。この神殿はその後、都市の神聖な中心部における堂々たる象徴となり、神官たちが生贄を捧げ、宇宙の秩序を維持するための儀式を執りおこなう場所となった。"
  flavor_azt.80.title: "[target_character.GetNameWithNoTooltip]"

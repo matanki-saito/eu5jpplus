@@ -47,7 +47,7 @@
  diplomatic_status_truce_name: "Truce"
  diplomatic_status_truce_tooltip: "#T Truce#!\nThis country is in a state of [truce|e] with these [countries|e]."
  diplomatic_status_annul_treaties_name: "Annul Treaties"
- diplomatic_status_annul_treaties_tooltip: "#T Annul Treaties#!\nThis country has been forced to annul all treaties with these [countries|e]."
+ diplomatic_status_annul_treaties_tooltip: "#T Annul Treaties#!\nThis country has been forced to annul all treaties with these [countries|e] and can neither diplomatically subjugate nor form any relationships with them."
  diplomatic_status_warning_name: "Warning"
  diplomatic_status_warning_tooltip: "#T Warning#!\nIf a country being warned attacks any nation bordering both themselves and the issuer of the warning, the warning country will receive a [casus_belli|e] on them."
  diplomatic_status_warned_name: "Warned"

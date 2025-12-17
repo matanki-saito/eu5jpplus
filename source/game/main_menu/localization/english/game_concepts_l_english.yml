@@ -18,6 +18,9 @@
  game_concept_character_modifier: "Character Modifier"
  game_concept_character_modifiers: "Character Modifiers"
  game_concept_character_modifier_desc: "A [modifier|e] that applies to the [character|e]. Modifier types which are supposed to target the [country|e] are only active if the character is the [ruler|e] of that country."
+ game_concept_dynasty_modifier: "Dynasty Modifier"
+ game_concept_dynasty_modifiers: "Dynasty Modifiers"
+ game_concept_dynasty_modifier_desc: "A [modifier|e] that applies to the [dynasty|e]. Modifier types which are supposed to target the [character|e] are active on every living member of the dynasty, though [country_modifiers|e] are only applied if the character is the [ruler|e] of that country."
  game_concept_international_organization_modifier: "International Organization Modifier"
  game_concept_international_organization_modifiers: "International Organization Modifiers"
  game_concept_international_organization_modifier_desc: "A [modifier|e] that applies to the [international_organization|e]."
@@ -410,7 +413,7 @@
  game_concept_regulars: "Regulars"
  game_concept_regular_regiment_desc: "Regular Regiments are recruited manually by a [country|e] using most commonly [manpower|e] and [gold|e]. These form the standing [armies|e], and are rather limited in numbers until you get the [advances|e] from later [ages|e]."
 
- game_concept_regular_ship: "Regular Ships"
+ game_concept_regular_ship: "Regular Ship"
  game_concept_regular_ships: "Regular Ships"
  game_concept_regular_ship_desc: "Regular Ships are recruited manually by a [country|e] using [sailors|e] and [gold|e]. These form the standing [navies|e], and are rather limited in numbers until you get the [advances|e] from later [ages|e]."
 
@@ -713,7 +716,7 @@
  game_concept_promoted: "Promoted"
  game_concept_promotes: "Promotes"
  game_concept_promotion: "Promotion"
- game_concept_promote_desc: "[pops|e] will [promote|e] from [ShowPopTypeName('peasants')] when there are possible positions for them in their [location|e]. Pops need be to of at least a [tolerated_culture|e] to promote."
+ game_concept_promote_desc: "[pops|e] will [promote|e] from [ShowPopTypeName('peasants')] when there are possible positions for them in their [location|e]. Pops need to belong to at least a [tolerated_culture|e] in order to promote."
 
 
  game_concept_demoted: "Demoted"
@@ -1086,6 +1089,9 @@
  game_concept_opinion_i: "@opinion!"
  game_concept_opinion_desc: "This is how much a [country|e] likes or dislikes another [country]. The difference between [trust|e] and opinion is that a high opinion will stop a [country] from being hostile, but we would need trust to be able to work together."
 
+ game_concept_bias: "Bias"
+ game_concept_bias_desc: "A bias is a certain attitude a [country|e] can have towards another one. It is split into three categories: [opinion|e], [trust|e] and [antagonism|e]. [country_interactions|e], [events|e] and historical setup have usually an impact on one of the three diplomatic aspects."
+
  game_concept_rival: "Rival" 
  game_concept_rivals: "Rivals" 
  game_concept_rivals_tooltip: "[rivals|e]" 
@@ -1303,7 +1309,7 @@
  game_concept_hegemony_desc: "Hegemony is established in different fields, where the [great_power|e] with the greatest level in each field will be proclaimed to be the Hegemon, earning some nice bonuses.\n[ShowDatabase('hegemony')]"
  game_concept_tier: "Tier" 
  game_concept_tiers: "Tiers" 
- game_concept_tier_desc: "This is the name for the level that a [formable_country|e] has. Every [country|e] belongs to a Tier from I to IV, depending on how hard the formation requirements are. Most importantly, [countries] can only form countries of the same Tier or higher than their current one."
+ game_concept_tier_desc: "This is the name for the level that a [formable_country|e] has. Every [country|e] belongs to a Tier from I to IV, depending on how hard the formation requirements are. Most importantly, [countries] can only form countries of higher Tiers than their current one."
 
  game_concept_country_rank: "Country Rank" 
  game_concept_country_ranks: "Country Ranks"
@@ -1473,7 +1479,7 @@
  game_concept_disaster_desc: "A Disaster is an important and disruptive incident affecting a single [country|e], and they could last or remain active over a long period of time, until the country manages to overcome it.\n\nSome of the most important Disasters include [ShowDisasterName('ambrosian_republic_disaster')] and [ShowDisasterName('dissolution_of_delhi')]."
 
  game_concept_tax_efficiency: "Tax Efficiency"
- game_concept_tax_efficiency_desc: "This is how efficient our [country|e] is at collecting [tax|e]. If it is positive, it can actually increase the amount of $game_concept_tax$ that countries can get from their [estates|e]."
+ game_concept_tax_efficiency_desc: "This is how efficient our [country|e] is at collecting [tax|e]. It affects the amount of $game_concept_taxes$ that reach the [treasury|e] when taxing the [estates|e]."
 
  game_concept_trade_efficiency: "Trade Efficiency"
  game_concept_trade_efficiency_desc: "This modifies how profitable a [trade|e] will be, by directly impacting the price you sell [goods|e] to the target [market|e]."
@@ -1528,7 +1534,7 @@
  game_concept_formable_country_formation: "Formation"
  game_concept_formable_forming: "Forming"
  game_concept_formable_countries: "Formable Countries"
- game_concept_formable_country_desc: "A Formable Country is a new national identity that can be formed (or re-formed) by a [country|e] fulfilling certain conditions.\n\nThese conditions might include controlling a percentage of the [locations|e] in a [region|e], or having a specific [primary_culture|e].\n\nWe can only form a Formable Country that has the same or higher [tier|e] than our current [tier].\n\nTypically, they represent historical unions, or even legendary ambitions. Upon formation, the old [country] will change its name, flag, and colors to that of the Formable Country."
+ game_concept_formable_country_desc: "A Formable Country is a new national identity that can be formed (or re-formed) by a [country|e] fulfilling certain conditions.\n\nThese conditions might include controlling a percentage of the [locations|e] in a [region|e], or having a specific [primary_culture|e].\n\nWe can only form a Formable Country that has a higher [tier|e] than our current [tier].\n\nTypically, they represent historical unions, or even legendary ambitions. Upon formation, the old [country] will change its name, flag, and colors to that of the Formable Country."
 
  game_concept_revolter: "Revolter"
  game_concept_revolt: "Revolt"
@@ -1859,12 +1865,14 @@
  game_concept_food_storage_per_strength: "Food Storage"
  game_concept_food_storage_per_strength_desc: "This is the amount of [food|e] that a [regiment|e] or [ship|e] can carry with them."
  game_concept_food_capacity: "Food Capacity"
- game_concept_food_capacity_per_strength: "Food Capacity"
  game_concept_food_capacity_desc: "This is how much [food|e] a [unit|e] can carry with them as they move."
+ game_concept_food_capacity_per_strength: "Food Capacity"
+ game_concept_food_capacity_per_strength_desc: "$game_concept_food_capacity_desc$"
  game_concept_food_consumption: "Food Consumption"
- game_concept_food_consumption_per_strength: "Food Consumption"
  game_concept_food_consumption_desc: "This is how much [food|e] a [regiment|e] will consume each month."
- game_concept_food_access: "Food Access" 
+ game_concept_food_consumption_per_strength: "Food Consumption"
+ game_concept_food_consumption_per_strength_desc: "$game_concept_food_consumption_desc$"
+ game_concept_food_access: "Food Access"
  game_concept_food_access_desc: "Food Access allows our [armies|e] and [navies|e] to gather [food|e] from the [locations|e] of the other [countries|e]."
  game_concept_hull_size: "Hull Size"
  game_concept_hull_size_desc: "The larger the hull size, the less damage a [ship|e] takes in [combat|e]."
@@ -1910,13 +1918,13 @@
 
  game_concept_phase: "Phase"
  game_concept_phases: "Phases"
- game_concept_phase_desc: "There are two Phases of [combat|e], starting with the initial 5-hour [bombard_phase|e] (if any [regiments|e] are able to [bombard|e]), followed by the [combat_phase|e]."
+ game_concept_phase_desc: "There are two Phases of [combat|e], starting with the initial [GetDefine('NCombat','BOMBARD_HOURS')|W]-hour [bombard_phase|e] (if any [regiments|e] are able to [bombard|e]), followed by the [combat_phase|e]."
 
  game_concept_combat_phase: "Combat Phase"
  game_concept_combat_phase_desc: "The Combat Phase is the main [phase|e] of [combat|e] which takes place after the initial [bombard_phase|e]. [regiments|e] or [ships|e] will attempt to [engage|e] their [enemy|e] counterparts."
 
  game_concept_bombard_phase: "Bombard Phase"
- game_concept_bombard_phase_desc: "The Bombard Phase is the opening [phase|e] of [combat|e] which takes place before the main [combat_phase|e]. It is exclusively utilized by [regiments|e] that can [bombard|e], for example [ShowUnitCategoryName('army_artillery')].\n\nEvery hour of the Bombard Phase, [regiments] have a chance to [bombard] which will deal their [combat_power|e] as damage to an enemy [regiment] on the same [section|e]."
+ game_concept_bombard_phase_desc: "The Bombard Phase is the opening [phase|e] of [combat|e] which takes place before the main [combat_phase|e]. It lasts [GetDefine('NCombat','BOMBARD_HOURS')|W] hours and is exclusively utilized by [regiments|e] that can [bombard|e], such as [ShowUnitCategoryName('army_artillery')].\n\nEvery hour of the Bombard Phase, valid [regiments] have a chance to [bombard], which will deal their [combat_power|e] as damage to an enemy [regiment] on the same [section|e]."
 
  game_concept_bombard: "Bombard"
  game_concept_bombarding: "Bombarding"
@@ -2150,7 +2158,7 @@
  
  game_concept_sound_toll: "Sound Toll"
  game_concept_sound_tolls: "Sound Tolls"
- game_concept_sound_toll_desc: "There are some straits in the world where the controller can exact a fee from [trades|e] traveling past it. For example:\n$BULLET_WITH_TAB$[ShowLocationName('oresund')]\n$BULLET_WITH_TAB$[ShowLocationName('gulf_izmit')]"
+ game_concept_sound_toll_desc: "There are some straits in the world where the controller can exact a fee from [trades|e] traveling past it. For example:\n$BULLET_WITH_TAB$[ShowLocationName('oresund')]\n$BULLET_WITH_TAB$[ShowLocationName('gulf_izmit')]\n\nEach Sound Toll is linked to a specific land [location|e] you need to own in order to be the controller of the strait, and the [income|e] generated from the toll is scaled by your [control|e] in that [location]."
  
  game_concept_great_power_score: "Great Power $game_concept_great_power_score_short$"
  game_concept_great_power_score_short: "Score"

@@ -23,7 +23,7 @@
  flavor_swe_nov.4.b.tt: "[swedish_theologian.GetName]を筆頭とする神学者たちが[target_location.GetName]へ赴き、[byzantium_country.GetName]の[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]と宗教論争をおこなう"
  flavor_swe_nov.5.title: "[sweden_country.GetAdjectiveWithNoTooltip]人神学者の訪問"
  flavor_swe_nov.5.desc: "興味深い人物が宮廷に現れた。名を[swedish_theologian.GetName]というこの人物は、[novgorod_country.GetNameWithNoTooltip]から派遣された[sweden_country.GetAdjective]人神学者であり、キリスト教の唯一の正当な信仰について、信仰の問題に長けた[GetCountry('BYZ').GetAdjective]の神学者たちの専門知識に基づいて論争をおこなうためにやってきた。"
- flavor_swe_nov.5.a: "[ShowReligionName('orthodox')]のなんたるかを教えてやれ。"
+ flavor_swe_nov.5.a: "[ShowReligionNameWithNoTooltip('orthodox')]のなんたるかを教えてやれ。"
  flavor_swe_nov.5.a.at: "[swedish_theologian.GetName]が論争での敗北を認め、[ROOT.GetCountry.GetReligion.GetName]に改宗する。\n[swedish_theologian.GetSheHe]は我々の信仰を説くため[sweden_country.GetName]へ帰国する"
  flavor_swe_nov.5.b: "興味深い。"
  swe_theologian_visit_received: "神学者の訪問を受け入れた"

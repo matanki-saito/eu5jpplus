@@ -76,7 +76,7 @@
  flavor_mei.121.b: "We can not part way with this land!"
 
  flavor_mei.122.desc: "[GetCountry('LDB').GetName] has suddenly withdrawn from our negotiations about the acquisition of their lands. This leaves us no choice but to pursue their lands through the means of war."
- flavor_mei.122.a: "[ROOT.GetCountry.Custom('common_string_unfortunate')]"
+ flavor_mei.122.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
 
  flavor_mei.130.title: "An Imperial Offer"
  flavor_mei.130.desc: "[GetCountry('SWB').GetName]'s [target_character.GetName] has died without heirs and the [GetCountry('SWB').GetFlavorRank] has been left vacant.\n\nBecause that seat is something that cannot be left unoccupied, we need a new holder of this dignity.\n\nAmong the several candidates, our advisors have proposed the [GetCountry('MEI').GetGovernment.GetRulerTitle] of [GetCountry('MEI').GetName] as a good choice. Should we decide to elevate [GetCountry('MEI').GetGovernment.GetRuler.GetHerHim] to [GetCountry('SWB').GetGovernment.GetRulerTitle] we could get a new friend in the area."

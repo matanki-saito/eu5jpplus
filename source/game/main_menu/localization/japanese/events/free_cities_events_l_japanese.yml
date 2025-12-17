@@ -47,7 +47,7 @@
  free_cities.12.b: "「……統治者として失格である」。つまり支援はないということか。"
  free_cities.13.title: "都市同盟"
  free_cities.13.desc: "ハンザ同盟やロンバルディア同盟に触発され、我々はほかの自由都市と同盟を結べないか模索をはじめた。自由都市は単独では弱いものの、小国同士が交易、帝国の平和維持、裁判、統一軍の維持などで協力すれば、大国の手にも余る強大な勢力となることは、すでに実証されている。"
- free_cities.13.a: "[SCOPE.sCountry('fc_league_invitation_target').GetName]に外交官を派遣せよ！"
+ free_cities.13.a: "[SCOPE.sCountry('fc_league_invitation_target').GetNameWithNoTooltip]に外交官を派遣せよ！"
  free_cities.13.b: "代わりに傭兵を雇うのはどうだ？"
  free_cities.14.title: "都市同盟の提案"
  free_cities.14.desc: "[GetUniqueInternationalOrganization('hre').GetName]には、相互協力のための同盟が数多く存在した。たとえばハンザ同盟は、商人ギルドが商業的・防衛的な目的で結んだ同盟であり、シュヴァーベン同盟は相互防衛や平和維持を目的とした同盟だった。なかにはスイス同盟のように、強大で結束が強いため国家とみなされるものもあった。[ShowSpecialStatusName('free_city')][SCOPE.sCountry('fc_league_invitation_source').GetName]がそうした同盟、つまり交易や帝国の平和維持、裁判における協力関係を結ばないかと提案してきた。"

@@ -241,7 +241,7 @@
  new_model_army_pi_desc: "王党派との内戦の荒廃は、わが軍の全面的な改革が急務であることを明らかにした。"
  edict_of_nantes_issue: "ナントの勅令"
  edict_of_nantes_issue_desc: "数年にわたる宗教的闘争のあと、共存による団結を促し、無益な流血を終わらせる時が来た。"
- end_the_french_wars_of_religion_tt: "[disaster|e]「[ShowDisasterName('french_wars_of_religion')]」が終了する"
+ end_the_french_wars_of_religion_tt: "[disaster|e]「[ShowDisasterName('french_wars_religion')]」が終了する"
  mug_promote_rajput_officials: "$rajasthani_language$の役人を昇格"
  mug_promote_rajput_officials_desc: "国内の$rajasthani_language$話者を昇格させることで、信頼の置ける軍事志向の役人を多数確保することができる。"
  promote_rajput_officials_passed_tt: "[ShowLanguageName('rajasthani_language')]を話す有能な人物が1名出現する。"

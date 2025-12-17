@@ -186,7 +186,7 @@
  flavor_nap.102.title: "Treaty of Villeneuve"
  flavor_nap.102.desc: "A representative of [target_pope.GetName] approaches the [ROOT.GetCountry.GetGovernment.GetRulerTitle] of [ROOT.GetCountry.GetName], [target_ruler.GetName], proposing a treaty to resolve the ongoing dispute with the [GetCountry('SIC').GetLongName], ruled by [target_sicily_ruler.GetName]. $flavor_nap_treaty_villeneuve_common$"
  flavor_nap.102.a: "[target_sicily_ruler.GetNameWithNoTooltip] can rule over [GetCountry('SIC').GetNameWithNoTooltip] if [target_sicily_ruler.GetSheHe] pays homage."
- flavor_nap.102.a.tt1: "[GetCountry('SIC').GetName] will receive an event to submit to us. They will decide if they pay us an annual tribute or become a vassal."
+ flavor_nap.102.a.tt1: "[GetCountry('SIC').GetName] will receive an event to submit to us. They will decide if they pay us an annual tribute as long as we never go to war against each other or become a vassal."
  flavor_nap.102.a.tt2: "We will lose all our [cores|e] in [ShowAreaName('sicily_area')]."
  flavor_nap.102.b: "Never. [ShowAreaNameWithNoTooltip('sicily_area')] is ours!"
 
@@ -195,7 +195,7 @@
  flavor_nap.103.a: "We will submit to the [GetCountry('NAP').GetLongNameWithNoTooltip]. For now."
  flavor_nap.103.b: "The Sicilies will be united again."
  flavor_nap.103.c: "They lost the war. They receive nothing."
- flavor_nap.103.tt1: "[GetCountry('NAP').GetName] will receive our answer."
+ flavor_nap.103.tt1: "[GetCountry('NAP').GetName] will receive our answer"
  flavor_nap.103.tt2: "[GetCountry('ARA').GetName] will receive our answer and might try to force a [union|E] on us.."
 
  flavor_nap.104.title: "$flavor_nap.102.title$"
@@ -208,11 +208,11 @@
  flavor_nap.105.a: "Welcome them."
 
  flavor_nap.106.title: "[GetCountry('SIC').GetNameWithNoTooltip] Accepts to Pay Homage."
- flavor_nap.106.desc: "[GetCountry('SIC').GetGovernment.GetRuler.GetName] of the [GetCountry('SIC').GetLongName] has accepted to pay homage to us."
+ flavor_nap.106.desc: "[GetCountry('SIC').GetGovernment.GetRulerOrRegent.GetName] of the [GetCountry('SIC').GetLongName] has accepted to pay homage to us."
  flavor_nap.106.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
 
  flavor_nap.107.title: "[GetCountry('SIC').GetNameWithNoTooltip] Denounces the Treaty."
- flavor_nap.107.desc: "[GetCountry('SIC').GetGovernment.GetRuler.GetName] of the [GetCountry('SIC').GetLongName] has not signed the treaty."
+ flavor_nap.107.desc: "[GetCountry('SIC').GetGovernment.GetRulerOrRegent.GetName] of the [GetCountry('SIC').GetLongName] has not signed the treaty."
  flavor_nap.107.a: "[GetCountry('SIC').GetNameWithNoTooltip] is back on the menu."
 
  flavor_nap.108.title: "The Annual Tribute to the [GetCountry('NAP').GetLongNameWithNoTooltip]."

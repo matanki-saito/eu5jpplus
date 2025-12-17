@@ -18,7 +18,7 @@
  REBEL_STALLED_NOT_ENOUGH: "支持者不足により停滞中。"
  REBEL_PROGRESS_ESTATE: "[estate_power|e]：$VAL|2-=%$"
  REBEL_NATIONALISM_SOURCE: "国家主義\n国家主義基本値：$VAL|2=-%$"
- REBEL_NATIONALISM_CULTURE_WAR: "[CULTURE.GetName]の[cultural_influence|e] vs [TARGET_CULTURE.GetName]の[cultural_tradition|e]：$VAL|+=2%$"
+ REBEL_NATIONALISM_CULTURE_WAR: "[CULTURE.GetName]の[cultural_influence|e] vs [TARGET_CULTURE.GetName]の[cultural_tradition|e]：$VAL|-=2%$"
  RSI_HEADER: "[pops|e]がこれらの反乱軍を支持する理由。"
  RSI_ENTRY: "$NAME$：$VAL|2+=%$"
  rsi_separatism: "[separatism|e]"

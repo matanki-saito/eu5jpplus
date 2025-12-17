@@ -91,7 +91,7 @@
  flavor_eng_diplomacy.1300.desc: "[target_root_country.GetName]と[ROOT.GetCountry.GetName]のあいだの同盟はもはや存在しないが、ウィンザー条約によって両国間の有望な関係の基盤はしっかりと確立されている。調印された同盟に付帯する条件となっていた、未婚の[target_root_country.GetGovernment.GetRuler.GetName]との王族間の結婚の提案を検討しなければならない時期となった。これは持参金の一部として貴重な土地の供与を伴うもので、拒むのが難しい提案でもある。\n\n[ShowLocationName('tangier')]の立地は多額の防衛費がかかるとともに課題があり、[target_root_country.GetNameWithNoTooltip]の野望に応える戦略的港湾となるかもしれない。"
  flavor_eng_diplomacy.1300.a: "必要な書類を用意しよう。"
  flavor_eng_diplomacy.1300.a.custom: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]と[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]が[ShowLocationNameWithNoTooltip('tangier')]の供与に大きな不満を示す"
- flavor_eng_diplomacy.1300.b: "代わりに[overseas_location.GetName]の土地を渡そう。"
+ flavor_eng_diplomacy.1300.b: "代わりに[overseas_location.GetNameWithNoTooltip]の土地を渡そう。"
  flavor_eng_diplomacy.1300.c: "そのような協定は不要だ。"
  flavor_eng_diplomacy.1301.title: "不朽の友情の復活"
  flavor_eng_diplomacy.1301.desc: "[GetCountry('POR').GetAdjective]の使節が領土の供与と、未婚の[ROOT.GetCountry.GetGovernment.GetRuler.GetName]に婚姻相手として[suitable_daughter.GetName]を差し出すことで同盟を維持し、外交関係を強化する提案を持ってやって来た。\n\n彼らは、持参金の一部として[ceded_location.GetName]の戦略的要地を提案してきた。これは我々の野望に役立つ可能性もあるが、果たして……"

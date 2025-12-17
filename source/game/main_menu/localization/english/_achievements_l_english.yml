@@ -20,7 +20,7 @@
  ACHIEVEMENTS_ENABLED_NO_HEADER: "#P Available#!"
  ACHIEVEMENTS_DISABLED_NO_HEADER: "#N Not Available#!"
  ACHIEVEMENTS_DISABLED_NO_HEADER_PLAY_BUTTON: "#N Not Available#!\n\nAchievements cannot currently be unlocked while playing the game.\n$ACHIEVEMENTS_EXPLANATION$"
- ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 Achievements are only unlockable if:\n$EFFECT_LIST_BULLET$You play Single Player\n$EFFECT_LIST_BULLET$Ironman mode is enabled\n$EFFECT_LIST_BULLET$The game has not reached the endgame date\n$EFFECT_LIST_BULLET$Game files that affect gameplay are unmodified, and you are not using any special launch options. (i.e. the checksum is unmodified)"
+ ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 Achievements are only unlockable if:\n$EFFECT_LIST_BULLET$You play Single Player\n$EFFECT_LIST_BULLET$Ironman mode is enabled\n$EFFECT_LIST_BULLET$The game has not reached the endgame date\n$EFFECT_LIST_BULLET$You are not using another player's save game\n$EFFECT_LIST_BULLET$Game files that affect gameplay are unmodified, and you are not using any special launch options. (i.e. the checksum is unmodified)"
  ACHIEVEMENTS_ENABLED: "#T Achievements Available#!\nAchievements can currently be unlocked while playing the game."
  ACHIEVEMENTS_DISABLED: "#T Achievements Not Available#!\nAchievements cannot currently be unlocked while playing the game.\n\n$ACHIEVEMENTS_EXPLANATION$"
  ACHIEVEMENT_GROUP_TITLE_CAESAR: "[Group.GetName]"

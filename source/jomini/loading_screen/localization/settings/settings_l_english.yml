@@ -44,3 +44,13 @@
  SETTINGS_PAGE_ACCOUNT: "Account"
  SETTING_TELEMETRY_CONSENT: "Send optional telemetry data"
  SETTING_TELEMETRY_CONSENT_TOOLTIP:0 "#T Telemetry Consent\n#!Allow sending optional telemetry data to Paradox Interactive."
+ # Input actions / Camera
+ SETTING_INPUT_ACTION_CAMERA_UP: "Camera Up"
+ SETTING_INPUT_ACTION_CAMERA_DOWN: "Camera Down"
+ SETTING_INPUT_ACTION_CAMERA_LEFT: "Camera Left"
+ SETTING_INPUT_ACTION_CAMERA_RIGHT: "Camera Right"
+ SETTING_INPUT_ACTION_CAMERA_ZOOM_IN: "Zoom in camera"
+ SETTING_INPUT_ACTION_CAMERA_ZOOM_OUT: "Zoom out camera"
+ SETTING_INPUT_ACTION_CAMERA_ROTATE: "Rotate camera"
+ SETTING_INPUT_ACTION_CAMERA_DRAG: "Drag camera"
+ SETTING_INPUT_ACTION_CAMERA_LOCK: "Lock camera"

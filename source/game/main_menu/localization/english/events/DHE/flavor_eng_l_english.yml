@@ -472,7 +472,7 @@
  flavor_eng.71.a: "Favor the Warbeltons of [hampshire.GetNameWithNoTooltip]."
  flavor_eng.71.b: "Favor the Gorges of [somerset.GetNameWithNoTooltip]."
  flavor_eng.71.c: "Negotiate a monetary settlement."
- flavor_eng.71.historical_info: "Warbelton v. Gorges is a historical legal case from 1347 concerning coats of arms. During this time, armorial bearings represented the very identity of a man and were of enormous importance to him and his family, but they also held a practical purpose as it allowed for personal recognition in battles and in legal matters. The case was one by the Warbeltons who were able to present a stronger claim."
+ flavor_eng.71.historical_info: "Warbelton v. Gorges is a historical legal case from 1347 concerning coats of arms. During this time, armorial bearings represented the very identity of a man and were of enormous importance to him and his family, but they also held a practical purpose as it allowed for personal recognition in battles and in legal matters. The case was won by the Warbeltons who were able to present a stronger claim."
 
  flavor_eng.72.title: "Lords Appellant"
  flavor_eng.72.desc: "A group of [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have appeared at court, accusing [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer|U] Majesty of being 'peaceful, capricious, and tyrannical in nature'. They are invoking a procedure under law known as an 'appeal' in order to start prosecution of some of our favorites at court, accusing them of nepotism and treason.\n\nBy law, this would allow them to set up a [ShowGovernmentReformName('ruling_commission_of_england')] that would have a profound impact on [ROOT.GetCountry.GetGovernment.GetAdjective] authority."
@@ -701,10 +701,10 @@
  flavor_eng.103.historical_info: "Nicholas of Hereford was a theologian and scholar best remembered for his association with the influential English philosopher and theologian John Wycliffe. He remained a leading figure in the Wycliffite movement, whose goal was to bring about religious and theological reforms within the Catholic Church."
 
  flavor_eng.104.title: "[margaret_beaufort.GetNameWithNoTooltip]"
- flavor_eng.104.desc: "The time has come to choose a bride for [brother.GetName], the brother of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. A descendant of [henry_iii.GetName], the [margaret_beaufort.GetName] is cunning and sharp and would strengthen the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] claim, in the unlikely event that [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has no legitimate heirs upon [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] passing.\n\nClaiming to act by divine guidance, [margaret_beaufort.GetSheHe] is not favored by the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] who will undoubtedly disapprove of the match."
+ flavor_eng.104.desc: "The time has come to choose a bride for [brother.GetName], the brother of the [ROOT.GetCountry.GetGovernment.GetRulerTitle]. A descendant of [henry_iii.GetName], [margaret_beaufort.GetName] is cunning and sharp and would strengthen the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] claim, in the unlikely event that [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has no legitimate heirs upon [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] passing.\n\nClaiming to act by divine guidance, [margaret_beaufort.GetSheHe] is not favored by the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] who will undoubtedly disapprove of the match."
  flavor_eng.104.a: "Have the wedding bells ring throughout [ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]."
  flavor_eng.104.tt1: "[margaret_beaufort.GetNameWithNoTooltip] is added as a [character|e] and gives birth to [henry_tudor.GetName]"
- flavor_eng.104.b: "She's a jinx that one."
+ flavor_eng.104.b: "She is a jinx that one."
  flavor_eng.104.tt2: "[margaret_beaufort.GetNameWithNoTooltip] is added as a [character|e]"
  flavor_eng.104.historical_info: "Margaret Beaufort was the mother of Henry VII, whom she gave birth to when she was just 13 years old. She played a significant role in his efforts to seize the English throne and took an active role in conspiracies and plans to make this possible. She is also remembered for her strong religious beliefs and devotion, and for founding Christ's College and St. John's College at the University of Cambridge."
 
@@ -1226,12 +1226,12 @@
 
  flavor_eng.164.title: "The Great Contract"
  flavor_eng.164.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] is mired in debt, no doubt caused by a lavish lifestyle and a large household to provide for. [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer|U] cabinet is petitioning Parliament to provide an annual grant, in exchange for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] giving up certain rights and powers.\n\nThe agreement, known as the 'Great Contract', would increase [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] income and rid it of debt. Failure to reach a financial settlement would tarnish our reputation with investors and have a detrimental effect on our future ability to raise funds."
- flavor_eng.164.c: "It is an impossible task."
+ flavor_eng.164.a: "It is an impossible task."
  flavor_eng.164.tt1: "[target_root_country.GetGovernment.GetRuler.GetNameWithNoTooltip] struggles financially which weighs heavy on [target_root_country.GetGovernment.GetRuler.GetHisHer] rule"
  flavor_eng.164.tt2: "Money lenders, wary of financial instability, demand greater security for any loans taken"
  flavor_eng.164.b: "Renegotiate the terms."
  flavor_eng.164.tt3: "The negotiating skills of [target_character.GetName] secure a more moderate agreement"
- flavor_eng.164.a: "We are in agreement."
+ flavor_eng.164.c: "We are in agreement."
  STATIC_MODIFIER_NAME_great_contract: "Great Contract"
  STATIC_MODIFIER_NAME_great_contract_compromise: "Revised Great Contract"
  STATIC_MODIFIER_NAME_lack_of_agreement: "Lack of Agreement"

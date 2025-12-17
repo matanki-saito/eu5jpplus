@@ -54,7 +54,8 @@
  flavor_hol.9.title: "The Fluitschip"
  flavor_hol.9.desc: "The expansive [ROOT.GetCountry.GetCulture.GetName] economy has put large demands on our merchant marine. The very shallow [ROOT.GetCountry.GetCulture.GetNameWithNoTooltip] waters also mean that common merchant ships such as caravels are unable to approach many of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] ports. So far this has been handled by the use of smaller boeiers but with financial backing from [target_character.GetName], a merchant from [ShowLocationName('hoorn')], a new type of ship has been developed.\nThe fluitship or fluyt is longer and has a very characteristic pear-shaped stern and is built to be effectively manned by a small crew. As it is able to carry larger cargoes while still handling the shallow Dutch waters and behaving very well in the open sea this ship is a godsend for our merchants."
  flavor_hol.9.a: "This is definitely a good idea!"
- flavor_hol.9.b: "I do not think our shipbuilding industry is ready for this."
+ flavor_hol.9.b: "Interesting idea, but now it is not the time. Maybe later?"
+ flavor_hol.9.c: "I do not think our shipbuilding industry is ready for this."
 
  flavor_hol.10.title: "[target_character.GetNameWithNoTooltip]"
  flavor_hol.10.desc: "[target_character.GetName], more commonly known as just Erasmus, is a humanist and an aspiring scholar. [target_character.GetHisHer|U] world views as well as [target_character.GetHisHer] philosophies are renowned in [ShowContinentName('europe')] for their tolerant nature. Additionally, as a [target_character.GetWomanMan] of the middle ground, [target_character.GetHisHer] influence in the theology makes [target_character.GetHimHer] a beacon for those who value liberty more than orthodoxy."

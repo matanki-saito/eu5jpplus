@@ -17,7 +17,7 @@
  ireland.30.a: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]に任せれば、[ROOT.GetCountry.GetNameWithNoTooltip]の近代化が進むはずだ。"
  ireland.30.b: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]は祈ることだけを考えておけばいい。"
  ireland.40.title: "[native_culture.GetNameWithNoTooltip]よりも[native_culture.GetNameWithNoTooltip]らしく"
- ireland.40.desc: "幾世代にもわたり[native_culture.GetName]とともに過ごしてきたことで、我々の生き方は緩やかに、そして着実に変化してきた。[judgmental_culture.GetName]はもはや我々を[judgmental_culture.GetNameWithNoTooltip]とは見なさず、[native_culture.GetNameWithNoTooltip]も我々を新参者とは見なさなくなった。"
+ ireland.40.desc: "幾世代にもわたり[native_culture.GetName]とともに過ごしてきたことで、我々の生き方は緩やかに、そして着実に変化してきた。[judgmental_culture.GetName]はもはや我々を[judgmental_culture.GetNameWithNoTooltip]とは見なさず、[native_culture.GetNameWithNoTooltip]も我々を新参者とは見なさなくなった……"
  ireland.40.a: "我々は[native_culture.GetNameWithNoTooltip]よりも[native_culture.GetNameWithNoTooltip]らしい！"
  ireland.40.b: "我々の伝統を失ってはならない！"
  opinion_gone_native: "土着の民となった"

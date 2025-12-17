@@ -2,6 +2,7 @@
  SAVE_BUTTON_DISABLED: "@trigger_no! オートセーブは鉄人モードでのみ有効"
  SAVE_BUTTON_DISABLED_BY_TUTORIAL: "@trigger_no! チュートリアル中はセーブできない。"
  LOAD_INGAME_BUTTON_DISABLED: "マルチプレイでゲームデータのロードはできません"
+ LOAD_INGAME_BUTTON_IRONMAN: "@trigger_no! You cannot load a game in Ironman mode"
  HOST_GAME_BUTTON_DISABLED: "現在、マルチプレイモードでプレイ中です"
  GAME_NOT_PAUSED: "#X ゲームが進行中#!"
  PAUSE_MENU_GAME_RULES_TOOLTIP: "現在のゲームルールの設定を確認"

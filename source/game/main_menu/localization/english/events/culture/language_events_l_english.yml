@@ -18,7 +18,7 @@
  language.10.title: "The [country.GetGovernment.GetRulerTitle|U]'s Speech"
  language.10.desc: "Yet another council meeting, yet another official document, and it is clear that [ruler.GetShortName] is not able to properly handle [ruler.GetHerselfHimself] at court.\n\nDue to [ruler.GetHisHer] [ruler_culture.GetName] upbringing, [ruler.GetHisHer] mastery of [court_language.GetName] leaves much to be desired. [ruler.GetHisHer|U] marked foreign accent is unbearable to native ears and a constant reminder that [ruler.GetSheHe] is not truly someone that should be in charge of a [court_language.GetNameWithNoTooltip] court."
  language.10.a: "We should adopt [ruler.GetHisHer] [ruler_language.GetNameWithNoTooltip] language."
- language.10.b: "[ruler.GetHisHer|U] lack understanding might be beneficial."
+ language.10.b: "[ruler.GetHisHer|U] lack of understanding might be beneficial."
  
  language.20.title: "The Pleading in [common_language.GetNameWithNoTooltip] Act"
  language.20.desc: "Ordinary [primary_culture.GetName] folk are being forced to have their legal trials heard in [court_language.GetName], a language that they do not understand.\n\nThere is growing clamor for the judicial system to adopt common [common_language.GetNameWithNoTooltip], so that pleas and sentences are more widely understood."

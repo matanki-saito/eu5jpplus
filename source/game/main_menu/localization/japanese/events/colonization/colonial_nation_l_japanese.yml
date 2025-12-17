@@ -22,7 +22,7 @@
  colonial_nation.183.title: "新たな総督"
  colonial_nation.183.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName]の統治が非効率である、という噂は王室にも届いており、この状況が王室とわが国の評判を損ねるのではとの懸念が広がっている。王室による同化の危機を回避するため、植民地政府は一時しのぎの取引を持ちかけてきた。それは手遅れになる前に、植民地の手綱を握ることのできる新総督を任命する、というものだった。"
  colonial_nation.183.a: "彼らの助言を受け入れるべきだ。"
- colonial_nation.183.b: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName]はまだ統治できるはずだ。"
+ colonial_nation.183.b: "[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]はまだ統治できるはずだ。"
  colonial_nation.184.title: "[ROOT.GetCountry.GetName]の負債"
  colonial_nation.184.desc: "植民地が直面している困難な時代には終わりがない。いま我々には新たな金銭的な負債がのしかかっており、これは飢饉に苦しむ家族を救おうと働く人々の心に大きな打撃を与えた。彼らは現在、[ROOT.GetCountry.GetGovernment.GetRuler.GetName]に早急かつ効果的な解決策を求めている。"
  colonial_nation.184.a: "我々はこの問題を解決しなければ。"

@@ -128,6 +128,7 @@
  ROLE_CLAUSEWITZ_ENGINE_PROGRAMMER_MANAGER: "#credits_role Clausewitz Engine Programmer Manager#!"
  ROLE_CLAUSEWITZ_ENGINE_TECH_LEAD: "#credits_role Clausewitz Engine Tech Lead#!"
  ROLE_CLAUSEWITZ_ENGINE_ENGINEER: "#credits_role Clausewitz Engine Engineer#!"
+ ROLE_CLAUSEWITZ_QA_ANALYST: "#credits_role Clausewitz QA Analyst#!"
  ROLE_PLATFORM_SERVICES_MANAGER: "#credits_role Platform Services Manager#!"
  ROLE_BUILD_TEST_AUTOMATION_ENGINEER: "#credits_role Build & Test Automation Engineer#!"
  ROLE_INFRASTRUCTURE_AUTOMATION_ENGINEER: "#credits_role Infrastructure & Automation Engineer#!"

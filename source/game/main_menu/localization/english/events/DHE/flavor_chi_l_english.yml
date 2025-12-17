@@ -289,6 +289,7 @@
  flavor_chi.53.desc: "The [ROOT.GetCountry.GetGovernment.GetCourtTitle] and the [ROOT.GetCountry.GetGovernment.GetRulerTitle] are in need of a new palace to manage the [ROOT.GetCountry.GetFlavorRank]'s affairs from. After much deliberation, [target_location.GetName] has been chosen to host the new palace as it was deemed a most suitable site for a northern capital and a new seat of power.\n\nAs such, [target_character.GetName] had [target_character.GetHerHis] ministers and architects design a new palace to be placed there. After months of relentless work, their work is finally done and the result is the plan of the [ShowBuildingTypeName('forbidden_city')], a massive complex containing hundreds of buildings and housing thousands of ministers and servants."
  flavor_chi.53.a: "Have it built at once!"
  flavor_chi.53.b: "Could we spare the gold, we would."
+ CHI_event_will_fire_within_10_to_20_years: "The construction finish will be marked by an [event|e] that will fire within 10 to 20 years."
 
  flavor_chi.54.title: "$flavor_chi.53.title$ Built"
  flavor_chi.54.desc: "The construction of the magnificent [ShowBuildingTypeName('forbidden_city')] is finally complete. The complex is now ready for the [ROOT.GetCountry.GetGovernment.GetRulerTitle] to move in and it is certain that the palace will, at the very least, serve as the winter residence for the monarchs. What is certain, however, is that the [target_location.GetRank.GetName] of [target_location.GetName] has become a lot more important for our state."

@@ -35,7 +35,7 @@
  hre.900.title: "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]、崩御さる"
  hre.900.desc: "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]万歳！ 選帝侯が引き続き我々を支持することを決定し、帝冠は変わらず[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]のものとなる。わが国が皇帝の座を握り、諸侯が我々を帝冠の当然の保有者と見なすようになれば、[GetUniqueInternationalOrganization('hre').GetName]における我々の権威が高まるだろう。"
  hre.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
- hre.imperial_authority_change.tt: "[GetUniqueInternationalOrganization('hre').GetName]が#Y $imperial_authority$#!を[ROOT.GetVariable('imperial_authority_change').GetValue]得る"
+ hre.imperial_authority_change.tt: "[GetUniqueInternationalOrganization('hre').GetName]が#Y $imperial_authority$#!を[ROOT.GetVariable('imperial_authority_change').GetValue|+2]得る"
  hre.901.title: "諸侯の復活"
  hre.901.desc: "[released_country.GetName]は不死鳥のごとく灰から蘇り、[GetUniqueInternationalOrganization('hre').GetName]の諸侯に復帰した！"
  hre.901.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

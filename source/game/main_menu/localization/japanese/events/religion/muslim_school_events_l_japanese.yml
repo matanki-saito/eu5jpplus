@@ -27,7 +27,7 @@
  muslim_school_events.7.b: "この者をよその土地に追い払え。"
  muslim_school_events.8.title: "他国の神学者の功績"
  muslim_school_events.8.desc: "我々がこの国に招いた神学者たちは、この国の宗教学を深めてくれた。彼らはこの国に足跡を刻み、新しい世代の[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]たちを勇気づけた。"
- muslim_school_events.8.a: "彼らは[ROOT.GetCountry.GetCapital.GetName]に必要だ。"
+ muslim_school_events.8.a: "彼らは[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]に必要だ。"
  muslim_school_events.8.b: "彼らはわが国の諸地域で活躍するだろう。"
  muslim_school_events.9.title: "[SCOPE.sCountry('scholar_country').GetReligiousSchool.GetNameWithNoTooltip]の神学者"
  muslim_school_events.9.desc: "[SCOPE.sCountry('scholar_country').GetAdjectiveWithNoTooltip]の学者をわが国のマラドサに迎えれば、わが国の神学的議論が深まるだけでなく[SCOPE.sCountry('scholar_country').GetName][SCOPE.sCountry('scholar_country').GetGovernment.GetGovernmentType.GetName]との関係も深めることができる。"

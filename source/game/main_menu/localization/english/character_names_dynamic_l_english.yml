@@ -6971,7 +6971,7 @@
  name_julius: "Julius"
  name_julius.arpitan_dialect: "Julio"
  name_julius.french_language: "Jules"
- name_julius_latin_language: "Iulius"
+ name_julius.latin_language: "Iulius"
  name_julius.north_italian_language: "Giulio"
  name_julius.occitan_language: "Juli"
  name_julius.romanian_language: "Iuliu"

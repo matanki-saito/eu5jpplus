@@ -113,7 +113,7 @@
 #Hook and Cod Wars
  #Disaster
  hook_and_cod_wars: "The Hook and Cod Wars"
- hook_and_cod_wars_desc: "Our line of succession is unclear, and as a result, our political leaders have divided themselves into two factions. The Cod faction are generally more conservative and back established rulers, whereas the Hooks typically favor independence and back those with less solid claims. This division has the potential to severely undermine the status quo, and should be handled with care."
+ hook_and_cod_wars_desc: "Our line of succession is unclear, and as a result, our political leaders have divided themselves into two factions. The Hook faction are generally more conservative and back established rulers, whereas the Cods typically favor independence and back those with less solid claims. This division has the potential to severely undermine the status quo, and should be handled with care."
  hook_and_cod_wars_hooks_have_won_tt: "The #Y Hooks#! have secured #Y 20#! Influence Score (currently: #Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!)"
  hook_and_cod_wars_cods_have_won_tt: "The #Y Cods#! have secured #Y 20#! Influence Score (currently: #Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!)"
  HACW_HOOK_TOOLTIP: "The #Y Hooks#! are the representative of the [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('nobles_estate')] of [DisasterView.GetDisaster.GetOwner.GetName]. They support [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetName] and [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetHerHis] ambition for the throne"
@@ -271,6 +271,7 @@
  decline_of_empire: "Decline of the Empire"
  decline_of_empire_desc: "Once mighty and unshakable, our empire now teeters on the brink of collapse. Corruption festers within our institutions, our provinces grow restless under the weight of neglect, and foreign powers circle like vultures, eager to carve up what remains of our glory. The golden age that once defined us has faded into memory, and the cracks in our foundation grow wider with each passing day. If we do not act swiftly to address the rot within and restore control, our empire will crumble, leaving only ruins and regret, a shadow of our former glory..."
  has_not_had_decline_of_empire_last_25_years: "Has not had this [disaster|e] in the last #Y 25#! years"
+ not_recently_become_empire_tt: "Has had the [ShowCountryRankName('rank_empire')] [country_rank|e] for at least #Y 15#! years"
 
 #Decline of Mali
  #Disaster

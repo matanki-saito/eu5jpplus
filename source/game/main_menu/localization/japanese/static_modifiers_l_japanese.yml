@@ -91,6 +91,7 @@
  STATIC_MODIFIER_NAME_giving_support_military: "軍事支援を提供中"
  STATIC_MODIFIER_NAME_receiving_support_military: "軍事支援を受けている"
  STATIC_MODIFIER_NAME_receiving_scutage: "軍役代納金を得ている"
+ STATIC_MODIFIER_NAME_receiving_rein_in_junior_diplomacy: "Reined in Junior Diplomacy"
  STATIC_MODIFIER_NAME_giving_support_loyalists: "体制支持者への支援を提供中"
  STATIC_MODIFIER_NAME_receiving_support_loyalists: "体制支持者への支援を受けている"
  STATIC_MODIFIER_NAME_receiving_divert_trade: "交易の転換を受けている"
@@ -731,6 +732,7 @@
  #Bohemia
  STATIC_MODIFIER_NAME_hussite_heresy_modifier: "異端のフス派"
  STATIC_MODIFIER_DESC_hussite_heresy_modifier: "最近[ShowReligionName('hussite')]が台頭し、その信者が[ShowReligionAdjective('catholic')]教会の改革を求めている。"
+ STATIC_MODIFIER_NAME_expanded_mines_modifier: "鉱山の拡大"
  #Aztec Modifiers
  STATIC_MODIFIER_NAME_good_omen_modifier: "吉兆"
  STATIC_MODIFIER_DESC_good_omen_modifier: "穏やかな天候に豊富な食糧。再生の時期が到来し、神々の喜びを示す吉兆が現れている。"
@@ -800,6 +802,8 @@
  STATIC_MODIFIER_DESC_austere_court: "この国の宮廷生活や官僚文化は、面白みのない緊縮財政が最たる特徴である。"
  STATIC_MODIFIER_NAME_ostentatious_court: "仰々しい宮廷"
  STATIC_MODIFIER_DESC_ostentatious_court: "この国本来の宮廷生活は洗練されているが、現在は退廃的な見せ物や富の誇示が特徴となっている。それでも訪問者は大きな感銘を受けているようだ。"
+ STATIC_MODIFIER_NAME_tur_public_cats: "Public Cat Property"
+ STATIC_MODIFIER_DESC_tur_public_cats: "The cats in this location have been turned into public property, protecting them from any misconduct that may occur. This especially increases the number of rats being hunted, ensuring that no deadly diseases appear."
  #Byzantium
  STATIC_MODIFIER_NAME_defensive_effort_modifier: "防衛への取り組み"
  STATIC_MODIFIER_DESC_defensive_effort_modifier: "このロケーションの防衛のために、大量の兵士が派遣された。"
@@ -1055,6 +1059,7 @@
  STATIC_MODIFIER_NAME_fra_birth_of_college_de_france: "コレージュ・ド・フランスの誕生"
  STATIC_MODIFIER_NAME_fra_routiers_looted_province: "泥棒男爵"
  STATIC_MODIFIER_NAME_fra_estates_general_halts_support: "三部会が支援を停止"
+ STATIC_MODIFIER_NAME_fra_recognized_marcel_in_parliament: "Recognized Marcel in the Estates-General"
  STATIC_MODIFIER_NAME_fra_marcel_tax_embargo: "市民税の禁止"
  STATIC_MODIFIER_NAME_fra_burghers_broken_by_marcel_death: "市民階級が大幅に弱体化"
  STATIC_MODIFIER_NAME_fra_lavish_gifts_to_cadet_branches: "浪費する分家"
@@ -1727,8 +1732,8 @@
  STATIC_MODIFIER_NAME_curbed_peasants_power_modifier: "農民の権力を制限"
  STATIC_MODIFIER_NAME_cnc_local_authority_asserted: "地方権限を主張"
  STATIC_MODIFIER_NAME_cnc_refused_to_pay_taxes: "免税"
- STATIC_MODIFIER_NAME_absolutist_influences_government_modifier: "Absolutist Influences in the Government"
- STATIC_MODIFIER_NAME_liberal_influences_government_modifier: "Liberal Influences in the Government"
+ STATIC_MODIFIER_NAME_absolutist_influences_government_modifier: "政府における絶対主義の影響"
+ STATIC_MODIFIER_NAME_liberal_influences_government_modifier: "政府における自由主義の影響"
  #Aspiration for Liberty
  STATIC_MODIFIER_NAME_reinstated_the_parliament_modifier: "立法機関の復活"
  STATIC_MODIFIER_NAME_decreased_morale_modifier: "士気低下"
@@ -1913,6 +1918,7 @@
  STATIC_MODIFIER_NAME_reduced_payment_obligations: "支払い義務の軽減"
  STATIC_MODIFIER_NAME_appanage_diplomatic_betrayal_modifier: "外交的裏切り"
  STATIC_MODIFIER_DESC_appanage_diplomatic_betrayal_modifier: "宗主国と[GetCountry('ENG').GetLongName]とのあいだの政治情勢への不干渉と引き換えに、我々は多額の金を要求することを決定した。"
+ STATIC_MODIFIER_NAME_victory_in_the_hyw_modifier: "Victory in the $hundred_years_war$"
  #Western Schism
  STATIC_MODIFIER_NAME_ws_show_unity_of_faith: "信仰による結束を示す"
  #Little Ice Age

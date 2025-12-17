@@ -4,6 +4,7 @@
  INSTITUTION_SPREAD_FRIENDLY_COASTAL: "Nearby [locations|e] where [owner|e] has positive [opinion|e]: $VAL|+=2$"
  INSTITUTION_SPREAD_ANY_COASTAL: "Nearby [locations|e]: $VAL|+=2$"
  INSTITUTION_SPREAD_IMPORTS: "[import|e] from [locations|e] with [INSTITUTION.GetNameWithNoTooltip]: $VAL|+=2$"
+ INSTITUTION_SPREAD_EXPORTS: "[exports|e] to [locations|e] with [INSTITUTION.GetNameWithNoTooltip]: $VAL|+=2$"
  INSTITUTION_SPREAD_OWNER_CONTROL: "[control|e] in [location|e] as [COUNTRY.GetNameWithNoTooltip] has [embraced|e] [INSTITUTION.GetNameWithNoTooltip]: $VAL|+=2$"
  INSTITUTION_SPREAD_EMBRACED_TO_CAPITAL: "Presence in [country|e]'s [capital|e]: $VAL|+=2$"
  INSTITUTION_SPREAD_FROM_MARKET_CENTER: "Present in the [market_center|e]: $VAL|+=2$"
@@ -1039,6 +1040,11 @@
  slave_manned_galleys_desc: "Massive galley fleets incur in massive costs as they need to be provided with enough oarsmen to function. By employing slaves, we can be sure that we will have lesser costs to use our navies."
 
 
+ jesuits_bark: "Jesuit's Bark"
+ jesuits_bark_desc: "Some native population of South America have been observed to use the bark of a specific tree to treat shivers. Thanks to the experiments of a Jesuit apothecary, this bark has been proven also effective for the treatment of malaria, and it is already known as 'Jesuit's Bark'. Distributing it to the affected population will greatly decrease the effects of the disease."
+ quinine: "Quinine"
+ quinine_desc: "Although the 'Jesuit's Bark' has been effective in treating malaria in the past, its consumption as dried bark powder leaves much room for improvement. By isolating and extracting the actual healing component from the bark, we can substantially increase the effectiveness of the treatment."
+
  state_efficiency: "Local Infrastructure"
  state_efficiency_desc: "Despite our focus on the country-wide scale of affairs, we must not neglect to tend to our local state legislators and bailiffs."
  efficient_mining: "Efficient Mining"
@@ -1388,7 +1394,7 @@
  port_authority_advance: "Port Authority"
  port_authority_advance_desc: "$port_authority_desc$"
  porcelain_kiln_advance: "Porcelain Kiln"
- porcelain_kiln_advance_desc: "$porcelain_kiln_desc$"
+ porcelain_kiln_advance_desc: "$porcelain_guild_desc$"
  scriptorium_advance: "Scriptorium"
  scriptorium_advance_desc: "$scriptorium_desc$"
  paper_guild_advance: "Paper Guild"
@@ -1680,7 +1686,7 @@
  marian_devotion_desc: "Our Devotion to the Virgin Mary must remain a central pillar of our worship."
  crusading_knights: "Experience of the Baltic Crusades"
  crusading_knights_desc: "Sending our finest knights and nobles to the heathen areas of the Baltic or Mediterranean Seas has a long tradition in our country. We will both fulfill the good work of Christ in bringing the faith to the unenlightened and, additionally, we will gain experienced commanders for our armies."
- catholic_pilgrimages: "Catholic Pilgrims"
+ catholic_pilgrimages: "Catholic Pilgrimages"
  catholic_pilgrimages_desc: "The holy sites of our faith deserve care and attention from every follower. Encouraging pilgrimages and elevating those who have undergone the process should be an important action in our country."
  inquisition_advance: "Inquisition"
  inquisition_advance_desc: "The Inquisition was created in the 12th century as a means to combat the Cathar heresy, but its reach grew significantly in the Late Middle Ages as the main tool of the Catholic Church to counter the spread of dissident doctrines."
@@ -2953,17 +2959,17 @@
 
  #Two Sicilies
  tws_unified_legal_code: "Unified Legal Code"
- tws_unified_legal_code_desc: "The territories which constitute our land have suffered revolts due to unjust applications of laws. In order to prevent these occurances in the future, we should standardize our legal code and ensure fair application of our laws. This will surely prevent any uprising spiraling into chaos."
+ tws_unified_legal_code_desc: "The territories which constitute our land have suffered revolts due to unjust applications of laws. In order to prevent these occurrences in the future, we should standardize our legal code and ensure our laws are applied fairly. This will surely prevent any uprising from spiraling into chaos."
  tws_ensure_loyal_families: "Loyalty of the Noble Families"
  tws_ensure_loyal_families_desc: "The Noble Families of both Sicilies exert much power in our stead. By granting them prestigious yet meaningless roles at court, we will ensure their loyalty and guarantee stable rule over our countryside."
  tws_revitalize_the_lands: "Attract new People"
- tws_revitalize_the_lands_desc: "Much of the previous rulers' attention was too focused on only specific areas of our lands. If we want to retain hold of both Sicilies, we will have to invest into both parts to an equal and just degree. One step towards this goal is to attract people to previously neglected areas."
+ tws_revitalize_the_lands_desc: "Previous rulers put too much focus on particular areas of our country. If we want to retain control of both Sicilies, we will have to invest equally and fairly in both parts. One step towards this goal is attracting people to settle in previously neglected areas."
  tws_capable_vicars: "Capable Vicars"
- tws_capable_vicars_desc: "A particular struggle of our unified country was the governance on the other side of the Strait of Messina. Since our ruler can only be present on one side at a time, the other will have to be given to a vicar, ruling in our name. This will have to be ensured by appointing only the most capable people to this vital rule and preventing corruption within the role."
+ tws_capable_vicars_desc: "A particular struggle of our unified country is governing both sides of the Strait of Messina. Since our ruler can only be present on one side at a time, the other will have to be given to a vicar, ruling in our name. We must be sure to appoint only the most capable and trustworthy people to this vital role to prevent corruption."
  tws_oversea_ambitions: "Overseas Ambitions"
- tws_oversea_ambitions_desc: "Expanding our territories within Italy is a difficult task, navigating a treacherous web of alliances and risking the anger of the Pope himself. Therefore we should look overseas, where potentially rich lands lie in northern Africa and Greece."
+ tws_oversea_ambitions_desc: "Expanding our territories within Italy is a difficult task, navigating a treacherous web of alliances and risking the anger of the Pope himself. Therefore, we should look overseas, where potential riches await us in the lands of northern Africa and Greece."
  tws_protect_the_coastline: "Increase Maritime Patrols"
- tws_protect_the_coastline_desc: "Our coastline is vast and vunerable to raids by pirates hunting for slaves. We need to establish a navy to patrol, protect, and eventually defeat this vile threat to our people."
+ tws_protect_the_coastline_desc: "Our coastline is vast, and vulnerable to raids by pirates hunting for slaves. We need to establish a navy to patrol, protect, and eventually defeat this vile threat to our people."
 
  #Florence & Tuscany
 
@@ -5549,7 +5555,7 @@
  mai_vicar_of_mainz_desc: "To ensure our lands are governed reliably, even in time of absence of our ruler, we should instate a vicar. Empowered with extensive rights, the vicar can rule with our best intentions and remind the common folk of our presence at all times."
 
  mai_mainz_kingdom: "Mainzer Königreich"
- mai_mainz_kingdom_desc: "While celebrations on Ash Wednesday are a common occurance, they hold especially deep roots in our country. While the public celebrates the #italic Fastnacht#!, or carnival, with masquerade and excessive feasts, our court will engage in a special event. During the carnival celebrations, we will redistribute the roles of our court per lottery, with even the ruler having to participate. This custom of swapping roles, called #italic Mainzer Königreich#!, will carry far beyond our borders and ensure our cultural legacy."
+ mai_mainz_kingdom_desc: "While celebrations on Ash Wednesday are a common occurrence, they hold especially deep roots in our country. While the public celebrates the #italic Fastnacht#!, or carnival, with masquerade and excessive feasts, our court will engage in a special event. During the carnival celebrations, we will redistribute the roles of our court per lottery, with even the ruler having to participate. This custom of swapping roles, called #italic Mainzer Königreich#!, will carry far beyond our borders and ensure our cultural legacy."
 
  mai_center_of_printing: "Printing Shops of Mainz"
  mai_center_of_printing_desc: "We are positioned well to expand on the growth of the printing presses within our territory and become a major producer of books within Europe."
@@ -5953,7 +5959,7 @@
  wealth_of_mesoamerica_desc: "The fertile soils, forests, and mines of Ānāhuac yield immense riches, sustaining our growth and imperial ambitions. Properly utilizing these resources will bolster our affluence."
 
  study_european_colonizers: "Study the European Colonizers"
- study_european_colonizers_desc: "Strangers have made contact with our people. Their unfamiliar ships and weapons strike awe and fear. Understanding their methods may be the key to survival."
+ study_european_colonizers_desc: "Strangers have made contact with our people. Their unfamiliar ships and weapons instill awe and fear. Understanding their methods may be the key to survival."
 
  new_fire_ceremonies: "New Fire Ceremonies"
  new_fire_ceremonies_desc: "Once every fifty-two years, the world is renewed by flame, uniting the people in faith and cosmic balance."
@@ -5961,3 +5967,123 @@
  sun_must_rise: "The Sun Must Rise"
  sun_must_rise_desc: "Through devotion and ritual, we keep the sun's journey alive, easing the hearts and strengthening the spirit of our people. The preservation of equilibrium, and even the world, rests upon our shoulders."
 
+ #Kurdistan Formable
+ krs_kurdish_tribes: "Tribal Loyalty"
+ krs_kurdish_tribes_desc: "Having asserted our authority over all $kurdish_culture$ tribes, we will be able to call upon their experienced, hardened warriors to defend our country."
+
+ krs_legacy_of_the_kurdish_dynasties: "Legacy of the $kurdish_culture$ Dynasties"
+ krs_legacy_of_the_kurdish_dynasties_desc: "Our people have established several great dynasties, ruling territories from $egypt_region$ to Iran. Tying our own state to the glory of past rulers will allow us to be a unifying symbol for the $kurdish_culture$ people, and make our rule seem more legitimate in the eyes of our subjects."
+
+ krs_kurdish_quarters: "Prospering $kurdish_culture$ Quarters"
+ krs_kurdish_quarters_desc: "In the times of foreign rule, many of our people established predominantly $kurdish_culture$ quarters in cities. While these areas prospered even under distant rulers, we can now utilize their wealth directly, and better guarantee a prosperous future for our people."
+
+ krs_kurdish_horses: "Adaptable Cavalry"
+ krs_kurdish_horses_desc: "Our homelands are surrounded by many would-be conquerors, hungry to subjugate our people. While our native terrain can slow down hostile armies, it also makes it difficult for our own troops to respond to threats swiftly. A strong cavalry, however, will allow us to quickly react to any threats, no matter how many there might be."
+
+ krs_kurdish_mercenaries: "Mercenary Experience"
+ krs_kurdish_mercenaries_desc: "Our people have long served as hired swords for foreign lords, gaining valuable combat experience in their service. With our own country now established, it is time to call those experienced fighters under our banner."
+
+ krs_kurdish_warrior_poets: "Warrior Poets"
+ krs_kurdish_warrior_poets_desc: "Our rulers must not just be capable warriors; they must also be educated in the matters of fine art and effective administration. By writing texts and documenting their reigns, our leaders will pass the knowledge and history of our people down through generations, ensuring no valuable insight is lost."
+
+#Manchu Formable Advances
+
+ mohe_ancestry: "Mohe Ancestry"
+ mohe_ancestry_desc: "Our people descend from the Mohe tribes of the Amur forests. Their traditions of hunting, herding, and hardy frontier life shape our society."
+
+ warka_ties: "Warka Ties"
+ warka_ties_desc: "Our ties with the Warka have given us great knowledge in hunting and gathering food. Through these practices, we ensure our people stay fed, even during long winters."
+
+ shadow_of_ambition: "Shadow of Ambition"
+ shadow_of_ambition_desc: "The unification of the Jurchen tribes is but the first step in our ambitious rise to power. Soon, our name will strike fear and awe across the entire continent."
+
+ niyamniyan: "Niyamniyan"
+ niyamniyan_desc: "The tradition of the Five Noble Talents involves riding, archery, military command, loyalty, and discipline. These aspects of our martial society form the backbone of our proud culture."
+
+ southern_campaigns: "Southern Campaigns"
+ southern_campaigns_desc: "$CHI$ is home to immeasurable wealth, prestige, and knowledge. Under the rule of a weak dynasty, it falls upon our shoulders to seize power and return the prosperity and splendor of these lands."
+
+ foreign_learning: "Foreign Learning"
+ foreign_learning_desc: "From foreign scholars and texts, we shall adopt new administrative, military, and scholarly practices, accelerating the pace of our technological development."
+
+#Malacca Formable
+
+ melaka_tree: "The Melaka Tree"
+ melaka_tree_desc: "As legend goes, the timid mouse deer sought refuge in what would later become our domain. Our beggining is humble, as little more than a fishing village clustered beneath the shade of the Melaka tree. From these roots shall grow a people that will one day shape the entire region."
+
+ orang_laut: "Orang Laut"
+ orang_laut_desc: "Long before our rise, the Orang Laut roamed the straits as masters of wind and tide. Now, by learning their ways and employing a select few, we guide traders through the narrow waters and shield our coast from pirates. Such vigilance ensures that all who sail to $malacca$ arrive safely."
+
+ congregation_of_merchants: "Congregation of Merchants"
+ congregation_of_merchants_desc: "From $arabia_region$ to China and the coasts of $south_asia$, merchants of every shore converge upon $malacca$. Drawn by fair laws, secure waters, and bustling markets, they will form a great congregation that enriches our ports and carries our name across the seas."
+
+ connections_with_china: "Connections with China"
+ connections_with_china_desc: "Our envoys have secured recognition from China's most prestigious sovereigns. Tribute and goodwill flow between us, granting us prestige, protection, and a privileged place in the vast network of their trade."
+
+ control_the_malacca_strait: "Control the Malacca Strait"
+ control_the_malacca_strait_desc: "The narrow $inner_malacca_strait$ is the backbone of our maritime commerce. By controlling this vital strait, we channel the wealth of nations into our harbors and establish ourselves as the unrivaled gatekeepers of the east-west trade."
+
+ shahbandar: "The Shāhbandar System"
+ shahbandar_desc: "To manage the vast tide of merchants arriving at our ports, we appoint a Shāhbandar as the authority to oversee customs, resolve disputes, and organize the foreign quarters. This office brings order to our bustling entrepôt and will strengthen our role as the crossroads of the seas."
+
+#Malaya Formable
+ 
+ settle_the_islands: "Settle the Islands"
+ settle_the_islands_desc: "Across the scattered isles of our homeland lie countless shores awaiting our touch. By strengthening our presence among these islands, we secure the wealth of our people: new trade posts, new harvests, and new communities bound by the waves that unite us."
+
+
+ people_of_the_sea: "People of the Sea"
+ people_of_the_sea_desc: "We are a people shaped by wind and tide. From childhood, we learn the ways of the monsoon, the pulse of the straits, and the call of the open ocean. Our sailors carry this knowledge into every voyage, earning renown across the archipelago for their courage and mastery."
+
+ expert_hagglers: "Expert Hagglers"
+ expert_hagglers_desc: "Wherever our traders land, be it the coasts of $south_asia$ or the markets of distant China, they are respected for their sharp tongues and keen judgement. Navigating both seas and bargains with equal finesse, they ensure that our trades are never at a disadvantage."
+
+ malay_merchants_in_every_port: "Malay Merchants in Every Port"
+ malay_merchants_in_every_port_desc: "From the bazaars of $arabia_region$ to the harbors of $east_asia$, our merchants are a familiar sight. Their presence forms a vast network of cooperation, easing the establishment of our enclaves abroad and extending our reach into every great entrepôt of the world."
+
+ agreements_sea_nomads: "Agreements with the Sea Nomads"
+ agreements_sea_nomads_desc: "The $sama_culture$ and other sea-wandering peoples have long lived upon the water itself, drifting between islands with unmatched skill. Through knowledge-sharing or agreements of mutual respect and shared opportunity, we shall ensure safe passage and swift repairs."
+
+ masters_of_spice: "Masters of Spice"
+ masters_of_spice_desc: "Trading in cloves holds much wealth for us and our people. By securing the lands and seas from which these spices flow, we stand at the center of a trade that spans the world, and no merchant can ignore the allure of these goods."
+
+#Sokoto Formable
+ sko_fulani_expansion: "Expansion of Sokoto"
+ sko_fulani_expansion_desc: "For too long the people of $west_africa$ have labored under rulers that, while professing to be righteous, indulged in syncretism. No more! Our flag shall always fly above that of worldly kingdoms!"
+
+ sko_recruit_the_faithful: "Recruit the Faithful"
+ sko_recruit_the_faithful_desc: "Everyone who is ready to serve under our righteous leaders must be welcome, regardless of their heritage."
+
+ sko_education_for_all: "Learned Scholars"
+ sko_education_for_all_desc: "By encouraging the spread of literacy and scholarship among men and women alike, we can advance our society and further our hold over our lands. The family of our rulers must have a special place in these efforts, serving as an ideal to emulate."
+
+ sko_religious_court: "Most Religious Court"
+ sko_religious_court_desc: "Instead of displaying the worldly pomp of our rule, our court should focus on spiritual matters. By inviting learned religious figures to teach in our capital, we can show our true commitment to our faith."
+
+ sko_recruit_fulani_generals: "Recruit $fulbe$ Commanders"
+ sko_recruit_fulani_generals_desc: "The $fulbe$ people are distinguished warriors, serving as leaders in all corners of $west_africa$. We should establish ourselves as a permanent employer for their most capable commanders."
+
+ sko_one_people_in_faith: "Unification in Faith"
+ sko_one_people_in_faith_desc: "Our lands are home to many people of different cultures and languages. We must emphasize our faith as the unifying force, joining all people under one banner."
+ 
+ #Italy Formable Advances
+ ita_birthplace_of_the_renaissance: "Continuation of the Renaissance"
+ ita_birthplace_of_the_renaissance_desc: "$italy_region$ has seen a great influx of bright minds. Be it traveling artists coming here to make their fortunes, or our own people inspired to participate in this great rebirth of the arts, our cities seem to be bursting with capable intellects. With our sponsorship, we will surely continue attracting talented people to our culture.."
+
+ ita_connect_the_interior: "Connect the Interior"
+ ita_connect_the_interior_desc: "While the terrain of our lands allows for swift transportation and travel along the coastline, the interior of the Italian peninsula is much harder to traverse in many places. Connecting not only interior locales, but also coast with coast, will ensure easier mercantile operations and improved maneuverability of our troops."
+
+ ita_increased_recruitment: "A Prized Possession"
+ ita_increased_recruitment_desc: "$italy_region$ is a desired possession for many foreign rulers. If we want to defend our country, we must expand recruitment for both our land and sea forces. Since $italy_region$ is vulnerable to invasions both from across the alpine passes and our vast coastline, we must ensure the army and navy are well-prepared to face any conqueror looking to disrupt the peace of the peninsula."
+
+ ita_influence_over_the_clergy: "Influential Clergy"
+ ita_influence_over_the_clergy_desc: "With its close proximity to the $papacy_reform$, $italy_region$ has a long tradition of powerful and talented clergy in the service of the faith. Regardless where our religious matters will take us, we should maintain good relations with our clergy."
+
+ ita_enduring_hardship: "Hardships of War"
+ ita_enduring_hardship_desc: "The foreign interests in $italy_region$ have many times turned our lands into the battlefield of stronger countries. Sustaining our people during these times of need is a difficult task. Establishing secure locations to shelter our population during conflict will ensure their support during even the most dire wars."
+
+ ita_flourishing_urban_centers: "Flourishing Cities"
+ ita_flourishing_urban_centers_desc: "Our lands are blessed with many highly urbanized areas. This not only offers us ample opportunity to manufacture goods, but their mercantile connections also enable us to ship them to foreign markets for our profit. Clearing any obstruction to expanding these industries will guarantee their continued success."
+
+ ita_attractive_migration: "Appealing Landscape"
+ ita_attractive_migration_desc: "The fertile, mild land of our peninsula is a popular place for people from bordering countries to seek their fortunes. While many of our cities already rely on labor from seasonal migrants, we should increase our efforts to settle these people into our lands permanently."

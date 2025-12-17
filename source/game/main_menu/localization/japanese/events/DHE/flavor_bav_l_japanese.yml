@@ -88,7 +88,7 @@
  flavor_bav.29.historical_info: "皇帝フェルディナント2世は三十年戦争のさなか、神聖ローマ帝国内の微妙な勢力均衡を維持しながら、忠実な同盟国に報いるという複雑な課題に直面していた。バイエルン公マクシミリアン1世はカトリック連盟の指導者として、また1620年の白山の戦いでの決定的な勝利などの軍事面での貢献も通じて、カトリックの大義を支援することに尽力した。この揺るぎない忠誠心を認め、帝国内のカトリックの地位を強化するため、フェルディナント2世は1623年にレーゲンスブルク帝国議会を招集した。そこで、ボヘミアの反乱への関与によって帝国から追放されていたプロテスタントのプファルツ選帝侯、フリードリヒ5世から選帝侯位を正式に剥奪し、これをバイエルン公マクシミリアン1世に与えた。この戦略的決定は忠実な同盟者に報いるだけでなく、選帝侯の勢力図をカトリック陣営に有利なように組み換え、激動の時代における帝国の権威を強化することにつながった。"
  flavor_bav.30.title: "[bavaria_country.GetNameWithNoTooltip]が[ShowSpecialStatusNameWithNoTooltip('elector')]に昇格"
  flavor_bav.30.desc: "[emperor_ruler.GetName]は[home_ruler.GetName]と[bavaria_country.GetName]に、[ShowSpecialStatusName('elector')]という名誉ある地位を与えることを決定した。これは[bavaria_country.GetNameWithNoTooltip]にとって、[GetInternationalOrganization('hre').GetName]内で重要な影響力を誇る地位へと昇り詰める、極めて重要な瞬間である。"
- flavor_bav.30.a: "[bavaria_country.GetName]の新時代の始まりだ！"
+ flavor_bav.30.a: "[bavaria_country.GetNameWithNoTooltip]の新時代の始まりだ！"
  flavor_bav.31.title: "[GetUniqueInternationalOrganization('hre').GetLeaderTitle]が要請を拒否"
  flavor_bav.31.desc: "[emperor_ruler.GetName]は、[bavaria_country.GetName]の[ShowSpecialStatusName('elector')]への昇格を拒否することを選択した。[ShowSituationName('war_of_religions')]における[bavaria_country.GetNameWithNoTooltip]の忠実な支援にもかかわらず、[GetInternationalOrganization('hre').GetName]内の力の均衡に変化は起こらなかった。"
  flavor_bav.31.a: "この決定にかかわらず、我々は力をつけていくまでだ。"

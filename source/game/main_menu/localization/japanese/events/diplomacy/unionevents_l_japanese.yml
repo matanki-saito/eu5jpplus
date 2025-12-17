@@ -9,7 +9,7 @@
  unionevents.2.desc: "我々の共通の統治者は自らの[union_target.GetFlavorRank]に集中するばかりで、わが[ROOT.GetCountry.GetFlavorRank]の事柄には満足に時間を費やしていないようだ。これでは国民の不満が高まる一方である。"
  unionevents.2.a: "これは[ROOT.GetCountry.GetNameWithNoTooltip]への侮辱だ！"
  opinion_ignorant_monarch: "無関心な君主"
- unionevents.2.b: "[target_ruler.GetHerHis]を我々の首都に招待しよう！"
+ unionevents.2.b: "[target_ruler.GetHerHim]を我々の首都に招待しよう！"
  opinion_supportive_monarch: "協力的な君主"
  unionevents.3.title: "経済的に放棄される[ROOT.GetCountry.GetName]"
  unionevents.3.desc: "我々は君主のもとで団結しているが、わが国の商人は依然として外国人として扱われており、これは我々にとって経済的打撃となっている。[ROOT.GetCountry.GetGovernment.GetFullRulerName|U]はいま以上にわが国に目を向け、繁栄させるべきだ！"

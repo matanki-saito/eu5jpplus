@@ -8,4 +8,4 @@
  autocephalous_patriarchates.2.desc: "$ap_falls_desc_key$"
  autocephalous_patriarchates.2.a: "独立総主教区を廃止する。"
  autocephalous_patriarchates.2.b: "独立総主教区を維持する。"
- every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "[target_ap.GetName]の各メンバーのわが国に対する評価が[ShowBiasValue('destroyed_my_autocephalous_patriarchate')|-=0]低下する"
+ every_member_of_scopeloser_ap_loses_opinion_of_scopewinner_tt: "[target_ap.GetName]の各メンバーのわが国に対する評価が[ShowBiasValue('destroyed_my_autocephalous_patriarchate')|+=0]低下する"

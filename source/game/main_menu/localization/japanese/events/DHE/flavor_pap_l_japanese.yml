@@ -33,7 +33,7 @@
  every_catholic_upset_tt: "この支払いの義務を拒否すると、すべての[ShowReligionAdjectiveWithNoTooltip('catholic')]諸国から広く非難される"
  opinion_refused_to_pay_apostolic_tax: "使徒の税金の支払いを拒む。"
  flavor_pap.10.title: "スイス衛兵隊"
- flavor_pap.10.desc: "教皇領スイス傭兵隊設立の契約書が正式に交わされた。この精鋭部隊は、教皇への絶対的な忠誠心をもつ、規律正しく経験豊かな兵士たちで構成されている。彼らは審判の日まで[ROOT.GetCountry.GetLongName]に仕えることを誓った。"
+ flavor_pap.10.desc: "教皇領スイス傭兵隊設立の契約書が正式に交わされた。この精鋭部隊は、ローマ教皇への絶対的な忠誠心をもつ、規律正しく経験豊かな兵士たちで構成されている。彼らは審判の日まで[ROOT.GetCountry.GetLongName]に仕えることを誓った。"
  flavor_pap.10.a: "彼らは教会を確実に守るだろう。"
  flavor_pap.11.title: "パッセット・ディ・ボルゴ"
  flavor_pap.11.desc: "[ShowLocationName('rome')]が陥落した！ 敵が[target_character.GetName]を捕らえるべく進軍するなか、彼はバチカンの都とサンタンジェロ城を結ぶ避難通路、パッセット・ディ・ボルゴを思い出した。多くの過去の指導者たちが危機の際に脱出路として利用してきたが、いま[target_character.GetShortNameWithNoTooltip]はバチカンから逃れるべきか否かを決断しなくてはならない。"

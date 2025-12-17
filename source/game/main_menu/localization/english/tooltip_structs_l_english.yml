@@ -127,6 +127,7 @@
  game_international_organization_modifier_value_struct: "#TOOLTIP:RELIGION_MODIFIER,$DESC_KEY$ $KEY_LOC|L$#!"
  game_province_modifier_value_struct: "#TOOLTIP:PROVINCE_MODIFIER,$DESC_KEY$ $KEY_LOC|L$#!"
  game_character_modifier_value_struct: "#TOOLTIP:CHARACTER_MODIFIER,$DESC_KEY$ $KEY_LOC|L$#!"
+ game_dynasty_modifier_value_struct: "#TOOLTIP:DYNASTY_MODIFIER,$DESC_KEY$ $KEY_LOC|L$#!"
  game_merchant_capacity_in_market_struct: "#TOOLTIP:MERCHANT_CAPACITY_IN_MARKET,$DESC_KEY$ $KEY_LOC$#!"
  game_merchant_power_in_market_struct: "#TOOLTIP:MERCHANT_POWER_IN_MARKET,$DESC_KEY$ $KEY_LOC$#!"
  game_specific_goods_on_market_struct: "#TOOLTIP:SPECIFIC_GOODS_ON_MARKET,$DESC_KEY$ $KEY_LOC|L$#!"

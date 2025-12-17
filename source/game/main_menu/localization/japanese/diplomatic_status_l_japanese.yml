@@ -89,7 +89,7 @@
  giving_economic_support_list_who_tt: "$WHO$は$LIST$に[economic_support|e]をおこなっている"
  getting_war_reparations_list_who_tt: "$WHO$は$LIST$から[war_reparations|e]を受け取っている"
  giving_war_reparations_list_who_tt: "$WHO$は$LIST$に[war_reparations|e]を支払っている"
- truce_list_who_tt: "$WHO$は$LIST$と$EXTRA|Y$まで停戦している。停戦中に[war|e]を宣言すると、侵略者側の[stability|e]が#R -50#!低下する"
+ truce_list_who_tt: "$WHO$は$LIST$と$EXTRA|Y$まで停戦している。停戦中に宣戦布告すると、侵略者側は「$PRICE$」の損害を被る"
  annul_treaties_list_who_tt: "$WHO$は$LIST$との条約を$EXTRA|Y$まで無効化することを強制された。"
  casus_belli_list_who_tt: "$WHO$には$LIST$に対する[casus_belli|e]がある。これにより、$WHO$は[stability|e]が低下することなく宣戦布告できる。\n\n$WHO$には以下の開戦事由がある：\n$EXTRA$"
  casus_belli_target_list_who_tt: "$LIST$には$WHO$に対する[casus_belli|e]がある。これにより、$LIST$は[stability|e]が低下することなく宣戦布告できる。\n\n$WHO$には以下の開戦事由がある：\n$EXTRA$"

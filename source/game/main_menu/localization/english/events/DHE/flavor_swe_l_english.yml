@@ -259,8 +259,8 @@
  flavor_swe.43.a: "This will teach us everything."
  flavor_swe.43.b: "Maybe we should restrict what is printed?"
 
- flavor_swe.44.title: "The Ironmines of Ojamo"
- flavor_swe.44.desc: "There is possibly [ShowGoodsName('iron')] in the deep forest near the Lohjanjärvi lake. Ojamo holds rich veins of iron ore, a resource that could prove invaluable to the [ROOT.GetCountry.GetFlavorRank]'s budding industries and military ambitions. For decades, this region of [ShowAreaName('finland_area')] has been prized for its timber and farmland, but the discovery of iron at Ojamo marks a turning point for [ShowLocationName('lohja')]'s future."
+ flavor_swe.44.title: "The Iron Mines of Ojamo"
+ flavor_swe.44.desc: "There is possibly [ShowGoodsName('iron')] in the deep forest near the Lake Lohjanjärvi. Ojamo holds rich veins of [ShowGoodsNameWithNoTooltip('iron')] ore, a resource that could prove invaluable to the [ROOT.GetCountry.GetFlavorRank]'s budding industries and military ambitions. For decades, this region of [ShowAreaName('finland_area')] has been prized for its timber and farmland, but the discovery of [ShowGoodsNameWithNoTooltip('iron')] at Ojamo marks a turning point for [ShowLocationName('lohja')]'s future."
  flavor_swe.44.historical_info: "King Gustav Vasa granted Sir Erik Flemming of Siuntio permission to mine for iron ore. In 1542, the iron ore started to be mined in Ojamo near Lohja, creating the oldest known iron mine in Finland."
  flavor_swe.44.a: "This can benefit all of [ShowAreaNameWithNoTooltip('finland_area')]!"
  flavor_swe.44.b: "We have enough [ShowGoodsNameWithNoTooltip('iron')]."
@@ -279,8 +279,8 @@
  flavor_swe.47.title: "The Insane [ROOT.GetCountry.GetGovernment.GetRulerTitle]"
  flavor_swe.47.desc: "[ROOT.GetCountry.GetGovernment.GetRuler.GetName] has long had conflict with the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], and they are fed up with [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] rule. They are willing to back [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] brother, [pretender.GetName], to become the new [ROOT.GetCountry.GetGovernment.GetRulerTitle] of the great [ROOT.GetCountry.GetLongName]."
  flavor_swe.47.historical_info: "Erik XIV of Sweden, a ruler of great ambition and intellect, fell victim to his own paranoia and erratic behavior. Initially celebrated for his reforms and efforts to strengthen the Swedish monarchy, his later years were marked by suspicion and violence. The Sture Murders of 1567, where he ordered the killing of prominent nobles, turned his court against him. Accusations of mental instability and distrust among his nobles and kin eventually culminated in his deposition in 1568, led by his own brothers. Erik spent the remainder of his life in captivity, a tragic reminder of how power unchecked can consume its wielder."
- flavor_swe.47.a: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] brother will be better." 
- flavor_swe.47.b: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHeShe] is the [ROOT.GetCountry.GetGovernment.GetRulerTitle]!" 
+ flavor_swe.47.a: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer|U] brother will be better." 
+ flavor_swe.47.b: "[ROOT.GetCountry.GetGovernment.GetRuler.GetHeShe|U] is the [ROOT.GetCountry.GetGovernment.GetRulerTitle]!" 
 
  flavor_swe.48.title: "The Canonization of [birgitta_scope_for_ui.GetNameWithNoTooltip]"
  flavor_swe.48.desc: "The news of [birgitta_scope_for_ui.GetName]'s canonization has reached the [ROOT.GetCountry.GetFlavorRank]! Known for her deep piety and mystical visions, her devotion and influence extended far beyond her homeland. Canonized by the Pope, she has become a symbol of [ROOT.GetCountry.GetAdjective] holiness and a source of inspiration for the faithful. This event strengthens [ROOT.GetCountry.GetNameWithNoTooltip]'s position in Christendom, but it also raises questions about the role of the Church in the kingdom. How shall we respond to this momentous occasion?"

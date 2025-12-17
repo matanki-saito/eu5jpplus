@@ -208,7 +208,7 @@
  MOVING_CAPITAL: "[LOCATION.GetNameWithNoTooltip]へ首都を移動中"
  MARKET_CREATING: "[LOCATION.GetNameWithNoTooltip]に市場を創設中"
  EXPLORATION_CREATING: "[LOCATION.GetNameWithNoTooltip]の[AREA.GetNameWithNoTooltip]への[exploration|e]の準備中"
- CONQUISTADOR_CREATING: "[LOCATION.GetNameWithNoTooltip]の[AREA.GetNameWithNoTooltip]に向けた[ShowSubjectTypeName('conquistador')]の開始を準備中"
+ CONQUISTADOR_CREATING: "@location![LOCATION.GetName]の@area![AREA.GetName]への[ShowSubjectTypeName('conquistador')]の開始を準備中"
  ROAD_TO: "$TO$までの[ROAD_TYPE.GetName]"
  ARMY_NAVY_LEVY_IN_SHORT: "動員"
  ARMY_LEVY_IN: "$PROV$で[army_levy|e]を動員"

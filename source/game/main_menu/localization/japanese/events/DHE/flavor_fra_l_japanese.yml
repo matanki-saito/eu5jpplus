@@ -42,7 +42,7 @@
  flavor_fra.8.a: "アカデミー・フランセーズの創設に資金を提供しよう！"
  flavor_fra.8.b: "だめだ。費用がかかりすぎる。"
  flavor_fra.9.title: "コルベール主義"
- flavor_fra.9.desc: "[fra_ruler.GetName]によって財務総監に任命された[target_character.GetName]は、[ROOT.GetCountry.GetName]の経済を近代化させるために大きな仕事を果たした。財務総監としての現在の任期を通じて、[target_character.GetLastNameWithNoTooltip]は国の税収を大幅に改善し、国家予算を優れた方法で維持したのだ。さらに、[target_character.GetLastNameWithNoTooltip]独自の重商主義、「#italic コルベール主義#!」が効果的な貿易慣行であることもわかった。\n\nとはいえ、わが国の海軍を拡大しようという彼の呼びかけは、新たに得た財政黒字に影響を与える懸念を引き起こしており、宮廷は[target_character.GetLastNameWithNoTooltip]は国家経済にのみ焦点を当てるべきだと示唆した。"
+ flavor_fra.9.desc: "[fra_ruler.GetName]によって財務総監に任命された[target_character.GetName]は、[ROOT.GetCountry.GetName]の経済を近代化させるために大きな仕事を果たした。財務総監としての現在の任期を通じて、[target_character.GetLastNameWithNoTooltip]は国の税収を大幅に改善し、国家予算を優れた方法で維持したのだ。さらに、[target_character.GetLastNameWithNoTooltip]独自の重商主義、「コルベール主義」が効果的な貿易慣行であることもわかった。\n\nとはいえ、わが国の海軍を拡大しようという彼の呼びかけは、新たに得た財政黒字に影響を与える懸念を引き起こしており、宮廷は[target_character.GetLastNameWithNoTooltip]は国家経済にのみ焦点を当てるべきだと示唆した。"
  flavor_fra.9.historical_info: "1661年に財務総監に指名されたジャン・コルベールは、近代最初の国民経済を発展させた。彼の国家主導経済には、税収の改善、統計的な予算計画、定期的な帳簿作成などがあった。コルベールは独自の重商主義（コルベール主義）を提唱し、価値ある完成品の輸出と高い輸入関税によって、フランスの貿易収支の改善を目指した。より効率的な国内貿易の奨励、国家による独占、製造業への補助金、航海と貿易組合の促進、農産物価格の固定、結婚の奨励と移住の禁止（カナダへの移住を除く）などの、多岐にわたる取り組みをおこなった。また、彼の政策を支えるため、フランス海軍の大幅な拡大も実施された。コルベール主義は商業と工芸を奨励し繁栄させたが、農民の生産量を増加させることはできなかった。"
  flavor_fra.9.a: "海軍の拡大は[target_character.GetLastNameWithNoTooltip]の政策を支えるだろう。"
  flavor_fra.9.b: "経済の支配に集中せよ。"

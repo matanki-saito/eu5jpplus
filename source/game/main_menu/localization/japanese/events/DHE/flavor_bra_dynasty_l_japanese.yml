@@ -129,7 +129,7 @@
  flavor_bra_dynasty.1101.a.tt: "[root_country.GetName]の新たな[ruler|e]として[emperor_ruler.GetName]を任命し、ともに[union|e]を結成する"
  flavor_bra_dynasty.1101.b: "[dynasty_character.GetNameWithNoTooltip]に[root_country.GetNameWithNoTooltip]を統治させよ。"
  flavor_bra_dynasty.1101.b.tt: "[root_country.GetName]の新たな[ruler|e]として[dynasty_character.GetName]を任命する"
- flavor_bra_dynasty.1101.c: "[cabinet_character.GetName]が我々の名において当地を支配する。"
+ flavor_bra_dynasty.1101.c: "[cabinet_character.GetNameWithNoTooltip]が我々の名において当地を支配する。"
  flavor_bra_dynasty.1101.c.tt: "[root_country.GetName]の新たな[ruler|e]として[cabinet_character.GetName]を任命し、当地を我々の[ShowSubjectTypeName('vassal')]とするが、[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーからの[antagonism|e]が[ShowBiasValue('subjugated_elector_antagonism')|-=0]増加する"
  subjugated_elector_antagonism: "選帝侯を従属"
  flavor_bra_dynasty.1101.d: "わが宮廷の相談役のひとりが、[root_country.GetAdjectiveWithNoTooltip]の状況を改善する。"

@@ -322,7 +322,7 @@
  desc_child_rowdy: "この子供は落ち着きがなく騒々しい。つねに自分の存在を主張しており、その態度は穏やかさとはほど遠い。"
  child_ambitious: "野心家"
  child_ambitious_die_desc: "[CHARACTER.GetHisHer|U]の野心的な夢は、残念ながら実現することなく終わってしまった。"
- desc_child_ambitious: "この子供にはすでに自分の望みがある。そして、それは決して小さなことではない。成長した暁には、すべてを手に入れようと動き出すだろう。"
+ desc_child_ambitious: "この子供にはすでに自分の望みがあり、しかもそれは決して小さなことではない。成長した暁には、すべてを手に入れようと動き出すだろう。"
  child_gallant: "勇壮"
  child_gallant_die_desc: "[CHARACTER.GetName]の死に皆が涙している。どうやら[CHARACTER.GetHeShe]は、この世に長く留まるには完璧すぎたようだ。このような子供を見ることは二度とないだろう。"
  desc_child_gallant: "若くして騎士道精神の手本のような子供である。勇敢で洗練され、礼儀正しく、気配りができる。大人なれば、きっと多くの詩や物語に記されることだろう。"

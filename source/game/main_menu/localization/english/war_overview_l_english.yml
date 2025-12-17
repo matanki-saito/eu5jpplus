@@ -107,7 +107,7 @@
  GO_TO: "Go To"
 
  CANNOT_INTERVENE_WAR_ALLY: "$COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ has sided against $DEFENDER|Y$ in this war, and $COUNTRY|Y$ is allied with $SUBJECT|Y$ in another war."
- CANNOT_INTERVENE_WAR_UNION_PARTNER: "$COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ is in a [union|e] with $COUNTRY|Y$."
+ CANNOT_INTERVENE_WAR_UNION_PARTNER: "@trigger_no! $COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ is in a [union|e] with $COUNTRY|Y$."
  CANNOT_INTERVENE_WAR_ENEMY_IN_OTHER_WAR: "[COUNTRY.GetName] cannot intervene in this war because of being enemies with [TARGET_COUNTRY.GetName] in a different war"
  CANNOT_INTERVENE_WAR_ENEMY: "$COUNTRY|Y$ cannot intervene in this war because $SUBJECT|Y$ has sided with $DEFENDER|Y$ in this war, and $COUNTRY|Y$ is already at war with $SUBJECT|Y$."
  ALLIED_TO_ENEMY: "They are allied to the enemy."
@@ -147,6 +147,7 @@
  LEAVE_WAR_REASON_Forced: "Forced to leave the war by [TARGET_COUNTRY.GetName]"
  LEAVE_WAR_REASON_Abandoned: "Abandoned their friends [TARGET_COUNTRY.GetName] in their hour of need"
  LEAVE_WAR_REASON_ForcedAbandoned: "Forced to abandon their friends [TARGET_COUNTRY.GetName] in their hour of need by their overlord"
+ LEAVE_WAR_REASON_BrokeFreeOfOverlord: "Broke free from their [overlord|e] [TARGET_COUNTRY.GetName]"
 
  REFUSE_TO_JOIN_WAR_REASON_HumanDeclined: "A Human declined to join."
  REFUSE_TO_JOIN_WAR_REASON_NotEnoughReasons: "They do not have enough reasons to join."

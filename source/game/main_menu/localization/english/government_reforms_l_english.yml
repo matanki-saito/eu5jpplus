@@ -12,7 +12,7 @@
  french_feudal_nobility_desc: "Feudalism has a tight grip on [GetCountry('FRA').GetAdjective] court affairs. Powerful nobles and autonomous, decentralized subjects have unprecedented amounts of freedom and say in our internal administration."
  fra_removed_when_no_appanages_tt: "This [government_reform|e] will be removed once no [ShowSubjectTypeName('appanage')] exists as our [subject|e]"
  french_appanage_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip] Appanage"
- french_appanage_reform_desc: "As Princes of the Blood, holders of appanages enjoy a higher standing among the subjects of [GetCountry('FRA').GetName], as well as greater privileges. Furthermore, the [GetCountry('FRA').GetAdjective monarch is expected to pay them adequate respect in exchange for their assistance in diplomatic affairs."
+ french_appanage_reform_desc: "As Princes of the Blood, holders of appanages enjoy a higher standing among the subjects of [GetCountry('FRA').GetName], as well as greater privileges. Furthermore, the [GetCountry('FRA').GetAdjective] monarch is expected to pay them adequate respect in exchange for their assistance in diplomatic affairs."
  french_ducal_vassal_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip] Ducal"
  french_ducal_vassal_reform_desc: "While the ducal subjects of [GetCountry('FRA').GetName] lack the autonomy of the appanage domains, they instead enjoy a more cooperative relationship with the Crown."
  member_of_league_of_public_weal: "Member of the League of Public Weal"
@@ -216,6 +216,8 @@
  #
  # Specific ones
  #
+ alsno_stadga: "Alsnö Stadga"
+ alsno_stadga_desc: "This set of rules was set up by [GetCharacter('swe_magnus_ladulas').GetName] in 1280 at Alsnö Hus to regulate and formalize the benefits of the [ShowEstateTypeName('nobles_estate')], while also protecting the [ShowPopTypeName('peasants')] from their exploits. This is why he was nicknamed 'Ladulås', or "Barn-Lock" in English by the commoners."
  papacy_reform: "Holy See"
  papacy_reform_desc: "The Holy See is the jurisdiction of the Bishop of [ShowLocationName('rome')], the #italic Pontifex Maximus#!, head of the [ShowReligionAdjective('catholic')] Church, known as The [GetCountry('PAP').GetGovernment.GetRulerTitle]."
  kingdom_of_god_reform: "Kingdom of God"
@@ -338,7 +340,7 @@
  swe_age_of_freedom_desc: "We have entered an Age of Liberty, in which the [ShowEstateTypeName('crown_estate')] shall no longer hold absolute sway! The government of [GetCountry('SWE').GetName] is now in the hands of the estates, and the monarch may do nothing without first gaining our approval."
  
  ned_shipbuilding_industry: "Dutch Shipbuilding Industry"
- ned_shipbuilding_industry_desc: "With the invention of the #fluyte#!, the Dutch shipbuilding industry has exploded. Domestic and foreign orders are streaming in, and business is booming! Never before have so many Dutch ships sailed the seas, and never before have so many of our people been employed in building them."
+ ned_shipbuilding_industry_desc: "With the invention of the #italic fluyte#!, the Dutch shipbuilding industry has exploded. Domestic and foreign orders are streaming in, and business is booming! Never before have so many Dutch ships sailed the seas, and never before have so many of our people been employed in building them."
 
  geheime_kabinettskanzlei: "Geheime Kabinettskanzlei"
  geheime_kabinettskanzlei_desc: "Established by the state to clandestinely intercept and examine all correspondence, this Black Chamber will provide us with intelligence about the postal activity within our country. Our agents' expertise in stealthily opening, copying, and resealing official documents will become renowned throughout the world."
@@ -353,7 +355,7 @@
  frisian_freedom_reform_desc: "The [ShowCultureName('frisian')] Freedom represents the indomitability of our people and their rejection of feudalism and serfdom. They choose their representatives among the landowners and rule the land autonomously. Should a leader rise among them, he must respect the freedoms of his people or face the same fate as any other enemy, whether from within or from the outside."
  
  dutch_republic_reform: "Dutch Republic"
- dutch_republic_reform_desc: "This is a type of republic where the leader, called the #Stadtholder#!, rules for life. Traditionally, the factions supporting this government have fought over how the Stadtholder's power should be structured. Those called the Statists want to make the Stadtholder more like an #italic Primus inter Pares#!, whereas the Orangists wish to treat the elected leader as some kind of king."
+ dutch_republic_reform_desc: "This is a type of republic where the leader, called the #italic Stadtholder#!, rules for life. Traditionally, the factions supporting this government have fought over how the Stadtholder's power should be structured. Those called the Statists want to make the Stadtholder more like an #italic Primus inter Pares#!, whereas the Orangists wish to treat the elected leader as some kind of king."
 
  ancient_french_taxation: "Ancient [GetCountry('FRA').GetAdjectiveWithNoTooltip] Taxation"
  ancient_french_taxation_desc: "Historically, taxes have been imposed and collected only in times of need, not by a recurrent system."
@@ -706,3 +708,7 @@
  #Sikhism
  guru_granth_sahib_reform: "$guru_granth_sahib$"
  guru_granth_sahib_reform_desc: "$guru_granth_sahib_desc$"
+
+#Malacca Formable 
+ shahbandariyya_reform: "Shāhbandariyya"
+ shahbandariyya_reform_desc: "$shahbandar_desc$"

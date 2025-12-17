@@ -3,7 +3,7 @@
  flavor_mor_maghrebi_wars.1000.desc: "敬愛される[old_ruler.GetName]の死後、その息子の[new_ruler.GetName]が[old_ruler.GetShortNameWithNoTooltip]の望みに従い[GetCountry('TUN').GetName]の王位に就いた。\n\nその兄弟である[usurper_scope.GetName]は新たな統治者の正統性を尊重せず、クーデターを起こして権力を掌握した。そして自らの兄弟を処刑し、正統な[ROOT.GetCountry.GetGovernment.GetRulerTitle]の復権の可能性を潰して[ShowEstateTypeName('nobles_estate')]たちを怖れさせた。\n\n国家に忠義を誓う者たちに残された唯一の選択肢は、併合のために異国を受け入れ、簒奪者[usurper_scope.GetNameWithNoTooltip]を排除してもらうことだけだ。"
  flavor_mor_maghrebi_wars.1000.historical_info: "ハフス朝のスルタン、アブー・バクル2世アル・ムタワッキルの死後、簒奪者ウマル2世の戴冠により宮廷の危機が始まった。ウマル2世は王位継承権を独占するため、彼の兄弟全員の暗殺を命じたのだ。"
  flavor_mor_maghrebi_wars.1000.a: "[GetCountry('MOR').GetLongNameWithNoTooltip]を受け入れよう。"
- flavor_mor_maghrebi_wars.1000.b: "[ally_scope.GetName]を受け入れよう。"
+ flavor_mor_maghrebi_wars.1000.b: "[ally_scope.GetNameWithNoTooltip]を受け入れよう。"
  flavor_mor_maghrebi_wars.1000.c: "[usurper_scope.GetNameWithNoTooltip]のもとに集う。"
  flavor_mor_maghrebi_wars.1001.title: "[GetCountry('TUN').GetAdjectiveWithNoTooltip]の継承"
  flavor_mor_maghrebi_wars.1001.p1: "[old_ruler.GetName]の死後、本来は息子である[new_ruler.GetName]が[GetCountry('TUN').GetName]の王位につくはずだった。ところが、彼の兄弟の[usurper_scope.GetName]が彼を暗殺し、[ShowEstateTypeName('nobles_estate')]階級を恐怖に陥れるほどの権力を掌握した。"

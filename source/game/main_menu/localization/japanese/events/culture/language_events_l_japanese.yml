@@ -11,7 +11,7 @@
  language.2.desc: "わが国が[enemy_country.GetLongName]と対立するなか、[overlord.GetLongName]が[enemy_dialect.GetName]を宮廷での優先言語として使いつづけているため論争が巻き起こっている。\n\n解決策として、代わりに[new_language.GetName]を宮廷言語として採用することが決定された。我々も彼らに従うべきだろうか？"
  language.2.a: "我々も母国語である[common_dialect.GetNameWithNoTooltip]言語の公式使用を推進すべきだ。"
  language.2.b: "我々も[new_language.GetNameWithNoTooltip]を採用すべきだ。"
- language.2.c: "従うべきではないが、我々も[common_dialect.GetName]を採用すべき時が来た。"
+ language.2.c: "従うべきではないが、我々も[common_dialect.GetNameWithNoTooltip]を採用すべき時が来た。"
  language.2.d: "従うべきではない。[enemy_dialect.GetNameWithNoTooltip]が悪いのではない。"
  language.10.title: "[country.GetGovernment.GetRulerTitle|U]の言語"
  language.10.desc: "毎度の評議会や公式文書を見るたびに示されることだが、[ruler.GetShortName]が宮廷で適切に振る舞うことができないことは明白だ。\n\n[ruler.GetShortNameWithNoTooltip]は[ruler_culture.GetName]で育ったため、[court_language.GetName]の習得がまだ不十分である。[ruler.GetShortNameWithNoTooltip]の顕著な外国訛りは現地人の耳には耐えられず、宮廷を率いるにふさわしい人物ではないことをつねに印象づけてしまう。"

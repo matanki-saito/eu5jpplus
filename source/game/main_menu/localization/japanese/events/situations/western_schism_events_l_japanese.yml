@@ -9,7 +9,7 @@
  western_schism.4.desc: "[ROOT.GetCountry.GetCapital.GetArea.GetName]の中心部で、変革の力強い風に煽られ、教会反対の炎が燃え上がった。[ShowCultureName('czech')]のカリスマ的な司祭であり学者である[jan_hus.GetName]が、[GetInternationalOrganization('catholic_church').GetName]教会の腐敗を非難し、立ち上がったのだ。[jan_hus.GetHerHis|U]の言葉は民衆の心に響き、新たな宗派である[ShowReligionAdjective('hussite')]が広がっていった。\n\n[jan_hus.GetNameWithNoTooltip]は[GetInternationalOrganization('catholic_church').GetNameWithNoTooltip]の贅沢や不品行を非難し、初期のキリスト教の簡潔で純粋な信仰への回帰を呼びかけた。[ShowReligionAdjectiveWithNoTooltip('hussite')]として知られる[jan_hus.GetHerHis|U]の信奉者たちは、その教えを胸に、改革への情熱を日増しに燃え上がらせている。権力層は震え上がっているが、これは[jan_hus.GetLastNameWithNoTooltip]の言葉が[GetInternationalOrganization('catholic_church').GetNameWithNoTooltip]と[GetInternationalOrganization('hre').GetName]の権威を揺るがすものだからだ。"
  western_schism.4.historical_info: "ヤン・フス（別名ヨハネス＝フス）は哲学者・神学者であり、初期のカトリック改革者のひとりである。彼はルター主義の前身であるフス派の基盤となる教えを広めた。貧しい両親のもとに生まれ、貧困から脱するべく、司祭となるための教育を受けた。司祭として神に仕えるなかで、ボヘミアのカトリック教会の多くの側面に異議を唱えた。アレクサンデル5世は教皇に選出されると、フスを破門とする教皇勅書を発布した。その後、教会大分裂を終結させたコンスタンツ公会議に、フスも教会との不和について意見を述べるため出席したが、その場で逮捕され、投獄された。彼は自らの意見を撤回することを拒み、1415年7月6日、異端として火あぶりの刑に処された。フスの信奉者は新たな宗派を作り、その後の数十年で十字軍と5度戦った。フス派の信仰はボヘミアでほぼ2世紀にわたって続いた。"
  western_schism.4.a: "興味深い教えだ……"
- lots_of_hussites_tt: "[ROOT.GetCountry.GetCapital.GetArea.GetName][area|e]の多くの[pops|e]が[ShowReligionName('hussite')]に改宗する"
+ lots_of_hussites_tt: "[ROOT.GetCountry.GetCapital.GetRegion.GetName][region|e]の各[locations|e]の多くの[pops|e]が[ShowReligionName('hussite')]に改宗する"
  western_schism.5.title: "信仰の衰退"
  western_schism.5.desc: "[target_schism_pope_cardinal.GetName]と[target_schism_opponent_cardinal.GetName]の衝突による混乱は、[ROOT.GetCountry.GetFlavorRank]の安定性に深刻な影響を与えた。教皇庁の占領によって生じた不確実性は、ふさわしい教会の奉仕への疑問を投げかけ、徐々に人々の信仰を蝕んでいる。"
  western_schism.5.a: "彼らのいさかいが一刻も早く収まるよう祈ろう。"

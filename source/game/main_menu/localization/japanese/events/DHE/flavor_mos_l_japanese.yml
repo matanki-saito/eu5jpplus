@@ -365,7 +365,7 @@
  flavor_mos.49.a: "この系譜に議論の余地はない。"
  flavor_mos.49.tt1: "[dmitry_gerasimov.GetName]の翻訳技術が、[target_root_country.GetNameWithNoTooltip]が第三のローマであるという思想の普及を容易にする"
  flavor_mos.49.b: "迷信的な戯言だ。"
- flavor_mos.49.c: "この物語を[ShowWorkOfArtName('uspensky_sobor')]の壁に描こう。"
+ flavor_mos.49.c: "この物語を[ShowWorkOfArtNameWithNoTooltip('uspensky_sobor')]の壁に描こう。"
  flavor_mos.49.historical_info: "『#italic ウラジーミル諸公物語#!』は、16世紀初頭にドミトリー・ゲラシモフまたはセルビアのパコミオスによって書かれた物語で、戴冠式でツァーリを語る背景となる物語を提供するために作られた。その主な目的は、モスクワ大公国とローマ皇帝、特にアウグストゥスとのあいだに歴史的なつながりを確立することだった。だが、コンスタンティノープルの征服によって崩壊した東ローマ帝国の自然な後継者として、モスクワ大公国が第三のローマであるという思想を思い描かせる手段でもあった。"
  flavor_mos.50.title: "[dmitry_gerasimov.GetNameWithNoTooltip]"
  flavor_mos.50.desc: "言語学の権威であり、熟練した外交官でもある[dmitry_gerasimov.GetName]は、[GetCountry('LIV').GetLongName]で学者として過ごしたため複数の語学に長けている。[dmitry_gerasimov.GetHimHer]を外国宮廷への大使に任命すれば、[ROOT.GetCountry.GetName]の外交的名声を高め、ほかのルネサンス学者と会うこともできるだろう。あるいは、[dmitry_gerasimov.GetHisHer]の言語に関する専門知識は、キリスト教の継続的な普及を支援するための宗教文書の翻訳にこそ役立つかもしれない。"

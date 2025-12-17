@@ -64,7 +64,7 @@
  republics.17.b: "いくつかの変更を提案する。"
  republics.18.title: "交易の軽視に対する懸念"
  republics.18.desc: "数名の[ROOT.GetCountry.GetGovernment.GetParliament.GetName]議員が、わが国は軍事費に過度な予算を投入しながら、交易を拡大する機会を軽視していると苦言を呈している。軍事費に充てられる投資が多すぎる一方で、交易条件の改善にはほとんど投資されていないと彼らは不満を述べている。"
- republics.18.a: "すべては計画通りだ。"
+ republics.18.a: "すべては計画どおりだ。"
  republics.18.b: "重視する分野を少々誤ったようだ。"
  republics.19.title: "不和の原因"
  republics.19.desc: "最近ある顧問が、次々と新たな変更を提案している。単に仕事熱心だとも言えるが、その絶え間ない干渉と、政治に関連する事柄に対する「全知全能」であるかのような態度が、[ROOT.GetCountry.GetGovernment.GetParliament.GetName]に大きな亀裂を生じさせており、一部から[minister.GetName]の辞職を望む声も聞こえてくる。"

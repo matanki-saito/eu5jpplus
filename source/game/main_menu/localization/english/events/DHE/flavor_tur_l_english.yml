@@ -94,7 +94,7 @@
  flavor_tur.16.b: "Accept their demands."
  celali_uprising: "The Celali Uprising"
  celali_uprising_joining: "All [ShowReligionName('shia')] [pops|e] in [ShowRegionName('anatolia_region')] will join [celali_uprising.GetName]"
- celal_available.tt: "[sheikh_celal.GetNameWithNoTooltip] becomes available to serve in the [cabinet|e]."
+ celal_available.tt: "[sheikh_celal.GetName] becomes available to serve in the [cabinet|e]."
 
 
  
@@ -190,7 +190,7 @@
 
  flavor_tur.30.title: "Coins in Our Own Name"
  flavor_tur.30.desc: "During the later reign of [GetCharacter('tur_osman').GetShortName], [GetCharacter('tur_osman').GetSheHe] had coins minted in [GetCharacter('tur_osman').GetHerHis] own name, and no longer as a nominal vassal of the moribund Ilkhanids in Iran. This was a big step towards legitimacy as an independent ruler, and with the Ilkhanate now fallen, we have little to lose from continuing this practice. However, the mint in [ShowLocationNameWithNoTooltip('bursa')] claims that they have a shortage of silver and gold, and are asking for a contribution, so they can produce greater quantities of coins with the glorious likeness of [target_character.GetName]."
- flavor_tur.30.a: "The shall have what they need."
+ flavor_tur.30.a: "They shall have what they need."
  flavor_tur.30.b: "A limited production will suffice."
  flavor_tur.30.historical_info: "The ascendant Ottoman state's first mint was located in Bursa. After the capture of the city in 1326, Osman I began to mint coins in his own name, and not as a vassal of the Mongol Ilkhanate, which had up until that point been customary among Anatolian Turkic rulers." 
 
@@ -741,7 +741,7 @@
  opinion_ottoman_capitulation: "Received capitulation"
 
  flavor_tur.111.title: "Shadow Play"
- flavor_tur.111.desc: "A type of puppet theater utilizing shadows projected onto a muslin screen has lately become popular in many cities of the [ROOT.GetCountry.GetFlavorRank]. It features two clownish characters known as Karagöz and Havicat, whose antics draws huge crowds in tea houses and noble homes alike. Some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] claim that the plays, which often feature crude and subversive themes, are an affront to [ShowReligionGroupName('muslim')], but to ban them would greatly enrage many urban dwellers."
+ flavor_tur.111.desc: "A type of puppet theater utilizing shadows projected onto a muslin screen has lately become popular in many cities of the [ROOT.GetCountry.GetFlavorRank]. It features two clownish characters known as Karagöz and Hacivat, whose antics draws huge crowds in tea houses and noble homes alike. Some members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] claim that the plays, which often feature crude and subversive themes, are an affront to [ShowReligionGroupName('muslim')], but to ban them would greatly enrage many urban dwellers."
  flavor_tur.111.historical_info: "The origins of the Karagöz shadow play tradition are uncertain. Some think it arrived with traders from Java, where shadow plays had been performed since the Middle Ages. By the 16th century, these often satirical and irreverent plays were performed in every city of the Ottoman Empire. $common_string_shaikh_al_islam$ Ebüssuûd Efendi issued a famous ruling that the plays were indeed permissible by Islamic law. In later centuries however, they would come to be repressed by the rulers due to their political content."
  flavor_tur.111.a: "Let the people have their fun."
  flavor_tur.111.b: "We will appease the hardliners."
@@ -1512,7 +1512,7 @@
  flavor_tur.1000.desc: "Despite our control over [ShowProvinceDefinitionName('albania_province')], there have been several rebellious lords within the lands, who may not openly speak about their stance to the [ROOT.GetCountry.GetAdjective] [ROOT.GetCountry.GetGovernment.GetCourtTitle], but would surely take action should troubles arise. Rather than sit idly by, there have been suggestions to take hostages from them, specifically members of the [ShowDynastyName('kastrioti_dynasty')] family. Perhaps like that, we can hold leverage over them, using it in case they ever think of rebelling against [target_character.GetName]."
  flavor_tur.1000.a: "Let us demand these hostages."
  flavor_tur.1000.b: "It would be disrespectful towards [target_country.GetNameWithNoTooltip]."
- tur_demand_hostage_from_albanian_country_tt: "We will demand from [target_country.GetName] to give us a [character|e] from the [ShowDynastyName('kastrioti_dynasty')]"
+ tur_demand_hostage_from_albanian_country_tt: "We will demand from [target_country.GetName] to give us a [character|e] from the [target_dynasty.GetName] [dynasty|e]"
 
  flavor_tur.1001.title: "$flavor_tur.1000.title$"
  flavor_tur.1001.desc: "[target_country2.GetName] has demanded that we send them a hostage. Although they are more powerful than us, they need leverage over us in case we seek to fight them in the future. The [ROOT.GetCountry.GetGovernment.GetCourtTitle] suggests we hand them over [target_character2.GetName], a minor noble of these lands, as the hostage. By doing that, however, we solidify our position in this dynamic."

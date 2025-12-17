@@ -38,7 +38,7 @@
  overextension.12.a: "領土拡張は[ROOT.GetCountry.GetReligion.GetGodName]のご意志だ。"
  overextension.13.title: "不道徳には報いを！"
  overextension.13.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')]は、わが国の[antagonism|e]が交易の機会を減少させ、財政の健全性に悪影響を与えていると主張している。"
- overextension.13.a: "国家存続のためだ……"
+ overextension.13.a: "国家存続のためだ。"
  overextension.14.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]伝統に対する不道徳"
  overextension.14.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]は、わが国の[antagonism|e]は国家の伝統に反するものであり、古き良き時代には考えられなかった行為であると主張している。"
  overextension.14.a: "時代は変わったのだ。"

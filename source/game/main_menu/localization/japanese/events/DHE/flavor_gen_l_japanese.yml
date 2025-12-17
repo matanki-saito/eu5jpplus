@@ -82,7 +82,7 @@
  flavor_gen.18.desc: "コルシカ島は、つねに[ROOT.GetCountry.GetLongName]にとって多くの問題を引き起こしてきた。島の住民は頑固で、幾度となく我々から独立しようとしているのだ。\n\nだが、彼らはどのような封建領主にも屈することはない。百年戦争中の[GetCountry('FRA').GetName]の農民反乱「ジャックリーの乱」の指導者である[sambucuccio_dalando.GetName]と彼の仲間たちは、[rebel_location.GetName]で[rebel_location.GetController.GetAdjective]人に対する反乱を起こした。"
  anti_feudal_revolters: "反封建の反乱者"
  flavor_gen.18.a: "反乱軍が我々の敵を撃退してくれるといいが。"
- flavor_gen.18.b: "[sambucuccio_dalando.GetName]はわが軍の将軍として必要だ！"
+ flavor_gen.18.b: "[sambucuccio_dalando.GetNameWithNoTooltip]はわが軍の将軍として必要だ！"
  flavor_gen.19.title: "バスティアの基盤"
  flavor_gen.19.desc: "コルシカ島は、ほとんど利益を生まない土地であり、多くの[ROOT.GetCountry.GetAdjective]商人や役人は島の内政に干渉しなくなった。しかし、わが[ROOT.GetCountry.GetFlavorRank]の事業家のなかには、まだコルシカ島を見捨てない者もいる。力を得たマオーナ・ディ・コルシカは、この島の支配権を主張するために[ShowLocationName('bastia')]の地を要塞化した。彼らはまた、近隣の街の発展を加速させるつもりだが、これにはさらなる財政支援が必要だ。"
  flavor_gen.19.a: "必要とする支援をマオーナに与えよう。"

@@ -85,7 +85,7 @@
  flavor_cas.21.title: "[GetCountry('POR').GetNameWithNoTooltip]の王位を確保"
  flavor_cas.21.desc: "わが国の[GetCountry('POR').GetName]への介入は成功した。激戦のすえに、[GetCountry('POR').GetAdjectiveWithNoTooltip]の王位はいまや我々の手中にしっかりと収まり、[ROOT.GetCountry.GetName]の支配下に2つのイベリアの領土を統合することができたのだ。"
  flavor_cas.21.a: "勝利を祝おう。"
- flavor_cas.21.b: "[ShowLocationName('guadalupe')]に[ShowBuildingTypeNameWithNoTooltip('monastery')]を建て、この勝利を祝おう。"
+ flavor_cas.21.b: "[ShowLocationNameWithNoTooltip('guadalupe')]に[ShowBuildingTypeNameWithNoTooltip('monastery')]を建て、この勝利を祝おう。"
  flavor_cas.22.title: "[ShowReligionAdjectiveWithNoTooltip('catholic')]王の称号"
  flavor_cas.22.desc: "わが国の[ShowReligionAdjective('catholic')]信仰に対する揺るぎない守護と、聖座に対する確固たる支持は、広く認められている。わが国の敬虔さとキリスト教界における影響力が認められ、[pope.GetName]は[GetCountry('PAP').GetAdjective]勅書を発行し、我々にカトリック王という栄誉ある称号を与えた。"
  flavor_cas.22.a: "受け入れよう！"

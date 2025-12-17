@@ -37,7 +37,7 @@
  mercantilism_events.9.desc: "最近わが国に輸入されるコーヒー豆の急な増加について、著名な経済学者たちが分析をおこなっている。隣国ひとつが、巧みな交易を通じて世界有数のコーヒー豆生産地の大部分を支配して以来、それを使った飲み物が[ROOT.GetCountry.GetAdjective]人にも人気を博しているのだ。保護主義を標榜する政治家たちは、そのような嗜好品の輸入が[ROOT.GetCountry.GetName]にとって有益なのかを問い、隣国の管理する品物に依存することは、わが国の経済的立場を弱体化するだけではないかと主張している。"
  mercantilism_events.9.a: "その経済学者気取りを早朝に叩き起こして、コーヒーのありがたみを教えよう。"
  mercantilism_events.9.b: "あの人工的な劇薬の拡散を制限しなければ。"
- mercantilism_events.9.c: "我々[ROOT.GetCountry.GetAdjective]人は茶をたしなむ民である。コーヒーなど不要だ。"
+ mercantilism_events.9.c: "我々[ROOT.GetCountry.GetAdjectiveWithNoTooltip]人は茶をたしなむ民である。コーヒーなど不要だ。"
  mercantilism_events.10.title: "茶葉の輸入"
  mercantilism_events.10.desc: "最近わが国に輸入される茶葉の急な増加について、著名な経済学者たちが分析をおこなっている。隣国のひとつが、巧みな交易を通じて世界有数の茶葉生産地の大部分を支配して以来、それを使った飲み物が[ROOT.GetCountry.GetAdjectiveWithNoTooltip]人にも人気を博しているのだ。保護主義を標榜する政治家たちは、そのような嗜好品の輸入が[ROOT.GetCountry.GetName]にとって有益なのかを問い、隣国の管理する品物に依存することは、わが国の経済的立場を弱体化するだけではないかと主張している。"
  mercantilism_events.10.a: "茶葉を捨てることは文明捨てることと同義だ。"

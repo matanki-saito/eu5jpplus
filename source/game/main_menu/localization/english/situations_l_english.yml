@@ -78,6 +78,7 @@
  reformation_desc: "'#italic When our Lord and Master Jesus Christ said 'Repent,' he willed the entire life of believers to be one of repentance.#!'\n\nThese were the first notes in a document of 95 Theses found nailed to a church door, each detailing the corruption of the [GetInternationalOrganization('catholic_church').GetName]. Having suffered an extended period of weakness and internal struggle, the [ShowReligionAdjective('catholic')] faith seems ripe for reform. Many echo the same sentiment as the author of the 95 Theses about the pureness of internal faith, and that only through God can a [ShowReligionGroupAdjective('christian')] can experience forgiveness. Others decry this work as heresy and straying disturbingly far from the [ShowReligionAdjectiveWithNoTooltip('catholic')] beliefs.\n\nWith a wave of discussion sweeping [ShowContinentName('europe')], it has become clear that this will irreversible alter the future of our continent."
  CONVERTED_COUNTRIES: "Converted countries"
  CONVERTED_LOCATIONS: "Converted locations"
+ REFORMATION_LOCATION_RELIGION: "Predominantly [ROOT.GetLocation.GetDominantReligion.GetAdjective]"
  REFORMATION_LOCAL_ACTIVE_REFORMER: "[ROOT.GetLocation.Custom('GetLocalReformer_martin_luther')][ROOT.GetLocation.Custom('GetLocalReformer_reformer_philip_melanchton')][ROOT.GetLocation.Custom('GetLocalReformer_reformer_justus_jonas')][ROOT.GetLocation.Custom('GetLocalReformer_swe_mikael_agricola')][ROOT.GetLocation.Custom('GetLocalReformer_script_hans_tausen')][ROOT.GetLocation.Custom('GetLocalReformer_john_calvin')][ROOT.GetLocation.Custom('GetLocalReformer_swi_huldrych_zwingli')][ROOT.GetLocation.Custom('GetLocalReformer_reformation_henry_bullinger')][ROOT.GetLocation.Custom('GetLocalReformer_script_john_knox')][ROOT.GetLocation.Custom('GetLocalReformer_reformation_wido_de_bres')]"
  REFORMATION_HAS_JESUITS_ACTIVE: "[ROOT.GetLocation.GetOwner.GetName] has the [ShowPolicyName('jesuits_allowed')] active"
  REFORMATION_HAS_LUTHERAN_PREACHERS: "Has [ShowBuildingTypeName('lutheran_preachers')] active"
@@ -88,6 +89,19 @@
  REFORMATION_TOTAL_NUMBERS_LUTHERAN_PREACHERS: "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('reformation_lutheran_preachers_counter').GetValue|Y0] [ShowBuildingTypeName('lutheran_preachers')] active"
  REFORMATION_TOTAL_NUMBERS_CALVINIST_PREACHERS: "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('reformation_calvinist_preachers_counter').GetValue|Y0] [ShowBuildingTypeName('calvinist_preachers')] active"
  MONTHLY_POSSIBLE_OUTCOMES: "Monthly possible outcomes"
+ JESUIT_STATE: "Jesuit"
+ CALVINISTS_IN_JESUIT_STATE: "$calvinist_preachers$ in $JESUIT_STATE$"
+ LUTHERANS_IN_JESUIT_STATE: "$lutheran_preachers$ in $JESUIT_STATE$"
+ REFORMER_STATE: "Reformer"
+ CALVINISTS_IN_REFORMER_STATE: "$calvinist_preachers$ in $REFORMER_STATE$"
+ LUTHERANS_IN_REFORMER_STATE: "$lutheran_preachers$ in $REFORMER_STATE$"
+ CATHOLIC_STATE: "$catholic_ADJ$"
+ CALVINISTS_IN_CATHOLIC_STATE: "$calvinist_preachers$ in $CATHOLIC_STATE$"
+ LUTHERANS_IN_CATHOLIC_STATE: "$lutheran_preachers$ in $CATHOLIC_STATE$"
+ LUTHERAN_STATE: "$lutheran_ADJ$"
+ CALVINIST_STATE: "$calvinist_ADJ$"
+ HUSSITE_STATE: "$hussite_ADJ$"
+ ANGLICAN_STATE: "$anglican_ADJ$"
  #
  # The Western Schism
  #
@@ -193,7 +207,6 @@
  #
  # Rise of the Ottomans
  #
- rise_of_the_ottomans_victory_conditions: "[SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetNameWithNoTooltip] own [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetOwnedLocationCount] total [locations|e] and [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetTownsAndCities] [towns_or_cities|e].\n\nVictory Conditions:\n[SituationView.GetTooltipInformation('rise_of_the_ottomans_end_trigger_beylik_victory')]\n\nThe strongest Beylik is calculated based on their:\n[army_levies|e]\n[navy_levies|e]\n[income|e]\n[regular_regiments|e]"
  rise_of_the_ottomans: "Rise of the Turks"
  rise_of_the_ottomans_desc: "Driven by a potent combination of ambition, martial skill, and strategic vision, many [ShowCultureName('turkish_culture')] Beyliks carved their own paths through the fragmented realms of [ShowRegionName('anatolia_region')]. Their nomadic origins merged with the sophistication of settled societies, creating a formidable blend of military might and administrative acumen.\n\nAs the regional principalities lay divided and vulnerable, the most formidable among them seized the opportunity to unite their ranks under a single banner. Charismatic leaders such as [GetCharacter('tur_osman').GetName], the founder of [GetCountry('TUR').GetName], ignited flames of inspiration that would burn brightly for centuries to come.\n\nWith every victory, these Beyliks gather momentum, transforming themselves into a force to be reckoned with. The conquest of vital towns and cities across the region all heralded their inexorable rise."
  rise_of_the_ottomans_cooldown: "[ROOT.GetVariable('rise_of_the_ottomans_cooldown').GetValue|V0]"
@@ -212,7 +225,6 @@
  ROTT_LEADER_COUNTRY: "##1 [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_beylik_variable').GetCountry.GetLongName]: [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('strongest_strongest_beylik_total_score_variable').GetValue|2]"
  ROTT_SECOND_COUNTRY: "##2 [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('second_strongest_strongest_beylik_variable').GetCountry.GetName]"
  ROTT_THIRD_COUNTRY: "##3 [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('third_strongest_strongest_beylik_variable').GetCountry.GetName]"
- no_beylik_has_100_locations_tt: "No eligible independent [country|e] with the [ShowGovernmentReformName('anatolian_beylik')] [government_reform|e] directly owns at least 100 [locations|e]"
  no_beyliks_left_tt: "All Beyliks have been annexed"
  end_of_the_situation: "The [ShowSituationName('rise_of_the_ottomans')] [situation|e] will end"
 
@@ -375,7 +387,7 @@
  demand_autonomy_desc: "We must leverage our influence against that of our overlord in order to secure special privileges, which will greatly benefit us and our prosperity."
  influence_french_subject: "Influence [GetCountry('FRA').GetAdjectiveWithNoTooltip] Subject"
  influence_french_subject_desc: "Sowing the seeds of doubt and division between the [GetCountry('FRA').GetLongName] and their subjects will greatly help our war efforts against them!"
- influence_french_subject_tt: "The selected [GetCountry('FRA').GetAdjective] subject may be convinced not to join any defensive wars for the next #Y 5#! years in exchange for #Y 300#![gold_i]"
+ influence_french_subject_tt: "The selected [GetCountry('FRA').GetAdjective] subject may be convinced not to join any defensive wars for the next #Y 5#! years in exchange for [gold|e] [gold_i]"
  demand_appanage_promotion: "Demand Promotion to [ShowSubjectTypeNameWithNoTooltip('appanage')]"
  demand_appanage_promotion_desc: "Our prestige and splendor cannot be contained under a mere [ShowSubjectTypeName('vassal')] title. As our influence expands, our title must reflect our strength and importance under the [GetCountry('FRA').GetAdjective] banner."
  fra_has_eligible_child_tt: "The [GetCountry('FRA').GetGovernment.GetRulerOrRegent.GetDynasty.GetName] of [GetCountry('FRA').GetName] have a [character|e] who is eligible to become our [heir|e]"
@@ -407,6 +419,10 @@
  selected_country_will_be_asked_for_truce_tt: "The selected [country|e] will be asked to sign a #Y 5#! year [truce|e] with us through an [event|e]"
  this_will_not_affect_our_textile_industry_tt: "#italic This will not affect our textile industry#!"
  they_will_be_notified_of_our_rejection_tt: "The [actor.GetLongName] will hear of our [truce|e] rejection"
+ not_recently_asked_to_join_tt: "Was not asked to join our [war|e] via this [action|e] in the last #Y 10#! years"
+
+ hyw_defect_action: "Attempt Defection"
+ hyw_defect_action_desc: "Our frustration with our current overlord has reached a tipping point. Their mismanagement of the entire realm has left many of their subjects, us included, very frustrated. It is time for us to consider switching sides before any hostilities erupt!"
  
 #
 # Standard Situation
@@ -478,7 +494,7 @@
  COUNTRIES_AROUND_DELHI: "Contender during the [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]"
  COUNTRY_AFFECTED_BY_FALL_OF_DELHI: "This country is part of the [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip] [situation|e]. They may choose to support either [GetCountry('DLH').GetName] or their claimants."
  fall_of_delhi_delhi_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\nThis is [GetCountry('DLH').GetName]'s [share_of_power_gc|e]. They will be victorious should it reach #Y 100%#! before the [ShowDisasterName('dissolution_of_delhi')] [disaster|e] commences."
- fall_of_delhi_opposers_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\nThis is the [share_of_power_gc|e] of those who oppose [GetCountry('DLH').GetName]. Should it reach #R 50%#! the [ShowDisasterName('dissolution_of_delhi')] [disaster|e] may happen for [GetCountry('DLH').GetNameWithNoTooltip]."
+ fall_of_delhi_opposers_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\nThis is the [share_of_power_gc|e] of those who oppose [GetCountry('DLH').GetName]. Should it reach #R 80%#! the [ShowDisasterName('dissolution_of_delhi')] [disaster|e] may happen for [GetCountry('DLH').GetNameWithNoTooltip]."
  SUPPORTERS_OF_COUNTRY: "Support from [Country.GetLongName]"
 
 #Tooltips
@@ -538,11 +554,11 @@
  red_turban_rebellions: "Red Turban Rebellions"
  red_turban_rebellions_desc: "The [ShowCultureGroupName('chinese_group')] are revolting against their [GetCountry('CHI').GetCulture.GetName] overlords. The rebels have declared the establishment of their independent states, throwing the entirety of [GetCountry('CHI').GetName] into a civil war that threatens to devour the $YUA$ dynasty..."
  red_turban_rebellions_strongest_red_turban_rebel_tt: "The [GetInternationalOrganizationType('red_turban_rebels').GetName] have a leader who will need to own #Y 65.00%#! of the [locations|e] that are part of the [GetUniqueInternationalOrganization('middle_kingdom').GetName]"
- RTR_EMPEROR: "[THIS.GetLocation.GetOwner.GetName], the [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle] of the [GetUniqueInternationalOrganization('middle_kingdom').GetName]"
- RTR_STRONGEST_REBEL: "[THIS.GetLocation.GetOwner.GetName], Strongest Rebel Warlord ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
- RTR_LOYALIST: "[THIS.GetLocation.GetOwner.GetName], Loyalist to [GetCountry('CHI').GetName] ($rtr_yuan_allegiance$: #G [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
- RTR_REBEL: "[THIS.GetLocation.GetOwner.GetName], Rebel against [GetCountry('CHI').GetName] ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
- RTR_NEUTRAL: "Autonomous [THIS.GetLocation.GetOwner.GetName], but neutral towards [GetCountry('CHI').GetName] ($rtr_yuan_allegiance$: #Y [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ RTR_EMPEROR: "The [GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle] of the [GetUniqueInternationalOrganization('middle_kingdom').GetNameWithNoTooltip] [THIS.GetLocation.GetOwner.GetName]"
+ RTR_STRONGEST_REBEL: "Strongest Rebel Warlord [THIS.GetLocation.GetOwner.GetName] ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ RTR_LOYALIST: "Loyalist [THIS.GetLocation.GetOwner.GetName] ($rtr_yuan_allegiance$: #G [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ RTR_REBEL: "Rebel [THIS.GetLocation.GetOwner.GetName] ($rtr_yuan_allegiance$: #R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
+ RTR_NEUTRAL: "Autonomous and neutral [THIS.GetLocation.GetOwner.GetName] ($rtr_yuan_allegiance$: #Y [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!)"
  RTR_LOYALISTS_TITLE: "Loyalists of [GetCountry('CHI').GetNameWithNoTooltip]"
  RTR_NEUTRALS_TITLE: "Neutral"
  RTR_REBELS_TITLE: "Rebels against [GetCountry('CHI').GetNameWithNoTooltip]"
@@ -684,6 +700,8 @@
  FIGHTING_OUR_FOE_TOOLTIP: "Fighting our [enemy|e] or [rival|e]"
  NUM_LOANS_TOOLTIP: "Number of [loans|e]"
  IW_BALANCE_OF_POWER: "Balance of Power"
+ FOREIGN_LEAGUE: "Our League is Foreign"
+ ALREADY_MEMBER_OF_LEAGUE: "Already [member|e] of a League"
  IO_HOSTS_FRIENDS: "Our [allies|e] in this League"
  IO_HOSTS_ENEMIES_OR_RIVALS: "Our [rivals|e] or [enemies|e] in this League"
  IO_LEADER_ANTAGONISM: "[antagonism|e] towards the Leader"
@@ -814,7 +832,9 @@
  catholic_league_ally.tt: "Allied with the Leader of the $catholic_league$"
  war_of_religions_neutral.tt: "Neutral"
  WAR_OF_RELIGIONS_PROTESTANT_UNION_LEADER: "Protestant Leader"
+ WAR_OF_RELIGIONS_PROTESTANT_LEAGUE_LEADER_ALLY: "[ally|e] of the $WAR_OF_RELIGIONS_PROTESTANT_LEAGUE_LEADER$"
  WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER: "Catholic Leader"
+ WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER_ALLY: "[ally|e] of the $WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_LEADER$"
  WAR_OF_RELIGIONS_PROTESTANT_UNION_TITLE: "[GetUniqueInternationalOrganization('protestant_union').GetName]"
  WAR_OF_RELIGIONS_CATHOLIC_LEAGUE_TITLE: "[GetUniqueInternationalOrganization('catholic_league').GetName]"
  WAR_OF_RELIGIONS_NO_LAW_IN_DEBATE: "No [law|e] under debate"

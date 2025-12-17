@@ -1,6 +1,6 @@
 ﻿l_japanese:
  reformation_is_enabled_tt: "#Y 宗教改革#!が始まった"
- casus_belli_forbids_non_french_location_conquest_tt: "「百年戦争」の[war_goal|e]で奪取が許可されている土地は、[ShowRegionName('france_region')]内の[region|e]に限定されている。"
+ casus_belli_forbids_non_french_location_conquest_tt: "「百年戦争」の[war_goal|e]で奪取が許可される土地は、[ShowRegionName('france_region')][region|e]内の土地、または[GetCountry('FRA').GetNameWithNoTooltip]か[GetCountry('ENG').GetNameWithNoTooltip]の[subject|e]が所有する土地に限定される"
  casus_belli_forbids_location_conquest_tt: "この戦争では、いかなる[location|e]も直接征服することが禁じられている"
  casus_belli_forbids_normal_subjugation_tt: "この戦争では、通常の方法で敵国を[subjugate|e]させることが禁じられている"
  casus_belli_forbids_normal_subjugation_tributary_tt: "$casus_belli_forbids_normal_subjugation_tt$\n[ShowSubjectTypeName('tributary')]を樹立するには、[peace_treaty|e]「[ShowPeaceTreatyTypeName('force_tributary')]」を使用する必要がある"
@@ -564,3 +564,9 @@
  NOT_FIRST_CAN_CREATE_SUBJECT_ALLIANCE: "わが国の外交的地位により、[TARGET_COUNTRY.GetName]と[alliance|e]を締結することができない"
  THIRD_CAN_CREATE_SUBJECT_ALLIANCE: "[COUNTRY.GetName]の外交的地位により、[TARGET_COUNTRY.GetName]と[alliance|e]を締結することができる"
  NOT_THIRD_CAN_CREATE_SUBJECT_ALLIANCE: "[COUNTRY.GetName]の外交的地位により、[TARGET_COUNTRY.GetName]と[alliance|e]を締結することができない"
+ CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "A [cabinet_member|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "No [cabinet_member|e] is already performing the same [cabinet_action|e] on this target"
+ FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "One of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "One of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+ NOT_THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"

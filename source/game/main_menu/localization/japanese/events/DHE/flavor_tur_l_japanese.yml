@@ -295,7 +295,7 @@
  flavor_tur.56.b.tt: "すべての[ShowReligionName('shia')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]増加する。"
  flavor_tur.56.c.tt: "すべての[ShowReligionName('shia')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]低下する。"
  flavor_tur.57.title: "ダルウィーシュの王"
- flavor_tur.57.desc: "[sufi_character.GetName]は、[target_location.GetName]を拠点に勢力を増している「#italic バイラミー派#!」というスーフィズム教団の指導者であり、審問のために我らが宮廷へと呼び出された。[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]階級の有力者は、[sufi_character.GetHerHis]の世界や未来に関する教えは冒涜的であると主張している。だが、我々にはその言葉は賢明なもののように思える……"
+ flavor_tur.57.desc: "[sufi_character.GetName]は、[target_location.GetName]を拠点に勢力を増している「バイラミー派」というスーフィズム教団の指導者であり、審問のために我らが宮廷へと呼び出された。[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]階級の有力者は、[sufi_character.GetHerHis]の世界や未来に関する教えは冒涜的であると主張している。だが、我々にはその言葉は賢明なもののように思える……"
  flavor_tur.57.a: "[sufi_character.GetHerHim]からは学べることがある！"
  flavor_tur.57.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]をなだめなければ。"
  flavor_tur.57.c: "[sufi_character.GetHerHim]を追い返すだけでいい。"

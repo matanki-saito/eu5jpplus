@@ -173,7 +173,7 @@
  flavor_vij.1101.title: "$flavor_vij.1100.title$"
  flavor_vij.1101.desc.a: "[ShowCultureName('tamil')]の反乱を鎮圧する政策により、我々は当地の反乱軍の大部分を鎮めた。彼らは再びわが国の統治に満足するようになったが、この反乱を組織した最初の裏切り者を捕らえたのは特にお手柄だった。[target_character.GetName]は現在、わが軍の部隊に捕らえられており、誰もが[target_character2.GetHerHim]を追放することを望んでいる。"
  flavor_vij.1101.desc.b: "[ShowCultureName('tamil')]の反乱鎮圧に失敗したことで、我々に牙をむく反乱軍の指導者が姿を現した。[target_character.GetName]は支持を集めて自らの領土を築こうと企て、[ROOT.GetCountry.GetName]からの独立を目指して[ShowCultureNameWithNoTooltip('tamil')]の民と交渉していた。我々がいますべきことは、これらの反乱軍を粉砕することである。"
- flavor_vij.1101.a: "[target_character.GetHerHim]を追放せよ！ [ROOT.GetCountry.GetName]に裏切り者の居場所はない！"
+ flavor_vij.1101.a: "[target_character.GetHerHim]を追放せよ！ [ROOT.GetCountry.GetNameWithNoTooltip]に裏切り者の居場所はない！"
  flavor_vij.1101.b: "武器を取れ！ [target_character.GetNameWithNoTooltip]とその下賤な一味を打ち砕くのだ！"
  tamil_uprising: "タミルの蜂起"
  VIJ_ALL_TAMILS_LOSE_90_SATISFACTION: "すべての[ShowCultureName('tamil')]人[pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]低下する。"

@@ -598,7 +598,7 @@
  allow_hunting_desc: "Allows the [ShowEstateTypeName('peasants_estate')] to hunt and skin game within the legal and physical boundaries of their lord's or township's domain."
 
  no_labor_sunday: "No Labor on Sunday"
- no_labor_sunday_desc: "It would be wise to follow the teachings of the [ShowReligiousGroupName('christian_group')] Church and decree our serfs and peasants may have respite from their work on Sundays, as a sign of piety and compassion."
+ no_labor_sunday_desc: "It would be wise to follow the teachings of the [ShowReligionGroupAdjective('christian')] Church and decree our serfs and peasants may have respite from their work on Sundays, as a sign of piety and compassion."
 
  communal_lands: "Communal Lands"
  communal_lands_desc: "Despite the inherently disadvantaged position of the common people, we must nevertheless dictate that all members of the [ShowEstateTypeName('peasants_estate')] have the right to establish common flocks of animals and to raise crops in shared fields."
@@ -651,8 +651,8 @@
 
 #Teutons
  kulm_law: "Kulm Law"
- kulm_law_desc: "A modified version of the Magdeburg Law, the Kulm Law grants all cities in [GetCountry('PRU').GetAdjective] that have secured the mercantile interests of the city merchant guilds the privilege of significant autonomy from their overlords." 
- invite_german_settlers: "Invite [GetCountry('PRU').GetAdjectiveWithNoTooltip] Settlers"
+ kulm_law_desc: "A modified version of the Magdeburg Law, the Kulm Law grants all cities in [ShowAreaName('prussia_area')] that have secured the mercantile interests of the city merchant guilds the privilege of significant autonomy from their overlords." 
+ invite_german_settlers: "Invite [ShowCultureGroupNameWithNoTooltip('german_group')] Settlers"
  invite_german_settlers_desc: "By welcoming migrants into our nation, we will build a strong country that benefits from population growth and shifting regional dynamics."
  invite_german_settlers.tt: "Waves of German migrants will start to regularly arrive in our country"
 
@@ -701,7 +701,6 @@
  libro_d_argento_desc: "Together with the #italic Libro d'Oro#! that list all the noble families of the [GetCountry('VEN').GetLongName], the #italic Libro d'Argento#! contains the names of all the #italic Originarii#! families, who despite being commoners descend from the original inhabitants of the lagoon, and have gained thus the right to trade as citizens of [GetCountry('VEN').GetNameWithNoTooltip] and take jobs in the administration of the [GetCountry('VEN').GetGovernment.GetGovernmentType.GetName]."
  zontas: "Zonta"
  zontas_desc: "The governing councils of the [GetCountry('VEN').GetFlavorRank] of [GetCountry('VEN').GetName] choose their members from among the [ShowEstateTypeName('nobles_estate')]. These elites come together in so-called #italic Zontas#! and have privileges and duties to safeguard the constitution against the accumulation of power by a single ruler."
- zontas_revoke_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] has less than #Y 25.0%#! Power or the [ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')] has #Y 50.0%#! or more Power"
  avogadoria_de_comun: "Avogadoria de Comùn"
  avogadoria_de_comun_desc: "The state is in the hands of the noble and wealthy families who occupy key positions in the [GetCountry('VEN').GetAdjective] government. To defend the interests of the state and, by extension, of these families, the Council created the #italic Avogadoria de Comùn#! - the #italic public prosecutors#! - who supervise accounts of high positions, investigate allegations of corruption and prosecute violations of law.\nEven the Doges themselves are not spared by their watchful eyes..."
 

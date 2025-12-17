@@ -93,6 +93,7 @@
  AUTO_MODIFIER_NAME_court_and_country_modifier: "[ShowDisasterName('court_and_country')] [disaster|e]"
  AUTO_MODIFIER_DESC_court_and_country_modifier: "Our [crown_power|e] will scale higher due to our success in the [ShowDisasterName('court_and_country')] [disaster|e]"
  AUTO_MODIFIER_NAME_international_organization_base_values: "Base Value for Every [international_organization|e]"
+ AUTO_MODIFIER_NAME_dynasty_base_values: "Base Value for Every [dynasty|e]"
  AUTO_MODIFIER_NAME_in_regency: "In [regency|e]"
  AUTO_MODIFIER_DESC_in_regency: "Our [country|e] is currently in a [regency|e], which reduces the peoples' confidence in us."
  AUTO_MODIFIER_NAME_ruler_has_no_ruler_traits: "Fresh [ruler|e]"

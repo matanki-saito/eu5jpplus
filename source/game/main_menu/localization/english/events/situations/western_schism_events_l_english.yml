@@ -69,7 +69,7 @@
  western_schism.14.desc: "The [target_estate.GetName], composed of [ROOT.GetCountry.GetReligion.GetGodName]-fearing people, has found itself supporting [target_schism_opponent_cardinal.GetName] $western_schism_13_14_common_string$"
 
  western_schism.15.title: "A Traveling Preacher"
- western_schism.15.desc: "The erosion of our faith caused by the [ShowSituationName('western_schism')] has cut deep into the trust of the people of [unrest_province.GetName]. Into this vacuum of trust and stability has come [target_character.GetName] with [target_character.GetHerHis] sermons of heresy and accusations of corruption. While [target_character.GetSheHe] claims to be a true [ROOT.GetCountry.GetReligion.GetAdjective], [target_character.GetHerHis] lectures have encouraged some in [unrest_province.GetNameWithNoTooltip] to turn to dangerous ideas and we might want to act swiftly to not let this heresy spread further."
+ western_schism.15.desc: "The erosion of our faith caused by the [ShowSituationName('western_schism')] has cut deep into the trust of the people of [unrest_location_scope.GetName]. Into this vacuum of trust and stability has come [target_character.GetName] with [target_character.GetHerHis] sermons of heresy and accusations of corruption. While [target_character.GetSheHe] claims to be a true [ROOT.GetCountry.GetReligion.GetAdjective], [target_character.GetHerHis] lectures have encouraged some in [unrest_location_scope.GetNameWithNoTooltip] to turn to dangerous ideas and we might want to act swiftly to not let this heresy spread further."
  western_schism.15.a: "[target_character.GetHerHis|U] ideas do not sound that bad."
  western_schism.15.b: "We can not allow [target_character.GetNameWithNoTooltip] to continue."
 

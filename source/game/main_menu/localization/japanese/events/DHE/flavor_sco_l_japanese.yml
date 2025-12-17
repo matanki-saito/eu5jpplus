@@ -58,7 +58,7 @@
  flavor_sco.12.desc: "[young_king_david.GetName]は幼いころから、つねに[england.GetAdjective]の捕らわれの身とならないよう亡命生活を送ってきた。そのあいだの王国の防衛は、[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]たちの手腕に委ねられていた。\n\n最近、武力衝突が小康状態となったため、若き[young_king_david.GetShortNameWithNoTooltip]は[ROOT.GetCountry.GetAdjective]王位を奪還するため、[ROOT.GetCountry.GetCapital.GetName]への帰還の旅に出た。\n\n一見、臆病な幼子にしか見えなくとも、彼は亡き英雄[young_king_david.GetFather.GetName]の長男なのである。"
  flavor_sco.12.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]の帰還を盛大な式典で祝おう！"
  flavor_sco.12.b: "危険はまだ去っておらず、我々には[guardian_of_scotland.GetShortNameWithNoTooltip]という強力な指導者がいる。"
- flavor_sco.12.c: "[young_king_david.GetName]は統治者に不適格であり、[ROOT.GetCountry.GetGovernment.GetRulerTitle]の座には[guardian_of_scotland.GetShortNameWithNoTooltip]がつくべきだ。"
+ flavor_sco.12.c: "[young_king_david.GetNameWithNoTooltip]は統治者に不適格であり、[ROOT.GetCountry.GetGovernment.GetRulerTitle]の座には[guardian_of_scotland.GetShortNameWithNoTooltip]がつくべきだ。"
  flavor_sco.13.title: "我らがスコットランド"
  flavor_sco.13.desc: "[ROOT.GetCountry.GetName]は古来より、多様な起源をもつさまざまな人が暮らす多文化の土地である。\n\nしかし、この多様性をわが国の弱みと考え、ひとつの声をもつひとつの民として結束すべきだとする者もいる。"
  flavor_sco.13.a: "この多様性こそが我々の本質だ。"

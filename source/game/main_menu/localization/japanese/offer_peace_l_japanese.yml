@@ -216,6 +216,7 @@
  rtr_demand_occupied_territories_entry_short: "Demand Occupied Territories"
  rtr_demand_occupied_territories_desc: "対象の[country|e]に対し、[occupied|e]したすべてのロケーションを要求する。"
  rtr_demand_occupied_territories_tt: "[winner.GetName]によって占領されたすべての[loser.GetAdjective]の[location|e]が、[winner.GetNameWithNoTooltip]の手に渡る"
+ rtr_demand_occupied_territories_no_winner_loser_tt: "Any [location|e] the winner occupies from the loser is seized."
  rtr_demand_complete_annexation: "完全な併合を要求"
  rtr_demand_complete_annexation_entry: "$rtr_demand_complete_annexation$"
  rtr_demand_complete_annexation_entry_short: "$rtr_demand_complete_annexation$"

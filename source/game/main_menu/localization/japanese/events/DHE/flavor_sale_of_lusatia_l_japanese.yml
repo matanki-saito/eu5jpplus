@@ -11,7 +11,7 @@
  flavor_sale_of_lusatia.1100.title: "[GetCountry('SOR').GetNameWithNoTooltip]問題"
  flavor_sale_of_lusatia.1100.desc_normal: "協定が守られたため、[GetCountry('SOR').GetLongName]は我々の支配下に戻るはずだ。\n\nしかし、[GetCountry('SOR').GetNameWithNoTooltip]は我々にほとんど価値をもたらさない領地であり、土地を売却すれば、より重要な問題のために必要な資源が得られるかもしれない。権利を売却し、この厄介な土地を手放す選択肢も探ることができる。多くの者が[GetCountry('SOR').GetName]の獲得に興味をもつはずであり、良好な関係にある[target_buyer.GetName]も信頼できる取引相手となる。"
  flavor_sale_of_lusatia.1100.desc_fallback: "[GetCountry('SOR').GetName]の協定は期限切れとなったが、残念ながら協定は外国の愚か者の手に渡り、失われてしまった。いまとなっては、その土地を法的に取り戻す手段はほとんどない。"
- flavor_sale_of_lusatia.1100.a: "[target_buyer.GetName]に接触し、提案せよ。"
+ flavor_sale_of_lusatia.1100.a: "[target_buyer.GetNameWithNoTooltip]に接触し、提案せよ。"
  flavor_sale_of_lusatia.1100.b: "領土の売却はもう終わりだ。"
  flavor_sale_of_lusatia.1100.c: "我々の正当な領土を取り戻す！"
  flavor_sale_of_lusatia.1100.d: "判断を誤ったのだろうか。"

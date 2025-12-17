@@ -273,7 +273,7 @@
  societal_values.604.b: "[ROOT.GetCountry.GetReligion.GetGodName]に認められるほどの才能だ！"
  societal_values.604.c: "$societal_values.604.b$"
  societal_values.604.d: "$societal_values.604.b$"
- societal_values.604.e: "[GetUniqueInternationalOrganization('hre').GetName]に仕えさせよう！"
+ societal_values.604.e: "[GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]に仕えさせよう！"
  societal_values.605.title: "誤解の解消"
  societal_values.605.desc: "異なる種類の政府をもつ国々は、ときにお互いの理解に困難を抱えることがある。しかし、わが国の有能な外交官たちのおかげで、ある隣国とのあいだに生じた誤解を解消することができた。"
  societal_values.605.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

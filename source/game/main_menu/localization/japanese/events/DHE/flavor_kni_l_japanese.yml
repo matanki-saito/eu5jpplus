@@ -104,7 +104,7 @@
  flavor_kni.120.b: "基幹施設を整備せよ。"
  flavor_kni.121.title: "[LOCATION.GetNameWithNoTooltip]の海上活動"
  flavor_kni.121.desc: "[target_location.GetName]の立地は非常に有利である。[target_location.GetRegion.GetName]沿岸に近いことから、その近海における海上活動の重要な拠点となっているのだ。また、東西をつなぐ要所として、近東を行き来する商人たちの寄港地としても利用されている。"
- flavor_kni.121.a: "[ShowGoodsName('naval_supplies')]の生産を奨励しよう。"
+ flavor_kni.121.a: "[ShowGoodsNameWithNoTooltip('naval_supplies')]の生産を奨励しよう。"
  flavor_kni.121.b: "商人をもっと受け入れるべきだ。"
  flavor_kni.121.c: "地元の民を大切にすべきだ。"
  flavor_kni.130.title: "奇跡の地震"
