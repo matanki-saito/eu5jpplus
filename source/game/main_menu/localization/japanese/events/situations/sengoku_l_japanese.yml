@@ -4,7 +4,7 @@
  sengoku.1.desc: "[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]には氏族を統制する能力がないことが証明された。幕府は地方支配者を甘やかし、徐々に権限を委譲したすえに凋落し、何世紀にもわたり燻っていた多くの紛争に火がついた。中央の権力から事実上解き放たれ、多くの$daimyo$が自らの領地で権力を振るっている。我々も後れを取るわけにはいかない——さもなくば、やがて国中に広がる戦火に呑み込まれ滅亡してしまいかねない。"
  sengoku.1.a: "我々が戦国時代の勝者になるのだ！"
  sengoku.1.b: "好機が訪れるまで待とう。"
- turn_japanese_clan_into_normal_tag.tt: "我々は領地の$daimyo$として自治権を得る"
+ turn_japanese_clan_into_normal_tag.tt: "[foreign_buildings|e]の大半を所有している[locations|e]において、我々が領地の$daimyo$として自治権を獲得し、それ以外は放棄する"
  sengoku.2.title: "戦国時代の終わり"
  sengoku.2.desc.common: "戦国時代の争いは過去のものとなった。長年にわたる絶え間ない戦乱が終わり、[ShowRegionName('japan_region')]列島は"
  sengoku.2.desc.absolute: "$sengoku.2.desc.common$再び我々の旗のもとに統一された。もはやどの氏族も、我々の統率力に異を唱えることはできない。我々は、この国をかつてない平和と繁栄の時代へと導く。そして[ShowRegionNameWithNoTooltip('japan_region')]じゅうが我々にひれ伏すのだ！"

@@ -48,7 +48,7 @@
  sikhism.11.b: "[ROOT.GetCountry.GetReligion.GetGodName]を求める者は、その賛美歌に神を見出すべし。"
  sikhism.11.tt: "[GetUniqueInternationalOrganization('sikhism').GetName]の[ShowLawName('guru_granth_sahib_guruship')]をアンロックする"
  sikhism.12.title: "[target_location.GetNameWithNoTooltip]の$guru$"
- sikhism.12.desc: "「$guru$」と呼ばれる人物が、[target_location.GetName]にやって来たとの報せがあった。この人物は天啓を受け、故郷から遠く離れた異国を周って唯一神の言葉を広めているのだと述べた。\n\n現地の[target_character.GetHerHis|U]の信者たちは、この神こそが[Root.Owner.Religion.GetName]を含むすべての宗教の神であると主張し、[target_character.GetName]はただ我々の信仰の真理を示しているにすぎないと擁護する。しかしながら、この教えがわが国の儀式や伝統を否定し、国民を[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]の真の道から逸脱させることに疑いの余地はない。"
+ sikhism.12.desc: "「$guru$」と呼ばれる人物が、[target_location.GetName]にやって来たとの報せがあった。この人物は天啓を受け、故郷から遠く離れた異国を周って唯一神の言葉を広めているのだと述べた。\n\n現地の[target_character.GetHerHis|U]の信者たちは、この神こそが[ROOT.Owner.Religion.GetName]を含むすべての宗教の神であると主張し、[target_character.GetName]はただ我々の信仰の真理を示しているにすぎないと擁護する。しかしながら、この教えがわが国の儀式や伝統を否定し、国民を[ROOT.GetCountry.GetReligion.GetNameWithNoTooltip]の真の道から逸脱させることに疑いの余地はない。"
  sikhism.12.a: "税を納めていれば、何を信じようと勝手だ。"
  sikhism.12.b: "異教徒ごときの言葉に耳は貸さん！"
  sikhism.12.b.tt: "[target_location.GetName]に居住する、すべての[ShowReligionAdjective('hindu')]および[ShowReligionGroupAdjective('muslim')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_extreme_penalty')|+=2%]低下する"

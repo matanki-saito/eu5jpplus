@@ -22,10 +22,12 @@
  STATIC_MODIFIER_NAME_teu_lizard_league: "Eidechsenbund"
 
  flavor_teu.4.title: "Prussian Homage"
- flavor_teu.4.desc: "The defeat of the [GetCountry('TEU').GetLongName] has marked the return of much of Pomerelia back to our fold but also the conquest of the territories in [ShowAreaName('prussia_area')]. Though decimated, the [GetCountry('TEU').GetAdjectiveWithNoTooltip] Knights still stand and control many institutions in the area.\n\nAs the territories in Eastern Prussia might be hard to integrate, there have been proposals of forcing the existing elite of the Order to secularize and to swear fealty in front of [pol_ruler.GetName]. With that scheme, the old territories of [GetCountry('TEU').GetName] would be divided into '[ROOT.GetCountry.GetGovernment.GetAdjective|U] Prussia', directly incorporated into the crown, and 'Ducal Prussia', held by the secularized Prussians."
+ flavor_teu.4.desc: "The defeat of the [GetCountry('TEU').GetLongName] has marked the return of much of Pomerelia back to our fold but also the conquest of the territories in [ShowAreaName('prussia_area')]. Though decimated, the [GetCountry('TEU').GetAdjectiveWithNoTooltip] Knights still stand and control many institutions in the area.\n\nAs the territories in Eastern Prussia might be hard to integrate, there have been proposals of forcing the existing elite of the Order to secularize and to swear fealty in front of [pol_ruler.GetName]. With that scheme, the old territories of [GetCountry('TEU').GetName] would be divided into '[ROOT.GetCountry.GetGovernment.GetAdjective|U] Prussia', directly incorporated into the crown, and '[ShowScriptedGeographyName('ducal_prussia_geography')]', held by the secularized Prussians."
  flavor_teu.4.historical_info: "After the Thirteen Years' War against the Teutonic Order in 1454-1466, Prussia was divided into 'Royal Prussia', directly held by the Kingdom of Poland, and the eastern provinces, which remained part of the order as a vassal, known as 'Ducal Prussia'. In 1525 the Teutonic Order State was secularized by its Hochmeister, Albert von Hohenzollern, becoming known from them on the 'Duchy of Prussia'."
  flavor_teu.4.a: "Force them to bow down!"
  flavor_teu.4.b: "Keep the status quo."
+ flavor_teu.4.a.cede_locations_to_ducal_prussia: "Every [owned|e] [location|e] in [ShowScriptedGeographyName('ducal_prussia_geography')] will be ceded to and given [core|e] to [ducal_prussia_tag.GetName]"
+ flavor_teu.4.a.integration_in_royal_prussia: "Every [owned|e] [location|e] in [ShowScriptedGeographyName('royal_prussia_geography')] will gain #g +75.0%#! [integration|e]"
 
  flavor_teu.5.title: "Crusader Fervor"
  flavor_teu.5.desc: "The [ROOT.GetCountry.GetAdjective] Knights were invited to [ShowAreaName('prussia_area')] in 1226 at the behest of [GetCharacter('maz_konrad_i_piast').GetName] of [ShowAreaName('mazovia_area')]. Their goal was to serve as crusaders against the Pagan Baltic Prussians. Being the successors of those brave warriors, we need to continue the crusade against the last pagans of [ShowContinentName('europe')] in the [target_nation.GetLongName]!"
@@ -206,13 +208,13 @@
  flavor_swe_teu.4.a: "$pirate_events.1.a$"
 
  flavor_swe_teu.5.title: "Island of Contention"
- flavor_swe_teu.5.desc: "Situated in the Heart of the Baltic Sea, the island of [ShowProvinceDefinitionName('gotland_province')] is a necessary asset for any power that wishes to achieve the goal of #italic Dominium Maris Baltici#!. As such, we have other local powers surely scheming to seize this valuable possession from our hands. With our waning naval capability, we might want to pawn the island off to one of those powers."
+ flavor_swe_teu.5.desc: "Situated in the Heart of the [ShowScriptedGeographyName('baltic_sea_geography')], the island of [ShowProvinceDefinitionName('gotland_province')] is a necessary asset for any power that wishes to achieve the goal of #italic Dominium Maris Baltici#!. As such, we have other local powers surely scheming to seize this valuable possession from our hands. With our waning naval capability, we might want to pawn the island off to one of those powers."
  flavor_swe_teu.5.a: "Offer the island to [first_offer.GetNameWithNoTooltip]."
  flavor_swe_teu.5.b: "[second_offer.GetNameWithNoTooltip] would surely accept."
  flavor_swe_teu.5.c: "We will not give up our land."
 
  flavor_swe_teu.6.title: "Eyes on [gutnish_province.GetNameWithNoTooltip]"
- flavor_swe_teu.6.desc: "We have a keen interest in the island of [ShowProvinceDefinitionName('gotland_province')]. As one of the major powers of the Baltic Sea basin, it would be of great benefit to hold this island at the crossroads of trade routes and in the heart of the internal sea. It could be our first stepping stone to making this sea our own. Alas, we are not alone in this ambition and we must make haste if we are to seize it for ourselves."
+ flavor_swe_teu.6.desc: "We have a keen interest in the island of [ShowProvinceDefinitionName('gotland_province')]. As one of the major powers of the [ShowScriptedGeographyName('baltic_sea_geography')] basin, it would be of great benefit to hold this island at the crossroads of trade routes and in the heart of the internal sea. It could be our first stepping stone to making this sea our own. Alas, we are not alone in this ambition and we must make haste if we are to seize it for ourselves."
  flavor_swe_teu.6.a: "The Baltic will be ours."
 
  flavor_swe_teu.7.title: "Offer for [gutnish_province.GetNameWithNoTooltip]"

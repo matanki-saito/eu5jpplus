@@ -25,7 +25,7 @@
  conquest_mission_events.4.desc: "The flames of war have spread uncontrollably, leaving devastation in their wake. The once-thriving province of [target_loot_province.GetName] has borne the brunt of the conflict, with marauding soldiers and desperate deserters looting settlements, pillaging farms, and leaving the countryside in ruins.\n\nReports of burning villages, starving peasants, and the collapse of local trade have reached the [ROOT.GetCountry.GetGovernment.GetCourtTitle], painting a grim picture of the human cost of war. If swift action is not taken, the lasting damage from our looting could cripple the province's prosperity for years to come."
  conquest_mission_events.4.a: "All is fair in war."
  conquest_mission_events.4.b: "They are only looting a little!"
- conquest_mission_events.4.c: "We cannot allow such behaviors around [target_province.GetNameWithNoTooltip]!"
+ conquest_mission_events.4.c: "We cannot allow such behaviors around [target_loot_province.GetNameWithNoTooltip]!"
 
  conquest_mission_events.5.title: "The Ravages of War"
  conquest_mission_events.5.desc: "The ongoing conflict has taken its toll on us. As it drags on, reports of hardship and discontent are spreading like wildfire. Villages are emptied of their able-bodied men, taxes are higher than ever, and supplies are running ever thinner.\n\nThe common folk are growing weary of the endless bloodshed and sacrifices dictated by [target_character.GetName]. From the bustling cities to the quiet countryside, the people's spirit is faltering, and the whispers of dissent grow louder. If left unaddressed, this growing war exhaustion could threaten the stability of the [ROOT.GetCountry.GetFlavorRank]."

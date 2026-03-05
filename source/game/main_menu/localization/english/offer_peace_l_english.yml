@@ -58,7 +58,8 @@
  CORES_CATEGORY: "Core Treaties"
  MISC_CATEGORY: "Other Treaties"
  BECOME_SUBJECT: "Become Subject"
- PEACE_OFFER_DESC: "Send a peace offer to [TARGET_COUNTRY.GetName]. A [truce|e] will be in effect until $DATE|Y$."
+ PEACE_OFFER_DESC: "Send a peace offer to [TARGET_COUNTRY.GetName]."
+ PEACE_OFFER_WITH_DATE_DESC: "Send a peace offer to [TARGET_COUNTRY.GetName]. A [truce|e] will be in effect until $DATE|Y$."
  PEACE_OFFER_DANGER_WARNINGS: "#R This peace offer has dangerous effects:#!"
  PEACE_OFFER_GAME_OVER_TITLE: "Game Over"
  PEACE_OFFER_GAME_OVER_INFO: "This peace offer will cause Game Over."
@@ -123,6 +124,11 @@
  stop_pirating_me_entry: "Subjugate Natives in [target.GetName]"
  stop_pirating_me_entry_short: "Subjugate Natives in [target.GetNameWithNoTooltip]"
  
+ steal_maps_treaty: "Take Maps"
+ steal_maps_treaty_entry: "Take Maps of [target.GetName]"
+ steal_maps_treaty_entry_short: "Take Maps of [target.GetNameWithNoTooltip]"
+ steal_maps_treaty_desc: "We shall take their knowledge of far away lands to use for our own gain."
+
  steal_pops: "Kidnap Pops"
  steal_pops_entry: "Take Pops from [target.GetName]"
  steal_pops_entry_short: "Take Pops from [target.GetNameWithNoTooltip]"
@@ -130,6 +136,8 @@
  sound_toll_exemption: "Demand Sound Toll Exemption"
  sound_toll_exemption_entry: "Exemption from [sound_tolls|e] in [TARGET_COUNTRY.GetNameWithFlag]"
  sound_toll_exemption_entry_short: "Exemption from [sound_tolls|e] in [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ SOUND_TOLL_EXEMPTION_NO_MERCHANTS: "No relevant sound toll"
+ SOUND_TOLL_EXEMPTION_COALITION: "Coalition war"
  
  cancel_debt: "Cancel Debt"
  cancel_debt_entry: "[TARGET_COUNTRY.GetNameWithFlag] will cancel our [debt|e]"
@@ -139,7 +147,7 @@
  peace_take_shogunate_entry: "Take the Shogunate from [TARGET_COUNTRY.GetNameWithFlag]"
  peace_take_shogunate_entry_short: "Take the Shogunate from [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
  
- peace_gain_clan_autonomy: "Reform into a $daimyo$"
+ peace_gain_clan_autonomy: "Gain Clan Autonomy"
  peace_gain_clan_autonomy_entry: "$peace_gain_clan_autonomy$"
  peace_gain_clan_autonomy_entry_short: "$peace_gain_clan_autonomy$"
  
@@ -164,6 +172,26 @@
  high_kingship_overthrow: "Overthrow High King"
  high_kingship_overthrow_entry: "$high_kingship_overthrow$"
  high_kingship_overthrow_entry_short: "$high_kingship_overthrow$"
+
+ hegemon_demand_force_embargo: "$force_embargo$"
+ hegemon_demand_force_embargo_entry: "$force_embargo$ for [TARGET_COUNTRY.GetNameWithFlag]"
+ hegemon_demand_force_embargo_entry_short: "$force_embargo$ for [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ hegemon_demand_force_embargo_desc: "We will enforce our demands as the Hegemon through military means."
+
+ hegemon_demand_violate_sovereignty: "$violate_sovereignty$"
+ hegemon_demand_violate_sovereignty_entry: "$violate_sovereignty$ of [TARGET_COUNTRY.GetNameWithFlag]"
+ hegemon_demand_violate_sovereignty_entry_short: "$violate_sovereignty$ of [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ hegemon_demand_violate_sovereignty_desc: "We will enforce our demands as the Hegemon through military means."
+
+ hegemon_demand_force_change_court_language: "$force_change_court_language$"
+ hegemon_demand_force_change_court_language_entry: "$force_change_court_language$ of [TARGET_COUNTRY.GetNameWithFlag]"
+ hegemon_demand_force_change_court_language_entry_short: "$force_change_court_language$ of [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ hegemon_demand_force_change_court_language_desc: "We will enforce our demands as the Hegemon through military means."
+
+ hegemon_demand_force_divert_trade: "$force_divert_trade$"
+ hegemon_demand_force_divert_trade_entry: "$force_divert_trade$ of [TARGET_COUNTRY.GetNameWithFlag]"
+ hegemon_demand_force_divert_trade_entry_short: "$force_divert_trade$ of [TARGET_COUNTRY.GetNameWithFlagWithNoTooltip]"
+ hegemon_demand_force_divert_trade_desc: "We will enforce our demands as the Hegemon through military means."
  
  peace_claim_confederation_leadership: "Claim Confederation Leadership"
  peace_claim_confederation_leadership_entry: "$peace_claim_confederation_leadership$"
@@ -315,6 +343,7 @@
  force_revolution: "Force Revolution"
  force_revolution_entry: "Give power to the people in [TARGET_COUNTRY.GetNameWithFlag]"
  force_revolution_entry_short: "$force_revolution_entry$"
+ relative_mil_strength_tt: "[military_strength|e] of [loser.GetName] compared to us"
 
  crush_the_revolution_cb: "Crush the Revolution" 
  crush_the_revolution_cb_desc: "We cannot allow a torrent of despicable ideas to spread across our borders, lest we risk losing our crown as well."
@@ -408,7 +437,7 @@
  peace_expand_clan_influence_desc: "Our clan shall rise higher still, claiming new rights and lands at the expense of those who opposed us."
  peace_force_renounce_ilkhan_claim_desc: "Our foes shall abandon all pretense of [GetUniqueInternationalOrganization('ilkhanate').GetName] rule, renouncing the legacy they falsely claimed as their own."
  force_revolution_desc: "The old order shall be swept away. By this treaty we shall force them to embrace the fires of revolution."
- peace_gain_clan_autonomy_desc: "Our clan shall walk more freely, their authority recognized and protected by this treaty."
+ peace_gain_clan_autonomy_desc: "We will establish ourselves as an independent domain, no longer will our territory be ruled by other clans."
  high_kingship_overthrow_desc: "The leadership of the [GetInternationalOrganizationType('high_kingship').GetName] must shift. No longer shall they claim dominion over the isle!"
  supress_hussite_faith_desc: "The heresy shall be put to the sword. By this treaty, we compel them to root out the [ShowReligionAdjective('hussite')] faith wherever it lingers."
  league_of_public_weal_appanage_victory_desc: "The princes shall have their victory, forcing the crown to bow and yield its power."
@@ -424,6 +453,3 @@
  subjugate_natives_desc: "The natives shall bend the knee and accept our dominion, and their lands shall become ours by right."
  peace_take_over_market_center_desc: "The beating heart of their economy shall be ours, seized for the glory and profit of our country."
  peace_take_shogunate_desc: "Leadership within the [GetUniqueInternationalOrganization('japanese_shogunate').GetName] will pass into our hands. This will herald a new age as the destiny of [ShowRegionName('japan_region')] will henceforth be shaped by our rule."
-
-
- 

@@ -7,7 +7,7 @@
  ibn_battuta_events.1.c: "[target_character.GetHerHis]がその旅路で目にするのは[target_location_3.GetNameWithNoTooltip]の港だ。"
  ibn_battuta_events.1.d: "[target_character.GetHerHim]の心の赴くままにさせよう。"
  ibn_battuta_events.1.historical_info: "イブン・バットゥータは、14世紀初頭にタンジールで生まれたモロッコの旅行者、学者。若くして故郷を離れてメッカへの巡礼の旅に出たが、それはやがて既知の世界の大部分に及ぶものとなった。30年にもわたる旅路のなかで、彼はアフリカ、中東、ペルシア、インド、中央アジア、さらには中国の一部にまで足を延ばした。その旅のさなか、彼はいくつかのムスリム宮廷で法の専門家や裁判官としての地位に就いたこともある。彼の旅の詳細な記録（『リフラ』の通称で知られる）には、当時のさまざまな文化や社会について貴重かつ豊かな見解が記されている。"
- ibn_battuta_will_islamic_texts_in_pasai_tt: "[target_character.GetLastName]は[target_location_1.GetName]にいるあいだ、[ShowReligionGroupAdjective('muslim')]の書物から学ぶ。その後、[target_character.GetHerHis]が立ち寄った土地は[piety|e]ボーナスを得る"
+ ibn_battuta_will_islamic_texts_in_pasai_tt: "[target_character.GetLastName]は[target_location_1.GetName]にいるあいだ、[ShowReligionGroupAdjective('muslim')]の書物から学ぶ。その後、[target_character.GetHerHis]が立ち寄った土地は[ShowSocietyDirectionName('jurisprudence')]ボーナスを得る"
  when_ibn_battuta_drafts_rihla_he_will_remember_sumatra_tt: "$survive_string$[target_location_1.GetArea.GetName]について知る"
  ibn_battuta_will_admire_and_study_the_architecture_of_angkor_tt: "[target_character.GetLastName]は[target_location_2.GetName]にいるあいだ、[target_location_2.GetRank.GetName]の壮大な建築物に感嘆する。その後、[target_character.GetHerHis]が立ち寄った土地は[building|e]ボーナスを得る"
  when_ibn_battuta_drafts_rihla_he_will_remember_lower_mekong_tt: "$survive_string$[target_location_2.GetArea.GetName]について知る"

@@ -46,7 +46,7 @@
  flavor_hol.9.title: "フリュート船"
  flavor_hol.9.desc: "[ROOT.GetCountry.GetCulture.GetName]経済の拡大は、商船に大きな需要をもたらしている。だが、[ROOT.GetCountry.GetCulture.GetNameWithNoTooltip]の海域は非常に浅いため、キャラベル船のような一般的な商船は[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の多くの港に近づくことができない。これまでのところ、小型の船を用いることでこの問題に対処してきたが、[ShowLocationName('hoorn')]の商人である[target_character.GetName]の支援のもとで、新しい船が開発された。\nこのフリュート船は、より長い、非常に特徴的な洋梨型の船尾を持ち、少人数の乗組員で効率よく操船できるように造られている。水深の浅いオランダ海域でも大きな貨物を運ぶことができ、外洋での航行にも優れることから、この船はわが国の商人にとって天の恵みともいえるだろう。"
  flavor_hol.9.a: "間違いなく名案だ！"
- flavor_hol.9.b: "わが国の造船産業は、まだこの船に対応できない。"
+ flavor_hol.9.b: "面白い案だが、いまはその時ではない。時間を置いても構わないだろうか？"
  flavor_hol.9.c: "わが国の造船産業は、まだこの船に対応できない。"
  flavor_hol.10.title: "[target_character.GetNameWithNoTooltip]"
  flavor_hol.10.desc: "一般的にはエラスムスの名で知られる[target_character.GetName]は、人文主義者にして有望な学者である。[target_character.GetHisHer|U]の世界観や哲学は、その寛容さで[ShowContinentName('europe')]では広く知られている。さらに中道的な立場から、神学における[target_character.GetHisHer]の影響力は、正当性よりも自由を重んじる人々の標となっている。"

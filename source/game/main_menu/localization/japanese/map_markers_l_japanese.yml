@@ -43,7 +43,7 @@
  UNIT_HAS_ARMIES_DISEMBARKING: "#R この[navy|e]は[armies|e]を[disembarking|e]させているため、いまは移動できない。#!"
  PORT_TOOLTIP: ""
  PORT_TOOLTIP_NEW: "[PortMarker.GetLocation.GetNameWithNoTooltip]の港"
- PORT_TOOLTIP_TEXT: "[PortMarker.GetShipsInfo]"
+ PORT_TOOLTIP_TEXT: "この[port|e]は[seazone|e]「[PortMarker.GetPortSeaZone.GetName]」に位置している。\n\n[PortMarker.GetShipsInfo]"
  NO_SHIPS_IN_PORT: "現在、港に[ships|e]はない。"
  OCCUPATION_X_DAYS_LEFT: "残り$VAL|Y$日"
  OCCUPATION_X_DAYS_LEFT_SHORT: "$VAL|Y$日"

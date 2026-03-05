@@ -126,7 +126,7 @@
  flavor_geo.27.b: "成り上がりの小貴族の助言など必要ない。"
  flavor_geo.27.historical_info: "オスマン帝国やサファヴィー朝の侵略からグルジアを防衛したことで有名なギオルギ・サアカゼは、17世紀初頭に活躍したグルジアの著名な軍事指導者。名家の出身で、当初はカルトリ王国の司令官を務めていたサアカゼは、特に1625年のツィツァムリの戦いでサファヴィー朝に決定的な勝利を収め、その卓越した戦略が広く知られるようになった。彼の経歴は、軍事的勝利とグルジア王室との対立を含む政治的混乱の両方で彩られている。"
  flavor_geo.28.title: "[target_character2.GetNameWithNoTooltip]"
- flavor_geo.28.desc: "わが国の貴族のなかでも下等な生まれである[target_character2.GetName]は、幼いころから旺盛な好奇心と聡明さを示してきた。生まれ故郷である[target_location.GetName]の[target_location.GetRank.GetName]で幼少期を過ごした[target_character2.GetSheHe]は、いつも家中の書物を読み漁っていた。その後、[ROOT.GetCountry.GetGovernment.GetCourtTitle]で暮らすようになると、[target_character2.GetNameWithNoTooltip]は[ROOT.GetCountry.GetGovernment.GetAdjective]図書館のあらゆる知識を吸収した。若くしてすでに文才を発揮しており、その作品には将来有望なものがいくつもある。成長すれば、[target_character2.GetSheHe]は最高の作家の仲間入りをするに違いない。"
+ flavor_geo.28.desc: "わが国の貴族のなかでも下等な生まれである[target_character2.GetName]は、幼いころから旺盛な好奇心と聡明さを示してきた。生まれ故郷である[target_location.GetName]の[target_location.GetRank.GetName]で幼少期を過ごした[target_character2.GetSheHe]は、いつも家中の書物を読み漁っていた。その後、[ROOT.GetCountry.GetGovernment.GetCourtTitle]で暮らすようになると、[target_character2.GetNameWithNoTooltip]は[ROOT.GetCountry.GetGovernment.GetAdjective]の図書館のあらゆる知識を吸収した。若くしてすでに文才を発揮しており、その作品には将来有望なものがいくつもある。成長すれば、[target_character2.GetSheHe]は最高の作家の仲間入りをするに違いない。"
  flavor_geo.28.a: "[target_character2.GetHerHim]を[ROOT.GetCountry.GetGovernment.GetCourtTitle]から遠ざけないように。"
  flavor_geo.28.b: "田舎者め。[target_character2.GetHerHim]は故郷に帰せ。"
  flavor_geo.28.historical_info: "グルジアの著名な学者、外交官、作家であるスルハン＝サバ・オルベリアニは、グルジア文学と教育への貢献で広く知られる。有力なオルベリアニ家の一員だった彼は、作品『#italic The Life of Saba#!（サバの生涯）』と、イソップ寓話などの古典のグルジア語翻訳で最もよく知られており、これらはグルジアの文学的土壌を豊かなものにした。教育と外交における彼の尽力は、政情不安と外的脅威の時代においてグルジア文化を促進・保存するうえで極めて重要な役割を果たした。オベルリアニの影響は、グルジアの知的、文化的復興を促した役割により、記憶に刻まれている。"

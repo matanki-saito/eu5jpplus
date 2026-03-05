@@ -135,6 +135,7 @@
  hre_has_not_direct_free_city_subjects_tt: "[free_cities|e] are NOT [ShowSubjectTypeName('direct_imperial_free_city')] [subjects|e] of the [hre_emperor|e]"
 
  hre_country_fulfills_imperial_religion_requirement_tt: "The [religion|e] of the country aligns with the [imperial_religion|e]"
+ hre_character_fulfills_imperial_religion_requirement_tt: "The [religion|e] of the character aligns with the [imperial_religion|e]"
  hre_is_perpetual_diet_location_tt: "Is home to the #Y Perpetual Diet#!"
 
  #Celestial Authority 
@@ -798,6 +799,20 @@
  PAST_WE_LOCK_RESOLUTION_EFFECT: "We locked the [RESOLUTION.GetName] [resolution|e]"
  PAST_THIRD_LOCK_RESOLUTION_EFFECT: "[INTERNATIONAL_ORGANIZATION.GetName] locked the [RESOLUTION.GetName] [resolution|e]"
 
+ LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across in the [capital|e] [region|e] will convert from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+ FIRST_LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across our [locations|e] in the [COUNTRY.GetCapital.GetRegion.GetName] [region|e] will convert from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+ THIRD_LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across the [locations|e] of [COUNTRY.GetName] in the [COUNTRY.GetCapital.GetRegion.GetName] [region|e] will convert from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+ PAST_LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across in the [capital|e] [region|e] have converted from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+ PAST_FIRST_LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across our [locations|e] in the [COUNTRY.GetCapital.GetRegion.GetName] [region|e] have converted from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+ PAST_THIRD_LOTS_OF_RELIGION_EFFECT: "Many [pops|e] across the [locations|e] of [COUNTRY.GetName] in the [COUNTRY.GetCapital.GetRegion.GetName] [region|e] have converted from [RELIGION.GetName] to [TARGET_RELIGION.GetName]"
+
+ UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither an [ally|e] nor a [subject|e] of Country will worsen their [opinion|e] of them"
+ FIRST_UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither our [ally|e] nor our [subject|e] will worsen their [opinion|e] of us"
+ THIRD_UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither an [ally|e] nor a [subject|e] of [COUNTRY.GetName] will worsen their [opinion|e] of them"
+ PAST_UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither an [ally|e] nor a [subject|e] of Country has worsened their [opinion|e] of them"
+ PAST_FIRST_UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither our [ally|e] nor our [subject|e] has worsened their [opinion|e] of us"
+ PAST_THIRD_UPSET_COUNTRIES_OF_RELIGION_EFFECT: "Every [country|e] in [TARGET_RELIGION.GetName] which is neither an [ally|e] nor a [subject|e] of [COUNTRY.GetName] has worsened their [opinion|e] of them"
+
  UNLOCK_GLOBAL_LAW_EFFECT: "Unlock the [LAW.GetName] [law|e] #Y globally#!"
  WE_UNLOCK_GLOBAL_LAW_EFFECT: "We unlock the [LAW.GetName] [law|e] #Y globally#!"
  THIRD_UNLOCK_GLOBAL_LAW_EFFECT: "[COUNTRY.GetName] unlocks the [LAW.GetName] [law|e] #Y globally#!"
@@ -899,13 +914,6 @@
  PAST_APPLY_SOCIETAL_VALUE_PUSH_MODIFIERS_EFFECT: "Has gained [modifiers|e] which push their [societal_values|e] to be more akin with the ones of [TARGET_COUNTRY.GetName] for $VALUE|0Y$ years"
  PAST_FIRST_APPLY_SOCIETAL_VALUE_PUSH_MODIFIERS_EFFECT: "We have gained [modifiers|e] which push our [societal_values|e] to be more akin with the ones of [TARGET_COUNTRY.GetName] for $VALUE|0Y$ years"
  PAST_THIRD_APPLY_SOCIETAL_VALUE_PUSH_MODIFIERS_EFFECT: "[COUNTRY.GetName] has gained [modifiers|e] which push their [societal_values|e] to be more akin with the ones of [TARGET_COUNTRY.GetName] for $VALUE|0Y$ years"
-
- HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "Sets the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
- FIRST_HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "The [international_organization|e] sets the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
- THIRD_HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "[INTERNATIONAL_ORGANIZATION.GetName] sets the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
- PAST_HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "Set the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
- PAST_FIRST_HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "The [international_organization|e] set the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
- PAST_THIRD_HRE_ON_REFORM_LEVEL_PASSED_EFFECT: "[INTERNATIONAL_ORGANIZATION.GetName] set the [hre_law_level|e] of [TARGET_LAW.GetName] to $VALUE|Y0$"
 
  MOVE_BUILDING: "The [BUILDING_TYPE.GetName] [building|e] moves to [LOCATION.GetName] from [TARGET_LOCATION.GetName]"
  PAST_MOVE_BUILDING: "The [BUILDING_TYPE.GetName] [building|e] moved to [LOCATION.GetName] from [TARGET_LOCATION.GetName]"

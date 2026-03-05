@@ -374,7 +374,7 @@
  flavor_tur.59.historical_info: "Bashi Bazouks were drawn from minority groups, chiefly Albanians and Circassians, and given no pay - instead, the expectation of plunder was what motivated them. This meant that they were very affordable for the Ottoman state, but they soon became infamous for preying on civilians. The word Bashi Bazouk eventually became synonymous with \"bandit\" in many languages."
 
  flavor_tur.60.title: "The Interior Service"
- flavor_tur.60.desc: "Skilled eunuch slaves have long played a limited role in our government, but there is great potential in these castrated men, without ambitions of family and temporal power. As is there in several talented young slave-boys at court. We could tie such capable courtiers closer to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty, by giving them formal roles in our household, at the expense of the old sycophant [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] who used to vie for such positions." 
+ flavor_tur.60.desc: "Skilled eunuch slaves have long played a limited role in our government, but there is great potential in these castrated men, without ambitions of family and temporal power. As there are several talented young slave-boys at court, we could tie such capable courtiers closer to the [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty by giving them formal roles in our household, at the expense of the sycophantic old [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] who used to vie for such positions."
  flavor_tur.60.a: "A court reform is long overdue."
  flavor_tur.60.b: "No, we must continue to rely on the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]."
  flavor_tur.60.historical_info: "#italic Enderûn#!, from a Persian word for #italic inside#!, designated the courtiers closest to the Ottoman sultan. They were contrasted with the #italic Birûn#!, the exterior service, which was the bureaucracy of the empire. The ranks of the Enderûn were chiefly made up of eunuchs and young Christian slaves, whose tasks focused on attending and educating the imperial family, but over time, some of them aquired great political power."
@@ -385,8 +385,8 @@
  flavor_tur.61.b: "Our court is strange enough as it is..."
  flavor_tur.61.historical_info: "The Interior Service featured many unusual characters, and was notable for its employment of Dilsiz, deaf-mutes. It was considered that they could be entrusted with secrets and especially sensitive missions, and accordingly, they often acted as guards, attendants, messengers - and sometimes executioners. Though mute, many of them were literate and used their own sign language."
 
-  flavor_tur.62.title: "The Hidden Language"
- flavor_tur.62.desc: "The deaf-mutes at court have put their clever minds together, and developed a new sign language that allows them to communicate very well, and silently, with each other. Now they propose that [target_ruler.GetName] should practice this language, too, since it would allow for very secret and intimate exchanges of information, whenever [target_ruler.GetHerHis] highness so wishes."
+ flavor_tur.62.title: "The Hidden Language"
+ flavor_tur.62.desc: "The deaf-mutes at court have put their clever minds together and developed a new sign language that allows them to communicate very well — and silently — with each other. Now they propose that [target_ruler.GetName] should also practice this language, since it would allow for very secret and intimate exchanges of information whenever [target_ruler.GetHerHis] highness so wishes."
  flavor_tur.62.a: "Let [target_ruler.GetHerHim] begin to practice."
  flavor_tur.62.b: "Better to focus on martial pursuits."
  flavor_tur.62.tt: "This will give benefits in a few months."

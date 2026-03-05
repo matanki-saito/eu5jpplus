@@ -6,12 +6,16 @@
  DEFENDERS_CATHOLICISM: "Defensive [alliance|e] against $BOH$"
  DEFENDERS_HUSSITISM: "Defensive [alliance|e] against $PAP$"
  bohemia_and_pope_at_war_with_both_being_leaders_tt: "[GetCountry('BOH').GetName] and [GetCountry('PAP').GetName] are at war with each other and each [country|e] is the [war_leader|e] of their respective side"
+ HERETICS_KILLED: "Tribunal Deaths"
+ HERETICS_CONVERTED: "Tribunal Conversions"
+ loc_key_desc_tribunal: "During the [ShowSituationName('hussite_wars')] [situation|e], enemies of [ShowReligionName('hussite')] gain access to the unique [unit|e] [action|e] [ShowUnitAbilityName('hussite_tribunal')] on [locations|e] controlled by a [ShowReligionAdjective('catholic')] [enemy|e]. This action will [convert|e] some [ShowReligionAdjectiveWithNoTooltip('hussite')] [pops|e] while putting others to the sword."
 
  hussite_wars.1.title: "[jan_zelivsky_scope.GetNameWithNoTooltip]'s Congregation"
  HUSSITE_WARS_SIDE_BOHEMIA: "The [THIS.GetLocation.GetOwner.GetLongName|Y] is supporting the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
  HUSSITE_WARS_SIDE_POPE: "The [THIS.GetLocation.GetOwner.GetLongName|Y] opposes the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
  pope_hw_tt: "This is the [GetCountry('PAP').GetGovernment.GetRulerTitle], hellbent on destroying [ShowReligionName('hussite')]!"
  boh_hw_tt: "This is the [GetCountry('BOH').GetLongName], defenders of [ShowReligionName('hussite')]!"
+ recent_tribunal_tt: "A [ShowUnitAbilityName('hussite_tribunal')] was held here in the last #Y 5#! years"
 
  convert_heretics_hw_action: "Force Conversions"
  convert_heretics_hw_action_desc: "The external pressure upon us from heretic foes cannot go unanswered! We must defend our [ShowReligionAdjective('hussite')] traditions and faith by enforcing strict discipline and practices across our [actor.GetFlavorRank]."
@@ -61,14 +65,15 @@
 #########
 
 
- hussite_wars.1.desc: "Angered crowds led by [jan_zelivsky_scope.GetName] have flooded the streets of [target_boh_capital_scope.GetName], petitioning for expanded rights and the absolution of several [ShowReligionAdjective('hussite')] prisoners by the city's council. Unfortunately, the judge and his entourage have declined the demands of the protesters, leading to erupting violence in a vicious cycle of reforms being stalled and mob uprisings. Perhaps it is time we break the cycle..."
+ hussite_wars.1.desc.generic: "Angered crowds led by [jan_zelivsky_scope.GetName] have flooded the streets of [target_boh_capital_scope.GetName], petitioning for expanded rights and the absolution of several [ShowReligionAdjective('hussite')] prisoners by the city's council."
+ hussite_wars.1.desc: "$hussite_wars.1.desc.generic$ Unfortunately, the judge and his entourage have declined the demands of the protesters, leading to erupting violence in a vicious cycle of reforms being stalled and mob uprisings. Perhaps it is time we break the cycle..."
+ hussite_wars.1.desc.other_heresy: "$hussite_wars.1.desc.generic$ The mostly [ROOT.GetCountry.GetReligion.GetAdjective] council is more than sympathetic towards their [ShowReligionAdjectiveWithNoTooltip('hussite')] brethren, but [ShowReligionAdjective('catholic')] agents try to undermine to sabotage their cause. No matter if we decide to stay loyal to our faith, or support [ShowReligionNameWithNoTooltip('hussite')], one thing is for sure: the [ShowReligionAdjectiveWithNoTooltip('catholic')] world will perceive us as a heretic threat which needs to be destroyed..."
  hussite_wars.1.a: "Death to the [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]!"
  hussite_wars.1.b: "We cannot afford to break [ShowReligionNameWithNoTooltip('catholic')]..."
  hussite_wars.1.c: "It is time we take up the sword against the traitors in our midst!"
  end_hussite_wars_situation_tt: "This will prevent the [ShowSituationName('hussite_wars')] [situation|e]"
- catholics_upset_tt: "Relations between us and countries that follow the [ShowReligionAdjective('catholic')] faith will worsen severely"
  pap_gets_hussite_wars.2_tt: "The event '#Y Hussite Protests in [target_boh_capital_scope.GetNameWithNoTooltip]#!' happens for the [target_pope_country.GetName]"
- boh_every_neighboring_country_tt: "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] [opinion|e] towards us"
+ boh_every_neighboring_country_tt: "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|+=0] [opinion|e] towards us"
  hussite_rebellion_tooltip: "Every [pop|e] that follows [ShowReligionName('hussite')] will muster their strength and support the [hussite_rebel_scope.GetName]"
  
  hussite_wars.2.title: "[ShowReligionAdjectiveWithNoTooltip('hussite')] Protests in [target_boh_capital_scope.GetNameWithNoTooltip]"

@@ -163,6 +163,6 @@
  flavor_maj.29.a: "[ROOT.GetCountry.GetNameWithNoTooltip] is truly the center of the world."
  flavor_maj.29.b: "And we must strive to export it to our subjects!"
 
- MAJ_we_will_play_as_malacca: "We will continue playing as [ShowFormableCountryName('MLC_f')]."
+ MAJ_we_will_play_as_malacca: "We will abandon playing as [ROOT.GetCountry.GetName] and will continue playing as newly released [ShowFormableCountryName('MLC_f')]."
 
  demak_progress_at_least_20: "Sunni Dominance is at least #r 20.0%#!"

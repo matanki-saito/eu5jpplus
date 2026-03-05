@@ -80,7 +80,7 @@
  flavor_eth.100.a: "修道会を我らの管理下に置こう。"
  flavor_eth.100.b: "修道会の特権を守れ。"
  flavor_eth.110.title: "総主教庁からの独立"
- flavor_eth.110.desc: "[ROOT.GetCountry.GetAdjective]教会の[ShowLocationName('alexandria')]総主教庁への依存は、わが国にとってつねに重荷となってきた。かつては、外国からの司教、聖職者、精神的指導に対する実際的な必要性があったのだろうが、過去数世紀にわたる[ROOT.GetFlavorRank]教会の拡大は、わが[ShowCountryRankName('ETH')]がすでに[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]の訓練を十分に果たし、国全土に教会や修道院という強力な宗教的インフラを整備できていることを意味している。\n\nアレクサンドリア総主教庁は[ShowReligionName('muslim')]の征服者の人質となっており、司教が亡くなってから次の司教が任命されるまで長いこと待たなければならない状態だ。我々の宗教指導者をわが国の[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]から任命するほうが、はるかに効率的だろう。"
+ flavor_eth.110.desc: "[ROOT.GetCountry.GetAdjective]教会の[ShowLocationName('alexandria')]総主教庁への依存は、わが国にとってつねに重荷となってきた。かつては、外国からの司教、聖職者、精神的指導に対する実際的な必要性があったのだろうが、過去数世紀にわたる[ROOT.GetCountry.GetAdjectiveWithNoTooltip]教会の拡大は、わが[ROOT.GetCountry.GetFlavorRank]がすでに[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]の訓練を十分に果たし、国全土に教会や修道院という強力な宗教的インフラを整備できていることを意味している。\n\nアレクサンドリア総主教庁は[ShowReligionGroupAdjective('muslim')]の征服者の人質となっており、司教が亡くなってから次の司教が任命されるまで長いこと待たなければならない状態だ。我々の宗教指導者をわが国の[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]から任命するほうが、はるかに効率的だろう。"
  flavor_eth.110.a: "総主教庁を蔑ろにはできない。"
  flavor_eth.110.b: "我らが教会は、外国の影響から解放されるべきだ。"
  flavor_eth.120.title: "ケブラ・ナガスト"

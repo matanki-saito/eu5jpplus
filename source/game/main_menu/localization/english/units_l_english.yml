@@ -1,4 +1,12 @@
 ﻿l_english:
+
+ balanced_army: "Balanced Army"
+ balanced_army_desc: "This will setup a balanced army with similar types in [regiments|e] in both the [center|e] and the [flanks|e]."
+ cav_inf_cav: "Cavalry on Flanks"
+ cav_inf_cav_desc: "This will put [ShowUnitCategoryName('army_cavalry')] on the [flanks|e] with [ShowUnitCategoryName('army_infantry')] in the [center|e]."
+ balanced_navy: "Balanced Navy"
+ balanced_navy_desc: "This will setup a balanced navy with similar types in [ships|e] in both the [center|e] and the [flanks|e]."
+
  # Regiment
  subunit_structure_army_roman: "$TYPE$ $ROMAN$"
  subunit_structure_army_roman_nickname: "$TYPE$ $ROMAN$ $NICKNAME$"
@@ -77,6 +85,11 @@
  subunit_type_army_infantry_levies_breton: "Luioù"
  subunit_type_army_infantry_levies_welsh: "Lluoedd"
  subunit_type_army_infantry_levies_polish: "Pospolite Ruszenie"
+ subunit_type_army_infantry_levies_finnish: "Leviitit"
+ subunit_type_army_infantry_levies_icelandic: "Kallsmenn"
+ subunit_type_army_infantry_levies_danish: "Uppbud"
+ subunit_type_army_infantry_levies_swedish: "Uppbåd"
+ subunit_type_army_infantry_levies_norwegian: "Utbud"
  subunit_type_army_infantry_levies_french: "Levées"
  subunit_type_army_infantry_levies_spanish: "Levas"
  subunit_type_army_infantry_levies_english: "Levies"
@@ -104,6 +117,8 @@
  subunit_type_army_infantry_czech: "Pěchota"
  subunit_type_army_infantry_polish: "Piechota"
  subunit_type_army_infantry_dutch: "Infanterie"
+ subunit_type_army_infantry_swedish: "Infanteri"
+ subunit_type_army_infantry_icelandic: "Infanterí"
  subunit_type_army_infantry_frisian: "Ynfantery"
  subunit_type_army_infantry_low_german: "Infantrie"
  subunit_type_army_infantry_high_german: "Infanterie"
@@ -128,6 +143,9 @@
  subunit_type_army_cavalry_knights_german: "Ritter"
  subunit_type_army_cavalry_knights_scottish_gaelic: "Ridirean"
  subunit_type_army_cavalry_knights_irish: "Ridirí"
+ subunit_type_army_cavalry_knights_finnish: "Ritarit"
+ subunit_type_army_cavalry_knights_icelandic: "Riddarar"
+ subunit_type_army_cavalry_knights_danish: "Riddere"
  subunit_type_army_cavalry_knights_swedish: "Riddare"
  subunit_type_army_cavalry_knights_czech: "Rytíři"
  subunit_type_army_cavalry_knights_polish: "Rycerze"
@@ -163,6 +181,9 @@
  subunit_type_army_cavalry_czech: "Kavalerie"
  subunit_type_army_cavalry_russian: "Kavaleriyskiy"
  subunit_type_army_cavalry_ukrainian: "Kavaleriya"
+ subunit_type_army_cavalry_finnish: "Kavalleria"
+ subunit_type_army_cavalry_norwegian: "Kavaleri"
+ subunit_type_army_cavalry_swedish: "Kavalleri"
  subunit_type_army_cavalry_dutch: "Cavalerie"
  subunit_type_army_cavalry_frisian: "Kavallerij"
  subunit_type_army_cavalry_german: "Kavallerie"
@@ -197,6 +218,8 @@
  subunit_type_army_artillery_polish: "Artyleria"
  subunit_type_army_artillery_russian: "Artilleriyskiy"
  subunit_type_army_artillery_ukrainian: "Artyleriya"
+ subunit_type_army_artillery_icelandic: "Artillerí"
+ subunit_type_army_artillery_swedish: "Artilleri"
  subunit_type_army_artillery_dutch: "Artillerie"
  subunit_type_army_artillery_frisian: "Artillerij"
  subunit_type_army_artillery_low_german: "Artillerie"
@@ -631,7 +654,7 @@
  a_feudal_levy_desc: "A $a_feudal_levy$ is formed by peasants that are drafted in times of war as part of their duty towards their feudal lord, and have some military training. These levies are to eventually be replaced by professional armies."
  a_camp_followers: "Camp Followers"
  a_camp_followers_desc: "A motley crew of merchants and families of the soldiery, $a_camp_followers$ provide informal services to warbands on the march."
- a_houfnice_desc: "It is believed modern howitzers have their name from the Houfnice artillery developed by the Hussites in the 15th century. These short-barreled guns were mounted on wagons and used on the field of battle to fireballs and canisters in support of the infantry."
+ a_houfnice_desc: "It is believed modern howitzers have their name from the Houfnice artillery developed by the Hussites in the 15th century. These short-barreled guns were mounted on wagons and used on the field of battle to fire balls and canisters in support of the infantry."
  a_serbian_hussars: "Serbian Hussars"
  a_serbian_hussars_desc: "The Hussars are a light cavalry unit whose origin can be traced back to bands of mounted Serb warriors. Their light armor and fast horses allow them to outmaneuver any other regiment, opening the door to the development of innovative strategies."
 
@@ -661,6 +684,7 @@
  
  a_wagenburg: "Wagenburg"
  a_wagenburg_desc: "$wagenburg_desc$"
+ EFFECTIVE_ARMORY_BUILDINGS: "Effective [ShowBuildingTypeName('armory')] Buildings"
  a_genoese_crossbowmen: "Genoese Crossbowmen"
  a_genoese_crossbowmen_desc: "$a_genoese_crossbowmen$ are a respected military unit that was used by the Genoese during the First Crusade up until now. Equipped with Genoese crossbows and the pavise, these infantrymen serve as the protection of their home as well as mercenaries in Europe."
  a_footmen_desc: "The backbone of every army, footmen comprise the majority of our marching troops, eager to sustain a frontline and defend our home from prospecting invaders."
@@ -986,6 +1010,7 @@
 
  REINF_REGULARS: "@trigger_no!Can not reinforce [levies|e] or [mercenaries|e]."
  UARAR_RETREATING: "@trigger_no![UNIT.GetNameWithNoTooltip] is [retreating|e]!"
+ UARAR_COMBAT: "@trigger_no![UNIT.GetNameWithNoTooltip] is in [combat|e]!"
  UARAR_LOADED: "@trigger_no![UNIT.GetNameWithNoTooltip] is loaded on a [navy|e]!"
  UARAR_ATTRITION_LOSSES: "@trigger_no![UNIT.GetNameWithNoTooltip] is taking [attrition_losses|e]!"
  UARAR_MOTHBALLED: "@trigger_no![UNIT.GetNameWithNoTooltip] is [mothballed|e]!"
@@ -1008,7 +1033,17 @@
  REPAIR_REGIMENT_NO_ACCESS_ENTRY: "[SUBUNIT.GetName]: (no access)"
  REPAIR_NONE: "Nothing possible in [LOCATION.GetName]"
  
- 
+ CANNOT_CREATE_UNNAMED_UNIT_TEMPLATE: "@trigger_no! Cannot create a [unit_template|e] with no name."
+ CANNOT_CREATE_EMPTY_UNIT_TEMPLATE: "@trigger_no! Cannot create a [unit_template|e] with no units."
+ UNIT_TEMPLATE_DEFAULT_NAME: "UNIT TEMPLATE $NUM$"
+ CREATE_ARMY_TEMPLATE: "Create army template"
+ CREATE_NAVY_TEMPLATE: "Create navy template"
+ EDIT_ARMY_TEMPLATE: "Edit [UnitTemplateLateralView.GetUnitTemplate.GetNameWithNoTooltip]"
+ EDIT_NAVY_TEMPLATE: "Edit [UnitTemplateLateralView.GetUnitTemplate.GetNameWithNoTooltip]"
+ CREATE_UNIT_TEMPLATE: "Create unit template"
+ FINISH_EDIT_UNIT_TEMPLATE: "Edit unit template"
+ EDIT_UNIT_TEMPLATE: "Edit [UnitTemplate.GetNameWithNoTooltip]"
+ DELETE_UNIT_TEMPLATE: "Delete [UnitTemplate.GetNameWithNoTooltip]"
  SHOW_UNIT_TYPE: "Show unit type"
  TRANSPORTED: "Transported"
  STATIONED: "Stationed"
@@ -1021,7 +1056,6 @@
  GO_TO_UNIT_LOCATION: "Pan to unit's location"
  UNIT_LOCATION_STATUS: "[Unit.GetStatus] in [Location.GetNameWithNoTooltip|L]"
  
- REPAIR_AT_PORT: "At [port|e]: $VAL|G%$"
  UNIT_GOODS_ACCESS: "Access to [goods|e]: x$HOW|2$"
  REINFORCE_GOODS_BASE: "Base: $VAL|V2%$"
  REINFORCE_GOODS_ACCESS: "Full Access to [goods|e]: #V 100%#!"
@@ -1042,7 +1076,7 @@
  COMBATSIDE_MORALE_DEFENDER: "#T [COUNTRY.GetAdjectiveWithNoTooltip] Morale#!\n[COUNTRY.GetLongName] is the [defender|e] in this [battle|e]."
  MORALE_LAND_FLAVOR: "#F Only the [regiments|e] currently on the front line is considered. Those in reserve or those that have already fled is not taken into account.#!"
  MORALE_NAVAL_FLAVOR: "#F Only the [ships|e] currently on the front line is considered. Those in reserve or those that have already fled is not taken into account.#!"
- COMBATSIDE_MORALE_DATA: "The [COUNTRY.GetAdjective] [morale|e] of currently fighting units is $CURR|V2$ out of $MAX|V2$"
+ COMBATSIDE_MORALE_DATA: "The [COUNTRY.GetAdjective] [morale|e] of: \n• #G [engaged] units is: $CURR|2$#! \nWith a maximum of: $MAX|V2$"
  
  MORALE_SIEGE_TT: "#T Current Morale#!\nThe average [morale|e] of the besieger is $CURR|Y2$ of $MAX|2V$"
  MORALE_C_TT: "#T Current Morale#!\nThe average [morale|e] of this [section|e] is $CURR|Y2$ of $MAX|2V$"
@@ -1091,7 +1125,7 @@
  
  EXPERIENCE_TOOLTIP_STACK: "#T Experience#!\nThe average [experience|e] is $VALUE|V/%$ which reduces [damage_taken|e] in combat by #G -$FACTOR|2%$#!"
  XP_DECAY_HEAD: "#T Decay of Experience#!\nThe decay of $PERC|-=2%$ of the current [experience|e] of $CURR|Y%V2$ is due to"
- XP_DECAY_NUM: "Experience Decays: #TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|L%+=$#!"
+ XP_DECAY_NUM: "Experience Decays: #TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|L/%+=$#!"
  XP_DECAY_GOODS_ACCESS: "Goods Access: $NUM|Y2%$"
  UNIT_NAME: "#T $NAME$#!"
  REGIMENT_SIZE: "#Y $SIZE$#! men\n"
@@ -1340,6 +1374,7 @@
  CT_IMPACT_ON_LEVY_VS_REGULAR: "$VAL|+=%$ [levy|e] vs [regulars|e]: $DAMAGE$"
  CT_IMPACT_ON_EXPERIENCE: "$VAL|+=%$ [experience|e] of [TARGET_SUBUNIT.GetName]: $DAMAGE$"
  CT_IMPACT_ON_CATEGORY_TAKEN: "$VAL|+=%$ Target is [TARGET_SUBUNIT.GetDefinition.GetCategory.GetName]: $DAMAGE$"
+ CT_IMPACT_ON_COMBINED_ARMS: "$VAL|+=%$ [combined_arms|e]: $DAMAGE$"
  CT_IMPACT_ON_MIL_TAC: "$VAL|+=%$ [military_tactics|e] of [TARGET_SUBUNIT.GetController.GetName]: $DAMAGE$"
  CT_IMPACT_ON_GUNS_VS_HULL: "$VAL|+=%$ [cannons|e] vs [hull_size|e]: $DAMAGE$"
  CT_IMPACT_ON_NAVAL_DAMAGE_TAKEN: "$VAL|+=%$ Naval Damage Taken: $DAMAGE$"
@@ -1450,7 +1485,7 @@
  SIEGE_NONE: "No Status"
  SIEGE_BREACH_EXPLANATION: "In each siege phase, the attacker has a chance to breach the walls. Breaching the walls gives a $BREACHBONUS|=+$ bonus to siege roll. "
  SIEGE_OUTCOME_LABEL: "Siege Phase Outcome"
- SIEGE_CHANCE_SHORT: "Every Phase a die is rolled between $MIN|Y$ and $MAX|Y$ and then modified by $MODIFIERS|+=L$."
+ SIEGE_CHANCE_SHORT: "Every Phase a die is rolled between $MIN|Y$ and $MAX|Y$ (Dice Range) and then modified by #R $MODIFIERS|L+$#!."
  FALL_CHANCE_TITLE: "\"Possible Outcomes\";\"Dice Range\";\"Chance\""
  SIEGE_CHANCE_EXPLANATION: "Each time a siege phase happens a die ($MIN|Y$ to $MAX|Y$) is rolled. That roll is then added together with the siege modifiers ($MODIFIERS|+=$). On a natural roll of 1, the attackers will suffer a Disease Outbreak that reduces their numbers by $VAL|R%$ of their [maximum_strength|e]"
  SIEGE_CHANCE_LINE: "\"#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!";\"$RANGE$\";\"$CHANCE$\""
@@ -1496,16 +1531,16 @@
  FORT_LEVEL_TT: "#T Fort Level#!\n$WHY$\n\n#F A fort can range from a simple wooden palisade to an imposing stone edifice. This value indicates the level of fortification this territory possesses.#!"
  SIEGE_MODIFIER_ARTILLERY: "Artillery"
  SIEGE_ARTILLERY_EXPLANATION: "#italic Artillery gives a bonus on the [siege|e] roll. This bonus depends on the amount of [regiments|e] and their [artillery_barrage|e] compared to the level of the [fort|e].#!"
- BOMBARD_ENTRY_IN_SIEGE: "The artillery bonus in this siege is #TOOLTIP:$BREAKDOWN_TAG$ [Siege.GetArtilleryImpact|L]#!.\n"
+ BOMBARD_ENTRY_IN_SIEGE: "#T Artillery Bonus vs Fort in [LOCATION.GetNameWithNoTooltip]#!\nArtillery Bonus in this siege: #TOOLTIP:$BREAKDOWN_TAG$ [Siege.GetArtilleryImpact|L]#!\n"
  SIEGE_CULTURE_WAR: "[CULTURE.GetName] [cultural_influence|e] vs [TARGET_CULTURE.GetName] [cultural_tradition|e]: $VAL|+=2%$"
  SIEGE_CULTURE_WAR_ON_US: "[CULTURE.GetName] [cultural_influence|e] vs [TARGET_CULTURE.GetName] [cultural_tradition|e]: $VAL|-=2%$"
  LOOT_MAP_TEXT: "Looted $VAL|=$ gold"
  NO_REGIMENTS_THAT_CAN_BOMBARD: "@trigger_no! No [regiments|e] present with Bombard Strength."
  BOMBARD_SUBUNIT_ENTRY: "[SUBUNIT.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L2$#!"
- SUBUNIT_ARTILLERY_BREAKDOWN: "\nArtillery Bonus of [SUBUNIT.GetName]\nEffective Artillery Bonus of $VAL$ due to:\n[artillery_barrage|e]: $ARTILLERY_BONUS|+$\nFort Level: $FORT_LVL|+$"
+ SUBUNIT_ARTILLERY_BREAKDOWN: "\n#T Artillery Bonus of [SUBUNIT.GetName]#!\nEffective Artillery Bonus of $VAL$ due to:\n[artillery_barrage|e]: $ARTILLERY_BONUS|+$\nFort Level: $FORT_LVL|+$"
  SUBUNIT_FORT_MAX: "The fort level can never be higher than $MAX|0$ for this calculation, even though its $VAL|0$ in this [location|e]."
  SIEGE_REGIMENTS_FORT_ARTILLERY: "This is further divided by $VAL|V$ as that is the amount of [regiments|e] required for each [artillery_barrage|e]."
- MAXIMUM_ARTILLERY_BONUS: "Our max $MODIFIER$ is #TOOLTIP:$BREAKDOWN_TAG$ $VALUE|2L$#!."
+ MAXIMUM_ARTILLERY_BONUS: "Max $MODIFIER$: #TOOLTIP:$BREAKDOWN_TAG$ $VALUE|2L$#!"
  ARTILLERY_BONUS_VS_FORT_BREAKDOWN: "\nArtillery Bonus vs Fort Breakdown\nMax value of $VALUE$ due to:"
  
  NO_DAMAGED_SUBUNITS_ARMY: "[regiments|e] below [maximum_strength|e]\nThis [section|e] does not have any [regiments] below [maximum_strength]."
@@ -1590,17 +1625,31 @@
  MERC_UNIT_HAS_ARMY_LEVY: "@trigger_no![UNIT.GetName] contains [army_levies|E] so it can not become a mercenary unit."
  MERC_UNIT_HAS_NAVY_LEVY: "@trigger_no![UNIT.GetName] contains [navy_levies|E] so it can not become a mercenary unit."
  BECOME_MERCENARY: "Make available for hire"
- BECOME_MERCENARY_WAR: "#R Not possible at war. #!"
- BECOME_MERCENARY_INFO: "This will enable the [army|e] to be hired out to another [country|e] as a band of [mercenaries|e]. We will receive income from the transaction."
+
+ BECOME_ARMY_MERCENARY: "Offer Army as Mercenary"
+ BECOME_NAVY_MERCENARY: "Offer Navy as Mercenary"
+
+ BECOME_MERCENARY_WAR: "@trigger_no!#R Not possible at war. #!"
+ BECOME_MERCENARY_INFO: "This will enable the [Select_CString(UNIT.IsArmy, 'army', 'navy')] to be hired out to another [country|e] as a band of [mercenaries|e]. We will receive income from the transaction."
+
  BECOME_MERCENARY_HEADER: "Number of [armies|e] hired out to another [country|e] as a band of [mercenaries|e]."
  BECOME_MERCENARY_CTA: "Click to rent out [armies|e] as a Mercenary."
  CONTAINS_MERCENARIES: "#T Mercenaries present#!\nThis [unit|e] contains [mercenaries|e]."
+ OFFERED_MERCENARIES: "#T Unit Offered for Hire#!\nThis [unit|e] is being offered to be hired as [mercenaries|e]."
  #
  # Balance Army
  BALANCE_ARMY_IN_COMBAT: "@trigger_no! We cannot balance a unit that is in combat."
  BALANCE_ARMY: "Balance Unit"
  BALANCE_ARMY_INFO: "This redistributes the [regiments|e] in the unit so that all four positions (center, left, right, and reserves) are evenly filled."
  BALANCE_ARMY_CTA: "Balance the unit."
+ #
+ # Fortify Flank
+ FORTIFY_LEFT_FLANK: "Fortify Left Flank"
+ FORTIFY_CENTER_FLANK: "Fortify Center Flank"
+ FORTIFY_RIGHT_FLANK: "Fortify Right Flank"
+ FORTIFY_LEFT_RIGHT_FLANK: "Fortify Left and Right Flank"
+ AUTO_BALANCE_FLANKS: "Automate Balance of Flanks"
+ DEACTIVATE_AUTO_BALANCE_FLANKS: "Deactivate automation of Balance of Flanks"
  #
  # Disband
  DISBAND_ARMY_CONFIRM_TITLE: "Confirm Disband"
@@ -1661,6 +1710,14 @@
  SIEGE_ODDS_RISKY: "$BULLET$This assault is risky!"
  SIEGE_ODDS_POSSIBLE: "@trigger_yes!We have a chance of winning this assault!"
  #
+ # Return home at war
+ TOGGLE_RETURN_HOME_AT_WAR_ON: "Do not return to port when at war"
+ TOGGLE_RETURN_HOME_AT_WAR_OFF: "Return to port when at war"
+ TOGGLE_RETURN_HOME_AT_WAR_ON_INFO: "This [navy|e] will NOT seek a friendly port when we are at [war|e]."
+ TOGGLE_RETURN_HOME_AT_WAR_OFF_INFO: "This [navy|e] will seek a friendly port when we are at [war|e]."
+ TOGGLE_RETURN_HOME_AT_WAR_ON_CTA: "Set the [navy|e] to return to port when at war"
+ TOGGLE_RETURN_HOME_AT_WAR_OFF_CTA: "Stop the [navy|e] from returning to port when at war"
+ #
  # Attach to Units
  TOGGLE_ATTACH_OFF: "Attachment Allowed"
  TOGGLE_ATTACH_OFF_INFO: "This Unit allows other units to attach to it."
@@ -1679,7 +1736,9 @@
  ATTACH_TO_UNIT_CTA: "Attach to $UNIT_NAME$."
  UW_UNITS_ATTACHED: "The following units are attached to $UNIT_NAME$:"
  DETACH_SUBUNIT_FROM: "Detach [SubUnitCategory.GetNameWithNoTooltip] from Unit"
+ DETACH_SUBUNIT_FROM_AND_SELECT: "Detach [SubUnitCategory.GetNameWithNoTooltip] from Unit and select"
  DETACH_HALF_SUBUNIT_FROM: "Detach half of the [SubUnitCategory.GetNameWithNoTooltip] from Unit"
+ DETACH_HALF_SUBUNIT_FROM_AND_SELECT: "Detach half of the [SubUnitCategory.GetNameWithNoTooltip] from Unit and select"
  DETACH_FROM: "Detach from Unit"
  DETACH_FROM_INFO: "This will stop the unit from following another unit around automatically."
  DETACH_FROM_CTA: "Detach from following $NAME$."
@@ -1783,6 +1842,13 @@
  DETACH_SIEGE_NO_SIEGE: "@trigger_no! There is no siege here!"
  DETACH_SIEGE_NO_COMBAT: "@trigger_no! Finish the battle first, then try to detach."
  #
+ # Detach Blockade
+ DETACH_BLOCKADE: "Detach Blockade"
+ DETACH_BLOCKADE_INFO: "This will detach enough [units|e] to blockade all ports in this [seazone|e], leaving the others free to pursue other tasks."
+ DETACH_BLOCKADE_CTA: "Detach a blockade navy."
+ DETACH_BLOCKADE_NO_PORTS: "@trigger_no! This [seazone|e] has no ports to blockade."
+ DETACH_BLOCKADE_NO_SHIPS: "@trigger_no! This [navy|e] has not enough [units|e] to detach."
+ #
  # Reorganize/CreateNewUnit
  NEW_UNIT: "Create New Unit"
  NEW_UNIT_INFO: "Creating a new unit will create an empty unit and allow us to assign [regiments|e] from the current unit to it."
@@ -1814,7 +1880,7 @@
  #
  # Moving
  TARGET_PROVINCE_IS_IMPASSABLE: "@trigger_no! Cannot move here as the terrain is impassable."
- UNIT_CAN_ONLY_DISEMBARK_ADJACENT: "@trigger_no! Cannot move here as it is only possible to disembark into adjacent cities."
+ UNIT_CAN_ONLY_DISEMBARK_ADJACENT: "@trigger_no! Cannot move here as it is only possible to disembark into adjacent location."
  UNIT_CANNOT_RETREAT_INTO_OWN_LOCATION: "@trigger_no! Cannot retreat into the [location|e] we're fighting in." 
  UNIT_LACKS_ACCESS_TO_TARGET_PROVINCE: "@trigger_no! Cannot move here as the unit lacks access."
  MOVEMENT_LOCKED: "#T Movement Locked#!\nThis unit has moved more than halfway to its next [location|e] and its movement cannot be halted."
@@ -1860,7 +1926,8 @@
  LOAD_ON_SHIP_IS_RETREATING: "@trigger_no!$NAME$ ($VAL|Y$ [ships|e]) is retreating."
  LOAD_ON_SHIP_IS_MOVING: "@trigger_no!$NAME$ ($VAL|Y$ [ships|e]) is moving."
  LOAD_ON_SHIP_IN_COMBAT: "@trigger_no!$NAME$ ($VAL|Y$ [ships|e]) is in combat."
- LOAD_ON_SHIP_IS_TOO_SMALL_USED: "@trigger_no!$NAME$ already carries [Multiply_CFixedPoint('(CFixedPoint)$USED$', '(CFixedPoint)1000')|0R] [regiments|e], and only has a [transport_capacity|e] of [Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y], while this [army|e] requires [Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R] [transport_capacity]."
+ LOAD_ON_SHIP_IS_TOO_SMALL_USED: "$NAME$ already carries [Multiply_CFixedPoint('(CFixedPoint)$USED$', '(CFixedPoint)1000')|0R] [regiments|e], and only has a [transport_capacity|e] of [Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y], while this [army|e] requires [Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R] [transport_capacity]. Only a part of the [army|e] will be loaded."
+ LOAD_ON_SHIP_IS_FULL: "@trigger_no!$NAME$ is at its maximum [transport_capacity]."
  LOAD_ON_SHIP_IS_TOO_SMALL: "@trigger_no!$NAME$ is too small, and only has a [transport_capacity|e] of [Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y], while this [army|e] requires [Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R] [transport_capacity]."
  LOAD_ON_SHIP_MISMATCHING_OBJECTIVE: "@trigger_no!$NAME$ ($VAL|Y$ [ships|e]) is on a different mission!"
  LOAD_ON_SHIP_CAN_LOAD: "@trigger_yes!$NAME$ ($VAL|Y$ [ships|e]) can load this [army|e]!"
@@ -1989,7 +2056,7 @@
  BRIBE_MERCENARIES_UNIT_UNKNOWN: "@trigger_no![UNIT.GetName] is in an unknown [location|e]."
  BRIBE_MERCENARIES_UNIT_COMBAT: "@trigger_no![UNIT.GetName] is in [combat|e]."
  BRIBE_MERCENARIES_UNIT_LOCKED: "@trigger_no![UNIT.GetName] is locked in movement."
- BRIBE_MERCENARIES_NOT_NEARBY: "@trigger_no![UNIT.GetName] is not adjacent to one of our controlled [locations|e]."
+ BRIBE_MERCENARIES_NOT_NEARBY: "@trigger_no!This mercenary is not adjacent to one of our controlled [locations|e]."
  #
  # Upgrade Fleet
  UPGRADE_FLEET: "Upgrade Navy"
@@ -2018,7 +2085,7 @@
  UPGRADE_ARMY_MERCS_ARENT_YOURS: "@trigger_no! We cannot upgrade [mercenaries|e]."
  #
  # Upgrade SubUnit
- UPGRADE_SUBUNIT: "Upgrade [SubUnit.GetName]"
+ UPGRADE_SUBUNIT: "Upgrade [SubUnit.GetName] for [GetUpgradeSubUnitCostValue(SubUnit.Self)]@gold!"
  #
  # Refill Garrison
  REFILL_GARRISON: "Refill Garrison"
@@ -2112,6 +2179,7 @@
  UNIT_CATEGORY_NAVY_ENTRY: ""$COUNT|V$@naval_regular!";"[SUBUNITDEFINITION.GetName]""
  UNIT_CATEGORY_ARMY_ENTRY: ""$COUNT|V$@regular!";"[SUBUNITDEFINITION.GetName]";"$MEN|V$@army_strength!""
  LOSSES_FRIENDLY: "Current Losses"
+ UNIT_CATEGORY_TYPE: "Type"
  
  WAR_LOSSES_HEADER_DET: ""Type"#T#M;"Battle";"Attrition";"Captured";"Total""
  WAR_LOSSES_ARMY_ENTRY: ""[SUBUNITCATEGORY.GetIcon][SUBUNITCATEGORY.GetName]";"$BATTLE|V$";"$ATTRITION|V$";"$CAPTURE|V$";"$TOTAL|V$""
@@ -2239,3 +2307,30 @@
  #
  a_esho_cavalry_oyo: "Esho Cavalry"
  a_esho_cavalry_oyo_desc: "A professional regiments of lesser chieftains within the nation, these riders are not picked by connections but rather by merit."
+ #
+ a_saxon_defensioner: "Saxon Defensioner"
+ a_saxon_defensioner_desc: "The #italic Defensioner#! are veteran troops of our rough lands on the borders to the Bohemian lands. Tasked with ensuring the safety on the passes of the Ore Mountains, these units will serve us well for battles within rough terrain."
+
+ a_prussian_grenadiers: "Prussian Grenadiers"
+ a_prussian_grenadiers_desc: "The $a_prussian_grenadiers$ are elite troops of the Prussian Army. Their role as a vanguard in sieges and assaults requires them to be fearless troops, recruited among the strongest men of our country."
+
+ a_bavarian_jager: "Bavarian Jäger"
+ a_bavarian_jager_desc: "Regiments of seasoned hunters and foresters. These units will be unmatched within forested terrain and able to occupy and harass our enemies if they dare to enter our forests."
+
+ a_hesse_jager: "Hessian Jäger"
+ a_hesse_jager_desc: "Expert hunters are forming these elite light troops. Their knowledge of our own terrain will increase our ability to fight within forested terrains, although their equipment does not serve well for prolonged fighting."
+
+ a_austrian_grenzhussar: "Grenzhussar"
+ a_austrian_grenzhussar_desc: "Stationed in border garrisons, these regiments of hussars will be able to patrol and secure the far reaches of our country, while keeping the strain on our treasury light."
+
+ a_pandur: "Pandur Infantry"
+ a_pandur_desc: "Recruited from our Slovene and Croatian lands, these light troops are well equipped to guard the peace in our border regions. Their knowledge of their homeland will make them a formibable opponent for any invader."
+
+ a_austrian_grenzer: "Grenzer Infantry"
+ a_austrian_grenzer_desc: "$a_pandur_desc$"
+
+ a_gebirgsschutzen_infantry: "Gebirgsschützen"
+ a_gebirgsschutzen_infantry_desc: "These mountain shooters are unmatched in the traversal of the alpine lands and besting our foes within the treacherous terrain of our mountain passes. Their light equipment and loose organization makes them perfectly equipped for combat in high altitudes."
+
+ a_grenadiers: "Grenadiers"
+ a_grenadiers_desc: "Evolving out of early units equipped with explosives, these $a_grenadiers$ serve as an elite vanguard for our armies. While the grenades, which granted them their name, are no longer their sole purpose, their superior training makes them excellenct assault troops."

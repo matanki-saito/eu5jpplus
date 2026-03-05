@@ -103,7 +103,7 @@
  red_turban_rebellions.42.desc: "[ShowSituationName('red_turban_rebellions')]は[ROOT.GetCountry.GetName]の中核地域全体だけでなく、[ROOT.GetCountry.GetFlavorRank]の長大な周辺地域にも影響を及ぼしている。最も顕著なのは、我々の祖先によって征服された遠方の[ShowRegionName('manchuria_region')]の地だ。通常は我々の支配下にあるこの地は、わが国の中心地で沸き起こる紛争のせいで支配を統制できる者がおらず、事実上放棄された状態となっている。"
  red_turban_rebellions.42.a: "なんということだ……"
  red_turban_rebellions.42.a.tt: "#R [ShowRegionName('manchuria_region')]にあるわが国のすべての所有[locations|e]が放棄される#!"
- red_turban_rebellions.42.b.tt: "#R [ShowRegionName('manchuria_region')]に[capital|e]をもつすべての[subject|e]が独立する#!"
+ red_turban_rebellions.42.b.tt: "#R [ShowRegionName('manchuria_region')]に[capital|e]を持つ、[ROOT.GetCountry.GetCulture.GetName]ではないすべての[subject|e]が独立する#!"
  red_turban_rebellions.43.title: "[ShowCultureNameWithNoTooltip('mongolian_culture')]の将軍たちの召集"
  red_turban_rebellions.43.desc: "反乱軍により国家分裂の危機がさらに強まるなか、有能な人員の必要性はますます明白となっている。ありがたいことに、[target_country.GetName]にはまだ多くの忠実な[ShowCultureName('mongolian_culture')]の士官が残っている。彼らを呼び戻して軍を強化することはできるが、その代償として将来的に[ShowCultureName('korean_culture')]人たちが我々から離反するリスクが高まる。"
  red_turban_rebellions.43.a: "わが軍には彼らがただちに必要だ！"

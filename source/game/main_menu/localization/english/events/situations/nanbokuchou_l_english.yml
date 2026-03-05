@@ -47,4 +47,10 @@
  nanbokuchou.8.a: "We will rally behind this new line."
  nanbokuchou.8.b: "We do not recognize even another line."
  nanbokuchou.8.tt: "We will support the new line of the Imperial Family"
+
+ nanbokuchou.9.title: "$nanbokuchou$ Without End"
+ nanbokuchou.9.desc: "The struggle between the two courts of the Imperial line has already been dragging on for some years. It is threatening to split the whole nation in two, without a clear resolution in sight. There are many in the [ROOT.GetCountry.GetLongName] that are in favor of renouncing our rights in favor of the [target_emperor.GetLongName], arguing it is worth a sacrifice to keep the unity of the throne. On the other hand, our divine right to rule is not something we can easily yield. However, there are worrying sings for the future of the nation, and we may find ourselves in worse troubles with a divided line."
+ nanbokuchou.9.a: "We must pay the ultimate sacrifice in favor of unity."
+ nanbokuchou.9.b: "Our line must be accepted as the true one first."
+ destroy_all_clan_buildings_tt: "All our clan buildings will be destroyed and we will cease to exist"
  

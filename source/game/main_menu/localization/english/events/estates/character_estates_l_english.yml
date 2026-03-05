@@ -10,7 +10,7 @@
  character_estates.2.b: "Usurp the title for ourselves."
  
  character_estates.3.title: "A Fortunate Peasant"
- character_estates.3.desc: "By virtue of the connections that [target_character.GetHeShe] has made in our court, as well as some shrewd business decisions, the peasant [target_character.GetName] has managed to amass a significant fortune that rivals even the successful amongst our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')].\n\nMost are already assuming that he belongs, but is that really the message we should send?"
+ character_estates.3.desc: "By virtue of the connections that [target_character.GetHeShe] has made in our court, as well as some shrewd business decisions, the peasant [target_character.GetName] has managed to amass a significant fortune that rivals even the successful amongst our [ROOT.GetCountry.GetGovernment.GetEstateName('burghers_estate')].\n\nMost are already assuming that [target_character.GetHeShe] belongs, but is that really the message we should send?"
  character_estates.3.a: "Send congratulations."
  character_estates.3.b: "A rich peasant is still a peasant."
  

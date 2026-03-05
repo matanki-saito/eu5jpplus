@@ -148,7 +148,7 @@
  mission_surpass_rival: "Surpass our Foes"
  mission_surpass_rival_desc: "Those who seek to usurp our place in the sun must be shown that they are but an insignificant speck at the face of our unstoppable might. Our strength must eclipse their puny armies!"
  mission_surpass_rival_tip: "@arrow_bonus_tier_3! Go to [Link('diplomacy', 'relations_tab = current_relations', '@diplomacy_panel! Diplomacy > Current Relations')] and click at the flag of the desired #V [rivals_icon|e] Rival#! to target.\n\n@arrow_bonus_tier_2! Keep checking in its [country_icon|e] #W Country Panel #! in order to compare strength with them.\n\n@arrow_bonus_tier_1! Consider declaring [war_with_icon|e] to keep devitalize them. \n\n #italic To learn more you can check [Link('hints', 'selected_hint = hint_war', '$hint_war$ Hint')] and [Link('hints', 'selected_hint = hint_call_for_peace', '$hint_call_for_peace$ Hint')]."
- should_complete_stronger_than_rival_tt: "Completing this [task|e] with higher [relative_strength|e] compared to [target_rival.GetName] grants #G 20#! [prestige|e]."
+ should_complete_stronger_than_rival_tt: "Completing this [task|e] with higher [military_strength|e] compared to [target_rival.GetName] grants #G 20#! [prestige|e]."
 
  mission_establish_spy_networks: "Establish a Spy Network"
  mission_establish_spy_networks_desc: "In order to have a grip on the affairs of our rivals, it is wise to ensure the infiltration of our spies within their ranks."
@@ -577,6 +577,6 @@
  location_gains_rural_development_modifier_tt: "The designated [location|e] will gain the [ShowModifier('rural_development_modifier')] [modifier|e] for #Y 20#! years"
  requires_mission_export_produced_goods_tt: "The requirements of this [mission_task|e] will activate once we complete its prerequisite [mission_tasks|e]"
 
- increase_estate_satisfaction_tip: "You have a few options to increase [estate_satisfaction_with_icon|e]:\n$TAB$@arrow_bonus_tier_1! Grant a new [privilege_with_icon|e].\n$TAB$@arrow_bonus_tier_1! [ShowGenericActionName('bribe_estate')].\n$TAB$@arrow_bonus_tier_1! Lower [taxes_with_icon|e] from [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Budget')].\n\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')]."
+ increase_estate_satisfaction_tip: "You have a few options to increase [estate_satisfaction_with_icon|e]:\n$TAB$@arrow_bonus_tier_1! Grant a new [privilege_with_icon|e].\n$TAB$@arrow_bonus_tier_1! [ShowGenericActionName('bribe_estate')].\n$TAB$@arrow_bonus_tier_1! Lower [taxes_with_icon|e] from [Link('economy', '', '@economy_panel!$lateralview_economy_entry_name$ > Balance')].\n\n #italic To learn more you can check the [Link('hints', 'selected_hint = hint_estates', '@hint! Estates Hint')]."
 
  change_societal_value_tip: "@arrow_bonus_tier_3! Go to [Link('societal_values', '', '@government_panel! Government Panel > Values')] to check your [societal_values_with_icon|e].\n\n@arrow_bonus_tier_2! Go to [Link('government', 'tabcontent = cabinet', '@government_panel! Government Panel > Cabinet')] to see your [cabinet_with_icon|e].\n\n@arrow_bonus_tier_1! Assign a [cabinet_member_with_icon|e] to the [ShowCabinetActionName('change_societal_values')] [cabinet_action|e]."

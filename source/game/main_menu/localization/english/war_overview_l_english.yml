@@ -13,7 +13,7 @@
  WARGOAL_TICKED_ENOUGH_DAYS_PEACE: "More than $NEED|Y$ days have passed with $NAME|Y$ fully defended, $WHO|Y$ can now enforce a white peace!"
  WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS: "When $NEED|Y$ days have passed, with no contest over the war goal, and it is fully controlled, $WHO|Y$ may get $NAME|Y$ in an enforced peace.\nCurrently, there have been $DAYS|G$ days."
  WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS_INDEPENDENCE: "When $NEED|Y$ days have passed, with no contest over the war goal, and it is fully controlled, $WHO|Y$ may get their independence in an enforced peace.\nCurrently, there have been $DAYS|G$ days."
- WARGOAL_TICKED_ENOUGH_DAYS: "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to take it!"
+ WARGOAL_TICKED_ENOUGH_DAYS: "More than $NEED|Y$ days have passed with $NAME|Y$ fully controlled by $WHO|Y$, who can now force a peace to take it!"
  WARGOAL_TICKED_ENOUGH_DAYS_INDEPENDENCE: "More than $NEED|Y$ days have passed since $NAME|Y$ was fully controlled by $WHO|Y$, who can now force a peace to get their independence!"
  WARGOAL_NOT_FULLY_OCCUPIED: "@trigger_no! The War Goal of $NAME|Y$ has not yet been fully controlled by the attackers!"
  WARGOAL_NOT_FULLY_SAFE: "@trigger_no! The War Goal of $NAME|Y$ is fully controlled by the attackers!"
@@ -38,6 +38,11 @@
 
  WAR_OVERVIEW_LOSSES_TOOLTIP_LINE: "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetLosses|Y]@army_strength!"
  WAR_OVERVIEW_LOSSES_TOOLTIP_LINE_NAVAL: "#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!: [BATTLE_SIDE.GetNavalLosses|Y]@navy_strength!"
+
+ WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_ARMY: "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@army_strength!"
+ WAR_OVERVIEW_ATTRITION_LOSSES_TOOLTIP_NAVAL: "Total [attrition|e] loses so far: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|V2$#!@navy_strength!"
+ WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER: "[attrition|e] Loses Breakdown"
+ WAR_OVER_VIEW_ATTRITION_BREAKDOWN_HEADER_ENTRY: "[COUNTRY.GetNameWithFlag]: $VAL|V$"
 
  WAR_OVERVIEW_ATTACKERS_LEADER: "Attacker Leader"
  WAR_OVERVIEW_DEFENDERS_LEADER: "Defender Leader"
@@ -127,6 +132,8 @@
  JOIN_WAR_REASON_DESC_Overlord: "[COUNTRY.GetName] is the overlord of [TARGET_COUNTRY.GetName]."
  JOIN_WAR_REASON_SupportRevolt: "Supporting the Revolters"
  JOIN_WAR_REASON_DESC_SupportRevolt: "[COUNTRY.GetName] supports the revolt of [TARGET_COUNTRY.GetName]."
+ JOIN_WAR_REASON_SupportRevoltToReunite: "Supporting our Secessionist Revolters"
+ JOIN_WAR_REASON_DESC_SupportRevoltToReunite: "[COUNTRY.GetName] wants [TARGET_COUNTRY.GetName] to secede to them."
  JOIN_WAR_REASON_Intervene: "Intervening"
  JOIN_WAR_REASON_DESC_Intervene: "[COUNTRY.GetName] are intervening on behalf of [TARGET_COUNTRY.GetName]."
  JOIN_WAR_REASON_InternationalOrganization: "[INTERNATIONAL_ORGANIZATION.GetType.GetName] with [TARGET_COUNTRY.GetName]"

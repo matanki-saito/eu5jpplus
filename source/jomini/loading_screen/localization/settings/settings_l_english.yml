@@ -54,3 +54,4 @@
  SETTING_INPUT_ACTION_CAMERA_ROTATE: "Rotate camera"
  SETTING_INPUT_ACTION_CAMERA_DRAG: "Drag camera"
  SETTING_INPUT_ACTION_CAMERA_LOCK: "Lock camera"
+ SETTING_WARNING_PLAYSET: "Show dialog to warn about playset errors"

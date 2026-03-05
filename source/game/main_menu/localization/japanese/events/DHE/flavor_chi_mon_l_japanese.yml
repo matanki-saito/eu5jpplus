@@ -16,7 +16,7 @@
  flavor_chi_mon.3.desc: "我々の最大の切り札だった、[target_country.GetName]の前統治者である[target.GetName]が、わが国の獄中で死去した。その死は痛手だが、この偉大な[target.GetManWoman]の名は、わが国を高みへと導いた立役者として永遠に語り継がれるだろう。"
  flavor_chi_mon.3.a: "なんということだ！"
  flavor_chi_mon.4.title: "[target.GetNameWithNoTooltip]の死"
- flavor_chi_mon.4.desc: "[ROOT.GetCountry.GetName]が大きな悲劇に見舞われた。わが国の敬愛されし統治者にして天子の[target.GetName]が、下劣な[target.GetOwner.GetAdjective]人どもに捕われたまま命を落としたとの報せが届いたのだ。[target.GetShortNameWithNoTooltip]を存命のまま奪還し、祖国にお帰りいただけなかったことは、悲痛の極みである。"
+ flavor_chi_mon.4.desc: "[ROOT.GetCountry.GetName|U]が大きな悲劇に見舞われた。わが国の敬愛されし統治者にして天子の[target.GetName]が、下劣な[target.GetOwner.GetAdjective]人どもに捕われたまま命を落としたとの報せが届いたのだ。[target.GetShortNameWithNoTooltip]を存命のまま奪還し、祖国にお帰りいただけなかったことは、悲痛の極みである。"
  flavor_chi_mon.4.a: "[target.GetShortNameWithNoTooltip]は、このような最期を迎えるべき方ではなかった。"
  flavor_chi_mon.5.title: "身代金の申し出"
  flavor_chi_mon.5.desc: "意外なことに、下劣な[capturing_country.GetName]の連中から身代金の申し出があった。敬愛されし捕われの[captured_emperor.GetName]を、多額の金と引き換えに安全に帰還させるというのである。わが国にとって何ものにも代えがたい陛下の命を敵が過小評価していると知り、我らは内心ほくそ笑んでいる。"

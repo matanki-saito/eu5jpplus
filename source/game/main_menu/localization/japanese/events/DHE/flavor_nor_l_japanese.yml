@@ -1,6 +1,6 @@
 ﻿l_japanese:
- flavor_nor.1.title: "シグルド・ヨンソン"
- flavor_nor.1.desc: "ノルウェーの貴族にして騎士でもあるシグルド・ヨンソンは、王の名において国を治めることのできる元高等司法長官（drottsete）であり、ノルウェーの摂政である。彼は旧ノルウェー王家の直系子孫であり、1440年から1445年までアーケシュフース城の司令官を務めた。シグルド・ヨンソンは、ノルウェーにおける反ハンザ同盟政策の主要な推進者のひとりである。"
+ flavor_nor.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nor.1.desc: "[target_character.GetCulture]の貴族にして騎士でもある[target_character.GetName]は、王の名において国を治めることのできる元高等司法長官（drottsete）であり、[ROOT.GetCountry.GetName]の摂政である。彼は旧ノルウェー王家の直系子孫であり、1440年から1445年までアーケシュフース城の司令官を務めた。[target_character.GetNameWithNoTooltip]は、[ROOT.GetCountry.GetNameWithNoTooltip]における反ハンザ同盟政策の主要な推進者のひとりである。"
  flavor_nor.1.a: "彼はこの国で役立つだろう。"
  flavor_nor.1.b: "ハンザ同盟とは敵対したくない。"
  hanseatic_conflict: "ハンザ・スカンジナビア戦争"

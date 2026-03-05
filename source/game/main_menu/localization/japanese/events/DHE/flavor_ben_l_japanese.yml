@@ -4,7 +4,7 @@
  flavor_ben.1.a: "壁を拡張しよう。"
  flavor_ben.1.b: "[target_location.GetNameWithNoTooltip]を守るにはお堀で十分だ。"
  flavor_ben.2.title: "都市の政府"
- flavor_ben.2.desc: "[ROOT.GetCountry.GetName]は多数の行政府を設けるのではなく、[ROOT.GetCountry.GetCapital.GetName]に集権化した。これにより、ただ保護を提供するのではなく[target_character.GetName]に直接従うような行政府を確立できる。その代わりに、[target_character.GetNameWithNoTooltip]に直接従う政府役人が居住する[GetBuildingName('eghabho_nore_mansion')]を通じて統治がおこなわれることになる。"
+ flavor_ben.2.desc: "[ROOT.GetCountry.GetName|U]は多数の行政府を設けるのではなく、[ROOT.GetCountry.GetCapital.GetName]に集権化した。これにより、ただ保護を提供するのではなく[target_character.GetName]に直接従うような行政府を確立できる。その代わりに、[target_character.GetNameWithNoTooltip]に直接従う政府役人が居住する[GetBuildingName('eghabho_nore_mansion')]を通じて統治がおこなわれることになる。"
  flavor_ben.2.a: "[ROOT.GetCountry.GetNameWithNoTooltip]は中央集権化されるのだ！"
  flavor_ben.2.b: "現在の制度で十分だ。"
  flavor_ben.3.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]からの権限剥奪"

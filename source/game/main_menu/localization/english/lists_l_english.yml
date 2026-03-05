@@ -35,7 +35,9 @@
  REBEL_POP_ENTRY_SORT_BY_POPTYPE_NAME: "Sort by the [pop_type|e] of the [pops|e]"
  REBEL_POP_ENTRY_SORT_BY_SIZE: "Sort by the size of the [pops|e]"
  REBEL_POP_ENTRY_SORT_BY_SATISFACTION: "Sort by the [pop_satisfaction|e] of the [pops|e]"
- 
+  
+ BUILDING_CATEGORY_SORT_BY_NAME: "Sort by the name of the [building_category|e]"
+ BUILDING_CATEGORY_SORT_BY_PROFIT: "Sort by the total net profit of the [building_category|e]"
 
  BUILDING_SORT_BY_NUMBER: "Sort by the total amount of [buildings|e]"
  BUILDING_SORT_BY_NAME: "Click to sort by the [building_type|e] name"
@@ -43,8 +45,12 @@
  BUILDING_SORT_BY_EMPLOYEES: "Click to sort by the number of employees"
  BUILDING_SORT_BY_LOCATION: "Click to sort by the [building|e] [location|e]"
  BUILDING_SORT_BY_GOOD: "Click to sort by the [building|e] goods produced"
- BUILDING_SORT_BY_PROFIT: "Click to sort by the [building_type|e] maximum profit per level"
- RGO_SORT_BY_PROFIT: "Click to sort by the [rgo|e] maximum profit per level"
+ BUILDING_SORT_BY_PROFIT: "Click to sort by the [building_type|e] maximum tax base per level"
+ BUILDING_ITEM_SORT_BY_WEALTH: "Click to sort by the [building_type|e] maximum wealth per level"
+ BUILDING_SORT_BY_WEALTH: "Click to sort by the [building_type|e] wealth per level"
+ RGO_SORT_BY_PROFIT: "Click to sort by the [rgo|e] maximum tax base per level"
+ BUILDING_SORT_BY_INCOME: "Click to sort by the [building_type|e] maximum income per level"
+ RGO_SORT_BY_INCOME: "Click to sort by the [rgo|e] maximum income per level"
  GOOD_SORT_BY_PRICE: "Click to sort by the goods price"
 
  PEACE_TREATY_SORT_BY_NAME: "Sort by the [peace_treaty|e] name"
@@ -59,6 +65,7 @@
  COUNTRY_SORT_BY_OUR_OPINION: "Click to sort by our [opinion|E] of them"
  COUNTRY_SORT_BY_ENEMIES: "Click to sort by [enemies|e]"
  COUNTRY_SORT_BY_RIVALS: "Click to sort by [rivals|e]"
+ COUNTRY_SORT_BY_THREAT: "Click to sort by [threat|e]"
  COUNTRY_SORT_BY_SPY: "Sort by our [spy_network|E] in them"
  COUNTRY_SORT_BY_FAVORS: "Sort by the amount of [favors|E] they owe us"
  COUNTRY_SORT_BY_TRUST: "Sort by the amount of [trust|E] they have for us"
@@ -148,6 +155,7 @@
  MARKET_SORT_BY_FOOD: "Click to sort by the current amount of [food|e] of the [market|e]"
  MARKET_SORT_BY_FOOD_PERCENTAGE: "Click to sort by the current percentage of [food|e] of the [market|e]"
 
+ MERCENARY_SORT_BY_RELEVANCE: "Sort by relevance of the [mercenary|e]"
  MERCENARY_SORT_BY_NAME: "Sort by the name of the [mercenary|e]"
  MERCENARY_SORT_BY_COUNTRY_OWNER: "Sort by the [country|e] owner"
  MERCENARY_SORT_BY_COUNTRY_CUSTOMER: "Sort by the [country|e] customer"
@@ -156,7 +164,8 @@
  MERCENARY_SORT_BY_SIZE: "Sort by the number of [regiments|e] or [ships|e]"
  MERCENARY_SORT_BY_TPC: "Sort by the transport capacity of the [ships|e]"
 
- SORT_BY_MERCENARY_TOTAL_SUBUNIT: "Sort by the [mercenary|e] total Subunits"
+ SORT_BY_MERCENARY_MAX_SUBUNIT: "Sort by the maximum amount of subunits of the [mercenary|e]"
+ SORT_BY_MERCENARY_TOTAL_SUBUNIT: "Sort by the amount of subunits of the [mercenary|e]"
 
  RELIGION_SORT_BY_NAME: "Sort by the name of the [religion|e]"
  RELIGION_SORT_BY_SIZE: "Sort by the presence of the [religion|e] in our [country|e]"
@@ -184,6 +193,7 @@
  SUBUNIT_SORT_BY_CANNONS: "Sort by total amount of [cannons|e]"
  SUBUNIT_SORT_BY_EXPERIENCE: "Sort by [experience|e]"
  SUBUNIT_SORT_BY_MORALE: "Sort by [average_morale|e]"
+ SUBUNIT_SORT_BY_UNIT_TYPE: "Sort by [unit_type|e]"
 
  RECRUIT_LOCATION_SORT_NAME: "Sort by name of [location|e]"
  RECRUIT_LOCATION_SORT_STRENGTH: "Sort by maximum strength"
@@ -191,6 +201,7 @@
  RECRUIT_LOCATION_SORT_MAN: "Sort by [manpower|e] cost"
  RECRUIT_LOCATION_SORT_NUM: "Sort by number of recruitments in progress"
  RECRUIT_LOCATION_SORT_BUILDCAPAC: "Sort by [location|e] ship building capacity"
+ RECRUIT_LOCATION_SORT_REGIMENT_TRAINING: "Sort by [location|e] regiment training capacity"
 
  CURRENT_NEEDS_SORT_GOOD: "Sort by name of [goods|e]"
  CURRENT_NEEDS_SORT_MARKET: "Sort by name of [market|e]"
@@ -205,7 +216,9 @@
  BUILDING_LOCATION_SORT_BY_LOCATION: "Sort by the name of [location|e]"
  BUILDING_LOCATION_SORT_BY_UNEMPLOYED: "Sort by the number of available workers"
  BUILDING_LOCATION_SORT_BY_PROFIT: "Sort by profit"
+ BUILDING_LOCATION_SORT_BY_INCOME: "Sort by income"
  BUILDING_LOCATION_SORT_BY_COST: "Sort by the cost of the [building|e]"
+ BUILDING_LOCATION_SORT_BY_PROD_EFFICIENCY: "Sort by the production efficiency of the [building|e]"
  BUILDING_LOCATION_SORT_BY_NUMBER: "Sort by the number of [buildings|e]"
  BUILDING_LOCATION_SORT_BY_MARKET_ACCESS: "Sort by [market_access|e]"
  BUILDING_LOCATION_SORT_BY_FOOD_OUTPUT: "Sort by the amount of [food|e] output"
@@ -261,7 +274,8 @@
  CABINET_SORT_BY_NAME: "Click to sort by the [cabinet|e] name"
 
  EXPAND_RAW_GOODS_SORT_BY_NAME: "Click to sort by the name of the [good|e]"
- EXPAND_RAW_GOODS_SORT_BY_PROFIT: "Sort by the [rgo] total profit per level"
+ EXPAND_RAW_GOODS_SORT_BY_PROFIT: "Sort by the [rgo] total wealth per level"
+ EXPAND_RAW_GOODS_SORT_BY_INCOME: "Sort by the [rgo] total income per level"
  EXPAND_RAW_GOODS_SORT_BY_PRODUCTION: "Sort by the [rgo] total output per level"
  EXPAND_RAW_GOODS_SORT_BY_WORKERS: "Sort by the total number of [rgo_pops|e] working on a certain [good|e]"
  EXPAND_RAW_GOODS_SORT_BY_PEASANTS_AVAILABLE: "Sort by the total number of [ShowPopTypeName('peasants')] available on each [location|e]"
@@ -349,6 +363,7 @@
  SORT_TEXT_CASUS_BELLI_NAME: "[ROOT.GetCasusBelli.GetNameWithNoTooltip]"
  SORT_TEXT_BUILDING_LOCATION_NAME: "[ROOT.GetBuilding.GetLocation.GetNameWithNoTooltip]"
  SORT_TEXT_LAW_NAME: "[ROOT.GetLaw.GetNameWithNoTooltip]"
+ SORT_TEXT_LAW_WITH_CATEGORY_NAME: "[ROOT.GetLaw.GetNameWithCategoryNameForSorting]"
  SORT_TEXT_LOCATION_RAW_MATERIAL_NAME: "[ROOT.GetLocation.GetRawMaterial.GetNameWithNoTooltip]"
  SORT_TEXT_RAW_MATERIAL_NAME: "[ROOT.GetGoods.GetNameWithNoTooltip]"
  SORT_TEXT_POLICY_NAME: "[ROOT.GetPolicy.GetNameWithNoTooltip]"
@@ -597,6 +612,10 @@
  search_filter_building_is_foreign_desc: "Show only buildings that are built outside your owned Locations"
  search_filter_building_is_not_foreign_name: "Not foreign Buildings"
  search_filter_building_is_not_foreign_desc: "Do not show buildings that can be built outside your owned Locations"
+ search_filter_building_is_special_name: "Special Buildings"
+ search_filter_building_is_special_desc: "Show only buildings that are special"
+ search_filter_building_is_not_special_name: "Not special Buildings"
+ search_filter_building_is_not_special_desc: "Show only buildings that are not special"
 
  search_filter_building_type_category_name: "@building_default! Building Type filters"
  search_filter_building_only_upgradeable_name: "Upgradeable"
@@ -607,6 +626,8 @@
  search_filter_building_is_upgraded_desc: "Show only buildings that could have been upgraded"
  search_filter_building_is_not_upgraded_name: "Not Upgrades"
  search_filter_building_is_not_upgraded_desc: "Show only buildings that could not have been upgraded"
+ search_filter_building_can_be_upgraded_name: "Can Be Upgraded"
+ search_filter_building_can_be_upgraded_desc: "Show only buildings that can be upgraded"
 
  search_filter_production_market_desc: "Show only buildings that have presence in this market. Open other market view to change it."
  search_filter_production_location_desc: "Show only buildings from this location. Select any other location on the map to change it."
@@ -860,6 +881,10 @@
  search_filter_location_control_desc: "Show locations within the specified control range"
  search_filter_location_control_format: "$VAL|%0$"
 
+ search_filter_location_proximity_to_capital_name: "Location proximity to capital"
+ search_filter_location_proximity_to_capital_desc: "Show locations with at least the specified proximity to capital"
+ search_filter_location_proximity_to_capital_format: "$VAL|%0$"
+
  search_filter_location_market_access_name: "Market access"
  search_filter_location_market_access_desc: "Show locations within the specified market access range"
  search_filter_location_market_access_format: "$VAL|%0$"
@@ -1064,6 +1089,10 @@
  CUSTOM_SEARCH_FILTER_MARKET_HAS_MERCHANT_CAPACITY_DESC: "Show only markets where we have [merchant_capacity]."
  CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_MERCHANT_CAPACITY_NAME: "Has No Trade Capacity"
  CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_MERCHANT_CAPACITY_DESC: "Show only markets where we do not have [merchant_capacity]."
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_TRADE_ADVANTAGE_NAME: "Has Trade Advantage"
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_TRADE_ADVANTAGE_DESC: "Show only markets where we have [merchant_power]."
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_TRADE_ADVANTAGE_NAME: "Has No Trade Advantage"
+ CUSTOM_SEARCH_FILTER_MARKET_HAS_NO_TRADE_ADVANTAGE_DESC: "Show only markets where we do not have [merchant_power]."
  custom_search_filter_market_range_group_name: "@market! Market Range"
  CUSTOM_SEARCH_FILTER_MARKET_IS_IN_RANGE_NAME: "Is In Range"
  CUSTOM_SEARCH_FILTER_MARKET_IS_IN_RANGE_DESC: "Show only markets that are in range."
@@ -1167,7 +1196,22 @@
  custom_search_filter_unit_type_group_name: "@army_strength! Unit Type"
  CUSTOM_SEARCH_FILTER_UNIT_IS_NAME: "$CATEGORY$ Units"
  CUSTOM_SEARCH_FILTER_UNIT_IS_DESC: "Show $CATEGORY$ [units|e]"
- 
+ CUSTOM_SEARCH_FILTER_UNIT_IS_SPECIAL_NAME: "Special Regiment"
+ CUSTOM_SEARCH_FILTER_UNIT_IS_SPECIAL_DESC: "Show only [regiments|e] that are special"
+ CUSTOM_SEARCH_FILTER_UNIT_IS_NOT_SPECIAL_NAME: "Not special Regiment"
+ CUSTOM_SEARCH_FILTER_UNIT_IS_NOT_SPECIAL_DESC: "Show only [regiments|e] that are NOT special"
+
+mercenary_leader_name_text_filter_name: "Search for the name of the mercenary leader"
+mercenary_leader_area_text_filter_name: "Search for the name of the mercenary leader's birth area"
+mercenary_leader_region_text_filter_name: "Search for the name of the mercenary leader's birth region"
+mercenary_leader_subcontinent_text_filter_name: "Search for the name of the mercenary leader's birth subcontinent"
+mercenary_leader_continent_text_filter_name: "Search for the name of the mercenary leader's birth continent"
+custom_search_filter_leader_category_name: "Mercenary Leader Filters"
+CUSTOM_SEARCH_FILTER_LEADER_CULTURE_NAME: "Same Culture"
+CUSTOM_SEARCH_FILTER_LEADER_CULTURE_DESC: "Show only mercenary leaders with the same culture as your country."
+CUSTOM_SEARCH_FILTER_LEADER_HOME_REGION_NAME: "Home Region"
+CUSTOM_SEARCH_FILTER_LEADER_HOME_REGION_DESC: "Show only mercenary leaders from your capital's region."
+
  search_filter_condottieri_unit_desc: "Show only selected unit. Select any other units on the map to change it."
  search_filter_law_desc: "Show only selected law."
 
@@ -1267,3 +1311,16 @@
 
  INTERNATIONAL_ORGANIZATION_SORT_BY_MEMBERS_SIZE: "Click to sort by the amount of members"
  INTERNATIONAL_ORGANIZATION_SORT_BY_TOTAL_POPULATION: "Click to sort by the amount of total population"
+
+ # Import/Export Lateral View Filters
+ custom_search_filter_profitability_category_name: "@gold! Profitability"
+ CUSTOM_SEARCH_FILTER_PROFITABLE_TRADES_NAME: "Profitable"
+ CUSTOM_SEARCH_FILTER_PROFITABLE_TRADES_DESC: "Show only profitable Trade Routes"
+ CUSTOM_SEARCH_FILTER_UNPROFITABLE_TRADES_NAME: "Unprofitable"
+ CUSTOM_SEARCH_FILTER_UNPROFITABLE_TRADES_DESC: "Show only unprofitable Trade Routes"
+
+ custom_search_filter_trade_routes_category_name: "@trade! Trade routes"
+ CUSTOM_SEARCH_FILTER_HAS_TRADE_ROUTE_NAME: "Has Trade Route"
+ CUSTOM_SEARCH_FILTER_HAS_TRADE_ROUTE_DESC: "Show only markets that already have a Trade Route with this good"
+ CUSTOM_SEARCH_FILTER_HAS_NO_TRADE_ROUTE_NAME: "Has no Trade Route"
+ CUSTOM_SEARCH_FILTER_HAS_NO_TRADE_ROUTE_DESC: "Show only markets without a Trade Route of this good"

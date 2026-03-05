@@ -40,3 +40,8 @@
  nanbokuchou.8.a: "この新しい皇統を支持する。"
  nanbokuchou.8.b: "新しい皇統など、存在すら認めない。"
  nanbokuchou.8.tt: "我々は新しい皇統を支持する"
+ nanbokuchou.9.title: "終わりなき$nanbokuchou$"
+ nanbokuchou.9.desc: "皇統から分裂した2つの朝廷の争いはもう何年も続いており、国家を二分しかねない状況にあるが、明確な解決策は未だ見いだせていない。[ROOT.GetCountry.GetLongName]の多くの者は、我々が権利を放棄して[target_emperor.GetLongName]を立てるべきだと考えている。犠牲を払ってでも、皇位をひとつに統合すべきだというのだ。一方で、我々の神聖なる統治権は、そう簡単に手放せるものではない。しかし、この国の行く末には憂慮すべき兆候があり、皇統が分裂したままでは、今後さらなる窮地に陥るおそれもある。"
+ nanbokuchou.9.a: "統一のためには、究極の犠牲を払わねばならない。"
+ nanbokuchou.9.b: "まずは、我々の血統こそ正統であると認めさせねばならない。"
+ destroy_all_clan_buildings_tt: "氏族建造物がすべて破壊され、我々は滅亡する"

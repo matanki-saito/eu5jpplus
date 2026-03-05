@@ -345,7 +345,8 @@
  fishing_village_maintenance: "Needs of Fishing Villages"
  farming_village_maintenance: "Needs of Farming Villages"
  eng_royal_forest_maintenance: "Needs of Royal Forests"
- forest_village_maintenance: "Needs of Forest Villages"
+ forest_tannery: "Forest Tanneries"
+ hunting_lodges: "Hunting Lodges"
  market_village_slot_0: "Needs"
  market_village_maintenance: "Needs of Market Villages"
  university_maintenance: "University Maintenance"
@@ -508,6 +509,7 @@
  
  bronze_tools_guild_maintenance: "Bronze Tool Makers"
  stone_tools_guild_maintenance: "Stone Tool Makers"
+ copper_tools_guild_maintenance: "Copper Tool Makers"
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
  cloth_manufactory_slot_0: "$wool_cloth_manufactory_maintenance$ Method"
  wool_cloth_manufactory_maintenance: "Wool Clothmakers"
@@ -793,6 +795,7 @@
  jewelry_guild_slot_0: "Base [production_methods|e]:"
  gold_base: "Gold Based Jewelry"
  silver_base: "Silver Based Jewelry"
+ copper_base: "Copper Based Jewelry"
  jewelry_guild_slot_1: "Enhancements:"
  gems_enhancement: "Gems Enhancements"
  ivory_enhancement: "Ivory Enhancements"
@@ -1046,3 +1049,6 @@
  tur_turkish_delight: "Turkish Delight"
  cahokia_woodhenge_production_method: "$woodhenge_of_cahokia$ Maintenance"
  woodhenge_of_cahokia_construction: "Constructing $woodhenge_of_cahokia$"
+ local_governor_construction: "Building $local_governor$"
+ naval_governor_maintenance: "$naval_governor$ Maintenance"
+ local_governor_maintenance: "$local_governor$ Maintenance"

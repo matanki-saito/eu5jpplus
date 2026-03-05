@@ -1,5 +1,11 @@
 ﻿l_japanese:
- #Regiment
+ balanced_army: "バランス型陸軍"
+ balanced_army_desc: "[center|e]と[flanks|e]の両方に似た種類の[regiments|e]を配置し、バランスの良い陸軍を編制する。"
+ cav_inf_cav: "騎兵を側面配置"
+ cav_inf_cav_desc: "[flanks|e]に[ShowUnitCategoryName('army_cavalry')]を、[center|e]に[ShowUnitCategoryName('army_infantry')]を配置する。"
+ balanced_navy: "バランス型海軍"
+ balanced_navy_desc: "[center|e]と[flanks|e]の両方に似た種類の[ships|e]を配置し、バランスの良い海軍を編制する。"
+ # Regiment
  subunit_structure_army_roman: "$TYPE$$ROMAN$"
  subunit_structure_army_roman_nickname: "$TYPE$$ROMAN$$NICKNAME$"
  subunit_structure_army_roman_levy: "$TYPE$"
@@ -36,7 +42,7 @@
  subunit_structure_army_nickname: "$ORDINAL$“$NICKNAME$”$TYPE$"
  subunit_structure_army_levy: "$TYPE$"
  subunit_structure_army_levy_nickname: "$TYPE$ “$NICKNAME$”"
- #Ship
+ # Ship
  subunit_structure_navy: "“$NICKNAME$”"
  subunit_structure_navy_prefix: "$PREFIX$“$NICKNAME$”"
  subunit_nickname_english_royal_north_british: "ロイヤル・ノース・ブリティッシュ"
@@ -64,6 +70,11 @@
  subunit_type_army_infantry_levies_breton: "ルイウ"
  subunit_type_army_infantry_levies_welsh: "ルオイド"
  subunit_type_army_infantry_levies_polish: "ポスポリテ・ルシェニェ"
+ subunit_type_army_infantry_levies_finnish: "レビーティト"
+ subunit_type_army_infantry_levies_icelandic: "カルスメン"
+ subunit_type_army_infantry_levies_danish: "ウップブー"
+ subunit_type_army_infantry_levies_swedish: "ウップボード"
+ subunit_type_army_infantry_levies_norwegian: "ウトブー"
  subunit_type_army_infantry_levies_french: "ルヴェ"
  subunit_type_army_infantry_levies_spanish: "レバス"
  subunit_type_army_infantry_levies_english: "召集軍"
@@ -90,6 +101,8 @@
  subunit_type_army_infantry_czech: "歩兵"
  subunit_type_army_infantry_polish: "歩兵"
  subunit_type_army_infantry_dutch: "歩兵"
+ subunit_type_army_infantry_swedish: "歩兵"
+ subunit_type_army_infantry_icelandic: "歩兵"
  subunit_type_army_infantry_frisian: "歩兵"
  subunit_type_army_infantry_low_german: "歩兵"
  subunit_type_army_infantry_high_german: "歩兵"
@@ -113,6 +126,9 @@
  subunit_type_army_cavalry_knights_german: "騎士"
  subunit_type_army_cavalry_knights_scottish_gaelic: "騎士"
  subunit_type_army_cavalry_knights_irish: "騎士"
+ subunit_type_army_cavalry_knights_finnish: "騎士"
+ subunit_type_army_cavalry_knights_icelandic: "騎士"
+ subunit_type_army_cavalry_knights_danish: "騎士"
  subunit_type_army_cavalry_knights_swedish: "騎士"
  subunit_type_army_cavalry_knights_czech: "騎士"
  subunit_type_army_cavalry_knights_polish: "騎士"
@@ -146,6 +162,9 @@
  subunit_type_army_cavalry_czech: "騎兵"
  subunit_type_army_cavalry_russian: "騎兵"
  subunit_type_army_cavalry_ukrainian: "騎兵"
+ subunit_type_army_cavalry_finnish: "騎兵"
+ subunit_type_army_cavalry_norwegian: "騎兵"
+ subunit_type_army_cavalry_swedish: "騎兵"
  subunit_type_army_cavalry_dutch: "騎兵"
  subunit_type_army_cavalry_frisian: "騎兵"
  subunit_type_army_cavalry_german: "騎兵"
@@ -179,6 +198,8 @@
  subunit_type_army_artillery_polish: "砲兵"
  subunit_type_army_artillery_russian: "砲兵"
  subunit_type_army_artillery_ukrainian: "砲兵"
+ subunit_type_army_artillery_icelandic: "砲兵"
+ subunit_type_army_artillery_swedish: "砲兵"
  subunit_type_army_artillery_dutch: "砲兵"
  subunit_type_army_artillery_frisian: "砲兵"
  subunit_type_army_artillery_low_german: "砲兵"
@@ -220,7 +241,7 @@
  subunit_type_army_auxiliary_middle_german: "補助部隊"
  subunit_type_army_auxiliary_high_german: "補助部隊"
  subunit_type_army_auxiliary_occitan: "補助兵"
- subunit_type_army_auxiliary_spanish: "補助兵" #and portuguese
+ subunit_type_army_auxiliary_spanish: "補助兵" # and portuguese
  subunit_type_army_auxiliary_french: "補助兵"
  subunit_type_army_auxiliary_north_italian: "補助兵"
  subunit_type_army_auxiliary_south_italian: "補助兵"
@@ -265,7 +286,7 @@
  RANDOM_NAVAL_MERCENARY_NAME3: "$LOCATION_NAME$バッカニア団"
  SUB_UNIT_IMPRISONED: "投獄中 - [COUNTRY.GetName]の所有"
  SUB_UNIT_IMPRISONED_TITLE: "投獄中のユニット"
- #Unit Categories
+ # Unit Categories
  army_infantry: "歩兵"
  army_cavalry: "騎兵"
  army_artillery: "砲兵"
@@ -282,7 +303,7 @@
  navy_heavy_ship_desc: "大型船は複数のマストと甲板を備えている。戦争を遂行し、世界に力を示すために使われる。"
  navy_light_ship_desc: "小型船は小型で比較的安価な船である。船底が浅く、スピード、機敏性、操作性に優れている。"
  navy_transport_desc: "輸送船は、客船と交易船を組み合わせたもので、軍隊の海上輸送に使われる。"
- #Naval Units
+ # Naval Units
  n_age_1_traditions_galley: "伝統時代のガレー船"
  n_age_1_traditions_light_ship: "伝統時代の小型船"
  n_age_1_traditions_transport: "伝統時代の輸送船"
@@ -405,7 +426,7 @@
  n_long_fada_2_desc: "改良型の$n_long_fada$である$n_long_fada_2$は、より多くのオールを装備し、乗組員も大幅に増えた大型船。長距離航海が可能で、$n_long_fada$以上の戦力を発揮する。"
  n_birlinn: "ビルリン"
  n_birlinn_desc: "地方の族長が所有する小型ガレー船。諸島間の航行に使われるが、戦時には徴用することができる。"
- #Land Units
+ # Land Units
  a_age_1_traditions_infantry: "伝統時代の歩兵"
  a_age_1_traditions_cavalry: "伝統時代の騎兵"
  a_age_1_traditions_auxiliary: "伝統時代の補助兵"
@@ -575,7 +596,7 @@
  a_feudal_levy_desc: "$a_feudal_levy$は、戦時中に領主に対する義務の一環として募兵され、ある程度の軍事訓練を受けた農民によって構成される。これらの召集軍は、最終的には職業軍隊に取って代わられる。"
  a_camp_followers: "非戦闘従軍者"
  a_camp_followers_desc: "$a_camp_followers$は、商人や兵士の家族からなる雑多な集団で、行軍中の軍隊に非公式のサービスを提供する。"
- a_houfnice_desc: "現代の榴弾砲（ハウツァー）は、15世紀にフス派が開発した「ホーフニツェ」砲にちなんで名づけられたと考えられている。この短砲身の大砲は荷馬車に搭載され、戦場で歩兵を支援するために火球や散弾を発射した。"
+ a_houfnice_desc: "現代の榴弾砲（ハウツァー）は、15世紀にフス派が開発した「ホーフニツェ」砲にちなんで名づけられたと考えられている。この短砲身の大砲は荷馬車に搭載され、戦場で歩兵を支援するために砲弾や散弾を発射した。"
  a_serbian_hussars: "セルビアのユサール"
  a_serbian_hussars_desc: "ユサールは軽装の騎兵部隊で、セルビアの騎馬戦士の集団に起源をもつ。軽装甲と俊足の馬でほかの連隊を出し抜くことができ、革新的な戦略の開発への足掛かりとなる。"
  a_peasant_levy: "農民召集軍"
@@ -603,6 +624,7 @@
  a_wagon_train_desc: "[ShowAgeName('age_5_absolutism')]に軍隊の規模が拡大したため、兵站はますます複雑になり、各軍隊は戦場での戦闘効率を維持するために、独自の$a_wagon_train$に依存するようになった。"
  a_wagenburg: "ウォーワゴン"
  a_wagenburg_desc: "$wagenburg_desc$"
+ EFFECTIVE_ARMORY_BUILDINGS: "効率的な[ShowBuildingTypeName('armory')]の建造物"
  a_genoese_crossbowmen: "ジェノヴァ石弓兵"
  a_genoese_crossbowmen_desc: "$a_genoese_crossbowmen$は、第1回十字軍から現在に至るまでジェノバ軍が使用している軍事ユニットである。ジェノヴァ式石弓と大型の盾を装備したこの歩兵たちは、故郷の防衛やヨーロッパでの傭兵として活躍している。"
  a_footmen_desc: "あらゆる軍隊の支柱となる歩兵は、行軍部隊の大半を占める。彼らは前線を維持し、侵入者から祖国を守ることに熱心である。"
@@ -756,7 +778,7 @@
  a_clan_retainers_desc: "どの氏族の軍勢においても、その要は、忠誠と血縁の絆で結ばれた側近の家臣団である。"
  a_clan_retainer_cavalry: "家臣騎兵"
  a_clan_retainer_cavalry_desc: "$a_clan_retainers_desc$"
- #Recruitment Methods
+ # Recruitment Methods
  normal_training: "通常"
  elite_training: "延長"
  rushed_training: "短縮"
@@ -771,7 +793,7 @@
  RECRUITMENT_METHOD_TIME_0: "募集時間：#V 普通#!"
  RECRUITMENT_METHOD_EXPERIENCE: "初期経験値：$VAL|2G/$"
  RECRUITMENT_METHOD_EXPERIENCE_0: "初期経験値：#V 普通#!"
- #Unit Stats
+ # Unit Stats
  SUBUNIT_STAT_NEG_PERC: "$VAL|-%2$"
  SUBUNIT_STAT_NEG_PERC_DIFF: "$VAL|-=%2$"
  SUBUNIT_STAT_POS_PERC: "$VAL|+%2$"
@@ -788,33 +810,33 @@
  SUBUNIT_STAT_SAILORS_DIFF: "$MEN$@sailors!"
  SUBUNIT_STAT_POS_INT: "$VAL|0G$"
  SUBUNIT_STAT_POS_INT_DIFF: "$VAL|+=0$"
- SUB_STRENGTH_DAMAGE_TAKEN: "[strength_damage_taken|e]"
- SUB_MORALE_DAMAGE_TAKEN: "[morale_damage_taken|e]"
- SUB_STRENGTH_DAMAGE_DONE: "[strength_damage_done|e]"
- SUB_MORALE_DAMAGE_DONE: "[morale_damage_done|e]"
- SUB_SUPPLY_WEIGHT: "[unit_weight|e]"
- SUB_ATTRITION_LOSS: "[attrition_loss|e]"
- SUB_FOOD_CONSUMPTION: "[food_consumption|e]"
- SUB_FOOD_STORAGE: "[food_storage|e]"
- SUB_ARMY_MOVEMENT_SPEED: "[movement_speed|e]"
- SUB_TRANSPORT_CAPACITY: "[transport_capacity|e]"
- SUB_MARITIME_PRESENCE: "[maritime_presence|e]"
- SUB_MAX_STRENGTH: "[maximum_strength|e]"
- SUB_CREW_SIZE: "[crew_size|e]"
- SUB_BLOCKADE_CAPACITY: "[blockade_capacity|e]"
- SUB_COMBAT_SPEED: "[combat_speed|e]"
- SUB_INITIATIVE: "[initiative|e]"
- SUB_FRONTAGE: "[frontage|e]"
- SUB_COMBAT_POWER: "[combat_power|e]"
- SUB_FLANKING_ABILITY: "[flanking_ability|e]"
- SUB_BOMBARD_EFFICIENCY: "[bombard_efficiency|e]"
- SUB_SECURE_FLANKS_DEFENSE: "[secure_flanks|e]"
- SUB_ANTI_PIRACY_WARFARE: "[anti_piracy_warfare|e]"
- SUB_ARTILLERY_BARRAGE: "[artillery_barrage|e]"
- SUB_CANNONS: "[cannons|e]"
- SUB_HULL_SIZE: "[hull_size|e]"
- STAT_UNIT_CATEGORY: "$CATEGORY$ [unit_category_short|e]"
- STAT_UNIT_TYPE: "$TYPE$ [unit_type_short|e]"
+ SUB_STRENGTH_DAMAGE_TAKEN: "[strength_damage_taken_with_icon|e]"
+ SUB_MORALE_DAMAGE_TAKEN: "[morale_damage_taken_with_icon|e]"
+ SUB_STRENGTH_DAMAGE_DONE: "[strength_damage_done_with_icon|e]"
+ SUB_MORALE_DAMAGE_DONE: "[morale_damage_done_with_icon|e]"
+ SUB_SUPPLY_WEIGHT: "[unit_weight_with_icon|e]"
+ SUB_ATTRITION_LOSS: "[attrition_loss_with_icon|e]"
+ SUB_FOOD_CONSUMPTION: "[food_consumption_with_icon|e]"
+ SUB_FOOD_STORAGE: "[food_storage_with_icon|e]"
+ SUB_ARMY_MOVEMENT_SPEED: "[movement_speed_with_icon|e]"
+ SUB_TRANSPORT_CAPACITY: "[transport_capacity_with_icon|e]"
+ SUB_MARITIME_PRESENCE: "[maritime_presence_with_icon|e]"
+ SUB_MAX_STRENGTH: "[maximum_strength_with_icon|e]"
+ SUB_CREW_SIZE: "[crew_size_with_icon|e]"
+ SUB_BLOCKADE_CAPACITY: "[blockade_capacity_with_icon|e]"
+ SUB_COMBAT_SPEED: "[combat_speed_with_icon|e]"
+ SUB_INITIATIVE: "[initiative_with_icon|e]"
+ SUB_FRONTAGE: "[frontage_with_icon|e]"
+ SUB_COMBAT_POWER: "[combat_power_with_icon|e]"
+ SUB_FLANKING_ABILITY: "[flanking_ability_with_icon|e]"
+ SUB_BOMBARD_EFFICIENCY: "[bombard_efficiency_with_icon|e]"
+ SUB_SECURE_FLANKS_DEFENSE: "[secure_flanks_with_icon|e]"
+ SUB_ANTI_PIRACY_WARFARE: "[anti_piracy_warfare_with_icon|e]"
+ SUB_ARTILLERY_BARRAGE: "[artillery_barrage_with_icon|e]"
+ SUB_CANNONS: "[cannons_with_icon|e]"
+ SUB_HULL_SIZE: "[hull_size_with_icon|e]"
+ STAT_UNIT_CATEGORY: "$CATEGORY$ [unit_category_short_with_icon|e]"
+ STAT_UNIT_TYPE: "$TYPE$ [unit_type_short_with_icon|e]"
  SUB_STRENGTH_DAMAGE_TAKEN_ICON: "[strength_damage_taken_icon|e]"
  SUB_MORALE_DAMAGE_TAKEN_ICON: "[morale_damage_taken_icon|e]"
  SUB_STRENGTH_DAMAGE_DONE_ICON: "[strength_damage_done_icon|e]"
@@ -850,7 +872,7 @@
  STAT_CLIMATE_UNIT: "\"[CLIMATE.GetIcon][CLIMATE.GetNameNoUnderline]\"、\"$VAL1|=-2%$\"、\"$VAL2|=+2%$\""
  STAT_TOPOGRAPHY_UNIT: "\"[TOPOGRAPHY.GetIcon][TOPOGRAPHY.GetNameNoUnderline]\"、\"$VAL1|=-2%$\"、\"$VAL2|=+2%$\""
  STAT_VEGETATION_UNIT: "\"[VEGETATION.GetIcon][VEGETATION.GetNameNoUnderline]\"、\"$VAL1|=-2%$\"、\"$VAL2|=+2%$\""
- COPIED_FROM_COMPARISON: "[SUBUNITDEFINITION.GetName]は、[TARGET_SUBUNITDEFINITION.GetName]の$ORIG$と比較して$VAL$の[$NAME$|e]を保有している。"
+ COPIED_FROM_COMPARISON: "[SUBUNITDEFINITION.GetName]は、基本的な[TARGET_SUBUNITDEFINITION.GetNameWithNoTooltip]の$ORIG$と比較して$VAL$の[$NAME$|e]を保有している。"
  SUBUNITYPE_COMBAT_TT_TITLE: "戦闘効率"
  SUBUNITYPE_IMPACT_TT_TITLE: "地形の影響"
  BOMBARD_SUBUNIT_TT: "[artillery_bonus|e]：[SUBUNIT.GetArtilleryBonus|2Y]"
@@ -860,7 +882,7 @@
  TOTAL_ARTILLERY_BONUS: "以下の理由により、このユニットは[SingleUnitWindow.GetSelectedUnit.GetArtilleryBonus|V2] [artillery_barrage|e]を得る："
  REINFORCE_UI_TITLE: "#T 補充率#!"
  ARMY_HAS_MAX_SIZE: "この陸軍は完全に補充されると@army_strength!が$VAL|V$となる。"
- #Unit/Subunit Info
+ # Unit/Subunit Info
  UNIT_TYPE_NAME: "#T $NAME$#!"
  SUBUNIT_AVAILABILITY_AS_MERC: "#T 最大$NUM$の[SUBUNITDEFINITION.GetNameWithNoTooltip]#!\nタイプ：[SUBUNITDEFINITION.GetName]\nカテゴリー：[SUBUNITCATEGORY.GetName]"
  TOTAL_SUBUNIT_AVAILABILITY_AS_MERC: "#T 最大$NUM|0$のサブユニット#!\n[CHARACTER.GetName]は最大$NUM|0$のサブユニットを指揮できる"
@@ -895,6 +917,7 @@
  SUBUNIT_SOURCE_LEVY_TOOLTIP_TITLE_TEXT: "召集軍出発地"
  REINF_REGULARS: "@trigger_no! [levies|e]または[mercenaries|e]を補充できない。"
  UARAR_RETREATING: "@trigger_no! [UNIT.GetNameWithNoTooltip]は[retreating|e]中！"
+ UARAR_COMBAT: "@trigger_no! [UNIT.GetNameWithNoTooltip]は[combat|e]中！"
  UARAR_LOADED: "@trigger_no! [UNIT.GetNameWithNoTooltip]は[navy|e]により輸送中！"
  UARAR_ATTRITION_LOSSES: "@trigger_no! [UNIT.GetNameWithNoTooltip]は[attrition_losses|e]している！"
  UARAR_MOTHBALLED: "@trigger_no! [UNIT.GetNameWithNoTooltip]は[mothballed|e]中！"
@@ -913,6 +936,17 @@
  REPAIR_SHIP_ENTRY: "[SUBUNIT.GetName]：#TOOLTIP:$BREAKDOWN_TAG$ $VAL|+=2%$#!"
  REPAIR_REGIMENT_NO_ACCESS_ENTRY: "[SUBUNIT.GetName]：（港湾使用権なし）"
  REPAIR_NONE: "[LOCATION.GetName]で実行できることがない"
+ CANNOT_CREATE_UNNAMED_UNIT_TEMPLATE: "@trigger_no! 名前のない[unit_template|e]は作成できない。"
+ CANNOT_CREATE_EMPTY_UNIT_TEMPLATE: "@trigger_no! ユニットのない[unit_template|e]は作成できない。"
+ UNIT_TEMPLATE_DEFAULT_NAME: "ユニットテンプレート$NUM$"
+ CREATE_ARMY_TEMPLATE: "陸軍テンプレートを作成"
+ CREATE_NAVY_TEMPLATE: "海軍テンプレートを作成"
+ EDIT_ARMY_TEMPLATE: "[UnitTemplateLateralView.GetUnitTemplate.GetNameWithNoTooltip]を編集"
+ EDIT_NAVY_TEMPLATE: "[UnitTemplateLateralView.GetUnitTemplate.GetNameWithNoTooltip]を編集"
+ CREATE_UNIT_TEMPLATE: "ユニットテンプレートを作成"
+ FINISH_EDIT_UNIT_TEMPLATE: "ユニットテンプレートを編集"
+ EDIT_UNIT_TEMPLATE: "[UnitTemplate.GetNameWithNoTooltip]を編集"
+ DELETE_UNIT_TEMPLATE: "[UnitTemplate.GetNameWithNoTooltip]を削除"
  SHOW_UNIT_TYPE: "ユニットタイプを表示"
  TRANSPORTED: "輸送済み"
  STATIONED: "駐留済み"
@@ -924,7 +958,6 @@
  OPEN_UNIT_LOCATION: "ユニットのロケーションを開く"
  GO_TO_UNIT_LOCATION: "ユニットのロケーションへ移動"
  UNIT_LOCATION_STATUS: "[Location.GetNameWithNoTooltip|L]の[Unit.GetStatus]"
- REPAIR_AT_PORT: "[port|e]にいる：$VAL|G%$"
  UNIT_GOODS_ACCESS: "[goods|e]が入手可能：x$HOW|2$"
  REINFORCE_GOODS_BASE: "基本値：$VAL|V2%$"
  REINFORCE_GOODS_ACCESS: "[goods|e]がすべて入手可能：#V 100%#!"
@@ -941,7 +974,7 @@
  COMBATSIDE_MORALE_DEFENDER: "#T [COUNTRY.GetAdjectiveWithNoTooltip]の士気#!\n[COUNTRY.GetLongName]はこの[battle|e]の[defender|e]である。"
  MORALE_LAND_FLAVOR: "#F 現在前線にいる[regiments|e]のみが考慮される。予備兵の連隊や逃亡中の連隊は考慮されない。#!"
  MORALE_NAVAL_FLAVOR: "#F 現在前線にいる[ships|e]のみが考慮される。予備の船や逃亡中の船は考慮されない。#!"
- COMBATSIDE_MORALE_DATA: "現在戦闘中の[COUNTRY.GetAdjective]軍ユニットの[morale|e]は、$CURR|V2$ / $MAX|V2$"
+ COMBATSIDE_MORALE_DATA: "以下における[COUNTRY.GetAdjective]の[morale|e]：\n• #G [engaged]ユニット：$CURR|2$#! \n最大値：$MAX|V2$"
  MORALE_SIEGE_TT: "#T 現在の士気#!\nこの包囲軍の平均[morale|e]は$CURR|Y2$ / $MAX|2V$"
  MORALE_C_TT: "#T 現在の士気#!\nこの[section|e]の平均[morale|e]は$CURR|Y2$ / $MAX|2V$"
  MORALE_TT: "#T 現在の士気#!\nこの[section|e]の平均[morale|e]は$CURR|Y2$ （#TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|+=2$#!） / #TOOLTIP:$BREAKDOWN_MAX$ $MAX|L2$#!"
@@ -975,7 +1008,7 @@
  EXP_FROM_OBJ: "$NAME$：$VAL|+=2/%$"
  EXPERIENCE_TOOLTIP_STACK: "#T 経験値#!\n平均[experience|e]は$VALUE|V/%$、戦闘での[damage_taken|e]が#G -$FACTOR|2%$#!低下"
  XP_DECAY_HEAD: "#T 経験値の減少#!\n現在の$CURR|Y%V2$の[experience|e]からの$PERC|-=2%$の減少は以下の理由による："
- XP_DECAY_NUM: "経験値が減少：#TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|L%+=$#!"
+ XP_DECAY_NUM: "経験値が減少：#TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|L/%+=$#!"
  XP_DECAY_GOODS_ACCESS: "交易品が入手可能：$NUM|Y2%$"
  UNIT_NAME: "#T $NAME$#!"
  REGIMENT_SIZE: "#Y $SIZE$#! 兵士\n"
@@ -997,7 +1030,7 @@
  ESTIMATE_ARIVAL: "$DATE|Y$に$PROV|Y$へ到着予定"
  DEFINITE_ESTIMATE_ARIVAL: "$DATE|Y$に[TARGET_LOCATION.GetNameWithNoTooltip]に到着"
  POSSIBLE_ESTIMATE_ARIVAL: "$DATE|Y$に[TARGET_LOCATION.GetNameWithNoTooltip]に到着見込み"
- RAISE_LEVY_TYPE: "\"\"[SUBUNITDEFINITION.GetCategory.GetIcon][SUBUNITDEFINITION.GetName]\"、\"\"、\"\"、\"\"#M"
+ RAISE_LEVY_TYPE: "\"[SUBUNITDEFINITION.GetCategory.GetIcon] [SUBUNITDEFINITION.GetName]\";\"\";\"\";\"\"#M"
  POSSIBLE_ESTIMATE_ARIVAL_LOCKED: "移動がロックされているため、[LOCATION.GetName]に到着後、$DATE|Y$に[TARGET_LOCATION.GetNameWithNoTooltip]に到着見込み"
  NAVY_HIDDEN_SIMPLE_TOOLTIP: "#T 隠伏状態の海軍#! [UnitMarkerItem.GetHiddenTooltip]"
  ARMY_HIDDEN_SIMPLE_TOOLTIP: "#T 隠伏状態の陸軍#! [UnitMarkerItem.GetHiddenTooltip]"
@@ -1037,7 +1070,7 @@
  UNIT_OWNER_TT: "このユニットは[Unit.GetCountry.GetName]に属する"
  ARMY_OWNER_TT: "この陸軍は[Unit.GetCountry.GetName]に属する"
  NAVY_OWNER_TT: "この海軍は[Unit.GetCountry.GetName]に属する"
- #Combat Imminent
+ # Combat Imminent
  COMBAT_BIG_BONUS: "@arrow_bonus_tier_3!"
  COMBAT_MEDIUM_BONUS: "@arrow_bonus_tier_2!"
  COMBAT_SMALL_BONUS: "@arrow_bonus_tier_1!"
@@ -1085,7 +1118,7 @@
  COMBAT_IMMINENT_STACKWIPE_THEY_NAVY: "@arrow_malus_tier_3! 敵側はわが[navy|e]を即座に殲滅できる。"
  COMBAT_IMMINENT_STACKWIPE_WE: "@arrow_bonus_tier_3! わが軍は敵側の[army|e]を即座に殲滅できる。"
  COMBAT_IMMINENT_STACKWIPE_WE_NAVY: "@arrow_bonus_tier_3! わが軍は敵側の[navy|e]を即座に殲滅できる。"
- #Combat
+ # Combat
  RETREAT_BLOCK_TT: "#T 撤退不可#!\n$NEED|Y$時間が経過するまでは戦闘から撤退できない。この戦闘は開始からまだ$HOURS|Y$時間しか経過していない。"
  FIGHTING_REGIMENTS: "$NUM|G$ [regiments|e]が戦闘中：$MEN|G$\n"
  RESERVE_REGIMENTS: "$NUM|Y$ [regiments|e]が予備兵にいる：$MEN|Y$\n"
@@ -1140,8 +1173,8 @@
  COMBATTOOLTIP_NO_LONGER_FIGHT: "@trigger_no! この[regiment|e]はもう戦えない！"
  COMBATTOOLTIP_NOT_ENGAGED_NAVAL: "@trigger_no! この[ship|e]はまだ交戦が可能ではない！"
  COMBATTOOLTIP_NOT_ENGAGED: "@trigger_no! この[regiment|e]はまだ交戦が可能ではない！"
- COMBATTOOLTIP_FIREAT: "$NAME$（$TYPE|Y$）を攻撃して$STR|G$ [strength_icon]ダメージ、$MOR|G$ [morale_icon][morale]ダメージを与える。"
- COMBATTOOLTIP_FIREAT_NAVAL: "$NAME$（$TYPE|Y$）を攻撃して$STR|G$ $ICON$ダメージ、$MOR|G$ [morale_icon][morale]ダメージを与える。"
+ COMBATTOOLTIP_FIREAT: "$BOX$で$NAME$（$TYPE|Y$）を攻撃して$STR|G$ [strength_icon]ダメージ、$MOR|G$ [morale_icon][morale]ダメージを与える。"
+ COMBATTOOLTIP_FIREAT_NAVAL: "$BOX$で$NAME$（$TYPE|Y$）を攻撃して$STR|G$ $ICON$ダメージ、$MOR|G$ [morale_icon][morale]ダメージを与える。"
  COMBATTOOLTIP_NO_TARGET: "@trigger_no! 現在、標的がいない。"
  SUB_COM_DET: "[section|e]：$BOX$"
  SUB_COM_TOO_MUCH_FRONTAGE_S_IN_BOX: "$BOX$内に[ships|e]が多すぎる：（交戦できない）"
@@ -1157,7 +1190,7 @@
  CFI_UNIT_DETAIL: "#T 総率先力は$VAL|2$#!\n[initiative|e]1ポイントごとに確率+$SCALE|2%V$。"
  CFCS_UNIT_DETAIL: "#T 総戦闘速度は$VAL|2$#!\n[combat_speed|e]1ポイントごとに確率+$SCALE|2%V$。"
  CFCS_UNIT_SUB: "[SUBUNITDEFINITION.GetName]の[combat_speed|e]：$VAL|2G$"
- SUB_COM_BOMB_NOT: "[SUBUNIT_CATEGORY.GetName]は以下のフェーズでダメージを与えられる：#R $bombard_PHASE$#!"
+ SUB_COM_BOMB_NOT: "[SUBUNITCATEGORY.GetName]は以下のフェーズでダメージを与えられない：#R $bombard_PHASE$#!"
  COMBATTOOLTIP_WE_MANY_L: "以下から攻撃を受けている：#TOOLTIP:$BREAKDOWN_TAG$ $VAL|G$の連隊#!"
  COMBATTOOLTIP_WE_MANY_N: "以下から攻撃を受けている：#TOOLTIP:$BREAKDOWN_TAG$ $VAL|G$隻の艦船#!"
  COMBATTOOLTIP_WE_ONE: "以下から攻撃を受けている：[SUBUNIT.GetName][SUBUNIT.GetDefinition.GetCategory.GetIcon][SUBUNIT.GetTypeIcon]"
@@ -1196,6 +1229,7 @@
  CT_IMPACT_ON_LEVY_VS_REGULAR: "$VAL|+=%$ [levy|e] 対 [regulars|e]：$DAMAGE$"
  CT_IMPACT_ON_EXPERIENCE: "$VAL|+=%$ [TARGET_SUBUNIT.GetName]の[experience|e]：$DAMAGE$"
  CT_IMPACT_ON_CATEGORY_TAKEN: "$VAL|+=%$ 対象は[TARGET_SUBUNIT.GetDefinition.GetCategory.GetName]：$DAMAGE$"
+ CT_IMPACT_ON_COMBINED_ARMS: "$VAL|+=%$ [combined_arms|e]：$DAMAGE$"
  CT_IMPACT_ON_MIL_TAC: "$VAL|+=%$ [TARGET_SUBUNIT.GetController.GetName]の[military_tactics|e]：$DAMAGE$"
  CT_IMPACT_ON_GUNS_VS_HULL: "$VAL|+=%$ [cannons|e] 対 [hull_size|e]：$DAMAGE$"
  CT_IMPACT_ON_NAVAL_DAMAGE_TAKEN: "$VAL|+=%$ 海軍被ダメージ：$DAMAGE$"
@@ -1211,8 +1245,7 @@
  CT_IMPACT_ON_MORALE_DAMAGE_TAKEN: "[morale_damage_taken|e]から$VAL|+=%$：$DAMAGE$"
  CT_IMPACT_ON_NOT_ENGAGED: "$VAL|+=%$ [TARGET_SUBUNIT.GetName]は[engaged|e]ではない：$DAMAGE$"
  CT_IMPACT_ON_MORALE_SCALE: "$VAL|+=%$ 士気 対 基本士気：$DAMAGE$"
- CT_IMPACT_ON_RELATIVE_STRENGTH: "[max_strength|e]からの[SUBUNIT.GetCurrentStrengthPercentage|2%]にて$VAL|+=%$：$DAMAGE$"
-
+ CT_IMPACT_ON_RELATIVE_STRENGTH: "[max_strength|e]の[SUBUNIT.GetCurrentStrengthPercentage|2%]から$VAL|+=%$：$DAMAGE$"
  MOVE_LEFT_FLANK: "左側面へ移動"
  MOVE_ALL_LEFT_FLANK: "すべての[SubUnit.GetDefinition.GetCategory.GetName]を左側面へ移動"
  MOVE_ALL_TYPE_LEFT_FLANK: "すべての[SubUnit.GetDefinition.GetName]を左側面へ移動"
@@ -1265,7 +1298,7 @@
  HOURLY_MORALE_HIT: "毎時間、戦闘中の各ユニットは士気を追加で$VAL|R2$失う。"
  NO_COMMANDER: "指揮官がいない"
  NO_ADMIRAL: "提督がいない"
- #Garrison
+ # Garrison
  GARRISON_FORT: "現在の守備隊：$CURR|Y$\n要塞に配置できる[garrison|e]の最大兵員数は$MAX$。ここには$FORT|Y$レベルの要塞がある。"
  NO_TYPES_OF_FORTS_HERE: "@trigger_no! [Location.GetName]に[fortifications|e]はない。"
  GARRISON_TT: "#T [garrison|e]#!\n$WHY$"
@@ -1276,7 +1309,7 @@
  FORT_LEVEL_VAL: "#e 要塞レベル#W ：[LocationView.GetLocation.GetFortLevel]"
  GARRISON_FLAVOR: "活動中のすべての要塞には、防壁に配置し巡回をおこなう歩哨が必要である。これは要塞に現在何名の兵士がいるかを表す。"
  CURRENT_FORT: "現在の[fortification|e]レベル。\nクリックで生産画面を開く。"
- #Sieges
+ # Sieges
  SIEGE_FALL_CHANCE_TXT: "次フェーズの$game_concept_siege$成功確率は[Siege.GetFallChance|2%]。"
  SIEGE_FALL_CHANCE_TT: "陥落確率：[Siege.GetFallChance|2%]\n次フェーズ：[Siege.GetOccupationDaysLeft]"
  SIEGE_TOO_FEW_MEN_TXT: "#R なし#!"
@@ -1294,11 +1327,11 @@
  STATUS_QUO: "進展なし"
  STATUS_QUO_BREAKDOWN: "包囲の結果\n現状維持となった場合、[siege|e]に変化はない。"
  FORTRESS_DAMAGED: "要塞損傷"
- SIEGE_NONE: "No Status"
+ SIEGE_NONE: "ステータスなし"
  SIEGE_BREACH_EXPLANATION: "各包囲フェーズごとに、攻撃側は城壁を破壊できる可能性がある。城壁を破壊すると、包囲ロールに$BREACHBONUS|=+$のボーナスが付与される。"
  SIEGE_OUTCOME_LABEL: "包囲フェーズの結果"
- SIEGE_CHANCE_SHORT: "各フェーズで$MIN|Y$ - $MAX|Y$のダイスロールがおこなわれ、次に$MODIFIERS|+=L$の補正を受ける。"
- FALL_CHANCE_TITLE: "\"結果\"、\"ダイスの範囲\"、\"確率\""
+ SIEGE_CHANCE_SHORT: "各フェーズで$MIN|Y$から$MAX|Y$（ダイス範囲）のダイスロールがおこなわれ、次に#R $MODIFIERS|L+$#!の補正を受ける。"
+ FALL_CHANCE_TITLE: "\"起こりうる結果\"、\"ダイスの範囲\"、\"確率\""
  SIEGE_CHANCE_EXPLANATION: "包囲フェーズが始まるたびに、ダイスロール（$MIN|Y$から$MAX|Y$）がおこなわれる。その出目は包囲補正（$MODIFIERS|+=$）に加算される。加算前の出目が1の場合、攻撃側には疫病の大流行が発生し、[maximum_strength|e]の$VAL|R%$、兵員数が減少する。"
  SIEGE_CHANCE_LINE: "\"#TOOLTIP:$BREAKDOWN_TAG$ $NAME|L$#!\"、\"$RANGE$\"、\"$CHANCE$\""
  SIEGE_DATES: ""
@@ -1315,13 +1348,13 @@
  OFFENSIVE_IMPACT_OF: "[COUNTRY.GetLongName]からの攻撃的影響"
  OCCUPATION_DAYS_LEFT: "この[location|e]が占領されるまで、[Siege.GetOccupationDaysLeft]日。"
  TOO_FEW_MEN_INFO: "@warning_icon! [Siege.GetLocation.GetName]を[occupy|e]するには@army_strength!が[Siege.GetLocation.GetMenNeededForSiege|V]以上必要。"
- #SIEGE_IN_X_DAYS: "#T Siege Phase Timer#!\nThe next siege phase is in $VAL|Y$ day(s).\nThe length of a siege phase of $SIZE|Y$ is due to:\n$WHY$"
+ # SIEGE_IN_X_DAYS: "#T Siege Phase Timer#!\nThe next siege phase is in $VAL|Y$ day(s).\nThe length of a siege phase of $SIZE|Y$ is due to:\n$WHY$"
  SIEGE_CURRENT_TIME: "現在の時間"
  LOCAL_DEFENSIVENESS: "$VAL|%1$"
  NO_PRIOR_DICEROLL: "なし"
- YES_PRIOR_DICEROLL: "[ToString_int32(Add_int32(Siege.GetLastSiegeDiceRoll, Siege.GetSiegeModifierValue))] ([Siege.GetSiegeStatusLocalized])"
+ YES_PRIOR_DICEROLL: "[ToString_int32(Add_int32(Siege.GetLastSiegeDiceRoll, Siege.GetSiegeModifierValue))]（[Siege.GetSiegeStatusLocalized]）"
  SIEGE_FALL_CHANCE: "失敗確率"
- SIEGE_LAST_ROLL_TT: "最終フェーズのダイスロール：[Select_CString(GreaterThan_int32(Siege.GetLastSiegeDiceRoll, '(int32)0'), ToString_int32(Add_int32(Siege.GetLastSiegeDiceRoll, Siege.GetSiegeModifierValue)), Localize('NO_PRIOR_DICEROLL'))]"
+ SIEGE_LAST_ROLL_TT: "最終フェーズのダイスロール：[Select_CString(GreaterThan_int32(Siege.GetLastSiegeDiceRoll, '(int32)0'), Localize('YES_PRIOR_DICEROLL'), Localize('NO_PRIOR_DICEROLL'))]"
  SIEGE_IN_X_DAYS_PHASE_TITLE: "次フェーズ"
  SIEGE_IN_X_DAYS_PHASE: "$VAL|Y$日後"
  SIEGEASSAULT: "突撃"
@@ -1343,16 +1376,16 @@
  FORT_LEVEL_TT: "#T 要塞レベル#!\n$WHY$\n\n#F 要塞は、木造の単純な防壁から、堂々とした石造りの建物までさまざまである。この値は、この領土に存在する要塞のレベルを表す。#!"
  SIEGE_MODIFIER_ARTILLERY: "砲兵"
  SIEGE_ARTILLERY_EXPLANATION: "#italic 砲兵は[siege|e]ロールにボーナスを付与する。このボーナスは、[regiments|e]の数と[fort|e]レベルと比較した[artillery_barrage|e]により変化する。#!"
- BOMBARD_ENTRY_IN_SIEGE: "この包囲の砲撃ボーナスは#TOOLTIP:$BREAKDOWN_TAG$ [Siege.GetArtilleryImpact|L]#!。\n"
+ BOMBARD_ENTRY_IN_SIEGE: "#T [LOCATION.GetNameWithNoTooltip]の砲兵隊の対要塞ボーナス#!\nこの包囲の砲撃ボーナス：#TOOLTIP:$BREAKDOWN_TAG$ [Siege.GetArtilleryImpact|L]#!\n"
  SIEGE_CULTURE_WAR: "[CULTURE.GetName]の[cultural_influence|e] vs [TARGET_CULTURE.GetName]の[cultural_tradition|e]：$VAL|+=2%$"
  SIEGE_CULTURE_WAR_ON_US: "[CULTURE.GetName]の[cultural_influence|e] vs [TARGET_CULTURE.GetName]の[cultural_tradition|e]：$VAL|-=2%$"
  LOOT_MAP_TEXT: "金 $VAL|=$ を略奪"
  NO_REGIMENTS_THAT_CAN_BOMBARD: "@trigger_no! 砲撃力をもつ[regiments|e]がいない。"
  BOMBARD_SUBUNIT_ENTRY: "[SUBUNIT.GetName]：#TOOLTIP:$BREAKDOWN_TAG$ $VAL|L2$#!"
- SUBUNIT_ARTILLERY_BREAKDOWN: "\n[SUBUNIT.GetName]の砲撃ボーナス\n以下の理由により、有効な砲撃ボーナスは$VAL$となる：\n[artillery_barrage|e]：$ARTILLERY_BONUS|+$\n要塞レベル：$FORT_LVL|+$"
+ SUBUNIT_ARTILLERY_BREAKDOWN: "\n#T [SUBUNIT.GetName]の砲撃ボーナス#!\n以下の理由により、有効な砲撃ボーナスは$VAL$となる：\n[artillery_barrage|e]：$ARTILLERY_BONUS|+$\n要塞レベル：$FORT_LVL|+$"
  SUBUNIT_FORT_MAX: "この[location|e]の要塞レベルが$VAL|0$であっても、この計算では要塞レベルが$MAX|0$を超えない。"
  SIEGE_REGIMENTS_FORT_ARTILLERY: "さらに、各[artillery_barrage|e]に必要な[regiments|e]数の$VAL|V$で除算される。"
- MAXIMUM_ARTILLERY_BONUS: "わが国の最大$MODIFIER$は#TOOLTIP:$BREAKDOWN_TAG$ $VALUE|2L$#!。"
+ MAXIMUM_ARTILLERY_BONUS: "最大$MODIFIER$：#TOOLTIP:$BREAKDOWN_TAG$ $VALUE|2L$#!"
  ARTILLERY_BONUS_VS_FORT_BREAKDOWN: "\n砲兵隊の対要塞ボーナスの概要\n以下の理由により、最大値は$VALUE$となる："
  NO_DAMAGED_SUBUNITS_ARMY: "[maximum_strength|e]を下回る[regiments|e]\nこの[section|e]には[maximum_strength]を下回る[regiments]がいない。"
  NO_DAMAGED_SUBUNITS_NAVY: "損傷した[ships|e]\nこの[section|e]には損傷を受けた[ships]がいない。"
@@ -1360,7 +1393,7 @@
  DAMAGED_SUBUNIT_A_ENTRY: "[SUBUNIT.GetDefinition.GetCategory.GetIcon][SUBUNIT.GetTypeIcon][SUBUNIT.GetName]：[SUBUNIT.GetStrength|V] / [SUBUNIT.GetMaxStrength|V]@army_strength!"
  DAMAGED_SUBUNITS_HEADER_NAVY: "以下の[ships|e]は損傷を受けている："
  DAMAGED_SUBUNIT_N_ENTRY: "[SUBUNIT.GetDefinition.GetCategory.GetIcon][SUBUNIT.GetTypeIcon][SUBUNIT.GetName]：[SUBUNIT.GetStrength|V]"
- #Food
+ # Food
  SUPPLY_LIMIT_IMPACT: "[Unit.GetLocation.GetNameWithNoTooltip]にいる[Unit.GetNameWithNoTooltip]の供給限界"
  UNIT_FOOD_CONSUMPTION_ENTRY: "$COUNT$ [SUBUNITDEFINITION.GetName]：$VAL|+=2$"
  FOODCONSUMPTION_FROM_UNITS: "[regiments|e]からの基本値：$VAL|Y$"
@@ -1419,38 +1452,48 @@
  LOSING_FOOD_TT: "この[unit|e]は、現在地の[location|e]から[food|e]を調達できないため、[food_consumption|e]が獲得量を上回っている。"
  REGAINING_FOOD_TT: "この[unit|e]は、[food|e]の獲得量が[food_consumption|e]を上回っているため、食糧が増加している。"
  SUPPLY_WEIGHT: "[unit_weight|e]：$VALUE|2V$（領土内で$TOTAL|2V$）"
- #Attrition
+ # Attrition
  BASE_ATTRITION: "補正前の[attrition|e]：$VALUE|Y$"
  ATTRITION_MAX: "[LOCATION.GetName]で最大[LOCATION.GetModifierValue('max_attrition')]#R %#!。"
  MULTIPLICATIVE_ATTRITION: "次の補正は積として適用される：\n"
  ATTRITION_HISTORY: "#T 消耗履歴#!\nこの[unit|e]の[sub_units|e]が数ヵ月間で被った[attrition|e]："
  ATTRITION_HISTORY_ENTRY: "$MONTH|Y$ $YEAR|Y$：$ATTRITION|R$"
- #Become Mercenary
+ # Become Mercenary
  MERC_UNIT_NAVY_BASED: "@trigger_no! 我々は[COUNTRY.GetCountryTypeName]であるため、[navies|e]を[mercenaries|e]として貸し出せない。"
  MERC_UNIT_ARMY_BASED: "@trigger_no! 我々は[COUNTRY.GetCountryTypeName]であるため、[armies|e]を[mercenaries|e]として貸し出せない。"
  MERC_UNIT_HAS_MERCENARIES: "@trigger_no! [UNIT.GetName]にはほかの供給源からの傭兵が含まれているため、傭兵として提供できない。"
  MERC_UNIT_HAS_ARMY_LEVY: "@trigger_no! [UNIT.GetName]には[army_levies|E]が含まれているため、傭兵ユニットにはなれない。"
  MERC_UNIT_HAS_NAVY_LEVY: "@trigger_no! [UNIT.GetName]には[navy_levies|E]が含まれているため、傭兵ユニットにはなれない。"
  BECOME_MERCENARY: "雇用可能にする"
- BECOME_MERCENARY_WAR: "#R 戦争中は不可能。#!"
- BECOME_MERCENARY_INFO: "[army|e]を[mercenaries|e]として他国に貸し出せるようになる。この取引からは収入が得られる。"
+ BECOME_ARMY_MERCENARY: "傭兵として陸軍を提供"
+ BECOME_NAVY_MERCENARY: "傭兵として海軍を提供"
+ BECOME_MERCENARY_WAR: "@trigger_no!#R 戦争中は不可能。#!"
+ BECOME_MERCENARY_INFO: "[Select_CString(UNIT.IsArmy, '陸軍', '海軍')]を[mercenaries|e]として他国に貸し出せるようになる。この取引からは収入が得られる。"
  BECOME_MERCENARY_HEADER: "多くの[armies|e]が[mercenaries|e]として他国へ貸し出されている。"
  BECOME_MERCENARY_CTA: "クリックで[armies|e]を傭兵として貸し出す。"
  CONTAINS_MERCENARIES: "#T 傭兵あり#!\nこの[unit|e]には[mercenaries|e]が含まれている。"
- #Balance Army
+ OFFERED_MERCENARIES: "#T 雇用可能なユニット#!\nこの[unit|e]は[mercenaries|e]として雇用可能。"
+ # Balance Army
  BALANCE_ARMY_IN_COMBAT: "@trigger_no! 戦闘中のユニットは調整できない。"
  BALANCE_ARMY: "ユニットの調整"
  BALANCE_ARMY_INFO: "4つの全セクション（正面、左側面、右側面、予備兵）が均一になるよう、[regiments|e]をユニットに再分配する。"
  BALANCE_ARMY_CTA: "ユニットを調整する。"
- #Disband
+ # Fortify Flank
+ FORTIFY_LEFT_FLANK: "左側面を強化する"
+ FORTIFY_CENTER_FLANK: "正面を強化する"
+ FORTIFY_RIGHT_FLANK: "右側面を強化する"
+ FORTIFY_LEFT_RIGHT_FLANK: "左右両側面を強化する"
+ AUTO_BALANCE_FLANKS: "両側面のバランスを自動化する"
+ DEACTIVATE_AUTO_BALANCE_FLANKS: "両側面のバランスの自動化を無効にする"
+ # Disband
  DISBAND_ARMY_CONFIRM_TITLE: "解散の確認"
  DISBAND_ARMY_LEVIES_CONFIRM_TITLE: "召集軍の解散の確認"
- DISBAND_ARMY_CONFIRM: "[UNIT.GetName|Y]を解散すると、$NUM|Y$の[regiments|e]から$STRENGTH|Y$名の兵士が失われる。"
- DISBAND_NAVY_CONFIRM: "[UNIT.GetName|Y]を解散すると、$NUM|Y$隻の[ships|e]が失われる。"
- DISBAND_ARMY_LEVIES_CONFIRM: "[UNIT.GetName|Y][levies|e]を解散すると、$NUM|Y$ [regiments|e]から$STRENGTH|Y$名の兵士が失われる。"
- DISBAND_NAVY_LEVIES_CONFIRM: "[UNIT.GetName|Y][levies|e]を解散すると、$STRENGTH|Y$隻の[ships|e]が失われる。"
- DISBAND_ARMY_LEVIES_EXTRA: "この[army_levies|E]が解散すると、$VAL|Y$の[population_i]がもとの[location|e]に戻る。"
- DISBAND_NAVY_LEVIES_EXTRA: "この[navy_levies|E]が解散すると、$VAL|Y$の[population_i]がもとの[location|e]に戻る。"
+ DISBAND_ARMY_CONFIRM: "@warning_icon![UNIT.GetName|Y]を完全に解散すると、$NUM|Y$の[regulars_with_icon|e]から$STRENGTH|Y$名の兵士が失われる。\n\n"
+ DISBAND_NAVY_CONFIRM: "@warning_icon![UNIT.GetName|Y]を完全に解散すると、$NUM|Y$隻の[regular_ship_with_icon|e]が失われる。\n\n"
+ DISBAND_ARMY_LEVIES_CONFIRM: "$NUM|Y$個の[levy]の[regiments|e]のみが解散する。\n\n"
+ DISBAND_NAVY_LEVIES_CONFIRM: "$NUM|Y$隻の[levy]の[ships|e]のみが解散する。\n\n"
+ DISBAND_ARMY_LEVIES_EXTRA: "[army_levies_with_icon|E]から$VAL|Y$の[population_i]がもとの[location|e]に戻る。"
+ DISBAND_NAVY_LEVIES_EXTRA: "[navy_levies_with_icon|E]から$VAL|Y$の[population_i]がもとの[location|e]に戻る。"
  DISBAND_PRISONERS_EXTRA: "$PRISONERS$ [prisoner|E][sub_units|e]は失われない。"
  DISBAND_MERCENARIES_EXTRA: "$MERCS$ [mercenary|E] [sub_units|e]は失われない。"
  DISBAND_PRISONERS_AND_MERCENARIES_EXTRA: "$MERCS$ [mercenaries|E]と$PRISONERS$ [prisoners|E]は失われない。"
@@ -1467,7 +1510,7 @@
  DISBAND_NOT_IN_COMBAT: "@trigger_no! 戦闘中のユニットは解散できない。"
  DISBAND_NOT_ARMY_BASED: "@trigger_no! 遊牧民は解散できない！"
  DISBAND_NOT_NAVY_BASED: "@trigger_no! 海賊は解散できない！"
- #Shatter
+ # Shatter
  SHATTER_ACTION: "完全撤退を命じる"
  SHATTER_ACTION_INFO_ARMY: "ユニットに対し、安全な場所に分散して撤退するよう命令する。この撤退は妨害されることがない。完全撤退では、[army|e]は現在の兵員数の$PERCENTAGE_LOSS|R%$を失うため、この[army|e]の[manpower_i]は$STRENGTH_LOSS|R$減少する。"
  SHATTER_ACTION_INFO_NAVY: "ユニットに対し、安全な場所に分散して撤退するよう命令する。この撤退は妨害されることがない。完全撤退では、この[navy|e]は現在の[ships|e]の$PERCENTAGE_LOSS|R%$を失う。"
@@ -1477,12 +1520,12 @@
  SHRET_NO_VALID_RETREAT_TARGET: "@trigger_no! 撤退先となる友好的な領土が近くにない。"
  SHRET_ALREADY_RETREATING: "@trigger_no! ユニットはすでに撤退中。"
  SHATTER_ACTION_FROM_UI: "#T 完全撤退を命じる#!\n$WHERE|Y$に分散して撤退するよう命令する。"
- #Split in Half
+ # Split in Half
  SPLIT_HALF: "部隊の二分"
  SPLIT_HALF_INFO: "ユニットを可能なかぎり均等に二分する。"
  SPLIT_HALF_CTA: "ユニットを二分する。"
  CANT_SPLIT_HALF: "@trigger_no! 二分するには、2つ以上のサブユニットが必要。"
- #Assault
+ # Assault
  ASSAULT_ALREADY: "@trigger_no! すでに突撃を実行中。"
  ASSAULT_NOT_MERCES: "@trigger_no! 城壁を破壊しなければ、[mercenaries|e]は突撃への参加を拒否する。"
  ASSAULT_TOO_WEAK: "@trigger_no! 突撃するのに十分な[ShowUnitCategoryName('army_infantry')]がこの包囲にいない。"
@@ -1495,7 +1538,14 @@
  SIEGE_ODDS_WEAK: "@warning_icon! 突撃は失敗する可能性が高い。"
  SIEGE_ODDS_RISKY: "$BULLET$この突撃は危険だ！"
  SIEGE_ODDS_POSSIBLE: "@trigger_yes! 突撃は成功する見込みがある！"
- #Attach to Units
+ # Return home at war
+ TOGGLE_RETURN_HOME_AT_WAR_ON: "戦争中に港へ帰還しない"
+ TOGGLE_RETURN_HOME_AT_WAR_OFF: "戦争中に港へ帰還する"
+ TOGGLE_RETURN_HOME_AT_WAR_ON_INFO: "この[navy|e]はわが国が[war|e]状態にあるとき、友好港を探さない。"
+ TOGGLE_RETURN_HOME_AT_WAR_OFF_INFO: "この[navy|e]はわが国が[war|e]状態にあるとき、友好港を探す。"
+ TOGGLE_RETURN_HOME_AT_WAR_ON_CTA: "この[navy|e]を、戦争中に港へ帰還するよう設定する"
+ TOGGLE_RETURN_HOME_AT_WAR_OFF_CTA: "この[navy|e]を、戦争中に港へ帰還しないよう設定する"
+ # Attach to Units
  TOGGLE_ATTACH_OFF: "合流を許可"
  TOGGLE_ATTACH_OFF_INFO: "このユニットはほかのユニットの合流を許可している。"
  TOGGLE_ATTACH_OFF_INFO_FALSE: "このユニットはほかのユニットの合流を許可していない。"
@@ -1513,14 +1563,16 @@
  ATTACH_TO_UNIT_CTA: "$UNIT_NAME$に合流させる。"
  UW_UNITS_ATTACHED: "以下のユニットが$UNIT_NAME$に合流中："
  DETACH_SUBUNIT_FROM: "[SubUnitCategory.GetNameWithNoTooltip]をユニットから分離する"
+ DETACH_SUBUNIT_FROM_AND_SELECT: "[SubUnitCategory.GetNameWithNoTooltip]をユニットから分離し、選択する"
  DETACH_HALF_SUBUNIT_FROM: "[SubUnitCategory.GetNameWithNoTooltip]の半数をユニットから分離する"
+ DETACH_HALF_SUBUNIT_FROM_AND_SELECT: "[SubUnitCategory.GetNameWithNoTooltip]の半数をユニットから分離し、選択する"
  DETACH_FROM: "ユニットを分離"
  DETACH_FROM_INFO: "ユニットにほかのユニットの自動追従をやめさせる。"
  DETACH_FROM_CTA: "以下の$NAME$の合流をやめる。"
  UW_ATTACHED_TO: "（$NAME$に合流中）"
  UW_NOT_POSSIBLE_TO_ATTACH: "@trigger_no! 合流を許可している友軍ユニットがいない。"
  UW_NOT_POSSIBLE_TO_ATTACH_MOVED_TOO_FAR: "@trigger_no! 合流を許可し、次の州に向かって最大$PERCENTAGE$%移動した友軍ユニットがいない。"
- #Merge Units
+ # Merge Units
  MERGE_TO_STRONGEST: "最強のユニットに結合"
  MERGE_TO_STRONGEST_INFO: "すべてのユニットが、選択された最強のユニット（[UNIT.GetLocation.GetName]の[UNIT.GetName]）と結合する。"
  MERGE_TO_STRONGEST_CTA: "ユニットを結合する。"
@@ -1537,7 +1589,7 @@
  NO_MERGE_UNIT_TYPE: "[navies|e]と[armies|e]は結合できない（$FROM|Y$と$TO|Y$）"
  MERGE_UNITS_DRO: "結合を選択すると、現在選択中の複数のユニットを1つのユニットにする。"
  MERGE_UNIT_CTA: "ユニットを結合する。"
- #Transfer Unit
+ # Transfer Unit
  TRANSFER_SUBUNIT_TT: "異動"
  TRANSFER_SUBUNIT_TYPE_TT: "すべての[SubUnit.GetDefinition.GetName]を異動"
  TRANSFER_SUBUNIT_CATEGORY_TT: "すべての[SubUnit.GetDefinition.GetCategory.GetName]を異動"
@@ -1559,19 +1611,19 @@
  CLICK_TO_GET_TRANSFERED_HALF_LEVIES: "[levies|e]の半数を、選択したほかのユニットから異動する"
  CLICK_TO_GET_TRANSFERED_HALF_MERCENARIES: "[mercenaries|e]の半数を、選択したほかのユニットから異動する"
  CLICK_TO_GET_TRANSFERED_HALF: "$NAME$の半数を、選択したほかのユニットから異動する"
- #Detach Damaged Ships
+ # Detach Damaged Ships
  DETACH_DAMAGED_SHIPS: "損傷した船の分離"
  DETACH_DAMAGED_SHIPS_INFO: "このユニットからすべての損傷した[ships|e]を分離する。"
  DETACH_DAMAGED_SHIPS_CTA: "この[navy|e]から$NUM$隻の損傷した[ships|e]を分離する。"
  DETACH_DAMAGED_SHIPS_ALL: "@trigger_no! この[navy|e]のすべての[ships|e]は損傷を受けている。"
  DETACH_DAMAGED_SHIPS_NONE: "@trigger_no! この[navy|e]には損傷を受けた[ships|e]がない。"
- #Detach Support
+ # Detach Support
  DETACH_SUPPORT_ALL: "この[army|e]には支援[regiments|e]しかいない。"
  DETACH_SUPPORT_NONE: "@trigger_no! この[army|e]には支援[regiments|e]がいない！"
  DETACH_SUPPORT: "支援ユニットの分離"
  DETACH_SUPPORT_INFO: "#F 支援ユニットは、分離時にわずかな量の食糧を獲得する。#!"
  DETACH_SUPPORT_CTA: "この[army|e]にいる$NUM$の支援[regiment|e]を分離する。"
- #Detach Levies
+ # Detach Levies
  DETACH_ARMY_LEVY_ALL: "このユニットには[army_levies|E]しかいない"
  DETACH_NAVY_LEVY_ALL: "このユニットには[navy_levies|E]しかいない"
  DETACH_ARMY_LEVY_NONE: "@trigger_no! このユニットには[army_levies|E]がいない！"
@@ -1581,25 +1633,25 @@
  DETACH_NAVY_LEVY_INFO: "このユニットからすべての[navy_levies|e]を分離する。"
  DETACH_ARMY_LEVY_CTA: "このユニットにいる$NUM$の[army_levies|E]を分離する。"
  DETACH_NAVY_LEVY_CTA: "このユニットにいる$NUM$の[navy_levies|E]を分離する。"
- #Detach Regulars
+ # Detach Regulars
  DETACH_REGULAR_ALL: "このユニットには正規兵しかいない"
  DETACH_REGULAR_NONE: "@trigger_no! このユニットには正規兵がいない！"
  DETACH_REGULAR: "正規兵の分離"
  DETACH_REGULAR_INFO: "このユニットからすべての正規兵を分離する。"
  DETACH_REGULAR_CTA: "このユニットにいる$NUM$の正規兵を分離する。"
- #Detach Mercenary
+ # Detach Mercenary
  DETACH_MERC: "傭兵の分離"
  DETACH_MERC_INFO: "このユニットからすべての[mercenaries|e]を分離する。"
  DETACH_MERC_CTA: "このユニットにいる$NUM$の[mercenaries|E]を分離する。"
  DETACH_MERC_ALL: "このユニットには[mercenaries|E]しかいない"
  DETACH_MERC_NONE: "@trigger_no! このユニットには[mercenaries|E]がいない！"
- #Detach Category
+ # Detach Category
  DETACH_CATEGORY: "すべての[SUBUNITCATEGORY.GetNameWithNoTooltip]の分離"
  DETACH_CATEGORY_INFO: "[unit|e]からすべての[SUBUNITCATEGORY.GetName]を分離し、新しいユニットを作る。"
  DETACH_CATEGORY_CTA: "すべての[SUBUNITCATEGORY.GetNameWithNoTooltip]を分離する。"
  DETACH_CATEGORY_NONE_FOUND: "この[unit|e]には[SUBUNITCATEGORY.GetName]がいない。"
  DETACH_CATEGORY_ALL_FOUND: "[unit|e]全体が[SUBUNITCATEGORY.GetName]である。"
- #Detach Siege
+ # Detach Siege
  DETACH_SIEGE: "包囲軍の分離"
  DETACH_SIEGE_INFO: "この領土の包囲、または占領に十分な数の[regiments|e]を分離する。残りは解放され、ほかのタスクをおこなえるようになる。"
  DETACH_SIEGE_CTA: "包囲軍を分離する。"
@@ -1607,7 +1659,13 @@
  DETACH_SIEGE_NO_RETR: "@trigger_no! 撤退中は包囲軍を分離できない。"
  DETACH_SIEGE_NO_SIEGE: "@trigger_no! 包囲が発生していない！"
  DETACH_SIEGE_NO_COMBAT: "@trigger_no! 戦闘終了後に分離が可能になる。"
- #Reorganize/CreateNewUnit
+ # Detach Blockade
+ DETACH_BLOCKADE: "封鎖用に分離"
+ DETACH_BLOCKADE_INFO: "この[seazone|e]内のすべての港を封鎖するのに十分な数の[units|e]を分離する。残りは解放され、ほかのタスクをおこなえるようになる。"
+ DETACH_BLOCKADE_CTA: "封鎖をおこなう海軍を分離する。"
+ DETACH_BLOCKADE_NO_PORTS: "@trigger_no! この[seazone|e]には封鎖できる港がない。"
+ DETACH_BLOCKADE_NO_SHIPS: "@trigger_no! この[navy|e]には、封鎖をおこなうのに十分な数の[units|e]がいない。"
+ # Reorganize/CreateNewUnit
  NEW_UNIT: "新しいユニットの作成"
  NEW_UNIT_INFO: "新しいユニットとして空のユニットが作成され、現存するユニットから[regiments|e]を割り当てることができる。"
  NEW_UNIT_CTA: "新しいユニットへのユニット再割り当てを始める。"
@@ -1629,31 +1687,31 @@
  REORGANIZE_UNITS_DRO: "この2ユニットを再編制すると、2つの[armies|e]間で連隊の移動ができる。"
  UNIT_ABILITY_BLOCKS_REORG: "@trigger_no! $NAME$は$WHICH|Y$で行動中のため不可。"
  REORGANIZE_UNITS_CTA: "ユニットを再編制する。"
- #Unit boxing
+ # Unit boxing
  MOVE_BOX_CANT_COMBAT: "@trigger_no! [UNIT.GetName]が戦闘中のため不可。"
  MOVE_BOX_CANT_PRISONER: "@trigger_no! [prisoners|e]は現在の場所に留まる。"
  MOVE_BOX_CANT_BECOME_PRISONER: "@trigger_no! [SUBUNIT.GetName]を[prisoners|e]と一緒に移動させることはできない。"
  MOVE_BOX_MOVE: "[SUBUNIT.GetName]を[$FROM$|e]から[$TO$|e]へ移動させる"
- #Moving
+ # Moving
  TARGET_PROVINCE_IS_IMPASSABLE: "@trigger_no! 地形が通行不可なためここには移動できない。"
- UNIT_CAN_ONLY_DISEMBARK_ADJACENT: "@trigger_no! 隣接した都市にのみ上陸可能であるため、ここへは移動できない。"
+ UNIT_CAN_ONLY_DISEMBARK_ADJACENT: "@trigger_no! 隣接したロケーションにのみ上陸可能であるため、ここへは移動できない。"
  UNIT_CANNOT_RETREAT_INTO_OWN_LOCATION: "@trigger_no! 戦闘中の[location|e]へは撤退できない。"
  UNIT_LACKS_ACCESS_TO_TARGET_PROVINCE: "@trigger_no! ユニットに通行権がないため移動できない。"
  MOVEMENT_LOCKED: "#T 移動がロック中#!\nこのユニットは次の[location|e]に向けて半分以上移動済みで、移動は中止できない。"
  UNIT_TARGET_NOT_DISCOVERED: "@trigger_no! [discovered|e]されていない[location|e]には移動できない。"
  SLOW_SPEED_T: "ユニットの規模が大きすぎる"
  SLOW_SPEED: "このユニットは規模が大きいため移動に時間がかかっている。"
- #Select objective
+ # Select objective
  SELECT_OBJECTIVE_UNIT: "達成目標を選択"
  SELECT_OBJECTIVE_UNIT_INFO: "ユニットの達成目標を選択する。"
  SELECT_OBJECTIVE_UNIT_CTA: "達成目標を選択する。"
  CANCEL_ALL_OBJECTIVES: "すべての軍事目標を取り消す"
- #Select transport
+ # Select transport
  SELECT_TRANSPORT_UNIT: "輸送船を選択"
  SELECT_TRANSPORT_UNIT_CANNOT: "@trigger_no! ユニットがどの輸送船にも乗船していない場合、輸送船は選択できない。"
  SELECT_TRANSPORT_UNIT_INFO: "現在のユニットが乗船中の輸送船を選択する。"
  SELECT_TRANSPORT_UNIT_CTA: "輸送船を選択する。"
- #Embark/Disembark
+ # Embark/Disembark
  EMBARK_ACTION: "陸軍の乗船"
  EMBARK_ACTION_INFO: "[navy|e]が友好的な[port|e]に停泊しているとき、[army|e]を[navy|e]に乗船させるのに使用する。"
  EMBARK_ACTION_CTA: "$NAME|Y$への乗船命令を出す。"
@@ -1678,7 +1736,8 @@
  LOAD_ON_SHIP_IS_RETREATING: "@trigger_no! $NAME$（$VAL|Y$ [ships|e]）は撤退中。"
  LOAD_ON_SHIP_IS_MOVING: "@trigger_no! $NAME$（[ships|e]が$VAL|Y$）は移動中。"
  LOAD_ON_SHIP_IN_COMBAT: "@trigger_no! $NAME$（[ships|e]が$VAL|Y$）は戦闘中。"
- LOAD_ON_SHIP_IS_TOO_SMALL_USED: "@trigger_no! $NAME$は[Multiply_CFixedPoint('(CFixedPoint)$USED$', '(CFixedPoint)1000')|0R][regiments|e]を輸送中で[transport_capacity|e]が[Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y]しかなく、この[army|e]には[Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R][transport_capacity]が必要。"
+ LOAD_ON_SHIP_IS_TOO_SMALL_USED: "$NAME$は[Multiply_CFixedPoint('(CFixedPoint)$USED$', '(CFixedPoint)1000')|0R][regiments|e]を輸送中で[transport_capacity|e]が[Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y]しかなく、この[army|e]には[Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R][transport_capacity]が必要。[army|e]の一部しか乗船できない。"
+ LOAD_ON_SHIP_IS_FULL: "@trigger_no!$NAME$の[transport_capacity]は最大値に達している。"
  LOAD_ON_SHIP_IS_TOO_SMALL: "@trigger_no! $NAME$は小型すぎ、[transport_capacity|e]が[Multiply_CFixedPoint('(CFixedPoint)$CAPACITY$', '(CFixedPoint)1000')|0Y]のしかなく、この[army|e]には[Multiply_CFixedPoint('(CFixedPoint)$NEED$', '(CFixedPoint)1000')|0R][transport_capacity]が必要。"
  LOAD_ON_SHIP_MISMATCHING_OBJECTIVE: "@trigger_no! $NAME$（$VAL|Y$ [ships|e]）は別のミッションに割り当てられている！"
  LOAD_ON_SHIP_CAN_LOAD: "@trigger_yes! この[army|e]は$NAME$（$VAL|Y$ [ships|e]）に乗船できる！"
@@ -1709,27 +1768,27 @@
  MODIFIER_FOR_UA_HAS: "このユニットは「$NAME|Y$」が有効で、$WHEN|Y$まで$EFFECT$を得る"
  ABILITY_HISTORY: "#F $DESC$#!"
  CONFIRM_UNIT_ABILITY: "$UNIT|Y$に$LOCATION|Y$で$ABILITY|Y$を使用させますか？"
- #Unit Name
+ # Unit Name
  SINGLE_UNIT_COUNTRY: "#T [Country.GetName]#!\nこのユニットは[Country.GetName]が所有している。"
  UNIT_NAME_TT: "このユニットの名前で、ほかのインターフェースがこのユニットを指すときに参照する。"
  UNIT_NAME_NON_EDIT_TT: "#T ユニット名#!\nこのユニットの名前で、ほかのインターフェースがこのユニットを指すときに参照する。\n\n#F [mercenary|e]の[armies|e]、氏族の随行員の名前は変更できない。"
  UNIT_CUSTOM_NAME_OK_TT: "ユニット名を変更済み。"
  UNIT_CUSTOM_NAME_INVALID_TT: "すでにその名前のユニットがいます。ほかの名前を選んでください。"
- #Exile Status
+ # Exile Status
  UNIT_NOT_EXILE_TT: "#T 追放状態ではない#!"
  UNIT_EXILE_TT: "#T 追放状態#!"
  UNIT_EXILE_EXTRA: "ユニットが[exile|E]のとき、ユニットは以下のエフェクトを得る：\n$EFFECT$"
  IS_EXILED_TT: "#T ユニットが追放状態#!\nこのユニットは[exile|E]で、安全な土地に移動している。追放状態のユニットは戦闘や領土の包囲には参加できない。"
  UNIT_RETREAT_TT: "#T 撤退#!\n現在、このユニットは$NAME$へ[retreating|E]中"
  UNIT_NOT_RETREAT_TT: "#T 撤退していない#!\n現在、このユニットは[retreat|E]をしていない"
- #Recruit To
+ # Recruit To
  RECRUIT_TO_ARMY: "陸軍に募集"
  RECRUIT_TO_ARMY_INFO: "この選択された[army|e]に、新しい[regiments|e]を直接募集することができる。"
  RECRUIT_TO_ARMY_CTA: "募集する[regiments|e]を選択"
  RECRUIT_TO_NAVY: "海軍に建造"
  RECRUIT_TO_NAVY_INFO: "この選択された[navy|e]に、[ships|e]を直接建造することができる。"
  RECRUIT_TO_NAVY_CTA: "建造する[ships|e]を選択"
- #Consolidate
+ # Consolidate
  CONSOLIDATE_BUTTON: "連隊を結合"
  CONSOLIDATE_SHIFT: "連隊を結合して空の[regulars|e]を残す"
  CONSOLIDATE_BUTTON_INFO: "複数の[regiments|e]を結合し、この[army|e]に満員の[regiments|e]を可能なかぎり編制する。"
@@ -1738,7 +1797,7 @@
  CONSOLIDATE_NOT_IN_COMBAT: "@trigger_no! ユニットの戦闘中は結合できない。"
  CONSOLIDATE_NO_MEN: "@trigger_no! この[unit|e]には兵士がいない。"
  CONSOLIDATE_NONE_AROUND: "@trigger_no! 結合できるほかの[regiments|e]がこの[army|e]にいない。"
- #Leaders
+ # Leaders
  LACK_OF_LEADER_TT: "#T 指揮官がいない#!\n現在、このユニットの指揮に任命された[character|e]がいない。これにより以下のエフェクトが発生する：\n$EFFECT$"
  CHANGE_LEADER_TT: "#T リーダーを変更する#!\n"
  ASSIGN_LEADER_TT: "#T リーダーを任命する#!\n"
@@ -1774,10 +1833,10 @@
  CANNOT_SHOW_LEADER: "キャラクターを表示するには先にリーダーを任命する"
  NO_COMMANDER_TO_REMOVE: "この[army|e]には解任できる将軍がいない"
  NO_ALMIRANT_TO_REMOVE: "この[navy|e]には解任できる提督がいない"
- #Blockade
+ # Blockade
  BLOCKADE_CAPACITY_FROM_SHIPS: "船から：$VAL|2+=$"
  UNIT_BLOCKADE_TOOLTIP: "このユニットの[blockade|e]貢献度は合計$PERCENT|0Y%$で、$CITIES|Y$の領土にまたがっている。"
- #Mothball
+ # Mothball
  MOTHBALL_IS_ON_TT: "[navy|e]は使用停止中"
  MOTHBALL_IS_ON_TT_INFO: "[UNIT.GetName]の[mothball|E]を解除すると、再びゆっくりと[repair|e]され、全額の維持費が発生する"
  MOTHBALL_IS_ON_TT_CTA: "$NAMES$の[mothball|E]を解除する。"
@@ -1786,7 +1845,7 @@
  MOTHBALL_IS_OFF_TT_CTA: "$NAMES$を[mothball|E]にする。"
  MOTHBALL_NOT_MOVING: "@trigger_no! 移動中の[navy|e]は[mothball|E]にできない。"
  MOTHBALL_NOT_IN_PORT: "@trigger_no! 港にいる[navy|e]のみ[mothball|E]にできる。"
- #Bribe Mercs
+ # Bribe Mercs
  BRIBE_MERCENARIES: "傭兵の買収"
  BRIBE_MERCENARIES_INFO: "このユニットの傭兵を買収してわが軍に加える。当然だが、かなりの大金が必要になる。次の[mercenary|e]団がわが国に加わる："
  BRIBE_MERCENARIES_CTA: "このユニットの[mercenaries|e]を$NUM|Y$、$COST$で買収して、我々の[country|e]に加える。"
@@ -1797,21 +1856,21 @@
  BRIBE_MERCENARIES_UNIT_UNKNOWN: "@trigger_no! [UNIT.GetName]は不明な[location|e]にいる。"
  BRIBE_MERCENARIES_UNIT_COMBAT: "@trigger_no! [UNIT.GetName]は[combat|e]中。"
  BRIBE_MERCENARIES_UNIT_LOCKED: "@trigger_no! [UNIT.GetName]は移動がロックされている。"
- BRIBE_MERCENARIES_NOT_NEARBY: "@trigger_no! [UNIT.GetName]はわが国が支配する[locations|e]に隣接していない。"
- #Upgrade Fleet
+ BRIBE_MERCENARIES_NOT_NEARBY: "@trigger_no!この傭兵はわが国が支配する[locations|e]に隣接していない。"
+ # Upgrade Fleet
  UPGRADE_FLEET: "海軍の強化"
  UPGRADE_FLEET_INFO_YES: "わが国の[navy|e]を、$COST$を使用して最新技術に強化する。これにより現在の[morale|e]が0になる。\n"
  UPGRADE_FLEET_INFO_NO: "わが国の[navy|e]を最新技術に強化する。これにより現在の[morale|e]が0になる。\n"
  UPGRADE_FLEET_CTA: "わが国の[navy|e]を強化する。"
  UPGRADE_FLEET_NOT_IN_PORT: "@trigger_no! [UNIT.GetName]は港にいない。"
- UPGRADE_FLEET_NO_BETTER_SHIP_TYPE: "@trigger_no! [SUBUNIT.GetName]には上位の[ship|e]タイプがないため、これ以上強化できない。"
+ UPGRADE_FLEET_NO_BETTER_SHIP_TYPE: "@trigger_no! ここには[SUBUNIT.GetName]の上位の[ship|e]タイプがないため、これ以上強化できない。"
  UPGRADE_FLEET_BETTER_SHIP_TYPE_ELSEWHERE: "@trigger_pass! ほかの場所なら[SUBUNIT.GetName]は$NAME$にアップグレードできる可能性がある。"
- UPGRADE_FLEET_NO_UNITS: "@trigger_no! この[navy|e]には強化できる[ships|e]がない。"
+ UPGRADE_FLEET_NO_UNITS: "@trigger_no! この[navy|e]には、ここで強化できる[ships|e]がない。"
  UPGRADE_FLEET_MOTHBALLED: "[navy|e]は使用停止中で強化できない。"
  UPGRADE_FLEET_NOT_IN_OWNED_PORT: "わが国か従属国が所有する港でのみ、[navy|e]を強化できる。"
  UPGRADE_FLEET_UNIT_TYPE_LIMIT_REACHED: "@trigger_fail! [SUBUNIT.GetTypeName]の上限に達した。"
  UPGRADE_FLEET_LEVIES_ARE_RUBBISH: "@trigger_no! [levies|e]は強化できない。"
- #Upgrade Army
+ # Upgrade Army
  UPGRADE_ARMY: "陸軍の強化"
  UPGRADE_ARMY_INFO_YES: "わが国の[army|e]を、$COST$を使用して最新技術に強化する。これにより現在の[morale|e]が0になる。\n"
  UPGRADE_ARMY_INFO_NO: "わが国の[army|e]を最新技術に強化する。これにより現在の[morale|e]が0になる。\n"
@@ -1822,9 +1881,9 @@
  UPGRADE_ARMY_UNIT_TYPE_LIMIT_REACHED: "@trigger_fail! この[regiment|e]タイプの上限に達した。"
  UPGRADE_ARMY_LEVIES_ARE_RUBBISH: "@trigger_no! [levies|e]は強化できない。"
  UPGRADE_ARMY_MERCS_ARENT_YOURS: "@trigger_no! [mercenaries|e]は強化できない。"
- #Upgrade SubUnit
- UPGRADE_SUBUNIT: "[SUBUNIT.GetName]の強化"
- #Refill Garrison
+ # Upgrade SubUnit
+ UPGRADE_SUBUNIT: "[GetUpgradeSubUnitCostValue(SubUnit.Self)]@gold!で[SubUnit.GetName]を強化"
+ # Refill Garrison
  REFILL_GARRISON: "守備隊の補充"
  REFILL_GARRISON_INFO: "[army|e]を使用して[fort|e]の[garrison|e]を補充する。"
  REFILL_GARRISON_CTA: "我々の[garrison|e]を補充する。"
@@ -1839,7 +1898,7 @@
  REFILL_GARRISON_FORT_MAX_ZERO: "@trigger_no! この[location|e]にある[fort|e]の最大[garrison|e]は0である。"
  REFILL_GARRISON_FORT_NOT_YOURS: "@trigger_no! わが国はこの[location|e]にある[fort|e]の所有者ではないか、所有者と無関係。"
  REFILL_GARRISON_FORT_NOT_CONTROLLED: "@trigger_no! わが国はこの[location|e]にある[fort|e]の支配者ではないか、支配者と無関係。"
- #Unsorted
+ # Unsorted
  CHARACTER_NO_BONUS_UNTIL: "@trigger_no! 現在、[Character.GetUnitPointer.GetName]の指揮に向かっており、[Character.GetWhenGivingUnitBonus|T]まで有効にならない。"
  UNIT_BALANCE_TT_TEXT: "このユニットの[regiments|e]を調整し、すべての[section|e]に同数、または可能なかぎり均等な数を配置する。"
  CANNOT_PERFORM_ACTION_NOT_YOURS: "これはわが軍のユニットではない。"
@@ -1910,6 +1969,7 @@
  UNIT_CATEGORY_NAVY_ENTRY: "\"$COUNT|V$@naval_regular!\"、\"[SUBUNITDEFINITION.GetName]\""
  UNIT_CATEGORY_ARMY_ENTRY: "\"$COUNT|V$@regular!\"、\"[SUBUNITDEFINITION.GetName]\"、\"$MEN|V$@army_strength!\""
  LOSSES_FRIENDLY: "現在の損失"
+ UNIT_CATEGORY_TYPE: "タイプ"
  WAR_LOSSES_HEADER_DET: "\"タイプ\"#T#M、\"戦闘\"、\"消耗\"、\"捕虜\"、\"合計\""
  WAR_LOSSES_ARMY_ENTRY: "\"[SUBUNITCATEGORY.GetIcon][SUBUNITCATEGORY.GetName]\"、\"$BATTLE|V$\"、\"$ATTRITION|V$\"、\"$CAPTURE|V$\"、\"$TOTAL|V$\""
  WAR_LOSSES_NAVY_ENTRY: "\"[SUBUNITCATEGORY.GetIcon][SUBUNITCATEGORY.GetName]\"、\"$BATTLE|V$\"、\"$ATTRITION|V$\"、\"$CAPTURE|V$\"、\"$TOTAL|V$\""
@@ -2016,3 +2076,21 @@
  a_dahomey_amazons_desc: "[ShowRegionName('guinea_region')]に起源をもつ、女性たちによる連隊。彼女たちは敵軍に恐怖を与え、壊滅的なダメージを与える。"
  a_esho_cavalry_oyo: "エショ騎馬兵"
  a_esho_cavalry_oyo_desc: "国内の小規模な族長たちによる職業連隊で、人脈ではなく実力によって選ばれる。"
+ a_saxon_defensioner: "ザクセンの護り手"
+ a_saxon_defensioner_desc: "この「護り手」は、ボヘミアの地と接する荒地の国境地帯における歴戦の部隊である。エルツ山地の峠の安全確保を任務としている。彼らは険しい地形での戦闘において、大いに役立つだろう。"
+ a_prussian_grenadiers: "プロイセン擲弾兵"
+ a_prussian_grenadiers_desc: "$a_prussian_grenadiers$はプロイセン軍の精鋭部隊である。包囲戦や強襲において前衛を務める役割上、恐れを知らぬ兵であることが求められ、わが国でも特に屈強な兵から選抜されている。"
+ a_bavarian_jager: "バイエルン猟兵"
+ a_bavarian_jager_desc: "熟練の狩人や林業従事者からなる連隊。この部隊は森林地帯において比類なき能力を発揮する。敵がわが国の森に足を踏み入れようものなら、やつらを翻弄・妨害することができるだろう。"
+ a_hesse_jager: "ヘッセ猟兵"
+ a_hesse_jager_desc: "熟練の狩人たちで編制された精鋭軽歩兵部隊。自国の地形に精通しており、わが軍の森林地帯での戦闘能力を高めてくれるが、その装備は長期戦には適していない。"
+ a_austrian_grenzhussar: "グレンツユサール"
+ a_austrian_grenzhussar_desc: "国境の守備隊に配備されたユサールの連隊。わが国の遠隔地を巡回し、治安を確保することができる。さらに、国庫への負担も軽い。"
+ a_pandur: "パンデュール歩兵"
+ a_pandur_desc: "スロベニアとクロアチアの地から徴募された軽歩兵。国境地帯の平和を守るのに適している。彼らは故郷の地に精通しており、いかなる侵略者にとっても手強い相手となるだろう。"
+ a_austrian_grenzer: "グレンツァー歩兵"
+ a_austrian_grenzer_desc: "$a_pandur_desc$"
+ a_gebirgsschutzen_infantry: "ゲビルクスシュッツェン"
+ a_gebirgsschutzen_infantry_desc: "この山岳射手たちは、高山地帯を踏破する能力にかけては比類なく、また険しい山岳峠で敵を打ち破ることに長けている。軽装備と柔軟な編制により、高地での戦闘に最適な部隊である。"
+ a_grenadiers: "擲弾兵"
+ a_grenadiers_desc: "初期の爆発物装備兵から発展した$a_grenadiers$は、わが軍の前衛を担う精鋭部隊として運用されている。高度な訓練を受けた彼らは、その名の由来となった手榴弾を活用するにとどまらず、卓越した突撃部隊として活躍する。"

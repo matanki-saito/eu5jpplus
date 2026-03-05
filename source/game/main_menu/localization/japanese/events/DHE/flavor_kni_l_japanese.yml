@@ -18,7 +18,7 @@
  spa_refused_ceding_malta: "騎士団へのマルタ割譲を拒否した"
  #New Events
  flavor_kni.7.title: "年代記の翻訳"
- flavor_kni.7.desc: "「モレア年代記」は、ギリシャにおけるフランコクラティアの成立を記録した年代記であり、第4回十字軍後の13世紀に焦点を当てている。[GetCountry('LAT').GetLongName]は[GetCountry('BYZ').GetLongName]に征服されたが、[ROOT.GetCountry.GetName]をはじめとするほかの諸国は依然として存続している。この書物を我々の言語に翻訳し、同時に我々の歴史も加えていこうではないか。"
+ flavor_kni.7.desc: "『モレア年代記』は、[ShowScriptedGeographyName('greece_geography')]におけるフランコクラティアの成立を記録した年代記であり、第4回十字軍後の13世紀に焦点を当てている。[GetCountry('LAT').GetLongName]は[GetCountry('BYZ').GetLongName]に征服されたが、[ROOT.GetCountry.GetName]をはじめとするほかの諸国は依然として存続している。この書物を我々の言語に翻訳し、同時に我々の歴史も加えていこうではないか。"
  flavor_kni.7.a: "翻訳しよう。"
  flavor_kni.7.b: "その必要はない。"
  flavor_kni.8.title: "聖三位一体教会"

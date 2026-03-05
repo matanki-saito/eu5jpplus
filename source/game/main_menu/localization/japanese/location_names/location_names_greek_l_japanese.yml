@@ -298,7 +298,7 @@
  ilgin.greek_language: "テュライオン"
  ilic.greek_language: "アナリバ"
  ilirska_bistrica.greek_language: "ビストリカ・イリュリアス"
- ilok.greek_language: "コッキオ" #Cuccium
+ ilok.greek_language: "コッキオ" # Cuccium
  imola.greek_language: "コルネリオン・アゴラ" #Hellenized the roman name Forum Cornelii
  inebolu.greek_language: "イオンポリス"
  inonu.greek_language: "バシリカ"
@@ -690,18 +690,18 @@
  zardana.greek_language: "ザルダニア" #hellenized it, not official
  zenica.greek_language: "ビストゥア・ヌオヴァ" #roman/latin
  zile.greek_language: "ゼラ"
- #cheatsheet for letters that aren't in english keyboards:
- #ô = ώ
- #ō = ω
- #ē = η
- #ê = ή
- #Sources:
- #Wikipedia
- #ToposText (Greek Foundation)
- #Digital Atlas of the Roman Empire (University of Gothenburg, Sweden)
- #More info on some cases that i couldn't find a name from sources:
- #1. For some slavic cases if the location uses novi or grad in the name then i used semi-greek translation, novi = new = nea / grad = city = polis, ad = in = kata/ eis tên
- #2. If it did not use some word i could translate, then i would put it on translate and listen the location name, then try to do 1 to 1 sound to text naming
- #3. Used Roman/latin naming for locations that greek did not exit but Roman did
- #4. For some cases that both Byzantine names and Greek names existsed, since we cannot separate them, i favored the greek version for some of the names
- #5. Sometimes they stay as they are because i have no other option
+ #  cheatsheet for letters that aren't in english keyboards:
+ #  ô = ώ
+ #  ō = ω
+ #  ē = η
+ #  ê = ή
+ # Sources:
+ #   Wikipedia
+ #   ToposText (Greek Foundation)
+ #   Digital Atlas of the Roman Empire (University of Gothenburg, Sweden)
+ # More info on some cases that i couldn't find a name from sources:
+ #   1. For some slavic cases if the location uses novi or grad in the name then i used semi-greek translation, novi = new = nea / grad = city = polis, ad = in = kata/ eis tên
+ #   2. If it did not use some word i could translate, then i would put it on translate and listen the location name, then try to do 1 to 1 sound to text naming
+ #   3. Used Roman/latin naming for locations that greek did not exit but Roman did
+ #   4. For some cases that both Byzantine names and Greek names existsed, since we cannot separate them, i favored the greek version for some of the names
+ #   5. Sometimes they stay as they are because i have no other option

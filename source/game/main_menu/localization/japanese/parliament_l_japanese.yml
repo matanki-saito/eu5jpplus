@@ -1,14 +1,14 @@
 ﻿l_japanese:
  #Generic Code
- PARLIAMENT_MARKER_DURATION_TXT: "#T [Player.GetGovernment.GetParliament.GetName]が開催中#!\n@location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]でさらに[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W]日間、「[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]」について審議中。"
+ PARLIAMENT_MARKER_DURATION_TXT: "#T [Player.GetGovernment.GetParliament.GetName]が開催中#!\n@location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]でさらに[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W]日間、「[Player.GetGovernment.GetParliament.GetCurrentDebateName]」について審議中。"
  PARLIAMENT_DURATION_TXT: "@location![Player.GetGovernment.GetParliament.GetParliamentLocation.GetName]で残り[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W]日"
  PARLIAMENT_DURATION_TXT_NO_LOCATION: "残り[Player.GetGovernment.GetParliament.GetRemainingParliamentDuration|W]日"
- IO_PARLIAMENT_DURATION_TXT: "#T [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetName]が開催中#!\n@location![InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentLocation.GetName]でさらに[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetRemainingParliamentDuration|W]日間、「[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebate.GetName]」について審議中。"
- PARLIAMENT_ISSUE_WILL_FAIL: "#T 議題は否決される#!\n@trigger_no! 「[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]」は[Player.GetGovernment.GetParliament.GetName]を通過#R しない#!。"
- PARLIAMENT_ISSUE_WILL_NOT_FAIL: "#T 議題は可決される#!\n「[Player.GetGovernment.GetParliament.GetCurrentDebate.GetName]」は[Player.GetGovernment.GetParliament.GetName]を通過する。"
+ IO_PARLIAMENT_DURATION_TXT: "#T [InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetName]が開催中#!\n@location![InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetParliamentLocation.GetName]でさらに[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetRemainingParliamentDuration|W]日間、「[InternationalOrganizationsView.GetInternationalOrganization.GetParliament.GetCurrentDebateName]」について審議中。"
+ PARLIAMENT_ISSUE_WILL_FAIL: "#T 議題は否決される#!\n@trigger_no! 「[Player.GetGovernment.GetParliament.GetCurrentDebateName]」は[Player.GetGovernment.GetParliament.GetName]を通過#R しない#!。"
+ PARLIAMENT_ISSUE_WILL_NOT_FAIL: "#T 議題は可決される#!\n「[Player.GetGovernment.GetParliament.GetCurrentDebateName]」は[Player.GetGovernment.GetParliament.GetName]を通過する。"
  HOSTILE_PARLIAMENT_MARKER: "#T 敵対的な[ParliamentMarker.GetCountry.GetGovernment.GetParliament.GetName]が審議中#!\n開催地の[location|e]を[occupying|e]することで中断可能。"
  PARLIAMENT_NEVER_CALLED: "$NAME$は招集されていない。"
- PARLIAMENT_CALLED_DATE: "$NAME$は$WHEN|Y$に招集された"
+ PARLIAMENT_CALLED_DATE: "$NAME$は$WHEN|Y$前に招集された"
  PARLIAMENT_MODIFIER_WHEN_DEBATED_TT: "議題の審議中："
  PARLIAMENT_MODIFIER_WHEN_DEBATED: "議題の審議中："
  PARLIAMENT_ESTATE_EXTRA_POWER_WHEN_DEBATED: "この議題を選択すると、議会の基本支持が$VAL|2+=%$増加する"
@@ -39,7 +39,7 @@
  IO_PARLIAMENT_VOTERS: "支持者"
  #Actions
  call_parliament: "議会の招集"
- call_parliament_desc: "[parliament_issue|e]の解決、わが国の[laws|e]の[policies|e]変更、[casus_belli|e]の作成、[taxes|e]の引き上げ、[army_levies|e]規模や[navy_levies|e]規模の拡大の際、その支持を得るための議会を招集する。\n開催中に得られるエフェクト：\n[ShowModifierEffect('parliament_in_session')]\n\n$select_parliament_location_inform_choice_tt$"
+ call_parliament_desc: "[parliament_issue|e]を解決したり、わが国の[laws|e]における[policies|e]を変更したり、[casus_belli|e]を作成したり、[taxes|e]を引き上げたり、[army_levies|e]や[navy_levies|e]の規模を拡大したりする際、その支持を得るための議会を招集する。\n\n開催中に得られるエフェクト：[ShowModifier('parliament_in_session')]、[ShowModifier('parliament_location')]、および[ShowModifier('parliament_in_capital')]と[ShowModifier('parliament_outside_capital')]のいずれか（選択した[location|e]による）。"
  request_more_taxes: "追加課税の要求"
  request_more_taxes_desc: "[Player.GetGovernment.GetParliament.GetName]に対し、[estates|e]からより多くの[tax|e]を徴収する許可を求める。"
  ask_for_larger_levies: "召集軍増強の要求"
@@ -52,7 +52,7 @@
  prepare_for_war_select_province_title: "[war_goal|e]とする[province|e]を選択"
  select_a_country_to_get_casus_belli_on: "[casus_belli|e]を適用する[country|e]を選び、[Player.GetGovernment.GetParliament.GetName]に承認を求める。"
  prepare_for_war: "開戦事由の作成"
- prepare_for_war_desc: "わが国の正当な[casus_belli|e]を承認し、[war|e]の開始を認めるよう[Player.GetGovernment.GetParliament.GetName]に求める。\n• [casus_belli|e]「[ShowCasusBelliName('cb_fabricated_conquer_province')]」を適用する国家を選択する"
+ prepare_for_war_desc: "わが国の正当な[casus_belli|e]を承認し、[war|e]の開始を認めるよう[Player.GetGovernment.GetParliament.GetName]に求める。\n• [rebel|e]国家でも自国の[subject|e]でもなく、[diplomatic_range|e]内にあり、現在[truce|e]を結んでいない国に対して以下の[casus_belli|e]を作成する\n[casus_belli|e]「[ShowCasusBelliName('cb_parliament_conquer_province')]」\n• [casus_belli|e]は[GetDefine('NDiplomacy','CASUS_BELLI_MONTHS')]ヵ月（[Divide_int32(GetDefine('NDiplomacy','CASUS_BELLI_MONTHS'), '(int32)12')]年）持続する。"
  PARLIAMENT_IN_SESSION: "[Player.GetGovernment.GetParliament.GetName]が開催中"
  #Issues
  #Infrastructure and Location Improvements Issues
@@ -175,7 +175,7 @@
  #Diplomatic Issues
  expand_diplomatic_corps_generic_desc: "武力のみでの解決には限界がある。ペンに剣を支えさせたほうが、より大きなことを成し遂げられるだろう。"
  expand_diplomatic_corps_minors: "隣国との結束を強化"
- expand_diplomatic_corps_minors_desc: "$expand_diplomatic_corps_generic_desc$。我々の主な懸念は、周囲の小国との関係強化であるべきだ。"
+ expand_diplomatic_corps_minors_desc: "$expand_diplomatic_corps_generic_desc$我々の主な懸念は、周囲の小国との関係強化であるべきだ。"
  expand_diplomatic_corps_religion: "信仰に働きかける"
  expand_diplomatic_corps_religion_desc: "$expand_diplomatic_corps_generic_desc$我々にとって、信仰を同胞たちとの関係を深めることは極めて重要である。"
  expand_diplomatic_corps_majors: "列強との関係"
@@ -202,6 +202,8 @@
  support_religious_education: "宗教教育の支援"
  support_religious_education_desc: "わが国が聖職者に頼ることは、民衆の教育において大きな資産となる。これにより科学の進歩が加速し、わが国の忠実な信者の忠誠心も深まるはずだ。"
  support_religious_education_passed.tt: "わが国の信仰に従う[ShowPopTypeName('clergy')]と[ShowPopTypeName('peasants')]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]増加する"
+ improve_relations_with_the_faith: "宗教関係の醸成"
+ improve_relations_with_the_faith_desc: "信仰と国家との関係は、さまざまな決定によって緊張状態に陥る可能性がある。信仰そのものが特定の問題をめぐって分裂している場合は、特にその可能性が高まることになる。異なる派閥のあいだで調停役を務め、交渉を促すことで、分裂の深刻化を防げるかもしれない。"
  #Revolution Issues
  curb_central_authority: "王家の権限を制限"
  curb_central_authority_desc: "[Player.GetGovernment.GetParliament.GetName]の権限は、議会外部のいかなる権限にも優先される。我々の理想を追求するには、王の勅令に反してこの権利を行使しなければならない。"
@@ -241,7 +243,7 @@
  new_model_army_pi_desc: "王党派との内戦の荒廃は、わが軍の全面的な改革が急務であることを明らかにした。"
  edict_of_nantes_issue: "ナントの勅令"
  edict_of_nantes_issue_desc: "数年にわたる宗教的闘争のあと、共存による団結を促し、無益な流血を終わらせる時が来た。"
- end_the_french_wars_of_religion_tt: "[disaster|e]「[ShowDisasterName('french_wars_religion')]」が終了する"
+ end_the_french_wars_religion_tt: "[disaster|e]「[ShowDisasterName('french_wars_religion')]」が終了する"
  mug_promote_rajput_officials: "$rajasthani_language$の役人を昇格"
  mug_promote_rajput_officials_desc: "国内の$rajasthani_language$話者を昇格させることで、信頼の置ける軍事志向の役人を多数確保することができる。"
  promote_rajput_officials_passed_tt: "[ShowLanguageName('rajasthani_language')]を話す有能な人物が1名出現する。"
@@ -587,6 +589,8 @@
  #Building related Agendas
  #remove Buildings of other estates
  #Nobles
+ pa_remove_free_village: "$free_village$への苦情の対処"
+ pa_remove_free_village_desc: "[ShowEstateTypeName('nobles_estate')]$pa_remove_building_middle_desc$[ShowBuildingTypeNameWithNoTooltip('free_village')]はすべて排除する。"
  pa_remove_building_middle_desc: "から苦情を受けた"
  pa_remove_parish_church: "$parish_church$への苦情の対処"
  pa_remove_parish_church_desc: "[ShowEstateTypeName('nobles_estate')]$pa_remove_building_middle_desc$[ShowBuildingTypeNameWithNoTooltip('parish_church')]はすべて排除する。"
@@ -684,7 +688,7 @@
  pa_hre_lessen_tax_burden_desc: "支持に対する見返りとして、[ShowPaymentName('imperial_contribution')]の義務を軽減することを約束する。"
  pa_hre_elevate_prussia_to_kingdom: "[GetCountry('PRU').GetNameWithNoTooltip]を[ShowCountryRankNameWithNoTooltip('rank_kingdom')]に昇格する"
  pa_hre_elevate_prussia_to_kingdom_simple: "[GetCountry('PRU').GetNameWithNoTooltip]を昇格"
- pa_hre_elevate_prussia_to_kingdom_desc: "[GetCountry('PRU').GetName]の君主たちは、権力と栄光をめぐる闘争においていつでも野心を燃やしてきた。彼らは正式に「王」の称号まで求めてきたが、結局は「[GetCountry('PRU').GetNameWithNoTooltip]の王」として生きることを余儀なくされている。この国を適切な[ShowCountryRankName('rank_kingdom')]に昇格させることで、最後のひとかけらの支持を勝ちとれるかもしれない……"
+ pa_hre_elevate_prussia_to_kingdom_desc: "[GetCountry('PRU').GetName]の君主たちは、権力と栄光をめぐる闘争においていつでも野心を燃やしてきた。彼らは正式に「王」の称号まで求めてきたが、結局は「[GetCountry('PRU').GetNameWithNoTooltip]の王」として生きることを余儀なくされている。この国を適切な[ShowCountryRankName('rank_kingdom')]に昇格させることで、最後のわずかな支持を勝ちとれるかもしれない……"
  pa_hre_elevate_prussia_to_kingdom_tt: "[GetCountry('PRU').GetName]が我々の決定に関する[event|e]を受け取る。"
  pa_hre_grant_imperial_titles: "帝国の称号を授与"
  pa_hre_grant_imperial_titles_simple: "$pa_hre_grant_imperial_titles$"

@@ -1,4 +1,7 @@
 ﻿l_japanese:
+ local_governor_tt: "[SCOPE.sCountry('actor').GetNameWithNoTooltip]における[ShowBuildingTypeName('local_governor')]の数が[SCOPE.sCountry('actor').GetModifierValue('num_local_governors')]未満である場合（現在は[SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V]）"
+ naval_governor_tt: "[SCOPE.sCountry('actor').GetNameWithNoTooltip]における[ShowBuildingTypeName('naval_governor')]の数が[SCOPE.sCountry('actor').GetModifierValue('num_naval_governors')]未満である場合（現在は[SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('naval_governor')|V]）"
+ local_bailiff_tt: "[SCOPE.sCountry('actor').GetNameWithNoTooltip]における[ShowBuildingTypeName('bailiff')]の数が[SCOPE.sCountry('actor').GetModifierValue('num_bailiffs')]未満である場合（現在は[SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('bailiff')|V]）"
  colonial_category: "植民地建造物"
  colonial_category_desc: "他国の占領されていないロケーションに建設でき、その土地での影響力を拡大するのに役立つ建造物。"
  cultural_category: "文化的建造物"
@@ -17,6 +20,8 @@
  rgo_building_category_desc: "手に入りにくい[raw_materials|e]を入手できるようにする[buildings|e]。"
  trade_company_building: "交易会社施設"
  satellite_trade_building: "衛星交易施設"
+ free_village: "自由農民村"
+ free_village_desc: "一般的な農村社会とは異なり、領主への義務に縛られずに成立した自由農民による共同体。"
  guild: "ギルド"
  workshop: "工房"
  midgame_manufactory: "工場"
@@ -36,13 +41,13 @@
  trade_category_desc: "交易商の効率向上、または新しい市場への参入に役立ち、自国の交易を改善する建造物。"
  village_category: "村"
  village_category_desc: "田舎に建設できる小村。"
- #Common Buildings
+ # Common Buildings
  irrigation_systems: "灌漑"
  bridge_infrastructure: "橋"
  mason: "石造り"
  construction_center: "建設拠点"
  construction_center_desc: "1つの[town_or_city|e]で多くの建造物を同時に建設できるようになる。"
- #Foreign Buildings
+ # Foreign Buildings
  trade_office: "交易機関"
  embassy: "大使館"
  black_market: "闇市"
@@ -66,7 +71,7 @@
  trade_company_foreign_influence_desc: "[ShowSubjectTypeName('trade_company')]の植民地施設で、他国のPOPにさまざまな機会を提供する。"
  trade_company_governance: "会社統治施設"
  trade_company_governance_desc: "[ShowSubjectTypeName('trade_company')]の現地軍事施設で、会社の利益を守る部隊を募集・訓練する。"
- #Rural Buildings
+ # Rural Buildings
  settlement_building: "集落"
  bailiff: "執行官"
  training_fields: "訓練場"
@@ -93,7 +98,7 @@
  bog_iron_smelter_desc: "鉄はあらゆる冶金の基礎であり、適切かつ良質な鉱脈から得るのが理想的だが、鉄分が蓄積した水辺などからも抽出できる。"
  protected_harbor: "保護港"
  protected_harbor_desc: "手を加えずとも港に適した場所はあるが、適切なインフラを整えてやれば、どんな場所でも優れた港湾となる。"
- #City Buildings
+ # City Buildings
  temple: "寺院"
  cathedral: "聖堂"
  counting_house: "会計所"
@@ -129,7 +134,7 @@
  funduq_desc: "重要な交易都市にある公共の建物。商人が休息したり、交流したり、商品を保管したりできる。"
  fortress_granary: "アガディール"
  fortress_granary_desc: "北アフリカの人々によって建てられた、要塞化された伝統的な共同穀物倉庫。丘の上に建てられ、周辺の農地や草原を守り、防衛拠点として機能する。"
- #Cultural Buildings
+ # Cultural Buildings
  university: "大学"
  library: "図書館"
  opera_house: "歌劇場"
@@ -171,6 +176,10 @@
  peasants_hunting_grounds: "農民の狩猟場"
  local_schools: "地方の学校"
  local_newspaper: "地方紙"
+ naval_governor: "海軍総督府"
+ naval_governor_desc: "$local_governor_desc$"
+ local_governor: "地方総督府"
+ local_governor_desc: "国家の支配力を領土の果てまで及ぼすための地方権力の拠点。その影響力は周辺地域のみにとどまらない。街道網によって首都と結ばれている場合、統治と行政の中枢として機能する。"
  horse_breeders: "乗馬飼育場"
  porcelain_guild: "磁器窯"
  naval_supplies_guild: "海軍用品ギルド"
@@ -194,7 +203,7 @@
  cannon_maker: "大砲職人"
  distillers_guild: "酒造家ギルド"
  dyes_guild: "染物職人"
- #workshops
+ # workshops
  pottery_workshop: "陶器工房"
  pottery_workshop_desc: "陶器は単純な貯蔵容器から装飾品まで、あらゆる人々の生活に欠かせないものである。専門の工房でその生産を効率化すれば、陶器に対する需要を満たすことができるだろう。"
  tools_workshop: "工具工房"
@@ -297,35 +306,35 @@
  mercury_patio_desc: "$mercury_patio$は、低品質の鉱石から抽出された銀と金を精製し、価値を高めるために使用される複合施設。"
  firearms_factory: "火器工場"
  cannons_factory: "大砲工場"
- #Shipyard
+ # Shipyard
  dock: "ドック"
  dry_dock: "乾ドック"
  shipyard: "造船所"
  grand_shipyard: "大造船所"
  naval_base: "海軍基地"
- #Coastal Forts
+ # Coastal Forts
  coastal_fort: "沿岸要塞"
  naval_battery: "沿岸砲台"
- #Forts
+ # Forts
  castle: "城"
  bastion: "砦"
  star_fort: "星形要塞"
  fortress: "要塞"
  stockade: "防御柵"
- #Manpower Buildings
+ # Manpower Buildings
  armory: "武器庫"
  barracks: "兵舎"
  regimental_camp: "連隊兵舎"
  conscription_center: "徴兵所"
- #Colonial Buildings
+ # Colonial Buildings
  missionary_building: "ミッション"
  slave_center: "奴隷市場"
  overseas_trading_post: "海外交易所"
- #Plantations
+ # Plantations
  sugar_plantation: "砂糖農園"
  cotton_plantation: "綿花農園"
  tobacco_plantation: "タバコ農園"
- #Capital Buildings
+ # Capital Buildings
  royal_court: "王宮"
  admiralty: "提督府"
  war_college: "陸軍大学校"
@@ -343,14 +352,14 @@
  royal_garden_desc: "広大な王宮庭園はこの世の楽園である。宮廷の貴族が、手入れの行き届いた美しい庭を眺めながらくつろいだり、贅沢な娯楽に興じたりできる。"
  pirate_stronghold: "海賊の要塞"
  pirate_stronghold_desc: "危険で違法な私掠船員や悪党、ならず者の巣窟であり、海賊共和国の中心地となる建物。"
- #Market Center
+ # Market Center
  entrepot: "中継港"
  trading_hub: "交易中心地"
  customs_house: "税関"
  stock_exchange: "証券取引所"
  clearing_house: "手形交換所"
  market_warehouse: "市場の倉庫"
- #Event Buildings
+ # Event Buildings
  cantonments: "宿営地"
  grand_palace: "大宮殿"
  great_madrasa: "大マドラサ"
@@ -390,7 +399,7 @@
  bodrum_castle: "ペトロニウム"
  bodrum_castle_desc: "$bodrum_castle$は、[ShowRegionName('anatolia_region')]本土にある[GetCountry('KNI').GetAdjective]の最も主要な要塞である。イギリス、フランス、イタリア、ドイツの4つの騎士団参加国によって建てられた4つの塔を特徴とし、地域のキリスト教徒の避難場所となっている。"
  chi_macau_port: "マカオ条約港"
- chi_macau_port_desc: "$chi_macau_port$は[GetCountry('POR').GetName]に賃貸されている地域を指す。[GetCountry('POR').GetAdjectiveWithNoTooltip]人は土地の賃料として、毎年多額の金を支払わなければならない。"
+ chi_macau_port_desc: "$chi_macau_port$は[GetCountry('POR').GetName]が賃借している地域を指す。[GetCountry('POR').GetAdjectiveWithNoTooltip]人は土地の賃料として、毎年多額の金を支払わなければならない。"
  chi_missionary_building: "フランシスコ会宣教"
  chi_missionary_building_desc: "$missionary_building_desc$"
  forbidden_city: "紫禁城"
@@ -439,7 +448,7 @@
  sco_palace_of_holyroodhouse_desc: "$sco_palace_of_holyroodhouse$は、[ShowCultureName('scottish')]・ルネサンスのさまざまな建築様式のひとつを代表する建造物。壮麗なゴシック様式の宮殿で、[GetCountry('SCO').GetGovernment.GetAdjective]一族の最も貴重な住居のひとつである。"
  fra_louvre_museum: "ルーヴル美術館"
  fra_louvre_museum_desc: "かつて$french_group$王室の象徴だったルーヴル宮殿は、現在では一般公開の美術館に改装され、[GetCountry('FRA').GetNameWithNoTooltip]を代表する最高の美術品を所蔵している。"
- #Unique Buildings
+ # Unique Buildings
  ablaq_palace: "アブラク宮殿"
  ablaq_palace_desc: "エジプトの統治者が居住した輝かしい邸宅であるこの建造物は、非常に美しいアブラク建築で装飾されている。その神聖なホールは、$kaaba$神殿を覆う「キスワ」と呼ばれる絹の幕の製造に使用される。"
  mamluk_barracks: "$mamluk$兵舎"
@@ -754,7 +763,7 @@
  dock_desc: "ドックは最も基本的な沿岸インフラであり、船の建造や修理を可能にする。"
  dry_dock_desc: "船の建造や修理に必要なインフラを提供する港湾施設。隔離され、乾燥した係留地で作業をおこなうことができ、必要に応じて注水も可能である。船体に容易に接近できるため、建造の効率や能力が大幅に向上する。"
  shipyard_desc: "造船所は、わが国の港の能力を大きく向上させる。より多くの船の整備や建造が可能になると同時に、乗組員向けの設備も充実させることができる。"
- grand_shipyard_desc: "大規模な港湾インフラ。無数の船や船員が始終出入りする。艦隊を丸ごと建造・修理することができ、わが国の制海権を拡大するための要衝となっている。"
+ grand_shipyard_desc: "壮観な大規模港湾インフラ。無数の船や船員が始終出入りする。艦隊を丸ごと建造・修理することができ、わが国の制海権を拡大するための要衝となっている。"
  naval_base_desc: "沿岸全体を囲い込み、わが国の大艦隊の建造と整備に特化した区画。乗船員、職人、技術者からなる小さな都市であり、海軍を丸ごと建造できる能力を備え、わが国で最も重要な戦略拠点のひとつとなっている。"
  distillers_guild_desc: "街のあらゆる蒸留酒の秘伝レシピや、製造を管理する蒸留酒製造業者の組合。製造技術を習得したい者は組合に加入するしかなく、組合による独占が拡大している。"
  distiller_manufactory_desc: "蒸留製品の需要が高まり、昔ながらのギルドの秘密主義が消滅した生産中心地。需要に後押しされ、量と利益を優先する新しい近代的な生産システムが生まれた。"
@@ -895,7 +904,7 @@
  wat_chaiwatthanaram_temple_building_desc: "わが国の統治者の私的な後援者であり、王室の宗教儀式や、統治者とその家族の葬儀を執りおこなう場所として使われる。"
  khmer_baray: "バライ"
  khmer_baray_desc: "大規模な水の貯蔵施設。農業への投資を拡大し、より安定した食糧供給を可能にする。建設後は、腐食を防ぐため厳重な管理や継続的な保守が必要となる。"
- #Bavaria
+ # Bavaria
  herrenchiemsee_abbey_potential: "ヘレンキームゼー修道院はキーム湖の島にのみ建造でき、その管理には$BAV$が必要となる。"
  herrenchiemsee_abbey: "ヘレンキームゼー修道院"
  herrenchiemsee_abbey_desc: "キーム湖の島に建つ、壮麗なバロック様式の修道院。宗教的・文化的中心地として機能し、識字率の向上や$BAV_ADJ$の伝統の振興に貢献している。"
@@ -999,3 +1008,8 @@
  #Tlemcen
  qalat_al_mashwar: "カルアトゥ・アル＝マシュワール"
  qalat_al_mashwar_desc: "$tlemcen$の中心部に位置する、要塞化された美しく荘厳な宮殿複合施設。地域の権力と繁栄の象徴であるこの王宮は、在位する王朝の行政の拠点としても機能する。その比類なき美しさに加え、他国からの脅威や征服者に対する防衛の役割も果たす。"
+ #Germany
+ german_river_toll_castle: "河川税関城"
+ german_river_toll_castle_desc: "川沿いに小さな城を築けば、通行する商人を統制しやすくなり、当地の交易収入の一部がわが国にもたらされる。"
+ german_mountain_toll_castle: "山道税関城"
+ german_mountain_toll_castle_desc: "山道の要衝に小さな城を築けば、通行する商人を統制しやすくなり、当地の交易収入の一部がわが国にもたらされる。"

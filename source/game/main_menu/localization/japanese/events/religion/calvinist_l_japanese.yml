@@ -32,6 +32,6 @@
  calvinist.8.a: "禁止令を出せ。"
  calvinist.8.b: "彼らの意見は無視する。"
  calvinist.9.title: "偶像破壊の暴動"
- calvinist.9.desc: "[ROOT.GetCountry.GetName]で宗教がらみの暴動が起こった。[ShowReligionName('calvinist')]の信者たちが教会を荒らし、[ShowReligionName('catholic')]の絵画や装飾品を破壊したのだ。[ROOT.GetCountry.GetName]のカトリック教徒が早急な対応を政府に要求している。"
+ calvinist.9.desc: "[ROOT.GetCountry.GetName|U]で宗教がらみの暴動が起こった。[ShowReligionName('calvinist')]の信者たちが教会を荒らし、[ShowReligionName('catholic')]の絵画や装飾品を破壊したのだ。[ROOT.GetCountry.GetName]のカトリック教徒が早急な対応を政府に要求している。"
  calvinist.9.a: "軍隊を送ってやめさせろ！"
  calvinist.9.b: "むしろ奨励しろ！"

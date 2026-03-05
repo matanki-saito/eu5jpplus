@@ -31,7 +31,7 @@
  catholic_flavor.7.b: "聖母マリアは特別な女性だが、ただの女性であることに変わりはない。"
  opinion_denying_the_holy_mother: "聖母マリアを否定"
  catholic_flavor.8.title: "私審判の教義"
- catholic_flavor.8.desc: "人は死の直後に[ROOT.GetCountry.GetReligion.GetGodName]の裁きを受け、最後の審判が下されるまでの魂の運命が決まる。\n\nしかし、[unrest_province.GetName]の修道士が、この教義をめぐり異端じみた論争を巻き起こした。煉獄は存在しない、死者のために祈っても死者は天国へ行けない、というのだ。\n\nこの主張によって[GetInternationalOrganization('catholic_church').GetName]の団結が脅かされている。"
+ catholic_flavor.8.desc: "人は死の直後に[ROOT.GetCountry.GetReligion.GetGodName]の裁きを受け、最後の審判が下されるまでの魂の運命が決まる。\n\nしかし、[unrest_location_scope.GetName]のひとりの修道士が、この教義をめぐり異端じみた論争を巻き起こした。この者によれば、煉獄は存在しない、死者のために祈っても死者は天国へ行けないのだという。\n\nこの主張によって、[GetInternationalOrganization('catholic_church').GetName]の団結が脅かされている。"
  catholic_flavor.8.a: "彼はおそらく異端者なのだ。"
  catholic_flavor.8.b: "死者を救うことはできない。"
  catholic_flavor.9.title: "新しい信仰告白"

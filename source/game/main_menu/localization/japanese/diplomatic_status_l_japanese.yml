@@ -46,7 +46,7 @@
  diplomatic_status_truce_name: "停戦中"
  diplomatic_status_truce_tooltip: "#T 停戦中#!\nこの国家は、以下の[countries|e]と[truce|e]状態にある。"
  diplomatic_status_annul_treaties_name: "条約を破棄"
- diplomatic_status_annul_treaties_tooltip: "#T 条約を破棄#!\nこの国家は、これらの[countries|e]とのすべての条約の破棄を強制された。"
+ diplomatic_status_annul_treaties_tooltip: "#T 条約を破棄#!\nこの国家は、これらの[countries|e]とのすべての条約の破棄を強制され、彼らを外交的に服従させることも、いかなる関係を構築することもできない。"
  diplomatic_status_warning_name: "警告中"
  diplomatic_status_warning_tooltip: "#T 警告中#!\n警告を受けた国家が、両陣営（自国および警告を発した国）と隣接する国を攻撃した場合、警告を発した国家は警告先に対する[casus_belli|e]を得る。"
  diplomatic_status_warned_name: "警告を受けている"

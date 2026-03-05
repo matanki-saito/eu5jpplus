@@ -12,7 +12,7 @@
  mercs.3.a: "戦利品の一部を与える。"
  mercs.3.b: "戦利品は断るが、給料を上げる。"
  mercs.4.title: "退役軍人が[veteran_mercs.GetName]に殺到"
- mercs.4.desc: "[ROOT.GetCountry.GetName]は、その国際的な名声はもちろん、契約どおりの報酬を期日どおりに傭兵に支払うことから、傭兵隊長のあいだで高く評価されている。多くの外国人の退役軍人が、安定した仕事を求めて[veteran_mercs.GetName]に入隊している。"
+ mercs.4.desc: "[ROOT.GetCountry.GetName|U]は、その国際的な名声はもちろん、契約どおりの報酬を期日どおりに傭兵に支払うことから、傭兵隊長のあいだで高く評価されている。多くの外国人の退役軍人が、安定した仕事を求めて[veteran_mercs.GetName]に入隊している。"
  mercs.4.a: "[ROOT.GetCountry.GetNameWithNoTooltip]のために戦いたくない者などいない。"
  mercs.5.title: "象！"
  mercs.5.desc: "ハンニバルやポエニ戦争の時代以来初めて、軍象が[ROOT.GetCountry.GetAdjective]人将軍の指揮のもとにヨーロッパに戻ってきた。我々の敵は、鎧をかぶり、戦いを象徴する装飾品で飾られた巨大で威厳のある獣を前に、恐怖で震え上がるだろう。"

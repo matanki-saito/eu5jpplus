@@ -9,7 +9,7 @@
  tribesmen: "部族"
  nobles_desc: "貴族とは、疑いようのない血統を持つ、裕福で権力のある者たちを指す。彼らは[country|e]を導く主要な[characters|e]を輩出する[pops|e]である。"
  clergy_desc: "我々の[country|e]における精神的指導者である聖職者[pops|e]は、宗教的伝統を維持し、わが国の信仰の神秘性を国民に教育する集団を構成している。"
- burghers_desc: "市民とは、[country|e]の経済と財政を支配する商人階層を指す。彼らは主に[towns_and_cities|e]を拠点とし、生産をおこなう[buildings|e]で富を貯える。"
+ burghers_desc: "市民とは、[country|e]の経済と財政を支配する商人階層を指す。彼らは主に[towns_and_cities|e]を拠点とし、生産的な[buildings|e]で富を創出する。"
  peasants_desc: "農民とは、我々が統治する庶民を指す。彼らの大半は自給自足の農業を営むか、村々で暮らしている。"
  slaves_desc: "奴隷とは、主人のために[raw_materials|e]を採取したり[plantations|e]で働いたりする、自由意志のない者たちを指す。彼らは生まれによって、または交易[markets|e]で売買されることによって、消耗品のように扱われている。"
  tribesmen_desc: "部族とは、[rural_locations|e]に居住する、農耕、牧畜、あるいは狩猟・採集によって自給自足の生活を営む共同体を指す。各々が独自の社会構造と組織をもっているため、我々が統治することはほぼ不可能である。"

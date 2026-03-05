@@ -45,7 +45,7 @@
  flavor_fra_sco.111.title: "[GetCountry('SBL').GetGovernment.GetRuler.GetShortNameWithNoTooltip]が勝利！"
  flavor_fra_sco.111.a: "[GetCountry('FRA').GetNameWithNoTooltip]はこの先の貴重な味方となるだろう。"
  flavor_fra_sco.111.desc: "[GetCountry('SCO').GetAdjective]内戦における[GetCountry('SBL').GetGovernment.GetRuler.GetName]の勝利は、ついに王国を再び統一した。戦争が終結したことで[GetCountry('FRA').GetName]の宮廷は、我々が勝利した場合に以前約束した、正式な同盟の締結を求めている。"
- #Tooltips
+ # Tooltips
  lord_balliol_recieves_david_ii_tt: "[david_ii_bruce.GetNameWithNoTooltip]とその側近たちは、ベイリャル公を我々の大義に引き込めることを期待し、その保護下に入る。"
  fra_grant_sco_large_levy_tt: "[GetCountry('SCO').GetNameWithNoTooltip]が2,500の封建軍隊からなる陸軍を首都に得る"
  fra_grant_sco_footmen_regiments_tt: "[GetCountry('FRA').GetAdjectiveWithNoTooltip]が1,000の歩兵部隊からなる陸軍を首都に得る"

@@ -1,6 +1,6 @@
 ﻿l_japanese:
  flavor_nap_pap.1.title: "[lorenzo_valla_scope.GetNameWithNoTooltip]"
- flavor_nap_pap.1.desc: "優秀な講演者である[lorenzo_valla_scope.GetName]が最近[country_ruler.GetName]と出会い、論客および哲学者としての手腕で統治者の興味をかき立てた。ふたりは意気投合したようで、[country_ruler.GetShortNameWithNoTooltip]はのちに作家のための学校に対する資金提供を提案し、[lorenzo_valla_scope.GetNameWithNoTooltip]の技能を[ROOT.GetCountry.GetGovernment.GetAdjective][ROOT.GetCountry.GetGovernment.GetCourtTitle]で活用することを提案した。\n\n加えて、[lorenzo_valla_scope.GetNameWithNoTooltip]は古代の「#italic コンスタンティヌスの寄進状#!」に疑問を抱いており、自身でその偽造を暴けると考えている。[lorenzo_valla_scope.GetSheHe]が正しければ、これは[ShowReligionAdjective('catholic')]世界に大きな波紋を呼ぶことになるだろう。"
+ flavor_nap_pap.1.desc: "優秀な講演者である[lorenzo_valla_scope.GetName]が最近[country_ruler.GetName]と出会い、論客および哲学者としての手腕で統治者の興味をかき立てた。ふたりは意気投合したようで、[country_ruler.GetShortNameWithNoTooltip]はのちに作家のための学校に対する資金提供を提案し、[lorenzo_valla_scope.GetNameWithNoTooltip]の技能を[ROOT.GetCountry.GetGovernment.GetAdjective]の[ROOT.GetCountry.GetGovernment.GetCourtTitle]で活用することを提案した。\n\n加えて、[lorenzo_valla_scope.GetNameWithNoTooltip]は古代の「#italic コンスタンティヌスの寄進状#!」に疑問を抱いており、自身でその偽造を暴けると考えている。[lorenzo_valla_scope.GetSheHe]が正しければ、これは[ShowReligionAdjective('catholic')]世界に大きな波紋を呼ぶことになるだろう。"
  flavor_nap_pap.1.historical_info: "ロレンツォ・ヴァッラは15世紀のイタリアの人文主義者で、ナポリを征服したあとに主にアラゴン王アルフォンソ5世に仕え、イタリア・ルネサンスに多大な貢献をした。ヴァッラは、カトリック世界に対するローマ教皇の権威の根拠となった文書「#italic コンスタンティヌスの寄進状#!」を批判し、それが偽書であることを暴いて教皇庁に屈辱を与えたことでも知られる。このことから、彼は学問における文書批判と文献学の父とみなされている。"
  flavor_nap_pap.1.a: "すぐに[lorenzo_valla_scope.GetHerHim]を雇おう！"
  flavor_nap_pap.1.b: "[lorenzo_valla_scope.GetHerHim]にはせいぜい学校を任せておけばよい。"

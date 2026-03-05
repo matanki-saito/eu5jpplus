@@ -131,5 +131,5 @@
  flavor_maj.29.desc: "[ROOT.GetCountry.GetFlavorRank]が隆盛を極めるなか、[ROOT.GetCountry.GetCulture.GetName]文化は黄金時代を迎え、我らの文化遺産のあらゆる面が真の再生を遂げている。新たな#italic カカウィン#!が生み出され、民衆は伝統的な人形劇を楽しんでいる。[ROOT.GetCountry.GetGovernment.GetRulerTitle]は国内各地を巡り、芸術家たちが手掛けた壮大な新しい施設に感嘆し、保護の手を差し伸べている。この繁栄の時代が長く続くことを願おう。"
  flavor_maj.29.a: "[ROOT.GetCountry.GetNameWithNoTooltip]は真の世界の中心である！"
  flavor_maj.29.b: "この文化を従属国に広めるよう努めなければ！"
- MAJ_we_will_play_as_malacca: "わが国は[ShowFormableCountryName('MLC_f')]でのプレイを続行する。"
+ MAJ_we_will_play_as_malacca: "わが国は[ROOT.GetCountry.GetName]でのプレイを放棄し、新たに解放される[ShowFormableCountryName('MLC_f')]でプレイを続行する。"
  demak_progress_at_least_20: "スンニ派の支配率は#r 20.0%#!以上"

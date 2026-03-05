@@ -11,7 +11,7 @@
  cultural_event.3.desc: "ローマ帝国最後の砦となったコンスタンティノープルとともに、[GetCountry('BYZ').GetName]が陥落した。キリスト教界が衝撃に揺れるなか、[GetCountry('BYZ').GetAdjectiveWithNoTooltip]難民が[ShowContinentName('europe')]各地の都や宮廷に押し寄せ、古典知識の古い写本、アリストテレス、プラトン、ガレノスの小冊子、[ShowLanguageName('latin_language')]と[ShowLanguageName('greek_language')]のあらゆる知識を持ち込んでいる。\n\nこれらの難民を[ROOT.GetCountry.GetName]に招くことは、文化と科学の分野における我々の取り組みの多大な後押しとなるかもしれない。"
  cultural_event.3.a: "ぜひとも受け入れよう！"
  cultural_event.3.b: "いいや、彼らを受け入れる余裕はない。"
- cultural_event.4.title: "$STATIC_MODIFIER_NAME_florentine_school$の支援"
+ cultural_event.4.title: "$STATIC_MODIFIER_NAME_florentine_school$"
  cultural_event.4.desc: "我々は比較的著名なため、フィレンツェ派の[ShowCultureGroupName('italian_group')]の芸術家たちを支援する立場にある。国際的な芸術のパトロンとして認識されることにより、我々に対する人々の好感度は確実に向上するだろう。"
  cultural_event.4.a: "当然だ！ 支援しよう！"
  cultural_event.4.b: "いや、これ以上問題が増えると困る。"

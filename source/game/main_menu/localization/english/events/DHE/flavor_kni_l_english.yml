@@ -19,7 +19,7 @@
 
 #New Events 
  flavor_kni.7.title: "Translating the Chronicle"
- flavor_kni.7.desc: "The #italic Chronicle of Morea#! is a chronicle detailing the establishment of the #italic Frankokratia#! in Greece, covering much of the 13th century following the Fourth Crusade. Though the [GetCountry('LAT').GetLongName] may have fallen to the [GetCountry('BYZ').GetLongName], other various states still stand, including [ROOT.GetCountry.GetName]. Let us have it translated into our language while simultaneously extending the work itself to cover our history."
+ flavor_kni.7.desc: "The #italic Chronicle of Morea#! is a chronicle detailing the establishment of the #italic Frankokratia#! in [ShowScriptedGeographyName('greece_geography')], covering much of the 13th century following the Fourth Crusade. Though the [GetCountry('LAT').GetLongName] may have fallen to the [GetCountry('BYZ').GetLongName], other various states still stand, including [ROOT.GetCountry.GetName]. Let us have it translated into our language while simultaneously extending the work itself to cover our history."
  flavor_kni.7.a: "Have it translated."
  flavor_kni.7.b: "Do not bother with it."
 

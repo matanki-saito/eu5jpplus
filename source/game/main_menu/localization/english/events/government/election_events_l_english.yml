@@ -1,11 +1,13 @@
 ﻿l_english:
  election.1.title: "Election in [ROOT.GetCountry.GetNameWithNoTooltip]"
  election.1.desc: "The term of our previous head of state has come to an end. As such, it is time for a renewed electoral process across our realm. The vote is but the crowning jewel on the head of our illustrious [ROOT.GetCountry.GetFlavorRank] as we take great pride in the procedures entailed within our bureaucratic domain, one of which is the appointment of a leader based on meritocracy and procedural transparency."
+ election.1.desc.junior: "The term of our previous head of state has come to an end. As a minor [ShowSpecialStatusName('junior_partner')] of the [ROOT.GetCountry.GetDiplomacy.GetUnion.GetName], the choice of our new ruler is out of our hands though..."
  election.1.a: "Elect [candidate_a.GetNameWithNoTooltip] as Ruler."
  election.1.b: "Elect [candidate_b.GetNameWithNoTooltip] as Ruler."
  election.1.c: "Elect [candidate_c.GetNameWithNoTooltip] as Ruler."
  election.1.d: "Elect [candidate_d.GetNameWithNoTooltip] as Ruler."
  election.1.e: "Elect [candidate_e.GetNameWithNoTooltip] as Ruler."
+ election.1.f: "Let us hope they make the good choice..."
  election.2.title: "Lottery Election in [ROOT.GetCountry.GetNameWithNoTooltip]"
  election.2.desc: "The unfortunate passing of our [ROOT.GetCountry.GetGovernment.GetRulerTitle] forces us to hold an election. However, elections by majority votes are prone to corruption or worse, populism. After several rounds of secret allotment, we have now determined who should lead the [ROOT.GetCountry.GetLongName] by selecting almost at random."
  election.2.a: "The lottery picked [candidate_a.GetNameWithNoTooltip] as [ROOT.GetCountry.GetGovernment.GetRulerTitle]"

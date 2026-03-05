@@ -44,7 +44,7 @@
  muslim_school_events.12.desc: "For centuries, many of the followers of Ali have considered it a necessity to hide themselves and feign adherence to other religious customs in order to keep their faith alive. Authorities in [SCOPE.sLocation('shia_here').GetName] have increasingly come to suspect that there is an increasing number of Shias among the local sufi lodges, and would like our blessing in their attempts to ROOT them out."
  muslim_school_events.12.a: "We cannot tolerate heretics!"
  muslim_school_events.12.b: "We must respect the Sufi lodges."
- 10_percent_of_all_pops_become_shia_tt: "#Y 10%#! of our [pops|e] in this [location|e] will convert to [ShowReligionName('shia')]"
+ 10_percent_of_all_pops_become_shia_tt: "#Y 10%#! of our [pops|e] in [THIS.GetLocation.GetName] will convert to [ShowReligionName('shia')]"
  muslim_school_events.13.title: "Protests in [target_location.GetNameWithNoTooltip]"
  muslim_school_events.13.desc: "As men of great spiritual strength, but also firmly part of the establishment, members of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] sometimes choose to join social protests. A recent altercation between the local garrison and the urban population in [target_location.GetName] has attracted the attention of prominent Muftī in the state of [target_location.GetProvince.GetName].\n\nOur local commander fears the situation might escalate unless we listen to the protesters, but doing so would come at a cost."
  muslim_school_events.13.a: "Let us compensate the people of [target_location.GetNameWithNoTooltip]."

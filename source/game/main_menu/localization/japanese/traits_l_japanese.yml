@@ -175,7 +175,7 @@
  hussar_commander: "ユサール司令官"
  desc_hussar_commander: "この将軍は真のユサール（重騎兵）司令官である。このキャラクターが指揮する騎兵隊の突撃は、より効果的になる。"
  hussar_commander_die_desc: "[CHARACTER.GetSheHe|U]は恐るべきユサール司令官であり、幾多の戦いで勝利を収めた。この司令官なしでは、わが軍の騎兵隊は再びこのような栄光を手にできなかった。"
- #Artists
+ # Artists
  gold_loving: "金の亡者"
  humble: "謙虚"
  workaholic: "専心"
@@ -269,7 +269,7 @@
  naval_gunner_die_desc: "[CHARACTER.GetHerHis|U]による砲撃部隊の絶え間ない訓練により、[CHARACTER.GetHerHis]の生涯を通じてわが国の海軍力は大幅に向上した。"
  accomplished_sailor_die_desc: "航海術全般における高い理解力により、[CHARACTER.GetHerHis|U]は部下から尊敬を集めていた。"
  level_headed_die_desc: "危機に直面してもうろたえない[CHARACTER.GetHerHis|U]の冷静さは、大いに惜しまれるだろう。"
- #Artists
+ # Artists
  gold_loving_die_desc: "その金への執着がわが国の国庫を圧迫した。会計官が[CHARACTER.GetHerHis|U]の死を悼むことはないだろう。"
  humble_die_desc: "その謙虚さは、[CHARACTER.GetHerHis|U]の作品に対する称賛をより大きなものにした。"
  workaholic_die_desc: "[CHARACTER.GetHerHis|U]の制作への献身は死期を必要以上に早めたが、その作品は長く記憶されることになるだろう。"
@@ -282,7 +282,7 @@
  amateur_die_desc: "[CHARACTER.GetHerHis|U]の未熟さゆえに、その作品はすぐに忘れ去られるだろう。"
  prescient_die_desc: "[CHARACTER.GetHerHis|U]のさすがのインスピレーションでも、自らの最期を避けることはできなかった。"
  idler_die_desc: "[CHARACTER.GetHerHis|U]の悪名高い怠け癖は、後援者たちの怒りを買っただけだった。"
- #Explorers
+ # Explorers
  curious_adventurer: "好奇心旺盛"
  desc_curious_adventurer: "この探検家は好奇心旺盛で、すべての島を踏破するまではその地域の探検をやめない。海岸線を描き尽くす熱意や努力も、すべては新大陸の秘密を明らかにするため。ほかの探検家とは異なり、個人的な利益には興味がないのだ。"
  curious_adventurer_die_desc: "[CHARACTER.GetHerHis]の好奇心が最後には満たされたかどうかは、誰にもわからない。"
@@ -298,7 +298,7 @@
  scientist_on_sea: "海上の科学者"
  desc_scientist_on_sea: "この者は探検家である以前に科学者である。よって地図を作ることよりも、新大陸の動植物を研究することのほうが重要だと考えている。"
  scientist_on_sea_die_desc: "[CHARACTER.GetHerHis|U]の存在は、発見した多くの動植物の名前のなかに残りつづける。"
- #Children
+ # Children
  child_prodigy: "神童"
  child_prodigy_die_desc: "[CHARACTER.GetName]の死によって、待ち受けていたはずの輝かしい運命が未達成に終わり、つらい喪失感だけが残った。"
  desc_child_prodigy: "この子供の将来は明るく、歴史に名を残す運命が待っているだろう。"

@@ -232,7 +232,7 @@
  promote_to_head_of_cabinet: "Promote to Head of the Cabinet"
  promote_to_head_of_cabinet_concept: "[cabinet|e]"
  promote_to_head_of_cabinet_act: "$promote_to_head_of_cabinet$"
- promote_to_head_of_cabinet_desc_specific: "[SCOPE.sCharacter('recipient').Custom('GetHeadOfCabinetName')] [SCOPE.sCharacter('recipient').GetName] becomes [head_of_the_cabinet|e] until [SCOPE.sCharacter('recipient').GetHisHer] death or removal from the [cabinet|e]."
+ promote_to_head_of_cabinet_desc_specific: "[SCOPE.sCountry('actor').GetGovernment.GetCabinetMemberTitle] [SCOPE.sCharacter('recipient').GetName] becomes [head_of_the_cabinet|e] until [SCOPE.sCharacter('recipient').GetHisHer] death or removal from the [cabinet|e]."
  promote_to_head_of_cabinet_desc: "The [character|e] will become [head_of_the_cabinet|e] until death or removal from the [cabinet|e]."
  promote_to_head_of_cabinet_past: "[SCOPE.sCountry('actor').Custom('GetHeadOfCabinetName')] Promoted"
  promote_to_head_of_cabinet_act_past: "[SCOPE.sCharacter('recipient').GetName] has been promoted to [head_of_the_cabinet|e] until [SCOPE.sCharacter('recipient').GetHisHer] death or removal from the [cabinet|e]."

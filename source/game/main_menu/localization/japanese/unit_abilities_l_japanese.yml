@@ -50,3 +50,6 @@
  raid_imperial_family_holdings: "皇室領の襲撃"
  raid_imperial_family_holdings_desc: "$raid_clan_holdings_desc$"
  raid_imperial_family_holdings_cta: "クリックで皇室領を襲撃する"
+ hussite_tribunal: "[ShowReligionAdjectiveWithNoTooltip('hussite')]の裁判"
+ hussite_tribunal_desc: "場所の確保が完了すると、わが国の指揮官は住民の間に広がる異端の[ShowReligionAdjective('hussite')]を一掃するため、臨時の裁判所を設営する。嫌疑をかけられた信徒は召喚され、脅迫のもとでの棄教を強いられるか、あるいは街中で見せしめにされる。服従した者は[ShowReligionName('catholic')]へと復帰させられ、拒んだ者は投獄、もしくは死刑となる。[GetCountry('PAP').GetReligion.GetGodName]が彼らの魂に慈悲を与えんことを！"
+ controller_is_not_owner_tt: "[siege|e]の完了後、わが国がこの[location|e]の[controller|e]となってはいるが、[owner|e]ではない"

@@ -295,7 +295,7 @@
  flavor_sco.204.b: "この計画には費用がかかりすぎる。"
  flavor_sco.205.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の王立海軍の拡張"
  flavor_sco.205.desc: "[ROOT.GetCountry.GetName]は小規模ながら王立海軍を維持してきたが、その規模はつねに[GetCountry('ENG').GetName]海軍には遠く及ばなかった。[ShowAreaName('north_sea_area')|U]を越えて[ShowContinentName('europe')]へ進出する道を切り拓くべく、[sco_ruler.GetName]は[ROOT.GetCountry.GetAdjectiveWithNoTooltip]王立海軍の拡張に向けた資金の拠出を要請した。これにより、[GetCountry('ENG').GetNameWithNoTooltip]と肩を並べる戦力をもつことが可能になる。\n\n評議会の一部は[sco_ruler.GetNameWithNoTooltip]に賛同する一方で、[ROOT.GetCountry.GetNameWithNoTooltip]はむしろ陸軍規模を倍増させて[GetCountry('ENG').GetNameWithNoTooltip]からのこれ以上の侵攻を防ぐべきだと提案する者もいる。しかし、海軍拡張の報が[GetCountry('ENG').GetNameWithNoTooltip]に届けば、[GetCountry('ENG').GetAdjectiveWithNoTooltip]側が対抗措置に出る可能性もある。"
- flavor_sco.205.a: "[ROOT.GetCountry.GetGovernment.GetAdjective]海軍の拡張に出資しよう！"
+ flavor_sco.205.a: "[ROOT.GetCountry.GetGovernment.GetAdjective]の海軍の拡張に出資しよう！"
  flavor_sco.205.b: "この資金は陸軍強化に充てるべきだ。"
  flavor_sco.206.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip][ROOT.GetCountry.GetGovernment.GetParliament.GetName]の衰退"
  flavor_sco.206.desc: "[GetCharacter('sco_robert_the_bruce').GetName]や[GetCharacter('sco_david_ii').GetName]の時代には、[ROOT.GetCountry.GetGovernment.GetParliament.GetName]の会合と合意が統一と成功への道を切り拓いた。しかし近年では、[sco_ruler.GetName]への権力集中とその統治の有効性により、[ROOT.GetCountry.GetGovernment.GetParliament.GetName]が招集される機会は減っている。評議会の一部には、些細な案件であっても[ROOT.GetCountry.GetGovernment.GetParliament.GetName]を開催すべきとの意見があるものの、[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]がもはや[ROOT.GetCountry.GetGovernment.GetParliament.GetName]の助言を必要としなくなったことで、かえってその権力を強める結果となっている。"

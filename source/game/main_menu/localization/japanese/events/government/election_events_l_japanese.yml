@@ -1,11 +1,13 @@
 ﻿l_japanese:
  election.1.title: "[ROOT.GetCountry.GetNameWithNoTooltip]で選挙"
  election.1.desc: "前国家元首の任期が終わり、わが国に選挙の時期が到来した。我々は、この決められた枠組み内でおこなわれる規律正しい手続きに誇りをもっており、その最たる例が、実力主義と手続きの透明性に基づく権力者の任命であるため、選挙制度こそがこの輝かしい[ROOT.GetCountry.GetFlavorRank]の最高の業績である。"
+ election.1.desc.junior: "前国家元首の任期が終わりを迎えた。だが、[ROOT.GetCountry.GetDiplomacy.GetUnion.GetName]の中でも力を持たない[ShowSpecialStatusName('junior_partner')]という立場では、我々に新たな統治者を選ぶ権限はない……"
  election.1.a: "選挙で[candidate_a.GetNameWithNoTooltip]を統治者に選出する"
  election.1.b: "選挙で[candidate_b.GetNameWithNoTooltip]を統治者に選出する"
  election.1.c: "選挙で[candidate_c.GetNameWithNoTooltip]を統治者に選出する"
  election.1.d: "選挙で[candidate_d.GetNameWithNoTooltip]を統治者に選出する"
  election.1.e: "選挙で[candidate_e.GetNameWithNoTooltip]を統治者に選出する"
+ election.1.f: "彼らが正しい選択をしてくれることを願おう……"
  election.2.title: "[ROOT.GetCountry.GetNameWithNoTooltip]で抽選選挙"
  election.2.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]の痛ましい逝去により、選挙の実施を余儀なくされた。ただし、多数決制の選挙は腐敗による不正が発生しやすい上に、さらに悪いことに大衆迎合主義に陥りやすい。秘密裏に何度か話し合いを繰り返した結果、[ROOT.GetCountry.GetLongName]をこれから導く次期[ROOT.GetCountry.GetGovernment.GetRulerTitle]が、ほぼランダムに選出された。"
  election.2.a: "抽選で[candidate_a.GetNameWithNoTooltip]が[ROOT.GetCountry.GetGovernment.GetRulerTitle]に選出された"

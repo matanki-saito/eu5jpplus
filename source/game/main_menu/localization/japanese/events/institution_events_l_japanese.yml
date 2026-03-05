@@ -59,7 +59,7 @@
  institution_events.50.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]の役割を保護する。"
  institution_events.51.title: "職業軍隊からの需要"
  institution_events.51.desc: "[professional_armies_country.GetName]が職業軍人で構成される常備軍を導入したことにより、武器や甲冑の需要が大幅に増加した。この流れは、[professional_armies_country.GetAdjectiveWithNoTooltip]の市場だけでなく、わが国の市場にも影響を及ぼしている。[professional_armies_country.GetAdjectiveWithNoTooltip]の商人が[professional_armies_country.GetGovernment.GetRulerTitle]や、拡大していく[professional_armies_country.GetGovernment.GetRulerTitle]の軍隊のために武器を捜し求めているからだ。"
- institution_events.51.desc.fallback: "With the introduction of a professional, standing army, the demand of weapons and armor has increased significantly. Our merchants scour for blades and other kinds of weapons for the growing militaries of the nations around us."
+ institution_events.51.desc.fallback: "職業軍人で構成される常備軍の導入により、武器や甲冑の需要が大幅に増加した。わが国の商人は、拡大していく周辺諸国の軍隊のために刀剣やほかの武器を捜し求めている。"
  institution_events.51.a: "興味深い。"
  institution_events.51.b: "わが国の経済圏は[professional_armies_country.GetAdjectiveWithNoTooltip]の軍を支援しない。"
  institution_events.60.title: "[ShowInstitutionNameWithNoTooltip('new_world')]作物の普及"

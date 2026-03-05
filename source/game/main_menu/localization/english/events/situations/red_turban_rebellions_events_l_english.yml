@@ -106,7 +106,7 @@
  red_turban_rebellions.42.desc: "The [ShowSituationName('red_turban_rebellions')] affects not only the entirety of core regions of [ROOT.GetCountry.GetName], but also the long fringe areas of the [ROOT.GetCountry.GetFlavorRank]. Most notably are the distanced lands of the [ShowRegionName('manchuria_region')] which have been conquered by our predecessors. While nominally under our control, due to the boiling conflict in our heartland there is nobody who can enforce our rule over [ShowRegionNameWithNoTooltip('manchuria_region')], making it abandoned in effect."
  red_turban_rebellions.42.a: "Oh, that is just stellar..."
  red_turban_rebellions.42.a.tt: "#R All of our owned [locations|e] in [ShowRegionName('manchuria_region')] get abandoned#!"
- red_turban_rebellions.42.b.tt: "#R Every [subject|e] with its [capital|e] in [ShowRegionName('manchuria_region')] becomes independent#!"
+ red_turban_rebellions.42.b.tt: "#R Every [subject|e] that is not [ROOT.GetCountry.GetCulture.GetName] with its [capital|e] in [ShowRegionName('manchuria_region')] becomes independent#!"
 
  red_turban_rebellions.43.title: "Recall of the [ShowCultureNameWithNoTooltip('mongolian_culture')] Generals"
  red_turban_rebellions.43.desc: "As the rebels threaten us further to fracture our state, the need for competent personal becomes increasingly more apparent. Fortunately for us, many loyal [ShowCultureName('mongolian_culture')] officers are still present in [target_country.GetName]. We could call them back to bolster our military at the cost of an increased risk that the [ShowCultureName('korean_culture')] people break away from us in the future."

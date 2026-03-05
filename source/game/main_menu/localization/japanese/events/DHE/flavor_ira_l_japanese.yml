@@ -281,7 +281,7 @@
  flavor_ira.1300.a: "作業に取り掛かれ！"
  flavor_ira.1300.b: "この国の首都は[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]だ。"
  flavor_ira.1301.title: "[target_location.GetNameWithNoTooltip]は世界の半分"
- flavor_ira.1301.desc: "[target_location.GetName]で新たな政治拠点が完成し、ここに世界屈指の大都市が誕生した。チャハールバーグ大通りから壮大なイマーム広場に至るまで、この都市にはいまやわが[ROOT.GetCountry.GetFlavorRank]のすべての政府機関が集約されている。\n\nこの[target_location.GetNameWithNoTooltip]広場はまさにわが[ROOT.GetCountry.GetFlavorRank]の縮図であり、国中から集まった商人たちの露店で賑わい、壮麗なモスクであるマスジェデ・シャー、[ROOT.GetCountry.GetGovernment.GetAdjective]市場、そしてアリ・カプ宮殿が立ち並んでいる。都市再編の過程で、多くの新たな施工方法が生まれ、職人や建築家たちは想像を超える技術発展を成し遂げた。"
+ flavor_ira.1301.desc: "[target_location.GetName]で新たな政治拠点が完成し、ここに世界屈指の大都市が誕生した。チャハールバーグ大通りから壮大なイマーム広場に至るまで、この都市にはいまやわが[ROOT.GetCountry.GetFlavorRank]のすべての政府機関が集約されている。\n\nこの[target_location.GetNameWithNoTooltip]広場はまさにわが[ROOT.GetCountry.GetFlavorRank]の縮図であり、国中から集まった商人たちの露店で賑わい、壮麗なモスクであるマスジェデ・シャー、[ROOT.GetCountry.GetGovernment.GetAdjective]の市場、そしてアリ・カプ宮殿が立ち並んでいる。都市再編の過程で、多くの新たな施工方法が生まれ、職人や建築家たちは想像を超える技術発展を成し遂げた。"
  flavor_ira.1301.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_ira.1400.title: "敵の敵"
  flavor_ira.1400.desc: "わが国と[shared_rival.GetName]との対立は、予想もできないほど厄介な状況に陥っている。国力は同格だと思われ、戦争で互いを屈服させられる見込みもないため、そのような大きな犠牲を避ける方法を見つけなくてはならない。幸い、[shared_rival.GetNameWithNoTooltip]は[ShowContinentName('europe')]に野心を抱いているため、大陸各国の君主に敵視されているとの情報がもたらされた。[ShowContinentNameWithNoTooltip('europe')]で最も強大な国である[target_country.GetName]も同じく[shared_rival.GetAdjectiveWithNoTooltip]の征服者たちを嫌っているらしく、我々は[target_country.GetNameWithNoTooltip]に使節団と贈り物を送り、共通の敵を打ち倒すための同盟を結ぶのが最善だろう。"

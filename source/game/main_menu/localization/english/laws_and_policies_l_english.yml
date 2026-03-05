@@ -2,6 +2,7 @@
  ASSIGN_LAW_POLICY_TITLE: "Assign a $STRING$ Law Policy"
  # Custom Tags
  forbids_no_policy: "Must have any Policy"
+ no_ai_propose_cd: "Can be proposed without cooldown penalty"
  #
  # Monarchy Laws
  #
@@ -39,6 +40,8 @@
  itinerant_court_policy_desc: "To better manage the sheer size of our nation, the royal court is not bound to a single location. Instead, it migrates throughout the land and manages local administration on site."
  military_court_policy: "Military Court"
  military_court_policy_desc: "Spending money on anything for the court beyond absolute necessities is a ridiculous notion that will only encourage complacency and laziness. The monarch will live a frugal live, and dedicate more of the budget towards the army."
+ humanist_court_policy: "Humanist Court"
+ humanist_court_policy_desc: "Our court and our ruler must strive towards humanist ideals. We must become a prime destination for aspiring artists and philosophers."
  timurid_court_policy: "Timurid Court"
  timurid_court_policy_desc: "While warfare is the lifeblood of the state, music, art, and poetry are equally essential to the greatness of our country. Cultural traditions from the lands we have subdued will no longer be considered alien, but be used to develop our cultural enlightenment."
  valide_sultan_court_policy: "Valide Sultan"
@@ -301,7 +304,7 @@
  allow_slave_religion_desc: "Slaves have been already forced to abandon their homes and live a life of servitude under foreign masters. Let them at least keep their beliefs and rituals; it does not matter what they believe on the inside as long as they obey."
  force_slave_conversion: "Force Slave Conversion"
  force_slave_conversion_desc: "How can we expect slaves to obey and be loyal if they are not willing to embrace our own beliefs, and instead cling to their foolish superstitions? Only by forcing them to abandon their heathenry and accept the true faith wholeheartedly can we ensure their obedience."
-#
+ #
  heir_religion_law: "Heir Religion"
  heir_religion_law_desc: "The ability to decide the religion of the [heir|e] holds significant importance in matters of succession and governance. It allows rulers and governments to maintain religious stability, ensuring that the beliefs and practices of the ruler align with those of the majority of their subjects. Ultimately, the power to determine the religion of the heir represents an important element in the fine balance of religious freedom, governance, and societal harmony."
  act_of_settlement_tt: "Has unlocked it through a [dynamic_historical_event|e]"
@@ -313,7 +316,7 @@
  heir_same_religion_group_desc: "Selecting the [heir|e] from the same religious group is often desirable in order to maintain religious and cultural continuity and prevent potential religious conflicts. This policy can help safeguard the stability of the realm by minimizing religious divisions within the leadership, at the expense of individuals from faiths considered to be 'heathen' being able to assume leadership roles."
  heir_any_religion: "Any Religion"
  heir_any_religion_desc: "Faith is personal, and does not reflect nor compromise an individual's ability to lead. The [heir|e] may worship any religion and still assume leadership roles. This policy carries a higher risk of religious conflicts within the leadership, while promoting religious freedom and general acceptance."
-#
+ #
  precious_metal_distribution_law: "Precious Metal Distribution"
  precious_metal_distribution_law_desc: "[ShowGoodsName('goods_gold')|U] and [ShowGoodsName('silver')] are the materials necessary for the minting of coins. As our state is in the highly enviable position to gather these precious metals ourselves, it is our right to decide who gains access to these resources."
  gold_export_ban: "Export Ban"
@@ -322,6 +325,32 @@
  regulated_gold_export_desc: "The trade of our valuable [ShowGoodsName('goods_gold')] and [ShowGoodsName('silver')] resources is managed with a watchful eye. This balanced approach limits the quantity of these precious metals that can be traded, ensuring that our wealth remains largely within our borders. By doing so, we strike a compromise between bolstering our economy and protecting our national riches. A prudent choice for rulers who seek both financial stability and regional influence."
  unlimited_gold_export: "Unlimited Export"
  unlimited_gold_export_desc: "We shall open the floodgates and allow unrestricted trade of our [ShowGoodsName('goods_gold')] and [ShowGoodsName('silver')] reserves with foreign nations. With this bold step, we embrace the potential for unparalleled wealth accumulation through international commerce. However, this policy exposes our treasures to the risk of being dispersed across the world, making them vulnerable to the greed of rival powers. A daring option for rulers who seek to dominate the global market and reap the rewards of boundless riches."
+ #
+ coin_laws: "Coinage Law"
+ coin_laws_desc: "This law determines the resources our country will use to mint its currency. The most common coins are made of gold, silver, and copper, with different mixtures of each material and also different monetary values. However, other exchange systems exist throughout the world that do not depend on this type of currency, but rather on other materials, such as livestock, cloth, shells, cacao, etc."
+ gold_and_silver_coins: "Gold and Silver Coins"
+ gold_and_silver_coins_desc: "The metals selected for the coinage of our currency are gold and silver, for two different sets of coins."
+ gold_coins: "Gold Coins Only"
+ gold_coins_desc: "We only use gold as the metal selected for the coinage of our currency."
+ silver_coins: "Silver Coins Only"
+ silver_coins_desc: "We only use silver as the metal selected for the coinage of our currency."
+ copper_coins: "$swedish_copper_coins$"
+ copper_coins_desc: "$swedish_copper_coins_desc$"
+ custom_union_of_the_rhine_policy: "$custom_union_of_the_rhine$"
+ custom_union_of_the_rhine_policy_desc: "$custom_union_of_the_rhine_desc$"
+ hanseatic_coins_policy: "$lub_hanseatic_coins$"
+ hanseatic_coins_policy_desc: "$lub_hanseatic_coins_desc$"
+ bullion_coins: "Bullion Coins"
+ bullion_coins_desc: "The metals selected for the coinage of our currency are silver and copper, using different mixtures."
+ barter_exchange: "Barter Exchange"
+ barter_exchange_desc: "Different goods and materials, such as livestock, cloth, shells, cacao, etc., may be used as a common currency for trade."
+
+
+
+
+
+
+
 
  #
  # Estates specific
@@ -527,7 +556,7 @@
  clan_council_policy_desc: "Trust between the people and their leaders is paramount. By electing a council of members with unquestionable dedication to our interests, we will ensure power is never held by a single person, and that our people's needs are fully met."
  steppe_warbands_policy: "Steppe Warbands"
  steppe_warbands_policy_desc: "The tribe is ruled by a council of war chiefs who constantly seek out and recruit skilled fighters for their warbands."
- jurchen_council: "[ShowCultureNameWithNoTooltip('jurchen_culture')] Council"
+ jurchen_council: "[ShowCultureGroupNameWithNoTooltip('jurchen_group')] Council"
  jurchen_council_desc: "A council of noble horse-lords and local clans, this loose administration aims at maintaining our estates and domain, and defending us from rival clans."
  #
  tribal_religious_values_law: "Tribal Religious Values"
@@ -703,7 +732,7 @@
  cultural_traditions_law: "Cultural Traditions"
  cultural_traditions_law_desc: "Ancient tradition is the foundation of many cultures and civilizations. While progress is what will drive us to greatness, our traditions will always serve us as the reminder of our origins, and as a source for the strength and unity of our people."
  martial_society: "Martial Society"
- martial_society_desc: "Martial values have always been important in our societyy, but as we expand our borders, the need for militarization becomes ever more apparent. We must continue this trend, and build a strong nation with military might at its core."
+ martial_society_desc: "Martial values have always been important in our society, but as we expand our borders, the need for militarization becomes ever more apparent. We must continue this trend, and build a strong nation with military might at its core."
  civil_society: "Civil Society"
  civil_society_desc: "A strong nation requires more than military might — it needs a dynamic civil society where artisans, traders, clerics, and institutions of all kinds can flourish, creating prosperous communities that generate wealth, maintain social order, and contribute to the development of a sophisticated state."
  pietism_society: "Prussian Virtues"
@@ -954,7 +983,7 @@
  dop_law_navarrese_courts: "Cortes de Navarra"
  dop_law_navarrese_courts_desc: "The [ShowEstateTypeName('nobles_estate')], the [ShowEstateTypeName('clergy_estate')], and the [ShowEstateTypeName('burghers_estate')] have formed a deliberative assembly called the #italic $dop_law_navarrese_courts$#!, which has the duty to approve laws and taxes, and to investigate legal transgressions. While all Estates debate together, each of them votes as a separate assembly. The position of each Estate is previously decided internally by the majority. In order to achieve a resolution to any issue they deliberate, all Three Estates must agree on the action. Their power allows them to dethrone and elect rulers when needed, and overall to keep the power of the monarch in check."
  dop_law_governing_senate: "Governing Senate"
- dop_law_governing_senate_desc: "The $dop_law_governing_senate$ is the highest governmental body of the [GetCountry('RUS').GetAdjective] State, and has been created as a replacement of the Boyar Duma. Combining the roles of the legislative, judicial, and executive powers, the Senate is a powerful institution which is subordinate to none but the rulers themselves."
+ dop_law_governing_senate_desc: "The $dop_law_governing_senate$ is the highest governmental body of the $RUS_ADJ$ State, and has been created as a replacement of the Boyar Duma. Combining the roles of the legislative, judicial, and executive powers, the Senate is a powerful institution which is subordinate to none but the rulers themselves."
  dop_law_estates_general: "Estates General"
  dop_law_estates_general_desc: "The $dop_law_estates_general$ is the assembly of the feudal government of [GetCountry('FRA').GetAdjective]. It has a legislative and consultative role, and represents the three estates of the country: the [ShowEstateTypeName('nobles_estate')], the [ShowEstateTypeName('clergy_estate')], and the [ShowEstateTypeName('peasants_estate')], which itself encompasses the [ShowEstateTypeName('burghers_estate')]. Unlike other Parliaments and Assemblies, the approval of the $dop_law_estates_general$ when making adjustments to the law, such as tax increases, is optional."
  dop_law_assemblee_nationale: "Assemblée Nationale"
@@ -968,10 +997,10 @@
  dop_favor_the_clergy: "Favor the $clergy_estate$"
  dop_favor_the_clergy_desc: "Our faith has held our society together in the face of adversity time and time again, thanks to the guidance of our wise [ShowEstateTypeName('clergy_estate')]. $dop_last_sentence$"
  dop_favor_the_commoners: "Favor the Common People"
- dop_favor_the_commoners_desc: "The [ShowEstateTypeName('peasants_estate')] have are the ones who toil daily to provide the basic resources, such as food, that everyone needs regardless of their social status. They, perhaps more than anyone, wish to raise our domain to new heights of prosperity and greatness. $dop_last_sentence$"
+ dop_favor_the_commoners_desc: "The [ShowEstateTypeName('peasants_estate')] are the ones who toil daily to provide the basic resources, such as food, that everyone needs regardless of their social status. They, perhaps more than anyone, wish to raise our domain to new heights of prosperity and greatness. $dop_last_sentence$"
  dop_last_sentence: "We would do well to cultivate their influence."
  dop_law_state_council: "State Council"
- dop_law_state_council_desc: "The $dop_law_state_council$ is the supreme state advisory body of [GetCountry('RUS').GetGovernment.GetName], and was created to act as a mediating party between the autocratic regime and the regional Dumas introduced by the [ShowGovernmentReformName('speransky_liberalization_reform')] reform. The Council examines proposed laws and oversees the budget and state expenditures, but lacks authority to propose changes. Instead, it makes recommendations based on the current situation."
+ dop_law_state_council_desc: "The $dop_law_state_council$ is the supreme state advisory body of [GetFormableCountry('RUS').GetName], created to act as a mediating party between the autocratic regime and the regional Dumas introduced by the [ShowGovernmentReformName('speransky_liberalization_reform')] reform. The State Council examines proposed laws and oversees the budget and state expenditures, although it lacks the authority to propose changes. Instead, it makes recommendations based on the current situation."
  dop_law_castilian_courts: "Cortes de Castilla"
  dop_law_castilian_courts_desc: "The #italic $dop_law_castilian_courts$#! represent the estates and several cities with voting rights in the [GetCountry('CAS').GetLongName]."
  dop_law_castilian_courts_reinforced: "Reinforced Cortes de Castilla"
@@ -1148,7 +1177,7 @@
  electorate_religion_law: "Electorate Religious Law"
  electorate_religion_law_desc: "Religion is a major pillar of the [GetUniqueInternationalOrganization('hre').GetName] for Emperors and [ShowSpecialStatusNamePlural('elector')] alike."
  only_imperial_religion_policy: "Only Imperial Religion"
- only_imperial_religion_policy_desc: "[ShowSpecialStatusNamePlural('elector')] are requied follow the Imperial religion in order to maintain their status."
+ only_imperial_religion_policy_desc: "[ShowSpecialStatusNamePlural('elector')] are required to follow the Imperial religion in order to maintain their status."
  only_imperial_religion_group_policy: "Only Imperial Religion Group"
  only_imperial_religion_group_policy_desc: "[ShowSpecialStatusNamePlural('elector')] are free to adhere to whichever denominations of our state religion they prefer. This does not, however, condone heathenry, which will not be tolerated."
 
@@ -1164,7 +1193,7 @@
  no_emperor_allegiance_policy_desc: "Free Cities no longer enjoy the protection of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] when defending themselves from ambitious princes."
  no_free_cities_policy: "Free Cities Abolished"
  no_free_cities_policy_desc: "The Free Imperial Cities are no more. No town or city will be under the protection of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
- free_city_subjugation_antagonism_tt: "Every [ShowSpecialStatusName('free_city')] gains [average_free_city_antagonism.GetValue|R2] [antagonism|e] towards [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]"
+ free_city_subjugation_antagonism_tt: "Every [ShowSpecialStatusName('free_city')] gains [SCOPE.GetValue('average_free_city_antagonism')|R2] [antagonism|e] towards [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]"
 
  free_city_rights_law: "Free City Rights"
  free_city_rights_law_desc: "Obtaining the status of a [ShowSpecialStatusName('free_city')] is not easy. This exclusive title must be conferred by the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
@@ -1486,6 +1515,18 @@
  order_of_the_black_eagle_policy_desc: "The secular Order of the Black Eagle is more of a military order than a spiritual one. Members of this Order tend to include members of the royal family, visiting foreign royals, and distinguished generals who have been awarded for their merit."
  order_of_the_white_eagle_policy: "Order of the White Eagle"
  order_of_the_white_eagle_policy_desc: "The military $order_of_the_white_eagle_policy$ is awarded to the closest supporters of the state and the most brilliant of our citizens as a reward for their service to the country. It is also bestowed upon high-ranking visitors who have graced us with their presence."
+ society_with_the_donkey: "$noble_society_baden_palatine$"
+ society_with_the_donkey_desc: "$noble_society_baden_palatine_desc$"
+ society_lion_nassau: "$noble_society_nassau$"
+ society_lion_nassau_desc: "$noble_society_nassau_desc$"
+ society_bengler_mainz: "$noble_society_mainz$"
+ society_bengler_mainz_desc: "$noble_society_mainz_desc$"
+ society_furspang_franconia: "$noble_society_franconia$"
+ society_furspang_franconia_desc: "$noble_society_franconia_desc$"
+ society_elephant_tyrol: "$noble_society_tyrol$"
+ society_elephant_tyrol_desc: "$noble_society_tyrol_desc$"
+ society_hubertus_cologne: "$noble_society_cologne$"
+ society_hubertus_cologne_desc: "$noble_society_cologne_desc$"
 
 #Six Ministries Overseer
  six_ministries_overseer_law: "Six Ministries Supervision"
@@ -2140,7 +2181,7 @@
  union_organized_diplomats_policy_desc: "The diplomats of the [GetInternationalOrganizationType('union').GetName] serve no singular banner, but the entirety of the $union$. Each member has access to their abilities and can utilize them for their own foreign affairs."
  
  union_legislature_law: "Legislature of the Union"
- union_legislature_law_desc: "The adminstration of the [GetInternationalOrganizationType('union').GetName] rqeuires a cohesive design. An approved, unitary system of a legislature is imperative to ensure the stability of the $union$."
+ union_legislature_law_desc: "The adminstration of the [GetInternationalOrganizationType('union').GetName] requires a cohesive design. An approved, unitary system of a legislature is imperative to ensure the stability of the $union$."
  union_aligned_legislature_policy: "Aligned Legislature"
  union_aligned_legislature_policy_desc: "In order to keep administrative cohesion and consistency within the [GetInternationalOrganizationType('union').GetName], all laws and policies shall be aligned with the ones of the [ShowSpecialStatusName('senior_partner')]."
  union_aligned_legislature_policy_at: "Every member of the [GetInternationalOrganizationType('union').GetName] adopts the implemented [government_reforms|e] and [policies|e] where available of the [ShowSpecialStatusName('senior_partner')]"

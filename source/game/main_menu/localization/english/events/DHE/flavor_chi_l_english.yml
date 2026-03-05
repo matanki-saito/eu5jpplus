@@ -178,10 +178,10 @@
  flavor_chi.29.b: "We cannot stand for such a scandal."
 
  flavor_chi.30.title: "Catastrophic Rains in [target_province.GetNameWithNoTooltip]"
- flavor_chi.30.desc: "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowModifier('chi_grand_canal')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\n\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?"
+ flavor_chi.30.desc: "A series of catastrophic weather events has struck [target_province.GetName], causing widespread devastation and suffering. That alone is a calamity, but the downpour has reached the [ShowScriptedGeographyName('chinese_canal_geography')], causing it to fill up and overflow. This unprecedented event has hampered the functioning of the canal, in turn severing the link between the south and the north.\n\nThough this damage can theoretically be repaired, it would come at a significant cost which we cannot possibly bear in our current state. But can [ROOT.GetCountry.GetName] survive without the Grand Canal?"
  flavor_chi.30.a: "Tragedy has struck our nation."
- destroy_grand_canal_china_tt: "The Grand Canal will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')]."
- repair_grand_canal_china_tt: "The Grand Canal will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')]."
+ destroy_grand_canal_china_tt: "The [ShowScriptedGeographyName('chinese_canal_geography')] will be rendered practically unusable, weakening its effects from [ShowModifier('chi_grand_canal')] to [ShowModifier('chi_grand_canal_destruction')]"
+ repair_grand_canal_china_tt: "The [ShowScriptedGeographyName('chinese_canal_geography')] will be repaired, changing its effects from [ShowModifier('chi_grand_canal_destruction')] to [ShowModifier('chi_grand_canal')]"
 
  flavor_chi.32.title: "Capture of [target_location.GetNameWithNoTooltip]"
  flavor_chi.32.desc: "The [target_location.GetRank.GetName] of [target_location.GetName] has finally fallen into our hands. A symbol of the [ShowCultureName('mongolian_culture')] rule, the capture of this [target_location.GetRank.GetNameWithNoTooltip] is a monumental victory for the [ROOT.GetCountry.GetLongName] and it is perhaps the final push necessary to force our foes onto the negotiation table."

@@ -145,7 +145,7 @@
  VIJ_ALL_MYSORE_POPS_LOSE_50_SATISFACTION: "[ShowProvinceDefinitionName('mysore_plateau')]のすべての[pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]低下する。"
  VIJ_ALL_MYSORE_POPS_LOSE_20_SATISFACTION_AND_10_CONTROL: "[ShowProvinceDefinitionName('mysore_plateau')]のすべての[pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]低下し、そのすべての[location|e]の[control|e]が[ShowNamedValue('control_mild_penalty')|+=2%]低下する。"
  flavor_vij.33.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の要塞化"
- flavor_vij.33.desc: "[ROOT.GetCountry.GetName]には優れた要塞や城が多数存在する。[target_location.GetName]や[target_location2.GetName]にあるような要塞などは、住民を襲撃や攻撃から守り、彼らの繁栄を可能にしてきたのだ。これらの施設の存在により、地域はかつてないほどの発展を遂げた。"
+ flavor_vij.33.desc: "[ROOT.GetCountry.GetName|U]には優れた要塞や城が多数存在する。[target_location.GetName]や[target_location2.GetName]にあるような要塞などは、住民を襲撃や攻撃から守り、彼らの繁栄を可能にしてきたのだ。これらの施設の存在により、地域はかつてないほどの発展を遂げた。"
  flavor_vij.33.a: "繁栄を謳歌させよう。"
  flavor_vij.33.b: "要塞や城を使い、周辺地域をより効率的に支配せよ。"
  flavor_vij.33.c: "これらの土地にさらに投資しよう。"

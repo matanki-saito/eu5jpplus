@@ -4,7 +4,7 @@
  sengoku.1.desc: "The [GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle] has proved to be unable to manage the clans. The gradual lenience and delegation of authority towards the local rulers has become the Shogunate's downfall, and the many conflicts that have been brewing for centuries are now in the open. Virtually independent from any central authority, many $daimyo$ rule supreme in their own domains. We can not fall behind, lest we risk being extinguished by the flames of war that will soon engulf the whole country."
  sengoku.1.a: "The Sengoku Jidai will see us victorious!"
  sengoku.1.b: "We shall bide our time."
- turn_japanese_clan_into_normal_tag.tt: "We will gain autonomy as a territorial $daimyo$"
+ turn_japanese_clan_into_normal_tag.tt: "We will gain autonomy as a territorial $daimyo$ in those [locations|e] in which we have the majority of [foreign_buildings|e], and will abandon the rest"
 
  sengoku.2.title: "The End of the Sengoku Jidai"
  sengoku.2.desc.common: "The conflicts of the Sengoku Jidai are a thing of the past. After many years of constant war, the islands of [ShowRegionName('japan_region')] are once again united under"

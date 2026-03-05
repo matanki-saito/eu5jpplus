@@ -76,7 +76,7 @@
   delhi_situation.14.b: "We must tolerate it..."
   potential_ramifications_tt: "#R This may have diplomatic ramifications between us and countries that already oppose us#!"
   delhi_lose_half_percentage_support_tt: "Our [share_of_power_gc|e] will decrease by #R -0.5%#!"
-  opposers_gain_1_percentage_support_tt: "Our opposers' [share_of_power_gc|e] will increase by #R +0.5%#!"
+  opposers_gain_1_percentage_support_tt: "Our opposers' [share_of_power_gc|e] will increase by #R +1%#!"
 
   delhi_situation.15.title: "Diplomatic Friction with [target_country2.GetNameWithNoTooltip]"
   delhi_situation.15.desc: "It has come to our attention that our presence in the diplomatic channels of the [target_country2.GetLongName] have created commotion. Whatever attempts at appeasement and reconciliation we make, they end up backfiring due to the sheer brutish nature of these outside conquerors. It has become abundantly clear that they are not interested in the upkeep of peace and have even gone as far as to demand a formal apology for the supposed indecent behavior of our diplomats during their stay at their court!"

@@ -1,6 +1,6 @@
 ﻿l_japanese:
  flavor_ori.1.title: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]とジャガンナートの教団"
- flavor_ori.1.desc: "[GetLocationName('puri')]にある大寺院での儀式や、ジャガンナートが顕現するとされる「山車」は、ときに外国の支配者たちから嘲笑されてきた。しかし[GetAreaName('orissa_area')]では、「世界の主」であるジャガンナートは、紛れもなく最も人気のある神である。\n\nジャガンナートとその司祭たちの支持は、つねに[target_character.GetName]を揺るぎないものにしてきた。いまこそ、[target_character.GetDynasty.GetName]王朝がこの恩に報いる時である。[GetLocationNameWithNoTooltip('puri')]の寺院を庇護し、ジャガンナート信仰をわが[ROOT.GetCountry.GetFlavorRank]の主要な教団の地位に高めるべきなのだ。"
+ flavor_ori.1.desc: "[ShowLocationName('puri')]にある大寺院での儀式や、ジャガンナートが顕現するとされる「山車」は、ときに外国の支配者たちから嘲笑されてきた。しかし[ShowAreaName('orissa_area')]では、「世界の主」であるジャガンナートは、紛れもなく最も人気のある神である。\n\nジャガンナートとその司祭たちの支持は、つねに[target_character.GetName]を揺るぎないものにしてきた。いまこそ、[target_character.GetDynasty.GetName]王朝がこの恩に報いる時である。[ShowLocationNameWithNoTooltip('puri')]の寺院を庇護し、ジャガンナート信仰をわが[ROOT.GetCountry.GetFlavorRank]の主要な教団の地位に高めるべきなのだ。"
  flavor_ori.1.a: "ジャガンナートを称えよ！"
  flavor_ori.1.b: "それ以外の取り組みにも目を向けるべきだ。"
  flavor_ori.2.title: "戦争の代償"

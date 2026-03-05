@@ -41,7 +41,7 @@
  already_advisor: "@trigger_no! すでに顧問である。"
  appoint_exploration: "探検家に任命"
  no_explorations_explorer: "@trigger_no! 探検する[areas|e]がない。"
- #Character List
+ # Character List
  CHARACTER_ROLE_RULER: "[ruler|e]"
  CHARACTER_ROLE_HEIR: "[heir|e]"
  CHARACTER_ROLE_REGENT: "[regent|e]"

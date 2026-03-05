@@ -63,6 +63,10 @@
  STATIC_MODIFIER_NAME_unsupported_cultures: "Unsupported [accepted_cultures|e] and [tolerated_cultures|e]"
  STATIC_MODIFIER_NAME_spy_networks: "Spy Networks"
  STATIC_MODIFIER_NAME_annexing_countries: "Annexing Countries"
+ STATIC_MODIFIER_NAME_annexing_countries_scaled: "Annexing Countries"
+ STATIC_MODIFIER_NAME_threatening_enemies: "[rival_enemies|e] that are a [threat|e]"
+ STATIC_MODIFIER_NAME_threatening_rivals: "[rivals|e] that are a [threat|e]"
+ STATIC_MODIFIER_NAME_non_threatening_rivals: "Lack of [threatening|e] [rivals|e]"
  STATIC_MODIFIER_NAME_is_great_power: "Is a [great_power|e]"
  STATIC_MODIFIER_NAME_num_hegemonies: "Number of [hegemonies|e]"
  STATIC_MODIFIER_NAME_num_embraced_institutions: "Number of embraced [institutions|e]"
@@ -127,6 +131,7 @@
  STATIC_MODIFIER_NAME_repaired_masjid_al_haram: "Repaired the Masjid al-Ḥarām"
  STATIC_MODIFIER_NAME_suhrawardiyya_timer: "Suhrawardīya Timer"
  STATIC_MODIFIER_NAME_celestial_globe: "Celestial Globe"
+ STATIC_MODIFIER_NAME_celestial_decree_maintenance: "Number of Active Decrees"
  STATIC_MODIFIER_NAME_tahtawi_timer: "Thattvi Timer"
  STATIC_MODIFIER_NAME_mian_mir: "Mian Mir"
  STATIC_MODIFIER_NAME_est_val_sharia: "Stricter $sharia$ Laws"
@@ -257,6 +262,9 @@
  STATIC_MODIFIER_NAME_difficulty_ai_normal: "Normal"
  STATIC_MODIFIER_NAME_difficulty_ai_hard: "Hard"
  STATIC_MODIFIER_NAME_difficulty_ai_very_hard: "Very Hard"
+ STATIC_MODIFIER_NAME_low_aggression: "Low Aggresion"
+ STATIC_MODIFIER_NAME_normal_aggression: "Normal Aggresion"
+ STATIC_MODIFIER_NAME_high_aggression: "High Aggresion"
  STATIC_MODIFIER_NAME_ai_force_annexation: "Force AI Annexation"
  STATIC_MODIFIER_NAME_crown_estate_tax_impact: "Taxes for [ShowEstateTypeName('crown_estate')]"
  STATIC_MODIFIER_NAME_nobles_estate_tax_impact: "Taxes for [ShowEstateTypeName('nobles_estate')]"
@@ -346,8 +354,10 @@
  STATIC_MODIFIER_NAME_available_free_land: "Available Free Land"
  STATIC_MODIFIER_NAME_abundant_free_land: "Abundant Free Land"
  STATIC_MODIFIER_NAME_surplus_jobs: "Surplus of Work"
+ STATIC_MODIFIER_NAME_unemployed_peasants: "Unemployed Peasants"
  STATIC_MODIFIER_NAME_refugees_welcome: "Refugees Welcome"
  STATIC_MODIFIER_NAME_adjacent_colonization_target: "Colonization Target"
+ STATIC_MODIFIER_NAME_river_flowing_through_TT: "River Flowing Through"
  STATIC_MODIFIER_NAME_river_flowing_through: "[river|e] Flowing Through"
  STATIC_MODIFIER_NAME_river_flowing_through_coast: "[river|e] Flowing Through [coast|e]"
  STATIC_MODIFIER_NAME_coastal: "[coastal|e]"
@@ -372,6 +382,7 @@
  STATIC_MODIFIER_NAME_provincial_troops: "[friendly|e] [armies|e] in [province|e]"
  STATIC_MODIFIER_NAME_raised_levies: "Raised Levies"
  STATIC_MODIFIER_NAME_isolating_cities: "Isolating Cities"
+ STATIC_MODIFIER_NAME_minor_rebel_uprising: "Minor Rebel Uprising"
  STATIC_MODIFIER_NAME_recently_slave_raided: "Recent Slave Raid"
  STATIC_MODIFIER_NAME_recently_razed: "Recently Razed"
  STATIC_MODIFIER_NAME_recently_raided_by_horde: "Recently Raided by Hordes"
@@ -596,6 +607,10 @@
  
  STATIC_MODIFIER_NAME_has_road: "Has Road"
  STATIC_MODIFIER_DESC_has_road: "This [location|e] has at least one [road|e] to a neighboring [location]."
+ 
+ STATIC_MODIFIER_NAME_has_road_connected_to_capital: "Road Connected to Capital"
+ STATIC_MODIFIER_DESC_has_road_connected_to_capital: "This [location|e] has a [road|e] network connected to the [capital|e]."
+ 
  STATIC_MODIFIER_NAME_sickly_character: "Sickly Character"
  STATIC_MODIFIER_NAME_healthy_character: "Healthy Character"
  
@@ -620,7 +635,6 @@
  STATIC_MODIFIER_NAME_burghers_estate_less_levy_obligations: "Reduced Levy Obligations for $burghers_estate$"
  STATIC_MODIFIER_NAME_peasants_estate_less_levy_obligations: "Reduced Levy Obligations for $peasants_estate$"
 
- STATIC_MODIFIER_NAME_cracking_down_on_rebels: "Cracking Down on rebels"
  STATIC_MODIFIER_NAME_rise_of_the_horde: "Rise of the Horde"
 
  STATIC_MODIFIER_NAME_war_declared_on_us: "War was Declared upon us"
@@ -652,7 +666,7 @@
  
  STATIC_MODIFIER_NAME_trade_vs_tax: "[trade_income|e] vs [tax_base|e]"
  STATIC_MODIFIER_NAME_wealth: "Wealth"
- STATIC_MODIFIER_NAME_parliament_in_session: "[parliament|e] in Session"
+ STATIC_MODIFIER_NAME_parliament_in_session: "[Localize('game_concept_parliament')] in Session"
  STATIC_MODIFIER_NAME_parliament_not_called: "[parliament|e] Not Called"
  STATIC_MODIFIER_NAME_enforced_internal_peace: "Enforced Internal Peace"
  STATIC_MODIFIER_NAME_possible_promotion_percentage: "Plenty of Opportunities"
@@ -704,8 +718,11 @@
  STATIC_MODIFIER_NAME_assassinated_ruler: "Assassinated a Ruler"
  
  
+ STATIC_MODIFIER_NAME_new_dynasty_seat: "New Dynasty Seat"
+ 
  STATIC_MODIFIER_NAME_average_development: "Average [development|e] in [country|e]"
  STATIC_MODIFIER_NAME_average_control: "Average [control|e] in [country|e]"
+ STATIC_MODIFIER_NAME_average_control_50: "$STATIC_MODIFIER_NAME_average_control$"
  STATIC_MODIFIER_NAME_civilian_barricades: "Civilian Barricades"
 
  STATIC_MODIFIER_NAME_head_of_the_cabinet_modifier: "Head of the Cabinet"
@@ -830,6 +847,7 @@
  STATIC_MODIFIER_DESC_ostentatious_court: "The otherwise refined court life of this country is currently characterized by decadent spectacles and wanton displays of wealth — but it does seem to impress visitors a great deal."
  STATIC_MODIFIER_NAME_tur_public_cats: "Public Cat Property"
  STATIC_MODIFIER_DESC_tur_public_cats: "The cats in this location have been turned into public property, protecting them from any misconduct that may occur. This especially increases the number of rats being hunted, ensuring that no deadly diseases appear."
+ STATIC_MODIFIER_NAME_recent_tribunal_modifier: "Recent Tribunal"
 
  #Byzantium
 
@@ -874,6 +892,12 @@
  STATIC_MODIFIER_NAME_joined_order_of_the_swan: "Joined $order_of_the_swan_policy$"
  STATIC_MODIFIER_NAME_joined_order_of_the_black_eagle: "Joined $order_of_the_black_eagle_policy$"
  STATIC_MODIFIER_NAME_joined_order_of_the_white_eagle: "Joined $order_of_the_white_eagle_policy$"
+ STATIC_MODIFIER_NAME_joined_society_with_the_donkey: "Joined $society_with_the_donkey$"
+ STATIC_MODIFIER_NAME_joined_society_lion_nassau: "Joined $society_lion_nassau$"
+ STATIC_MODIFIER_NAME_joined_society_bengler_mainz: "Joined $society_bengler_mainz$"
+ STATIC_MODIFIER_NAME_joined_society_furspang_franconia: "Joined $society_furspang_franconia$"
+ STATIC_MODIFIER_NAME_joined_society_elephant_tyrol: "Joined $society_elephant_tyrol$"
+ STATIC_MODIFIER_NAME_joined_society_hubertus_cologne: "Joined $society_hubertus_cologne$"
  STATIC_MODIFIER_EFFECT_joined_order_of_saint_george: "[ShowModifierEffect('joined_order_of_saint_george')]"
  STATIC_MODIFIER_EFFECT_joined_order_of_the_ermine: "[ShowModifierEffect('joined_order_of_the_ermine')]"
  STATIC_MODIFIER_EFFECT_joined_order_of_the_dragon: "[ShowModifierEffect('joined_order_of_the_dragon')]" 
@@ -881,6 +905,12 @@
  STATIC_MODIFIER_EFFECT_joined_order_of_the_swan: "[ShowModifierEffect('joined_order_of_the_swan')]"
  STATIC_MODIFIER_EFFECT_joined_order_of_the_black_eagle: "[ShowModifierEffect('joined_order_of_the_black_eagle')]"
  STATIC_MODIFIER_EFFECT_joined_order_of_the_white_eagle: "[ShowModifierEffect('joined_order_of_the_white_eagle')]"
+ STATIC_MODIFIER_EFFECT_joined_society_with_the_donkey: "[ShowModifierEffect('joined_society_with_the_donkey')]"
+ STATIC_MODIFIER_EFFECT_joined_society_lion_nassau: "[ShowModifierEffect('joined_society_lion_nassau')]"
+ STATIC_MODIFIER_EFFECT_joined_society_bengler_mainz: "[ShowModifierEffect('joined_society_bengler_mainz')]"
+ STATIC_MODIFIER_EFFECT_joined_society_furspang_franconia: "[ShowModifierEffect('joined_society_furspang_franconia')]"
+ STATIC_MODIFIER_EFFECT_joined_society_elephant_tyrol: "[ShowModifierEffect('joined_society_elephant_tyrol')]"
+ STATIC_MODIFIER_EFFECT_joined_society_hubertus_cologne: "[ShowModifierEffect('joined_society_hubertus_cologne')]"
 #Hussite Flavor 
 
  STATIC_MODIFIER_NAME_tolerant_court_modifier: "Tolerant Hussite Court"
@@ -1334,6 +1364,10 @@
  STATIC_MODIFIER_NAME_delhi_appeased_the_nobles_modifier: "Noble Favors"
 
 #Brandenburg
+ STATIC_MODIFIER_NAME_crown_investments_modifier: "Crown Investments"
+ STATIC_MODIFIER_NAME_noble_power_struggle_modifier: "Power Struggle Against the Nobles"
+ STATIC_MODIFIER_NAME_crushed_local_noble_league_modifier: "Crushed Local Noble League"
+ STATIC_MODIFIER_NAME_local_noble_stronghold_modifier: "Local Noble Stronghold"
  STATIC_MODIFIER_NAME_bra_wittelsbacher_neglect: "Wittelsbacher Neglect"
  STATIC_MODIFIER_DESC_bra_wittelsbacher_neglect: "The lands of [GetCountry('BRA').GetName] have been neglected for some time, as the distant ruling dynasty has lost its interest in them. Robber Barons and the increasingly autonomous Burghers and Clergy are taking advantage of the opportunity generated by the power vacuum, hindering the present and future of these lands.\n\nThis modifier is removed once no member of the [ShowDynastyName('wittelsbach_dynasty')] dynasty rules the country."
  STATIC_MODIFIER_NAME_bra_false_waldemar: "Pretender to the Throne"
@@ -1341,6 +1375,7 @@
  STATIC_MODIFIER_NAME_bra_waldemar_rallies_nobility: "Waldemar's Campaign"
  STATIC_MODIFIER_DESC_bra_waldemar_rallies_nobility: "Waldemar of the House of Askanier has returned to take the throne for himself once again. Nobles and enemies of our current dynasty alike have united to support him in his ambition, undermining our dwindling authority even further."
  STATIC_MODIFIER_NAME_bra_revoked_clergy_power: "Revoked Clergy Influence"
+ STATIC_MODIFIER_NAME_bra_overcome_the_turmoil: "Emerged from the Turmoil"
  STATIC_MODIFIER_NAME_PRU_harsh_suppression: "Harsh Suppression of the Nobles"
  STATIC_MODIFIER_NAME_PRU_mild_suppression: "Mild Suppression of the Nobles"
  STATIC_MODIFIER_NAME_PRU_noble_reconciliation: "Noble Reconciliation"
@@ -1393,7 +1428,9 @@
  STATIC_MODIFIER_NAME_yua_purge_of_han_bureaucrats: "Purge of Han Bureaucrats"
  STATIC_MODIFIER_NAME_yua_dictator_powers: "Absolute Grand Chancellor"
  STATIC_MODIFIER_NAME_chi_grand_canal: "Grand Canal of China"
+ STATIC_MODIFIER_DESC_chi_grand_canal: "This location is part of the [ShowScriptedGeographyName('chinese_canal_geography')] and receives great benefits from the waterway."
  STATIC_MODIFIER_NAME_chi_grand_canal_destruction: "Grand Canal of China Damaged"
+ STATIC_MODIFIER_DESC_chi_grand_canal_destruction: "This location is part of the [ShowScriptedGeographyName('chinese_canal_geography')] which has been greatly damaged. This crumbling infrastructure now works against the local rulers."
  STATIC_MODIFIER_NAME_chi_eunuch_purges: "Purging Eunuchs"
  STATIC_MODIFIER_NAME_yua_hostile_court: "A Hostile Court"
  STATIC_MODIFIER_NAME_chi_stood_up_to_eunuchs: "Resisting the Eunuchs"
@@ -1573,6 +1610,8 @@
  STATIC_MODIFIER_NAME_timmy_wants_to_play: "The Scourge from $central_asia$"
  STATIC_MODIFIER_DESC_timmy_wants_to_play: "This ruler is blessed with a refined and learned mind which has proven its capabilities on the battlefield many times. Their actions will color the soil of their enemies red while their empire rises to become one of the greatest menaces in the [ShowSubContinentName('central_asia')], [ShowSubContinentName('middle_east')] and $india$.\n\n#Y While this [modifier|e] is active, [locations|e] in a designated Core Region gain the [ShowModifier('rot_timurs_core_region')] bonus.#!"
  STATIC_MODIFIER_NAME_rot_timurs_core_region: "Core Region"
+ STATIC_MODIFIER_NAME_rot_timur_scare: "Timur Scare"
+ STATIC_MODIFIER_DESC_rot_timur_scare: "This location is overwhelmed with utter dread as [ShowModifier('timmy_wants_to_play')] intends to conquer these lands and decimate anyone who shall stands in their way."
  STATIC_MODIFIER_NAME_rot_legacy_islam: "Sword of Islam"
  STATIC_MODIFIER_NAME_rot_legacy_borjigin: "Legacy of $genghis_khan_name_no_tooltip$"
  STATIC_MODIFIER_NAME_rot_legacy_fallback: "The Amir's Destiny"
@@ -1998,6 +2037,7 @@
  STATIC_MODIFIER_NAME_promoted_moderates_modifier: "Promoted the Moderates"
  STATIC_MODIFIER_NAME_promoted_radicals_modifier: "Promoted Radicals"
  STATIC_MODIFIER_NAME_in_defense_of_hussitism_modifier: "In Defense of $hussite$"
+ STATIC_MODIFIER_NAME_heretical_bohemian_defense_modifier: "Heretical Bohemian Defense"
  
 #Union-Republic
  STATIC_MODIFIER_NAME_forbidden_from_joining_unions: "Forbidden from Electing Union Leaders"
@@ -2053,7 +2093,8 @@
  STATIC_MODIFIER_NAME_appanage_diplomatic_betrayal_modifier: "Diplomatic Betrayal"
  STATIC_MODIFIER_DESC_appanage_diplomatic_betrayal_modifier: "We have decided to exchange our abstinence from the political situation between our overlord and the [GetCountry('ENG').GetLongName] for ample gold."
  STATIC_MODIFIER_NAME_victory_in_the_hyw_modifier: "Victory in the $hundred_years_war$"
-
+ STATIC_MODIFIER_NAME_diplomatic_betrayal_modifier: "Diplomatic Betrayal"
+ STATIC_MODIFIER_DESC_diplomatic_betrayal_modifier: "$STATIC_MODIFIER_DESC_appanage_diplomatic_betrayal_modifier$"
 #Western Schism
  STATIC_MODIFIER_NAME_ws_show_unity_of_faith: "Show Unity of Faith"
 
@@ -2201,4 +2242,8 @@
 #Milan
  STATIC_MODIFIER_NAME_war_against_verona_modifier: "$antagonism_anti_scaligeri_league$"
  STATIC_MODIFIER_NAME_new_capital_modifier: "New Capital"
+
+#Complacent Decline Disaster
+ STATIC_MODIFIER_NAME_recent_inspection_modifier: "Recent Inspection"
+ STATIC_MODIFIER_NAME_entrenched_cabinet_member: "Entrenched Member of the Cabinet"
  

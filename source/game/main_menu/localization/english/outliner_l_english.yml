@@ -182,6 +182,8 @@
  
  DAYS_LEFT_IN_OCCUPATION: "$DAYS|Y$ Days(s)"
 
+ OUTLINER_IO_LAW_DEBATE: "#L [IOLawOutlinerEntry.GetResolution.GetNameWithNoTooltip]#! is being debated:"
+ OUTLINER_IO_LAW_DEBATE_SHORT: "[IOLawOutlinerEntry.GetDaysLeft|0]$DAYS_SHORT_LOC$"
  
  OUTLINER_ITEM_WAR: "[WAR.GetName]"
   

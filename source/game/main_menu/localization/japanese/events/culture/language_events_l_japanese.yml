@@ -16,7 +16,7 @@
  language.10.title: "[country.GetGovernment.GetRulerTitle|U]の言語"
  language.10.desc: "毎度の評議会や公式文書を見るたびに示されることだが、[ruler.GetShortName]が宮廷で適切に振る舞うことができないことは明白だ。\n\n[ruler.GetShortNameWithNoTooltip]は[ruler_culture.GetName]で育ったため、[court_language.GetName]の習得がまだ不十分である。[ruler.GetShortNameWithNoTooltip]の顕著な外国訛りは現地人の耳には耐えられず、宮廷を率いるにふさわしい人物ではないことをつねに印象づけてしまう。"
  language.10.a: "それなら[ruler_language.GetNameWithNoTooltip]言語を採用しよう。"
- language.10.b: "我々の話をよく理解できないの好都合かもしれない。"
+ language.10.b: "我々の話をよく理解できないのは好都合かもしれない。"
  language.20.title: "[common_language.GetNameWithNoTooltip]法における弁論"
  language.20.desc: "一般の[primary_culture.GetName]の人々は現在、[court_language.GetName]という理解できない言語で法廷審問を受けることを余儀なくされている。\n\nわが国の司法制度は共通の[common_language.GetNameWithNoTooltip]を採用し、嘆願書や判決がより広く理解されるようにすべきだという声が高まっている。"
  language.20.desc_ENG: "1066年のノルマン人による征服以来、一般の[primary_culture.GetName]の人々は、[court_language.GetName]という理解できない言語で法廷審問を受けることを余儀なくされてきた。\n\nわが国の司法制度は共通の[common_language.GetNameWithNoTooltip]を採用し、嘆願書や判決がより広く理解されるようにすべきだという声が高まっている。"

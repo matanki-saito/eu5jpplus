@@ -375,7 +375,7 @@
  akkajaur: "アッカジャウル"
  socksjock: "ソックスヨック"
  jokkmokk: "ヨックモック"
- kvikkjock: "クヴィックヨック"
+ kvikkjock: "クヴィッキョック"
  porjus: "ポルジュス"
  gellivaara: "ゲリバーラ"
  juckasjarvi: "ユッカスヤルビ"
@@ -3743,7 +3743,7 @@
  belik: "ベリック"
  yartsevo: "ヤルツェボ"
  dukhovshchina: "ドゥホフシチナ"
- demidov: "ポレチー" #Demidov Communist name
+ demidov: "ポレチー" # Demidov Communist name
  vyazma: "ヴャズマ"
  dorogobuzh: "ドロゴブージュ"
  kholm_zhirkovsky: "ホルム・ジルコフスキー"
@@ -9356,7 +9356,7 @@
  fuentiduena: "フエンティドゥエニャ"
  sepulveda: "セプルベダ"
  segovia: "セゴビア"
- valladolid: "バリャドリド"
+ valladolid: "バリャドリッド"
  penafiel: "ペニャフィエル"
  cuellar: "クエジャール"
  arevalo: "アレバロ"
@@ -12716,7 +12716,7 @@
  ilovna: "イロヴナ"
  kurba: "クルバ"
  sol_velikaya: "ソル・ヴェリカヤ" #Nekrasocskoye
- fomin_gorodok: "フォミン" #Gorodok means city in Russian, it´s an indicator to distinguish better not part of the city name
+ fomin_gorodok: "フォミン" # Gorodok means city in Russian, it´s an indicator to distinguish better not part of the city name
  trufany: "トゥルファニー"
  izdeshkovo: "イズデシュコボ"
  kozlov_vyazma: "コズロフ"
@@ -13297,7 +13297,7 @@
  heligoland_island: "ヘルゴラント島"
  west_frisian_islands: "西フリースラント諸島"
  east_frisian_islands: "東フリースラント諸島"
- emms_estuary: "エマ河口"
+ emms_estuary: "エムス河口"
  north_frisian_islands: "北フリースラント諸島"
  bay_lubeck: "リューベック湾"
  arkona_cape: "アルコナ岬"
@@ -17240,7 +17240,7 @@
  zanhuang: "贊皇" #赞皇/贊皇
  lincheng: "臨城" #临城/臨城
  longping_zhaozhou: "龍坪" #隆平/隆平
- pingji: "平棘" #平棘
+ pingji: "平棘" # 平棘
  ningjin_zhaozhou: "寧晋" #宁晋
  nangong: "南宮" #南宫/南宮
  xindu_jizhou: "信都" #信都
@@ -17323,7 +17323,7 @@
  pingyuan_jinan: "平原" #平原/平原
  yucheng: "禹城" #禹城/禹城
  qihe: "斉河" #齐河
- feicheng: "肥城" #肥城
+ feicheng: "肥城" # 肥城
  fengfu: "奉符" #奉符
  xintai: "新泰" #新泰/新泰
  enzhou: "恩州" #恩州
@@ -22234,7 +22234,7 @@
  atlantic_irminger_current14: "大西洋イルミンガー海流"
  atlantic_irminger_current15: "大西洋イルミンガー海流"
  atlantic_irminger_current16: "大西洋イルミンガー海流"
- atlantic_irminger_current17: "ハイブラジル島" #https://en.wikipedia.org/wiki/Brasil_(mythical_island)
+ atlantic_irminger_current17: "ハイブラジル島" # https://en.wikipedia.org/wiki/Brasil_(mythical_island)
  atlantic_west_spitzbergen_current1: "大西洋西スピッツベルゲン海流"
  atlantic_west_spitzbergen_current2: "大西洋西スピッツベルゲン海流"
  atlantic_west_spitzbergen_current3: "大西洋西スピッツベルゲン海流"
@@ -28301,7 +28301,7 @@
  bellona_high_sea_1: "ベロナ島外洋"
  bellona_high_sea_2: "ベロナ島外洋"
  bellona_high_sea_3: "ベロナ島外洋"
- bellona_high_sea_4: "サンディ島" #https://en.wikipedia.org/wiki/Sandy_Island,_New_Caledonia
+ bellona_high_sea_4: "サンディ島" # https://en.wikipedia.org/wiki/Sandy_Island,_New_Caledonia
  bellona_high_sea_5: "ベロナ島外洋"
  bellona_high_sea_6: "ベロナ島外洋"
  bellona_high_sea_7: "ベロナ島外洋"

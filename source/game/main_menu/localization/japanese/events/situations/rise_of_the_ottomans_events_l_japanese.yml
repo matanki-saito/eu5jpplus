@@ -39,7 +39,7 @@
  rise_of_the_ottomans.104.desc: "[target_country.GetCapital.GetName]の悪党どもが利口ではないのは、以前から明白だった。自主的に降伏する選択肢をお情けで与えてやったというのに、それを拒否したのだ！"
  rise_of_the_ottomans.104.a: "ならば戦争だ！"
  rise_of_the_ottomans.105.title: "[target_province.GetNameWithNoTooltip]の統合"
- rise_of_the_ottomans.105.desc: "[target_province.GetName]を手中に収めたいま、宮廷は重大な岐路に立たされている。征服した土地を帝国の広大な領土に組み込むには細心の注意が必要であり、的確性と先見性をもって進めなければならない。この先[target_province.GetName]が[GetCountry('TUR').GetLongName]にとって重要な地域になるか、混乱や不満の根源になるかは、我々の判断にかかっている。\n\n宮廷では、どうすれば統合を成功させられるか議論が交わされ、今後の方針についてさまざまな声が上がっている。オスマン帝国の法律と制度を迅速に導入し、中央集権制の統治によって、民衆の団結心や忠誠心を育むべきだと言う者や、征服した地域の民衆の信頼を得るには、より慎重なアプローチをとり、地域の慣習や伝統を尊重すべきだと主張する者もいる。"
+ rise_of_the_ottomans.105.desc: "[target_province.GetName]を手中に収めたいま、宮廷は重大な岐路に立たされている。征服した土地を帝国の広大な領土に組み込むには細心の注意が必要であり、的確性と先見性をもって進めなければならない。この先[target_province.GetName]が[ROOT.GetCountry.GetLongName]にとって重要な地域になるか、混乱や不満の根源になるかは、我々の判断にかかっている。\n\n宮廷では、どうすれば統合を成功させられるか議論が交わされ、今後の方針についてさまざまな声が上がっている。オスマン帝国の法律と制度を迅速に導入し、中央集権制の統治によって、民衆の団結心や忠誠心を育むべきだと言う者や、征服した地域の民衆の信頼を得るには、より慎重なアプローチをとり、地域の慣習や伝統を尊重すべきだと主張する者もいる。"
  rise_of_the_ottomans.105.a: "団結心と忠誠心を育む。"
  rise_of_the_ottomans.105.b: "より慎重なアプローチを採用する。"
  rise_of_the_ottomans.106.title: "[actor.GetNameWithNoTooltip]が関係強化を要求"

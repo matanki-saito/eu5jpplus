@@ -57,7 +57,7 @@
  flavor_eng.7.tt3: "[anne_boleyn.GetHimHer|U] removal from court plays into the schemes of [thomas_wolsey.GetName], who sees [thomas_wolsey.GetHisHer] influence grow stronger"
  flavor_eng.7.tt4: "The heart-broken [target_root_country.GetGovernment.GetRulerTitle] disposes of [target_root_country.GetGovernment.GetRuler.GetHisHer] wretched mistress as the prospects of a marital union fade into oblivion"
  accepted_supremacy_of_rome: "Accepted Supremacy of the Pope"
- flavor_eng.7.historical_info: "In 1521, Henry VIII of England earned the papal title of Defender of the Faith for his anti-Luther pamphlet. His focus shifted to the issue of succession in 1529 when the Papal Curia rejected his divorce proposal to Catherine of Aragon. Subsequently, Henry executed the Pope's Legate, Cardinal Wolsey, and compelled the English clergy to acknowledge him as the Church's supreme head. Securing his divorce in 1533, Henry married Anne Boleyn, marking it the second of his six marriages. The Act of Supremacy solidified his authority over the Church."
+ flavor_eng.7.historical_info: "In 1521, Henry VIII of England earned the papal title of Defender of the Faith for his anti-Luther pamphlet. His focus shifted to the issue of succession in 1529 when the Papal Curia rejected his divorce proposal to Catherine of Aragon. Subsequently, Henry stripped of his government office and property the Pope's Legate, Cardinal Wolsey, and compelled the English clergy to acknowledge him as the Church's supreme head. Securing his divorce in 1533, Henry married Anne Boleyn, marking it the second of his six marriages. The Act of Supremacy then was passed on 3 November 1534 by the Parliament of England, solidifying his authority over the Church of England."
  
  flavor_eng.8.title: "The Board of Admiralty"
  flavor_eng.8.desc: "The administrative affairs of the Navy lie with the [ShowGovernmentReformName('navy_board_reform')], but day-to-day operations remain a decentralized matter, often delegated to each Admiral. Let us centralize command by crafting a new board charged with overseeing operational command and control over our proud fleet, leaving the details of procurement and administration in the hands of the bureaucrats."
@@ -113,9 +113,9 @@
  
  flavor_eng.14.title: "The Closure of the Alien Priories"
  flavor_eng.14.desc: "In the face of continued hostilities with the [GetCountry('FRA').GetLongName], [ROOT.GetCountry.GetGovernment.GetRuler.GetName] has decided to close all of the alien priories in [ROOT.GetCountry.GetName]. Every aforementioned [ShowBuildingTypeName('monastery')] was under the control of [GetCountry('FRA').GetAdjectiveWithNoTooltip] religious houses, and their continued existence is seen as a threat to the security of the realm. The priors and monks who served these houses will be expelled, and the priories themselves are to be dissolved.\n\nWith the revenues from these priories no longer flowing to [GetCountry('FRA').GetNameWithNoTooltip], there is an opportunity to redirect them to support [ROOT.GetCountry.GetAdjectiveWithNoTooltip] religious houses. Alternatively, these revenues could be seized by the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')], helping to fund the ongoing war effort."
- flavor_eng.14.a: "It must befall the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]."
+ flavor_eng.14.a: "Seize it for the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]."
  flavor_eng.14.b: "Our hospitals are in dire need."
- flavor_eng.14.c: "Seize it for the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]."
+ flavor_eng.14.c: "It must befall the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]."
  flavor_eng.14.historical_info: "The closure of the Alien Priories occurred during periods of conflict or tension with France when the English monarchy sought to eliminate or reduce the influence of foreign religious institutions within the country. The closures often involved the expulsion of monks or nuns and the confiscation of property."
  
  flavor_eng.15.title: "The Machinations of [jane_grey.GetNameWithNoTooltip]"
@@ -1853,6 +1853,8 @@
  flavor_eng.231.b: "Further investigation is warranted."
  flavor_eng.231.tt2: "The legal battle concludes in a shared patent"
  flavor_eng.231.historical_info: "Richard Arkwright was an English inventor who made several innovations for the textile industry during the early onset of industrialization. His most important contributions were the spinning wheel and water wheel, which revolutionized the production of cotton thread and paved the way for a transition from the domestic system of textile production to the factory system."
+
+ unlocked_advance_coke_smelting_tt: "Has had the $flavor_eng.232.title|V$ [dynamic_historical_events|e]"
 
  flavor_eng.232.title: "The Contributions of the Darby's"
  flavor_eng.232.desc: "Pioneering ironmaster [abraham_darby.GetName] has developed a new source of fuel used in blast furnaces. This fuel, known simply as 'coke', is considered less volatile and capable of generating a consistently higher heat compared to the industry's current preference, charcoal. [abraham_darby.GetNameWithNoTooltip] is now conducting a trial implementation at [abraham_darby.GetHisHer] family-owned [ShowBuildingTypeName('iron_foundry')],with promising results."

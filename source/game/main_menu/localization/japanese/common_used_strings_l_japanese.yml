@@ -25,7 +25,7 @@
  common_string_fantastic: "素晴らしい！"
  common_string_extraordinary: "比類なき偉業だ！"
  common_string_wonder_german: "#italic Fantastisch!#!"
- #OK response
+ # OK response
  common_string_ok: "わかった。"
  common_string_alright: "いいだろう。"
  common_string_ok_spanish: "#italic Vale.#!"

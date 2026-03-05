@@ -18,7 +18,7 @@
  farming: "農業"
  forestry: "伐採"
  gathering: "集会"
- RGO_ENTRY: "$GOODS$ $TYPE$"
+ RGO_ENTRY: "$GOODS$（$TYPE$）"
  rgo_wood: "林業"
  rgo_salt: "塩田"
  old_world_goods: "旧大陸の交易品"
@@ -159,7 +159,7 @@
  masonry: "れんが"
  masonry_desc: "建材にはさまざまな形状や大きさがある。建設に使用する統一されたサイズの建材を製造する技術は、建設効率だけでなく建設後の耐久性も大幅に向上させる。"
  beeswax: "蜜蝋"
- beeswax_desc: "ミツバチは有史以前から人類の友であり、その蝋はさまざまな用途に利用されてきた。蝋燭から鋳型、仕上げ用のワックスから書字用の板まで、蜜蝋は人類社会につねに存在している。"
+ beeswax_desc: "ミツバチは有史以前から人類の友であり、その蝋はさまざまな用途に利用されてきた。蝋燭から鋳型、仕上げ用のワックスから書字用の板まで、蜜蝋は人類社会のいたるところに存在している。"
  saffron: "サフラン"
  saffron_desc: "サフランは古代からその存在が知られ、高価であるにもかかわらず、食材としてだけでなく伝統薬の原料や衣類の染料としても利用されてきた。"
  pepper: "コショウ"
@@ -172,7 +172,7 @@
  pottery_desc: "粘土から道具を作り出す技術は、人類社会の最も古い痕跡のひとつであり、人類の発展における重要な要素である。先史時代の粗末な土器からより複雑な形状のものまで、陶器はあらゆる文化に普遍的に存在している。"
  furniture: "家具"
  furniture_desc: "家具は、住まいに屋根だけでなく豊かさも求める人々の欲求を満たす。簡素なベッドやテーブルから凝ったつくりのもの、そして木や石などの素朴な素材から高級素材まで、家具はあらゆる目的、好みや予算に応じて作られる。"
- #Goods Demand Names
+ # Goods Demand Names
  elephant_auxiliary_construction: "象の補助兵の編制"
  elephant_cavalry_construction: "戦象の編制"
  elephant_infantry_construction: "象歩兵の編制"
@@ -299,7 +299,7 @@
  steppe_auxiliary_construction: "$a_a_urughs$を募集している"
  steppe_horse_archers_maintenance: "$a_steppe_horse_archers$維持費"
  steppe_horse_auxiliary_maintenance: "$a_a_urughs$維持費"
- #Event specific demands
+ # Event specific demands
  silver_fancy: "銀に対する貪欲さ"
  special_demands: "特需"
  porcelain_tower_demand: "$porcelain_tower$建設の需要"
@@ -309,7 +309,7 @@
  demands_of_ships: "海軍物資の需要"
  introduction_of_new_world_crops: "[ShowInstitutionNameWithNoTooltip('new_world')]作物の導入"
  ambitious_print_pressing: "野心的な印刷所"
- #Demands from Buildings
+ # Demands from Buildings
  default_construct_building: "建造物の建設"
  default_maintenance_building: "建造物維持費"
  guild_input: "ギルド投入物資"
@@ -329,7 +329,8 @@
  fishing_village_maintenance: "漁村の要求"
  farming_village_maintenance: "農村の要求"
  eng_royal_forest_maintenance: "王室森林の要求"
- forest_village_maintenance: "森林の村の要求"
+ forest_tannery: "森林の皮なめし工場"
+ hunting_lodges: "狩猟小屋"
  market_village_slot_0: "要求"
  market_village_maintenance: "市場の村の要求"
  university_maintenance: "大学維持費"
@@ -455,7 +456,8 @@
  brethren_marsh_maintenance: "$brethren_marsh$"
  bronze_tools_guild_maintenance: "青銅製工具工房"
  stone_tools_guild_maintenance: "石製工具工房"
- ## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+ copper_tools_guild_maintenance: "銅製工具工房"
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  cloth_manufactory_slot_0: "$wool_cloth_manufactory_maintenance$方法"
  wool_cloth_manufactory_maintenance: "羊毛生地職人"
  cloth_manufactory_slot_1: "$cotton_cloth_manufactory_maintenance$方法"
@@ -565,7 +567,7 @@
  silk_weavers_maintenance: "絹織工ギルド"
  wool_weavers_maintenance: "羊毛織工ギルド"
  fine_cloth_guild_slot_1: "強化："
- base_fine_cloth_guild_maintenance: "染料"
+ base_fine_cloth_guild_maintenance: "染料職人"
  alum_fine_cloth_guild_maintenance: "ミョウバンで染める"
  sugar_distillery_maintenance: "砂糖を蒸留する"
  wheat_distillery_maintenance: "小麦を蒸留する"
@@ -739,6 +741,7 @@
  jewelry_guild_slot_0: "基本[production_methods|e]："
  gold_base: "金ベースの宝飾品"
  silver_base: "銀ベースの宝飾品"
+ copper_base: "銅ベースの宝飾品"
  jewelry_guild_slot_1: "強化："
  gems_enhancement: "宝石の強化"
  ivory_enhancement: "象牙の強化"
@@ -821,7 +824,7 @@
  local_smelters_maintenance: "地方製錬所"
  fruit_orchard_maintenance: "果樹園"
  seljuk_mint_maintenance: "$seljuk_mint$維持費"
- #Pop Demands
+ # Pop Demands
  pop_needs: "POP必需品"
  pop_demand: "人口必需品"
  pop_demand_nl: "人口必需品"
@@ -972,3 +975,6 @@
  tur_turkish_delight: "ターキッシュ・デライト"
  cahokia_woodhenge_production_method: "$woodhenge_of_cahokia$維持費"
  woodhenge_of_cahokia_construction: "$woodhenge_of_cahokia$の建設"
+ local_governor_construction: "$local_governor$の設置"
+ naval_governor_maintenance: "$naval_governor$維持費"
+ local_governor_maintenance: "$local_governor$維持費"

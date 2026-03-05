@@ -49,7 +49,7 @@
  republic_factions.11.desc: "本来なら、わが国に関わるものすべてに対する憎悪を隠そうともしない[target_country.GetLongName]が、自国の商人にわが国と取引する機会を与えた。これにより、[target_country.GetNameWithNoTooltip]の商人は我々の市場に影響力をもつようになったが、あくまで商取引は双方向のものだ。"
  republic_factions.11.a: "彼らは商売においてわが国を信頼すべきだ。"
  republic_factions.12.title: "[target_character.GetNameWithNoTooltip]からの提案"
- republic_factions.12.desc: "[ROOT.GetCountry.GetName]の[target_estate.GetName]は、政治の舞台で競争相手を出し抜き、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]政府を掌握しているが、その権力は決して揺るぎないものではない。\n\n国家への忠誠と奉仕を[ROOT.GetCountry.GetFlavorRank]から評価される[target_character.GetName]は、この問題の解決策を[ROOT.GetCountry.GetGovernment.GetCourtTitle]に持ちかけた。[target_character.GetHerHim]によれば、いま権力が移り変われば、[target_estate.GetNameWithNoTooltip]が尽力してきたことがすべて台無しになるかもしれないという。[target_character.GetHerHim]は[ROOT.GetCountry.GetGovernment.GetCourtTitle]と[ROOT.GetCountry.GetGovernment.GetAdjective]政府の知恵を信頼しているが、さらなる後押しが必要であれば、政治献金をおこなう用意もあるとのことだ……"
+ republic_factions.12.desc: "[ROOT.GetCountry.GetName]の[target_estate.GetName]は、政治の舞台で競争相手を出し抜き、[ROOT.GetCountry.GetAdjectiveWithNoTooltip]政府を掌握しているが、その権力は決して揺るぎないものではない。\n\n国家への忠誠と奉仕を[ROOT.GetCountry.GetFlavorRank]から評価される[target_character.GetName]は、この問題の解決策を[ROOT.GetCountry.GetGovernment.GetCourtTitle]に持ちかけた。[target_character.GetHerHim]によれば、いま権力が移り変われば、[target_estate.GetNameWithNoTooltip]が尽力してきたことがすべて台無しになるかもしれないという。[target_character.GetHerHim]は[ROOT.GetCountry.GetGovernment.GetCourtTitle]と[ROOT.GetCountry.GetGovernment.GetAdjective]の政府の知恵を信頼しているが、さらなる後押しが必要であれば、政治献金をおこなう用意もあるとのことだ……"
  republic_factions.12.a: "これは賄賂のほのめかしか？"
  republic_factions.12.b: "[target_estate.GetNameWithNoTooltip]の忠誠心と寛大さに感謝しよう。"
  republic_factions.13.title: "秘密の派閥"

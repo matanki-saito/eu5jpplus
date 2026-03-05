@@ -189,7 +189,7 @@ flavor_byz.35.b: "Trusting the [GetCountry('GEN').GetAdjectiveWithNoTooltip]? Ne
 
 flavor_byz.36.title: "[ShowRegionNameWithNoTooltip('anatolia_region')] Reclaimed!"
 flavor_byz.36.desc: "Our armies have finally secured the old province of [ShowRegionName('anatolia_region')]. With its cities now under our control and our enemies driven away, we can finally celebrate this triumph."
-flavor_byz.36.a: "Glory by to [ROOT.GetCountry.GetNameWithNoTooltip]."
+flavor_byz.36.a: "Glory to [ROOT.GetCountry.GetNameWithNoTooltip]."
 
 flavor_byz.37.title: "Landing in [ShowRegionNameWithNoTooltip('italy_region')]"
 flavor_byz.37.desc: "[ShowRegionName('italy_region')] was once [ROOT.GetCountry.GetAdjective], but with both the Lombards and the Normans taking control, we lost any foothold in the region. Now that we have re-established a base in [target_location.GetName], perhaps we can fortify it and use it for future operations."
@@ -406,7 +406,7 @@ flavor_byz.1400.title: "$flavor_byz.1400_title_key$"
 flavor_byz.1400.desc: "In the ages of past, men from [ShowRegionName('scandinavian_region')] would set sail south, sailing past the rivers of [ShowRegionName('russian_region')] to emerge in the [ShowAreaName('black_sea_area')]. These men, known as the [ShowUnitDefinitionName('a_varangians')] had served with utmost loyalty the older Emperors of [ROOT.GetCountry.GetName]. Maybe we can restore this guard by inviting [varangian_character.GetName] and a band of men from [target_country.GetName] to serve [target_character.GetName] as bodyguards."
 flavor_byz.1400.a: "Let us request a new Varangian Guard."
 flavor_byz.1400.b: "We do not need [varangian_character.GetNameWithNoTooltip]."
-BYZ_IF_THEY_ACCEPT: "We will request [mercenaries|e] from [target_country.GetName]. If they accept the following will happen:"
+BYZ_IF_THEY_ACCEPT: "We will request [pops|e] from [target_country.GetName]. If they accept the following will happen:"
 
 flavor_byz.1401.title: "$flavor_byz.1400_title_key$"
 flavor_byz.1401.desc: "[target_country2.GetName] has requested we send them [varangian_character.GetName] as well as a band of men to their [target_country.GetGovernment.GetCourtTitle]. They are offering us money should we accept."

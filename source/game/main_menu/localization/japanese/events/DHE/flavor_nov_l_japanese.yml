@@ -159,7 +159,7 @@
  flavor_psk.1.desc: "[overlord_country.GetLongName]からのわが国の独立に伴い、新政府の問題が生じた。[overlord_country.GetNameWithNoTooltip]のもとで、[ROOT.GetCountry.GetNameWithNoTooltip]は[ShowGovernmentReformName('veche_republic')]の繁栄と富を享受してきた。[ROOT.GetCountry.GetNameWithNoTooltip]の民が明るい未来へ進んでいけるように、我々はヴェーチェ制を採用すべきであるという声があがっている。"
  flavor_psk.1.a: "我々を「[ROOT.GetCountry.GetAdjectiveWithNoTooltip]共和国」としよう！"
  flavor_psk.1.b: "現在の制度で十分だ。"
- #Additional Novgorod Events
+ # Additional Novgorod Events
  flavor_nov.100.title: "商人組合、「[ShowEstatePrivilegeNameWithNoTooltip('novgorod_ivans_hundred')]」"
  flavor_nov.100.desc: "交易の主要な中心地のひとつとして、[ROOT.GetCountry.GetName]には多くの有力な商人組合が存在している。しかし、これらの組合のなかでも「[ShowEstatePrivilegeName('novgorod_ivans_hundred')]」は特に影響力が強く、[ShowGoodsName('beeswax')]交易を掌握している。組合の高位役員たちはその権力をさらに拡大するため、さらなる支援を得ようと[our_ruler.GetName]およびヴェーチェに接触した。[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]たちのなかには、組合が[ROOT.GetCountry.GetNameWithNoTooltip]の交易に対して過大な影響力をもつことを懸念し、力を与えすぎないよう[our_ruler.GetNameWithNoTooltip]に密かに進言する者もいる。"
  flavor_nov.100.a: "ヴェーチェからの強力な支援を与えよう。"

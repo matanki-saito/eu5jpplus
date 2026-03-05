@@ -51,7 +51,7 @@
 
  #Actions
  call_parliament: "Call Parliament"
- call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\nDuring this session we will get the following effects:\n[ShowModifierEffect('parliament_in_session')]"
+ call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\n\nDuring this session we will get the following effects: [ShowModifier('parliament_in_session')], [ShowModifier('parliament_location')]; and either [ShowModifier('parliament_in_capital')] or [ShowModifier('parliament_outside_capital')] depending on selected [location|e]."
  
  request_more_taxes: "Request Additional Taxes"
  request_more_taxes_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] from the [estates|e]."
@@ -227,6 +227,8 @@
  support_religious_education: "Support Religious Education"
  support_religious_education_desc: "Our state's reliance on the servants of the faith can be a great asset in the education of our population. This would accelerate our scientific advancements while increasing the loyalty of our devoted followers."
  support_religious_education_passed.tt: "All [ShowPopTypeName('clergy')] and [ShowPopTypeName('peasants')] following our faith gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]."
+ improve_relations_with_the_faith: "Foster Religious Relations"
+ improve_relations_with_the_faith_desc: "The relations between our faith and our state can be strained by many decision, especially if the faith itself is split on a specific issue. Acting as a mediator between different factions and forcing them to negotiate could prevent any further, severe split."
 
  #Revolution Issues
  curb_central_authority: "Curb Central Authority"
@@ -270,7 +272,7 @@
  new_model_army_pi_desc: "The ravages of the ongoing civil war against the Royalists have proven that our army is in dire need of total reform."
  edict_of_nantes_issue: "Edict of Nantes"
  edict_of_nantes_issue_desc: "After years of religious struggle, it is time for us to promote unity through co-existence and end the unnecessary bloodshed."
- end_the_french_wars_of_religion_tt: "The [ShowDisasterName('french_wars_religion')] [disaster|e] will end"
+ end_the_french_wars_religion_tt: "The [ShowDisasterName('french_wars_religion')] [disaster|e] will end"
  mug_promote_rajput_officials: "Promote $rajasthani_language$ Officials"
  mug_promote_rajput_officials_desc: "By promoting the $rajasthani_language$ people in the nation, we can ensure that we have a number of militaristic officials we can depend upon."
  promote_rajput_officials_passed_tt: "A skilled member of the [ShowLanguageName('rajasthani_language')] [language|e] will appear."
@@ -664,6 +666,8 @@
  #Building related Agendas
  #remove Buildings of other estates
  #Nobles
+ pa_remove_free_village: "Address $free_village$ Complaints"
+ pa_remove_free_village_desc: "We will remove any [ShowBuildingTypeNameWithNoTooltip('free_village')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')]."
  pa_remove_building_middle_desc: "that has received complaints from"
  pa_remove_parish_church: "Address $parish_church$ Complaints"
  pa_remove_parish_church_desc: "We will remove any [ShowBuildingTypeNameWithNoTooltip('parish_church')] $pa_remove_building_middle_desc$ the [ShowEstateTypeName('nobles_estate')]."

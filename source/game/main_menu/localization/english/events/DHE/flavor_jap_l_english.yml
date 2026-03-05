@@ -22,7 +22,7 @@
  flavor_jap.4.title: "$flavor_jap.3.title$"
  flavor_jap.4.desc: "$flavor_jap.3.desc$"
  flavor_jap.4.a: "[target_character.GetSheHe|U] is a remarkable individual."
- flavor_jap.4.b: "Send [target_character.GetHerHim] to the [GetCountry('JAP').GetGovernment.GetAdjective] [GetCountry('JAP').GetGovernment.GetCourtTitle]."
+ flavor_jap.4.b: "Send [target_character.GetHerHim] to the [target_shogun.GetGovernment.GetAdjective] [target_shogun.GetGovernment.GetCourtTitle]."
 
  flavor_jap.5.title: "[target_character.GetNameWithNoTooltip]"
  flavor_jap.5.desc: "The [target_country.GetLongName] have fulfilled their duty and have sent [target_character.GetName] to us as [target_character.GetSheHe] asked. We now see that [target_character.GetSheHe] is a remarkable individual, with vast knowledge from the world and the sea. [target_character.GetSheHe|U] will undoubtedly be of great service to us if we take [target_character.GetHerHim] under our wing."

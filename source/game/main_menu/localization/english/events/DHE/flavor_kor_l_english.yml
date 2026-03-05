@@ -128,7 +128,7 @@
  flavor_kor.23.b: "Remain in [current_capital.GetNameWithNoTooltip]"
 
  flavor_kor.24.title: "A Campaign Against [target_country.GetNameWithNoTooltip]"
- flavor_kor.24.desc: "Since the fall of the state of Balhae, much of the old [ShowCultureName('korean_culture')] north has been overrun by [ShowCultureGroupName('mongolian_group')] and [ShowCultureName('jurchen_culture')] tribes. With our shackles broken and with a new will to expand our dominion, we have come into conflict with [target_country.GetName], whose lands in [target_province.GetName] lie on our path to advance to the northern mountain range."
+ flavor_kor.24.desc: "Since the fall of the state of Balhae, much of the old [ShowCultureName('korean_culture')] north has been overrun by [ShowCultureGroupName('mongolian_group')] and [ShowCultureGroupName('jurchen_group')] tribes. With our shackles broken and with a new will to expand our dominion, we have come into conflict with [target_country.GetName], whose lands in [target_province.GetName] lie on our path to advance to the northern mountain range."
  flavor_kor.24.a: "Then we will have to expel them!"
  flavor_kor.24.b: "Such a war will only lead to the misery of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]."
 
@@ -224,7 +224,7 @@
  flavor_kor.41.b: "Appease the elites."
 
  flavor_kor.100.title: "[korRuler.GetNameWithNoTooltip]'s Northern Expedition"
- flavor_kor.100.desc: "[korRuler.GetName] plans to launch a northern expedition to chastise the [ShowCultureName('jurchen_culture')] people. This will require substantial preparations, funds, and is impossible to keep secret. [korRuler.GetSheHe|U] plans to strengthen Korea's defenses by increasing and improving training and upgrading our fortresses."
+ flavor_kor.100.desc: "[korRuler.GetName] plans to launch a northern expedition to chastise the [ShowCultureGroupName('jurchen_group')] people. This will require substantial preparations, funds, and is impossible to keep secret. [korRuler.GetSheHe|U] plans to strengthen [ROOT.GetCountry.GetName]'s defenses by increasing and improving training and upgrading our fortresses."
  flavor_kor.100.a: "Prepare for war."
  
  flavor_kor.101.title: "First Literati Purge"

@@ -108,7 +108,7 @@
  scope_actor_allowed_to_attack_other_subjects_of_fra_tt: "[actor.GetName] will be allowed to declare war against our other subjects without us intervening for #Y 20 years#!"
  scope_actor_exempted_from_offensive_wars_tt: "[actor.GetNameWithNoTooltip] will be exempted from any offensive wars that [GetCountry('FRA').GetNameWithNoTooltip] may conduct in the next 20 #Y years#!"
 
- hundred_years_war.209.title: "[actor.GetNameWithNoTooltip] Approaches [target_subject.GetName]"
+ hundred_years_war.209.title: "[actor.GetNameWithNoTooltip] Approaches [target_subject.GetNameWithNoTooltip]"
  hundred_years_war.209.desc: "[GetCountry('ENG').GetName] has approached us, a subject of [GetCountry('FRA').GetName], seeking to sway us away from our overlord. They offer compensation in exchange for our neutrality, ensuring that we do not take up arms in any future defensive wars that [GetCountry('FRA').GetNameWithNoTooltip] may find itself in. Accepting could bring security and wealth — but at what cost to our loyalties?"
  hundred_years_war.209.a: "Their donation is welcome."
  hundred_years_war.209.b: "We can never betray our true allegiance!"

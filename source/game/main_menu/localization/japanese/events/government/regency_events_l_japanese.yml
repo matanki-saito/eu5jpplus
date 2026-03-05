@@ -15,7 +15,7 @@
  regencies.3.a: "いますぐやめさせなければ。"
  regencies.3.c: "そこまでの奇行ではない。"
  regencies.4.title: "摂政の証明された妄言"
- regencies.4.desc: "国の衰退の種である[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]の処分が失敗に終わると、妄想に思えた疑心暗鬼がすべて正当化されたため、[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHim]は精神を病むばかりだった。[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]は、評議会で近しい関係をもつ者を全員尋問したあと、[ROOT.GetCountry.GetGovernment.GetAdjective]衛兵を引き連れ、前触れもなく宮廷の各部屋を回り、強制的な所持品検査をおこなった。そのとき[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]は、どれほど反対されても、厳しい声で「やむを得ぬことだ」としか言わなかった。"
+ regencies.4.desc: "国の衰退の種である[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]の処分が失敗に終わると、妄想に思えた疑心暗鬼がすべて正当化されたため、[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetHerHim]は精神を病むばかりだった。[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]は、評議会で近しい関係をもつ者を全員尋問したあと、[ROOT.GetCountry.GetGovernment.GetAdjective]の衛兵を引き連れ、前触れもなく宮廷の各部屋を回り、強制的な所持品検査をおこなった。そのとき[ROOT.GetCountry.GetGovernment.GetActiveRegent.GetName]は、どれほど反対されても、厳しい声で「やむを得ぬことだ」としか言わなかった。"
  regencies.4.a: "ほかにも方法は残されている。"
  regencies.5.title: "黄金の腐敗"
  regencies.5.desc: "黄金——その輝きは抗いがたく、危険な魅力で人の脳を毒す。黄金の呪われた光は悪魔の眼のごとく暗がりから輝き、欲深き愚者を引き寄せる。この危険な感覚に憑りつかれた[target_character.GetName]は、苛立ちながら新たな金を探し求めて、ミダス王のような手つきで引き出しからポケットまで、あらゆる場所で黄金を漁っている。\n\nだが、摂政が忙しなく金を集めているあいだも、民衆は絶望に陥りつつあり、その飢えた口で祈りを捧げている。"

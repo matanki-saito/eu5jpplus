@@ -1,0 +1,12 @@
+﻿l_japanese:
+ revoke_town_rights: "Revoke Town Rights"
+ revoke_town_rights_desc: ""
+ # these are just placeholder
+ royal_wool_rights: "Royal Wool Rights"
+ royal_wool_rights_desc: "$desc_intricate_web_weaver$"
+ exporting_licenses: "Exporting Licenses"
+ exporting_licenses_desc: "$desc_intricate_web_weaver$"
+ slave_hub: "Slave Hub"
+ slave_hub_desc: "$desc_intricate_web_weaver$"
+ free_mercenaries: "Free Mercenaries"
+ free_mercenaries_desc: "$desc_intricate_web_weaver$"

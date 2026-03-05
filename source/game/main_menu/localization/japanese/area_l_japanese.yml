@@ -215,7 +215,6 @@
  xilotepec_area: "シロテペク"
  xalisco_area: "ハリスコ"
  aridoamerica_sea_zones_area: "アリドアメリカ海"
- janeiro_area: "ジャネイロ"
  mayaab_area: "マヤアブ"
  chilapan_area: "チラパン"
  puuk_area: "プウク"
@@ -263,10 +262,10 @@
  paraguay_area: "パラグアイ"
  guapore_area: "グアポレ"
  uruguay_area: "ウルグアイ"
+ mato_grosso_area: "マト・グロッソ"
  #Colombia Region
  bogota_area: "ボゴタ"
  #Andes Region
- andes_area: "アンデス"
  quitu_area: "キト"
  chala_area: "チャラ"
  atacama_area: "アタカマ"
@@ -929,7 +928,7 @@
  australian_yalanji_area: "ヤランジ"
  southeastern_australia_area: "南東オーストラリア"
  south_australia_area: "サウスオーストラリア"
- #unsorted
+ # unsorted
  bermuda_province: "$bermuda$"
  bermuda_area: "$bermuda$"
  gulf_of_mexico_area: "メキシコ湾"
@@ -947,5 +946,5 @@
  azores_area: "アゾレス"
  canary_islands_area: "カナリア諸島"
  south_macaronesia_area: "南マカロネシア"
- #temporary ones
+ # temporary ones
  nw_africa_coast_area: "北西アフリカ沿岸"

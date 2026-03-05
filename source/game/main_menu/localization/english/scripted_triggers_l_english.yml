@@ -397,13 +397,6 @@
  THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW: "[INTERNATIONAL_ORGANIZATION.GetName] has a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower"
  NOT_THIRD_HRE_CAN_SELECT_ADJACENT_REFORM_LEVEL_LOW: "[INTERNATIONAL_ORGANIZATION.GetName] has NOT a [hre_law_level|e] for [TARGET_LAW.GetName] of $VALUE|Y0$ or lower"
 
- HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "Has selected a reform for the [TARGET_LAW.GetName] [law|e]"
- NOT_HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "Has NOT selected a reform for the [TARGET_LAW.GetName] [law|e]"
- FIRST_HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "The [international_organization|e] has selected a reform for the [TARGET_LAW.GetName] [law|e]"
- NOT_FIRST_HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "The [international_organization|e] has NOT selected a reform for the [TARGET_LAW.GetName] [law|e]"
- THIRD_HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "[INTERNATIONAL_ORGANIZATION.GetName] has selected a reform for the [TARGET_LAW.GetName] [law|e]"
- NOT_THIRD_HRE_HAS_SELECTED_POLICY_OF_THIS_LAW: "[INTERNATIONAL_ORGANIZATION.GetName] has NOT selected a reform for the [TARGET_LAW.GetName] [law|e]"
-
  LOCATION_AND_OWNER_CAN_BUILD: "[LOCATION.GetOwner.GetName] can build [BUILDING_TYPE.GetName]"
  NOT_LOCATION_AND_OWNER_CAN_BUILD: "[LOCATION.GetOwner.GetName] can NOT build [BUILDING_TYPE.GetName]"
  THIRD_LOCATION_AND_OWNER_CAN_BUILD: "[LOCATION.GetName] and [LOCATION.GetOwner.GetName] can build [BUILDING_TYPE.GetName]"

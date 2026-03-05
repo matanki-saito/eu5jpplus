@@ -38,9 +38,10 @@
  flavor_gen.7.b: "We cannot afford it."
  
  flavor_gen.8.title: "Bankruptcy of the Casa San Giorgio"
- flavor_gen.8.desc: "In 1407, Ufficio di San Giorgio began a banking business, lending money to its shareholders and providing services such as bills of exchange. By 1437, the bank also managed the mint. Continued state borrowing and undercapitalization brought the bank down in 1444.\n\nWhat shall we do?"
+ flavor_gen.8.desc: "The [target_country.GetLongName] have seen themselves in a lot of financial troubles lately. Their inability to properly manage money represents a disgrace as a bank, and they have come to us for help in these dire times. With our assistance, they could blow a bit of fresh air into their ledgers and keep afloat until they are able to sustain themselves once again."
  flavor_gen.8.a: "Save the bank!"
  flavor_gen.8.b: "Let it die..."
+ flavor_gen.8.historical_info: "In 1407, the #italic Casa delle compere e dei banchi di San Giorgio#!, informally known as #italic Ufficio di San Giorgio#! began a banking business, lending money to its shareholders and providing services such as bills of exchange. By 1437, the bank also managed the mint. Continued state borrowing and undercapitalization brought the bank down in 1444."
  
  flavor_gen.9.title: "The Guelph-Ghibelline Feud"
  flavor_gen.9.desc: "The division between the Pope and the Emperor had started in the late 11th century, and technically ended in 1122, but the division between Guelphs and Ghibellines persisted in Italy for centuries afterward, being a constant factor in dividing the city-states internally and keeping Italy weak. The Guelphs were the supporters of the Pope, while the Ghibellines supported the Emperor. In the 15th century, the Guelphs had switched allegiance to the French instead, as they started to take an interest in Italy."
@@ -72,7 +73,7 @@
  flavor_gen.13.a: "This will last forever!"
  
  flavor_gen.14.title: "The Fate of Gazaria"
- flavor_gen.14.desc: "[ShowLocationName('constantinople')]'s fall is not only a shock to the Christian world but also the end to the existence of [ROOT.GetCountry.GetAdjective] colonial ambitions in the Black Sea. It is clear that the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Gazaria is doomed to fall to the Turkish threat.\n\nAs there is little reason for us to hold the colony, ideas to cede it to the Casa San Giorgio have occurred. Although the fate of the colony is sealed, it might still have a chance of survival under the sovereignty of the bank."
+ flavor_gen.14.desc: "[ShowLocationName('constantinople')]'s fall is not only a shock to the Christian world but also the end to the existence of [ROOT.GetCountry.GetAdjective] colonial ambitions in the Black Sea. It is clear that the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Gazaria is doomed to fall to the Turkish threat.\n\nAs there is little reason for us to hold the colony, ideas to cede it to the [target_country.GetLongName] have occurred. Although the fate of the colony is sealed, it might still have a chance of survival under the sovereignty of the bank."
  flavor_gen.14.a: "Cede Gazaria to the bank."
  flavor_gen.14.b: "We can and will defend Gazaria ourselves!"
  
@@ -160,11 +161,11 @@
  flavor_gen.28.b: "That Rock belongs to us!"
  
  flavor_gen.29.title: "Casa San Giorgio's Golden Year"
- flavor_gen.29.desc: "Casa San Giorgio's banking business has been quite profitable of late, greatly benefiting the [ROOT.GetCountry.GetLongName]."
+ flavor_gen.29.desc: "The banking business of the [target_country.GetLongName] has been quite profitable of late, greatly benefiting the [ROOT.GetCountry.GetLongName]."
  flavor_gen.29.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  
  flavor_gen.30.title: "Casa San Giorgio's Financial Problems"
- flavor_gen.30.desc: "Casa San Giorgio's banking business has gone through some problems in recent times, having financial losses that the [ROOT.GetCountry.GetLongName] must now face."
+ flavor_gen.30.desc: "The banking business of the [target_country.GetLongName] has gone through some problems in recent times, having financial losses that the [ROOT.GetCountry.GetLongName] must now face."
  flavor_gen.30.a: "Concerning..."
  
  flavor_gen.31.title: "The University of Genoa"
@@ -234,3 +235,28 @@
  flavor_gen.45.desc: "[sampieru_corso.GetName] has been gaining strength in exile with foreign support. He has now decided that the time has come for an island-wide rebellion to free Corsica from our rule."
  flavor_gen.45.a: "The Corsicans are rising once again!"
  flavor_gen.45.a.tt: "All of the [ShowCultureName('corsican')] population in [ShowProvinceDefinitionName('cismonte_province')] and [ShowProvinceDefinitionName('pumonte_province')] will join the [corsican_independence_fighter.GetName]"
+
+ flavor_gen.46.title: "The Bank of Saint George"
+ flavor_gen.46.desc: "Commerce and trade in the Mediterranean has its benefits, but it can also cause some strain in our country's finances, especially if we are to compete with some of our neighbors. To alleviate that, a new bank will be founded, using the [ShowWorkOfArtName('palazzo_san_giorgio')] as its headquarters. They will surely serve as a way for our country to enter a new era of wealth and prosperity."
+ flavor_gen.46.a: "The bank will serve our interests."
+ flavor_gen.46.b: "Let us swim in money!"
+ flavor_gen.46.historical_info: "The Bank of Saint George, or #italic Casa delle compere e dei banchi di San Giorgio#!, was founded in 1407 by the Republic of Genoa. Its main objective was to handle the rising expenses and debt due to their war against Venice for economic supremacy in the Mediterranean. Based in the #italic Palazzo San Giorgio#!, it served as the main financial institution of Genoa, even to the point of administering many of the country's overseas territories, either directly or indirectly. Up until is closure by Napoleon in 1805, the bank served many rulers and personalities of Europe, from Christopher Columbus to Emperor Charles V."
+
+ flavor_gen.47.title: "$flavor_gen.46.title$"
+ flavor_gen.47.desc: "We have been appointed to help the finances of [GetCountry('GEN').GetName] and we are sure to gain a lot from their patronage. However, we are also free to expand our offices into other countries, and there are a lot of full coffers around that could benefit from our administration... for a fee, of course."
+ flavor_gen.47.a: "$flavor_gen.46.b$"
+
+ flavor_gen.48.title: "Expansion of the [target_art.GetNameWithNoTooltip]"
+ flavor_gen.48.desc: "The [target_art.GetName] serves as our namesake and headquarters. As such, its impressiveness and magnificence reflect on ourselves and how we are perceived by the people. Plans have been put forth for the expansion of the building, so that it more properly accommodate our increasing activities, and serve at the same time to increase our public image."
+ flavor_gen.48.a: "Proceed with the expansion."
+ flavor_gen.48.b: "It is too expensive."
+
+ flavor_gen.49.title: "Renovation of the [target_art.GetNameWithNoTooltip]"
+ flavor_gen.49.desc: "The [target_art.GetName] has been serving as our headquarters for a while, and time is starting to take its toll on the building. Perhaps we should invest some funds into renovating it, so that it can continue to represent our glorious wealth."
+ flavor_gen.49.a: "Let us restore the building to its great glory."
+ flavor_gen.49.b: "$flavor_gen.48.b$"
+
+ flavor_gen.50.title: "Further Expansion of the [target_art.GetNameWithNoTooltip]"
+ flavor_gen.50.desc: "The [target_art.GetName] continues to serve as our headquarters, and a symbol of our wealth. So that it is even more visible to the public, plans have been put forth for a new wing with a monumental façade decorated with many frescoes, including an image of Saint George killing the dragon."
+ flavor_gen.50.a: "$flavor_gen.48.a$"
+ flavor_gen.50.b: "$flavor_gen.48.b$"

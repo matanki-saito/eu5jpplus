@@ -144,19 +144,32 @@
  settle_country_desc: "We have established our religion and culture in these lands, let's make it official and [settle|e] here permanently so that we can work the fields and build improvements to better our situation in life."
 
  hire_advisor: "Hire $game_concept_courtier$"
- hire_advisor_desc: "Spend gold to encourage a new [character|e] to enter our court."
+ hire_advisor_desc: "Spend [legitimacy|e] [legitimacy_i|e] to encourage a new [character|e] to enter our court."
  hire_advisor_effect: "A new [character|e] is hired and enters our country."
 
  hire_artist: "Hire Artist"
  hire_artist_desc: "Spend gold to encourage a new [artist|e] to enter our court."
  hire_artist_effect: "A new [artist|e] is hired and enters our country."
 
+ #
+ improve_our_cultural_view: "Improve our Cultural opinion"
+ improve_our_cultural_view_desc: "Make an effort to improve our [culture|e]'s opinion of another."
+ improve_our_cultural_view_effect: "[SCOPE.sCountry('actor').GetName] improved their [culture|e]'s opinion of [SCOPE.sCulture('target').GetName]."
+ improve_our_cultural_view_choose_culture: "Choose a [culture|e] to improve our opinion of:"
+
+
+ #
+ reduce_our_cultural_view: "Worsen our Cultural opinion"
+ reduce_our_cultural_view_desc: "Make an effort to worsen our [culture|e]'s opinion of another."
+ reduce_our_cultural_view_effect: "[SCOPE.sCountry('actor').GetName] worsened their [culture|e]'s opinion of [SCOPE.sCulture('target').GetName]."
+ reduce_our_cultural_view_choose_culture: "Choose a [culture|e] to worsen our opinion of:"
+ 
  train_general: "Train General"
- train_general_desc: "Spend gold to train a new [general|e]. They will not be allowed to be a member of our [cabinet|e]."
+ train_general_desc: "Spend [army_tradition|e] [army_tradition_i|e] to train a new [general|e]. They will not be allowed to be a member of our [cabinet|e]."
  train_general_effect: "A new [general|e] is trained and enters our country."
 
  train_admiral: "Train Admiral"
- train_admiral_desc: "Spend gold to train a new [admiral|e]. They will not be allowed to be a member of our [cabinet|e]."
+ train_admiral_desc: "Spend [navy_tradition|e] [navy_tradition_i|e] to train a new [admiral|e]. They will not be allowed to be a member of our [cabinet|e]."
  train_admiral_effect: "A new [admiral|e] is trained and enters our country."
 
  create_market_desc: "Create a new [market|e] in a target [location|e]. The [price|e] depends on the current [market_access|e] of the [location|e]."
@@ -274,6 +287,10 @@
  contribute_to_organization_treasury_desc: "Donate parts of our [treasury|e] to the specific [international_organization|e] treasury."
  contribute_to_organization_treasury_select_gold_amount: "Select the amount of [gold|e] donated to the Organization:"
  donate_gold_to_international_organization_tt: "Every relevant member of [SCOPE.sInternationalOrganization('recipient').GetName] will improve their [opinion|e] of [SCOPE.sCountry('actor').GetName] scaling with the amount of [gold|e] donated compared to the current value of the treasury (scales up to #G 100#!)"
+
+ withdraw_from_organization_treasury: "Withdraw from Organization Treasury"
+ withdraw_from_organization_treasury_desc: "Withdraw parts of the [international_organization|e] [treasury|e] and pocket it for ourselves."
+ withdraw_from_organization_treasury_select_gold_amount: "Select the amount of [gold|e] withdrawn from the Organization:"
 
  overrule_imperial_diet: "Overrule Imperial Diet"
  overrule_imperial_diet_desc: "The Imperial Diet may hold great political power within the [GetUniqueInternationalOrganization('hre').GetName], but the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] has the privilege to overrule the Diet in order to change a law."
@@ -393,6 +410,10 @@
  create_trade_select_locked: "Choose whether or not to lock the trade from being overridden by automation"
  trade_details: "Trade Details"
 
+ provoke_rebels: "Provoke Rebels"
+ provoke_rebels_desc: "Provoke [rebels|e] into rising up against us."
+ provoke_rebels_tt: "The selected [rebellion|e] will be provoked into rising up against us so we can crush them on the battlefield once and for all!"
+
  hire_privateer: "Hire Privateer"
  hire_privateer_desc: "Hire a [privateer|e] to pillage an [area|e]. "
  hire_privateer_select_area: "Select [area|e] to [privateer|e]:"
@@ -484,6 +505,7 @@
  policy_vote_select_policy_at: "The target [policy|e] is not currently codified in the [SCOPE.sInternationalOrganization('recipient').GetName]"
  policy_vote_select_policy_bt: "[SCOPE.sCountry('proposer').GetName|U] can pay the price of the target [policy|e]"
  policy_vote_select_policy_ct: "The target [policy|e] is either a currently implemented one or a proposed one in [SCOPE.sInternationalOrganization('recipient').GetName]"
+ law_debate_cooldowns_tt: "[SCOPE.sLaw('root').GetName] has been proposed already and cannot be proposed until #Y [ShowExpirationDateInVariableListForTarget(SCOPE.sInternationalOrganization('recipient'), 'law_debate_cooldowns', SCOPE.sLaw('root'))]#!"
 
  VOTE_LOCK_REASON_PROPOSER: "[proposer.GetName] proposed the vote."
  VOTE_LOCK_REASON_BRIBED: "They seem unwilling to change their vote. Perhaps they have been bribed?"
@@ -542,7 +564,9 @@
  POLICY_RESPECTS_SOVEREIGNTY: "The reform respects our sovereignty"
  POLICY_RESTRICTS_SOVEREIGNTY: "The reform restricts our sovereignty"
  POLICY_POPULARITY_TO_ENACT: "The popularity of enacting [SCOPE.sPolicy('policy').GetName]"
- POLICY_POPULARITY_TO_KEEP: "The popularity of keeping [SCOPE.sInternationalOrganization('recipient').GetImplementedPolicyForLaw(SCOPE.sLaw('target').Self).GetName]"
+ POLICY_POPULARITY_TO_KEEP_DYNAMIC: "The popularity of keeping [SCOPE.sInternationalOrganization('recipient').GetImplementedPolicyForLaw(SCOPE.sLaw('target').Self).GetName]"
+ POLICY_POPULARITY_TO_KEEP: "[SCOPE.sInternationalOrganization('recipient').Custom('GetReasonToKeepLaw')]"
+ POLICY_POPULARITY_TO_KEEP_STATIC: "The popularity of keeping the currently active policy"
  POLICY_STRATEGIC_VALUE: "Strategic Value"
  POLICY_LOSING_OPPORTUNITY_TO_CENTRALIZE: "Would lose opportunity to centralize the organization"
  POLICY_WOULD_BECOME_LEADER_OF_ORGANIZATION: "Would become leader of the organization"
@@ -566,7 +590,8 @@
  POLICY_VOTE_BIAS: "From wanting to vote on [SCOPE.sPolicy('vote').GetNameWithNoTooltip]"
  POLICY_WANTS_TO_KEEP_CURRENT_POLICY: "From wanting to keep [SCOPE.sInternationalOrganization('recipient').GetImplementedPolicyForLaw(SCOPE.sLaw('target').Self).GetName]"
  POLICY_WANTS_TO_REMOVE_CURRENT_POLICY: "From wanting to remove [SCOPE.sInternationalOrganization('recipient').GetImplementedPolicyForLaw(SCOPE.sLaw('target').Self).GetName]"
- POLICY_REASON_TO_VOTE_FOR_PROPOSED_POLICY: "From reasons to vote for [SCOPE.sInternationalOrganization('recipient').MakeScope.GetVariable('ai_io_law_target').GetPolicy.GetName] instead"
+ POLICY_REASON_TO_VOTE_FOR_PROPOSED_POLICY: "Would rather vote for [SCOPE.sInternationalOrganization('recipient').MakeScope.GetVariable('ai_io_law_target').GetPolicy.GetName] instead"
+ POLICY_REASON_TO_VOTE_FOR_TARGET: "From reasons to vote for [SCOPE.sPolicy('evaluation_policy').GetName]"
  POLICY_BASE_REASON_KEEP_POLICY: "From wanting to keep an already established policy"
  POLICY_BASE_REASON_REFORM_POLICY: "From wanting to reform an already established policy"
  POLICY_PROPOSE_BIAS: "From wanting to propose [SCOPE.sPolicy('vote').GetNameWithNoTooltip]"
@@ -669,12 +694,20 @@
  convert_culture: "Convert Culture"
 
  deport_heretics_select_province: "Select Province to Deport from"
-
+ rot_declare_conquest_ambition: "Declare Conquest Ambition"
+ rot_declare_conquest_ambition_desc: "Select a [region|e] to declare as our conquest ambition."
+ rot_declare_conquest_ambition_select_region: "Select a region declare as our conquest ambition"
+ rot_declare_conquest_ambition_no_regions: "@trigger_no! No valid neighbor [region|e] which we can declare as our conquest ambition. We must ensure that our country dominates [actor.GetCapital.GetRegion.GetName] first!"
+ rot_declare_conquest_ambition_tt: "The target [region|e] becomes our designated #Y Region of Conquest Ambition#!!"
+ rot_declare_conquest_ambition_at: "[ShowGenericActionName('rot_plan_invasion')] against countries in this region will be immediate [war|e] declarations instead of creation of a [casus_belli|e]"
+ rot_declare_conquest_ambition_bt: "Every [location|e] owned by an enemy country in this region will gain the [ShowModifier('rot_timur_scare')] [location_modifier|e] (applied on war declaration and decays for #Y 10 years#!). Effect is only applied as long [GetCharacter('chg_timur_lame_borjigin').GetName] is in charge"
  rot_plan_invasion: "Plan Invasion"
- rot_plan_invasion_desc: "Select a [country|e] to plan an invasion on."
- rot_plan_invasion_select_country: "Select a country to plan an invasion on"
+ rot_plan_invasion_desc: "Select a [country|e] to plan an invasion of."
+ rot_plan_invasion_select_country: "Select a country to plan an invasion of"
  rot_plan_invasion_no_countries: "@trigger_no! No valid neighbor [countries|e] which are neither [allies|e] of nor have no [truce|e] with [actor.GetName]"
- rot_plan_invasion_tt: "[actor.GetName] gains the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on a target [country|e]"
+ rot_plan_invasion_tt: "We gain the [ShowCasusBelliName('cb_timurs_conquests')] [casus_belli|E] on a target [country|e]"
+ rot_plan_invasion_at: "If the target Country is in the same region as our [capital|E] then we declare a [ShowCasusBelliName('cb_timurs_conquests')] [war|E] on them instead"
+ rot_plan_invasion_bt: "If the target Country is in the same region as our [capital|E] or is in our #Y Region of Conquest Ambition#! ([recipient.MakeScope.GetVariable('rot_conquest_ambition').GetRegion.GetName]) then we declare a [ShowCasusBelliName('cb_timurs_conquests')] [war|E] on them instead"
  rot_select_core_region: "Select Core Region"
  rot_select_core_region_desc: "Select a [region|e] to elevate it into the status of #Y Core Region#! for [actor.GetName]."
  rot_select_core_region_select_region: "Select a region to promote as a Core Region"
@@ -716,7 +749,7 @@
  sengoku_summon_to_court_desc: "The clan leaders dismiss our authority. We should summon them to our court so that we can keep them under control, or use their refusal to obey such summons as a justification of their treachery."
  sengoku_proclaim_clan_independence: "Proclaim Clan Independence"
  sengoku_proclaim_clan_independence_desc: "The [GetUniqueInternationalOrganization('japanese_shogunate').GetName] has become weak and can no longer control the clans efficiently. We must take advantage of the situation and assert our independence from the authority of the $JAPANESE_SHOGUNATE_LEADER_MALE$"
- clan_has_valid_landable_location.tt: "We are present in [locations|e] with no other clans present"
+ clan_has_valid_landable_location.tt: "We are present in [locations|e] owned by the $JAPANESE_SHOGUNATE_LEADER_MALE$ in which we have the majority of [foreign_buildings|e]"
  sengoku_increment_recruitment: "Increment Recruitment"
  sengoku_increment_recruitment_desc: "Uncertain times are ahead, and wars will need to be fought. We should increase our armies with new recruits."
  sengoku_offer_hostage: "Offer Hostage"
@@ -1239,6 +1272,7 @@
 
  theocracy_to_monarchy: "$transition_to_monarchy$"
  theocracy_to_monarchy_desc: "Our people deserve strong leadership, spearheaded by the most affluent families that make up our $nobles_estate$, instead of $clergy_estate$ in robes. The time has come to embrace our monarchical future."
+ ruler_regent_relatives_crown_estate_tt: "[actor.GetGovernment.GetRulerOrRegent.GetName] and [actor.GetGovernment.GetRulerOrRegent.GetHerHis] close relatives will become part of the $crown_estate$ [estate|e]"
 
  republic_to_monarchy: "$transition_to_monarchy$"
  republic_to_monarchy_desc: "Our republican values have waned as the power accumulates at the hands of the wealthy $nobles_estate$. Embracing a form of government akin to [ShowGovernmentTypeName('monarchy')] is the logical evolution for our realm."

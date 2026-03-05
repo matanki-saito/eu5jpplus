@@ -72,7 +72,7 @@
  flavor_oma.14.a: "この島は[ShowRegionNameWithNoTooltip('persia_region')]での貿易に重要な役割を果たすだろう。"
  flavor_oma.14.b: "代わりに[ROOT.GetCountry.GetCapital.GetNameWithNoTooltip]を発展させよう。"
  flavor_oma.15.title: "新たなイマーム"
- flavor_oma.15.desc: "[ROOT.GetCountry.GetName]がまたもや不安定になっている。[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]と[target_character.GetName]が権力闘争を続けており、そのなかで[target_character2.GetName]は[ShowGovernmentTypeName('theocracy')]の復活を目論んでいる。おそらく、[target_character2.GetName]を[ROOT.GetCountry.GetName]から追放することで事態には対処できるだろうが、[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]の動揺を招くことは間違いない。"
+ flavor_oma.15.desc: "[ROOT.GetCountry.GetName|U]がまたもや不安定になっている。[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]と[target_character.GetName]が権力闘争を続けており、そのなかで[target_character2.GetName]は[ShowGovernmentTypeName('theocracy')]の復活を目論んでいる。おそらく、[target_character2.GetName]を[ROOT.GetCountry.GetName]から追放することで事態には対処できるだろうが、[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]の動揺を招くことは間違いない。"
  flavor_oma.15.a: "我々は[target_character2.GetNameWithNoTooltip]のもとでの新たな体制を支持する。"
  flavor_oma.15.b: "[target_character2.GetNameWithNoTooltip]を[target_character.GetNameWithNoTooltip]への陰謀を企てたかどで追放せよ。"
  flavor_oma.16.title: "海岸への移住"

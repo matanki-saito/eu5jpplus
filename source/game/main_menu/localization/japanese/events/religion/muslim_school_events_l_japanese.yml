@@ -44,7 +44,7 @@
  muslim_school_events.12.desc: "アリーの信奉者たちは何世紀も前から、身を潜めてほかの宗教を信じるふりをすることは、信仰を守る上で必要なことだと考えてきた。[SCOPE.sLocation('shia_here').GetName]の当局が、地元のスーフィーたちのあいだでシーア派信者が増えているのではないかと強く疑っている。彼らはシーア派を根絶するため、我々の承認を求めている。"
  muslim_school_events.12.a: "異端者は認めない！"
  muslim_school_events.12.b: "地域のスーフィーは尊重されなくては。"
- 10_percent_of_all_pops_become_shia_tt: "この[location|e]に居住するわが国の[pops|e]の#Y 10%#!が[ShowReligionName('shia')]に改宗する"
+ 10_percent_of_all_pops_become_shia_tt: "[THIS.GetLocation.GetName]に居住するわが国の[pops|e]の#Y 10%#!が[ShowReligionName('shia')]に改宗する"
  muslim_school_events.13.title: "[target_location.GetNameWithNoTooltip]で住民が抗議"
  muslim_school_events.13.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]階級は宗教的な影響力も強いが、支配層の一員でもあり、社会的な抗議に加担することがある。最近、[target_location.GetName]の地域駐屯軍と住民とのあいだで勃発した論争に、[target_location.GetProvince.GetName]州の有力なムフティーが関心を寄せている。\n\n地域司令官は、我々が住民の要求に応じなければ事態が悪化しかねないと恐れている。だが彼らの要求に応じるということは、我々が犠牲を払うということである。"
  muslim_school_events.13.a: "[target_location.GetNameWithNoTooltip]の住民の抗議を聞き入れる。"

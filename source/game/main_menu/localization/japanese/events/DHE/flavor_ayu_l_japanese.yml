@@ -38,7 +38,7 @@
  flavor_ayu.8.a: "紛れもなく聖なる痕跡だ。"
  flavor_ayu.8.b: "ただの自然現象だ。"
  flavor_ayu.9.title: "[target_character.GetNameWithNoTooltip]"
- flavor_ayu.9.desc: "非常に好奇心旺盛な外国人がわが国に現れた。この[target_character.GetName]は世界中を航海しており、それを如実に物語る語学力と実践的な技能を備えている。[target_ruler.GetName]の関心を引いた[target_character.GetSheHe|U]は、[ROOT.GetCountry.GetGovernment.GetAdjective][ROOT.GetCountry.GetGovernment.GetCourtTitle]の一員として、特にその会計能力により非常に有用な人材となるだろう。だが、[ROOT.GetCountry.GetGovernment.GetCourtTitle]の要職に外国人が就くと、わが[ROOT.GetCountry.GetFlavorRank]の上流階級の反感を買うことは間違いない。彼らは自らの地位が脅かされることを、決して好ましく思わないからだ。"
+ flavor_ayu.9.desc: "非常に好奇心旺盛な外国人がわが国に現れた。この[target_character.GetName]は世界中を航海しており、それを如実に物語る語学力と実践的な技能を備えている。[target_ruler.GetName]の関心を引いた[target_character.GetSheHe|U]は、[ROOT.GetCountry.GetGovernment.GetAdjective]の[ROOT.GetCountry.GetGovernment.GetCourtTitle]の一員として、特にその会計能力により非常に有用な人材となるだろう。だが、[ROOT.GetCountry.GetGovernment.GetCourtTitle]の要職に外国人が就くと、わが[ROOT.GetCountry.GetFlavorRank]の上流階級の反感を買うことは間違いない。彼らは自らの地位が脅かされることを、決して好ましく思わないからだ。"
  flavor_ayu.9.historical_info: "ギリシャの冒険家で商人のコンスタンティン・フォールコンは、イギリス東インド会社で働いたあと、1675年にシャムにやって来た。イギリスでは、ギリシャ人としての彼の名前「ゲラキス」が「ファルコン」と翻訳され、のちに再度ギリシャ風の「フォールコン」に変更された。彼はタイ語、英語、フランス語、ポルトガル語、マレー語が堪能だったため、ナーラーイ王の宮廷で通訳として働いた。ほどなくして国王の相談役となり、シャムの宮廷で大きな影響力をもつようになった。\n\n王宮の廷臣たちの多くは国王に寵愛される彼を妬み、それが両者に終わりを告げる原因となった。ナーラーイの乳兄弟であるプーラ・ペートラーチャーは、フォールコンが王位継承者プーラ・プイを傀儡とした統治者の座を狙っている、という噂をもとにクーデターを起こした。このクーデターが1688年のシャム革命であり、フォールコンと王位継承者は処刑された。さらに、ナーラーイ王も数日後に死去し、ペートラーチャーは自らを新たなシャム王であると宣言した。"
  flavor_ayu.9.a: "この者はわが[ROOT.GetCountry.GetFlavorRank]にとって重要だ！"
  flavor_ayu.9.b: "所詮、外国人は外国人だ。"

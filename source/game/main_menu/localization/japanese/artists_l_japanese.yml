@@ -1,5 +1,5 @@
 ﻿l_japanese:
- #Artist Types
+ # Artist Types
  ARTIST_TYPE_NAME_: "（素人）"
  ARTIST_TYPE_DESC_: "プロの芸術家ではない。"
  ARTIST_TYPE_NAME_painter: "画家"
@@ -26,7 +26,7 @@
  ARTIST_TYPE_DESC_calligrapher: "書家は、文字を複雑に組み合わせて芸術を創造する。作品は通常、本や巻物に収められ、宮殿や寺院に保管される。この時代の有名な書家としては、ミールエマード・ハサニー、韓石峰、#italic 寛永の三筆#!がいる。"
  ARTIST_TYPE_NAME_storyteller: "語り部"
  ARTIST_TYPE_DESC_storyteller: "語り部は、口承によって先祖の物語や伝統を受け継ぎ、次世代へと伝える役目をもつ。各部族において重んじられる彼らは、重要な伝統を新しい世代に伝える役割を担っている。"
- #Work of Arts
+ # Work of Arts
  painting: "絵画"
  painting_name: "$ADJECTIVE|U$$FIRST_NOUN|U$"
  painting_name_0: "$FIRST_NOUN|U$または$SECOND_NOUN|U$"
@@ -41,7 +41,7 @@
  icon_name_1: "$ADJECTIVE|U$$SAINT|U$のイコン"
  scripture: "聖書"
  scripture_name_0: "$ADJECTIVE|U$$FIRST_NOUN|U$"
- scripture_name_1: "$ADJECTIVE|U$の書籍"
+ scripture_name_1: "$ADJECTIVE|U$書籍"
  scripture_name_2: "$ADJECTIVE|U$の聖書"
  scripture_name_3: "$ADJECTIVE|U$の福音書"
  statue: "像"
@@ -56,7 +56,7 @@
  novel_name: "$ADJECTIVE|U$の$FIRST_NOUN|U$"
  chronicle: "年代記"
  chronicle_name_0: "$ORIGIN$の年代記"
- chronicle_name_1: "$ADJECTIVE|U$の年代記"
+ chronicle_name_1: "$ADJECTIVE|U$年代記"
  chronicle_name_2: "$ORIGIN$の年代記"
  chronicle_name_3: "$ADJECTIVE|U$の年代記"
  poem: "詩"
@@ -80,14 +80,14 @@
  treatise_name_3: "$FIRST_NOUN|U$の賛辞"
  weapon: "武器"
  weapon_name_0: "$ADJECTIVE|U$$FEMALE|U$"
- weapon_name_1: "$ADJECTIVE|U$の剣"
- weapon_name_2: "$ADJECTIVE|U$の斧"
- weapon_name_3: "$ADJECTIVE|U$のサーベル"
- weapon_name_4: "$ADJECTIVE|U$の短剣"
- weapon_name_5: "$ADJECTIVE|U$の大剣"
- weapon_name_6: "$ADJECTIVE|U$の射石砲"
- weapon_name_7: "$ADJECTIVE|U$の大砲"
- weapon_name_8: "$ADJECTIVE|U$の盾"
+ weapon_name_1: "$ADJECTIVE|U$剣"
+ weapon_name_2: "$ADJECTIVE|U$斧"
+ weapon_name_3: "$ADJECTIVE|U$サーベル"
+ weapon_name_4: "$ADJECTIVE|U$短剣"
+ weapon_name_5: "$ADJECTIVE|U$大剣"
+ weapon_name_6: "$ADJECTIVE|U$射石砲"
+ weapon_name_7: "$ADJECTIVE|U$大砲"
+ weapon_name_8: "$ADJECTIVE|U$盾"
  regalia: "レガリア"
  regalia_name_0: "$ORIGIN$の王冠"
  regalia_name_1: "$ORIGIN$の王笏"
@@ -155,7 +155,7 @@
  ART_CREATE_TYPE_NAME: "$TYPE$"
  ART_CREATION_DATE_TT: "$DATE$制作"
  ART_PRE_BC_TT: "紀元前$DATE$年制作"
- #Ancient Monuments
+ # Ancient Monuments
  great_mosque_of_samarra: "$ORIGIN$の大モスク"
  great_mosque_of_samarra_desc: "アッバース朝のカリフ、アル＝ムタワッキルの治世下、9世紀に焼成煉瓦で建造されたサマッラーの大モスクは、かつて世界最大級のモスクとしてその威容を誇ったが、のちにモンゴル軍に破壊された。その最大の特徴は、ティグリス川流域の平原にそびえる高さ52メートルの螺旋状のミナレット、「マルウィヤ塔」である。"
  stonehenge: "ストーンヘンジ"
@@ -172,7 +172,7 @@
  leshan_giant_buddha_desc: "中国・四川省の崖に刻まれた楽山大仏は、唐代の8世紀に造られた。その高さは71メートルを誇り、石造の仏像としては世界最大である。この大仏の建立は、眼下の荒れ狂う河川を鎮めようと願った僧、海通によって発願された。"
  teotihuacan_temple: "$ORIGIN$の神殿複合体"
  teotihuacan_temple_desc: "アメリカ大陸に現存する先コロンブス期最大級のピラミッドのひとつが、西暦200年ごろに建てられたテオティワカンの太陽の神殿である。メキシコシティ近郊に位置する古代都市の中心に築かれたこの神殿は、天体現象と調和するよう設計され、メソアメリカにおける儀礼生活の中心的役割を果たしていた。神殿は火山石で築かれるとともに漆喰で覆われており、テオティワカンの政治的・宗教的な覇権を誇示する目的で使用され、その威容は後世の文明にも影響を与えた。たとえば、アステカ人はこの地を聖域として崇めたという。"
- #Unique art keys
+ # Unique art keys
  de_jure_belli_ac_pacis: "戦争と平和の法"
  bayeux_tapestry_key: "$bayeux$タペストリー"
  two_icons_of_archangel_michael: "大天使ミカエルの2つのイコン"
@@ -720,7 +720,7 @@
  hagia_sophia_desc: "$hagia_sophia$は、紀元346年ごろにコンスタンティウス2世の治世下で建設されたが、532年のニカの乱で焼失したあと、537年にユスティニアヌス帝によって再建・献堂され、キリスト教世界最大の大聖堂となった。設計者はトラレスのアンテミオスとミレトスのイシドロスで、巨大な丸屋根や革新的な土木技術、正教会の荘厳さを反映する精緻なモザイク画などで知られる。"
  paris_psalter_desc: "『$paris_psalter$』は10世紀の#italic マケドニア朝ルネサンス期#!に作成された、豪華な$BYZ_ADJ$の写本。詩篇のほかに全頁大挿絵14点が収録されている。その古典的な様式は、$BYZ_ADJ$美術におけるギリシャ・ローマ美術の伝統の復興を反映している。"
  syntagma_canonum_desc: "$syntagma_canonum$は、教会の統治と慣習を定める$BYZ_ADJ$の教会法の集大成。教会の法的構造や$BYZ_ADJ$社会との統合が反映されている。"
- ecclesiastica_historia_desc: "エウセビオスの『$ecclesiastica_historia$』は、キリスト教の初期の歴史を記録した書物。教会の発展、殉教者の生涯、教会の形成における重要な出来事が記されており、初期キリスト教時代を理解するための主要な史料となっている。"
+ ecclesiastica_historia_desc: "『$ecclesiastica_historia$』は、コンスタンティノープルのアヤ・ソフィアに仕えた司祭、ニケフォロス・カリストス・クサントプロスによって著された、全23巻からなる教会史の書物である。本書はキリストの時代から皇帝フォカスの治世に至るまでを扱い、皇帝アンドロニコス2世パレオロゴスに献呈された。"
  historia_polonica_desc: "『ポーランド年代記（ラテン語：#italic Historia Polonica#!）』は、13世紀初頭にカジミェシュ2世正義公の命により、ヴィンツェンティ・カドウベクによって書かれたポーランド最古の歴史的年代記のひとつ。歴史的事実と伝説を組み合わせ、ポーランドの歴史を伝説的な起源からカドウベクの時代まで辿っている。"
  gesta_principum_polonorum_desc: "『ガッルス・アノニムスの年代記（ラテン語：#italic Cronica et gesta ducum sive principum Polonorum#!）』は、現存する最古のポーランドの歴史的年代記。その著者は不明で、単に「アノニマス（匿名）のガル」と呼ばれている。この年代記は、伝説的なピャスト朝の創始者から始まり、1114年までのポーランドの歴史を記述しているが、その年で突然途切れている。初期ポーランドに関する最も重要な歴史的資料のひとつ。"
  bogurodzica_desc: "ボグロジツァはポーランド最古の讃美歌で、その歴史は13世紀にさかのぼる。聖母マリアに捧げられたこの讃美歌は、聖歌としてだけでなく、ポーランドの騎士たちの戦歌としても使用された。その歌詞と音楽の形式は、古代の典礼の伝統を反映している。ボグロジツァは何世紀にもわたり、ポーランドのアイデンティティと精神性の象徴となっている。"
@@ -944,7 +944,7 @@
  dynastic_history_of_the_dynasty_desc: "この年代記の各ページは黄金に彩られ、わが王朝の権力の興隆を物語っている。我々は豊かさと富によって歴史を精緻に描き出し、王朝と我々が固く握る権力とを強く結びつけてきた。この芸術作品は、我々の主張が正当であり、その地位を奪おうとするいかなる僭称者によっても反駁できないことを証明している。"
  hong_lu_meng: "紅楼夢"
  hong_lu_meng_desc: "天壁の翡翠から人間に姿を変えた賈宝玉が、人間としての生を体験しようとする物語を描いた小説。賈一族という架空の家系を詳細に描き、その大半が家族間の争い、政治、あるいは死によって徐々に姿を消していく様子を記述している。"
- #Japan
+ # Japan
  hana_no_gosho_palace: "花の御所"
  hana_no_gosho_palace_desc: "$hana_no_gosho_palace$は、$ASK_ADJ$の威信と華麗さの象徴として建てられた、[ShowLocationName('kyoto')]にある豪華な御所・邸宅のひとつである。"
  kinkaku_ji: "金閣寺"
@@ -1011,3 +1011,9 @@
  cluny_abbey_desc: "910年にブルゴーニュに創設されたクリュニー修道院は、西方キリスト教世界を一変させた大規模な修道院改革運動の精神的中心地となった。その影響力は、典礼の厳格さと教皇権からの独立を重んじる数百もの分院を通じて広がっていった。12世紀初頭に完成した第3の修道院聖堂は、ローマのサン・ピエトロ大聖堂が建てられるまで、ヨーロッパ最大の教会だった。"
  aachen_cathedral: "アーヘン大聖堂"
  aachen_cathedral_desc: "西暦796年ごろ、カール大帝の命によって建設された$ORIGIN$（エクス・ラ・シャペル）の大聖堂は、カロリング朝建築の傑作であり、ヨーロッパ最初期の記念碑的なドーム教会のひとつである。936年から1531年にかけてはドイツ王の戴冠式の場としても利用された。宮廷礼拝堂の八角形の設計とモザイク装飾は、ラヴェンナやビザンツからの影響を受けている。この大聖堂は14世紀に入っても、帝権の遺産としての重要性を保ちつづけ、カール大帝の遺骸を祀る巡礼地としてその地位を堅持していた。"
+ codex_balduini_trevirensis: "バルドゥイーニ・トレヴィレンシス写本"
+ codex_balduini_trevirensis_desc: "この年代記は『皇帝ハインリヒのローマ行』とも呼ばれ、ルクセンブルク家のハインリヒ7世がイタリア遠征を行い、イタリア王および皇帝として戴冠されるまでを描いているだけでなく、神聖ローマ帝国の選帝侯団の姿も描写し、その名誉ある地位に対する正統性を示している。"
+ codex_manesse: "マネッセ写本"
+ codex_manesse_desc: "この写本には、$central_german_dialect$の方言で書かれたミンネザング（抒情詩）のなかでも、特に名高い作品の数々が収められている。収録された歌には美しい挿絵が添えられており、ホーエンシュタウフェン家の一員など、中世ドイツ貴族の重要人物だけでなく、これらの歌をもともと詠んだ個々の詩人たちの姿も描かれている。"
+ sistine_chapel: "システィーナ礼拝堂"
+ sistine_chapel_desc: "当初は「カペラ・マーニャ（大礼拝堂）」として知られていた$sistine_chapel$は、教皇庁の主要な礼拝堂である。やがて教皇選挙の開催地となり、その内部は、歴史上創り出された芸術空間のなかでも比類なきものへと昇華した。16世紀初頭、ミケランジェロは聖書の劇的な場面で天井を覆い、力強く表情豊かな人物像によって西洋美術の流れを一変させ、さらに後年には、祭壇の背後に圧倒的な『最後の審判』を描き上げた。"

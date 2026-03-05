@@ -28,6 +28,7 @@
  choose_writer: "Choose a [ShowArtistTypeNameWithNoTooltip('writer')]"
  selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "The selected [ShowArtistTypeName('writer')] will compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]. We will gain [legitimacy|e] depending greatly on the quality of the [work_of_art|e]"
  target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName] will be selected to compile a [ShowWorkOfArtTypeName('chronicle')] for the [actor GetGovernment.GetRulerOrRegent.GetDynasty.GetName] [dynasty|e]"
+ DISASTERS_MODIFIERS_TT: "Disaster Modifiers"
 
 
 #Ambrosian Republic
@@ -114,8 +115,8 @@
  #Disaster
  hook_and_cod_wars: "The Hook and Cod Wars"
  hook_and_cod_wars_desc: "Our line of succession is unclear, and as a result, our political leaders have divided themselves into two factions. The Hook faction are generally more conservative and back established rulers, whereas the Cods typically favor independence and back those with less solid claims. This division has the potential to severely undermine the status quo, and should be handled with care."
- hook_and_cod_wars_hooks_have_won_tt: "The #Y Hooks#! have secured #Y 20#! Influence Score (currently: #Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!)"
- hook_and_cod_wars_cods_have_won_tt: "The #Y Cods#! have secured #Y 20#! Influence Score (currently: #Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!)"
+ hook_and_cod_wars_hooks_have_won_tt: "The #Y Hooks#! have secured #Y 10#! Influence Score (currently: #Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!)"
+ hook_and_cod_wars_cods_have_won_tt: "The #Y Cods#! have secured #Y 10#! Influence Score (currently: #Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!)"
  HACW_HOOK_TOOLTIP: "The #Y Hooks#! are the representative of the [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('nobles_estate')] of [DisasterView.GetDisaster.GetOwner.GetName]. They support [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetName] and [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetHerHis] ambition for the throne"
  HACW_COD_TOOLTIP: "The #Y Cods#! are the representative of the [DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('burghers_estate')] of [DisasterView.GetDisaster.GetOwner.GetName]. They support [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetName] and [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetHerHis] ambition for the throne"
 
@@ -134,6 +135,7 @@
  revolution_disaster: "Revolution!"
  revolution_disaster_desc: "Decades of feudal oppression, economic difficulties, and religious intolerance have taken their toll on the peace of our nation, and our population's desire for liberty poses a serious threat to our reign. A popular uprising is all but inevitable..."
  revolution_disaster_end_trigger_tt: "The #Y Revolutionary Rebels#! are not planning a [civil_war|e]"
+ revolution_disaster_tt: "Any [country|e] in [ROOT.GetCountry.GetCapital.GetSubContinent.GetName] is [revolutionary|e]"
  MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip] [army|e] Size: [DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetArmyLevyPotentialStrength]@levy\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
  REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "Potential [military_strength|e] of [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]"
  REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip] [army|e] Size: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] Potential [levy|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPotentialStrength]@levy!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]: [DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
@@ -192,7 +194,7 @@
  court_and_country_desc: "Resistance to increasing centralization in our country has culminated in a period of general crisis and conflict between Court and Country. Depending on how we handle this difficult time, we might come out of it a stronger country than before — if we manage to weather the storm, of course."
  court_and_country_tips_header: "Advice for Court and Country"
  court_and_country_tips_tt: "We can increase our [crown_power|e] through:\n$BULLET_WITH_TAB$Revoking [privileges|e]\n$BULLET_WITH_TAB$Increasing [control|e] across our [locations|e]\n$BULLET_WITH_TAB$Building a [ShowBuildingTypeName('counting_house')]\n$BULLET_WITH_TAB$Increasing our [legitimacy|e]\n$BULLET_WITH_TAB$Enacting certain [policies|e]"
- french_wars_of_religion_breakdown_tt: "Percentage of relevant [ShowReligionGroupAdjective('christian')] [religions|e] in our [country|e]\n[ShowReligionName('catholic')]:"
+ french_wars_religion_breakdown_tt: "Percentage of relevant [ShowReligionGroupAdjective('christian')] [religions|e] in our [country|e]\n[ShowReligionName('catholic')]:"
  x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2] [catholic|e] [pops|e]"
  court_and_country_7_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] may refuse to pay taxes through an [event|e]"
  court_and_country_8_tt: "Local revolts may arise at the response of instability through an [event|e]"
@@ -234,6 +236,7 @@
  #Disaster
  death_of_hayan_wuruk: "Death of [GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]"
  death_of_hayan_wuruk_desc: "The passing of our great leader [GetCharacter('maj_hayam_wuruk').GetName] has thrown our [GetCountry('MAJ').GetFlavorRank] into great turmoil. This turbulent period could last many long years, as those who once bowed to us rise up against our authority. Disputed succession and the decay of our [GetCountry('MAJ').GetAdjective] power are two pressing issues that must be resolved immediately, if we want to survive this catastrophe."
+ hayan_wuruk_has_passed_tt: "[GetCharacter('maj_hayam_wuruk').GetName] has died in the last #Y 10#! years"
 
 #Curse of Stefan Uros III
  #Disaster
@@ -268,10 +271,18 @@
 
 #Decline of the Empire
  #Disaster
- decline_of_empire: "Decline of the Empire"
- decline_of_empire_desc: "Once mighty and unshakable, our empire now teeters on the brink of collapse. Corruption festers within our institutions, our provinces grow restless under the weight of neglect, and foreign powers circle like vultures, eager to carve up what remains of our glory. The golden age that once defined us has faded into memory, and the cracks in our foundation grow wider with each passing day. If we do not act swiftly to address the rot within and restore control, our empire will crumble, leaving only ruins and regret, a shadow of our former glory..."
+ decline_of_empire: "Complacent Decline"
+ decline_of_empire_desc: "Once mighty and unshakable, our domain now teeters on the brink of collapse. Corruption festers within our institutions, our provinces grow restless under the weight of neglect, and foreign powers circle like vultures, eager to carve up what remains of our glory. The golden age that once defined us has faded into memory, and the cracks in our foundation grow wider with each passing day. If we do not act swiftly to address the rot within and restore control, our empire will crumble, leaving only ruins and regret, a shadow of our former glory..."
  has_not_had_decline_of_empire_last_25_years: "Has not had this [disaster|e] in the last #Y 25#! years"
  not_recently_become_empire_tt: "Has had the [ShowCountryRankName('rank_empire')] [country_rank|e] for at least #Y 15#! years"
+ complacent_decline_actions_price: "$decline_of_empire$ Actions Price"
+
+ cd_inspect_area: "Inspect an Area"
+ cd_inspect_area_desc: "Our [actor.GetFlavorRank] has rested on its laurels for far too long. It is time to remind the areas within our borders that we are in control, crushing any ambitions they may have."
+ selected_area_inspected_tt: "The selected [area|e] will undergo an inspection, lowering [pop_satisfaction|e] and [complacency|e] while raising the [control|e] of key [provinces|e] within it.\n#italic The effectiveness of this inspection depends largely on the [population|e] of the [area|e] as well as our [ShowModifierTypeName('legislative_efficiency')]#!"
+ cd_purge_cabinet_member: "Purge Cabinet Member"
+ cd_purge_cabinet_member_desc: "Absolute power corrupts absolutely, and the members of our cabinet know that all too well. If we are to fight off the decadence, we must make the necessary purges within our own government."
+ selected_character_banned_or_executed_tt: "The selected [character|e] will be removed from our [cabinet|e] via whatever means necessary"
 
 #Decline of Mali
  #Disaster
@@ -294,3 +305,16 @@
  #Disaster
  castilian_civil_war: "[GetCountry('CAS').GetAdjectiveWithNoTooltip] Civil War"
  castilian_civil_war_desc: "Our enemies constantly look for ways to intervene in our politics, either by spurring instability or through supporting rival claimants to our seat of authority. This period of instability will surely reveal those who seek to end our rule and erase us from the pages of history. The wealth of [ShowRegionName('iberia_region')] has always drawn the hungry gazes of the foes on our borders, but we must not allow them to feast!"
+
+#Turmoil in Brandenburg
+ turmoil_in_brandenburg: "Turmoil in [GetCountry('BRA').GetNameWithNoTooltip]"
+ turmoil_in_brandenburg_desc: "The [GetCountry('BRA').GetLongName] finds itself in difficult times ever since the power of the [ShowDynastyName('askanier_dynasty')] crumbled and the [ShowDynastyName('wittelsbach_dynasty')] assumed control of the $margraviate$. With the efforts of the [ShowDynastyNameWithNoTooltip('wittelsbach_dynasty')] bound elsewhere, the young [GetCountry('BRA').GetGovernment.GetRulerTitle] [GetCountry('BRA').GetGovernment.GetRuler.GetName] must struggle alone to re-assert the central authority in the [GetCountry('BRA').GetAdjectiveWithNoTooltip] March. Facing unruly estates, a population yearning for the days of [ShowDynastyNameWithNoTooltip('askanier_dynasty')] rule, and the ruthless Robber Barons will provide a difficult task for [GetCountry('BRA').GetGovernment.GetRuler.GetName].\n\nWhile occupied with internal affairs, the [GetCountry('BRA').GetLongName] could also attract interest from other dynasties with a claim to the poor, but prestigious title of the [GetUniqueInternationalOrganization('hre').GetName]."
+ turmoil_in_brandenburg_investment_tt: "Reaching a 100 points in $bra_wittelsbacher_investment_var$, will maintain our current [dynasty|e] in power."
+ turmoil_in_brandenburg_neglect_tt: "Reaching a 100 points in $bra_wittelsbacher_neglect_var$, will put a new [dynasty|e] in power."
+ turmoil_in_brandenburg_dynastic_struggle_resolved_tt: "We have resolved the dynastic struggle for our throne"
+ robber_barons_resolved_tt: "We have dealt with the Robber Baron Issues"
+ wittelsbacher_event_occurs_tt: "An Event related to the Wittelsbacher Government occurs"
+ robber_barons_when_tt: "After 1365 Events related to the Robber Barons may appear"
+ robber_barons_spread_tt: "The Robber Barons spread their influence"
+ robber_barons_stay_put_tt: "The Robber Barons remain dormant"
+ TURMOIL_IN_BRANDENBURG_DISASTERS_MODIFIERS_TT_LIST: "For the duration of the [disaster|e], the country gets:"

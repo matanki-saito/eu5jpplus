@@ -36,7 +36,7 @@
  unlock_new_issues_about_civil_war_tt: "[disaster|e]「[ShowDisasterName('succession_crisis')]」の発生中、すべての新たな[parliament_issues|e]が強化される"
  scales_with_crown_power_tt: "この[modifier|e]は[crown_power|e]に応じて増減する"
  byzantine_succ_crisis.8.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]が僭称者を拒む"
- byzantine_succ_crisis.8.desc: "わが国の宗教団体は、[target_character2.GetName]による公然たる反乱の拡散とその状況の進展に対して、長きにわたり不満を表明してきた。彼らは、この社会的混乱が人々を危険にさらし、彼らの教義にある統一的な交友という見解に反するものであるとみなしている。そのため、彼らはこの内的脅威に対する我々の闘争を支援し、正当化しようとしている。"
+ byzantine_succ_crisis.8.desc: "わが国の宗教団体は、[target_character.GetName]による公然たる反乱の拡散とその状況の進展に対して、長きにわたり不満を表明してきた。彼らは、この社会的混乱が人々を危険にさらし、彼らの教義にある統一的な交友という見解に反するものであるとみなしている。そのため、彼らはこの内的脅威に対する我々の闘争を支援し、正当化しようとしている。"
  byzantine_succ_crisis.8.a: "彼らの尽力は[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]の支援となる。"
  byzantine_succ_crisis.8.b: "[target_character2.GetShortNameWithNoTooltip]の支配に逆らう者は、神の怒りを買う。"
  scales_with_clergy_estate_power_tt: "この増加量は、[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]の[estate_power|e]に応じて増減する"

@@ -43,7 +43,7 @@
  UNIT_HAS_ARMIES_DISEMBARKING: "#R This [navy|e] has embarked [armies|e] [disembarking|e], it cannot move at the moment.#!"
  PORT_TOOLTIP: ""
  PORT_TOOLTIP_NEW: "The Port of [PortMarker.GetLocation.GetNameWithNoTooltip]"
- PORT_TOOLTIP_TEXT: "[PortMarker.GetShipsInfo]"
+ PORT_TOOLTIP_TEXT: "This [port|e] is located in the [PortMarker.GetPortSeaZone.GetName] [seazone|e].\n\n[PortMarker.GetShipsInfo]"
  NO_SHIPS_IN_PORT: "Currently, there are no [ships|e] in port."
  OCCUPATION_X_DAYS_LEFT: "$VAL|Y$ day(s) left"
  OCCUPATION_X_DAYS_LEFT_SHORT: "$VAL|Y$d"

@@ -1,7 +1,7 @@
 ﻿l_japanese:
- #Common
+ # Common
  SITUATION_BREAKDOWN: "局面の概要"
- #The Black Death
+ # The Black Death
  black_death: "黒死病"
  black_death_desc: "「この病は空気感染はおろか、視覚による感染をも引き起こすと恐れられた。そのため、父は子を、妻は夫を、そして兄は弟を見捨てた。それが彼らの死にざまである…… 深く掘られた穴に、多くの遺体が積み重ねられた…… そして、壕がいっぱいになると、またすぐに別の壕が掘られた…… あまりに多くの者が死んだため、人々は皆、この世の終焉が訪れたのだと信じた」"
  black_death_info: "[ROOT.GetVariable('original_outbreak').GetDiseaseOutbreak.GetOrigin.GetName]で発生"
@@ -39,7 +39,7 @@
  BD_SOCIAL_ACTIONS: "社会アクション"
  BD_DISEASE_CONTROL_ACTIONS: "疫病対策アクション"
  BUILD_PLAGUE_BUILDINS_TITLE: "建設アクション"
- #Treaty of Tordesillas
+ # Treaty of Tordesillas
  treaty_of_tordesillas: "[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetNameWithNoTooltip]条約"
  treaty_of_tordesillas_desc: "この条約は[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('treaty_location').GetLocation.GetName]で、[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName]と[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName]によって署名された。これは両国が[ShowContinentName('america')]大陸で新たに発見した土地に対し、独占的な植民地化と開発の権利を主張するための規則と制限を定める。"
  claim_reason_treaty_of_tordesillas: "$treaty_of_tordesillas$を通じて請求された。"
@@ -61,7 +61,7 @@
  treaty_of_tordesillas_end_tooltip: "この局面は、第2フェーズで条約の妥当性が0に低下すると終了する"
  SITUATION_TORDESILLAS_RATIFICATION_PROGRESS_TEXT: "現在の批准までの進行度は[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_treaty_progress').GetValue]\n毎月0.5ずつ増加"
  SITUATION_TORDESILLAS_RELEVANCE_PROGRESS_TEXT: "現在の条約関係は[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_treaty_progress').GetValue]\n毎月[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_treaty_subtract').GetValue]ずつ減少"
- #The Reformation
+ # The Reformation
  REFORM_TITLE: "[GetReligionByKey('catholic').GetAdjective]宗教改革"
  reformation: "宗教改革"
  reformation_desc: "「#italic 我らが主であり主人であるイエス・キリストが『悔い改めなさい』と言われたとき、彼は信じる者の全生涯が悔い改めであることをお望みになった。#!」\n\nこれはある教会の扉に掲げられた言葉で、[GetInternationalOrganization('catholic_church').GetName]の腐敗について詳述する『95か条の論題』の最初の一節である。長く弱体化と内部の混乱に苦しんできた[ShowReligionAdjective('catholic')]信仰は、改革の時期を迎えつつある。多くの人々がこの論題の提案者に共鳴し、内面の信仰の純粋さを重んじ、神を通じてのみ[ShowReligionGroupAdjective('christian')]が赦しを得られると考えている。一方で、この論題を[ShowReligionAdjectiveWithNoTooltip('catholic')]の教義から大きく外れた異端なものだと非難する声もある。\n\n[ShowContinentName('europe')]で議論が巻き起こるなか、この出来事が大陸の未来に不可逆的な変革をもたらすことは明らかである。"
@@ -91,7 +91,7 @@
  CALVINIST_STATE: "$calvinist_ADJ$"
  HUSSITE_STATE: "$hussite_ADJ$"
  ANGLICAN_STATE: "$anglican_ADJ$"
- #The Western Schism
+ # The Western Schism
  side_with_rome_tt: "わが国の枢機卿はローマ教皇を#V 支持する#!"
  side_with_opponent_tt: "わが国の枢機卿はローマ教皇を#V 支持しない#!"
  western_schism: "教会大分裂"
@@ -144,7 +144,7 @@
  ws_show_unity_of_faith_tt: "指定された[province|e]のすべての[location|e]は[ShowModifier('ws_show_unity_of_faith')]を得る"
  western_schism_pope_score: "教皇候補スコア"
  western_schism_anti_pope_score: "反教皇候補スコア"
- #The Great Pestilence
+ # The Great Pestilence
  great_pestilence: "大疫病"
  great_pestilence_desc: "恐ろしい報せが他国から届いた。ひげを生やす謎の異国人が持ち込んだ死病が大地を襲い、急速に広がっているのだという。この疫病は長老たちも聞いたことがなく、祖先の記録にも対処法は見当たらないため、この災厄が我々の居住地に達したとき、我々は滅んでしまうのだろうか？ それとも、どうにかしてこの疫病に立ち向かえるのだろうか？"
  great_pestilence_info: "[ROOT.GetVariable('great_pestilence_origin').GetLocation.GetName]"
@@ -152,7 +152,7 @@
  great_pestilence_spreads: "• この疫病は近隣の[locations|e]に広がる。"
  great_pestilence_kills: "• 疫病が流行する地域では、多くの[pops|E]や[characters|E]が病死する。"
  GREAT_PESTILENCE_PRESENT_IN_LOCATION: "[THIS.GetLocation.GetName|Y]\n現在の人口：[THIS.GetLocation.GetTotalPopulation|Y]\nわが国での#R 大疫病#!の感染率は[THIS.GetLocation.GetDiseaseInfectionPercentage('great_pestilence')|R2%]。"
- #The Columbian Exchange
+ # The Columbian Exchange
  move_good_to_new_location: "[goods|e]を新しいロケーションに移動"
  columbian_exchange: "コロンブス交換"
  columbian_exchange_desc: "新たに海を越えてやって来た異国人と交流したことで、わが国は見知らぬ作物や動物を手に入れ、商人たちは異国の珍しい品を扱う交易関係を築く貴重な機会を得た。"
@@ -164,7 +164,7 @@
  OLD_WORLD_GOODS_DESC: "[ShowContinentName('europe')]、[ShowContinentName('asia')]、[ShowContinentName('africa')]などの#Y 旧大陸#!から[ShowContinentName('america')]へ輸出される[raw_materials|e]。"
  OLD_WORLD_GOODS_DISTRIBUTION: "[Scope.GetGoods.GetPresentInContinent('america')]ヵ所に存在"
  OLD_WORLD_GOODS_DISTRIBUTION_TOOLTIP: "[Scope.GetGoods.GetName]は[ShowContinentName('america')]の[Scope.GetGoods.GetPresentInContinent('america')]ヵ所に存在する"
- #Council of Trent
+ # Council of Trent
  council_of_trent: "トリエント公会議"
  council_of_trent_desc: "[ShowLocationName('trento')]で召集される$council_of_trent$は、[ShowSituationName('reformation')]に抗う[GetUniqueInternationalOrganization('catholic_church').GetName]の対抗改革運動であり、教会の法と政策を見直すことを目的としている。会期中、教会員は改革案を提案できるが、その決議や実現化は依然として[ShowSpecialStatusName('curia')]と[GetCountry('PAP').GetLongName]の判断に任される。"
  vote_in_council_of_trent_resolution: "$council_of_trent$で投票"
@@ -184,7 +184,7 @@
  COUNCIL_OF_TRENT_FAVORS_LAW_REFORM: "法改正を支持する"
  COUNCIL_OF_TRENT_FAVORS_HAS_YET_TO_VOTE: "まだ決めていない"
  NO_DEBATE_CURRENTLY_ACTIVE_TITLE: "[GetUniqueInternationalOrganization('catholic_church').GetNameWithNoTooltip]で議論されている[law|e]はない。"
- #Rise of the Ottomans
+ # Rise of the Ottomans
  rise_of_the_ottomans: "テュルク人の台頭"
  rise_of_the_ottomans_desc: "野心、武勇、戦略的視野を併せもつ多くの[ShowCultureName('turkish_culture')]系君侯国は、分断された[ShowRegionName('anatolia_region')]半島に独自の道を切り拓いた。遊牧民だった彼らは定住社会の洗練性を身につけ、軍事力と行政手腕を備えた強力な勢力となったのだ。\n\nこの地域の諸公国が分裂し脆弱になるなか、最も強力なひとつの公国が単一の旗のもとに団結する機会を捉えた。[GetCountry('TUR').GetName]を建国した[GetCharacter('tur_osman').GetName]のようなカリスマ的指導者は、その後何世紀にもわたって輝きつづける感化の炎を灯したのだ。\n\n勝利を重ねるごとにこれらの君侯国は勢いを増し、無視できない勢力となった。そして、その台頭を高らかに告げるように、重要な街や都市を次々と征服していった。"
  rise_of_the_ottomans_cooldown: "[ROOT.GetVariable('rise_of_the_ottomans_cooldown').GetValue|V0]"
@@ -212,7 +212,7 @@
  SELJUK_MINT_TOOLTIP: "この[location|e]には[ShowBuildingTypeName('seljuk_mint')]がある"
  TRUNK_ROAD_TOOLTIP: "このロケーションは[ShowLocationNameWithNoTooltip('erzurum')]への大幹道の一部である。これを所有することで[estate_privilege|e]「[ShowEstatePrivilegeName('trunk_road_to_erzurum_privilege')]」を利用できるようになる"
  concluded_roto_as_not_ottos_tt: "[situation|e]「[ShowSituationNameWithNoTooltip('rise_of_the_ottomans')]」で[GetCountry('TUR').GetAdjectiveWithNoTooltip]タグを採用せずに勝利を収めた"
- #Rise of Timur
+ # Rise of Timur
  rise_of_timur: "$name_temur$の台頭"
  rise_of_timur_desc: "$genghis_khan_name$やカリフの歩みをたどるという野心に燃える[GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetName]は、兵士と支持者を集め、徹底した領土拡張と華麗な戦術によって帝国の礎を築いた。[GetCountry('TIM').MakeScope.GetVariable('tim_founding_father').GetCharacter.GetNameWithNoTooltip]にとって、[ShowSubContinentName('central_asia')]、[ShowSubContinentName('middle_east')]、$india$の地は、今後数世紀にわたって変革をもたらす鮮やかな征服劇の格好の舞台なのである……"
  has_timurids_stagnate_tt: "[GetCountry('TIM').GetName]は[ruler|e]の[abilities|e]が#Y 150#!ポイント未満か、統治者または[heir|e]がいない"
@@ -224,6 +224,7 @@
  ROT_CURRENTLY_INVADED: "現在、[GetCountry('TIM').GetName]に侵略されている"
  ROT_FUTURE_INVASION_TARGET: "[GetCountry('TIM').GetName]の将来的な侵略対象"
  ROT_END_CONDITIONS: "終了条件"
+ ROT_CONQUEST_AMBITION: "[GetCountry('TIM').GetNameWithNoTooltip]征服の野心"
  KILL_COUNTER: "キルカウンター"
  KILL_COUNTER_DESC: "[GetCountry('TIM').GetLongName]の略奪隊は合計で#Y [SituationView.GetActiveSituation.GetSituation.MakeScope.GetVariable('timur_total_kill_counter').GetValue]#!人を殺害した。"
  TOTAL_KILLS: "殺害した敵の総数"
@@ -286,7 +287,7 @@
  create_uc_bey_desc: "わが国の国境地帯は、侵略者の猛攻から民を守っている。いまこそ、その防衛を忠誠心ある軍事的な$rank_duchy_turkish$に託す時である。"
  urban_manpower_location_tt: "選択した[province|e]内の1ヵ所以上の[location|e]が[town_and_city|e]で、[manpower|e]を生産している"
  no_location_is_capital_tt: "@trigger_no! 選択した[province|e]内の[location|e]はいずれもわが国の[capital|e]ではない"
- #The Hundred Years' War
+ # The Hundred Years' War
  hundred_years_war: "百年戦争"
  hundred_years_war_info: "[GetCountry('ENG').GetName]と[GetCountry('FRA').GetName]のあいだに、どちらかが戦争目標を達成するまで続く[wars|e]を引き起こす。"
  hundred_years_war_desc: "[GetCountry('FRA').GetAdjective]王位の最後の直系後継者の死は権力の空白を生み、[ShowRegionName('france_region')]を混乱に陥れた。領土や封建的権利をめぐる相反する主張と長年の緊張が絡み合い、[GetCountry('FRA').GetNameWithNoTooltip]と[GetCountry('ENG').GetNameWithNoTooltip]の脆い平和は瓦解した。両国は[ShowRegionNameWithNoTooltip('france_region')]各地に領地を有しており、その摩擦は[ShowReligionGroupName('christian')]の結束をも脅かしている。継承をめぐる紛争として始まったこの衝突は、覇権を争う長期抗争へと発展し、いまや大陸に世代を超える傷跡を残しかねない。"
@@ -353,7 +354,7 @@
  demand_autonomy_desc: "わが国に大きな利益と繁栄をもたらす格別の特権を手にするために、我々は影響力を行使して宗主国に揺さぶりをかける必要がある。"
  influence_french_subject: "[GetCountry('FRA').GetAdjectiveWithNoTooltip]の従属国に影響力を行使する"
  influence_french_subject_desc: "[GetCountry('FRA').GetLongName]と従属国のあいだに疑念と分裂の種をまけば、彼らとの戦争時にわが国は優位に立てるはずだ！"
- influence_french_subject_tt: "選択した[GetCountry('FRA').GetAdjective]の従属国に対し、#Y 300#![gold_i]と引き換えに、今後#Y 5#!年間いかなる防衛戦争にも参戦しないよう説得できるかもしれない。"
+ influence_french_subject_tt: "選択した[GetCountry('FRA').GetAdjective]の従属国に対し、[gold|e][gold_i]と引き換えに、今後#Y 5#!年間いかなる防衛戦争にも参戦しないよう説得できるかもしれない。"
  demand_appanage_promotion: "[ShowSubjectTypeNameWithNoTooltip('appanage')]への昇格を要求"
  demand_appanage_promotion_desc: "単なる「[ShowSubjectTypeName('vassal')]」の称号は、わが国の威信と栄華に不釣り合いである。我々の影響力の大きさを踏まえ、[GetCountry('FRA').GetAdjective]傘下のわが国の力と重要性を反映した称号が不可欠となる。"
  fra_has_eligible_child_tt: "[GetCountry('FRA').GetName]の[GetCountry('FRA').GetGovernment.GetRulerOrRegent.GetDynasty.GetName]家に、我々の[heir|e]となる資格をもつ[character|e]がいる"
@@ -371,6 +372,7 @@
  betray_our_allegiance_desc: "戦況は変化した。かつてわが国は、進行中の戦争で同盟国を支援するという誓いを立てたが、国民を戦争と従属の恐怖から守るために現実を受け入れ、外交方針を変更しなければならない。"
  eng_leads_one_side_france_another_tt: "この[war|e]の指導国は[GetCountry('ENG').GetName]、および[GetCountry('FRA').GetName]である"
  choose_war_tt: "[war|e]を選択"
+ war_goal_owned_by_us_tt: "[war_goal|e]が、わが国の所有する[location|e]または[province|e]ではない"
  procure_core_claim: "中核地の請求権を追求"
  procure_core_claim_desc: "特定の土地に対するわが国の正当な権利は、もはや無視できるものではない。我々がもつ本来の所有権を主張することで、失われた領土を取り戻すための戦争に向けた準備をおこなう。"
  request_war_entry: "参戦を要請"
@@ -384,13 +386,13 @@
  this_will_not_affect_our_textile_industry_tt: "※これは自国繊維産業には影響しない"
  they_will_be_notified_of_our_rejection_tt: "[actor.GetLongName]がわが国が[truce|e]を拒否したことを知る"
  not_recently_asked_to_join_tt: "過去#Y 10#!年間、この[action|e]によってわが国の[war|e]への参戦要請を受けていない"
- hyw_defect_action: "Attempt Defection"
- hyw_defect_action_desc: "Our frustration with our current overlord has reached a tipping point. Their mismanagement of the entire realm has left many of their subjects, us included, very frustrated. It is time for us to consider switching sides before any hostilities erupt!"
- #Standard Situation
+ hyw_defect_action: "離反の試み"
+ hyw_defect_action_desc: "現在の宗主国に対する我々の不満は限界に達した。国全体における彼らの失政により、我々を含め多くの臣民が強い不満を抱いている。衝突が起こる前に、別の勢力につくことを考えるべきだ。"
+ # Standard Situation
  MAIN_INFORMATION: "主要な情報"
  MAIN_ACTIONS: "主要アクション"
  CURRENT_DEBATES: "現在の議題"
- #Nanbokuchou
+ # Nanbokuchou
  nanbokuchou: "南北朝時代"
  nanbokuchou_desc: "鎌倉幕府が崩壊し、[GetCharacter('jap_ashikaga_takauji').GetName]の助力によって[GetCharacter('jap_go_daigo_tenno').GetName]のもとで親政が復活した「建武の新政」が始まったが、かつて同盟関係にあった2つの勢力はたちまち激しく争うようになった。[GetCharacter('jap_go_daigo_tenno').GetNameWithNoTooltip]は平安時代の天皇親政を取り戻そうとしたが、[GetCharacter('jap_ashikaga_takauji').GetNameWithNoTooltip]を含む多くの武士階級の不満を買った。尊氏は都から追い出され、九州に落ち延びることを余儀なくされたが、1336年に再び[ShowLocationName('kyoto')]を奪還すると、自らのもとに新[GetUniqueInternationalOrganization('japanese_shogunate').GetName]を開き、新たな天皇を擁立した。1337年1月、[GetCharacter('jap_go_daigo_tenno').GetNameWithNoTooltip]は都を逃れて[ShowLocationName('yoshino')]に朝廷を開き、$nanbokuchou$時代が始まった。"
  there_is_no_japanese_emperor_tt: "[GetUniqueInternationalOrganization('japanese_shogunate').GetName]内で[special_status|e]「[ShowSpecialStatusName('japanese_emperor')]」をもつ[members|e]の数は#Y 1#!以下"
@@ -412,7 +414,7 @@
  SITUATION_NANBOKUCHOU_NEUTRAL_PROGRESS_TEXT: "どちらの陣営も支持しない氏族の総[military_strength|e]は[GetListOnlyLandCombatPowerTooltipUI(VoteTargetGlue.GetVoters, '(bool)yes')]。"
  DURATION_SITUATION_MODIFIERS: "この[situation|e]の発生中、関与する[countries|e]すべてに以下の[modifiers|e]が適用される"
  ALL_COUNTRIES_GET_TT: "この[situation|e]に関与するすべての[countries|e]："
- #Sengoku
+ # Sengoku
  sengoku: "戦国時代"
  sengoku_desc: "時は動乱の世。[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]の権威は衰え、各地の氏族を統制する力も弱まっている。自らの争いに駆り立てられた大名たちは、自治権と独立性を高め、それぞれの領土の支配者となっている。再び政権を握れる強者が現れなければ、日本は戦乱に巻き込まれるだろう……"
  SITUATION_SENGOKU_SHOGUNATE_PROGRESS: "[GetUniqueInternationalOrganization('japanese_shogunate').GetName]の$game_concept_military_strength$"
@@ -446,7 +448,7 @@
  COUNTRIES_AROUND_DELHI: "[GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]の発生中の競争相手"
  COUNTRY_AFFECTED_BY_FALL_OF_DELHI: "[situation|e]「[GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]」に関わる国家。[GetCountry('DLH').GetName]またはその競合国を支持できる。"
  fall_of_delhi_delhi_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\n[GetCountry('DLH').GetName]の[share_of_power_gc|e]。[disaster|e]「[ShowDisasterName('dissolution_of_delhi')]」が発生する前に、[share_of_power_gc|e]が#Y 100%#!になると勝利する。"
- fall_of_delhi_opposers_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\n[GetCountry('DLH').GetName]の対立国の[share_of_power_gc|e]。これが#R 50%#!になると、[GetCountry('DLH').GetNameWithNoTooltip]で[disaster|e]「[ShowDisasterName('dissolution_of_delhi')]」が発生する可能性がある。"
+ fall_of_delhi_opposers_progress: "#T [GetSituationByKey('fall_of_delhi').GetNameWithNoTooltip]#!\n[GetCountry('DLH').GetName]の対立国の[share_of_power_gc|e]。[share_of_power_gc]が#R 80%#!になると、[GetCountry('DLH').GetNameWithNoTooltip]で[disaster|e]「[ShowDisasterName('dissolution_of_delhi')]」が発生することがある。"
  SUPPORTERS_OF_COUNTRY: "[Country.GetLongName]からの支持"
  #Tooltips
  has_never_had_situation_before_tt: "この[situation|e]は未経験"
@@ -499,11 +501,11 @@
  red_turban_rebellions: "紅巾の乱"
  red_turban_rebellions_desc: "[ShowCultureGroupName('chinese_group')]が[GetCountry('CHI').GetCulture.GetName]の領主たちに反旗を翻し、$YUA$からの離反と独立国家の樹立を宣言した。[GetCountry('CHI').GetName]全土を巻き込む内戦は、王朝の滅亡を招きかねない。"
  red_turban_rebellions_strongest_red_turban_rebel_tt: "[GetInternationalOrganizationType('red_turban_rebels').GetName]の指導国は、[GetUniqueInternationalOrganization('middle_kingdom').GetName]を構成する[locations|e]の#Y 65.00%#!を所有している必要がある"
- RTR_EMPEROR: "[GetUniqueInternationalOrganization('middle_kingdom').GetName]の[GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitle]、[THIS.GetLocation.GetOwner.GetName]"
+ RTR_EMPEROR: "[GetUniqueInternationalOrganization('middle_kingdom').GetName]の[GetUniqueInternationalOrganization('middle_kingdom').GetLeaderTitleWithNoTooltip]、[THIS.GetLocation.GetOwner.GetName]"
  RTR_STRONGEST_REBEL: "最強の反乱軍将軍、[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
- RTR_LOYALIST: "[GetCountry('CHI').GetName]支持者、[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#G [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
- RTR_REBEL: "[GetCountry('CHI').GetName]の反体制派、[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
- RTR_NEUTRAL: "[GetCountry('CHI').GetName]に対して中立である、自立的な[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#Y [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
+ RTR_LOYALIST: "支持派の[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#G [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
+ RTR_REBEL: "反体制派の[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#R [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
+ RTR_NEUTRAL: "中立であり、自立的な[THIS.GetLocation.GetOwner.GetName]（$rtr_yuan_allegiance$：#Y [THIS.GetLocation.GetOwner.MakeScope.GetVariable('rtr_yuan_allegiance').GetValue]#!）"
  RTR_LOYALISTS_TITLE: "[GetCountry('CHI').GetNameWithNoTooltip]の体制支持者"
  RTR_NEUTRALS_TITLE: "中立"
  RTR_REBELS_TITLE: "[GetCountry('CHI').GetNameWithNoTooltip]に対する反乱軍"
@@ -633,7 +635,7 @@
  NOT_GOOD_RELATIONS_WITH_DEFENDER: "険悪な関係と防衛戦争"
  FIGHTING_OUR_FOE_TOOLTIP: "わが国の[enemy|e]または[rival|e]と対立中"
  NUM_LOANS_TOOLTIP: "[loans|e]の数"
- IW_BALANCE_OF_POWER: "力の均衡"
+ IW_BALANCE_OF_POWER: "外国連盟の規模"
  FOREIGN_LEAGUE: "わが国の連盟は他国組織である"
  ALREADY_MEMBER_OF_LEAGUE: "すでに連盟の[member|e]である"
  IO_HOSTS_FRIENDS: "この連盟に所属するわが国の[allies|e]"

@@ -28,6 +28,7 @@
  choose_writer: "[ShowArtistTypeNameWithNoTooltip('writer')]を選択"
  selected_writer_will_compile_and_grant_legitimacy_based_on_woa_quality_tt: "選ばれた[ShowArtistTypeName('writer')]が[actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName][dynasty|e]のために[ShowWorkOfArtTypeName('chronicle')]を編纂する。その作品の品質に応じて、わが国の[legitimacy|e]が大きく高まる"
  target_character_will_compile_a_history_of_our_dynasty_tt: "[target_character.GetName]が、[actor.GetGovernment.GetRulerOrRegent.GetDynasty.GetName][dynasty|e]のための[ShowWorkOfArtTypeName('chronicle')]編纂者に選ばれる"
+ DISASTERS_MODIFIERS_TT: "国難補正"
  #Ambrosian Republic
  #Disaster
  ambrosian_republic_disaster: "アンブロジアーナ黄金共和国"
@@ -97,9 +98,9 @@
  #Hook and Cod Wars
  #Disaster
  hook_and_cod_wars: "フック・アンド・コッド戦争"
- hook_and_cod_wars_desc: "我々の後継者が定まらないため、結果として政治指導者たちは2つの派閥に分裂した。概して保守的な「コッド派」は、既存の統治者を支持する一方で、「フック派」は基本的に独立を支持し、継承権の弱い者を支持している。現状を大きく揺るがしかねないこの分裂に対し、我々は慎重に対処する必要がある。"
- hook_and_cod_wars_hooks_have_won_tt: "#Y フック派#!が影響力スコアを#Y 20#!獲得する（現在値：#Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!）"
- hook_and_cod_wars_cods_have_won_tt: "#Y コッド派#!が影響力スコアを#Y 20#!獲得する（現在値：#Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!）"
+ hook_and_cod_wars_desc: "我々の後継者が定まらないため、結果として政治指導者たちは2つの派閥に分裂した。概して保守的な「フック派」は、既存の統治者を支持する一方で、「コッド派」は基本的に独立を支持し、継承権の弱い者を支持している。現状を大きく揺るがしかねないこの分裂に対し、我々は慎重に対処する必要がある。"
+ hook_and_cod_wars_hooks_have_won_tt: "#Y フック派#!が影響力スコアを#Y 10#!獲得する（現在値：#Y [THIS.GetVariable('hacw_hook_faction_power').GetValue]#!）"
+ hook_and_cod_wars_cods_have_won_tt: "#Y コッド派#!が影響力スコアを#Y 10#!獲得する（現在値：#Y [THIS.GetVariable('hacw_cod_faction_power').GetValue]#!）"
  HACW_HOOK_TOOLTIP: "#Y フック派#!は[DisasterView.GetDisaster.GetOwner.GetName]の[DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('nobles_estate')]の代表であり、[DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_hook_contender').GetCharacter.GetName]とその王位継承の野望を支持している"
  HACW_COD_TOOLTIP: "#Y コッド派#!は[DisasterView.GetDisaster.GetOwner.GetName]の[DisasterView.GetDisaster.GetOwner.GetGovernment.GetEstateName('burghers_estate')]の代表であり、[DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('hacw_cod_contender').GetCharacter.GetName]とその王位継承の野望を支持している"
  #Horde Civil War
@@ -116,6 +117,7 @@
  revolution_disaster: "革命！"
  revolution_disaster_desc: "長年にわたる封建的な抑圧、経済的困難、宗教的不寛容がわが国の平和に打撃を与えてきた。わが国民の自由への欲求は、いまや我々の統治にとって深刻な脅威となっている。もはや民衆蜂起は避けられそうにない状況である……"
  revolution_disaster_end_trigger_tt: "#Y 革命反乱者#!は[civil_war|e]を計画していない"
+ revolution_disaster_tt: "[ROOT.GetCountry.GetCapital.GetSubContinent.GetName]内のいずれかの[country|e]が[revolutionary|e]である"
  MONARCHIST_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetAdjectiveWithNoTooltip][army|e]規模：[DisasterView.GetDisaster.GetOwner.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip]の動員可能な[levy|e]：[DisasterView.GetDisaster.GetOwner.GetArmyLevyPotentialStrength]@levy!\n[DisasterView.GetDisaster.GetOwner.GetNameWithNoTooltip][manpower|e]：[DisasterView.GetDisaster.GetOwner.GetMaxManpowerValue|2]@manpower!"
  REVOLUTIONARIES_POTENTIAL_STRENGTH_TT: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetName]の見込み[military_strength|e]"
  REVOLUTIONARIES_STR_DESC: "[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetAdjectiveWithNoTooltip][army|e]規模：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmySize]@army_strength!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip]の動員可能な[levy|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetArmyLevyPotentialStrength]@levy!\n[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetNameWithNoTooltip] [manpower|e]：[DisasterView.GetDisaster.GetOwner.GetCurrentCivilWar.GetMaxManpowerValue|2]@manpower!"
@@ -142,7 +144,7 @@
  #Monthly Pulse
  fire_event_4_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]が納税を拒否する[event|e]が発生する可能性がある"
  fire_event_5_tt: "わが国の各[provinces|e]の[prosperity|e]が低下する[event|e]が発生する可能性がある"
- #Decline of Majapahit
+ # Decline of Majapahit
  #Disaster
  decline_of_majapahit: "$MAJ$の衰退"
  decline_of_majapahit_desc: "わが[GetCountry('MAJ').GetFlavorRank]の繁栄が、かつての面影を失いつつある。王朝内の抗争に悩まされるこの弱体の時期は、侵略の好機を待ち望む多くの隣国によって待ち望まれていたものだ。そしていま、[ShowRegionName('indonesia_region')]における[ShowReligionGroupName('muslim')]国家の台頭によりわが国の地位は容易に失墜しかねず、そうなれば忘れ去られた帝国のための奈落に落ちるだけである……"
@@ -165,7 +167,7 @@
  court_and_country_desc: "中央集権化への反発が高まり、宮廷と国家の対立が深刻化している。この困難な時期をどう乗り越えるかが、わが国の未来を左右する。適切に対処できれば、以前よりも力強い国家へと成長できるだろう——もちろん、この嵐を乗り越えられればの話だが。"
  court_and_country_tips_header: "宮廷と国家への助言"
  court_and_country_tips_tt: "以下の方法で[crown_power|e]を強化できる：\n$BULLET_WITH_TAB$[privileges|e]の剥奪\n$BULLET_WITH_TAB$[locations|e]での[control|e]の強化\n$BULLET_WITH_TAB$[ShowBuildingTypeName('counting_house')]の建設\n$BULLET_WITH_TAB$[legitimacy|e]の強化\n$BULLET_WITH_TAB$特定の[policies|e]の施行"
- french_wars_of_religion_breakdown_tt: "わが国における関連する[ShowReligionGroupAdjective('christian')]系[religions|e]の割合\n[ShowReligionName('catholic')]"
+ french_wars_religion_breakdown_tt: "わが国における関連する[ShowReligionGroupAdjective('christian')]系[religions|e]の割合\n[ShowReligionName('catholic')]"
  x_catholic: "[GetCountry('FRA').GetReligionPercentage(GetReligionByKey('catholic'))|%2]の[catholic|e][pops|e]"
  court_and_country_7_tt: "[event|e]を通じて、[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]が納税を拒否する可能性がある"
  court_and_country_8_tt: "[event|e]を通じて、不安定な情勢による反乱が州内で発生する可能性がある"
@@ -200,6 +202,7 @@
  #Disaster
  death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]の死"
  death_of_hayan_wuruk_desc: "偉大なる指導者[GetCharacter('maj_hayam_wuruk').GetName]の逝去により、[GetCountry('MAJ').GetFlavorRank]は大混乱に陥った。これにより、かつて忠実だった者たちが我々の権威に反旗を翻し、この混乱を長引かせるおそれがある。後継者争いと[GetCountry('MAJ').GetAdjective]の権力の衰退は、我々がこの危機を乗り切るために直ちに解決すべき課題である。"
+ hayan_wuruk_has_passed_tt: "[GetCharacter('maj_hayam_wuruk').GetName]が過去#Y 10#!年以内に死亡している"
  #Curse of Stefan Uros III
  #Disaster
  curse_of_stefan_uros_iii: "[GetCharacter('ser_stefan_decanski').GetNameWithNoTooltip]の呪い"
@@ -229,10 +232,17 @@
  time_of_troubles_desc: "社会的・経済的混乱の暗黒期が訪れた。わが国は飢饉と戦争、さらには[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')]や[SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]に対する反発にも耐えなければならない。四方八方から争いの牙に襲われ、わが[Country.GetFlavorRank]はいまにも引き裂かれ、喰い尽くされようとしている……"
  #Decline of the Empire
  #Disaster
- decline_of_empire: "帝国の衰退"
- decline_of_empire_desc: "かつては強大で揺るぎなかったわが帝国が、いまや崩壊の危機に瀕している。腐敗が体制内に蔓延し、地方は見捨てられて不満を募らせ、外国勢力がハゲタカのように栄光の残骸を狙っている。我々を象徴した黄金時代は記憶の彼方に消え去り、わが帝国の基盤は亀裂が日増しに広がっている。内なる腐敗をすみやかに一掃し、支配力を取り戻さなければ、わが帝国は崩壊し、廃墟と後悔、かつての栄光の影しか残らないだろう……"
+ decline_of_empire: "慢心による衰退"
+ decline_of_empire_desc: "かつては強大で揺るぎなかったわが領土が、いまや崩壊の危機に瀕している。腐敗が体制内に蔓延し、地方は見捨てられて不満を募らせ、外国勢力がハゲタカのように栄光の残骸を狙っている。我々を象徴した黄金時代は記憶の彼方に消え去り、わが領土の基盤は亀裂が日増しに広がっている。内なる腐敗をすみやかに一掃し、支配力を取り戻さなければ、わが帝国は崩壊し、廃墟と後悔、かつての栄光の影しか残らないだろう……"
  has_not_had_decline_of_empire_last_25_years: "過去#Y 25#!年間、[disaster|e]は発生していない"
  not_recently_become_empire_tt: "#Y 15#!年以上[country_rank|e]「[ShowCountryRankName('rank_empire')]」を保持している"
+ complacent_decline_actions_price: "「$decline_of_empire$」のアクションコスト"
+ cd_inspect_area: "地域を視察"
+ cd_inspect_area_desc: "わが[actor.GetFlavorRank]はあまりにも長く過去の栄光に安住してきた。今こそ、国境内の諸地域に我々が支配者であることを思い知らせ、あらゆる野心をすべて打ち砕く時である。"
+ selected_area_inspected_tt: "選択された[area|e]が視察され、[pop_satisfaction|e]と[complacency|e]が低下するが、その内部にある主な[provinces|e]の[control|e]が上昇する。\nこの視察の効果は、[area|e]の[population|e]に加え、わが国の[ShowModifierTypeName('legislative_efficiency')]に大きく左右される"
+ cd_purge_cabinet_member: "閣僚を粛清"
+ cd_purge_cabinet_member_desc: "絶対的な権力は絶対に腐敗する。わが内閣のメンバーはそれを痛感している。退廃を食い止めるためには、政府内で必要な粛清を実行しなければならない。"
+ selected_character_banned_or_executed_tt: "選択された[character|e]が、どんな手段を用いてでも我々の[cabinet|e]から排除される"
  #Decline of Mali
  #Disaster
  decline_of_mali: "マリの衰退"
@@ -251,3 +261,15 @@
  #Disaster
  castilian_civil_war: "[GetCountry('CAS').GetAdjectiveWithNoTooltip]の内戦"
  castilian_civil_war_desc: "敵はつねに政治に干渉せんと策をめぐらせ、動乱を引き起こすか、我らの権威の座を争う対立僭称者を支援している。我らの支配に終止符を打ち、歴史書からわが国の名を抹消しようとする者どもを、この不安定な時代は必ずや明らかにするだろう。[ShowRegionName('iberia_region')]の富は、古来より国境にひしめく敵の飢えた眼差しを惹きつけてきたが、連中に貪らせてはならない！"
+ #Turmoil in Brandenburg
+ turmoil_in_brandenburg: "[GetCountry('BRA').GetNameWithNoTooltip]の混乱"
+ turmoil_in_brandenburg_desc: "[ShowDynastyName('askanier_dynasty')]家の権力が崩壊し、[ShowDynastyName('wittelsbach_dynasty')]家が$margraviate$の支配を引き継いで以来、[GetCountry('BRA').GetLongName]は困難な状況に直面している。[ShowDynastyNameWithNoTooltip('wittelsbach_dynasty')]家は他所での問題に手を取られており、その若き[GetCountry('BRA').GetGovernment.GetRulerTitle]である[GetCountry('BRA').GetGovernment.GetRuler.GetName]は、[GetCountry('BRA').GetAdjectiveWithNoTooltip]辺境伯領において中央権力を再確立するため、孤立無援で奮闘しなければならない。諸階級の反発、[ShowDynastyNameWithNoTooltip('askanier_dynasty')]家の統治時代を懐かしむ民衆、冷酷な泥棒男爵——これらすべてが、対処すべき困難な課題として[GetCountry('BRA').GetGovernment.GetRuler.GetName]の前に立ちふさがる。\n\n内政問題に忙殺される一方、[GetCountry('BRA').GetLongName]は、貧弱ながらも格式高い[GetUniqueInternationalOrganization('hre').GetName]の称号に請求権を持つ、ほかの王朝からの関心を集める可能性もある。"
+ turmoil_in_brandenburg_investment_tt: "$bra_wittelsbacher_investment_var$のスコアが100に達すると、現在の[dynasty|e]による支配を維持できる"
+ turmoil_in_brandenburg_neglect_tt: "$bra_wittelsbacher_neglect_var$のスコアが100に達すると、新たな[dynasty|e]が支配王朝となる"
+ turmoil_in_brandenburg_dynastic_struggle_resolved_tt: "わが国は王位を巡る王朝内の争いを解決した"
+ robber_barons_resolved_tt: "泥棒男爵の問題は解決された"
+ wittelsbacher_event_occurs_tt: "An Event related to the Wittelsbacher Government occurs"
+ robber_barons_when_tt: "After 1365 Events related to the Robber Barons may appear"
+ robber_barons_spread_tt: "泥棒男爵は影響力を拡大している"
+ robber_barons_stay_put_tt: "泥棒男爵は鳴りを潜めている"
+ TURMOIL_IN_BRANDENBURG_DISASTERS_MODIFIERS_TT_LIST: "[disaster|e]の発生中、この国家は以下を得る："

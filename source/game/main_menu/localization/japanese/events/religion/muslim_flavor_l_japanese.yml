@@ -35,7 +35,7 @@
  muslim_flavor.8.a: "素晴らしい功績だ。彼らを支援しよう。"
  muslim_flavor.8.b: "彼らの取り組みは問題ないが、関わる気はない。"
  muslim_flavor.9.title: "アルコール、[ShowGoodsNameWithNoTooltip('coffee')]、[ShowGoodsNameWithNoTooltip('tobacco')]を禁止？"
- muslim_flavor.9.desc: "遠い異国の賢明かつ敬虔な$rank_kingdom_muslim_ruler_male$が、浪費の削減などの政策により、前任者たちの治世中に横行した腐敗を抑制することに成功した、という逸話がある。彼が下した最も厳しい命令は、首都でのアルコール、[ShowGoodsName('tobacco')]、[ShowGoodsName('coffee')]の禁止である。禁止を徹底するため、夜には庶民の格好をして首都の通りや酒場を巡回し、禁令を破った者には死刑を命じた。しかし、禁酒を徹底的に支持しながらも、この$rank_kingdom_muslim_ruler_male$は飲酒を好んでおり、同様の禁止令を実施することが賢明であるかどうかは疑問である。"
+ muslim_flavor.9.desc: "遠い異国の賢明かつ敬虔な$rank_kingdom_muslim_ruler_male$が、浪費の削減などの政策により、前任者たちの治世中に横行した腐敗を抑制することに成功した、という逸話がある。彼が下した最も厳しい命令は、首都でのアルコール、[ShowGoodsName('tobacco')]、[ShowGoodsName('coffee')]の禁止である。これらの禁止令を徹底するため、夜には庶民の格好をして首都の通りや酒場を巡回し、禁令を破った者には死刑を命じた。しかし、禁酒を徹底的に支持しながらも、この$rank_kingdom_muslim_ruler_male$は飲酒を好んでおり、同様の禁止令を実施することが賢明であるかどうかは疑問である。"
  muslim_flavor.9.a: "この伝説的な$rank_kingdom_muslim_ruler_male$の政策に従おう。"
  muslim_flavor.9.b: "代わりにこれらの品を増税しろ。"
  muslim_flavor.9.c: "このような道徳律を人々に押しつけたくない。"

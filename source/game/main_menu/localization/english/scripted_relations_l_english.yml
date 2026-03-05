@@ -440,6 +440,7 @@
  diplomatic_status_receiving_wako_sponsorship_tooltip: "This $wokou_name_wako$ state has been sponsored by the following countries."
  giving_wako_sponsorship_list_who_tt: "Sponsors"
  receiving_wako_sponsorship_list_who_tt: "Sponsored by"
+ already_receiving_sponsorship_tt: "They are already receiving sponsorship from a country"
  #
  union_of_crowns_pact_relation: "$diplomatic_status_union_of_crowns_pact_name$"
  union_of_crowns_pact_relation_desc: "The two [countries|e] will solidify the $diplomatic_status_union_of_crowns_pact_name$, securing the succession of both countries."
@@ -1257,7 +1258,7 @@
  offer_anti_coalition_treaty_desc: "Pledge to not join any coalition against [TARGET_COUNTRY.GetName]."
  offer_anti_coalition_treaty_cta_to_unknown: "Offer an $anti_coalition_treaty_relation$ a [country|e]"
  offer_anti_coalition_treaty_desc_to_unknown: "Pledge to not join any coalition against a [country|e]"
- offer_anti_coalition_treaty_happened_title: "$anti_piracy_agreement_relation$ given!"
+ offer_anti_coalition_treaty_happened_title: "$anti_coalition_treaty_relation$ given!"
  offer_anti_coalition_treaty_happened_desc: "[COUNTRY.GetName] have given a pledge to not join any coalition against [TARGET_COUNTRY.GetName]'s"
  offer_anti_coalition_treaty_proposal_question: "Pledge to not join any coalition against [TARGET_COUNTRY.GetName]?\n$INFO$"
  cancel_anti_coalition_treaty: "Cancel $anti_coalition_treaty_relation$"

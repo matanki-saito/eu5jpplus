@@ -1,6 +1,6 @@
 ﻿l_japanese:
  pirate_events.1.title: "海賊[target_character.GetNameWithNoTooltip]"
- pirate_events.1.desc: "かつては偉大なシュリーヴィジャヤ王国の中心だった[ROOT.GetCountry.GetName]は、長きにわたって領地の覇権を諸外国と争ってきた。[GetCountry('MAJ').GetLongName]の存在によりわが[ROOT.GetCountry.GetFlavorRank]が弱体化した結果、かの地は数十年にわたって無法な海賊の隠れ家に使われている。しかし、潮目は再び変化し、わが国の海上における勢力は拡大している。新たな私掠船団が出現し、狡猾で冷酷な首領、[target_character.GetName]が頭角を現すようになった。[target_character.GetSheHe]に海軍内の地位を与えれば、その実力で提督の有力候補となるかもしれない。"
+ pirate_events.1.desc: "かつては偉大なシュリーヴィジャヤ王国の中心だった[ROOT.GetCountry.GetName|U]は、長きにわたって領地の覇権を諸外国と争ってきた。[GetCountry('MAJ').GetLongName]の存在によりわが[ROOT.GetCountry.GetFlavorRank]が弱体化した結果、かの地は数十年にわたって無法な海賊の隠れ家に使われている。しかし、潮目は再び変化し、わが国の海上における勢力は拡大している。新たな私掠船団が出現し、狡猾で冷酷な首領、[target_character.GetName]が頭角を現すようになった。[target_character.GetSheHe]に海軍内の地位を与えれば、その実力で提督の有力候補となるかもしれない。"
  pirate_events.1.a: "外洋で我々の運を試そう！"
  pirate_events.1.b: "[target_character.GetHerHim]を艦隊に従軍させよ。"
  pirate_events.1.c: "[target_character.GetHerHim]を追い払え。"

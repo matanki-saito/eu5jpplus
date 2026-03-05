@@ -1,6 +1,6 @@
 ﻿l_english:
- flavor_nor.1.title: "Sigurd Jonsson"
- flavor_nor.1.desc: "The Norwegian nobleman and knight, Sigurd Jonsson, is a former drottsete, a man who could rule the country in the King's name, and regent of Norway. He is a direct descendant of the old Norwegian royal family and the commander of Akershus Fortress from 1440 to 1445. Sigurd Jonsson is one of the leading proponents of the anti-Hanseatic policies in Norway."
+ flavor_nor.1.title: "[target_character.GetNameWithNoTooltip]"
+ flavor_nor.1.desc: "The [target_character.GetCulture] nobleman and knight, [target_character.GetName], is a former drottsete, a man who could rule the country in the King's name, and regent of [ROOT.GetCountry.GetName]. He is a direct descendant of the old Norwegian royal family and the commander of Akershus Fortress from 1440 to 1445. [target_character.GetNameWithNoTooltip] is one of the leading proponents of the anti-Hanseatic policies in [ROOT.GetCountry.GetNameWithNoTooltip]."
  flavor_nor.1.a: "He could be of use to the realm"
  flavor_nor.1.b: "We do not want to antagonize the Hansa"
  

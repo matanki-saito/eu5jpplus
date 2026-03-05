@@ -62,7 +62,7 @@
  delhi_situation.14.b: "怒りをこらえなければ……"
  potential_ramifications_tt: "#R これはわが国と、すでに我々と対立している国々とのあいだに、外交的な悪影響を与える可能性がある#!"
  delhi_lose_half_percentage_support_tt: "わが国の[share_of_power_gc|e]が#R -0.5%#!低下する"
- opposers_gain_1_percentage_support_tt: "敵対国の[share_of_power_gc|e]が#R 0.5%#!上昇する"
+ opposers_gain_1_percentage_support_tt: "敵対国の[share_of_power_gc|e]が#R +1%#!上昇する"
  delhi_situation.15.title: "[target_country2.GetNameWithNoTooltip]との外交摩擦"
  delhi_situation.15.desc: "[target_country2.GetLongName]の外交ルートにわが国が介入したことで、騒動が起こっている。我々がいかに宥和と和解を試みても、外部の征服者たちの野蛮な性質のせいで、結局は裏目に出てしまう。彼らが平和の維持に無関心であることは明白であり、さらにわが国の外交官が宮廷滞在中にわいせつ行為を働いたとして、正式な謝罪を要求するまでに至っている！"
  delhi_situation.15.a: "誤解だろう……"

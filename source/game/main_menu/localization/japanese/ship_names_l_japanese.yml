@@ -219,72 +219,72 @@
  ship_name_warrior: "ウォーリアー"
  ship_name_warspite: "ウォースパイト"
  ship_name_zealous: "ゼラス"
- ship_name_anfarwol: "アンファルウォル" #Immortal
- ship_name_ardderchog: "アルゼルコグ" #Excellent
- ship_name_brwd: "ブルード" #Fierce
- ship_name_brwdfrydig: "ブルードフリディグ" #Enthusiastic
- ship_name_cadarn: "カダルン" #Strong
- ship_name_cain: "カイン" #Fair
- ship_name_cawr: "カウル" #Giant
- ship_name_cerddgar: "ケルッガル" #Melodious
- ship_name_clyd: "クリッド" #Cozy
- ship_name_cyfareddol: "キュファレドル" #Exhilarating
- ship_name_cymreig: "キュムレイグ" #Welsh
- ship_name_cywir: "キュイア" #Correct
- ship_name_cywirdeb: "キュイアデブ" #Integrity
- ship_name_dewr: "デウル" #Brave
- ship_name_direidus: "ディレイドゥス" #Agile
- ship_name_dirgel: "ディルゲル" #Mysterious
- ship_name_dirgelwch: "ディルゲルウフ" #Mystery
- ship_name_eglurhaol: "エグルラオル" #Transparent
- ship_name_eithriadol: "エイスリアドル" #Exceptional
- ship_name_euraid: "エウレイド" #Golden
- ship_name_fflamgoch: "フラムゴフ" #Red flame
- ship_name_galwadwy: "ガルワドウィ" #Reliable
- ship_name_garw: "ガルウ" #Rough
- ship_name_gloyw: "グロイウ" #Bright
- ship_name_gorfoledd: "ゴルフォレッド" #Joyful
- ship_name_gorlif: "ゴルリフ" #Majestic
- ship_name_gwawr: "グワウル" #Dawn
- ship_name_gwyntog: "グウィントグ" #Windy
- ship_name_haerllug: "ハエルルグ" #Majestic
- ship_name_heddwen: "ヘッドウェン" #White peace
- ship_name_heddychlon: "ヘディクロン" #Peaceful
- ship_name_helyg: "ヘリグ" #Willow
- ship_name_hirfelyn: "ヒルフェリン" #Long fang
- ship_name_hirionedd: "ヒリオネッド" #Truth
- ship_name_hudolus: "ヒュドラス" #Enchanting
- ship_name_hynod: "ヒノド" #Extraordinary
- ship_name_iaithlawn: "イアスローン" #Linguistic
- ship_name_iraidd: "イレイド" #Furious
- ship_name_jawdropping: "スィフダノル" #Jaw-dropping
- ship_name_lleddf: "レッデフ" #Smooth
- ship_name_llongyfarch: "ロンギファルク" #Congratulations
- ship_name_lluddias: "ルッディアド" #Stealthy
- ship_name_llwyd: "ルイド" #Grey
- ship_name_llyfn: "ルィフン" #Smooth
- ship_name_llygadwyllt: "ルィガドウィルト" #Wild-eyed
- ship_name_llygaid-wen: "ルィガイド・ウェン" #White-eyed
- ship_name_lysieuol: "ルィシオル" #Herbaceous
- ship_name_mawreddog: "マウレドグ" #Majestic
- ship_name_medrus: "メドルス" #Skilled
- ship_name_melyngoch: "メリンゴク" #Yellow-red
- ship_name_mewnfwyafn: "メウネフワイアン" #Deepest
- ship_name_morol: "モロル" #Ocean
- ship_name_nawddgar: "ナウドガル" #Protective
- ship_name_noddfa: "ノドファ" #Sanctuary
- ship_name_oerfel: "オーフェル" #Frosty
- ship_name_olau: "オラウ" #Light
- ship_name_parhadol: "パルハドル" #Enduring
- ship_name_poblogaidd: "ポブログエイド" #Popular
- ship_name_rhamantus: "ラマンタス" #Romantic
- ship_name_sefyllfa: "セフイルファ" #Position
- ship_name_seren: "セレン" #Star
- ship_name_talgarth: "タルガース" #High-fortress
- ship_name_taranau: "タラナウ" #Thunderous
- ship_name_tosturiol: "トストゥリオル" #Disruptive
- ship_name_uchelgeisiol: "ウチェルゲイショル" #Ambitious
- ship_name_unben: "ウンベン" #Leader
- ship_name_wawddeg: "ワウルデグ" #Boisterous
- ship_name_ymylchgrawn: "イムルクロウン" #Periphery
- ship_name_ynfydgar: "インフィドガル" #Magnificent
+ ship_name_anfarwol: "アンファルウォル" # Immortal
+ ship_name_ardderchog: "アルゼルコグ" # Excellent
+ ship_name_brwd: "ブルード" # Fierce
+ ship_name_brwdfrydig: "ブルードフリディグ" # Enthusiastic
+ ship_name_cadarn: "カダルン" # Strong
+ ship_name_cain: "カイン" # Fair
+ ship_name_cawr: "カウル" # Giant
+ ship_name_cerddgar: "ケルッガル" # Melodious
+ ship_name_clyd: "クリッド" # Cozy
+ ship_name_cyfareddol: "キュファレドル" # Exhilarating
+ ship_name_cymreig: "キュムレイグ" # Welsh
+ ship_name_cywir: "キュイア" # Correct
+ ship_name_cywirdeb: "キュイアデブ" # Integrity
+ ship_name_dewr: "デウル" # Brave
+ ship_name_direidus: "ディレイドゥス" # Agile
+ ship_name_dirgel: "ディルゲル" # Mysterious
+ ship_name_dirgelwch: "ディルゲルウフ" # Mystery
+ ship_name_eglurhaol: "エグルラオル" # Transparent
+ ship_name_eithriadol: "エイスリアドル" # Exceptional
+ ship_name_euraid: "エウレイド" # Golden
+ ship_name_fflamgoch: "フラムゴフ" # Red flame
+ ship_name_galwadwy: "ガルワドウィ" # Reliable
+ ship_name_garw: "ガルウ" # Rough
+ ship_name_gloyw: "グロイウ" # Bright
+ ship_name_gorfoledd: "ゴルフォレッド" # Joyful
+ ship_name_gorlif: "ゴルリフ" # Majestic
+ ship_name_gwawr: "グワウル" # Dawn
+ ship_name_gwyntog: "グウィントグ" # Windy
+ ship_name_haerllug: "ハエルルグ" # Majestic
+ ship_name_heddwen: "ヘッドウェン" # White peace
+ ship_name_heddychlon: "ヘディクロン" # Peaceful
+ ship_name_helyg: "ヘリグ" # Willow
+ ship_name_hirfelyn: "ヒルフェリン" # Long fang
+ ship_name_hirionedd: "ヒリオネッド" # Truth
+ ship_name_hudolus: "ヒュドラス" # Enchanting
+ ship_name_hynod: "ヒノド" # Extraordinary
+ ship_name_iaithlawn: "イアスローン" # Linguistic
+ ship_name_iraidd: "イレイド" # Furious
+ ship_name_jawdropping: "スィフダノル" # Jaw-dropping
+ ship_name_lleddf: "レッデフ" # Smooth
+ ship_name_llongyfarch: "ロンギファルク" # Congratulations
+ ship_name_lluddias: "ルッディアド" # Stealthy
+ ship_name_llwyd: "ルイド" # Grey
+ ship_name_llyfn: "ルィフン" # Smooth
+ ship_name_llygadwyllt: "ルィガドウィルト" # Wild-eyed
+ ship_name_llygaid-wen: "ルィガイド・ウェン" # White-eyed
+ ship_name_lysieuol: "ルィシオル" # Herbaceous
+ ship_name_mawreddog: "マウレドグ" # Majestic
+ ship_name_medrus: "メドルス" # Skilled
+ ship_name_melyngoch: "メリンゴク" # Yellow-red
+ ship_name_mewnfwyafn: "メウネフワイアン" # Deepest
+ ship_name_morol: "モロル" # Ocean
+ ship_name_nawddgar: "ナウドガル" # Protective
+ ship_name_noddfa: "ノドファ" # Sanctuary
+ ship_name_oerfel: "オーフェル" # Frosty
+ ship_name_olau: "オラウ" # Light
+ ship_name_parhadol: "パルハドル" # Enduring
+ ship_name_poblogaidd: "ポブログエイド" # Popular
+ ship_name_rhamantus: "ラマンタス" # Romantic
+ ship_name_sefyllfa: "セフイルファ" # Position
+ ship_name_seren: "セレン" # Star
+ ship_name_talgarth: "タルガース" # High-fortress
+ ship_name_taranau: "タラナウ" # Thunderous
+ ship_name_tosturiol: "トストゥリオル" # Disruptive
+ ship_name_uchelgeisiol: "ウチェルゲイショル" # Ambitious
+ ship_name_unben: "ウンベン" # Leader
+ ship_name_wawddeg: "ワウルデグ" # Boisterous
+ ship_name_ymylchgrawn: "イムルクロウン" # Periphery
+ ship_name_ynfydgar: "インフィドガル" # Magnificent

@@ -178,7 +178,7 @@
  STATIC_MODIFIER_NAME_bohemian_aggression_modifier: "Bohemian Aggression"
  STATIC_MODIFIER_DESC_bohemian_aggression_modifier: "Our enemies have failed at eradicating our faith and wished for peace. However, now it is our time to renew our aggression and vanquish them once and for all!"
  opinion_hussite_aggression_modifier: "Rejected the Four Articles"
- boh_widespread_condemnation_tt: "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|-=0] opinion towards us"
+ boh_widespread_condemnation_tt: "Every [ShowReligionAdjective('catholic')] country will lose [ShowBiasValue('opinion_hussite_aggression_modifier')|+=0] opinion towards us"
  four_articles: "Four Articles"
  four_articles_desc: "A series of demands set forth by our heads of state and faith against the aggressors of the Papal crusades propped up in a weak attempt to suppress our faith."
  flavor_boh.36.historical_info: "The Four Articles of Prague, also known as the Prague Articles, are a set of demands made by the followers of [GetCharacter('boh_jan_hus').GetName], a Bohemian reformer, during the Council of Basel in the 15th century. These articles would go on to play a significant role in the Hussite movement, which was a precursor to the Protestant Reformation. The articles included clauses such as the freedom to preach the word of god, communion, a general reform of the Church institution, and exclusion of mortal sinners from the Church."

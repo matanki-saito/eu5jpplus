@@ -67,8 +67,8 @@
  
  succession_crisis.100.title: "End of the Succession Crisis"
  succession_crisis.100.desc.a: "The strife across the [ROOT.GetCountry.GetLongName] is over only for an escalated civil war to take place. Mothers, children and innocents fill the streets with screams of terror as fire and metal take over the entire domain..."
- succession_crisis.100.desc.b: "After a period of instability, the passing of our old ruler has given way to [ROOT.GetCountry.GetGovernment.GetRuler.GetName]'s claim on our throne. For better or worse this is the path we have to go down on..."
- succession_crisis.100.desc.c: "Alas, the divine has given us a hand of grace. The leader of the brewing rebellion threatening to throw our entire domain in a civil war,has perished. A sign of intervention or a dice roll of luck? For better or worse, we have regained control of our internal affairs, but for how long?"
+ succession_crisis.100.desc.b: "After a period of instability, the passing of our old ruler has given way to the claim of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] upon our throne. For better or worse this is the path we have to go down on..."
+ succession_crisis.100.desc.c: "Alas, the divine has given us a hand of grace. The leader of the brewing rebellion threatening to throw our entire [ROOT.GetCountry.GetFlavorRank] in a civil war, has perished. A sign of intervention or a dice roll of luck? For better or worse, we have regained control of our internal affairs, but for how long?"
  succession_crisis.100.desc.d: "Civil strife, open rebellions, and a myriad other curses have befallen our people. However, none managed to break our spirit and under the guidance of [ROOT.GetCountry.GetGovernment.GetRuler.GetName] we have saved the great [ROOT.GetCountry.GetLongName] from certain doom!"
  succession_crisis.100.a: "We will rely on prominent members of our court."
  succession_crisis.100.b: "We can manage on our own!"

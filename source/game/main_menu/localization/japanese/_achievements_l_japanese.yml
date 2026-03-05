@@ -20,12 +20,12 @@
  ACHIEVEMENTS_ENABLED_NO_HEADER: "#P 利用可能#!"
  ACHIEVEMENTS_DISABLED_NO_HEADER: "#N 利用不可#!"
  ACHIEVEMENTS_DISABLED_NO_HEADER_PLAY_BUTTON: "#N 利用不可#!\n\n現在、プレイ中に実績をアンロックできない。\n$ACHIEVEMENTS_EXPLANATION$"
- ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 実績は以下の条件を満たす場合にのみアンロック可能：\n$EFFECT_LIST_BULLET$シングルプレイでプレイする\n$EFFECT_LIST_BULLET$鉄人モードが有効\n$EFFECT_LIST_BULLET$ゲーム終了日前\n$EFFECT_LIST_BULLET$プレイに影響を与えるファイルが改変されていない、および特殊な起動オプションを使用していない（チェックサムが改変されていない）"
+ ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 実績は以下の条件を満たす場合にのみアンロック可能：\n$EFFECT_LIST_BULLET$シングルプレイでプレイする\n$EFFECT_LIST_BULLET$鉄人モードが有効\n$EFFECT_LIST_BULLET$ゲーム終了日前\n$EFFECT_LIST_BULLET$別のプレイヤーのセーブデータを使用していない\n$EFFECT_LIST_BULLET$プレイに影響を与えるファイルが改変されていない、および特殊な起動オプションを使用していない（チェックサムが改変されていない）"
  ACHIEVEMENTS_ENABLED: "#T 実績を利用可能#!\n現在、プレイ中に実績をアンロックできる。"
  ACHIEVEMENTS_DISABLED: "#T 実績を利用不可#!\n現在、プレイ中に実績をアンロックできない。\n\n$ACHIEVEMENTS_EXPLANATION$"
  ACHIEVEMENT_GROUP_TITLE_CAESAR: "[Group.GetName]"
  ACHIEVEMENT_GROUP_AMOUNT_CAESAR: "[Group.CalcNumberOfUnlockedVisibleAchievements] / [Group.GetNumberOfVisibleAchievements]"
- #Achievements Very Easy
+ # Achievements Very Easy
  ACHIEVEMENT_until_death_do_us_apart: "死がふたりを分かつまで"
  ACHIEVEMENT_DESC_until_death_do_us_apart: "他国との王室間の婚姻を成立させる。"
  ACHIEVEMENT_that_is_mine: "いただき！"
@@ -50,7 +50,7 @@
  ACHIEVEMENT_DESC_cold_war: "戦闘のない戦争状態を2年間維持する。"
  ACHIEVEMENT_for_the_glory: "栄光のために"
  ACHIEVEMENT_DESC_for_the_glory: "従属国を外交的に併合する。"
- #Achievements Easy
+ # Achievements Easy
  ACHIEVEMENT_a_pile_of_gold: "黄金の山"
  ACHIEVEMENT_DESC_a_pile_of_gold: "金または銀を産出するロケーションを35ヵ所所有する。"
  ACHIEVEMENT_at_every_continent: "全大陸に進出せよ"
@@ -71,7 +71,7 @@
  ACHIEVEMENT_DESC_rule_britannia: "イングランドで開始し、グレートブリテンに変容して海軍覇権国となる。"
  ACHIEVEMENT_plus_ultra: "プルス・ウルトラ"
  ACHIEVEMENT_DESC_plus_ultra: "カスティーリャまたはスペインで、イベリア、マグリブ、カリブ、メソアメリカ、ペルーに進出する。"
- #Achievements Medium
+ # Achievements Medium
  ACHIEVEMENT_here_i_stand: "我ここに立つ"
  ACHIEVEMENT_DESC_here_i_stand: "ルター派に改宗し、信仰の様相を3つアンロックする。"
  ACHIEVEMENT_just_a_little_bit_more_patience: "さらにほんの少しの忍耐"
@@ -103,13 +103,14 @@
  ACHIEVEMENT_DESC_felix_austria: "オーストリアで開始し、神聖ローマ皇帝および列強となる。"
  ACHIEVEMENT_hongwu_di: "洪武帝"
  ACHIEVEMENT_DESC_hongwu_di: "明で中国全土を支配し、中華帝国のリーダーとなる。"
+ hongwu_di_east_china_trigger_tt: "[ShowRegionName('east_china_region')]（[ShowAreaName('taiwan_area')]を除く）が[GetCountry('MNG').GetName]かその[subjects|e]に所有されている"
  ACHIEVEMENT_break_the_yoke: "くびきを断ち切れ"
  ACHIEVEMENT_DESC_break_the_yoke: "ロシア系国家でタタールのくびきを断ち切る。"
  ACHIEVEMENT_lingua_franca: "リンガ・フランカ"
  ACHIEVEMENT_DESC_lingua_franca: "フランスで文化覇権国となる。"
  ACHIEVEMENT_crusader_kings: "クルセイダーキングス"
  ACHIEVEMENT_DESC_crusader_kings: "十字軍またはジハードで勝利する。"
- #Achievements Hard
+ # Achievements Hard
  ACHIEVEMENT_respected: "尊敬を集めし者"
  ACHIEVEMENT_DESC_respected: "威信、正統性、安定度をそれぞれ100にする。"
  ACHIEVEMENT_letat_cest_moi: "朕は国家なり"
@@ -130,10 +131,24 @@
  ACHIEVEMENT_DESC_welfare_state: "自国のいずれかの市場で、60,000以上の食糧を市場在庫として備蓄する。"
  ACHIEVEMENT_five_hundred_miles: "500マイル"
  ACHIEVEMENT_DESC_five_hundred_miles: "街道を5本もつロケーションを100ヵ所以上所有する。"
- #Achievements Very Hard
- #Template
- #ACHIEVEMENT_name: ""
- #ACHIEVEMENT_DESC_name: ""
+ ACHIEVEMENT_saladin_legacy: "サラディンの遺産"
+ ACHIEVEMENT_DESC_saladin_legacy: "アイユーブ朝で開始し、自国またはその従属国が、エジプト地方、ヒジャーズ、イエメン北部、イエメン南部、レバント、ジャジーラの各地域を所有する。"
+ ACHIEVEMENT_african_trade: "アフリカ交易"
+ ACHIEVEMENT_DESC_african_trade: "キルワで開始し、世界で最も市場価値が高い市場中心地をアフリカにおいて所有する。"
+ ACHIEVEMENT_i_am_inevitable: "不可避の国家"
+ ACHIEVEMENT_DESC_i_am_inevitable: "すべての覇権国家を保有する。"
+ ACHIEVEMENT_greatness_from_small_beginnings: "小さな始まりからの偉業"
+ ACHIEVEMENT_DESC_greatness_from_small_beginnings: "伯国として開始し、神聖ローマ皇帝になる以外の方法で、自国の国家ランクを帝国に昇格させる。"
+ ACHIEVEMENT_goose_step_by_step: "ガチョウ足行進で一歩ずつ"
+ ACHIEVEMENT_DESC_goose_step_by_step: "プロイセンとして、社会的価値「質」と「好戦的」を50超にする。"
+ ACHIEVEMENT_ill_be_wittelsback: "ヴィッテルスバッハ、再び"
+ ACHIEVEMENT_DESC_ill_be_wittelsback: "ブランデンブルクで開始し、国難「ブランデンブルクの混乱」を、ヴィッテルスバッハ家の投資スコアが100、かつヴィッテルスバッハ家の統治者が王位に就いた状態で乗り越える。"
+ ACHIEVEMENT_reformatio_imperii: "帝国の改革"
+ ACHIEVEMENT_DESC_reformatio_imperii: "神聖ローマ皇帝として、ポリシー「常設帝国議会」、「永久平和令」、「直接課税」をすべて制定する。"
+ # Achievements Very Hard
+ # Template
+ # ACHIEVEMENT_name: ""
+ # ACHIEVEMENT_DESC_name: ""
  #Achievement Groups
  ACHIEVEMENT_GROUP_very_easy_achievements: "とても簡単"
  ACHIEVEMENT_GROUP_easy_achievements: "簡単"

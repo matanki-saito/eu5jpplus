@@ -345,7 +345,7 @@
  clergy_religious_state_desc: "By making matters of religion our foremost priority, we shall forge our nation into a more cohesive whole."
  
  clergy_papal_emissary: "Papal Emissary"
- clergy_papal_emissary_desc: "The legates and other emissaries of the [GetCountry('PAP').GetGovernment.GetRulerTitle] are most welcome in our territory. Moreover, we shall also commit to obeying their judgment, and to never interfere in relations between our local [ShowEstateTypeName('clergy_estate')] and the [GetCountry('PAP').GetGovernment.GetRulerTitleWithNoTooltip]."
+ clergy_papal_emissary_desc: "The legates and other emissaries of the [GetCountry('PAP').GetGovernment.GetRulerTitle] are most welcome in our territory. Moreover, we shall also commit to obeying their judgment, and to never interfere in relations between our local [ShowEstateTypeName('clergy_estate')] and the [GetCountry('PAP').GetGovernment.GetRulerTitle]."
 
  freedom_of_interpretation: "Freedom of Interpretation"
  freedom_of_interpretation_desc: "The many teachings of our faith are like the cool shade underneath a great tree, where all may rest and be refreshed. Under this protective canopy of wisdom, our people are encouraged to think deeply about matters of faith, and to expand and diversify our tenets. This freedom of interpretation will allow our religion to adapt to diverse communities while yet maintaining its core principles."
@@ -616,7 +616,7 @@
  ius_teutonicum_desc: "Since the times of the eastern marches of the Carolingian Empire, [ShowCultureGroupName('german_group')] peoples have been expanding and settling further east. Known as #italic Ostsiedlung#!, this influx of [ShowCultureGroupNameWithNoTooltip('german_group')] settlers is often encouraged by local rulers to fill sparsely populated areas. These settlers are subject to a special type of law, the #italic $ius_teutonicum$#!, offering them special privileges like tax exemptions and the right to establish self-governing towns."
 
  kormlenije: "Kormlenije"
- kormlenije_desc: "The Kormlenije System is a mechanism to address the financial and material needs of the [GetCountry('RUS').GetAdjective] [ShowEstateTypeName('nobles_estate')], establishing a financial dependency among the elites. This dependency, in turn, plays a crucial role in securing their unwavering loyalty."
+ kormlenije_desc: "The Kormlenije System is a mechanism to address the financial and material needs of the $RUS_ADJ$ [ShowEstateTypeName('nobles_estate')], establishing a financial dependency among the elites. This dependency, in turn, plays a crucial role in securing their unwavering loyalty."
 
  haudenosaunee_labor_division: "Haudenosaunee Labor Division"
  haudenosaunee_labor_division_desc: "Our people have clearly defined roles within their communities. Tasks are distributed and assigned for the collective benefit of the group, with those sharing the same tasks working together. Men and women fulfill complementary roles through their respective assignments, creating a holistic division of labor."

@@ -43,11 +43,17 @@
  atoll: "Atoll"
  # Misc
  TERRAIN_MOVEMENT_COST: "Movement Cost for [units|e]: $VALUE|-=%V$"
- TERRAIN_PROXIMITY_COST: "Proximity impact: $VALUE|-=%$"
+ TERRAIN_PROXIMITY_COST: "Proximity Speed Impact: $VALUE|+=%$"
  TERRAIN_ATTACKER_PENALTY: "Attacker Penalty in [combat|e]: $VALUE|-=$"
  TERRAIN_ATTACKER_PENALTY_TT: "This [location|e] gives penalty of [Location.GetAttackerPenalty|-=] to the [attacker|e] in [combat|e]."
  TERRAIN_CAN_FREEZE_OVER: "Can freeze during winter, blocking [ships|e] from moving and allowing [armies|e] to cross."
  TERRAIN_BLOCKS_IN_WINTER: "[armies|e] can not enter during $STATIC_MODIFIER_NAME_winter_normal$ or $STATIC_MODIFIER_NAME_winter_severe$."
+ TERRAIN_COLONIAL_MIGRATION: "[colonial_migration|e]: $VALUE|+=%$"
+
+
+ COLO_CLIMATE_IMP: "$NUM|V$ [CLIMATE.GetName] [locations|e]: $VAL|+=%$"
+ COLO_VEGETATION_IMP: "$NUM|V$ [VEGETATION.GetName] [locations|e]: $VAL|+=%$"
+ COLO_TOPOGRAPHY_IMP: "$NUM|V$ [TOPOGRAPHY.GetName] [locations|e]: $VAL|+=%$"
  
  flatland_desc: "Flatland represents terrain that does not have any major topographic variation, so there are no impediments for [army|e] movement or [building|e] development."
  mountains_desc: "Mountain terrain has high altitude and also steep slopes with relatively few and narrow flat areas, so it is more difficult for [armies|e] to cross and fight in it, and also more difficult to develop."

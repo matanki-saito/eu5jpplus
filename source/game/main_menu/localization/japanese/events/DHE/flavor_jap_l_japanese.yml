@@ -18,7 +18,7 @@
  flavor_jap.4.title: "$flavor_jap.3.title$"
  flavor_jap.4.desc: "$flavor_jap.3.desc$"
  flavor_jap.4.a: "[target_character.GetSheHe|U]はなかなかの逸材だ。"
- flavor_jap.4.b: "[target_character.GetHerHim]を[GetCountry('JAP').GetGovernment.GetCourtTitle]へ移送しろ。"
+ flavor_jap.4.b: "[target_character.GetHerHim]を[target_shogun.GetGovernment.GetCourtTitle]へ移送しろ。"
  flavor_jap.5.title: "[target_character.GetNameWithNoTooltip]"
  flavor_jap.5.desc: "[target_country.GetLongName]は務めを果たし、[target_character.GetName]を我々のもとへ寄こした。彼は広範な知識をもつだけでなく、世界と海に関する深い理解を備えており、逸材であることに疑いの余地はない。この者を召し抱えれば、大いに貢献してくれるだろう。"
  flavor_jap.5.a: "わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]で大いに活躍するだろう。"
@@ -58,7 +58,7 @@
  flavor_jap.13.a: "条約に調印せよ。"
  flavor_jap.13.b: "この条約は利益を生まない。"
  kakitsu_treaty: "嘉吉条約"
- #New DHE
+ # New DHE
  flavor_jap.101.title: "[our_ruler.GetNameWithNoTooltip]の[ROOT.GetCountry.GetGovernment.GetRulerTitle]就任の布告"
  flavor_jap.101.desc: "[go_daigo.GetName]天皇が京を逃れたことを受け、[our_ruler.GetName]は[ROOT.GetCountry.GetGovernment.GetRulerTitle]の座につき、鎌倉幕府に続く武家政権である[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName]を開いた。[go_daigo.GetNameWithNoTooltip]天皇は[ShowLocationName('yoshino')]に逃れたものの、[koumyou.GetName]天皇が[go_daigo.GetNameWithNoTooltip]の代わりに擁立され、[our_ruler.GetNameWithNoTooltip]を将軍とする[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip]を正式に認めた。ほとんどの武家は[our_ruler.GetNameWithNoTooltip]を支持しているが、[go_daigo.GetNameWithNoTooltip]の復権を目指す者たちがいるとの噂が流れている。"
  flavor_jap.101.a: "[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetNameWithNoTooltip]が新時代の[ShowRegionNameWithNoTooltip('japan_region')]を導いていく！"

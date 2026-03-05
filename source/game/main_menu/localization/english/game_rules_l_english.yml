@@ -22,6 +22,15 @@
  setting_ai_hard_difficulty_desc: "This setting is a setting for more experienced players, AI countries will receive bonuses and will be more aggressive."
  setting_ai_very_hard_difficulty: "Very Hard"
  setting_ai_very_hard_difficulty_desc: "This is the hardest setting to play in, the AI will be given substantial bonuses, and they will be more aggressive." 
+ 
+ 
+ rule_ai_aggression: "AI Aggression"
+ setting_ai_low_aggression: "Low Aggression"
+ setting_ai_low_aggression_desc: "This is the calmest way to play the game. The AI will only start a [war|e] if it has any [casus_belli|e]."
+ setting_ai_normal_aggression: "Normal Aggression"
+ setting_ai_normal_aggression_desc: "This is the normal way to play the game. The AI will start a [war|e] when it desires, and sometimes will start one without a [casus_belli|e]."
+ setting_ai_high_aggression: "High Aggression"
+ setting_ai_high_aggression_desc: "This creates a bigger challenge, as the AI countries are far more likely to start a [war|e]."
 
  rule_ahistorical_formable_countries: "Formable Countries"
  setting_no_ahistorical_formable_countries: "Only Historical"

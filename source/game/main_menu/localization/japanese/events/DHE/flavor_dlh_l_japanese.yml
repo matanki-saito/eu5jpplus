@@ -265,7 +265,7 @@
  flavor_dlh.59.desc: "1333年当時、[target_character.GetName]は遠征軍を率いて[target_area.GetName]の[ShowReligionAdjective('hindu')]諸国を攻撃した。だが、[ROOT.GetCountry.GetGovernment.GetRulerTitle]の奮戦むなしくわが軍は惨敗し、$india$における[ROOT.GetCountry.GetName]の名声は地に墜ちた。[ShowSituationName('fall_of_delhi')]が現実味を帯びているいまこそ、復讐を遂げるべきかもしれない。"
  flavor_dlh.59.a: "雪辱を果たそう。"
  flavor_dlh.59.b: "二度も失敗すれば、我らはもはや立ち直れない。"
- dlh_benefits_of_subjugating: "わが国が10年以内に[target_area.GetName]の[locations|e]を[FixedPointToInt(Add_CFixedPoint(Multiply_CFixedPoint(IntToFixedPoint(target_area.GetNumLocations), '(CFixedPoint)0.3'), '(CFixedPoint)1'))]以上[conquer|e]、[own|e]すると以下を得る：" #Multiply the amount of locations in Nepal by 0.3, add 1 and convert the FixedPoint Number to int to round down.
+ dlh_benefits_of_subjugating: "わが国が10年以内に[target_area.GetName]の[locations|e]を[FixedPointToInt(Add_CFixedPoint(Multiply_CFixedPoint(IntToFixedPoint(target_area.GetNumLocations), '(CFixedPoint)0.3'), '(CFixedPoint)1'))]以上[conquer|e]、[own|e]すると以下を得る：" # Multiply the amount of locations in Nepal by 0.3, add 1 and convert the FixedPoint Number to int to round down.
  flavor_dlh.60.title: "カラチル遠征の成功"
  flavor_dlh.60.desc: "1333年の失敗から教訓を得た[ROOT.GetCountry.GetAdjective]の献身的な将軍たちが、[ShowAreaName('nepal_area')]西部の諸国家を地図上から消し去った。地域の大部分を征服できたわけではないが、多くの仇敵に手ひどい敗北を味わわせ、[ROOT.GetCountry.GetFlavorRank]の威光を回復できた。"
  flavor_dlh.60.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

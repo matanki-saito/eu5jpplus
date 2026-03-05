@@ -72,7 +72,7 @@
  flavor_mei.121.a.tt: "わが国は[GetCountry('MEI').GetNameWithNoTooltip]でのプレイを続行する"
  flavor_mei.121.b: "この土地を手放すことはできない！"
  flavor_mei.122.desc: "[GetCountry('LDB').GetName]が突然、わが国との土地売買交渉から撤退した。もはや我々は、武力であの土地を奪取するよりほかにない。"
- flavor_mei.122.a: "[ROOT.GetCountry.Custom('common_string_unfortunate')]"
+ flavor_mei.122.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
  flavor_mei.130.title: "譲位の提案"
  flavor_mei.130.desc: "[GetCountry('SWB').GetName]の[target_character.GetName]が後継者を残さずに亡くなったことで、[GetCountry('SWB').GetFlavorRank]を治める者がいなくなった。\n\n君主の不在は死活問題であるため、早急に新たな[GetCountry('SWB').GetGovernment.GetRulerTitle]を任命する必要がある。\n\n数人の候補者のなかから、廷臣たちは[GetCountry('MEI').GetName][GetCountry('MEI').GetGovernment.GetRulerTitle]を有力な候補として推挙した。もし[GetCountry('MEI').GetGovernment.GetRuler.GetHerHim]を[GetCountry('SWB').GetGovernment.GetRulerTitle]の座に就かせれば、[GetCountry('MEI').GetNameWithNoTooltip]に新たな同盟者を得ることができるだろう。"
  flavor_mei.130.a: "名案だ！"

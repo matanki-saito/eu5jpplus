@@ -37,6 +37,7 @@
  hre.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
 
  hre.imperial_authority_change.tt: "The [GetUniqueInternationalOrganization('hre').GetName] gets [ROOT.GetVariable('imperial_authority_change').GetValue|+2] #Y $imperial_authority$#!"
+ hre.imperial_authority_change_action.tt: "The [GetUniqueInternationalOrganization('hre').GetName] gets [ROOT.GetVariable('imperial_authority_change_action').GetValue|+2] #Y $imperial_authority$#!"
 
  hre.901.title: "A Prince Restored"
  hre.901.desc: "Like a phoenix, [released_country.GetName], has risen from the ashes and rejoined the Princes of the [GetUniqueInternationalOrganization('hre').GetName]!"

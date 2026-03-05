@@ -28,7 +28,7 @@
  
  #
  SCORE_GREATPOWER: "[great_power|e]: $VAL|+=2$"
- ADM_SCORE_INCOME: "[income|e]: $VAL|+=2$"
+ ADM_SCORE_TAX_BASE: "[tax_base|e]: $VAL|+=2$"
  ADM_SCORE_TECH: "[advances|e]: $VAL|+=2$"
  ADM_SCORE_OCCUPATION: "[occupation|e]: $VAL|+=2$"
  ADM_SCORE_STABILITY: "[stability|e]: $VAL|+=2$"
@@ -44,8 +44,10 @@
  DIP_SCORE_SUBJECTS: "[subjects|e]: $VAL|+=2$"
  DIP_SCORE_ALLIES: "[allies|e]: $VAL|+=2$"
  #
- MIL_SCORE_ARMY: "[army|e]: $VAL|+=2$"
+ MIL_SCORE_ARMY: "Regular [army|e]: $VAL|+=2$"
+ MIL_SCORE_LEVY: "[levies|e]: $VAL|+=2$"
  MIL_SCORE_DISCIPLINE: "[discipline|e]: $VAL|+=2$"
+ MIL_SCORE_MIL_TACTICS: "[military_tactics|e]: $VAL|+=2$"
  MIL_SCORE_EXHAUSTION: "[war_exhaustion|e]: $VAL|+=2$"
  
  ENDGAME_SCORE: "Our final [score|e] was [Player.GetScore.GetScore|0]"

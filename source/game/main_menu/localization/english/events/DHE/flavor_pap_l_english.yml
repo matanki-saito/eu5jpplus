@@ -62,7 +62,11 @@
 
  flavor_pap.14.title: "The Sistine Chapel"
  flavor_pap.14.desc: "The Cappella Maggiore - the Greater Chapel - is used for masses that can be held in smaller, less public spaces than the Basilicas. The years have not been gentle to the once magnificent chapel that was decorated by Fra Angelico, its walls are leaning and it is in a ruinous state. The chapel should be demolished, the structure is not safe enough for the many masses that are held there every year. A new, more magnificent building should take its place, and many famous artists would be honored if they were asked to decorate the new Sistine Chapel."
- flavor_pap.14.a: "Demolish the old and build the new in the same place."
+ flavor_pap.14.a: "Assign the work to [target_artist_1.GetNameWithNoTooltip]."
+ flavor_pap.14.b: "[target_artist_2.GetNameWithNoTooltip] will oversee the project."
+ flavor_pap.14.c: "How about [target_artist_3.GetNameWithNoTooltip]?"
+ flavor_pap.14.d: "We need not frivolous expressions of wealth!"
+ sistine_chapel_is_not_realized_tt: "#italic The Sistine Chapel will not be realized and come to be, saving us some [gold|e]#!"
 
  flavor_pap.15.title: "Decorate the Sistine Chapel"
  flavor_pap.15.desc: "The old, decrepit Cappella Maggiore is no more - in its place the grand Sistine Chapels now stands. The Temple of Solomon and the Sistine Chapel are the same dimensions, as given in the Old Testament. The exterior is unadorned by decorative details, and the building is divided into three stories with a vaulted ceiling and six tall arched windows on the sides, two on either end. Although beautiful in its simplicity, the chapel's beauty could be enhanced by frescoes painted by the foremost artists of our time."

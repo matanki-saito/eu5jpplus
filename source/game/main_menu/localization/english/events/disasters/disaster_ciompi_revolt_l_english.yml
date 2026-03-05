@@ -1,6 +1,6 @@
 ﻿l_english:
  ciompi_revolt.1.title: "The Ciompi Revolt"
- ciompi_revolt.1.desc: "The bells of our churches sound the alarm as thousands of disgruntled peasants and merchants flood the streets of [target_location.GetName], in [target_location.GetAreaName]. A significant uprising by the lower classes against the ruling oligarchy, the revolt is fueled by social and economic grievances, including high taxes and poor working conditions. The Ciompi, mostly composed of wool workers and other artisans, demand political representation and better rights. The uprising threatens to potentially lead to a temporary reformation of the Florentine government unless suppressed by the ruling elite."
+ ciompi_revolt.1.desc: "The bells of our churches sound the alarm as thousands of disgruntled peasants and merchants flood the streets of [target_location.GetName], in [target_location.GetArea.GetName]. A significant uprising by the lower classes against the ruling oligarchy, the revolt is fueled by social and economic grievances, including high taxes and poor working conditions. The Ciompi, mostly composed of wool workers and other artisans, demand political representation and better rights. The uprising threatens to potentially lead to a temporary reformation of the Florentine government unless suppressed by the ruling elite."
  ciompi_revolt.1.a: "Difficult times are ahead..."
 
  ciompi_revolt.2.title: "Gente Nuova"

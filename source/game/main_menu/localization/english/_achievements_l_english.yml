@@ -36,7 +36,7 @@
  ACHIEVEMENT_victorious: "Victorious!"
  ACHIEVEMENT_DESC_victorious: "Win a war."
 
- ACHIEVEMENT_its_just_business: "It's just Business"
+ ACHIEVEMENT_its_just_business: "It's Just Business"
  ACHIEVEMENT_DESC_its_just_business: "Create a Market."
 
  ACHIEVEMENT_all_in_favor: "All in Favor"
@@ -143,6 +143,7 @@
 
  ACHIEVEMENT_hongwu_di: "Hóngwǔ Dì"
  ACHIEVEMENT_DESC_hongwu_di: "As Míng, own the entirety of China and be the leader of the Middle Kingdom."
+ hongwu_di_east_china_trigger_tt: "[ShowRegionName('east_china_region')] (excluding [ShowAreaName('taiwan_area')]) is owned by [GetCountry('MNG').GetName] or its [subjects|e]"
 
  ACHIEVEMENT_break_the_yoke: "Break the Yoke"
  ACHIEVEMENT_DESC_break_the_yoke: "Break the Tatar Yoke as a Russian country."
@@ -184,6 +185,27 @@
 
  ACHIEVEMENT_five_hundred_miles: "500 Miles"
  ACHIEVEMENT_DESC_five_hundred_miles: "Own at least 100 locations with 5 roads each."
+
+ ACHIEVEMENT_saladin_legacy: "Saladin's Legacy"
+ ACHIEVEMENT_DESC_saladin_legacy: "Starting as Ayyubids, either you or your subjects own: Egypt Region and Hejaz, North Yemen, South Yemen, Levant, and Jazira areas."
+
+ ACHIEVEMENT_african_trade: "African Trade"
+ ACHIEVEMENT_DESC_african_trade: "Starting as Kilwa, own a market center in Africa with the highest market value in the world."
+
+ ACHIEVEMENT_i_am_inevitable: "I am Inevitable"
+ ACHIEVEMENT_DESC_i_am_inevitable: "Have all the Hegemonies."
+
+ ACHIEVEMENT_greatness_from_small_beginnings: "Greatness from Small Beginnings"
+ ACHIEVEMENT_DESC_greatness_from_small_beginnings: "Starting as a County, obtain the rank of Empire, excluding being the HRE emperor."
+
+ ACHIEVEMENT_goose_step_by_step: "Goose Step by Step"
+ ACHIEVEMENT_DESC_goose_step_by_step: "As Prussia have over 50 Quality and Offensive Societal Values."
+
+ ACHIEVEMENT_ill_be_wittelsback: "I'll be Wittelsback"
+ ACHIEVEMENT_DESC_ill_be_wittelsback: "Starting as Brandenburg, overcome the 'Turmoil in Brandenburg' disaster with a Wittelsbacher investment score of 100 and a Wittelsbach ruler on the throne."
+
+ ACHIEVEMENT_reformatio_imperii: "Reformatio Imperii"
+ ACHIEVEMENT_DESC_reformatio_imperii: "As the HRE Emperor have the 'Perpetual Diet', 'Ewiger Landfriede', and 'Direct Taxation' policies enacted."
 
 
  # Achievements Very Hard

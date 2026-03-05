@@ -222,7 +222,6 @@
  xilotepec_area: "Xilotepec"
  xalisco_area: "Xalisco"
  aridoamerica_sea_zones_area: "Aridoamerica Sea"
- janeiro_area: "Janeiro"
  mayaab_area: "Ma'ya'ab"
  chilapan_area: "Chilapan"
  puuk_area: "Pu'uk"
@@ -270,11 +269,11 @@
  paraguay_area: "Paraguay"
  guapore_area: "Guapore"
  uruguay_area: "Uruguay"
+ mato_grosso_area: "Mato Grosso"
 
       #Colombia Region
  bogota_area: "Bogota"
       #Andes Region
- andes_area: "Andes"
  quitu_area: "Quitu"
  chala_area: "Chala"
  atacama_area: "Atacama"
@@ -579,7 +578,7 @@
       #Caucasus Region
  armenia_area: "Armenia"
  georgia_area: "Georgia"
- northern_caucasus_area: "Northern  Caucasus"
+ northern_caucasus_area: "Northern Caucasus"
  shirvan_area: "Shirvan"
       #Poland Region
  central_poland_area: "Central Poland"

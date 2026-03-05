@@ -85,7 +85,7 @@
  steppe_horde.15.a: "裏切り者のクズどもめ！"
  steppe_horde.15.b: "その氏族の苦情に耳を傾ける。"
  steppe_horde.16.title: "氏族の争い"
- steppe_horde.16.desc: "首都の夏祭りが最高潮に達するなか、敵対するふたつの氏族の構成員たちが、[ROOT.GetCountry.GetFlavorRank]の政界および宗教界の指導者全員の前で公然と対立し、大規模な戦闘へと突入した。その後の暴力はあまりにも激しく、敵対する氏族の者たちだけでなく、無数の傍観者、さらには[ROOT.GetCountry.GetGovernment.GetAdjective]衛兵までもが命を落とした。"
+ steppe_horde.16.desc: "首都の夏祭りが最高潮に達するなか、敵対するふたつの氏族の構成員たちが、[ROOT.GetCountry.GetFlavorRank]の政界および宗教界の指導者全員の前で公然と対立し、大規模な戦闘へと突入した。その後の暴力はあまりにも激しく、敵対する氏族の者たちだけでなく、無数の傍観者、さらには[ROOT.GetCountry.GetGovernment.GetAdjective]の衛兵までもが命を落とした。"
  steppe_horde.16.a: "恥ずべき暴徒どもめ！ よくもこんなことを！"
  steppe_horde.16.b: "これがわが[ROOT.GetCountry.GetFlavorRank]の日常だ。"
  steppe_horde.17.title: "狩猟事故"

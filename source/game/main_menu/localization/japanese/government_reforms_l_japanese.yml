@@ -1,5 +1,5 @@
 ﻿l_japanese:
- #Monarchies
+ # Monarchies
  autocracy: "専制政治"
  autocracy_desc: "専制政治では権力が支配者の手に集中する。国家はしばしば支配者の私有財産とみなされる。支配者が側近や奉仕者を召し抱えることは珍しいことではないが、彼らは王家の一部とみなされる。"
  feudal_nobility: "封建貴族制"
@@ -10,7 +10,7 @@
  landgraviate_desc: "[ShowGovernmentReformName('landgraviate')]は「ラントグラーフ」に由来する名称で、分断された伯領地域における[GetInternationalOrganization('hre').GetName]の直轄区域として機能する。方伯は[ShowGovernmentReformNameWithNoTooltip('landgraviate')]の領地の[GetInternationalOrganization('hre').GetLeaderTitle]の法の直接的な代表者であり、その権限や責任は公爵に匹敵する。"
  french_feudal_nobility: "[GetCountry('FRA').GetAdjectiveWithNoTooltip]封建貴族制"
  french_feudal_nobility_desc: "[GetCountry('FRA').GetAdjective]の宮廷政治は封建制によりきつく縛られている。強力な貴族に加えて、分権化され自治権をもつ従属国が、かつてないほどの自由と発言権を内政に有している。"
- fra_removed_when_no_appanages_tt: "この[government_reform|e]は、わが国の[subject|e]としての[ShowSubjectTypeName('appanage')]が存在しなくなると取り除かれる"
+ fra_removed_when_no_appanages_tt: "この[government_reform|e]は、[ShowSubjectTypeName('appanage')][subjects|e]が残ってない場合に発生しうる[dynamic_historical_event|e]「$flavor_fra.1103.title$」によってのみ撤廃できる。"
  french_appanage_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip]のアパナージュ"
  french_appanage_reform_desc: "王家の血を引く諸侯としてアパナージュを与えられた者たちは、[GetCountry('FRA').GetName]の従属国のあいだで高い地位と大きな特権を享受している。外交問題における彼らの支援と引き換えに、[GetCountry('FRA').GetAdjective]国王は彼らに十分な敬意を払うことが期待されている。"
  french_ducal_vassal_reform: "[GetCountry('FRA').GetAdjectiveWithNoTooltip]公爵"
@@ -38,10 +38,10 @@
  mlo_council_of_justice_desc: "もとは農民間の地域紛争を解決するための機関だった司法評議会は、いまでは国で最も権威のある裁判所となり、事件を処理し、国民を守る盾として機能している。"
  mlo_secret_council: "秘密評議会"
  mlo_secret_council_desc: "秘密評議会は、貴族出身者で構成される団体である。その管轄範囲は国全体に及び、しばしば統治者の政策と衝突する。統治者に代わっておこなわれる重要な意志決定の大部分は、多くの場合、秘密評議会によって審査される。"
- #Scotland
+ # Scotland
  scottish_shires_reform: "[GetCountry('SCO').GetNameWithNoTooltip]のシャイア"
  scottish_shires_reform_desc: "[GetCharacter('sco_malcolm_iii').GetName]によって導入されたシャイア制度は、[GetCountry('SCO').GetName]を行政上の郡であるシャイアに分割する。各シャイアは独自の組織をもつ。"
- #Republics
+ # Republics
  merchant_republic: "商人共和国"
  merchant_republic_desc: "交易の原則に基づいて設立された共和国。この共和国を統治する一族にとって、交易の流れは最も重要である。"
  noble_elite: "貴族エリート"
@@ -66,10 +66,10 @@
  diplomatic_traditions_desc: "太古の昔から、わが民は剣よりも言葉を重んじ、同盟者と永続的な関係を築いてきた。そして、誠実で忠実な民族として高く評価されてきたのだ。"
  colonial_subject: "植民地従属国"
  colonial_subject_desc: "我々は文明の最前線に立っている。そのことが、最も勇敢にして果敢な臣民を世界の真裏からこの地へと渡らせ、新たな繁栄の人生を切り拓く機会をもたらしている。"
- #Steppe Horde
+ # Steppe Horde
  legacy_of_genghis: "$genghis_khan_name_no_tooltip$の遺産"
  legacy_of_genghis_desc: "我々は、世界を征服した偉大な$genghis_khan_name_no_tooltip$の子孫である。彼の血が、我々を誇り高く力強い民族にする。我々の馬が到達できる場所は、すべて我々のものとなるだろう。"
- #Theocracies
+ # Theocracies
  military_order_reform: "宗教騎士団"
  military_order_reform_desc: "宗教騎士団は、[ShowReligionAdjective('catholic')]教会の軍事組織として中世に創設された。その団員には、[ShowReligionGroupAdjective('christian')]を守り広めることを誓った「戦士（ミーレス）」と「僧兵（フラトレス）」がいる。"
  abbey_reform: "修道院"
@@ -81,7 +81,7 @@
  primas_germaniae: "ドイツにおける最高位聖職者"
  primas_germaniae_plural: "最高位聖職者"
  primas_germaniae_desc: "我々は[GetUniqueInternationalOrganization('hre').GetName]において最も重要な大司教の称号である、「プリマス・ゲルマニアエ（ドイツにおける最高位聖職者）」を保持している。"
- #Common
+ # Common
  the_combination_act: "労働連合の制限"
  the_combination_act_desc: "ストライキを防ぐためにあらゆる措置が講じられた。今後は、交易組合や労働組合など違法な組合の結成は全面的に禁じられる。"
  the_recruiting_act: "海軍徴用義務"
@@ -204,7 +204,7 @@
  state_sponsored_markets_desc: "商業を振興するため、国の支援のもとで交易拠点を設立しなければならない。政府の支援により、公正な価格設定や経済成長が確保される。"
  coastal_city_or_town_gets_tt: "所有するすべての[coastal|e][towns_and_cities|e]が以下を得る："
  every_coastal_location_gains_tt: "所有するすべての[coastal|e][location|e]が以下を得る："
- #Specific ones
+ # Specific ones
  alsno_stadga: "アルスノー・スタッガ"
  alsno_stadga_desc: "この規則集は、[GetCharacter('swe_magnus_ladulas').GetName]によって1280年にアルスノーの館で制定され、[ShowEstateTypeName('nobles_estate')]の利益を規制して制度化すると同時に、[ShowPopTypeName('peasants')]を彼らの搾取から保護するものだった。これこそが、彼が庶民から「ラドゥロス（納屋の鍵）」というあだ名で呼ばれた所以である。"
  papacy_reform: "教皇庁"
@@ -243,7 +243,7 @@
  por_casa_de_india: "インド商務院"
  por_casa_de_india_desc: "インド商務院は、[ShowContinentName('africa')]と$india$における[GetCountry('POR').GetAdjective]の所有物をすべて監督し、そこでの交易の全権利を管理している。"
  tsardom: "ツァーリ国"
- tsardom_desc: "この国家は帝政ローマの遺産と正教会の支持者である。全ロシアのツァーリとして、我らが統治者は東スラヴ人民の真の統治者である。"
+ tsardom_desc: "わが国家は帝政ローマの遺産を継承し、国教を支える守護者である。[ShowRegionName('russian_region')]全域を統べるツァーリとして、我らが統治者は[ShowCultureGroupName('russian_group')]人民の真の宗主である。"
  veche_republic: "ヴェーチェ共和制"
  veche_republic_desc: "この国家はヴェーチェと呼ばれる民会によって治められている。ヴェーチェとは最高立法・司法権を有する評議会で、[ShowEstateTypeName('nobles_estate')]、[ShowEstateTypeName('burghers_estate')]、さらには[ShowEstateTypeName('peasants_estate')]を構成員とする。"
  sudebnik: "スジェブニク"
@@ -376,7 +376,7 @@
  haudenosaunee_clan_mothers: "ホデノショニの氏族の母"
  haudenosaunee_clan_mothers_desc: "イアコイアネスと呼ばれるホデノショニの氏族の母は、氏族内で主要な権限を握っている。氏族の母たちは部族内の諸事を取り仕切るとともに、ホデノショニ諸部族の評議会において一族の利益を代表する「ロヤナー」と呼ばれる男性を選出する責任を負っている。"
  andean_monarchy: "アンデス君主制"
- andean_monarchy_desc: "[ShowAreaName('andes_area')]の人々に広く浸透している政府改革。継承法に霊的信仰が織り込まれており、新しい統治者は世俗的な所有物をもたずに治世を始めることを強いられる。"
+ andean_monarchy_desc: "[ShowRegionName('andes_region')]の人々に広く浸透している政府改革。継承法に霊的信仰が織り込まれており、新しい統治者は世俗的な所有物をもたずに治世を始めることを強いられる。"
  tawantinsuyu_monarchy: "タワンティン・スウユ君主制"
  tawantinsuyu_monarchy_desc: "$INC_ADJ$帝国の政府改革であり、起源となる君主制から発展させたもの。宗教的信仰が継承法と密接に結びついており、新しい統治者は一切の私有財産をもたずに治世を始めることになる。"
  reformed_tawantinsuyu_government: "タワンティン・スウユ政府の改革"
@@ -391,7 +391,7 @@
  crusade_sea_reform_desc: "聖地の城の防衛から海での海賊や異教徒との戦いに重点が移ったため、教団の運営方法を変更する必要があった。ガレー船は我々の戦場となり、キリストの敵に対する最初の防波堤となるだろう。"
  representative_parliament_reform: "代表議会"
  representative_parliament_reform_desc: "$representative_parliament_reform$の実施は政治力学に大きな変化をもたらし、[ShowPopTypeName('peasants')]のような貧しい生まれの者にも議会の議席を確保する機会を与える。この特権は伝統的にエリート層と特権階級の独占的な領域であった。"
- japanese_imperial_family: "[GetCountry('JAP').GetAdjectiveWithNoTooltip]の皇室"
+ japanese_imperial_family: "$JAP_ADJ$の皇室"
  japanese_imperial_family_desc: "太陽の女神天照の子孫であると主張する[ShowDynastyName('yamato_dynasty')]王朝は、何世紀にもわたり高御座を占領してきた。"
  japanese_clan: "日本の氏族"
  japanese_clan_desc: "天皇を中心とする朝廷が地方を効果的に統治できないことから、多数の武家氏族が独自の権力基盤を築いた。将軍のもとでの軍事的政府構造は、武家同士の絶え間ない権力闘争の温床となった。"
@@ -439,21 +439,21 @@
  kor_sadae_reform_desc: "$kor_sadae_reform$は[ShowRegionName('korea_region')]と$china$の緊密な関係を維持するものであり、前者は後者の属国として扱われる。これにより、わが国は[GetInternationalOrganization('middle_kingdom').GetName]に従属し、[ShowCultureGroupName('chinese_group')]との良好な関係を維持するよう努めなければならない。"
  holy_imperial_monarchy_reform: "神聖帝国君主制"
  holy_imperial_monarchy_reform_desc: "帝国は栄華の極みに達した。ローマ帝国の唯一にして正統なる後継者として、我々の神に選ばれし統治権を否定することなど誰にもできないだろう。"
- #Prussian
+ # Prussian
  pru_unified_legal_system: "統一された法制度"
  pru_unified_legal_system_desc: "我々は専門的な司法機構を築き上げながら、職権の濫用や不正を根絶し、国内の法制度を統一するために長きにわたり努力してきた。"
  peuplierung_system: "人口増殖政策"
  peuplierung_system_desc: "$peuplierung_system$は、国家の人口稀薄な地方に移民を呼び寄せ、定住させることを目的とした施策である。"
- #Livonian
+ # Livonian
  livonian_confederation: "リヴォニア連盟"
  livonian_confederation_desc: "[ShowAreaName('baltic_area')]地域は、古くから数多の従属的な司教領と属国とに分かれ、統一を欠いてきた。我らはこの「テッラ・マリアナ」をひとつの中央集権国家へまとめ上げるのではなく、この地方分権のあり方を受け入れるべきである。"
  #Jurchen
- haixi_jurchen_reform: "海西[ShowCultureNameWithNoTooltip('jurchen_culture')]"
- haixi_jurchen_reform_desc: "$haixi_jurchen_reform$は[ShowCultureName('jurchen_culture')]人たちの集団であり、農業よりも牧畜に重点を置いている点で$jianzhou_jurchen_reform$とは異なっている。また、多くの[ShowCultureName('mongolian_culture')]の伝統を採用していることでも知られる。"
+ haixi_jurchen_reform: "海西[ShowCultureGroupNameWithNoTooltip('jurchen_group')]"
+ haixi_jurchen_reform_desc: "$haixi_jurchen_reform$は[ShowCultureGroupName('jurchen_group')]人たちの集団であり、農業よりも牧畜に重点を置いている点で$jianzhou_jurchen_reform$とは異なっている。また、多くの[ShowCultureName('mongolian_culture')]の伝統を採用していることでも知られる。"
  jianzhou_jurchen_reform: "建州女真"
- jianzhou_jurchen_reform_desc: "$jianzhou_jurchen_reform$は高度に中国化された[ShowCultureName('jurchen_culture')]族の一団であり、主に農業に従事しながら定住している。これらの[ShowCultureNameWithNoTooltip('jurchen_culture')]族は、[ShowCultureGroupName('chinese_group')]の近隣都市とのあいだに緊密な交易網を築いている。"
- yeren_jurchen_reform: "野人[ShowCultureNameWithNoTooltip('jurchen_culture')]"
- yeren_jurchen_reform_desc: "$yeren_jurchen_reform$は、人口密度の低い地域に居住し、より伝統的な生活様式を保っている[ShowCultureName('jurchen_culture')]族の集団である。彼らは主に狩猟と採集で暮らしており、農耕はそれほど盛んではない。"
+ jianzhou_jurchen_reform_desc: "$jianzhou_jurchen_reform$は高度に中国化された[ShowCultureGroupName('jurchen_group')]族の一団であり、主に農業に従事しながら定住している。これらの[ShowCultureGroupNameWithNoTooltip('jurchen_group')]族は、[ShowCultureGroupName('chinese_group')]の近隣都市とのあいだに緊密な交易網を築いている。"
+ yeren_jurchen_reform: "野人[ShowCultureGroupNameWithNoTooltip('jurchen_group')]"
+ yeren_jurchen_reform_desc: "$yeren_jurchen_reform$は、人口密度の低い地域に居住し、より伝統的な生活様式を保っている[ShowCultureGroupName('jurchen_group')]族の集団である。彼らは主に狩猟と採集で暮らしており、農耕はそれほど盛んではない。"
  lifan_yuan: "理藩院"
  lifan_yuan_desc: "$lifan_yuan$は、[ShowRegionName('mongolia_region')]、[ShowRegionName('tibet_region')]、[ShowRegionName('xinjiang_region')]の各藩部など、[ShowContinentName('asia')]内陸部の国家領土と政策を管理する機関である。また、必要に応じてさらに内陸部の領地の管理もおこなう。"
  prikazi_reform: "プリカース"
@@ -480,7 +480,7 @@
  standardized_relazioni_reform_desc: "「レラツィオーネ」とは大使が政府に送る報告書である。大使は、赴任先の国の政治、経済、社会情勢について詳細に報告する。"
  indian_sultanate_reform: "インドスルタン国"
  indian_sultanate_reform_desc: "[ShowReligionGroupName('muslim')]少数派によって統治される$india$スルタン国は、[ShowReligionGroupNameWithNoTooltip('muslim')]の伝統的な王権思想を進化させ、拡張せざるを得なかった。彼らはイスラム教国ではあるが、伝統的にはユダヤ教徒とキリスト教徒だけだったズィンミーの対象を拡大し、ダーマ系の宗教にも適用した。"
- vij_astadiggajas: "アスタディガジャス"
+ vij_astadiggajas: "アシュタ・ディッガジャ"
  vij_astadiggajas_desc: "「アシュタ・ディッガジャ（八方の象）」とは、わが宮廷に仕える[ShowCultureName('telugu')]の学者と詩人に与えられた総称である。彼らの革新的な営みは文化の芸術的方向性に大きな影響を与え、我々を創造と知性の新たな黄金時代へと導くだろう。"
  nayankara_system: "ナーヤンカラ制"
  nayankara_system_desc: "領地支配をより的確におこない、軍事的野心をさらに推し進めるため、我々は多くの領土をナーヤカに分与した。ナーヤカはこれらの地を統治し、その内にある都市・寺院・集落を維持するとともに、王国を守り拡大するための軍隊を提供することが期待される。"
@@ -534,7 +534,7 @@
  autonomous_swiss_cantons_reform_desc: "スイスのカントンは、スイスが以前と同じ緩やかな同盟関係を理想とした統一国家となったあとも、その独立した権限を保持している。"
  zur_guild_constitution: "ギルド体制"
  zur_guild_constitution_desc: "わが国を統治するのは、評議会と副評議会に分かれた26人の評議員である。評議員は富裕な商人、ギルドの職人、貴族から同数ずつ選出される。これは特定の派閥が過半数を占め、ほかの派閥の同意なしに統治することを防ぐためである。"
- dan_the_kings_law: "王法"
+ dan_the_kings_law: "国王法"
  dan_the_kings_law_desc: "国王法は、[GetCountry('DAN').GetName]の絶対王政主義的な基本法であり、国王の絶対的な権限を正式に定めたもの。君主が立法、行政、司法すべての権限を握り、最高権力者となる。"
  dan_college_of_missions: "ミッション・カレッジ"
  dan_college_of_missions_desc: "ミッション・カレッジは、宣教活動の支援と国民のキリスト教への改宗を目的として、[GetCountry('DAN').GetAdjective]が国費を投じて設立した協会である。"
@@ -623,5 +623,5 @@
  guru_granth_sahib_reform: "$guru_granth_sahib$"
  guru_granth_sahib_reform_desc: "$guru_granth_sahib_desc$"
  #Malacca Formable
- shahbandariyya_reform: "Shāhbandariyya"
+ shahbandariyya_reform: "シャーバンダリーヤ"
  shahbandariyya_reform_desc: "$shahbandar_desc$"

@@ -296,7 +296,7 @@
  clergy_religious_state: "宗教的統治"
  clergy_religious_state_desc: "宗教問題を最優先事項として扱うことで、我々は国家をよりまとまりのあるものにできるだろう。"
  clergy_papal_emissary: "教皇の使者"
- clergy_papal_emissary_desc: "わが国は、[GetCountry('PAP').GetGovernment.GetRulerTitle]の特使やその他の使者を歓迎するだけでなく、彼らの判断に従い、現地の[ShowEstateTypeName('clergy_estate')] と[GetCountry('PAP').GetGovernment.GetRulerTitleWithNoTooltip]との関係に干渉しないことを約束する。"
+ clergy_papal_emissary_desc: "わが国は、[GetCountry('PAP').GetGovernment.GetRulerTitle]の特使やその他の使者を歓迎するだけでなく、彼らの判断に従い、現地の[ShowEstateTypeName('clergy_estate')]と[GetCountry('PAP').GetGovernment.GetRulerTitle]との関係に干渉しないことを約束する。"
  freedom_of_interpretation: "解釈の自由"
  freedom_of_interpretation_desc: "我々の信仰の教えの多くは、人々が休息し、良識的で正しい生活を営むための木陰に等しい。この叡智という保護の天蓋のもと、わが民は信仰の理を深く思索し、我々の教義を広め、多様化することが奨励される。この解釈の自由によって、我らの宗教は中核となる原則を保ちつつ、多様な共同体に応じて姿を変えることが可能となる。"
  expansionist_zealotry: "拡張主義の熱狂"
@@ -307,7 +307,7 @@
  promote_cultural_unity_desc: "まとまりのある強固な社会の基礎は、本質的にはひとつの文化を推進することで成り立つ。これによって全国民が団結し、他国の影響から身を守ることができる。"
  embellish_great_works_of_faith: "偉大な宗教施設の誇示"
  embellish_great_works_of_faith_desc: "我々の寛大さと信仰の強さを示すには、畏敬の念を抱かせるような大規模な施設を建て、神に捧げるのが最も効果的である。"
- #dhimmi privileges
+ # dhimmi privileges
  dhimmi_land_rights: "地方の土地使用権の保証"
  dhimmi_land_rights_desc: "人間にとって家は生命線である。わが国にいる異教徒の土地使用権を保証することで、彼らと政府とのあいだに信頼関係を築くことができる。"
  dhimmi_lighter_taxes: "税の軽減"
@@ -437,7 +437,7 @@
  printing_of_religious_texts: "宗教書の印刷"
  printing_of_religious_texts_desc: "宗教書の印刷、商品化、および流通のための手順を整備することこそ、わが国の敬虔さと識字率を高める次なる段階である。\n\n特権「[ShowEstatePrivilegeName('sponsor_printing_of_religious_texts')]」をアンロックする。"
  liturgical_mural_art: "典礼壁画芸術"
- liturgical_mural_art_desc: "我らが宮殿内の壁は、我々の信仰の美を示し、神への愛を告白する手段として、国内最高峰の芸術家たちが制作した魅惑的な宗教絵画で装飾される。"
+ liturgical_mural_art_desc: "我らが宮殿内の壁は、我々の信仰の美を示し、神への愛を表明する手段として、国内最高峰の芸術家たちが制作した魅惑的な宗教絵画で装飾される。"
  #Unique Privileges#
  golden_liberty: "黄金の自由"
  golden_liberty_desc: "「黄金の自由（ズウォタ・ヴォルノシチとも）」は、統治者の選出権や国家政策の決定権などの、[ShowEstateTypeName('nobles_estate')]が保持する大きな影響力と特権を表している。これは階級、経済的地位、民族的背景に関わらず、すべての[ShowEstateTypeName('nobles_estate')]が同等の権力をもつとみなされることを意味した。"
@@ -464,7 +464,7 @@
  allow_hunting: "狩猟の許可"
  allow_hunting_desc: "[ShowEstateTypeName('peasants_estate')]が領主または町の領地の法的および物理的境界内で、狩猟や獲物の皮剥ぎをおこなうことを許可する。"
  no_labor_sunday: "日曜日は安息日"
- no_labor_sunday_desc: "[ShowReligiousGroupName('christian_group')]会の教えに従い、敬虔さと慈悲のしるしとして、農奴や農民に日曜日の休息を義務づけるのは賢明である。"
+ no_labor_sunday_desc: "[ShowReligionGroupAdjective('christian')]の教えに従い、敬虔さと慈悲のしるしとして、農奴や農民に日曜日の休息を義務づけるのは賢明である。"
  communal_lands: "共同の土地"
  communal_lands_desc: "庶民は基本的に不利な階級ではあるが、我々は[ShowEstateTypeName('peasants_estate')]階級に属するすべての者が、共通の家畜の群れを作る権利と、共有の田畑で作物を育てる権利をもつように規定する必要がある。"
  partial_yield: "生産量の一部"
@@ -476,7 +476,7 @@
  ius_teutonicum: "ドイツ法"
  ius_teutonicum_desc: "カロリング朝の東方進軍の時代以来、[ShowCultureGroupName('german_group')]人はさらに東に拡大し、定住してきた。「東方植民」として知られるこの[ShowCultureGroupNameWithNoTooltip('german_group')]人入植者の流入は、人口の少ない地域を埋めるために現地の統治者によってしばしば奨励されている。これらの入植者は特別な法律、「$ius_teutonicum$」の対象となり、税金の免除や自治都市を設立する権利などの特権が与えられる。"
  kormlenije: "給餌制度"
- kormlenije_desc: "給餌制度は、[GetCountry('RUS').GetAdjective][ShowEstateTypeName('nobles_estate')]の財政的および物質的ニーズに対処する制度で、上流階級間の経済的依存関係を構築する。この依存関係は、彼らの揺るぎない忠誠心を確保するうえで重要な役割を果たす。"
+ kormlenije_desc: "給餌制度は、$RUS_ADJ$[ShowEstateTypeName('nobles_estate')]の財政的および物質的ニーズに対処する制度で、上流階級間の経済的依存関係を構築する。この依存関係は、彼らの揺るぎない忠誠心を確保するうえで重要な役割を果たす。"
  haudenosaunee_labor_division: "ホデノショニの労働分配"
  haudenosaunee_labor_division_desc: "わが国民は、各共同体において明確に定義された役割を担っている。全員の利益のために種々の役割が分配され、割り当てられ、同じ任務に割り当てられた者全員が協力して作業する。男性と女性は、それぞれの役割を通じて互いに補完しつつ働き、全体として調和のとれた分業体制を築いている。"
  manifesto_of_freedom: "自由宣言"
@@ -502,8 +502,8 @@
  mita_system_desc: "ミタ制の施行に伴い、15歳から50歳までのすべての男性は政府で働くことが義務づけられる。これは彼らが政府の無償労働力として、1年間奉仕することを意味するが、この労働は各人が家族を養う能力を損なわないように規制される。"
  #Teutons
  kulm_law: "クルム法"
- kulm_law_desc: "マクデブルク法の修正版であるクルム法は、都市商人ギルドの商業的利益の確保した[GetCountry('PRU').GetAdjective]の全都市に対し、大君主からの大幅な自治権を与えた。"
- invite_german_settlers: "[GetCountry('PRU').GetAdjectiveWithNoTooltip]人入植者の招致"
+ kulm_law_desc: "マクデブルク法の修正版であるクルム法は、都市商人ギルドの商業的利益の確保した[ShowAreaName('prussia_area')]の全都市に対し、大君主からの大幅な自治権を与えた。"
+ invite_german_settlers: "[ShowCultureGroupNameWithNoTooltip('german_group')]人入植者の招致"
  invite_german_settlers_desc: "わが国に移民を迎え入れることで、人口の増加と地域情勢の変化から恩恵を受ける強固な国家を築くことができる。"
  invite_german_settlers.tt: "ドイツからの移民の波が、定期的にわが国に到着するようになる"
  #The Knights
@@ -523,7 +523,7 @@
  autonomous_kadiluks_desc: "カーディー（裁判官）の裁量をより有効に活用するため、彼らには、割り当てられたカディルク管轄区域内でより大きな権限が与えられるべきである。"
  ayans_privilege: "アーヤーンの名士たち"
  ayans_privilege_desc: "遠隔地の複雑な権力構造を最も理解しているのは、すでに現地に住んでいる上流階級である。彼らはアーヤーンの地位を与えられ、国家からの干渉をほとんど受けることなく統治を任される。"
- #Brandenburg / Prussia
+ # Brandenburg / Prussia
  bra_kreditwerk: "信用組合"
  bra_kreditwerk_desc: "信用組合はわが国の財政の大部分を支配しており、我々の財務能力を妨げている。"
  bra_kreditwerk_reformed: "信用組合の改革"
@@ -542,7 +542,6 @@
  libro_d_argento_desc: "[GetCountry('VEN').GetLongName]のすべての貴族の家系が記載された金の書と同様に、「銀の書」には、「名門市民」の家系が記されている。彼らは平民でありながら、ヴェネト潟の最初の住民の子孫であり、それゆえに[GetCountry('VEN').GetNameWithNoTooltip]市民として商売をおこなう権利と、[GetCountry('VEN').GetGovernment.GetGovernmentType.GetName]の行政機関での仕事に就く権利を得た人々である。"
  zontas: "ゾンタ"
  zontas_desc: "[GetCountry('VEN').GetName][GetCountry('VEN').GetFlavorRank]の大評議会は貴族から構成員を選出し、「ゾンタ」と呼ばれる委員会を組織した。これは、単一の統治者による権力の集中から憲法を守る特権と務めを負っている。"
- zontas_revoke_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の階級権力が#Y 25.0%#!未満か、[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]の階級権力が#Y 50.0%#!以上である"
  avogadoria_de_comun: "アヴォガドリ・デ・コムーネ"
  avogadoria_de_comun_desc: "[GetCountry('VEN').GetAdjective]共和国は、政府の要職を占める貴族や富裕層の一族によって掌握されている。国家の利益、ひいてはこれらの一族の利益を守るため、大評議会はアヴォガドリ・デ・コムーネ、すなわち「国家検察官」を創設した。彼らは高官の会計を検査し、汚職の疑惑を調査し、法律違反を起訴する。\nドージェ（統領）ですら、彼らの監視の目を逃れることはできない……"
  #Scotland
@@ -561,7 +560,7 @@
  salt_tax_exemption_desc: "[ShowGoodsName('salt')]の不足と価格の高騰が[ShowEstateTypeName('peasants_estate')]に経済的困難をもたらしている。この困難を迅速に緩和し、社会不安を軽減するために、彼らは[ShowGoodsNameWithNoTooltip('salt')]に対するいかなる税金も免除される。"
  charter_of_the_nobility: "貴族の勅令"
  charter_of_the_nobility_desc: "プガチョフの乱のあと、[ShowEstateTypeName('nobles_estate')]の特権を強化し、秩序維持における彼らの役割を強調する勅令が出された。"
- #France
+ # France
  villes_franches: "ヴィルフランシュ"
  villes_franches_desc: "過去数十年で、わが国のいくつかの市場街は規模が飛躍的に拡大した。その結果、市場街ではある程度の自治権が発達して自由都市に似たものへと変化し、統治においては分散型の手法に傾いている。"
  residence_in_versailles: "ヴェルサイユ宮殿内の住居"
@@ -667,7 +666,7 @@
  #Mamluks
  mam_muhtasibs: "ムフタスィブ市場監督"
  mam_muhtasibs_desc: "ムフタスィブは[ShowEstateTypeName('burghers_estate')]を検査し、詐欺を働いた者を公に罰し、不正を見抜き防ぐための手引書を作成することで、市場の健全性を監督する。"
- #Delhi
+ # Delhi
  heritable_iqta: "世襲[ShowLawNameWithNoTooltip('iqta_law')]"
  heritable_iqta_desc: "[ShowLawName('iqta_law')]の職位は通常、世襲されるものではない。これを世襲制とすることは前例がなく、[ShowEstateTypeName('nobles_estate')]の忠誠心を大いに高めるだろう。"
  #Rise of the Ottomans

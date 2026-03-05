@@ -1,4 +1,10 @@
 ﻿l_english:
+
+ local_governor_tt: "If there is less than [SCOPE.sCountry('actor').GetModifierValue('num_local_governors')] [ShowBuildingTypeName('local_governor')] in [SCOPE.sCountry('actor').GetNameWithNoTooltip] (Currently [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('local_governor')|V])."
+ naval_governor_tt: "If there is less than [SCOPE.sCountry('actor').GetModifierValue('num_naval_governors')] [ShowBuildingTypeName('naval_governor')] in [SCOPE.sCountry('actor').GetNameWithNoTooltip] (Currently [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('naval_governor')|V])."
+ local_bailiff_tt: "If there is less than [SCOPE.sCountry('actor').GetModifierValue('num_bailiffs')] [ShowBuildingTypeName('bailiff')] in [SCOPE.sCountry('actor').GetNameWithNoTooltip] (Currently [SCOPE.sCountry('actor').GetTotalBuildingLevelsIncudingUnderConstruction('bailiff')|V])."
+
+
  colonial_category: "Colonial Buildings"
  colonial_category_desc: "These are buildings that can be built in foreign unoccupied locations and that help us expand our influence there."
  cultural_category: "Cultural Buildings"
@@ -19,6 +25,9 @@
  trade_company_building: "Trade Company Building"
  satellite_trade_building: "Satellite Trade Building"
  
+ 
+ free_village: "Free Village"
+ free_village_desc: "A community of free peasants that was founded unencumbered by the obligations to the landlords typical of rural society."
  
  
  guild: "Guild"
@@ -199,6 +208,14 @@
  peasants_hunting_grounds: "Peasants Hunting Grounds"
  local_schools: "Local Schools"
  local_newspaper: "Local Newspaper"
+ 
+ naval_governor: "Naval Governor"
+ naval_governor_desc: "$local_governor_desc$"
+
+ 
+ local_governor: "Local Governor"
+ local_governor_desc: "A seat of regional authority that extends the reach of the state to its most distant lands, expanding its influence beyond its immediate surroundings. When connected to the capital by the road network, they act as hubs for governance and administration."
+ 
  #
  # 
  horse_breeders: "Stud Farm"
@@ -1138,4 +1155,11 @@
 
 #Tlemcen 
  qalat_al_mashwar: "Qal'at al-Mashwār"
- qalat_al_mashwar_desc: "Deep in the heart of $tlemcen$ lies a fortified and beautifully illustrious palatial complex. A symbol of local power and prosperity, the royal palace also serves as the administrative center of the seated dynasty. Besides its unparalleled beauty, it also serves as a defensive structure against foreign threats and prospecting conquerors."
+ qalat_al_mashwar_desc: "Deep in the heart of $tlemcen$ lies a fortified and beautifully illustrious palace complex. A symbol of local power and prosperity, the royal palace also serves as the administrative center of the seated dynasty. Besides its unparalleled beauty, it also serves as a defensive structure against foreign threats and prospecting conquerors."
+
+ #Germany
+ german_river_toll_castle: "River Toll Castle"
+ german_river_toll_castle_desc: "A small castle placed along the river facilitates control over passing traders, granting our state a vital share of the local trade income."
+
+ german_mountain_toll_castle: "Mountain Toll Castle"
+ german_mountain_toll_castle_desc: "A small castle placed on a crucial mountain pass facilitates control over passing traders, granting our state a vital share of the local trade income."

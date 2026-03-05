@@ -34,3 +34,6 @@
  unionevents.98.a: "Elect [target_character.GetShortNameWithNoTooltip]!"
  unionevents.98.b: "It is time for us to separate from the [ROOT.GetCountry.GetDiplomacy.GetUnion.GetNameWithNoTooltip]."
  unionevents.98.c: "Long live the [ROOT.GetCountry.GetLongNameWithNoTooltip]!"
+ unionevents.100.title: "[breakaway_ruler.GetShortNameWithNoTooltip]'s Rise of Power in [root_country.GetNameWithNoTooltip]"
+ unionevents.100.desc: "Through circumstances and events outside of our power, [breakaway_ruler.GetName] has taken over the ruling government of the [root_country.GetLongName]. As such, our union with them is no longer in effect as we no longer share the same head of the state..."
+ unionevents.100.a: "Oh sure! As if we needed them anyway!"
