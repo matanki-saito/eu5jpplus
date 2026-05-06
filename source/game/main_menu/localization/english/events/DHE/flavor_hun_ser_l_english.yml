@@ -1,5 +1,6 @@
 ﻿l_english:
  flavor_hun_ser.1000.title: "An Offer for [target_location.GetNameWithNoTooltip]"
+ flavor_hun_ser.1000.entry: "An Offer For Belgrade - Serbia"
  flavor_hun_ser.1000.desc: "Over centuries, [target_location.GetName] has changed hands many times. Multiple countries have at times controlled this strategically important [target_location.GetRank.GetName], which allowed them to tighten their grip over the wider region around the Danube. [ROOT.GetCountry.GetAdjective] control of [target_location.GetNameWithNoTooltip] came to an end in 1319, when the [target_location.GetRank.GetNameWithNoTooltip] was seized by [target_country.GetName]. As we now have forged an alliance with them, perhaps we could send [target_country.GetNameWithNoTooltip] an offer - gold in exchange for [target_location.GetNameWithNoTooltip]. Many are hoping that there is a chance to negotiate the return of [target_location.GetNameWithNoTooltip], since ceding it to an ally will not compromise the security of [target_country.GetNameWithNoTooltip]."
  flavor_hun_ser.1000.a: "We have nothing to lose."
  flavor_hun_ser.1000.b: "Let us not do this."
@@ -20,3 +21,4 @@
  flavor_hun_ser.1003.desc: "$flavor_hun_ser_response_common$ Our [target_country.GetAdjective] allies have unfortunately rejected the offer, and so [target_location.GetNameWithNoTooltip] remains under their control."
  flavor_hun_ser.1003.a: "At least we have tried..."
  flavor_hun_ser.1003.b: "We will take [target_location.GetNameWithNoTooltip] by force!"
+ flavor_hun_ser.1003.b.entry: "We will take the location by force!"

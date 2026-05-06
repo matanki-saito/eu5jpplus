@@ -11,6 +11,7 @@
  loc_key_desc_tribunal: "During the [ShowSituationName('hussite_wars')] [situation|e], enemies of [ShowReligionName('hussite')] gain access to the unique [unit|e] [action|e] [ShowUnitAbilityName('hussite_tribunal')] on [locations|e] controlled by a [ShowReligionAdjective('catholic')] [enemy|e]. This action will [convert|e] some [ShowReligionAdjectiveWithNoTooltip('hussite')] [pops|e] while putting others to the sword."
 
  hussite_wars.1.title: "[jan_zelivsky_scope.GetNameWithNoTooltip]'s Congregation"
+ hussite_wars.1.entry: "Jan Želivský's Congregation"
  HUSSITE_WARS_SIDE_BOHEMIA: "The [THIS.GetLocation.GetOwner.GetLongName|Y] is supporting the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
  HUSSITE_WARS_SIDE_POPE: "The [THIS.GetLocation.GetOwner.GetLongName|Y] opposes the [GetCountry('BOH').GetLongName] in the [ShowSituationName('hussite_wars')]!"
  pope_hw_tt: "This is the [GetCountry('PAP').GetGovernment.GetRulerTitle], hellbent on destroying [ShowReligionName('hussite')]!"
@@ -56,6 +57,9 @@
 
  join_current_war_against_papal_states_tt: "We will join the ongoing [war|e] of the [GetCountry('BOH').GetLongName] against the [GetCountry('PAP').GetLongName]"
  join_current_war_against_bohemia_tt: "We will join the ongoing [war|e] of the [GetCountry('PAP').GetLongName] against the [GetCountry('BOH').GetLongName]"
+ HRE_EMPEROR_SUPPRESSES_HERESY_DESC: "As [GetUniqueInternationalOrganization('hre').GetLeaderTitle], we have a duty to suppress [ShowReligionName('hussite')] heresy within the [GetUniqueInternationalOrganization('hre').GetName]"
+ HRE_MEMBER_SUPPRESSES_HERESY_DESC: "As members of the [GetUniqueInternationalOrganization('hre').GetName], we are motivated to fight heresy within the [GetUniqueInternationalOrganization('hre').GetName]"
+ CATHOLIC_RELUCTANCE_JOIN_HERETICS_DESC: "We are reluctant to take up arms alongside [ShowReligionAdjective('hussite')] heretics against the [GetUniqueInternationalOrganization('catholic_church').GetLeaderTitle]"
 
 
 
@@ -89,13 +93,21 @@
  hussite_wars.3.a: "To arms!"
  hussite_wars.3.b: "Let us not rush into action."
 
- hussite_wars.4.title: "Peace in [target_capital.GetNameWithNoTooltip]"
+ hussite_wars.4.title.hussite_victory: "[ShowReligionAdjectiveWithNoTooltip('hussite')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]"
+ hussite_wars.4.title.catholic_victory: "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]"
  hussite_wars.4.a.desc: "Our struggle to receive equal treatment and recognition from the [ShowReligionAdjective('catholic')] authorities has come to fruition. The defense of our people and faith has been successful and we now claim our seat at the European table as equals."
  hussite_wars.4.b.desc: "The taste of defeat sits bitterly on our lips, as we were forced to recognize the supreme authority of the [ShowReligionAdjective('catholic')] Church. We had a dream that we knew was just but in the face of corruption and evil we faltered, alas it was not meant to be..."
+ hussite_wars.4.c.desc: "Our crusade against heresy has been crowned with divine success. The fires of [ShowReligionName('hussite')] have been extinguished within [GetCountry('BOH').GetLongName], and the righteous authority of [ShowReligionName('catholic')] has been restored across the faithful lands. Let the world see that the Church's resolve is unbreakable."
+ hussite_wars.4.d.desc: "Despite the righteousness of our cause, the followers of [ShowReligionName('hussite')] have prevailed in [target_capital.GetNameWithNoTooltip]. The [GetCountry('BOH').GetLongName] emerges from this conflict emboldened, their heretical faith recognized by all. We must accept this bitter peace and seek another path to restore the unity of [ShowReligionName('catholic')]."
+ hussite_wars.4.e.desc: "The shadow of defeat falls upon our [ShowReligionAdjectiveWithNoTooltip('hussite')] cause. Despite standing alongside our brethren in [GetCountry('BOH').GetLongName], the forces of [ShowReligionName('catholic')] have prevailed and the old order has been restored. Yet our faith endures, and the ideas for which we fought cannot so easily be silenced."
  hussite_wars.4.a: "Our true faith is victorious!"
  hussite_wars.4.b: "All is fair, in faith and war..."
+ hussite_wars.4.c: "The Church has prevailed!"
+ hussite_wars.4.d: "The heresy endures..."
+ hussite_wars.4.e: "Our faith endures, even in defeat."
 
  hussite_wars.5.title: "The One-Eyed [target_character.GetLastNameWithNoTooltip]"
+ hussite_wars.5.entry: "The One-Eyed Žižka"
  hussite_wars.5.desc: "One of our most prominent leaders in the battlefield, [target_character.GetName] has a history of serving our people during these trying times. Word around the camps notes of [target_character.GetHerHim] losing an eye to a rival soldier's arrow. According to eye-witness accounts, instead of retreating or surrendering, [target_character.GetSheHe] simply removed the arrow and continued fighting.\n\nDespite the injuries, [target_character.GetSheHe] became a formidable commander and now wishes to be promoted and lead more troops to grand victories. Should we wish to strike a fearsome blow against our foes, we must seriously consider heralding [target_character.GetHerHim] as a national hero, an emblem of our resistance against [ShowReligionName('catholic')]."
  hussite_wars.5.a: "A great hero in our hour of need."
  hussite_wars.5.historical_info: "Also known as Jan Žižka z Trocnova a Kalicha, he was a prominent military leader in the 15th century, heralded as one of the most prominent figures of the Hussite movement. He led the Hussites to numerous victories using innovative military tactics, including the use of war wagons for mobile defense. His strategic brilliance and charismatic leadership were key to their successes against multiple crusades launched by the Catholic Church."

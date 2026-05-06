@@ -64,6 +64,7 @@
   nobles_burghers_10_satisfaction_at_the_expense_of_peasants_tt: "Our [ShowPopTypeName('nobles')] and [ShowPopTypeName('burghers')] [pops|e] in [target_location.GetNameWithNoTooltip] will gain [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e] and the [ShowPopTypeName('peasants')] will lose [ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]"
 
   byzantine_succ_crisis.11.title: "Foreign Merchants Privileges"
+ byzantine_succ_crisis.11.entry: "$byzantine_succ_crisis.11.title$"
   byzantine_succ_crisis.11.desc: "[target_location.GetName] is home to a thriving community of traders, with merchants arriving at our ports from the far corners of the world, eager to trade and exchange wealth with their foreign peers. Sadly, it appears that our mercantile and naval affairs do not share the splendor of our ancestors, a visible sign of a waning naval authority and loss of prestige. As [target_character.GetName] threatens to usurp the crown and while our funds are running lower and lower, we have been approached by representatives from [GetCountry('VEN').GetName] and [GetCountry('GEN').GetName] that have stepped forth with a proposal to fund our navies in exchange for privileges across our markets..."
   byzantine_succ_crisis.11.a: "Sign an agreement with [GetCountry('VEN').GetNameWithNoTooltip]."
   byzantine_succ_crisis.11.b: "We will request the assistance of [GetCountry('GEN').GetNameWithNoTooltip]."

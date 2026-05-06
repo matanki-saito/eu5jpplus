@@ -1,5 +1,6 @@
 ﻿l_japanese:
  legatusnatus.1.title: "生まれながらの特使"
+ legatusnatus.1.entry: "$legatusnatus.1.title$"
  legatusnatus.1.desc: "長年にわたり、[home_ruler.GetName]は[pope_ruler.GetName]のアルプス以北の代理、つまり[ShowGovernmentReformName('legatus_natus')]を誇りをもって務めてきた。\nこれほどまでに権威ある称号には一定の品格が求められる。我々の威信や、我々と[GetCountry('PAP').GetGovernment.GetRulerTitle]との関係を損なうことがあってはならないのだ。"
  legatusnatus.1.a: "すべては神の手中にある。"
  legatusnatus.2.title: "「生まれながらの特使」の称号を剥奪"

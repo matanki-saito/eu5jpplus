@@ -1,5 +1,6 @@
 ﻿l_english:
  flavor_cas_rio_salado.1.title: "The Threat of [GetCountry('MOR').GetNameWithNoTooltip]"
+ flavor_cas_rio_salado.1.entry: "Río Salado Prelude"
  flavor_cas_rio_salado.1.desc: "The heathen rulers of [GetCountry('MOR').GetName] have prepared to strike at us with an invasion force in the south of [ShowRegionName('iberia_region')]. This threatens our continuous effort to rid the peninsula from foreign invaders and solidify [ROOT.GetCountry.GetReligion.GetAdjective] rule over [ShowRegionNameWithNoTooltip('iberia_region')]. We should call upon our friends in [GetCountry('POR').GetName] and ready our armies to drive out the [GetCountry('MOR').GetAdjectiveWithNoTooltip] invaders for good."
  flavor_cas_rio_salado.1.a: "Prepare for war."
  flavor_cas_rio_salado.1.b: "This is not worth the risk."
@@ -14,18 +15,25 @@
  flavor_cas_rio_salado_response.34.title: "[target_ally.GetNameWithNoTooltip] Calls for Help"
  flavor_cas_rio_salado_response.34.desc: "The conflict over the [ShowLocationName('strait_of_gibraltar')] seems to heat up once more and an envoy of [target_ally.GetName] has reached our court to ask for an alliance to repel the [target_enemy.GetReligion.GetAdjective] armies once more in glorious battle."
  flavor_cas_rio_salado_response.34.a: "Assist our friends in [target_ally.GetNameWithNoTooltip]."
+ flavor_cas_rio_salado_response.34.a.entry: "Assist our friends in the ally."
  flavor_cas_rio_salado_response.34.b: "Refuse their request."
 
  flavor_cas_rio_salado.5.title: "[GetCountry('MOR').GetNameWithNoTooltip] driven from [ShowRegionNameWithNoTooltip('iberia_region')]"
+ flavor_cas_rio_salado.5.entry: "Battle of Río Salado Morocco driven out of Iberia"
  flavor_cas_rio_salado.5.desc: "With our hard-fought victory over the armies of [GetCountry('MOR').GetName], we have finally broken the [GetCountry('MOR').GetAdjective] dominance over the [ShowLocationName('strait_of_gibraltar')] and established our own rule over [ShowLocationName('algeciras')]. Together with the plunder received from the battles and the peace treaties, we will be able to bask in the glory of this victory for centuries to come!"
  flavor_cas_rio_salado.5.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_cas_rio_salado.5.a.entry: "$common_string_brilliant$"
 
  flavor_cas_rio_salado.6.title: "A Visit of [target_ruler.GetNameWithNoTooltip]"
+ flavor_cas_rio_salado.6.entry: "Monastery Guadalupe"
  flavor_cas_rio_salado.6.desc: "[target_ruler.GetName] has visited a [ShowBuildingTypeName('monastery')] in [ShowLocationName('guadalupe')] to offer [target_ruler.GetHerHis] gratitude to the Virgin of Guadalupe for the success against the [GetCountry('MOR').GetAdjective] heathens during the war for [ShowLocationName('algeciras')]. During [target_ruler.GetHerHis] stay in the [ShowBuildingTypeNameWithNoTooltip('monastery')], [target_ruler.GetHeShe] donated several trophies obtained during the deciding battle of the war and elevated the [ShowBuildingTypeNameWithNoTooltip('monastery')] in status."
  flavor_cas_rio_salado.6.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_cas_rio_salado.6.a.entry: "$common_string_brilliant$"
  flavor_cas_rio_salado.6.b: "We can not spare the money."
 
  flavor_cas_rio_salado.7.title: "Commemorate our Victory"
+ flavor_cas_rio_salado.7.entry: "$flavor_cas_rio_salado.7.title$"
  flavor_cas_rio_salado.7.desc: "With the spoils of wars secured, we have the opportunity to commemorate our victory over the [GetCountry('MOR').GetAdjective] armies with a splendid [ShowBuildingTypeName('monastery')] in the area of [ShowLocationName('valladolid')]. A monastery dedicated to the Order of Saint Clare would serve us perfectly as a memory of our glorious victory."
  flavor_cas_rio_salado.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_cas_rio_salado.7.a.entry: "$common_string_brilliant$"
  flavor_cas_rio_salado.7.b: "We can not spare the money."

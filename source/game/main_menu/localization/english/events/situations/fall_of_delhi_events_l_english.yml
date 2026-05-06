@@ -1,5 +1,7 @@
 ﻿l_english:
 
+  fall_of_delhi.1.entry: "$delhi_situation.1.title$"
+  fall_of_delhi.18.entry: "$delhi_situation.18.title$"
   delhi_situation.1.title: "The Stretching Reins of Power"
   delhi_situation.1.desc: "The turning wheels of power had once been favorable to us. Our predecessors, the Khaljī, fell to the might of our [ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName] dynasty in 1320. Since then, vast swathes of lands in $india$ have fallen to our might. However, as time moves on, we have lost the favor of our people. Those we once bestowed graces and governorships on have now become snakes in the grass, biding their time and deciphering the tale of our destruction.\n\nAhead of us lies a turbulent and dangerous path. The survival of our great [GetCountry('DLH').GetFlavorRank] hangs in the balance between destruction and utter domination. A storm is coming..."
   delhi_situation.1.a: "We will weather this storm."

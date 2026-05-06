@@ -34,4 +34,4 @@
  great_pestilence.7.t: "Forever Lost"
  great_pestilence.7.desc: "The wrath of the [ShowSituationName('great_pestilence')] is decimating all castes in [target_location.GetName], even the holy men of our [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] are not being protected form the disease.\n\nTheir loss is felt twice, as many villages no longer have anybody that can officiate proper burial rites, dooming the newly dead to wander lost as vengeful spirits and unable to cross to the great beyond."
  great_pestilence.7.a: "We will help the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]."
- great_pestilence.7.b: "There is nothing we can do."
+ great_pestilence.7.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"

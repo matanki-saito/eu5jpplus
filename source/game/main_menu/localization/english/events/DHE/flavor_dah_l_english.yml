@@ -6,6 +6,7 @@
  flavor_dah.1.title: "$flavor_dah_released_title_common$"
  flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
  flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip] shall be conquered!"
+ flavor_dah.1.a.entry: "$DAH$ shall be conquered!"
  flavor_dah.1.b: "Perhaps it is time for a new realm to rise."
  flavor_dah.1.c: "Good for them."
 

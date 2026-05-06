@@ -46,7 +46,7 @@
  COLONY_POP_TARGET_PP_COUNTRY: "[COUNTRY.GetName]の[power_projection|e]：$VAL$"
  COLONY_POP_TARGET_PP_EXISTS: "[LOCATION.GetName]の[power_projection|e]：$VAL$"
  COLONY_POP_TARGET_MIN_POPS: "[LOCATION.GetName]に必要な最低[pops|e]（[population|e]は考慮しない）：$VAL$"
- COLONY_POP_TARGET_MAX_POPS: "[LOCATION.GetName]に必要な最低[pops|e]（[population|e]は考慮しない）：$VAL$"
+ COLONY_POP_TARGET_MAX_POPS: "[LOCATION.GetName]に必要な最大[pops|e]（[population|e]は考慮しない）：$VAL$"
  COLONY_POP_TARGET_LOCATION_POPULATION: "[location|e][population|e]が$POPULATION$であるものから比例計算すると、人口目標は$NEED$"
  COLONIAL_CHARTER_LABEL: "[PROVINCE_DEFINITION.GetName]の[colonial_charter|e]が[fully_settled|e]となるまでの進行度は$PERC|2V%$。"
  COLONIAL_CHARTER_FULLY_OURS: "[LOCATION.GetName]：$PERC|G0%$"

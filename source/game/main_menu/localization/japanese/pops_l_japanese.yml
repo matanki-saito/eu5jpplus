@@ -41,3 +41,4 @@
  POP_TYPE_SCALE_FOR_ASS_CON_PRO: "$VAL|2%V$の速度で[assimilates|e]および[converts|e]する。"
  POP_TYPE_SCALE_FOR_PROMOTE_PRO: "$VAL|2%V$の速度で[promotes|e]する。"
  POP_TYPE_SCALE_FOR_MIGRATE_PRO: "$VAL|2%V$の速度で[migrates|e]する。"
+ POP_TYPE_SCALE_FOR_PROMOTE_PRO_BY_TYPE: "[POP_TYPE.GetName]が$SPEED|2%V$の速度で[promote|e]する。\n"

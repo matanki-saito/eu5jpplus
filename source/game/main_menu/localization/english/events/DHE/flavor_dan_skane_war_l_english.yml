@@ -1,7 +1,9 @@
 ﻿l_english:
  flavor_dan_skane_war.1.title: "The Rebellion of [target_character.GetNameWithNoTooltip]"
+ flavor_dan_skane_war.1.entry: "The Rebellion of Johan Offesson"
  flavor_dan_skane_war.1.desc: "[target_character.GetName], one of the most esteemed members of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')], has been discovered plotting against the [GetCountry('SWE').GetAdjective] Overlordship of [ROOT.GetCountry.GetName]. His reasons for discontent with our Overlords are not without truth, since [target_ruler.GetName] is frequently neglecting the matters of our state in favor of the [GetCountry('SWE').GetCulture.GetNameWithNoTooltip] [GetCountry('SWE').GetGovernment.GetEstateName('nobles_estate')]. With the recent developments in [GetCountry('DAN').GetName], it might be beneficial for us to once again proclaim our loyalty to the [GetCountry('DAN').GetAdjectiveWithNoTooltip] state."
  flavor_dan_skane_war.1.a: "Exile him to [GetCountry('DAN').GetNameWithNoTooltip]."
+ flavor_dan_skane_war.1.a.entry: "Exile him to $DAN$."
  flavor_dan_skane_war.1.b: "Support his rebellion."
  flavor_dan_skane_war.1.b.tt: "This might lead to our country being annexed by [GetCountry('DAN').GetName]"
 
@@ -32,4 +34,4 @@
  flavor_dan_skane_war.6.b: "Reject the proposal!"
  flavor_dan_skane_war.7.title: "[GetCountry('SWE').GetNameWithNoTooltip] Accepts our Offer"
  flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName] has accepted our offer to purchase the overlordship over [GetCountry('SKE').GetName]. While some formalities are still in progress of being carried out, the treaty is ratified and already in effect."
- flavor_dan_skane_war.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_dan_skane_war.7.a: "$common_string_brilliant$"

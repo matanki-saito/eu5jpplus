@@ -54,6 +54,7 @@
  byzantine_succ_crisis.10.d: "[target_location.GetNameWithNoTooltip]での高利貸しを一時的に正当化せよ。"
  nobles_burghers_10_satisfaction_at_the_expense_of_peasants_tt: "[target_location.GetNameWithNoTooltip]に居住する[ShowPopTypeName('nobles')]と[ShowPopTypeName('burghers')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]増加し、[ShowPopTypeName('peasants')]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]減少する"
  byzantine_succ_crisis.11.title: "外国商人の特権"
+ byzantine_succ_crisis.11.entry: "$byzantine_succ_crisis.11.title$"
  byzantine_succ_crisis.11.desc: "[target_location.GetName]は交易商たちの繁栄の中心地であり、外国と取引で富を交換する商人たちが、世界中の港からやってくる場所だ。悲しいことに、わが国の商業と海軍は祖先の栄華を受け継いでいないようであり、海軍の権威が衰え、威信が失われていることは明らかだ。[target_character.GetName]に王位簒奪の脅威が迫り、我々の資金がどんどん減少していくなか、[GetCountry('VEN').GetName]と[GetCountry('GEN').GetName]の代表者が、我々の市場を横断する特権と引き換えに、わが国の海軍に資金を提供したいと申し出てきた……"
  byzantine_succ_crisis.11.a: "[GetCountry('VEN').GetNameWithNoTooltip]との契約に署名する。"
  byzantine_succ_crisis.11.b: "[GetCountry('GEN').GetNameWithNoTooltip]に支援を求める。"

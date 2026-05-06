@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_sie.1.title: "モンテ・デイ・パスキ銀行"
+ flavor_sie.1.entry: "$flavor_sie.1.title$"
  flavor_sie.1.desc: "「モンテ・ディ・ピエタ」が近年、わが国および周辺地域でますます一般的になりつつある。寄付者から集めた資金を用い、恵まれない人々に低利の融資を提供する慈善金融機関だ。[monte_paschi_bank_hq.GetName]にあるこうした組織のひとつに資金を提供すれば、わが[ROOT.GetCountry.GetFlavorRank]の富を増やし、広く繁栄をもたらすとともに、我々の国立銀行としても機能するだろう。"
  flavor_sie.1.a: "経済が回るな。"
  flavor_sie.1.b: "実に立派な組織だ！"

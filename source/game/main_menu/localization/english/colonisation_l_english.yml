@@ -51,7 +51,7 @@
  COLONY_POP_TARGET_PP_COUNTRY: "[power_projection|e] of [COUNTRY.GetName]: $VAL$"
  COLONY_POP_TARGET_PP_EXISTS: "[power_projection|e] in [LOCATION.GetName]: $VAL$"
  COLONY_POP_TARGET_MIN_POPS: "Min [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$"
- COLONY_POP_TARGET_MAX_POPS: "Min [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$"
+ COLONY_POP_TARGET_MAX_POPS: "Max [pops|e] needed in [LOCATION.GetName] disregarding [population|e]: $VAL$"
  COLONY_POP_TARGET_LOCATION_POPULATION: "Scaling between those with the [location|e] [population|e] of $POPULATION$ results in a population target of $NEED$"
 
  COLONIAL_CHARTER_LABEL: "The [colonial_charter|e] of [PROVINCE_DEFINITION.GetName] is at $PERC|2V%$ towards being all [fully_settled|e]."

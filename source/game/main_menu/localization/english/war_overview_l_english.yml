@@ -6,7 +6,11 @@
  WARGOAL_IS_CONQUEST: "#T War Goal Enforced#!\n"
  WARGOAL_IS_SAFE: "#T War Goal Protected#!\n"
  WAR_LATERALVIEW_ANNEX_REVOLTER: "Annex Revolter"
+ WAR_LATERALVIEW_ANNEX_ALL_REVOLTERS: "Annex All Revolters"
  WAR_LATERALVIEW_GRANT_INDEPENDENCE: "Grant Independence"
+ WAR_LATERALVIEW_REIN_IN_SUBJECT: "Rein In Subject"
+ WAR_LATERALVIEW_REIN_IN_SUBJECT_TOOLTIP: "Open peace negotiations to end this independence war while keeping [COUNTRY.GetName] as your subject.\n\nIf you make peace without granting independence, [COUNTRY.GetName] will return to their [subject|e] status. You can also simply negotiate [white peace|e] to end the war with no territorial changes.\n\n#S You have sufficient [warscore|e] to force [COUNTRY.GetName] to accept peace.#!"
+ WAR_LATERALVIEW_GRANT_INDEPENDENCE_THIRD_OUTCOME_HINT: "#S Tip: This is not your only option. If you negotiate peace without granting independence — or simply win this war — [COUNTRY.GetName] will return to being your [subject|e].#!"
  
  WARGOAL_IS_CONTESTED: "@trigger_no! The war goal is still being contested."
  WARGOAL_NOT_MAX_TICKED_ENOUGH_DAYS_PEACE: "When $NEED|Y$ days have passed, with no contest over the war goal, there may be a white peace signed and $WHO|Y$ will keep $NAME|Y$!\nCurrently, there have been $DAYS|G$ days."
@@ -19,6 +23,11 @@
  WARGOAL_NOT_FULLY_SAFE: "@trigger_no! The War Goal of $NAME|Y$ is fully controlled by the attackers!"
  WARGOAL_NOT_TICKED_FUL: "@trigger_no! The War Goal have not been controlled long enough yet, and is only providing a bonus of $VAL|+=2$ to the attackers, when they need $NEED|+=0$."
  WARGOAL_NOT_TICKED_FUL_SAFE: "@trigger_no! The War Goal have not been kept safe long enough yet, and is only providing a bonus of $VAL|+=2$ to the defenders, when they need $NEED|+=0$."
+
+ WAR_FORBIDS_WHITE_PEACE_TOOLTIP: "#R [CASUS_BELLI.GetName] forbids a [white_peace|e]!#!"
+ WAR_REQUIRES_PEACE_TREATIES_TOOLTIP: "The following [peace_treaties|e] must be enforced to end this war: $PEACE_TREATIES$"
+ WAR_REQUIRES_ATTACKER_PEACE_TREATIES_TOOLTIP: "The following [peace_treaties|e] must be enforced by the attacker to end this war: $PEACE_TREATIES$"
+ WAR_REQUIRES_DEFENDER_PEACE_TREATIES_TOOLTIP: "The following [peace_treaties|e] must be enforced by the defender to end this war: $PEACE_TREATIES$"
 
  WAR_LATERALVIEW_DATE_TOOLTIP: "War started on [WarLateralView.GetWar.GetStartDate]"
  WAR_LATERALVIEW_WAR_GOAL_TOOLTIP: "This war was started by [WarLateralView.GetWar.GetOriginalAttacker.GetName] against [WarLateralView.GetWar.GetOriginalDefendersList].\n[WarLateralView.GetWar.GetWarGoal.GetDescription]"
@@ -140,8 +149,8 @@
  JOIN_WAR_REASON_DESC_InternationalOrganization: "[COUNTRY.GetName] is in the [INTERNATIONAL_ORGANIZATION.GetName] with [TARGET_COUNTRY.GetName]."
  JOIN_WAR_REASON_RivalClaimant: "Rival Claimant to the [TARGET_COUNTRY.GetAdjective] throne"
  JOIN_WAR_REASON_DESC_RivalClaimint: "[COUNTRY.GetName] claim the throne of [TARGET_COUNTRY.GetName] and are willing to fight for it."
- JOIN_WAR_REASON_Scripted: "Scripted"
- JOIN_WAR_REASON_DESC_Scripted: "Scripted"
+ JOIN_WAR_REASON_Scripted: "Events"
+ JOIN_WAR_REASON_DESC_Scripted: "Events brought them to the war."
 
  LEAVE_WAR_REASON_WarEnded: "War ended"
  LEAVE_WAR_REASON_Annexed: "Annexed by [TARGET_COUNTRY.GetName]"
@@ -155,6 +164,7 @@
  LEAVE_WAR_REASON_Abandoned: "Abandoned their friends [TARGET_COUNTRY.GetName] in their hour of need"
  LEAVE_WAR_REASON_ForcedAbandoned: "Forced to abandon their friends [TARGET_COUNTRY.GetName] in their hour of need by their overlord"
  LEAVE_WAR_REASON_BrokeFreeOfOverlord: "Broke free from their [overlord|e] [TARGET_COUNTRY.GetName]"
+ LEAVE_WAR_REASON_Scripted: "Events forced them out"
 
  REFUSE_TO_JOIN_WAR_REASON_HumanDeclined: "A Human declined to join."
  REFUSE_TO_JOIN_WAR_REASON_NotEnoughReasons: "They do not have enough reasons to join."

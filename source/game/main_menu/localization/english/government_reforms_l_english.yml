@@ -40,8 +40,8 @@
  mlo_secret_council: "Secret Council"
  mlo_secret_council_desc: "The Secret Council is a body of nobly-born individuals. Its jurisdiction encompasses our entire domain, and often clashes against the ruler's agenda. The majority of critical decisions made by or on behalf of the ruler frequently fall under the Secret Council's review."
  # Scotland
- scottish_shires_reform: "Shires of [GetCountry('SCO').GetNameWithNoTooltip]"
- scottish_shires_reform_desc: "Introduced by [GetCharacter('sco_malcolm_iii').GetName], the shire system divides [GetCountry('SCO').GetName] into administrative counties, with each shire having its own structure."
+ scottish_shires_reform: "Shires of $SCO$"
+ scottish_shires_reform_desc: "Introduced by [GetCharacter('sco_malcolm_iii').GetName], the shire system divides $SCO$ into administrative counties, with each shire having its own structure."
  # Republics
  merchant_republic: "Merchant Republic"
  merchant_republic_desc: "A republic founded upon the principles of trade. The flow of commerce is the most important factor for the families who rule these republics."
@@ -85,10 +85,14 @@
  
  primas_germaniae: "Primas Germaniae"
  primas_germaniae_plural: "Primas Germaniae"
- primas_germaniae_desc: "We hold the prestigious title of Primas Germaniae, distinguishing us as the most important archbishop in the [GetUniqueInternationalOrganization('hre').GetName]."
+ primas_germaniae_desc: "We hold the prestigious title of Primas Germaniae, distinguishing us as one of the most important ecclesiastical offices in the [GetUniqueInternationalOrganization('hre').GetName]."
  
  #
  # Common
+ town_specialization: "Tailored $game_concept_town_rights$"
+ town_specialization_desc: "Urban settlements are the muscles that power our country. Their sprawl attracts the majority of our population, and their bustling economies provide both opportunities and benefits for all. If we provide them with the appropriate laws, regulations, and privileges, we can ensure that they are most beneficial for us, each according to their situation and needs."
+ capitalistic_cities: "Fueling Economies"
+ capitalistic_cities_desc: "Our economy is based on the industries of our towns and cities. Providing them with the adequate regulations will ensure that we maintain those industries functioning at their best performance, reducing costs and maximizing benefits."
  the_combination_act: "Restricted Worker Unions"
  the_combination_act_desc: "Every measure has been taken to prevent future strikes. All unlawful formations of trade or labor unions are henceforth prohibited!"
  the_recruiting_act: "Mandated Navy Service"
@@ -212,12 +216,15 @@
  state_sponsored_markets_desc: "Trade hubs must be established with state backing to encourage commerce. Government support will ensure fair pricing and economic growth."
  coastal_city_or_town_gets_tt: "Every owned [coastal|e] [towns_and_cities|e] will gain:"
  every_coastal_location_gains_tt: "Every owned [coastal|e] [location|e] will gain:"
+ plutocratic_monarchy: "Plutocratic Monarchy"
+ plutocratic_monarchy_desc: "A Monarchy that manages its finances by relying on the merchant class and securing the flow of commerce."
+ 
  
  #
  # Specific ones
  #
  alsno_stadga: "Alsnö Stadga"
- alsno_stadga_desc: "This set of rules was set up by [GetCharacter('swe_magnus_ladulas').GetName] in 1280 at Alsnö Hus to regulate and formalize the benefits of the [ShowEstateTypeName('nobles_estate')], while also protecting the [ShowPopTypeName('peasants')] from their exploits. This is why he was nicknamed 'Ladulås', or "Barn-Lock" in English by the commoners."
+ alsno_stadga_desc: "This set of rules was set up by [GetCharacter('swe_magnus_ladulas').GetName] in 1280 at Alsnö Hus to regulate and formalize the benefits of the [ShowEstateTypeName('nobles_estate')], while also protecting the [ShowPopTypeName('peasants')] from their exploits. This is why he was nicknamed 'Ladulås', or 'Barn-Lock' in English by the commoners."
  papacy_reform: "Holy See"
  papacy_reform_desc: "The Holy See is the jurisdiction of the Bishop of [ShowLocationName('rome')], the #italic Pontifex Maximus#!, head of the [ShowReligionAdjective('catholic')] Church, known as The [GetCountry('PAP').GetGovernment.GetRulerTitle]."
  kingdom_of_god_reform: "Kingdom of God"
@@ -540,9 +547,8 @@
  taluqdar_nobility_desc: "Taluqdars, or dynastic aristocrats, own extensive land, collect taxes, and play significant roles in our architecture and economy. As landowners with considerable power and influence in the court, the Taluqdars are our equivalent to the high nobility of other regions."
  mhr_ashta_pradhan: "Ashta Pradhan"
  mhr_ashta_pradhan_desc: "$mhr_ashta_pradhan$ - #italic Modern Council of Ministers#! - is the system of ministerial delegation used by the [ShowLanguageName('marathi_language')] people. The council is tasked with guiding the administration of the state, overviewing matters of the military, finances, diplomacy, and religion alike."
- theme_system: "Theme System"
- theme_system_desc: "A system of provincial headquarters and armies, spearheaded by a strategos with dual responsibilities to protect the locals and establish authority at the behest of the [GetCountry('BYZ').GetFlavorRank]. This system replaced the provincial administration of Diocletian and has served our people ever since."
- byz_theme_system_not_obselete_tt: "The $theme_system$ was not made obsolete through an [event|e]"
+ theme_system: "Decayed Theme System"
+ theme_system_desc: "A system of provincial headquarters and armies, spearheaded by a strategos with dual responsibilities to protect the locals and establish authority at the behest of the [GetCountry('BYZ').GetFlavorRank]. This system replaced the provincial administration of Diocletian and has served our people ever since. Yet time has worn it thin, it endures still, a relic of ages long past."
  kritai_katholikoi: "Kritai Katholikoi"
  kritai_katholikoi_desc: "The Kritai Katholikoi, colloquially referred to as the #italic Universal Justices of the Romans#!, have come to represent the pinnacle of [GetCountry('BYZ').GetAdjective] legal authority, born from the reforms of [GetCharacter('byz_andronikos_ii_palaiologos').GetName] and initially comprising of twelve judges from both secular and ecclesiastical backgrounds. Later streamlined to a panel of four, this illustrious court holds unparalleled authority with no recourse for appeal."
  speransky_liberalization_reform: "Speransky Liberalization Reform"
@@ -568,10 +574,10 @@
 
  kritai_katholikoi_reformed: "Reformed Kritai Katholikoi"
  kritai_katholikoi_reformed_desc: "Although the judiciary system created by [GetCharacter('byz_andronikos_ii_palaiologos').GetName] saw initial success, there were still internal issues, which the judges exploited to pursue their interests. With the reforms of this Supreme Court, existing legal processes have been streamlined while ensuring no corruption between the judges."
+ is_currently_in_disaster_for_byz_tt: "[ShowDisasterName('fate_of_the_phoenix')] is currently active or we completed it victoriously"
   
  modern_imperial_army: "Modern Imperial Army"
  modern_imperial_army_desc: "The old $theme_system$ of [GetCountry('BYZ').GetName] proved faulty, strengthening the authority of governors and generals rather than the ruler. As a result, a new Imperial Army has formed, one where being a soldier is a profession rather than a duty."
- byz_reformed_imperial_army_tt: "Created the $modern_imperial_army$ through an [event|e]"
  
  #Oman
  omani_overseas_ambitions_reform: "Overseas Ambitions"
@@ -712,3 +718,27 @@
 #Malacca Formable 
  shahbandariyya_reform: "Shāhbandariyya"
  shahbandariyya_reform_desc: "$shahbandar_desc$"
+
+
+#Frankokratia
+ partitio_reform: "Partitio Terrarum Imperii Romaniae"
+ partitio_reform_desc: "After the Fourth Crusade, the Eastern Roman Empire was partitioned among several Western European families, who then founded a series of Crusader Principalities. While these polities existed, they were a constant threat to the Empire."
+ ach_heirs_of_the_latin_empire: "Titular Rulers of the Latin Empire"
+ ach_heirs_of_the_latin_empire_desc: "Although we have since lost control of [ShowLocationName('constantinople')], the seat of power for the [GetCountry('LAT').GetLongName], our claim to it still remains as strong as ever."
+ ath_rule_of_the_catalans: "Dominance of the [ShowCultureNameWithNoTooltip('catalan')] Company"
+ ath_rule_of_the_catalans_desc: "Since the seizure of the [GetCountry('ATH').GetLongNameWithNoTooltip], the [ShowCultureNameWithNoTooltip('catalan')] Company has projected considerable military influence over [ShowScriptedGeographyName('greece_geography')]."
+ ath_catalan_company_expelled_or_stability: "Can be manually removed if above #G +60.00#! [stability|e] or directly through certain [GetCountry('ATH').GetAdjectiveWithNoTooltip] [dynamic_historical_events|e]."
+ lat_papal_restoration_claimant: "[GetCountry('PAP').GetAdjectiveWithNoTooltip] Backing to Retake [ShowLocationNameWithNoTooltip('constantinople')]"
+ lat_papal_restoration_claimant_desc: "Although the [GetCountry('LAT').GetLongName] has since been destroyed by the [GetCountry('BYZ').GetLongName], recent crusader state campaigns in [ShowScriptedGeographyName('greece_geography')] have encouraged [GetCountry('PAP').GetAdjectiveWithNoTooltip] sponsorship to restore the empire."
+ lat_restored_rule_of_the_latins: "Restored Rule of the Latins"
+ lat_restored_rule_of_the_latins_desc: "Once thought to be lost forever to a resurgent [GetCountry('BYZ').GetName], the [GetCountry('LAT').GetLongNameWithNoTooltip] has at long last been restored in [ShowLocationName('constantinople')], and once against serves as a bastion of [ShowReligionAdjective('catholic')] rule throughout [ShowScriptedGeographyName('greece_geography')]."
+
+ #Societal Value Balance Reforms
+ mass_levy_system: "Mass Levy System"
+ mass_levy_system_desc: "By instituting a system of mass conscription, we can draw upon the full population of our realm for military service. This broad mobilization swells our armies with common soldiers, embracing the philosophy that victory comes through numbers rather than individual skill."
+
+ free_market_charters: "Free Market Charters"
+ free_market_charters_desc: "By granting charters that guarantee free trade and protect merchant interests, we encourage commerce to flourish across our realm. Wealthy trading classes gain political influence, shifting power away from the traditional nobility toward those who command capital."
+
+ representative_assemblies: "Representative Assemblies"
+ representative_assemblies_desc: "By establishing representative assemblies that give voice to the common people, we decentralize authority and foster broader political participation. Local governance becomes more responsive, and individual liberties are enshrined as a cornerstone of our political order."

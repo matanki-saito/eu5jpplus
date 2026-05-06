@@ -344,6 +344,8 @@
  bullion_coins_desc: "The metals selected for the coinage of our currency are silver and copper, using different mixtures."
  barter_exchange: "Barter Exchange"
  barter_exchange_desc: "Different goods and materials, such as livestock, cloth, shells, cacao, etc., may be used as a common currency for trade."
+ stavraton_coin_policy: "Stavraton Coins"
+ stavraton_coin_policy_desc: "Derived from a mixture of pure silver and some copper, the Stavraton is meant to replace the defunct #italic hyperpyron#! in an attempt to revive the economy and modernize exchange rates."
 
 
 
@@ -503,16 +505,16 @@
  authority_of_the_captain_desc: "The authority of each captain under our command is undisputed, to such a degree that loyal crews march into gunfire on their orders. Their goal is plunder and legendary adventure; their dreams are fulfilled only uner our unflinching leadership!"
  law_of_the_pious_emperor: "Law of the Pious Emperor"
  law_of_the_pious_emperor_desc: "A compendium of translated [ShowLanguageName('greek_language')] [GetCountry('BYZ').GetAdjective] books of law and great works of ancient philosophy into the Serbian language, issued by Emperor [GetCharacter('ser_stefan_dusan').GetName]."
- zamanitchka_voyska: "Zamanitchka Voyska"
+ zamanitchka_voyska: "Zamanička Vojska"
  zamanitchka_voyska_desc: "Meaning 'All Together', this system of universal military obligation demands that all able-bodied citizens, regardless of age or gender, are expected to defend the homeland when threatened. Unlike professional armies or feudal levies, this mobilizes the entire population to protect their independence, reflecting a communal commitment to defending their nation."
  paik_system: "Paik System"
  paik_system_desc: "The $paik_system$ is a corvée labor system where capable adults, the so-called #italic Paiks#!, are obligated to serve in the state militia in exchange for farmland."
  #
- bureaucracy_law: "Bureaucracy"
+ bureaucracy_law: "Bureaucratic Offices"
  bureaucracy_law_desc: "$modern_bureaucracy_desc$"
- centralized_bureaucracy_policy: "Centralized Bureaucracy"
+ centralized_bureaucracy_policy: "Centralized Offices"
  centralized_bureaucracy_policy_desc: "A centralized bureaucracy is anchored in the capital of the kingdom, with most decisions made by or in proximity to the ruler, and then distributed to the provinces."
- decentralized_bureaucracy_policy: "Decentralized Bureaucracy"
+ decentralized_bureaucracy_policy: "Decentralized Offices"
  decentralized_bureaucracy_policy_desc: "A decentralized bureaucracy leaves more decisions to local administrators or governors, who are then answerable to the monarch."
  namestnik_policy: "Namestnik Office"
  namestnik_policy_desc: "The #italic namestnik#! is a bureaucratic position comparable to that of a viceroy. They are responsible for the local administration of our provinces and states."
@@ -644,6 +646,9 @@
  ibadi_policy: "$ibadi_school$ Jurisprudence"
  ibadi_policy_desc: "$ibadi_school_desc$"
 
+ assizes_of_romania_policy: "Assizes of Romania"
+ assizes_of_romania_policy_desc: "The $assizes_of_romania_policy$ codifies $french$ feudal law within the Latin East, establishing a rigid hierarchy between the rulers and their vassal lords. It empoweres the High Court to mediate disputes over fiefs and military service while enforcing a dual social system that keeps the $greek_culture$ peasantry in semi-servitude. This legal framework provides the structural continuity that allows the Frankokratia to endure as a Latin-governed society."
+
  pyrenean_law_policy: "Pyrenean Law"
  pyrenean_law_policy_desc: "Pyrenean Law is a legal system native to the peoples living around the Pyrenean Mountains. Despite the fact that this law was influenced by both the $civil_law_policy$ and the Gothic Law, it remained different from them. Based on traditional customs and practices, this legal system is so embedded in our culture than rulers are obliogated to adapt to it, rather than overriding it with their own systems."
 
@@ -772,6 +777,16 @@
  pte_slavery_export_allowed: "@slaves_goods! Slave Exports Allowed: #G Yes#!"
  pte_slavery_export_import: "@slaves_goods! Slave Imports Allowed: #G Yes#!"
 
+ pte_no_parliamentary_system: "@has_a_parliamentary_system_negative! $MODIFIER_TYPE_NAME_has_a_parliamentary_system$: #R No#!"
+ pte_no_international_parliament: "@has_international_parliament_negative! $MODIFIER_TYPE_NAME_has_international_parliament$: #R No#!"
+ pte_no_propagating_zone_of_control: "@propagating_zone_of_control_negative! $MODIFIER_TYPE_NAME_propagating_zone_of_control$: #R No#!"
+ pte_not_blocked_from_conversion: "@blocked_from_conversion_negative! $MODIFIER_TYPE_NAME_blocked_from_conversion$: #R No#!"
+ pte_no_disallow_migration_beyond_borders: "@disallow_migration_beyond_borders_negative! $MODIFIER_TYPE_NAME_disallow_migration_beyond_borders$: #R No#!"
+ pte_no_allow_self_vote: "@allow_self_vote_negative! $MODIFIER_TYPE_NAME_allow_self_vote$: #R No#!"
+ pte_no_clergy_estate_cannot_marry: "@clergy_estate_cannot_marry_negative! $MODIFIER_TYPE_NAME_clergy_estate_cannot_marry$: #G No#!"
+ pte_clergy_estate_cannot_marry: "@clergy_estate_cannot_marry_negative! $MODIFIER_TYPE_NAME_clergy_estate_cannot_marry$: #R Yes#!"
+ pte_no_imperial_armory: "Can construct any new [ShowBuildingTypeName('hre_imperial_armory_foreign')]: #R No#!"
+ pte_yes_imperial_armory: "Can construct any new [ShowBuildingTypeName('hre_imperial_armory_foreign')]: #G Yes#!"
 
  fleet_in_being: "Fleet in Being"
  fleet_in_being_desc: "Our naval influence shall be felt without the expense of our fleet leaving port except under the most favorable of conditions."
@@ -996,6 +1011,8 @@
  dop_favor_the_burghers_desc: "The guilds and [ShowEstateTypeName('burghers_estate')] are the lifeblood of our people! And, of course, our treasury. $dop_last_sentence$"
  dop_favor_the_clergy: "Favor the $clergy_estate$"
  dop_favor_the_clergy_desc: "Our faith has held our society together in the face of adversity time and time again, thanks to the guidance of our wise [ShowEstateTypeName('clergy_estate')]. $dop_last_sentence$"
+ dop_favor_the_clergy_catholic: "Favor the Church"
+ dop_favor_the_clergy_catholic_desc: "The [GetUniqueInternationalOrganization('catholic_church').GetName] is the cornerstone of our realm. By elevating our [ShowEstateTypeName('clergy_estate')] in matters of governance, we strengthen our ties with $rome_holy_city$ and open the coffers of the faithful. $dop_last_sentence$"
  dop_favor_the_commoners: "Favor the Common People"
  dop_favor_the_commoners_desc: "The [ShowEstateTypeName('peasants_estate')] are the ones who toil daily to provide the basic resources, such as food, that everyone needs regardless of their social status. They, perhaps more than anyone, wish to raise our domain to new heights of prosperity and greatness. $dop_last_sentence$"
  dop_last_sentence: "We would do well to cultivate their influence."
@@ -1129,9 +1146,17 @@
  manpower_from_princes: "Princes Contribution"
  manpower_from_princes_desc: "The [ShowSpecialStatusNamePlural('imperial_prince')] are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces."
  manpower_from_princes_tt: "The [ShowSpecialStatusNamePlural('imperial_prince')] must contribute [manpower|e] to the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]"
+
+ imperial_armory_implementation: "$hre_imperial_armory$ Implementation"
+ imperial_armory_implementation_desc: "The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] gains the privilege to construct [ShowBuildingTypeName('hre_imperial_armory_foreign')] within the lands of the Empire."
+ imperial_armory_expanded: "Expansion of the Armories"
+ imperial_armory_expanded_desc: "Every [ShowBuildingTypeName('hre_imperial_armory_foreign')] shall gain extra resources in order to expand the amount of possible soldiers recruited for the Empire."
+ imperial_standing_army: "Imperial Standing Army"
+ imperial_standing_army_desc: "With further expansion of available resources for the [ShowBuildingTypeName('hre_imperial_armory_foreign')], the [manpower|e] from the Empire shall allow the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] to create a proper, standing army."
  great_imperial_army: "Great Imperial Army"
- great_imperial_army_desc: "All members of the [GetUniqueInternationalOrganization('hre').GetName] are obligated to provide the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] with additional forces."
+ great_imperial_army_desc: "The final legislative level for [ShowBuildingTypeName('hre_imperial_armory_foreign')]. Once enacted, the potential of the army under the direct control of the [GetUniqueInternationalOrganization('hre').GetLeaderTitle] will reach a never-before-seen height."
  great_imperial_army_tt: "All members of the [GetUniqueInternationalOrganization('hre').GetName] must contribute [manpower|e] to the [GetUniqueInternationalOrganization('hre').GetLeaderTitle]"
+
 
 
  perpetual_diet_policy_tt: "The [location|e] with the home of the #Y Perpetual Diet#! gets the following modifiers:"
@@ -1148,6 +1173,7 @@
  emperor_dynastic_preference_policy: "Emperor Dynastic Preference"
  emperor_dynastic_preference_policy_desc: "Electors favor candidates belonging to the Emperor's dynasty, consolidating dynastic power over the electoral system."
  emperor_dynastic_preference_policy_opinion_impact: "All members of the [GetUniqueInternationalOrganization('hre').GetName] will lose #R 75#! [opinion|e] of [GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]."
+ same_dynasty_as_emperor_tt: "Same [dynasty|e] as the Emperor"
  erbkaisertum_policy: "Erbkaisertum"
  erbkaisertum_policy_desc: "The elective monarchy is abolished. The Empire becomes a fully hereditary monarchy, solidifying dynastic rule at the cost of Imperial legitimacy."
 
@@ -1173,6 +1199,13 @@
  expanded_electors_policy_desc: "The [ShowSpecialStatusNamePlural('elector')] expand their ranks by two additional seats, and also add two additional [ShowSpecialStatusNamePlural('archbishop_elector')]. Only significant promises and pledges can earn the favor of an [ShowSpecialStatusName('elector')]."
  elector_council_policy: "Elector Council"
  elector_council_policy_desc: "The [ShowSpecialStatusNamePlural('elector')] are at their peak of their power as they expand their ranks by three additional seats, and also add three additional [ShowSpecialStatusNamePlural('archbishop_elector')]. Additionally, they gain the right to elect an Anti-King who can replace the current [GetUniqueInternationalOrganization('hre').GetLeaderTitle] in the Imperial Diet if left unchallenged. This gives the Electors the de facto power to force a re-election of the current [GetUniqueInternationalOrganization('hre').GetLeaderTitle]."
+
+ secularized_electors_law: "Secularization of the Electorate"
+ secularized_electors_law_desc: "Traditionally the Electorate is split between the [ShowSpecialStatusNamePlural('elector')] and the [ShowSpecialStatusNamePlural('archbishop_elector')]. In case political dynamics threaten the lands of the [ShowSpecialStatusNamePlural('archbishop_elector')], the empire might consider a full secularization of their positions."
+ princely_bishopric_electorate_policy: "Traditional Electorate"
+ princely_bishopric_electorate_policy_desc: "The Electorate of the [GetUniqueInternationalOrganization('hre').GetName] remains split between [ShowSpecialStatusNamePlural('elector')] and [ShowSpecialStatusNamePlural('archbishop_elector')]."
+ secularized_electors_policy: "Secularized Electorate"
+ secularized_electors_policy_desc: "The previous positions of the [ShowSpecialStatusNamePlural('archbishop_elector')] have been fully secularized."
 
  electorate_religion_law: "Electorate Religious Law"
  electorate_religion_law_desc: "Religion is a major pillar of the [GetUniqueInternationalOrganization('hre').GetName] for Emperors and [ShowSpecialStatusNamePlural('elector')] alike."
@@ -1710,12 +1743,26 @@
 
 #Byzantium
  pronoia_system: "Prónoia System"
- pronoia_system_desc: "The Prónoia system functions as a means of temporarily transferring imperial fiscal rights, such as taxes or income from various sources, to individuals or institutions. Unlike the feudal system prevalent in Europe at the time, Prónoia grants were neither hereditary nor transferable, and ultimate ownership remained with the Emperor. In exchange for these privileges, the system ultimately served the purpose for the head of state to raise an army in times of need, and entailed that the troops had to mostly cover their own expenses."
- 
+ pronoia_system_desc: "The $pronoia_system$ functions as a means of temporarily transferring imperial fiscal rights, such as taxes or income from various sources, to individuals or institutions. Unlike the feudal system prevalent in Europe at the time, Prónoia grants were neither hereditary nor transferable, and ultimate ownership remained with the Emperor. In exchange for these privileges, the system ultimately served the purpose for the head of state to raise an army in times of need, and entailed that the troops had to mostly cover their own expenses."
  reformed_pronoia_system: "Reformed Prónoia System"
  reformed_pronoia_system_desc: "Rather than allow the Prónoia governors to strengthen their hold on their lands, the system has been changed so any loopholes that made the title of governor hereditary or transferable can no longer be exploited."
+ komnenian_formalization: "Komnénian Prónoia"
+ komnenian_formalization_desc: "Under the Komnénian emperors, the informal Prónoia system had been codified into a rigorous instrument of imperial policy. Grants were formally contracted, with each holder obligated to furnish a cavalry contingent proportional to the revenues they received. The Emperor retained the right of revocation, and a reorganised imperial registry tracked every grant and its associated military obligation ensuring that the land revenues of the realm translated directly into mounted levy strength under the crown's direct control."
 
-#Rome 
+ palaeologan_hereditary_transition: "Palaiológian Hereditary Prónoia"
+ palaeologan_hereditary_transition_desc: "Facing an exhausted treasury and the constant pressure of civil war and foreign invasion, the Palaeologan emperors have conceded the irrevocable: Prónoia grants are henceforth hereditary. Noble families who previously served at imperial pleasure now hold their lands as permanent patrimony, bolstering the legitimacy of the dynasty through aristocratic loyalty but at the cost of the military obligations that once gave the system its purpose. The cavalry that the grants were meant to fund must increasingly be hired at the state's own expense."
+
+ byz_porphyrogennetos_court_policy: "Porphyrogénitus Court"
+ byz_porphyrogennetos_court_policy_desc: "An emperor born in the sacred Purple Chamber of the Great Palace carries an aura of legitimacy unmatched by any rival. Our court ceremony, codified in the #italic De Ceremoniis#!, projects the majesty of a living Roman Empire to every envoy who enters our capital. The elaborate protocol is costly, but the prestige it radiates solidifies the dynasty's claim before the world."
+
+ byz_varangian_guard_policy: "Varangian Guard"
+ byz_varangian_guard_policy_desc: "The Varangian Guard, drawn from Norse, [ShowCultureName('english')], and other northern peoples, bound by personal oath to the Emperor serve as the imperial bodyguard and household shock troops. Their loyalty is purchased, not inherited, making them immune to the factional intrigues that plague [ShowCultureName('greek_culture')] noble officers. Their axes have defended the throne for generations, and their fierce discipline sets a standard for the whole army."
+
+ byz_megas_domestikos_policy: "Mégas Doméstikos Command"
+ byz_megas_domestikos_policy_desc: "The office of #italic $byz_megas_domestikos_policy$#! Great Domestic of the Schools places supreme field command of all imperial armies in the hands of a single appointed commander. Rather than dispersing military authority among competing tagmata officers, the Mégas Doméstikos coordinates strategy across the entire theater of war. The prestige of the office draws the finest [ShowPopTypeName('nobles')] to serve under its banner, and battles won under his banner forge our army into a well tempered one at twice the rate of ordinary campaigns."
+
+
+#Rome
 
  new_corpus_juris_civilis: "Corpus Juris Civilis"
  new_corpus_juris_civilis_desc: "The great compilation of Roman law, ordered under Emperor Justinian, gathered centuries of rulings, edicts, and wisdom into a single body. The Codex, Digest, Institutes, and Novellae together have once again become the backbone of governance and justice, ensuring our authority, legal consistency, and the proper conduct of our government."
@@ -1844,6 +1891,15 @@
  sco_limited_colonial_ventures_desc: "Colonial ventures have been deemed a worthwhile economic risk for the state, and have been officially sanctioned."
  sco_colonial_administration: "Experienced Colonial Administration"
  sco_colonial_administration_desc: "Through countless efforts by explorers and investors, [GetCountry('SCO').GetName] has found its place in the sun amongst the colonial powers and reaps great benefits from its colonial possessions."
+
+ lat_orthodox_status_with_the_empire: "[ShowReligionAdjectiveWithNoTooltip('orthodox')] Status within the [GetCountry('LAT').GetLongNameWithNoTooltip]"
+ lat_orthodox_status_with_the_empire_desc: "In order to garner support for restoring the [GetCountry('LAT').GetLongName], a compromise was reached with the [GetCountry('PAP').GetLongName] regarding strengthening [ShowReligionAdjective('catholic')] supremacy over the local [ShowReligionAdjective('orthodox')] branch."
+ lat_tolerance_orthodox_faith: "Tolerance of the [ShowReligionAdjectiveWithNoTooltip('orthodox')] Faith"
+ lat_tolerance_orthodox_faith_desc: "Conversion policies from the [GetCountry('PAP').GetLongName] have largely been ignored in order to form a peaceful coexistence with the local [ShowReligionAdjective('orthodox')] populace."
+ lat_limited_conversion_efforts: "Limited Reconversion Efforts"
+ lat_limited_conversion_efforts_desc: "Reconversion policies from the [GetCountry('PAP').GetLongName] towards the [ShowReligionAdjective('orthodox')] are insituted in the legal code of the [GetCountry('LAT').GetLongName], but are not enforced."
+ lat_papal_sanctioned_conversion_efforts: "Sanctioned Reconversion Efforts"
+ lat_papal_sanctioned_conversion_efforts_desc: "Reconversion policies towards the [ShowReligionAdjective('orthodox')] populace are heavily enforced with the full backing of the [GetCountry('PAP').GetLongName]."
  
  #CATEGORIES
  feudal_de_jure_law_CATEGORY: "ADMINISTRATIVE_LAW_CATEGORY"
@@ -2165,6 +2221,7 @@
  union_codified_inheritance_policy_at: "Every member of the [GetInternationalOrganizationType('union').GetName] adopts the [heir_selection|e] of the [ShowSpecialStatusName('senior_partner')] if possible"
  union_codified_inheritance_policy_bt: "#R Locked [heir_selections|e] can neither be applied nor overriden#!"
  union_codified_inheritance_policy_ct: "Every member of the [GetInternationalOrganizationType('union').GetName] adopts the [ShowLawName('heir_religion_law')] of the [ShowSpecialStatusName('senior_partner')] if possible"
+ union_codified_inheritance_policy_dt: "#R [senior_partner_country.GetGovernment.GetHeirSelection.GetName] can NOT be applied to other members#!"
 
  union_economic_law: "Economy of the Union"
  union_economic_law_desc: "One monarch might rule over multiple thrones, yet the members of the [GetInternationalOrganizationType('union').GetName] are very separated in their economy. This law shall bring all of them closer to each other."
@@ -2344,14 +2401,14 @@
  khalsa_fauj_desc: "Only by organizing the military forces of the [ShowLawName('khalsa_law')] into a mighty army will they will be able to serve their function as protectors of [ShowReligionName('sikhism')]."
  amrit_sanskar: "Amrit Sanskar"
  amrit_sanskar_desc: "The members of the [ShowLawName('khalsa_law')] are not just brutes thrown to fight, but refined individuals who uphold the rites of initiation and the rules of conduct and dress code placed upon them as members of the community. The prestige of the [ShowLawNameWithNoTooltip('khalsa_law')] is not on the might of its warriors but on the appeal of their purity."
- guru_granth_sahib_guruship: "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')] Teachings"
- guru_granth_sahib_guruship_desc: "The teachings established in the [ShowWorkOfArtName('guru_granth_sahib')]."
+ guru_granth_sahib_guruship: "$guru_granth_sahib$ Teachings"
+ guru_granth_sahib_guruship_desc: "The teachings established in the $guru_granth_sahib$."
  eternally_living_guru: "Eternally Living $character_title_guru$"
- eternally_living_guru_desc: "The [ShowWorkOfArtName('guru_granth_sahib')] is the final and sovereign eternal $character_title_guru$, which shall be the guiding light for all followers of [ShowReligionName('sikhism')]."
+ eternally_living_guru_desc: "The $guru_granth_sahib$ is the final and sovereign eternal $character_title_guru$, which shall be the guiding light for all followers of [ShowReligionName('sikhism')]."
  divine_justice: "Divine Justice"
- divine_justice_desc: "The teachings encoded in the [ShowWorkOfArtName('guru_granth_sahib')] guide our society to live in peace and harmony, based on $sikhism_god_name$ and His justice."
+ divine_justice_desc: "The teachings encoded in the $guru_granth_sahib$ guide our society to live in peace and harmony, based on $sikhism_god_name$ and His justice."
  unchanging_writing: "Unchanging Writing"
- unchanging_writing_desc: "The [ShowWorkOfArtName('guru_granth_sahib')] was composed during the course of many years and by more than one $character_title_guru$, but it has now reached its definite and eternal form. Its writings shall no longer be altered in any way."
+ unchanging_writing_desc: "The $guru_granth_sahib$ was composed during the course of many years and by more than one $character_title_guru$, but it has now reached its definite and eternal form. Its writings shall no longer be altered in any way."
 
  tur_kanum_i_osmani: "kanun‐i Osmani"
  tur_kanum_i_osmani_desc: "A collection of legislations that together make up the laws of [GetCountry('TUR').GetName], focused on providing internal stability for the numerous ethnicities rather than on conquering new lands."

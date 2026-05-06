@@ -173,8 +173,8 @@
  art_quality_great: "Masterpiece" #75-86
  art_quality_best: "Magnum Opus" #87-100
  #
- ART_WAS_DESTROYED: "The following works of art were destroyed: $LIST$."
- ART_WAS_CAPTURED: "The following works of art were captured and taken to [COUNTRY.GetCapital.GetName]: $LIST$."
+ ART_WAS_DESTROYED: "The following [works_of_art|e] were destroyed: $LIST$."
+ ART_WAS_CAPTURED: "The following [works_of_art|e] were captured and taken to [COUNTRY.GetCapital.GetName]: $LIST$."
  #
  
  WORK_OF_ART_DATA: "[art_quality|e]: [WORK_OF_ART.GetQualityName|V] ([WORK_OF_ART.GetQuality|Y]%)\nType: [WORK_OF_ART.GetDefinition.GetName]\nCreated: [WORK_OF_ART.GetCreationDate]\nOrigin: [WORK_OF_ART.GetOrigin.GetName]"
@@ -186,8 +186,9 @@
  WORK_OF_ART_LOCATION_MODS: "In each [location|e], if this is the best [work_of_art|e] present, the following happens:"
  WORK_OF_ART_MODIFIER_SCALE: "All modifiers are scaled by $VAL|%+=Y$:"
  WORK_OF_ART_MODIFIER_BASE: "$BULLET_WITH_TAB$From [art_quality|e]: $VAL|%+=Y$"
+ WORK_OF_ART_MODIFIER_SCALE_DESC: "The benefits given by a [WORK_OF_ART_TYPE.GetName] are impacted by these modifiers:"
  WORK_OF_ART_COUNTRY_RELIGION_SCALE_MODIFIER: "$BULLET_WITH_TAB$From [country|e]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|%+=Y$#!"
- CHAR_WORKING_ON: "[CHARACTER.GetSheHe|U] is working on a new [CHARACTER.GetArtInProgress.GetName], and is about [CHARACTER.GetArtProgress|%0Y] done."
+ CHAR_WORKING_ON: "[CHARACTER.GetSheHe|U] is working on a new [CHARACTER.GetArtInProgress.GetName], and is about [CHARACTER.GetArtProgress|%0Y] done.\nThe [work_of_art|e] progress depends on the level of [court_maintenance|e]."
  CHAR_WORK_OF_ART_HEADER: "[works_of_art|e]"
  CHAR_WORK_OF_ART_HEADER_S: "Created a piece of art called"
  CHAR_WORK_OF_ART_HEADER_P: "Created the following pieces of art"
@@ -216,6 +217,7 @@
  teotihuacan_temple_desc: "The Temple of the Sun at Teotihuacan, built around 200 AD, is one of the largest pre-Columbian pyramids in the Americas. Located in the heart of the ancient city near modern Mexico City, it aligned with astronomical phenomena and played a central role in Mesoamerican ritual life. Constructed from volcanic stone and covered with stucco, it was used to show Teotihuacan's political and religious dominance and it was so majestic that influenced later civilizations, including the Aztecs, who revered it as sacred ground."
  # Unique art keys
  de_jure_belli_ac_pacis: "De Jure Belli Ac Pacis"
+ book_of_kells: "Book of Kells"
  bayeux_tapestry_key: "$bayeux$ Tapestry"
  two_icons_of_archangel_michael: "The Two Icons of the Archangel Michael"
  vladislav_hall: "Vladislav Hall"
@@ -431,6 +433,10 @@
  chronica_provinz_lyfflandt_desc: "The $chronica_provinz_lyfflandt$ details the history of [ShowAreaName('baltic_area')] from the middle of 12th century to the middle of 16th century and focuses greatly on the annals of the [GetCountry('LIV').GetName]."
  chronik_des_land_preussens: "Chronik des Landes Preussen"
  chronik_des_land_preussens_desc: "The $chronik_des_land_preussens$ details the events that occured in [GetCountry('TEU').GetName] and [ShowAreaName('prussia_area')] in much of the latter half of fourteenth century."
+ roman_history: "Roman History"
+ roman_history_desc: "A 37-book series, $roman_history$ is a chronicle of events that happened in [GetCountry('BYZ').GetName] from the beginning of the 13th century to the middle of the 14th century."
+ byzantine_crown_jewels: "$BYZ_ADJ$ Crown Jewels"
+ byzantine_crown_jewels_desc: "A set of beautiful gems that adorn the crowns and other symbols of [GetCountry('BYZ').GetAdjective] power."
  on_miracles_signs_and_revelations: "On Miracles, Signs and Revelations"
  astronomiae_instauratae_progymnasmata: "Astronomiae Instauratae Progymnasmata"
  gesta_danorum: "Gesta Danorum"
@@ -697,6 +703,7 @@
  art_name_a_praise_of_freedom_desc: "Lauding the liberties and freedom that people in our country enjoy, it serves not only as a praise of our policies but also as an encouragement for people to search for such freedom."
  art_key_holy_leader_portrait_desc: "The depiction of the ruler as a holy leader and a savior, it is sure to enrage the most conservative members of the faith."
  holy_crown_of_hungary_crooked_desc: "$holy_crown_of_hungary_desc$ However, it has now sustained some damage, and part of its past glory is gone."
+ book_of_kells_desc: "Produced by Celtic monks around 800 AD, the Book of Kells is an illuminated Gospel manuscript renowned for its intricate calligraphy and breathtaking decoration. Originally created at the monastery of Iona and later kept at Kells, it is one of the finest surviving works of Insular art and a masterpiece of the early medieval world."
  bayeux_tapestry_key_desc: "Depicting the events of the $norman$ conquest of $ENG$, it is a 70 meters long embroidery and a prime example of secular Romanesque art."
  two_icons_of_archangel_michael_desc: "Sacked from [ShowLocationName('constantinople')] during the Fourth Crusade, the two icons now adorn the halls of the cathedral in [ShowLocationName('venice')]"
  stone_of_scone_desc: "The Stone of Scone, also known as the Stone of Destiny, is an ancient symbol of Scottish kingship. Traditionally used in the coronation ceremonies of Scottish monarchs, it resided at Scone Abbey until 1296, when Edward I of England seized it after his victory in the First War of Scottish Independence. Edward had the stone placed beneath the Coronation Chair at Westminster Abbey, where it became part of the English coronation tradition."
@@ -1122,4 +1129,22 @@
  codex_manesse_desc: "This manuscript contains some of the most famous works of #italic Minnesang#! in the $central_german_dialect$ dialect. The gathered songs are accompanied by beautiful illustrations, not only of significant members of the medieval German nobility, like members of the Hohenstaufen dynasty, but also of the individual poets who originally wrote the songs."
  
  sistine_chapel: "Sistine Chapel"
- sistine_chapel_desc: "Initially known as the #italic Capella Magna#!, the 'Great Chapel', the $sistine_chapel$ is the main chapel of the Papal Court. It ended up becoming the place where Papal Conclaves are hosted, its interior becoming one of the most extraordinary artistic spaces ever created. In the early 1500s, Michelangelo transformed the ceiling with dramatic scenes from the Bible, filling it with powerful, expressive figures that changed the course of Western art, and later returned to paint the overwhelming Last Judgment behind the altar."
+ sistine_chapel_desc: "Initially known as the #italic Capella Magna#!, the 'Great Chapel', the $sistine_chapel$ is the main chapel of the Papal Court. It became the place where Papal Conclaves are hosted, its interior eventually evolving into one of the most extraordinary artistic spaces ever created. In the early 1500s, Michelangelo transformed the ceiling with dramatic scenes from the Bible, filling it with powerful, expressive figures that changed the course of Western art, and later returned to paint the overwhelming Last Judgment behind the altar."
+
+ rila_monastery_art: "Rila Monastery"
+ rila_monastery_art_desc: "Founded in the 10th century by the hermit St. John of Rila and nestled in the rugged mountains of the same name, this Orthodox monastery soon became a spiritual beacon for Slavic Christianity. The monastery was an important pilgrimage site, and received significant donations from every ruler of Bulgaria starting from its creation. It served as a vital center for preserving Bulgarian language, literature, and religious traditions during times of hardship, while the monks maintained a rich tradition of manuscript transcription, icon painting, and hymn composition."
+
+ boyana_church_frescoes: "Boyana Church Frescoes"
+ boyana_church_frescoes_desc: "Painted in 1259, these medieval murals adorn the small Boyana Church near $ORIGIN$. They mark a breakthrough in Byzantine art, anticipating Renaissance humanism with individualized portraits and dynamic compositions, and represent diverse religious figures, including Christ and the Virgin. These frescoes stand out for their lively realism, subtle modeling of faces, expressive gestures, and a sense of individual character that gives the figures an almost lifelike presence, marking a significant artistic advance in the medieval Balkans."
+
+ kiev_missal: "Kiev Missal"
+ kiev_missal_desc: "The Kiev Missal consists of a small group of parchment leaves dating from the late 10th century and written in the earliest form of the Glagolitic script. Containing portions of a Roman-rite missal translated into Old Church Slavonic, the text reflects the transitional period when Slavic Christians were adopting liturgical practices from both Eastern and Western traditions. Preserved through centuries, these fragments remain one of the most important surviving documents for understanding the early spread of Christianity among the Slavs and the development of their written culture."
+
+ euphrasian_basilica: "Euphrasian Basilica"
+ euphrasian_basilica_desc: "Erected in the 6th century in the coastal city of Poreč by Bishop Euphrasius, this grand early Christian basilica replaced an earlier church and became a showcase of Byzantine art in the Adriatic region. Its interior is dominated by an apse mosaic depicting Christ enthroned among saints and martyrs, surrounded by shimmering gold tesserae and vivid figures that convey divine majesty and serene authority."
+
+ carta_monastery: "Cârța Monastery"
+ carta_monastery_desc: "Founded in the 13th century as a Cistercian abbey in the southern Carpathians of Transylvania, the monastery was established under the patronage of the Hungarian crown and settled by monks following the austere ideals of the White Monks. Its church, built in a transitional Romanesque-to-Gothic style, featured a tall facade, pointed arches, and ribbed vaults. Its construction both introduced and helped develop French Gothic art in the region. The complex included monastic buildings arranged around a cloister, reflecting the Cistercian emphasis on simplicity, manual labor, and contemplation. "
+ 
+ gospels_of_tsar_ivan_alexander: "Gospels of Tsar Ivan Alexander"
+ gospels_of_tsar_ivan_alexander_desc: "The Gospels of Tsar Ivan Alexander is a lavishly illuminated book that embodies the cultural ambition and the religious devotion of Bulgaria's second golden age."

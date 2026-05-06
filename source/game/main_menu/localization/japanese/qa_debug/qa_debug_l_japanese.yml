@@ -173,6 +173,7 @@
  qa_debug.11.b: "Destroy ALL the Rebels!"
  qa_debug.11.c: "The Rebels shall rise!"
  qa_debug.11.d: "Stop all that dicking around, just start a civil war RIGHT NOW."
+ qa_debug.11.e: "そんな愚行はやめて、ただちに反乱を起こせ。"
  qa_debug.12.title: "Location Menu"
  qa_debug.12.desc: "Choose the adjustment to your locations and provinces."
  qa_debug.12.a: "Remove all the autonomy in my provinces."

@@ -79,6 +79,7 @@
  sengoku.22.title: "[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]に対する[actor.GetLongNameWithNoTooltip]の反乱"
  sengoku.22.desc: "[GetUniqueInternationalOrganization('japanese_shogunate').GetLeaderTitle]の役割とは、[ShowSpecialStatusName('japanese_emperor')]の名のもとに国を治め、皇位を煩雑な直接統治の雑務から解放することにある。しかし、動乱の時代に乗じた[actor.GetLongName]は、十分な支持を集めて我らの権威を糾弾し、皇統のもとでの直接統治を取り戻そうと試みたのだ。結果として我々は、[ShowRegionName('japan_region')]の真の君主に対する逆賊であるとの烙印を押されることとなった。"
  sengoku.22.a: "我らは悪しき者であると？"
+ sengoku.22.tt: "They will declare the independence of their lands from our authority in those [locations|e] in which they have the majority of [foreign_buildings|e], and will abandon the rest"
  sengoku.23.title: "$sengoku.22.title$"
  sengoku.23.desc: "これはまさしく動乱の時代の訪れである。我らこそが[ShowRegionName('japan_region')]に秩序の灯火をもたらす者のはずが、その権威に疑問を投げかける氏族が後を絶たないのだ。近ごろでは[actor.GetName]が公然と我らの統治に異を唱え、領地の独立を宣言するという不敬を働いた。このような振る舞いは決して看過できず、主に牙剥く犬には必ずや罰を与えなけれはならない。さもなくば、[GetUniqueInternationalOrganization('japanese_shogunate').GetName]とわが国はさらなる混迷の深みに陥るだろう。"
  sengoku.23.a: "出る杭は打たねばならん。"

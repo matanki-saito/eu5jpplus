@@ -1,5 +1,6 @@
 ﻿l_english:
  legatusnatus.1.title: "Legatus Natus"
+ legatusnatus.1.entry: "$legatusnatus.1.title$"
  legatusnatus.1.desc: "[home_ruler.GetName] has long been honored with being the representative of [pope_ruler.GetName] - the [ShowGovernmentReformName('legatus_natus')] - north of the Alps.\nSuch a prestigious title demands a certain level of dignity and we cannot let our prestige or our relations with the [GetCountry('PAP').GetGovernment.GetRulerTitle] drop too low."
  legatusnatus.1.a: "It is all in God's hands."
  legatusnatus.2.title: "Title of Legatus Natus Lost"

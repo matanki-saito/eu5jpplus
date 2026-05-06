@@ -48,7 +48,7 @@
  lutheranism_events.11.c: "How unfortunate..."
  
  lutheranism_events.12.title: "Catholic Thinker at Court"
- lutheranism_events.12.desc: "[target_character.GetName] is famous for their sharp intellect and their presence in our court lends a certain grandeur to our name. [target_character.GetNameWithNoTooltip] is, however, also a stalwart [ShowReligionName('catholic')] and has been allowed to practice their faith as they wish in order to keep them here. It would be unthinkable for the Church of [ROOT.GetCountry.GetName] itself to criticize [ROOT.GetCountry.GetGovernment.GetRuler.GetName], but, in the streets of [ROOT.GetCountry.GetCapital.GetName], there is talk of [target_character.GetNameWithNoTooltip] trying to plant subversive Catholic ideas [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]'s head."
+ lutheranism_events.12.desc: "[target_character.GetName] is famous for their sharp intellect and their presence in our court lends a certain grandeur to our name. [target_character.GetNameWithNoTooltip] is, however, also a stalwart [ShowReligionAdjective('catholic')] and has been allowed to practice their faith as they wish in order to keep them here. It would be unthinkable for the Church of [ROOT.GetCountry.GetName] itself to criticize [ROOT.GetCountry.GetGovernment.GetRuler.GetName], but, in the streets of [ROOT.GetCountry.GetCapital.GetName], there is talk of [target_character.GetNameWithNoTooltip] trying to plant subversive Catholic ideas [ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]'s head."
  lutheranism_events.12.a: "Let them talk."
  lutheranism_events.12.b: "Dismiss them from court."
  

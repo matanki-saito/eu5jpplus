@@ -1,8 +1,10 @@
 ﻿l_japanese:
  flavor_lub.1.title: "[target_location.GetNameWithNoTooltip]門"
+ flavor_lub.1.entry: "リューベックの門"
  flavor_lub.1.desc: "国内の優れた技師たちが[target_location.GetName]に集まり、愛するわが[target_location.GetRank.GetNameWithNoTooltip]に新たな門を築くための計画を進めている。首都の入口として、重厚で美しい[ShowBuildingTypeName('hsa_burgtor')]を建設したいとのことだ。\n\n門はすでにある城壁に組み込まれる予定であり、守衛たちが人の出入りを監視および制限しやすい、戦略的な好立地に置かれるという。"
  flavor_lub.1.a: "資金を出そう！"
  flavor_lub.1.b: "建設費用は[target_country.GetNameWithNoTooltip]が出すべきでは？"
+ flavor_lub.1.b.entry: "Perhaps they can pay for its construction?"
  flavor_lub.1.c: "そのような浪費には興味がない。"
  flavor_lub.2.title: "[target_country2.GetNameWithNoTooltip]への資金援助"
  flavor_lub.2.desc: "[target_country2.GetName]の地方宮廷の使者が、わが国の商人たちに接触してきた。彼らは両国の外交官のより緊密な協力を訴え、ある建設計画への資金提供を要請している。それは[target_location.GetRank.GetNameWithNoTooltip]の正門として[ShowBuildingTypeName('hsa_burgtor')]を建設する計画で、我々に求めるのはささやかな援助だというが……"

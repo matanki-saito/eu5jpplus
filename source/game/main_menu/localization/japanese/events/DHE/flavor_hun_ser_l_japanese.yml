@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_hun_ser.1000.title: "[target_location.GetNameWithNoTooltip]への提案"
+ flavor_hun_ser.1000.entry: "ベオグラードへの提案 - セルビア"
  flavor_hun_ser.1000.desc: "何世紀にもわたり、[target_location.GetName]では領主の交代が繰り返されてきた。ドナウ川周辺地域を抑える要衝として、この戦略的に重要な[target_location.GetRank.GetName]は、さまざまな国によって治められてきた。1319年、それまで[ROOT.GetCountry.GetAdjective]の支配下にあった[target_location.GetNameWithNoTooltip]は[target_country.GetName]の手に渡った。現在、我々は[target_country.GetNameWithNoTooltip]と同盟関係にあるため、金と引き換えに[target_location.GetNameWithNoTooltip]を要求してみるのも一案かもしれない。[target_location.GetNameWithNoTooltip]を同盟国に譲渡するならば、[target_country.GetNameWithNoTooltip]の安全が損なわれるおそれはないため、その返還について交渉の余地があるとの見方がある。"
  flavor_hun_ser.1000.a: "失うものは何もない。"
  flavor_hun_ser.1000.b: "やめておこう。"
@@ -17,3 +18,4 @@
  flavor_hun_ser.1003.desc: "$flavor_hun_ser_response_common$残念なことに、わが同盟国[target_country.GetAdjective]は提案を拒絶したため、[target_location.GetNameWithNoTooltip]は依然として彼らの支配下にある。"
  flavor_hun_ser.1003.a: "仕方がない。やるだけのことはやった……"
  flavor_hun_ser.1003.b: "[target_location.GetNameWithNoTooltip]を武力で奪い取る！"
+ flavor_hun_ser.1003.b.entry: "We will take the location by force!"

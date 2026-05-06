@@ -27,12 +27,14 @@
  coffee_boom_happened: "Coffee Boom"
  
  prices.6.title: "Cotton Imports"
+ prices.6.entry: "$prices.6.title$"
  prices.6.desc: "During the Renaissance, Indian cotton fabrics had become increasingly popular in Europe. Eventually, the [ROOT.GetCountry.GetAdjective] wool industry came under intense pressure and demanded a ban on cotton imports."
  prices.6.a: "We will not restrict free trade."
  prices.6.b: "Ban the Cotton Imports!"
  STATIC_MODIFIER_NAME_cotton_imports_banned: "Cotton Imports Banned"
  
  prices.7.title: "Of Tea and Sugar"
+ prices.7.entry: "$prices.7.title$"
  prices.7.desc: "Originally a Chinese beverage, tea quickly became the new [ROOT.GetCountry.GetAdjectiveWithNoTooltip] national drink after its introduction in [ROOT.GetCountry.GetName]. Mixed with sugar, it is consumed by the rich, the poor and even [ROOT.GetCountry.GetGovernment.GetRuler.GetName]."
  prices.7.a: "This will increase the demand for tea and sugar."
  tea_and_sugar_for_britain: "Teatime needs!"

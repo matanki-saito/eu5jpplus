@@ -37,6 +37,7 @@
  dynastic.7.a: "Send for a trained medicus."
  dynastic.7.b: "Bring a medicus trained in the School of [target_location.GetNameWithNoTooltip]."
  dynastic.7.c: "Pray for [target_child.GetHisHer] life."
+ dynastic.7.d: "The talisman of [target_child.GetVariable('talisman_giver_variable').GetShortNameWithNoTooltip] shall save [target_child.GetShortNameWithNoTooltip]"
  dynastic.8.title: "A Child in the Reeds"
  dynastic.8.desc: "Suddenly, something startles the animal, and before the [ROOT.GetCountry.GetGovernment.GetRulerTitle] has time to fire, it is long gone. [ruler_char.GetSheHe|U] looks around. The water in the small creek reflects the sunlight of a perfect day, and the reeds wave slowly before a light breeze. Is that laughter? [ruler_char.GetSheHe|U] realizes now what had startled the animal. In a cradle, floating among the reeds, lies a laughing little boy. Judging by his smile, one would say that he has never known fear in his life."
  dynastic.8.a: "Adopt him as the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s own."

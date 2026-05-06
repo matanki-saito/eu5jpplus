@@ -2,7 +2,6 @@
  MUSIC_PLAYER_CHANGE_SHUFFLE_METHOD: "Change shuffle method"
  MUSIC_PLAYER_PLAY: "Play"
  MUSIC_PLAYER_PAUSE: "Pause"
- MUSIC_PLAYER_NEXT: "Next Track"
  MUSIC_PLAYER_HEADER: "Music Player"
  MUSIC_PLAYER_OPEN_SETTINGS: "Open Music Settings"
  OPEN_MUSIC_PLAYER: "Open Music Player"
@@ -130,8 +129,6 @@
  MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Power_flavour: "$Jacob_Regnart_facts$"
  MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft: "North German - Auf meinen lieben Gott (Slow Version)"
  MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft_flavour: "$Jacob_Regnart_facts$"
- MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft_version_2: "North German - Auf meinen lieben Gott (Slow Alternate Version)"
- MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft_version_2_flavour: "$Jacob_Regnart_facts$"
  MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft_Version_2: "North German - Auf meinen lieben Gott (Slow Alternate Version)"
  MusicPlayer_sol_north_german_Auf_meinen_lieben_Gott_Slow_Soft_Version_2_flavour: "$Jacob_Regnart_facts$"
  MusicPlayer_sol_north_german_Danket_dem_Herrn_denn_er_ist_sehr_freundlich_medium_power: "North German - Danket dem Herrn denn er ist sehr freundlich (Medium Intensity Version)"
@@ -144,11 +141,11 @@
  MusicPlayer_sol_north_german_Danket_dem_Herrn_denn_er_ist_sehr_freundlich_Soft: "North German - Danket dem Herrn denn er ist sehr freundlich (Soft and Mellow Version)"
  MusicPlayer_sol_north_german_Danket_dem_Herrn_denn_er_ist_sehr_freundlich_Soft_flavour: "$Dietrich_Buxtehude_facts$"
  MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_medium_power: "North German -Lobe den Herren den mächtigen König der Ehren (Medium Intensity Version)"
- MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_medium_power_flavour: "$Joachim_Neander_facts$
+ MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_medium_power_flavour: "$Joachim_Neander_facts$"
  MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_power: "North German -Lobe den Herren den mächtigen König der Ehren (Powerful Version)"
- MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_power_flavour: "$Joachim_Neander_facts$
+ MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_power_flavour: "$Joachim_Neander_facts$"
  MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_slow_soft: "North German -Lobe den Herren den mächtigen König der Ehren (Slow and Soft Version)"
- MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_slow_soft_flavour: "$Joachim_Neander_facts$
+ MusicPlayer_sol_north_german_Lobe_den_Herren_den_m_chtigen_K_nig_der_Ehren_slow_soft_flavour: "$Joachim_Neander_facts$"
  MusicPlayer_sol_north_german_Nun_danket_alle_Gott_medium_strong: "North German - Nun danket alle Gott (Medium Intensity Version)"
  MusicPlayer_sol_north_german_Nun_danket_alle_Gott_medium_strong_flavour: "$Martin_Rinckart_facts$"
  MusicPlayer_sol_north_german_Nun_danket_alle_Gott_soft: "North German - Nun danket alle Gott (Soft Version)"

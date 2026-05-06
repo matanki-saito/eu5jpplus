@@ -84,23 +84,23 @@
  SETTING_Music_Density: "Music Density"
  SETTING_Music_Density_TOOLTIP: "#T Music Density adjustment\n#!Sets the length of breaks between music tracks, ranging from having long breaks between tracks to playing almost continuously. Setting of 20 is default behaviour." 
 
-SETTING_Music_Intensity: "Music Intensity"
-SETTING_Music_Intensity_TOOLTIP: "#T Music Intensity\n#!Controls the overall intensity of static music mixes. Only available for static cinematic or static cultural music modes."
-
-SETTING_MUSIC_SYSTEM_TYPE: "Music System Type"
-SETTING_MUSIC_SYSTEM_TYPE_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE$\n#!Choose how the music system should behave: fully dynamic playlists, more curated cinematic or cultural selections, static playlists, or no music at all."
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL: "Dynamic - All"
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL$\n#!Uses the fully dynamic music system with access to all tracks."
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC: "Dynamic - Cinematic"
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC$\n#!Uses the dynamic music system, focusing on more cinematic tracks."
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL: "Dynamic - Cultural"
-SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL$\n#!Uses the dynamic music system, focusing on tracks matching cultural context."
-SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC: "Static - Cinematic"
-SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC$\n#!Uses a more static, less reactive playlist biased toward cinematic tracks."
-SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL: "Static - Cultural"
-SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL$\n#!Uses a more static, less reactive playlist biased toward cultural context."
-SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC: "No Music"
-SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC$\n#!Disables the music system."
+ SETTING_Music_Intensity: "Music Intensity"
+ SETTING_Music_Intensity_TOOLTIP: "#T Music Intensity\n#!Controls the overall intensity of static music mixes. Only available for static cinematic or static cultural music modes."
+ 
+ SETTING_MUSIC_SYSTEM_TYPE: "Music System Type"
+ SETTING_MUSIC_SYSTEM_TYPE_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE$\n#!Choose how the music system should behave: fully dynamic playlists, more curated cinematic or cultural selections, static playlists, or no music at all."
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL: "Dynamic - All"
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_ALL$\n#!Uses the fully dynamic music system with access to all tracks."
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC: "Dynamic - Cinematic"
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CINEMATIC$\n#!Uses the dynamic music system, focusing on more cinematic tracks."
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL: "Dynamic - Cultural"
+ SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_DYNAMIC_CULTURAL$\n#!Uses the dynamic music system, focusing on tracks matching cultural context."
+ SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC: "Static - Cinematic"
+ SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_STATIC_CINEMATIC$\n#!Uses a more static, less reactive playlist biased toward cinematic tracks."
+ SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL: "Static - Cultural"
+ SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_STATIC_CULTURAL$\n#!Uses a more static, less reactive playlist biased toward cultural context."
+ SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC: "No Music"
+ SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC$\n#!Disables the music system."
 
 
  # Game
@@ -139,6 +139,7 @@ SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_NOMUSI
 
  AGENDA_SKIP_AGENDA_SETTING: "Do not show the Agenda at the start of the game."
  AGENDA_HISTORICAL_CONTEXT: "Historical Context"
+ AGENDA_COUNTRY_CONTENT: "[Country.GetAdjective] Content"
  AGENDA_WALKTHROUGH_DISABLED_MISSIONS: "@trigger_no! You can not run the Learning Walkthrough with Missions Disabled. Enable them in Main Menu's Game Rules."
  AGENDA_WALKTHROUGH_IS_RUNNING: "@trigger_no! The Walkthrough is running."
  # Map
@@ -157,10 +158,14 @@ SETTING_MUSIC_SYSTEM_TYPE_NOMUSIC_TOOLTIP: "#T $SETTING_MUSIC_SYSTEM_TYPE_NOMUSI
  SETTINGS_WEATHER_GRAPHIC_EFFECTS_TOOLTIP: "#T Activate weather graphics #! Toggle weather effects to increase performance"
  SETTINGS_SINGLE_UNIT_ARMIES: "Single unit armies"
  SETTINGS_SINGLE_UNIT_ARMIES_TOOLTIP: "#T Single unit armies #! Armies are drawn on the map using a single unit to represent it"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES: "Show combat casualty popups"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES_TOOLTIP: "#T Show combat casualty popups#! When enabled, floating numbers appear over armies during land battles you are involved in. Turn off to hide these strength loss indicators."
  SETTINGS_GRID_TILE_SIZE_TEXT: "Size of city buildings"
  SETTINGS_GRID_TILE_SIZE_TEXT_TOOLTIP: "This controls the size city buildings on the 3D map."
 
  # Categories
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE: "Pin favorite map modes bar open"
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE_TOOLTIP: "#T Pin favorite map modes bar open#!\nWhen enabled, the favorite map modes strip on the bottom HUD stays expanded when you are not using the map mode selector."
  SETTINGS_CATEGORY_INTERFACE: "Interface"
  SETTINGS_CATEGORY_MULTIPLAYER: "Multiplayer"
  SETTINGS_CATEGORY_MAP: "Map"

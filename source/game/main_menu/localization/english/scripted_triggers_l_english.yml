@@ -1,6 +1,7 @@
 ﻿l_english:
  reformation_is_enabled_tt: "The #Y Reformation#! has started"
  casus_belli_forbids_non_french_location_conquest_tt: "The 'Hundred Years War' [war_goal|e] only permits taking land within the [ShowRegionName('france_region')] [region|e] or land owned by either a [subject|e] of [GetCountry('FRA').GetNameWithNoTooltip] or [GetCountry('ENG').GetNameWithNoTooltip]"
+ superiority_lat_reconquest_reconquest_valid_locations: "May only take lands within the [ShowScriptedGeographyName('frankokratia_geography')] with [ShowCasusBelliName('cb_lat_reconquest')]"
  casus_belli_forbids_location_conquest_tt: "This war forbids us to conquer any [location|e] directly"
  casus_belli_forbids_normal_subjugation_tt: "This war forbids us to [subjugate|e] our enemy normally"
  casus_belli_forbids_normal_subjugation_tributary_tt: "$casus_belli_forbids_normal_subjugation_tt$\nTo establish a [ShowSubjectTypeName('tributary')] use the [ShowPeaceTreatyTypeName('force_tributary')] [peace_treaty|e]"
@@ -662,3 +663,9 @@
  NOT_FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of our [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
  THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "One of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
  NOT_THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "None of their [cabinet_members|e] is already performing the same [cabinet_action|e] on this target"
+
+ CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE: "Must be the [overlord|e]'s [primary_culture|e]"
+ NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE: "Must NOT be the [overlord|e]'s [primary_culture|e]"
+
+ CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE: "Must be the [overlord|e]'s [primary_culture|e] or a #Y Kindred#! culture"
+ NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE: "Must NOT be the [overlord|e]'s [primary_culture|e] or a #Y Kindred#! culture"

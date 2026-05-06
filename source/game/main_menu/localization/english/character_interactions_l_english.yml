@@ -13,7 +13,7 @@
  make_regent_ruler: "Take the Throne"
  make_regent_ruler_concept: "[ruler|e]"
  make_regent_ruler_act: "$make_regent_ruler$"
- make_regent_ruler_desc_specific: "Give [SCOPE.sCharacter('recipient').GetName] the throne of [SCOPE.sCountry('actor').GetLongName], so that they become the [SCOPE.sCountry('actor').GetGovernment.GetRulerTitle]."
+ make_regent_ruler_desc_specific: "Give [SCOPE.sCharacter('recipient').GetName] the throne of [SCOPE.sCountry('actor').GetLongName], so that they become the [SCOPE.sCountry('actor').GetGovernment.GetPossibleRulerTitle(SCOPE.sCharacter('recipient'),'(bool)no')]."
  make_regent_ruler_desc: "The [character|e] will become the new [ruler|e] of the [country|e]."
  make_regent_ruler_past: "[SCOPE.sCharacter('recipient').GetName] became the new [SCOPE.sCountry('actor').GetGovernment.GetRulerTitle]!"
  make_regent_ruler_act_past: "[SCOPE.sCharacter('recipient').GetName] has gained the throne of [SCOPE.sCountry('actor').GetNameWithNoTooltip], and is now the [SCOPE.sCountry('actor').GetGovernment.GetRulerTitle] of [SCOPE.sCountry('actor').GetLongName]."

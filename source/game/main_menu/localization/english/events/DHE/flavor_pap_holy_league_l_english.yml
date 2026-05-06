@@ -1,5 +1,6 @@
 ﻿l_english:
  flavor_pap_holy_league.1.title: "The Holy League"
+ flavor_pap_holy_league.1.entry: "$flavor_pap_holy_league.1.title$"
  flavor_pap_holy_league.1.desc: "The fall of [ShowLocationName('constantinople')] and the subsequent [GetCountry('TUR').GetAdjective] expansion into the [ShowRegionName('balkan_region')] came as a devastating blow to Christendom. As a result, many have been calling us to act in retaliation. As the leader of the [GetUniqueInternationalOrganization('catholic_church').GetName], it is our holy duty to gather the maritime powers of [ShowRegionName('italy_region')] and the Mediterranean to our side and call a crusade in order to banish the infidel from [ShowContinentName('europe')] for good."
  flavor_pap_holy_league.1.a: "Call the crusade!"
  flavor_pap_holy_league.1.a.tt: "[THIS.GetCountry.GetName] will be invited to the [crusade|e]."

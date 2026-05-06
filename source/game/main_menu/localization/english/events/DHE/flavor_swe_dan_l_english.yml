@@ -1,5 +1,6 @@
 ﻿l_english:
  flavor_swe_dan.1.title: "The Fate of Southern Halland"
+ flavor_swe_dan.1.entry: "$flavor_swe_dan.1.title$"
  flavor_swe_dan.1.desc: "The [GetCountry('DAN').GetLongName] is still in debt, and we have the money to spare. We could offer to buy [ShowLocationName('laholm')] and [ShowLocationName('asbo')] from them, to unify our lands in Scania."
  flavor_swe_dan.1.historical_info: "In 1341, King Magnus IV Eriksson of Sweden acquired southern Halland from the impoverished Danes. The purchase was a diplomatic and strategic victory, securing Sweden a stronger presence on the western coast and closer access to key trade routes. Though Halland would later become a battleground between Denmark and Sweden, the acquisition marked an early assertion of Swedish influence in the region."
  flavor_swe_dan.1.a: "Give the offer!"

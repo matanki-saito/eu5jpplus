@@ -1,5 +1,6 @@
 ﻿l_english:
  primasgermaniae.1.title: "Primas Germaniae"
+ primasgermaniae.1.entry: "$primasgermaniae.1.title$"
  primasgermaniae.1.desc: "Since the tenth century the [target_country.GetGovernment.GetRulerTitle] of [target_country.GetName] have held the prestigious title of [ShowGovernmentReformName('primas_germaniae')] - the most important [ShowReligionAdjective('catholic')] [target_country.GetGovernment.GetRulerTitle] throughout the [GetUniqueInternationalOrganization('hre').GetName].\n\nNaturally, such a title will inspire jealousy among the other princes of the Empire... Our ruler, [home_ruler.GetName], must take heed and not let our $game_concept_prestige$ drop too low, or we might find the title slip from our fingers!"
  primasgermaniae.1.a: "I see..."
  

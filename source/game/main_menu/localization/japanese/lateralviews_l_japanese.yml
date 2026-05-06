@@ -13,6 +13,7 @@
  lateralview_battle_entry_name: "戦闘：[COMBAT.GetNameWithNoTooltip|L]"
  lateralview_country_religion_entry_name: "「宗教」パネル"
  lateralview_country_culture_entry_name: "「文化」パネル"
+ lateralview_country_dhe_entry_name: "「歴史イベント」パネル"
  lateralview_country_art_entry_name: "「芸術」パネル"
  lateralview_location_entry_name: "ロケーション：[LOCATION.GetNameWithNoTooltip|L]"
  lateralview_seazone_entry_name: "シーゾーン：[LOCATION.GetNameWithNoTooltip|L]"
@@ -94,3 +95,5 @@
  lateralview_pops_overview_entry_name: "$game_concept_pops$"
  lateralview_country_list_entry_name: "$game_concept_countries$"
  lateralview_unit_template_entry_name: "「ユニットテンプレート」パネル"
+ lateralview_bureaucracies_entry_name: "「官僚機構」パネル"
+ lateralview_town_rights_entry_name: "「都市特権」パネル"

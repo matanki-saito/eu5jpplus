@@ -6,16 +6,16 @@
  burghers_estate: "Burghers"
  burghers_estate_desc: "This estate represents the commercial class of our country, including artisans, merchants, and traders. Their traditional responsibility is to maintain and develop the economy. Therefore, they are usually granted special rights and privileges to facilitate commerce and trade.\n$estate_common_crown_ending$"
  peasants_estate: "Commoners"
- peasants_estate_desc: "This is the estate which represents the population at the lowest tier of society. Frequently a class given little to no prestige or power, the common folk nevertheless make up the foundation of our country, and can become surprisingly powerful when united."
+ peasants_estate_desc: "This is the estate which represents the population at the lowest tier of society. Frequently a class given little to no prestige or power, the common folk nevertheless make up the foundation of our country, and can become surprisingly powerful when united.\n$estate_common_crown_ending$"
  crown_estate: "Crown"
- crown_estate_desc: "This is the heart and source of authority for our entire realm and government, held solely by those at the very top and not granted to the other estates.\nIn general, it is best for the government estate to hold as much power as possible."
+ crown_estate_desc: "This is the heart and source of authority for our entire realm and government, held solely by those at the very top and not granted to the other estates.\n$estate_common_crown_ending$"
  dhimmi_estate: "Dhimmi"
  dhimmi_estate_desc: "This estate represents the religious minorities in our [country|e] who are considered 'People of the Book' in [ShowReligionGroupName('muslim')]. This usually refers to the [ShowReligionGroupAdjective('christian')] and [ShowReligionAdjective('judaism')] communities, but is sometimes extended to other [religions|e]. Their status and privileges can vary greatly between different countries, as do both their organization and numbers.\n$estate_common_crown_ending$"
  tribes_estate: "Tribes"
  tribes_estate_desc: "This estate represents the different tribes and clans present in our [country|e]. They are traditionally organized into lineage and kinship groups and dispersed mostly in rural areas. These different groups live and work in very diverse ways, and their distance and relative independence from the main centers of power make them difficult to govern. Their unique customs also typically give them a reputation as fearsome, unpredictable warriors.\n$estate_common_crown_ending$"
  cossacks_estate: "Cossacks"
  cossacks_estate_desc: "This estate represents the different groups of [ShowCultureName('cossack_culture')] people present in our [country|e]. Organized in semi-nomadic and semi-militarized groups, they live on the fringes of other nations, but can be convinced to serve them faithfully and be put to great use if given the appropriate incentives.\n$estate_common_crown_ending$"
- estate_common_crown_ending: "In general, it is better for the government estate to have more power than the other estates."
+ estate_common_crown_ending: "In general, it is better for the $crown_estate$ estate to have more power than the other estates."
  
  
  crown_estate_holy_order: "Chapter"
@@ -24,6 +24,9 @@
  crown_estate_derbfine: "Derbfine"
  crown_estate_clan: "Clan"
  crown_estate_kronan: "Kronan"
+ crown_estate_kruna: "Kruna"
+ crown_estate_korona: "Korona"
+ crown_estate_krona: "Krona"
  
  
  clergy_estate_holy_order: "Fratres"
@@ -37,6 +40,7 @@
  clergy_estate_kahenat: "Kahenat"
  clergy_estate_teopixque: "Teōpixqueh"
  clergy_estate_kler: "Kler"
+ clergy_estate_kleriki: "Kleriki"
  clergy_estate_brahmin: "Brāhmaṇa"
  clergy_estate_granthis: "Granthis"
  clergy_estate_bateren: "Bateren"
@@ -78,6 +82,8 @@
  nobles_estate_makuannent: "Makuannent"
  nobles_estate_pipiltin: "Pīpiltin"
  nobles_estate_vlastela: "Vlastela"
+ nobles_estate_bolyari: "Bolyari"
+ nobles_estate_plemstvo: "Plemstvo"
  nobles_estate_yangban: "Yangban"
  nobles_estate_amir: "'Umarā'"
  nobles_estate_kshatriya: "Kṣatriya"
@@ -103,6 +109,8 @@
  burghers_estate_naggade: "Naggade"
  burghers_estate_pochteca: "Pōchtēcah"
  burghers_estate_mestanstvo: "Meštanstvo"
+ burghers_estate_grazhdani: "Grazhdani"
+ burghers_estate_mescanstvo: "Meščanstvo"
  burghers_estate_jungin: "Jungin"
  burghers_estate_vaishya: "Vaiśya"
  burghers_estate_chounin: "Chōnin"
@@ -122,6 +130,8 @@
  peasants_estate_gebbar: "Gebbar"
  peasants_estate_macehualtin: "Mācēhualtin"
  peasants_estate_sebri: "Sebri"
+ peasants_estate_selyani: "Selyani "
+ peasants_estate_sleherniki: "Sleherniki"
  peasants_estate_sangmin: "Sangmin"
  peasants_estate_sudra: "Śūdra"
  peasants_estate_noumin: "Nōmin"
@@ -182,6 +192,8 @@
  clergy_powerful_dioceses: "Powerful Dioceses"
  clergy_powerful_dioceses_desc: "The administration of our territory lies in the hands of the state. However, the organization of the [ShowEstateTypeName('clergy_estate')] does not follow our provincial systems. Instead, the they organize themselves in Dioceses, which have significant power and influence over the internal affairs of our country."
  
+ nobles_offensive_military_doctrine: "Offensive Military Doctrine"
+ nobles_offensive_military_doctrine_desc: "Our [ShowEstateTypeName('nobles_estate')] lean towards aggressive military tactics, ascribing to the idea that a good offense is the best defense. Their commanders and soldiers are predisposed toward bold, decisive action, seeking the swift destruction of our enemies."
  nobles_land_rights: "Land Rights"
  nobles_land_rights_desc: "This represents the privileges our [ShowEstateTypeName('nobles_estate')] have over the lands they rule and the people who inhabit them. Among those rights, $nobles_estate$ can usually tax the [ShowEstateTypeName('peasants_estate')] living on their lands, draft them to form levies, or mete out justice on their own. These holdings are usually hereditary."
  auxilium_et_consilium: "Auxilium et Consilium"
@@ -208,8 +220,8 @@
  bashtinas_and_pronijas_grants_desc: "The system of land grants for our elites is inspired by the Byzantine system of #italic Pronoias#!. It grants them a grand array of privileges and obligations on behalf of their domains when it comes to administering the lands leased to them by the government."
  zupa_districts: "Župa Districts"
  zupa_districts_desc: "The compartmentalization and division of our society is detailed in the various legal frameworks that surround our administrative branch. The most important aspect of our society and bureaucracy is the division of our provinces into Župa districts, aimed at improving how local affairs are handled."
- vlastele_krayishnik: "Vlastele Krayishnik"
- vlastele_krayishnik_desc: "Our borderlands must be safely guarded at all times. To that end, the system of #italic krayine#! splits our frontiers into well-administered districts under the command of local lords, known as #italic Vlastele Krayishnik#!, who are in charge of maintaining and protecting the people of their provinces."
+ vlastele_krayishnik: "Krajiška Vlastela"
+ vlastele_krayishnik_desc: "Our borderlands must be safely guarded at all times. To that end, the system of #italic krajine#! splits our frontiers into well-administered districts under the command of local lords, known as #italic Krajiška Vlastela#!, who are in charge of maintaining and protecting the people of their provinces."
  feudal_mercenary_contracts: "Feudal Mercenary Contracts"
  feudal_mercenary_contracts_desc: "The armies levied by our people often leave a lot to be desired. In order to protect our people and best our rivals, we must rely on foreign mercenaries, whose contracts will be managed by the elite members of our society."
 
@@ -233,7 +245,7 @@
  coign_and_livery_privilege_desc: "This system, also known as #italic bonnacht#!, requires that our lesser chieftains must billet our loyal soldiers in their own holdings at their own expense."
  peasants_allowed_weapons_privilege: "Common Militias"
  peasants_allowed_weapons_privilege_desc: "The common people are allowed to keep their weapons, which they then must use when called for levy service. This increases the demand for weapons in the market."
- gradozadanje_and_gradobljudenlje_rights: "Gradozadanje and Gradobljudenlje"
+ gradozadanje_and_gradobljudenlje_rights: "Gradozidanije and Gradobljudenije"
  gradozadanje_and_gradobljudenlje_rights_desc: "Our domain is home to many fortifications and formidable strongholds. The maintenance expenses and garrisoning of these emplacements have been entrusted to the local population and townspeople."
  peasants_autonomous_villages: "Autonomous Villages"
  peasants_autonomous_villages_desc: "In the rural settlements of our state, there is a saying: 'The laws of the sovereign end at the village's gate.' The people in our settlements organize themselves independently from the central authority of this country."
@@ -279,8 +291,11 @@
  land_owning_farmers: "Land-Owning Peasants"
  land_owning_farmers_desc: "[GetCountry('SWE').GetAdjective] peasants hold a uniquely strong position compared to their peers in much of feudal [ShowContinentName('europe')]. They own their land outright, pay taxes directly to the crown, and often have a voice in local assemblies, giving them a degree of autonomy and legal protection. These farmers were not serfs; many are armed and serve in levies. Their rights are rooted in ancient customary law, and their relative independence is a foundational element of Swedish rural society."
  
- 
- 
+ #Frankokratia
+ lat_compromise_with_greek_populace: "Compromise with the [ShowCultureNameWithNoTooltip('greek_culture')] people"
+ lat_compromise_with_greek_populace_desc: "While the ruling Crusader elite may still wield great influence, some of the remaining [ShowCultureName('greek_culture')] families still wield considerable power of their own. Finding a compromise between the ruling and formerly powerful elite would be the best way to build a stable rule in ShowScriptedGeographyName('greece_geography')]."
+ lat_latin_crusader_elite: "Crusader Elite"
+ lat_latin_crusader_elite_desc: "While the fall of the Latin empire may have splintered the crusader $nobles_estate$, they still maintain a powerful force throughout [ShowScriptedGeographyName('greece_geography')] that cannot be ignored."
  
 
 #Aragon
@@ -589,7 +604,7 @@
  right_to_inherit_desc: "The [ShowCultureGroupName('german_group')] [ShowEstateTypeName('nobles_estate')] maintains the long-standing tradition of dividing the lands and titles of the father between all of the sons, ensuring the peace between brothers and avoiding unnecessary wars."
 
  fund_karimi: "Fund the Karimi Merchants"
- fund_karimi_desc: "Funding the powerful [ShowEstateTypeName('burghers_estate')] known as the Karimi, who are responsible for the trade of [ShowGoodsName('spices')] as well as other valuable goods, is essential to our continued prosperity."
+ fund_karimi_desc: "Funding the powerful [ShowEstateTypeName('burghers_estate')] known as the Karimi, who are responsible for the trade of spices as well as other valuable goods, is essential to our continued prosperity."
 
  waqf_payments: "Waqf Payments"
  waqf_payments_desc: "To demonstrate our piety and religious dedication, we will grant #italic waqf#! payments as charitable endowments, which shall be used to fund madrasas, hospitals, and mosques, as well as to aid the less fortunate."
@@ -709,6 +724,7 @@
  scottish_clans_desc: "The people of [GetCountry('SCO').GetName] have been traditionally organized in multiple clans, each one united in both terms of kinship and geographical location, and owing allegiance to their own clan chief. Clan gatherings and interrelation among them is what drives [GetCountry('SCO').GetAdjective] politics."
  autonomous_scottish_clans: "Autonomous $scottish_clans$"
  autonomous_scottish_clans_desc: "$scottish_clans_desc$"
+ gaelic_clans_pop_assignment_tt: "[ShowLanguageName('gaelic_language')]-speaking pops of the [ShowCultureGroupName('celtic_group')] culture group are assigned to the [ShowEstateTypeName('tribes_estate')]"
  tribes_scotland_gaelic_heritage: "United [ShowCultureGroupNameWithNoTooltip('scottish_group')] Heritage"
  tribes_scotland_gaelic_heritage_desc: "For generations, the clans of the rural northern highlands have retained their [ShowLanguageName('gaelic_language')] identity, while the clans of the lowlands have largely developed their own [ShowCultureGroupName('scottish_group')] culture. Despite differing practices, the clans of the highlands and lowlands will nevertheless set aside their differences to fight foreign adversaries that threaten [GetCountry('SCO').GetName]."
  autonomous_tribes_scotland_gaelic_heritage: "Autonomous $tribes_scotland_gaelic_heritage$"
@@ -724,7 +740,7 @@
 
 # France
  villes_franches: "Villes Franches"
- villes_franches_desc: "Several of our market towns have grown tremendously in size, during the last few decades. As such, they have developed a level of autonomy, transforming into something resembling free cities and leaning towards a decentralized approach to governance."
+ villes_franches_desc: "Several of our market towns have experienced considerable growth in recent decades. As a result, they have become symbols of the expansion of the Crown's power throughout the kingdom, in opposition to the feudal lords who dominate the countryside."
 
  residence_in_versailles: "Residence in Versailles"
  residence_in_versailles_desc: "The [GetCountry('FRA').GetGovernment.GetAdjective] family has extended an offer of residence for members of the prominent [ShowEstateTypeName('nobles_estate')] dynasties to live in the palace of Versailles."
@@ -848,6 +864,10 @@
  ira_clerical_aristocracy: "Clerical Aristocracy"
  ira_clerical_aristocracy_desc: "A union between the wealthy landowners and the [ShowEstateTypeName('clergy_estate')], wherein legal ownership of the land is transferred to the $clergy_estate$ to ensure said property can never be confiscated by the nation."
  
+#Latin Empire
+ lat_protector_of_the_constantinople_patriarchate: "Protector of the Patriarchate of [ShowLocationNameWithNoTooltip('constantinople')]"
+ lat_protector_of_the_constantinople_patriarchate_desc: "The return of the Crusaders to [ShowLocationName('constantinople')] has seen the Patriarchate restored once again. With a strengthened [ShowReligionAdjective('catholic')] presence in [ShowLocationNameWithNoTooltip('constantinople')], the Patriarchate will serve to become the symbol of [ShowReligionAdjectiveWithNoTooltip('catholic')] rule in [ShowScriptedGeographyName('greece_geography')] once more."
+
 #Mamluks
  mam_muhtasibs: "Muḥtasib Inspectors"
  mam_muhtasibs_desc: "The #italic Muḥtasib#! oversee marketplace integrity by inspecting [ShowEstateTypeName('burghers_estate')], publicly punishing financial criminals, and developing manuals to identify and prevent fraud."
@@ -871,6 +891,7 @@
 
  tur_banned_weaponry_for_peasants: "Banned Weapons for [GetEstateNameWithNoTooltip('peasants_estate')]"
  tur_banned_weaponry_for_peasants_desc: "Our realm is home to a diverse population, which occasionally leads to conflict. If we permit our people to remain armed, these minor squabbles could explode into all-out war. It is for that reason our [ShowEstateTypeName('peasants_estate')] may no longer carry any weapons on their persons."
+
 #Generic
 
  noble_patronage_of_the_arts: "Noble Patronage of the Arts"

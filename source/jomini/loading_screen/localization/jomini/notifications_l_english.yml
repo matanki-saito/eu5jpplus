@@ -8,5 +8,7 @@
  JOMINI_DLC_MANAGER_OUTDATED_MODS_ALERT_DESC: "Some of your mods are for a different version of $GAME$. These mods may not work correctly and could cause problems with your game. For stability, we recommend disabling these mods until they are updated.\n\nThe following mods are out of date:\n$MODS_OUTDATED_LIST$"
  JOMINI_JOIN_SERVER_ALERT_TITLE: "It's not possible to connect to the server"
  JOMINI_JOIN_SERVER_ALERT_DESC: "Please go to main menu to join a game."
+ JOMINI_FILE_TRANSFER_ERROR_TITLE: "The file transfer failed"
+ JOMINI_FILE_TRANSFER_ERROR_DESC: "Please try again to connect to the server."
  JOMINI_DLC_MANAGER_CONFIRM_UGC_UPLOAD_TITLE: "Confirm UGC Upload"
  JOMINI_DLC_MANAGER_CONFIRM_UGC_UPLOAD_DESC: "Are you sure you want to upload this mod? This will create a new mod on the Steam Workshop.\n\nBy submitting this item, you agree to the workshop terms of service. If you have not agreed to the terms, a Steam overlay window will open that prompts you to read the terms, and your content will be hidden by Steam until you have accepted it."

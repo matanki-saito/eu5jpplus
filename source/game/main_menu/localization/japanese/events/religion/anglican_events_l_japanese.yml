@@ -45,7 +45,6 @@
  anglican_events.11.title: "祭服をめぐる論争"
  anglican_events.11.desc: "聖職者の祭服に関する問題は、聖公会では依然として論争の的である。カトリック教徒の贅沢で迷信的な祭服は間違いなく廃止されるだろうが、聖職者にどの程度の質素さを求めるかについては議論や抗議が絶えない。\n\n保守的な聖公会信者は、かつてのカトリック聖職者の凝った装飾を復活させたいと考えているが、穏健派は簡素なサープリスで十分だとしている。急進的な改革派は、祭服には聖書的な根拠がないばかりか、神の掟を冒涜し汚すものだと主張している。"
  anglican_events.11.a: "伝統的な祭服を認める。"
- anglican_vestments_tt: "わが国の[ShowPopTypeName('clergy')]からの[ShowGoodsName('fine_cloth')]の需要が増加する"
  anglican_events.11.b: "サープリスだけでよい。"
  anglican_events.11.c: "すべての祭服を拒否する。"
  anglican_events.12.title: "祭壇の破壊"

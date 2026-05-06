@@ -1,6 +1,7 @@
 ﻿l_japanese:
  REGENCY_NO_REGENT: "@trigger_no! 現在、有効な摂政がいない！"
  REGENT_IMPACT: "$TITLE$$NAME$"
+ cabinet_head_regency: "Cabinet Head Regency"
  consort_regency: "摂政政治（配偶者）"
  overlord_regency: "摂政政治（宗主国）"
  lordship_of_ireland_regency: "摂政政治（アイルランド卿）"
@@ -24,6 +25,7 @@
  fratricide_succesion_regency_tt3: "前統治者の最も優れた息子が、即座に王位に就く。"
  fratricide_succesion_regency_tt4: "継承問題が解決するには、まず息子たちが成長しなければならない。"
  republican_election_regency_desc: "共和国に[ruler|e]がいない場合、公式の[election|e]が実施されるまでは[regent|e]として一時的に統治者が任命される。"
+ cabinet_head_regency_desc: "When a [country|e] has no [ruler|e], the [head_of_the_cabinet|e] takes charge as [regent|e]."
  consort_regency_desc: "君主制の[ruler|e]が、[heir|e]が成人する前に死亡した場合、[consort|e]が[regent|e]として[country|e]を統治することができる。"
  nobles_estate_regency_desc: "[country|e]に[ruler|e]がいない場合、$nobles_estate$のいずれかが[regent|e]として統治者に任命される。"
  clergy_estate_regency_desc: "[country|e]に[ruler|e]がいない場合、$clergy_estate$のいずれかが[regent|e]として統治者に任命される。"

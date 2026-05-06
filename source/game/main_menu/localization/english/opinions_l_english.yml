@@ -7,7 +7,7 @@
  COUNTRY_OPINION_OF_TT: "The current opinion of ($OPINION|2+=$) is due to:"
  COUNTRY_TRUST_OF_SELF: "#T $WHO$ Trust#!\nClearly $TARGET|Y$ trust themselves with their lives."
  COUNTRY_TRUST_OF_SELF_PLAYER: "#T Trust in $TARGET$#!\n$TARGET|Y$ is our own country!"
- COUNTRY_TRUST_OF: "#T [COUNTRY.GetAdjectiveWithNoTooltip] Trust of [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Their', 'Our')] trust of ($TRUST|2+=$) is due to:"
+ COUNTRY_TRUST_OF: "#T [COUNTRY.GetAdjectiveWithNoTooltip] Trust of [TARGET_COUNTRY.GetLongNameWithNoTooltip]#!\n[Select_CString(TARGET_COUNTRY.IsPlayer, 'Their', 'Our')] trust is $TRUST$ and in the next month it will change by $TRUST_CHANGE|2+=$ due to:\n$CHANGE_REASONS$\nThe equilibrium is $EQUILIBRIUM|2$ due to:"
  COUNTRY_TRUST_OF_TT: "The trust of ($TRUST|+=$) is due to:"
  COUNTRY_ANTAGONISM_TOWARDS_SELF: "#T [COUNTRY.GetAdjective] Antagonism#!\nClearly [TARGET_COUNTRY.GetName] feel no antagonism towards themselves."
  COUNTRY_ANTAGONISM_TOWARDS_SELF_PLAYER: "#T Antagonism towards [TARGET_COUNTRY.GetName]#!\n[TARGET_COUNTRY.GetName] is our own country!"
@@ -39,14 +39,18 @@
  ANTAGONISM_ENTRY_FOR_COUNTRY_WITH_BREAKDOWN: "[COUNTRY.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-V2$#!"
  ANTAGONISM_ENTRY_WITH_BREAKDOWN: "$NAME$: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|-=1$#!"
  ANTAGONISM_ENTRY: "$NAME$: $VAL|1=-$"
- ANTAGONISM_ENTRY_CHANGE: "$NAME$: $VAL|1=-$ ($CHANGE|2=-$ yearly)"
- ANTAGONISM_ENTRY_CHANGE_THEM: "[COUNTRY.GetName] $MODIFIER$: $VAL|-=$ yearly" 
+ ANTAGONISM_ENTRY_CHANGE: "$NAME$: $VAL|1=-$ (#TOOLTIP:$BREAKDOWN_TAG$ $CHANGE|2=-$#! yearly)"
+ ANTAGONISM_ENTRY_CHANGE_THEM: "[COUNTRY.GetName] $MODIFIER$: $VAL|-=$ yearly"
+ ANTAGONISM_YEARLY_CHANGE_BASE: "Natural decay: $VAL|2=-$ yearly"
+ ANTAGONISM_YEARLY_CHANGE_MODIFIER: "[COUNTRY.GetName] $MODIFIER$: $VAL|2=-$ yearly"
+ ANTAGONISM_YEARLY_CHANGE_OPINION_IMPROVEMENT: "Opinion improvement: $VAL|2=-$ yearly"
  OPINION_SAME_CULTURE_ENTRY: "Both have [CULTURE.GetName] [primary_culture|e]: $VAL|0=+$\n"
  OPINION_CULTURE_ENTRY: "[CULTURE.GetName] view of [TARGET_CULTURE.GetName]: $VAL|0=+$\n"
  OPINION_SHARED_CULTURE_GROUPS: "$NUM$ of $TOTAL$ Shared [culture_groups|e]: $VAL|=+$\n"
  OPINION_RELIGIOUS_TOLERANCE_ENTRY: "#T Tolerance Reasons#!\n[COUNTRY.GetAdjective] religious [tolerance|e] of [TARGET_RELIGION.GetName]: $VAL|0=+$\n"
  OPINION_RELIGION_GENERAL_VIEW_ENTRY: "[RELIGION.GetAdjective] view of [TARGET_RELIGION.GetName]: $VAL|0=+$\n"
  OPINION_RELIGION_ENTRY: "[COUNTRY.GetAdjective] view of [TARGET_RELIGION.GetAdjective] countries: #TOOLTIP:$BREAKDOWN_TAG$ $VAL|L0=+$#!\n"
+ OPINION_EXCOMMUNICATED: "[CHARACTER.GetName] is Excommunicated"
  CULTURE_BREAKDOWN_TOOLTIP: "#T Distribution of [CULTURE.GetNameWithNoTooltip]#!\n[CULTURE.GetName] [pops|e] are spread among the following [provinces|e]:"
  CULTURE_BREAKDOWN_TOOLTIP_ENTRY: "@province! [PROVINCE.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $POP_SIZE|L$#!"
  ICI_HEADER: "[CULTURE.GetNameWithNoTooltip] in [PROVINCE.GetNameWithNoTooltip]"
@@ -54,6 +58,7 @@
 
  OPINION_CULTURE_TOOLTIP: "#T [CULTURE.GetNameWithNoTooltip] view of [TARGET_CULTURE.GetNameWithNoTooltip]#!\n$TITLE$ opinion gives the following:\n[CULTURE.GetName] countries' view of [TARGET_CULTURE.GetName] countries: $VAL|0=+$"
  OPINION_CULTURE_POP_TOOLTIP: "[pop_satisfaction|e] of [CULTURE.GetNameWithNoTooltip] [pops|e]: $VAL|=+2%$"
+ OPINION_CULTURE_ASSIMILATION_TOOLTIP: "[assimilation|e] of [TARGET_CULTURE.GetName] [pops|e]: $VAL|=+2%$"
 
  RELIGION_BREAKDOWN_TOOLTIP: "#T Distribution of [RELIGION.GetNameWithNoTooltip]#!\n[RELIGION.GetName] [pops|e] are spread among the following [provinces|e]:"
  RELIGION_BREAKDOWN_TOOLTIP_ENTRY: "@province! [PROVINCE.GetName]: $POP_SIZE$ [population_icon]"
@@ -195,8 +200,8 @@
  trust_they_rival_us: "[rival|e]"
  trust_mutual_rival: "Mutual [rival|e]"
  trust_supporting_rival: "Supporting Rival"
- trust_receiving_guarantee: "Long Term $guarantee$"
- trust_alliance: "Long Term $alliance$"
+ trust_receiving_guarantee: "Guarantee"
+ trust_alliance: "Alliance"
  trust_declared_war: "Declared War"
  trust_cant_afford_tribute: "Not Able to Pay Tribute"
  trust_broke_alliance: "Broke Alliance"
@@ -246,6 +251,8 @@
  opinion_cardinal_selected: "Cardinal became Pope"
  opinion_jubilee_bad: "Pope disapproves of Jubilee"
  opinion_jubilee_good: "Pope approves of Jubilee"
+ stolen_jewels: "Stolen Jewels"
+ BYZ_latin_emperor_opinion: "Titular Latin Emperor"
  #Western Schism
  western_schism_opposing_side: "Opponent in the Western Schism"
  western_schism_rethinking_our_approach: "Rethinking our Approach"
@@ -340,6 +347,7 @@
  trust_protects_pirates: "Protects Pirates"
  trust_sco_fra_renaissance_auld_alliance: "The Auld Alliance"
  trust_sco_fra_auld_alliance: "Renewal of the Auld Alliance"
+ trust_ach_naples_court_ties: "Deep Ties to the Court of Naples"
  pol_gave_up_on_wschowa: "Gave up on Wschowa"
  kor_persecuted_cotton_theft: "Persecuted Cotton Theft"
  opinion_good_relations: "Good relations"
@@ -462,7 +470,15 @@
  opinion_historical_rival_CAS_ccw: "Broken Promises"
  opinion_historical_rival_target_ccw: "Unreasonable Demands"
  opinion_granted_electorship: "Granted Electorship"
+ opinion_granted_legatus_natus: "Granted Legatus Natus"
+ opinion_granted_primas_germaniae: "Granted Primas Germaniae"
+ opinion_granted_free_city: "Granted Free City"
+ opinion_granted_kingdom_title: "Granted Kingdom Title"
+ opinion_granted_country_privileges: "Granted Country Privileges"
  opinion_rescinded_electorship: "Rescinded Electorship"
+ opinion_rescinded_legatus_natus: "Rescinded Legatus Natus"
+ opinion_rescinded_primas_germaniae: "Rescinded Primas Germaniae"
+ opinion_rescinded_free_city: "Rescinded Free City"
  opinion_demanded_unlawful_territory: "Demanded Unlawful Territory"
  hre_emperor_defends_empire: "Imperial Defense"
  opinion_added_land_to_hre: "Added land to [GetUniqueInternationalOrganization('hre').GetName]"
@@ -525,6 +541,7 @@
  member_same_league: "Member of the same League"
  opinion_weakened_our_league: "Weakened our League"
  opinion_strengthened_our_league: "Strengthened our League"
+ io_opinion_foreign_league_balkan: "$member_same_league$"
  io_opinion_foreign_league_france: "$member_same_league$"
  io_opinion_foreign_league_hre: "$member_same_league$"
  io_opinion_foreign_league_iberia: "$member_same_league$"
@@ -799,9 +816,16 @@
  antagonism_bav_ignore_feudal_traditions_harsh: "Forcefully annexed $LBV$"
  antagonism_broke_subject_union: "Broke Subject Union"
  antagonism_peace_rtr_demand_all_occupied_territories: "Demand All Occupied Territories"
+ antagonism_peace_rtr_demand_all_chinese_territories: "Demand All Chinese Territories"
  antagonism_anti_scaligeri_league: "Anti-Scaligeri League"
  antagonism_ordered_me_to_annul_treaties: "Ordered us to annul treaties with another [country|e]"
  antagonism_ordered_someone_to_annul_treaties_with_us: "Ordered another [country|e] to annul treaties with us"
+ antagonism_maritime_aggression: "Maritime Aggression"
+ antagonism_seized_papal_capital: "Seized the Papal Capital"
+ antagonism_infidel_holds_rome: "Infidel Holds [ShowLocationNameWithNoTooltip('rome')]"
+
+ # Athens
+ antagonism_ach_byzantine_civil_war_intervention: "Sowed Chaos in Byzantium"
 
  #Portugal
  por_shared_letters_with_persian_shah: "Exchanged Letters"
@@ -848,9 +872,32 @@
  chk_raided_our_city: "Raided Cahokia"
  antagonism_chk_raiding_neighbors_for_food: "Raiding Neighbors for Food"
 
-#Misc
+#Frankokratia
+ ach_nap_court_ties: "Ties to the Court of Naples"
+ ach_nap_court_ties_monetary: "Monetary Ties to Naples"
+ ach_epirus_support_rebel_victory: "Supported Orsini Uprising"
+ ach_epirus_support_rebel_victory_betrayed: "Betrayed Us!"
+ ach_claimed_the_peloponnese: "Claimed the Peloponnese"
+ ach_ath_frankokratia_ties: "Latin Ties"
+ ach_papal_latin_restoration_guarantee: "Backing of the Papal State"
+ ach_pap_sacked_constantinople_again: "Sacked Constantinople"
+ ach_rejected_papacy_offer: "Rejected Proposal to Restore the Latin Empire"
+ ath_byz_raided_our_greek_holdings: "Raided our Northern Greek Holdings"
+ ath_befriend_epirus: "Befriended"
+ ath_acknowledged_the_latin_claim: "Recognized our claims to the Latin Empire"
+ ath_papal_latin_restoration: "Supported Papal Proposal to Restore the Latin Empire"
+ ath_declined_papal_latin_restoration: "Declined Papal Offer to Restore the Latin Empire"
+ ath_claimed_thessalonica: "Claimed Thessalonica"
+ ath_proclaimed_rival_thessalonica_kingdom: "Proclaimed Rival Kingdom to Thessalonica"
+ lat_patriarchate_of_constantinople_restored: "Latin Patriarchate of Constantinople Restored"
 
+#Misc
+ burned_venice: "Burned $venice$"
  ayd_byz_cooperation: "Cooperation Against [GetCountry('TUR').GetNameWithNoTooltip]"
+ prevented_ship_building_technology_from_spreading: "Prevented the Sharing of Shipbuilding Technology"
+ sided_with_palamas_opinion_modifier: "Sided with Palamas"
+ sided_with_barlaam_opinion_modifier: "Sided with Barlaam"
+ 
 
  ira_rejected_persian_diplomats: "Rejected Diplomats"
  ira_visited_capital: "Visited Capital"
@@ -879,17 +926,46 @@
  
 
 # Iroquois
-iro_walking_sale: "Walking Purchase Treaty"
-refused_iro_walking_sale: "Refused Walking Purchase Treaty"
-trading_in_furs_iro: "Trading in Fur"
+ iro_walking_sale: "Walking Purchase Treaty"
+ refused_iro_walking_sale: "Refused Walking Purchase Treaty"
+ trading_in_furs_iro: "Trading in Fur"
 
- #Brandenburg
- opinion_bra_changing_allegiances_negative: "Changing Allegiances"
- opinion_bra_changing_allegiances_positive: "Changing Allegiances"
+#Brandenburg
+opinion_bra_changing_allegiances_negative: "Changing Allegiances"
+opinion_bra_changing_allegiances_positive: "Changing Allegiances"
 
 # Novgorod
-nov_seized_control_of_peterhof: "Seized Control of Peterhof Kontor"
-nov_friendly_hanseatic_relations: "Friendly Hanseatic Relations"
+ nov_seized_control_of_peterhof: "Seized Control of Peterhof Kontor"
+ nov_friendly_hanseatic_relations: "Friendly Hanseatic Relations"
 
 #Denmark
-dan_banned_lutheran_bible: "Banned Lutheran Bible"
+ dan_banned_lutheran_bible: "Banned Lutheran Bible"
+
+#Fate of the Phoenix
+ opinion_catholic_delegation: "Catholic Delegation"
+
+#Orthodoxy
+ opinion_invited_patriarch_delegation: "Invited Patriarch Delegation"
+ orthodox_synod_diplomatic_embassy_modifier: "Diplomatic Embassy"
+
+ #Greek Generic
+ alliance_with_lutherans: "Enemy of My Enemy"
+ mocked_nation: "Mocked our Nation"
+ 
+ #Bosnia
+ opinion_bos_aspirations_of_liberty: "Aspirations of Liberty"
+ opinion_bos_proclaimed_kingdom_of_bosnia: "Proclaimed the Kingdom of Bosnia"
+ opinion_bos_diplomatic_restraint: "Diplomatic Restraint"
+ opinion_bos_became_catholic: "Converted to Catholicism"
+ opinion_bos_became_orthodox: "Converted to Orthodoxy"
+ 
+ #Ragusa
+ opinion_rag_ottoman_partnership: "Ottoman Partnership"
+ #Bulgaria
+ opinion_bul_proclaimed_an_empire: "Proclaimed an Empire"
+ 
+ #Croatia
+ cro_approved_the_merge: "Approved the Merge of Croatia and Slavonia"
+ cro_rejected_the_merge: "Rejected the Merge of Croatia and Slavonia"
+ cro_dismissal_of_nelipic: "Dismissal of Nelipić's Claim"
+ cro_legitimation_of_nelipic: "Legitimation of Nelipić's Claim"

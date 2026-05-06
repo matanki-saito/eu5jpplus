@@ -1,9 +1,11 @@
 ﻿l_english:
  
  flavor_lub.1.title: "The Gate of [target_location.GetNameWithNoTooltip]"
+ flavor_lub.1.entry: "The Gate of Lübeck"
  flavor_lub.1.desc: "The best engineers across our domain have gathered in [target_location.GetName] to push forward their agenda of a new gate for our beloved [target_location.GetRank.GetNameWithNoTooltip]. According to their plans, they wish to erect a [ShowBuildingTypeName('hsa_burgtor')] to serve as our capital's primary gate.\n\nSimultaneously, the construct will be adorned with beautiful architecture. Its strategic location along our existing fortifications will easily allow guards to monitor and regulate traffic entering and exiting."
  flavor_lub.1.a: "We will finance it!"
  flavor_lub.1.b: "Perhaps [target_country.GetNameWithNoTooltip] can pay for its construction?"
+ flavor_lub.1.b.entry: "Perhaps they can pay for its construction?"
  flavor_lub.1.c: "We care not for such expenditures."
 
  flavor_lub.2.title: "Financial Assitance for [target_country2.GetNameWithNoTooltip]"

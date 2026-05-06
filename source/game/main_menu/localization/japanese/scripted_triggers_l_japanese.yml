@@ -1,6 +1,7 @@
 ﻿l_japanese:
  reformation_is_enabled_tt: "#Y 宗教改革#!が始まった"
  casus_belli_forbids_non_french_location_conquest_tt: "「百年戦争」の[war_goal|e]で奪取が許可される土地は、[ShowRegionName('france_region')][region|e]内の土地、または[GetCountry('FRA').GetNameWithNoTooltip]か[GetCountry('ENG').GetNameWithNoTooltip]の[subject|e]が所有する土地に限定される"
+ superiority_lat_reconquest_reconquest_valid_locations: "「[ShowCasusBelliName('cb_lat_reconquest')]」がある[ShowScriptedGeographyName('frankokratia_geography')]内でのみ領土を獲得可能"
  casus_belli_forbids_location_conquest_tt: "この戦争では、いかなる[location|e]も直接征服することが禁じられている"
  casus_belli_forbids_normal_subjugation_tt: "この戦争では、通常の方法で敵国を[subjugate|e]させることが禁じられている"
  casus_belli_forbids_normal_subjugation_tributary_tt: "$casus_belli_forbids_normal_subjugation_tt$\n[ShowSubjectTypeName('tributary')]を樹立するには、[peace_treaty|e]「[ShowPeaceTreatyTypeName('force_tributary')]」を使用する必要がある"
@@ -561,3 +562,7 @@
  NOT_FIRST_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "わが国の[cabinet_members|e]内で、すでにこの対象に対して同一の[cabinet_action|e]を実行中の者はいない"
  THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "相手国の[cabinet_members|e]内の1名が、すでにこの対象に対して同一の[cabinet_action|e]を実行中である"
  NOT_THIRD_CABINET_ALREADY_PERFORMING_SAME_TASK_ON_TARGET: "相手国の[cabinet_members|e]内で、すでにこの対象に対して同一の[cabinet_action|e]を実行中の者はいない"
+ CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE: "[primary_culture|e]の[overlord|e]でなければならない"
+ NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_CULTURE: "[primary_culture|e]の[overlord|e]であってはならない"
+ CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE: "[primary_culture|e]の[overlord|e]か、#Y 類似#!の文化でなければならない"
+ NOT_CAN_CHANGE_PRIMARY_CULTURE_MUST_MATCH_OVERLORD_OR_KINDRED_CULTURE: "[primary_culture|e]の[overlord|e]か、#Y 類似#!の文化であってはならない"

@@ -22,3 +22,5 @@
  smallpox_location_modifier: "Smallpox location modifier"
 
  great_pestilence_location_modifier: "Great Pestilence location modifier"
+
+ DISEASE_CHARACTER_TRAIT: "Afflicts characters with: [Trait.GetName]"

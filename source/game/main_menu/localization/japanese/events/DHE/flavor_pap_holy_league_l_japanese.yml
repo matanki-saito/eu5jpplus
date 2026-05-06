@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_pap_holy_league.1.title: "神聖同盟"
+ flavor_pap_holy_league.1.entry: "$flavor_pap_holy_league.1.title$"
  flavor_pap_holy_league.1.desc: "[ShowLocationName('constantinople')]の陥落と、それに続く[GetCountry('TUR').GetAdjective]の[ShowRegionName('balkan_region')]への勢力拡大は、キリスト教世界にとって壊滅的な打撃となった。その結果、多くの者が我々に報復行動を求めている。[GetUniqueInternationalOrganization('catholic_church').GetName]の指導者として、[ShowRegionName('italy_region')]と地中海の海洋勢力を味方につけ、十字軍を召集し[ShowContinentName('europe')]から異教徒を永久に追放することは、我々の聖なる責務である。"
  flavor_pap_holy_league.1.a: "十字軍を召集せよ！"
  flavor_pap_holy_league.1.a.tt: "[THIS.GetCountry.GetName]が[crusade|e]に召集される。"

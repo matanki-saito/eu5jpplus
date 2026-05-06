@@ -1,7 +1,7 @@
 ﻿l_english:
  #
  march_to_sound_of_guns: "March to the Sound of Guns"
- march_to_sound_of_guns_desc: "When we hear the sound of cannons in the distance, our corps will march to the aid!"
+ march_to_sound_of_guns_desc: "#bold This allows [armies] to automatically move towards nearby battles.#!\n\nWhen we hear the sound of cannons in the distance, our corps will march to the aid!"
  drill_army: "Drill Army"
  drill_army_desc: "Drilling is the ideal, if expensive, way to ensure every soldier is fighting fit and knows what needs to be done without risking life and limb. Experience is the best teacher, after all."
  drill_army_cta: "Click to start drilling."
@@ -24,6 +24,9 @@
  scorch_earth_desc: "Destroy our [food|e] supplies to weaken the enemy if we need to retreat."
  scorch_earth_cta: "Click to let it all burn!"
  scorched_earth_pops_unhappy: "All [pops|e] in the [province|e] lose [ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%] [pop_satisfaction|e]."
+ hunt_pirates: "Hunt Pirates"
+ hunt_pirates_desc: "Our fleet will focus on hunting down [privateers|e] and disrupting their operations, improving our ability to suppress piracy at the cost of reduced trade presence in the area."
+ hunt_pirates_cta: "Click to begin hunting [privateers|e]."
  convert_galley_to_light_ship: "Convert Galley to Light Ship"
  convert_galley_to_light_ship_desc: "In times of peace the [ShowUnitCategoryName('navy_galley')] can be repurposed to serve as a merchant ship for our state."
  convert_galley_to_light_ship_cta: "Click to convert [ShowUnitCategoryName('navy_galley')] into [ShowUnitCategoryName('navy_light_ship')].\nEach conversion costs #R 5 [gold|e].#!"

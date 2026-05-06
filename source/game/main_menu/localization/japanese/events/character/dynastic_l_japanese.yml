@@ -37,6 +37,7 @@
  dynastic.7.a: "腕のある医師を呼べ。"
  dynastic.7.b: "[target_location.GetNameWithNoTooltip]の学校で訓練を受けた医師を連れてこい。"
  dynastic.7.c: "この回復を祈る。"
+ dynastic.7.d: "[target_child.GetVariable('talisman_giver_variable').GetShortNameWithNoTooltip]がくれたお守りが[target_child.GetShortNameWithNoTooltip]の命を救ってくれるだろう。"
  dynastic.8.title: "葦原のゆりかご"
  dynastic.8.desc: "その獣は突然何かに驚き、発砲する間もなく去っていった。[ROOT.GetCountry.GetGovernment.GetRulerTitle]が周囲を見回すと、小川の水は眩しい陽光を反射し、そよ風が葦原を渡っている。笑い声……？ [ROOT.GetCountry.GetGovernment.GetRulerTitle]は先ほど獣を驚かせたものに気づいた。葦のあいだにゆりかごが浮かんでおり、そのなかで男の子の赤ん坊が笑っていたのだ。赤ん坊は[ROOT.GetCountry.GetGovernment.GetRulerTitle]を見て、いまだ恐怖を知らぬ無垢な笑顔を向けた。"
  dynastic.8.a: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]の子として育てよ。"

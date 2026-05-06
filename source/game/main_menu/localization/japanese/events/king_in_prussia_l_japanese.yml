@@ -25,6 +25,6 @@
  king_in_prussia.5.desc: "あの無礼な[emperor_character.GetName]は、我々がいくら合理的な妥協案を示しても、我々が王を名乗ることを認めなかった。もちろん、我々は[emperor_character.Custom('GetEmpressEmperor')]の言うことなど無視して王を名乗るつもりだ。"
  king_in_prussia.5.a: "我々には許可など必要ない。"
  king_in_prussia.5.b: "謹んで[emperor_character.Custom('GetEmpressEmperor')]の決定に従う。"
- king_in_prussia.6.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の正当な[ROOT.GetCountry.GetRulerOrRegent.Custom('GetQueenKing')]"
+ king_in_prussia.6.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の正当な[target_character.Custom('GetQueenKing')]"
  king_in_prussia.6.desc: "「[ROOT.GetCountry.GetNameWithNoTooltip]の[target_character.Custom('GetQueenKing')]」という称号の妥協案が成立して以来、[ROOT.GetCountry.GetName]を正式に[GetUniqueInternationalOrganization('hre').GetName]内の[ShowCountryRankName('rank_kingdom')]へ昇格させる話が再び持ち上がることはなかったが、最近の[GetUniqueInternationalOrganization('hre').GetParliament.GetName]における重要な議題により、[emperor_character.GetName]はこの妥協を再考せざるを得なくなった。[GetUniqueInternationalOrganization('hre').GetParliament.GetCurrentDebateName]の議決が迫るなか、[target_character.GetName]の票を獲得するために、[ShowCountryRankNameWithNoTooltip('rank_kingdom')]の称号を[ROOT.GetCountry.GetNameWithNoTooltip]に正式に授与する決定が下された。"
  king_in_prussia.6.a: "忍耐はやはり報われる！"

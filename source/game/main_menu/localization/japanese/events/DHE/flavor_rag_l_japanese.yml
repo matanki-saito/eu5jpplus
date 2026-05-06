@@ -1,0 +1,12 @@
+﻿l_japanese:
+ flavor_rag.1000.title: "門前に迫る敵"
+ flavor_rag.1000.entry: "$flavor_rag.1000.title$"
+ flavor_rag.1000.desc: "わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]に凶報が届いた。[GetCountry('TUR').GetAdjective]の強大な軍勢が、ついにわが国の国境へ達したのである。わが[ROOT.GetCountry.GetFlavorRank]が武力では太刀打ちできないことは、誰の目にも明らかだ。そこで、わが国の有力者たちの一部が、大胆な提案を持ち出した。彼らは[GetCountry('TUR').GetNameWithNoTooltip]と[ROOT.GetCountry.GetName]の利害は根本から対立するものではなく、[GetCountry('TUR').GetNameWithNoTooltip]の優位を認め、毎年貢納をおこなう代わりに保護と自由を得ることこそ、我らが生き延びる道だと主張している。"
+ flavor_rag.1000.a: "[GetCountry('TUR').GetGovernment.GetRulerTitle]のもとへ使者を送り、交渉させよう。"
+ flavor_rag.1000.a.entry: "Send an envoy to negotiate with him."
+ flavor_rag.1000.b: "いかなる犠牲を払ってでも、独立は守る！"
+ flavor_rag.1000.historical_info: "1458年、ラグーザ共和国は正式にオスマン帝国の朝貢国となった。この取り決めにより、ラグーザは毎年およそ12,500ダカット金貨を納めねばならなかったが、それでもなお自治を保ち、商船隊を維持し、独自に外交をおこなうこともできた。こうした双方に利益のある関係は数世紀にわたって続き、ラグーザはナポレオン戦争中の1808年に共和国が廃されるまで、オスマン帝国の朝貢国でありつづけた。"
+ flavor_rag.1001.title: "[GetCountry('RAG').GetNameWithNoTooltip]からの提案"
+ flavor_rag.1001.desc: "[GetCountry('RAG').GetName]からの使者が[ROOT.GetCountry.GetGovernment.GetCourtTitle]に到着し、[ROOT.GetCountry.GetGovernment.GetRulerTitle]に謹んで申し出た。[GetCountry('RAG').GetAdjectiveWithNoTooltip]の使者は、自国では我々の力には太刀打ちできないことを認め、現実的な取り決めを願い出ている。その内容は、わが国の優位を認め、毎年貢納をおこなう見返りとして、保護と交易の自由を求めるというものだ。これを公平な取り決めであり、わが国の勢力圏のためになると見る者もいるが、あのような弱小国はただちに征服すべきだと主張する者もいる。"
+ flavor_rag.1001.a: "彼らの貢納を受け入れよう。"
+ flavor_rag.1001.b: "征服できるのに、わざわざ取引する必要があるか？"

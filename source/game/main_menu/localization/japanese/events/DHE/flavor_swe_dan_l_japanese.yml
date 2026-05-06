@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_swe_dan.1.title: "南ハッランドの運命"
+ flavor_swe_dan.1.entry: "$flavor_swe_dan.1.title$"
  flavor_swe_dan.1.desc: "[GetCountry('DAN').GetLongName]は依然として負債を抱えており、わが国は懐に余裕がある。[ShowLocationName('laholm')]と[ShowLocationName('asbo')]の買収を彼らに申し入れれば、スコーネにおけるわが領土を統一することができる。"
  flavor_swe_dan.1.historical_info: "1341年、スウェーデン王マグヌス4世エリクソンは、困窮するデンマークから南ハッランドを獲得した。この買収は外交的かつ戦略的な勝利であり、西海岸でのスウェーデンの存在感を高め、重要な交易路への接近を容易にした。ハッランドはのちにデンマークとスウェーデンの争いの場となるが、この獲得は地域におけるスウェーデンの影響力を早期に印象づけた。"
  flavor_swe_dan.1.a: "提案せよ！"

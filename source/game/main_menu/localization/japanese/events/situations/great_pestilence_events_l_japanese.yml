@@ -28,4 +28,4 @@
  great_pestilence.7.t: "さまよう霊魂"
  great_pestilence.7.desc: "[ShowSituationName('great_pestilence')]の憤激は、[target_location.GetName]のあらゆる身分で猛威を振るっており、[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]たちでさえこの病に倒れていった。\n\n多くの村で適切な葬儀を執りおこなえる者がいなくなったため、新たに亡くなった住民は怨霊のようにさまようしかなく、生存者たちの喪失感は一層深まっている。"
  great_pestilence.7.a: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]を助けよう。"
- great_pestilence.7.b: "我々にできることはない。"
+ great_pestilence.7.b: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"

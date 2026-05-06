@@ -1,4 +1,6 @@
 ﻿l_japanese:
+ fall_of_delhi.1.entry: "$delhi_situation.1.title$"
+ fall_of_delhi.18.entry: "$delhi_situation.18.title$"
  delhi_situation.1.title: "伸びゆく権力の手綱"
  delhi_situation.1.desc: "回転する権力の歯車は、かつて我々に有利なものだった。我々の前身であるハルジー朝が、1320年にわが[ROOT.GetCountry.GetGovernment.GetRuler.GetDynasty.GetName]朝の力に屈して以来、$india$の広大な土地が我々の勢力下に落ちた。しかし、時が経つにつれて民衆の支持は失われていき、我々が恩寵と統治権を与えた者たちはいまや草むらの蛇となり、時機を待ちつつ王朝の破滅の物語を追っている。\n\nこの先には波乱に満ちた危険な道が待ち受けている。我らが偉大なる[GetCountry('DLH').GetFlavorRank]の存続は、破壊と完全な支配の天秤にかけられ、どちらに転ぶかはわからない。嵐の到来が近い……"
  delhi_situation.1.a: "我々はこの嵐を乗り越える。"

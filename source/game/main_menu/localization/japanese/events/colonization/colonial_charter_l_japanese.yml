@@ -40,6 +40,8 @@
  colonial_charter.100.d: "ひとまずは[ROOT.GetCountry.GetNameWithNoTooltip]の一部のままにしておこう！"
  colonial_charter.100.e: "植民地で新生活を始めるのも悪くないのでは？"
  colonial_charter.100.f: "[SCOPE.sCountry('potential_join_big_regional_subject').GetNameWithNoTooltip]に加えよう。"
+ colonial_charter.100.g: "Let it join [SCOPE.sCountry('scope_adjacent_area_subject').GetNameWithNoTooltip]."
+ colonial_charter.100.h: "Let it join [SCOPE.sCountry('scope_area_subject').GetNameWithNoTooltip]."
  colonial_charter.100.e.tt: "新たな植民地国家でのプレイに切り替える。"
  colonial_charter.200.title: "[target.GetNameWithNoTooltip]の植民地化の失敗"
  colonial_charter.200.desc: "我々が[target.GetNameWithNoTooltip]を植民地化するために設立した勅許会社は完全に失敗した！ 一方で[attacker.GetLongName]はより大きな成功を収め、我々の取り組みをすべて排斥している！"

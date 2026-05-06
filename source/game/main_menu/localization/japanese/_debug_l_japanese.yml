@@ -10,6 +10,7 @@
  TOOLTIP_DEBUG_DYNASTY_LANGUAGE: "#D debug: language = $LANGUAGE$#!"
  TOOLTIP_DEBUG_ADVANCE_SPECIAL_IS_HIDDEN: "#D debug: Special Is Hidden = $BOOL$#!"
  TOOLTIP_DEBUG_DYNASTY_ID: "#D debug: ID: $ID$#!"
+ TOOLTIP_DEBUG_CONTENT_PRIORITY: "Content Priority: $PRIORITY$"
  TOOLTIP_DEBUG_SUBUNIT_UNIFORMITY: "#D debug: Uniformity = $SUBUNIT_UNIFORMITY$#!"
  johan.1.title: "イベントタイトル"
  johan.1.desc: "[ShowSpecialStatusName('archbishop_elector')]が[ShowParliamentTypeName('estate_parliament')]に[ShowPaymentName('imperial_contribution')]を要求"

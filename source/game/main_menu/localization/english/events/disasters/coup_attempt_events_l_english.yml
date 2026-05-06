@@ -66,6 +66,7 @@
   coup_attempt.100.a: "We will have to prepare for their next attempt."
   inconclusive_end_5_years_tt: "The conspirators were not eliminated in time, yet they have not acted against [target_character.GetName] either. The [disaster|e] ends #R inconclusively#! and may trigger again in #Y 5#! years"
   murdered_ending_tt: "The conspirators were successful in assassinating [target_character_2.GetName]. Only time will tell if [target_character.GetName] is a puppet of the conspirators"
+  conspirator_crowned_tt: "One of the conspirators, [ROOT.GetCountry.GetGovernment.GetRuler.GetName], was crowned [ruler|e]"
 
   coup_attempt.101.title: "End of the Conspiracy"
   coup_attempt.101.desc: "With the restoration of legitimacy, the rule of [target_character.GetName] stands firm. The people rally behind us, and no one dares challenge our right. We have emerged from the darkness stronger than before!"

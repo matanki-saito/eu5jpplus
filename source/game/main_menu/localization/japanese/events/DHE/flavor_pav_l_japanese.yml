@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_pav.1.title: "[expelled_ruler.GetDynasty.GetNameWithNoTooltip]の追放"
+ flavor_pav.1.entry: "追放された統治者の追放"
  flavor_pav.1.desc: "またしても[expelled_ruler.GetDynasty.GetName]に対する反乱が勃発し、[ROOT.GetCountry.GetCapital.GetName]の街は炎に包まれた。今回はカリスマ的な聖職者[pav_iacopo_bussolari_scope.GetName]が主導し、街全体を[ROOT.GetCountry.GetGovernment.GetRulerTitle]に対立させている。このままでは[expelled_ruler.GetName]は逃亡を余儀なくされ、[ShowDynastyName('visconti_dynasty')]家の悪徳に身を投じざるを得なくなる。"
  flavor_pav.1.historical_info: "1356年、修道士ヤコポ・ブッソラーリは民衆反乱を率いて、ベッカリーア家をパヴィーアから追放した。その後、パヴィーアがミラノのヴィスコンティ家によって包囲された際、ブッソラーリはこの都市を陥落の危機から救うことに貢献した。追放されたベッカリーア家がヴィスコンティと結託すると、1359年にパヴィーアはミラノに陥落。ベッカリーア家の特権は一部回復されたが、パヴィーアはミラノの支配下に置かれたままとなった。"
  flavor_pav.1.a: "彼の説教に従え！"

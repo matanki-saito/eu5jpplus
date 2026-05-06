@@ -27,7 +27,7 @@
  war_of_the_aragonese_union_disaster.4.b.tt: "The discontent extends further"
 
  war_of_the_aragonese_union_disaster.5.title: "The Union Expands"
- war_of_the_aragonese_union_disaster.5.desc: "The #italic Union of Aragon#! continues to extend its tendrils on the lands of [ShowAreaName('aragon')] and [ShowAreaName('valencia')] as the accusations of the unionists dig deep into the past of every city and town bringing to the light old grievances and jealousies against the [GetCountry('ARA').GetFlavorRank]."
+ war_of_the_aragonese_union_disaster.5.desc: "The #italic Union of Aragon#! continues to extend its tendrils on the lands of [ShowAreaName('aragon')] and [ShowAreaName('valencia_area')] as the accusations of the unionists dig deep into the past of every city and town bringing to the light old grievances and jealousies against the [GetCountry('ARA').GetFlavorRank]."
  war_of_the_aragonese_union_disaster.5.a: "Send a messenger. We will parley with their leaders."
  war_of_the_aragonese_union_disaster.5.b: "There are more important matters to attend."
 
@@ -42,6 +42,6 @@
  war_of_the_aragonese_union_disaster.7.b: "We will not bend nor we would yield."
  war_of_the_aragonese_union_disaster.7.c: "The guard to us, open us a path out of this trap."
 
- war_of_the_aragonese_union_disaster.8.title: "Valencia Rises"
- war_of_the_aragonese_union_disaster.8.desc: "The fires of the rebellion spread to the lands of the Turia river and reignite the #italic Union of Valencia#!. The difference in status and rights between the Crowns move the people of [ShowAreaName('valencia')] to join the rebellion with the hope of getting the desired privileges."
- war_of_the_aragonese_union_disaster.8.a: "Damnation!."
+ war_of_the_aragonese_union_disaster.8.title: "[ShowAreaNameWithNoTooltip('valencia_area')] Rises"
+ war_of_the_aragonese_union_disaster.8.desc: "The fires of the rebellion spread to the lands of the Turia river and reignite the #italic Union of Valencia#!. The difference in status and rights between the Crowns move the people of [ShowAreaName('valencia_area')] to join the rebellion with the hope of getting the desired privileges."
+ war_of_the_aragonese_union_disaster.8.a: "Damnation!"

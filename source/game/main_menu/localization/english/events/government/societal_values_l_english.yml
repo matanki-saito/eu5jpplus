@@ -418,7 +418,7 @@
  societal_values.900.desc: "Thanks to our shrewd commerce practices, merchants are being attracted to our realm and we are getting more benefits from our trade than ever before."
  societal_values.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  STATIC_MODIFIER_NAME_business_booming: "$societal_values.900.title$"
- STATIC_MODIFIER_DESC_business_booming: "Thanks to our shrewd commerce practices, merchants are being attracted to our realm and our [trade_efficiency|e] has increased as a result."
+ STATIC_MODIFIER_DESC_business_booming: "Thanks to our shrewd commerce practices, merchants are being attracted to our realm and our [selling_efficiency|e] has increased as a result."
  societal_values.901.title: "Trade Complacency"
  societal_values.901.desc: "Although as a nation we are famous for our shrewd commerce practices, at the moment our merchants are becoming a tad complacent."
  societal_values.901.a: "Our merchants are not competing as well."

@@ -47,6 +47,47 @@
  #
  ordinal_numeral.swedish_dialect: "$NUM$:e"
  #
+ # Unit-type-specific ordinals. Each prefix selects the correct grammatical gender for that word.
+ # Regiment names are almost universally masculine so they fall through to the base ordinals.
+ # Ordinal resolution order: dialect > language > base, so dialect entries shadow language entries.
+ #
+ ordinal_numeral.unit_army.swedish_dialect: "$NUM$:a"
+ ordinal_numeral.unit_navy.swedish_dialect: "$NUM$:a"
+ #
+ ordinal_numeral.unit_army.scandinavian_language: "$NUM$."
+ ordinal_numeral.unit_navy.scandinavian_language: "$NUM$."
+ #
+ ordinal_numeral.unit_army.french_language.000000001: "$NUM$ʳᵉ"
+ ordinal_numeral.unit_navy.french_language.000000001: "$NUM$ʳᵉ"
+ #
+ ordinal_numeral.unit_army.occitan_dialect.000000001: "$NUM$ʳᵃ"
+ #
+ ordinal_numeral.unit_navy.spanish_language: "$NUM$ª"
+ ordinal_numeral.unit_navy.spanish_language.000000001: "$NUM$ª"
+ ordinal_numeral.unit_navy.spanish_language.000000003: "$NUM$ª"
+ #
+ ordinal_numeral.unit_navy.catalan_dialect: "$NUM$a"
+ ordinal_numeral.unit_navy.catalan_dialect.000000001: "$NUM$a"
+ ordinal_numeral.unit_navy.catalan_dialect.000000002: "$NUM$a"
+ #
+ ordinal_numeral.unit_navy.north_italian_language: "$NUM$ª"
+ ordinal_numeral.unit_navy.south_italian_language: "$NUM$ª"
+ #
+ ordinal_numeral.unit_navy.portuguese_language: "$NUM$ª"
+ #
+ ordinal_numeral.unit_army.greek_language: "$NUM$ē"
+ #
+ ordinal_numeral.unit_army.east_slavic_language: "$NUM$-ja"
+ #
+ ordinal_numeral.unit_army.ruthenian_language: "$NUM$-je"
+ ordinal_numeral.unit_navy.ruthenian_language: "$NUM$-ja"
+ #
+ ordinal_numeral.unit_army.belarusian_dialect: "$NUM$-e"
+ ordinal_numeral.unit_navy.belarusian_dialect: "$NUM$-ja"
+ #
+ ordinal_numeral.unit_army.bulgarian_language: "$NUM$-a"
+ ordinal_numeral.unit_navy.bulgarian_language: "$NUM$-a"
+ #
  ordinal_numeral.mandarin_language: "Dì $NUM$"
  ordinal_numeral.shu_language: "Dì $NUM$"
  ordinal_numeral.xiang_language: "Di $NUM$"

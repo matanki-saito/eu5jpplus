@@ -125,6 +125,7 @@
  horde_civil_war: "Horde Civil War"
  horde_civil_war_desc: "Once again the authority of our ruler is being questioned! A rival warlord threatens the Horde with a civil war, hungry to claim the throne for themselves. The horde must march to war against its own renegade warriors..."
  horde_civil_war_end_trigger_no_rebels: "Not a single [rebel|e] is a #Y Pretender#! rebel"
+ horde_civil_war_capital_has_neighbor_province_tt: "Capital has access to a neighboring province"
  horde_civil_war_crown_supporters: "Horde Loyalists"
  horde_civil_war_pretender_supporters: "Horde Renegades"
  GUI_REBEL_OWNED_LOCATIONS: "[locations|e] owned by the [rebels|e]: [DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
@@ -150,8 +151,8 @@
  #Disaster
  sinicization_disaster: "The Influence of China"
  sinicization_disaster_desc: "The influence of [GetCountry('CHI').GetName] has been a boon to our society in many ways. However, our relationship with this cultural giant has woven many foreign threads into the tapestry of our society, disconnecting us from our traditions and threatening our independence. If we are to maintain our unique culture, we must resist further corruption from these seductive outside influences. Coversely, however, we might benefit from closer ties..."
- has_opted_to_side_with_china_in_events_tt: "Has sufficiently #G promoted#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e]"
- has_opted_to_stay_sovereign_from_china_in_events_tt: "Has sufficiently #G curbed#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e]"
+ has_opted_to_side_with_china_in_events_tt: "Has sufficiently #G promoted#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e] ([THIS.GetVariable('china_side').GetValue]/30)"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "Has sufficiently #G curbed#! the influence of [GetCountry('CHI').GetNameWithNoTooltip] in our court through [events|e] ([THIS.GetVariable('sovereign_side').GetValue]/30)"
 
 #Crisis of the Chinese Dynasty
  #Disaster
@@ -267,7 +268,7 @@
 #Time of Troubles Disaster
  #Disaster
  time_of_troubles: "Time of Troubles"
- time_of_troubles_desc: "It is a dark period of social and economic unrest. Our nation is struggling with famine and war, as well as trying to brook opposition to the [SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')] and [SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]. Beset on all sides by the dogs of strife, our [Country.GetFlavorRank] is about to be ripped apart and devoured..."
+ time_of_troubles_desc: "It is a dark period of social and economic unrest. Our nation is struggling with famine and war, as well as trying to brook opposition to the clergy and nobles. Beset on all sides by the dogs of strife, our realm is about to be ripped apart and devoured..."
 
 #Decline of the Empire
  #Disaster
@@ -294,7 +295,8 @@
  coup_attempt: "Coup Attempt"
  coup_attempt_desc: "Shadowy threats circle us like birds of prey, waiting to peck us apart — the most terrifying of which would bring about the untimely demise of our ruler! Worse, they would be replaced by a puppet, controlled from behind the scenes by these same murderous shadows."
  recently_had_coup_attempt_inconclusive_tt: "Has NOT had an inconclusive or successful coup attempt in the last #Y 5#! years"
- conspirators_murdered_ruler_tt: "The conspirators were successful in assassinating our ruler"
+ conspirators_murdered_ruler_tt: "The conspirators were successful in assassinating our [ruler|e]"
+ any_conspirator_became_ruler_tt: "One of the conspirators was crowned [ruler|e]"
 
 #Byzantine Civil War
  #Disaster

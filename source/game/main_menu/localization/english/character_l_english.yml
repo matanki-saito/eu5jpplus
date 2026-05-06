@@ -149,8 +149,9 @@
  DEATH_REASON_their_own_exploding_cannon: "[CHARACTER.GetHeSheFormal|U] was killed when a cannon of [CHARACTER.GetHerHis] own making exploded."
 
  DEATH_REASON_starvation: "[CHARACTER.GetHeSheFormal|U] died of starvation."
- DEATH_REASON_wild_animal: "[CHARACTER.GetHeSheFormal|U] died after being attacked by a [SCOPE.sLocation('location').Custom('GetDangerousWildAnimalName')]."
+ DEATH_REASON_wild_animal: "[CHARACTER.GetHeSheFormal|U] died after being attacked by a [CHARACTER.GetLocation.Custom('GetDangerousWildAnimalName')]."
  
+
  DEATH_REASON_cannibalism: "[CHARACTER.GetHeSheFormal|U] was cannibalized by the peasant mob."
   
  CHAR_DIED_DATE: "[CHARACTER.GetDeathAndAgeInfo] on $DATE|Y$\n"
@@ -180,3 +181,8 @@
  DEATH_REASON_stray_fire: "[CHARACTER.GetSheHe|U] was killed by a stray bullet or cannonball."
  DEATH_REASON_hanged_by_mob: "[CHARACTER.GetSheHe|U] was hanged by an angry mob."
  DEATH_REASON_hanged_by_mob_location: "[CHARACTER.GetSheHe|U] was hanged by an angry mob in [SCOPE.sLocation('location').GetName]."
+
+ DEATH_REASON_poisoned: "[CHARACTER.GetHeSheFormal|U] was killed by poisoning."
+ DEATH_REASON_poisoned_killer: "[CHARACTER.GetHeSheFormal|U] was poisoned by [SCOPE.sCharacter('killer').GetName]."
+
+ DEATH_REASON_sickly_death: "[CHARACTER.GetHeSheFormal|U] died due to poor health."

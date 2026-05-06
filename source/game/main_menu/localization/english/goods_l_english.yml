@@ -8,6 +8,7 @@
  expand_rgo_hunting: "Expand Hunting"
  expand_rgo_forestry: "Expand Forestry"
  expand_rgo_gathering: "Expand Gathering"
+ expand_aqueduct_system: "Expand Aqueduct Systems"
  rgo_mining: "Mines"
  rgo_farming: "Farms"
  rgo_forestry: "Forestry"
@@ -79,7 +80,7 @@
  fur: "Fur"
  fur_desc: "Furs were one of the basic elements of high quality and warm clothing. Skins from all kinds of animals were supplied initially from Russia but more and more from North America where beavers would be the prize of choice at least till the late middle 18th century."
  lumber: "Lumber"
- lumber_desc: "Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible have made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone."
+ lumber_desc: "Lumber has been one of the main building materials for humanity throughout all its history. Although less durable than stone, it is more easily accessible, which has made it a staple of any building in all places of the world. Even structures designed to be resistant like castles and fortifications have also their versions made out of wood rather than stone."
  salt: "Salt"
  salt_desc: "Salt is essential for human life. In addition, it was the most common means to preserve food for the long winter months. It was either mineral, brought from mines in Central Europe, or natural, from salt wetlands production via evaporation along sunny coastlines."
  porcelain: "Porcelain"
@@ -196,7 +197,7 @@
  clan_retainers_construction: "Clan Retainers Construction"
  clan_retainer_cavalry_maintenance: "Clan Retainer Cavalry Maintenance"
  clan_retainer_cavalry_construction: "Clan Retainer Cavalry Construction"
-
+ 
  canoe_construction: "Canoe Construction"
  canoe_maintenance: "Canoe Maintenance"
  
@@ -300,6 +301,7 @@
  maintain_railroad_demand: "Maintaining [ShowRoadTypeNameWithNoTooltip('railroad')]"
  build_town_demand: "Building Towns"
  build_city_demand: "Granting City Rights"
+ build_megalopolis_demand: "Building Megalopolis"
  embrace_institution: "Embracing Institutions"
  ship_maintenance: "Ship Maintenance"
  ship_construction: "Ship Construction"
@@ -377,6 +379,12 @@
  paper_mill_maintenance: "Paper Mills"
  paper_wood_pulp_maintenance: "Wood-Pulp Paper"
  qalat_al_mashwar_maintenance: "$qalat_al_mashwar$ Maintenance"
+ 
+ 
+ early_council_hall_maintenance: "Early Council Halls"
+ council_hall_maintenance: "Council Halls"
+ modern_council_hall_maintenance: "Modern Council Halls"
+ 
  
  bog_iron_maintenance: "Bog Iron Smelters"
  
@@ -468,6 +476,8 @@
  fine_cloth_workshop_slot_1: "Fine Cloth Workshop"
  
  
+ 
+ 
  pottery_w_maintenance: "Pottery Workshops"
  pottery_maintenance: "Potteries"
  pottery_manufactory_maintenance: "Pottery Manufactories"
@@ -552,6 +562,8 @@
  ostrog_construction: "Constructing Ostrogs"
  ostrog_maintenance: "Ostrogs"
  construction_center_maintenance: "Construction Centers"
+ aqueduct_system_maintenance: "Aqueduct Systems"
+ aqueduct_system_construction: "Constructing Aqueduct Systems"
  fortress_church_construction: "Constructing Fortress Churches"
  fortress_granary_construction: "Constructing Agadir"
  fortress_church_maintenance: "Fortress Churches"
@@ -570,6 +582,7 @@
  confucian_school_maintenance: "Confucian Schools"
  korean_gunnery_construction: "Constructing Korean Gunneries"
  korean_gunnery_maintenance: "Korean Gunneries"
+ jurchen_barracks_maintenance: "$jurchen_barracks$"
  granary_maintenance: "Wheat Granaries"
  qullqa_maintenance: "Qullqas"
  char_coal_maintenance: "Charcoal Creation"
@@ -632,6 +645,7 @@
  maize_beer_workshop_maintenance: "Maize Beer Workshops"
  bavarian_beer_workshop_maintenance: "Bavarian Beer Workshops"
  honey_beer_workshop_maintenance: "Honey Beer Workshops"
+ rice_beer_workshop_maintenance: "Rice Beer Workshops"
  brewery_mill_maintenance: "Brewery Mills"
  sugar_liquor_workshop_maintenance: "Sugar Liquor Workshops"
  rice_liquor_workshop_maintenance: "Rice Liquor Workshops"
@@ -680,12 +694,14 @@
  slave_center_maintenance: "Slave Centers"
  colony_construction: "Constructing Settlements"
  simple_colony_construction: "Colonizing"
+ kilwan_shipwrights_maintenance: "Kilwan Shipwrights Maintenance"
  colony_maintenance: "Settlements"
  missionary_construction: "Establishing Missions"
  missionary_maintenance: "Missionaries"
  fur_trading_post_maintenance: "Maintaining Fur Trading Posts"
  grant_privilege: "Granting Privileges"
  revoke_privilege: "Revoking Privileges"
+ grant_town_rights: "Grant Urban Rights"
  create_supply_depot: "Creating Supply Depots"
  create_sea_exploration: "Preparing a Sea Exploration"
  create_land_exploration: "Preparing a Land Exploration"
@@ -711,6 +727,8 @@
  funduq_maintenance: "Funduq Maintenance"
  castle_construction: "Castle Construction"
  castle_maintenance: "Castle Maintenance"
+ city_walls_maintenance: "$city_walls$ Maintenance"
+ city_walls_construction: "Constructing $city_walls$"
  bank_construction: "Construction of Banks"
  bank_maintenance: "Needs of Banks"
  wissel_bank_maintenance: "Wisselbank"
@@ -738,10 +756,12 @@
  road_maintenance: "Road Maintenance"
  colonial_charter_maintenance: "Colonial Charter Maintenance"
  slave_rgo_demands: "Slaves needed for [rgo|e]"
+ bureaucracy_maintenance: "[bureaucracy|e] Maintenance"
  honey_brewery_maintenance: "Honey Braggoteries"
  honey_winery_maintenance: "Honey Meaderies"
  maize_brewery_maintenance: "Maize Breweries"
  fruit_brewery_maintenance: "Fruit Cideries"
+ rice_brewery_maintenance: "Rice Breweries"
  rice_winery_maintenance: "Rice Wineries"
  fruit_winery_maintenance: "Fruit Wineries"
  rice_winery_manufactory_maintenance: "Rice Wineries"
@@ -882,8 +902,8 @@
  sawmill_maintenance: "Sawmills"
  local_smelters_maintenance: "Local Smelters"
  fruit_orchard_maintenance: "Fruit Orchard"
- 
- 
+ hippodrome_construction: "$hippodrome$ Construction"
+ merchant_guild_chapel_construction: "$merchant_guild_chapel$ Construction"
 
   
  seljuk_mint_maintenance: "$seljuk_mint$ Maintenance" 
@@ -969,6 +989,7 @@
  expensive_capital_administration_maintenance: "Expensive Administration Buildings"
  endrun_academy_maintenance: "$enderun_academy$"
  moscow_artillery_yard_maintenance: "$moscow_artillery_yard$"
+ hippodrome_maintenance: "$hippodrome$"
  
  capital_administration_maintenance: "Administration Buildings"
  royal_court_maintenance: "Royal Court"
@@ -1028,6 +1049,8 @@
  ribat_maintenance: "$ribat$ Maintenance"
  rahdar_construction: "$rahdar$ Construction"
  rahdar_maintenance: "$rahdar$ Maintenance"
+ fur_trim_guild_maintenance: "Fur Trims"
+ fur_trim_workshop_maintenance: "Fur Trims"
  ori_portuguese_quarters_maintenance_desc: "Quarters for any Europeans to rest in."
  peacock_throne_maintenance: "$peacock_throne$ Maintenance"
  mug_new_coinage: "Introduction of New Coinage"
@@ -1052,3 +1075,8 @@
  local_governor_construction: "Building $local_governor$"
  naval_governor_maintenance: "$naval_governor$ Maintenance"
  local_governor_maintenance: "$local_governor$ Maintenance"
+ colonial_administration_requirements: "Colonial Administrations"
+ build_hippodrome_price: "$hippodrome$ Price"
+ merchant_guild_chapel_requirements: "Merchant Guild Chapels"
+ viceroyalty_maintenance: "$viceroyalty$ Maintenance"
+ lieutenancy_maintenance: "$lieutenancy$ Maintenance"

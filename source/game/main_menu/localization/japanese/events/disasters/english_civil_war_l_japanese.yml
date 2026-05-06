@@ -1,6 +1,7 @@
 ﻿l_japanese:
  #English Civil War related Events
  english_civil_war.250.title: "[target_character.GetNameWithNoTooltip]"
+ english_civil_war.250.entry: "対象キャラクター"
  english_civil_war.250.desc: "[ROOT.GetCountry.GetLongName]内での最近の権力の移行により、多くの新たな人間が権威を掴み、己の領地を手に入れようと動き出している。そのような人物のひとりが[target_character.GetName]であり、[target_location.GetName]の司法権に関する問題において、最近その影響力と発言力を増している。\n\n[target_location.GetName]の信念に基づく野心と強さで武装した[target_character.GetSheHe]とその仲間たちは、善かれ悪しかれ、間違いなく我々の民族の未来を形作ることになるだろう。"
  english_civil_war.250.a: "興味深い。"
  more_likely_to_fire_disaster_tt: "[disaster|e]「[ShowDisasterName('english_civil_war')]」が発生する#R 可能性が高い#!。[target_character.GetName]の存命中にこれが発生した場合、[target_character.GetSheHe]がそれを率いる"

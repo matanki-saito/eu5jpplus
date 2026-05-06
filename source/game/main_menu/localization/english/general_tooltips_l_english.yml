@@ -43,12 +43,16 @@
 
  COUNTRY_RANK_MODIFIER: "$COUNTRY_RANK$ [country_rank|e]"
  RELIGIOUS_ASPECT_MODIFIER: "$RELIGIOUS_ASPECT$ [religious_aspect|e]"
+ RELIGION_MODIFIER: "$RELIGION$ [primary_religion|e]"
  AVATAR_MODIFIER: "$AVATAR$ [avatar|e]"
  GOD_MODIFIER: "$GOD$ [god|e]"
+ OMEN_MODIFIER: "$OMEN$ [omen|e]"
+ BUREAUCRACY_MODIFIER: "$BUREAUCRACY_TYPE$ [bureaucracy|e]"
  VEGETATION_MODIFIER: "$VEGETATION$ [vegetation|e]"
  TOPOGRAPHY_MODIFIER: "$TOPOGRAPHY$ [topography|e]"
  CLIMATE_MODIFIER: "$CLIMATE$ [climate|e]"
  LOCATION_RANK_MODIFIER: "$LOCATION_RANK$ [location_rank|e]"
+ LOCATION_RANK_CAPITAL_MODIFIER: "[capital|e] has $LOCATION_RANK$ [location_rank|e]"
  SUBJECT_TYPE_OVERLORD_MODIFIER_LOC: "$SUBJECT_TYPE$ [subjects|e]"
  SUBJECT_TYPE_IS_SUBJECT_MODIFIER_LOC: "Is a $SUBJECT_TYPE$ [subject_type|e]"
  
@@ -440,6 +444,11 @@
  RESISTANCES_LABEL: "$game_concept_disease$ resistances in the [location|e]"
  LOCATION_DISEASE_HEADER: "Diseases in [Location.GetNameWithNoTooltip]"
  
+ MOVEMENT_RESISTANCES_LABEL: "$game_concept_movement$ resistances in the [location|e]"
+ LOCATION_MOVEMENTS_HEADER: "Movements in [Location.GetNameWithNoTooltip]"
+ LOCATION_MOVEMENTS_INFO_HEADER: "#col_t Location#! #col_t Movement#! #col_t Followers#!"
+ LOCATION_NO_MOVEMENTS_INFO: "[LOCATION.GetNameWithNoTooltip] doesn't have any movements at this moment."
+
  WINTER_BLOCKS_MOVEMENT: "@trigger_no! It is impossible to move any army into [TOPOGRAPHY.GetName] during $STATIC_MODIFIER_NAME_winter_normal$ or $STATIC_MODIFIER_NAME_winter_severe$."
  ZOC_BLOCKS_MOVEMENT: "@trigger_no! The army is blocked from moving past the [zone_of_control|e] of a nearby [fort|e]."
  DISEASE_PRESENCE_LOCATION_TOOLTIP: "#T [DISEASE.GetNameWithNoTooltip]#!\nPresence: $PRESENCE|2R%2$\nResistance: $RESISTANCE|%2$"
@@ -453,6 +462,11 @@
  AI_CONTROLLER_AREA_TOOLTIP: "[LOCATION.GetName] is in a controller area with $NUMBER$ other locations.\nController is [COUNTRY.GetName].\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$."
  AI_OWNER_AREA_TOOLTIP: "[LOCATION.GetName] is in an owner area with $NUMBER$ other locations.\nOwner is [COUNTRY.GetName].\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$."
  AI_MAP_OWNER_AREA_TOOLTIP: "[LOCATION.GetName] is in a map owner area with $NUMBER$ other locations.\nMap Owner is [COUNTRY.GetName].\nNumber of neighboring controller areas: $AI_MAP_OWNER_AREA_TOOLTIP$."
+
+ MOVEMENT_PRESENCE_LOCATION_TOOLTIP: "#col [LOCATION.GetName]#! #col_m [MOVEMENT.GetName]#! #col $AFFECTED$ [pops|e] out of $TOTAL$#!"
+ MOVEMENT_PRESENCE_SUB_UNIT_TOOLTIP: "[SUBUNIT.GetName]: [MOVEMENT.GetName]: $AFFECTED$ troops are followers out of $TOTAL$"
+ MOVEMENT_PRESENCE_UNIT_TOOLTIP: "[UNIT.GetName]: [MOVEMENT.GetName]: $NUM|Y$ sub units affected, $AFFECTED$ troops out of $TOTAL$"
+ MOVEMENT_PRESENCE_POP_TOOLTIP: "[POP.GetName]: [MOVEMENT.GetName]: $AFFECTED$ [pops|e] are followers out of $TOTAL$"
 
  PROVINCE_DEFINITION_TOOLTIP: "Number of [locations|e]: [PROVINCE_DEFINITION.GetNumLocations]\n[area|e]: [PROVINCE_DEFINITION.GetArea.GetName]"
  PROV_DEF_MEMBERS_HEADER: "The [locations|e] of [PROVINCE_DEFINITION.GetNameWithNoTooltip]"
@@ -536,8 +550,9 @@
  LOCATION_COLONIAL_OWNED: "Homeland of [COUNTRY.GetName]"
  LOCATION_COLONIAL_BUILDINS: "[buildings|e]: $INFO$"
  NO_PORT_TO_TRACE_FLEET_FROM: "We have no [port|e] to trace a naval range from."
- INSIDE_NAVAL_RANGE_TT: "Naval distance $VALUE|2Y$ is within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]"
- NOT_INSIDE_NAVAL_RANGE_TT: "@trigger_no! Naval distance $VALUE|2R$ is NOT within our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]"
+ INSIDE_NAVAL_RANGE_TT: "Naval distance $VALUE|2Y$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|G] [naval_range|E]) — within range."
+ NOT_INSIDE_NAVAL_RANGE_TT: "@trigger_no! Naval distance $VALUE|2R$ ($PCT|0Y$% of our [Player.GetDoubleModifierValue('naval_range','naval_range_modifier')|Y] [naval_range|E]) — out of range."
+ NAVAL_RANGE_MAPMODE_LAND_NOT_ON_NAVAL_GRAPH_TT: "This [location|e] is not a [port|e] or [seazone|e] on the naval routing map, so it has no naval path distance from our [country|e]."
 
  INSIDE_COLONIAL_RANGE_TT: "Naval distance $VALUE|2Y$ is within our [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|G] [colonial_range|E]"
  NOT_INSIDE_COLONIAL_RANGE_TT: "@trigger_no! Naval distance $VALUE|2R$ is NOT within our [Player.GetDoubleModifierValue('colonial_range','colonial_range_modifier')|Y] [colonial_range|E]"
@@ -547,12 +562,13 @@
 
  ADJACENT_TRADE_RANGE_TT: "[MARKET.GetName] is adjacent to one of our [markets|e]."
  INSIDE_TRADE_RANGE_TT: "Trade distance $VALUE|2Y$ from [Market.GetName] is within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|G] [trade_range|E]."
- NOT_INSIDE_TRADE_RANGE_TT: "@trigger_no! Trade distance $VALUE|2R$ from [Market.GetName] is NOT within our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]."
+ NOT_INSIDE_TRADE_RANGE_TT: "Trade distance $VALUE|2Y$ from [Market.GetName] exceeds our [Player.GetDoubleModifierValue('trade_range','trade_range_modifier')|Y] [trade_range|E]. Transport costs will be higher for this route."
  
  TOP_N_LOCATIONS_HEADER: "#T Top $NUM$ Locations#!"
  BOTTOM_N_LOCATIONS_HEADER: "#T Bottom $NUM$ Locations#!"
  LOCATION_POPULATION_GROWTH_LABEL: "#TOOLTIP:$BREAKDOWN_TAG$ $POP_CHANGE|L$#!"
  LOCATION_POPULATION_GROWTH_ENTRY: "[LOCATION.GetName]: [LOCATION.GetPopulationChangeLabel]"
+ LOCATION_NATURAL_GROWTH_ENTRY: "[LOCATION.GetName]: #TOOLTIP:$BREAKDOWN_TAG$ $NATURAL_GROWTH$#!"
  LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY: "$MOVETYPE$: $POP_CHANGE$"
  LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_MIGRATION: "$MOVETYPE$: #TOOLTIP:$BREAKDOWN_TAG$ $POP_CHANGE$#!"
  LOCATION_POPULATION_GROWTH_BREAKDOWN_ENTRY_MIGRATION_TITLE_IN: "Migration into $LOCATION$"
@@ -590,6 +606,7 @@
  UNIT_ABILITY_NOT_ADVANCE: "@trigger_no! We need to have researched $ADVANCE_LIST$ for [UNIT_ABILITY.GetName]"
  CABINET_ACTION_NOT_ADVANCE: "@trigger_no! We need to have researched $ADVANCE_LIST$ for [CABINET_ACTION.GetName]"
  BUILDING_TYPE_NOT_ADVANCE: "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [BUILDING_TYPE.GetName]"
+ TOWN_RIGHTS_TYPE_NOT_ADVANCE: "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [TOWN_RIGHTS_TYPE.GetName]"
  ROAD_TYPE_NOT_ADVANCE: "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [ROAD_TYPE.GetName]"
  EMPLOYMENT_SYSTEM_NOT_ADVANCE: "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to build a [EMPLOYMENT_SYSTEM.GetName]"
  LAW_NOT_ADVANCE: "@trigger_no! We need to have researched the $ADVANCE_LIST$ [advance|e] to be able to codify a [LAW.GetName]"

@@ -115,6 +115,7 @@
  CLOCK_TYPE_12H_SHORT_SUFFIX_AFTERNOON: "pm"
  AGENDA_SKIP_AGENDA_SETTING: "ゲーム開始時にアジェンダを表示しない。"
  AGENDA_HISTORICAL_CONTEXT: "歴史的背景"
+ AGENDA_COUNTRY_CONTENT: "[Country.GetAdjective]のコンテンツ"
  AGENDA_WALKTHROUGH_DISABLED_MISSIONS: "@trigger_no! ミッションが無効化されているため、チュートリアルを開始できません。メインメニューのゲームルールでミッションを有効化してください。"
  AGENDA_WALKTHROUGH_IS_RUNNING: "@trigger_no! チュートリアルは進行中です。"
  # Map
@@ -133,9 +134,13 @@
  SETTINGS_WEATHER_GRAPHIC_EFFECTS_TOOLTIP: "#T 天候グラフィックを有効化#!  パフォーマンス向上のために天候エフェクトの表示 / 非表示を切り替えます。"
  SETTINGS_SINGLE_UNIT_ARMIES: "単一ユニット軍隊"
  SETTINGS_SINGLE_UNIT_ARMIES_TOOLTIP: "#T 単一ユニット軍隊#!マップ上の軍隊を単一のユニットで表示します。"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES: "戦闘の死者数をポップアップ表示"
+ SETTING_SHOW_COMBAT_FLOATING_LOSSES_TOOLTIP: "#T 戦闘の死者数をポップアップ表示#! 有効にすると、関与している陸戦中に死者数が表示されます。無効にすると、兵員数の損失は表示されなくなります。"
  SETTINGS_GRID_TILE_SIZE_TEXT: "都市建造物のサイズ"
  SETTINGS_GRID_TILE_SIZE_TEXT_TOOLTIP: "3Dマップ上の都市建造物のサイズを制御します。"
  # Categories
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE: "お気に入りのマップモードを常時表示"
+ SETTING_MAP_MODE_SELECTOR_FAVORITES_VISIBLE_TOOLTIP: "#T お気に入りのマップモードを常時表示#!\n有効にすると、マップモードセレクターを起動していないときでも、お気に入りのマップモードがHUD下部に表示されたままになります。"
  SETTINGS_CATEGORY_INTERFACE: "インターフェース"
  SETTINGS_CATEGORY_MULTIPLAYER: "マルチプレイ"
  SETTINGS_CATEGORY_MAP: "マップ"

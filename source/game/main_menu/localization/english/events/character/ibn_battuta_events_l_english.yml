@@ -1,6 +1,7 @@
 ﻿l_english:
  survive_string: "Should [target_character.GetLastName] survive [target_character.GetHerHis] journeys, the [country|e] that will shelter [target_character.GetHerHim] will learn of"
  ibn_battuta_events.1.title: "A Worldly Traveler"
+ ibn_battuta_events.1.entry: "$ibn_battuta_events.1.title$"
  ibn_battuta_events.1.desc: "With many lands already behind [target_character.GetHerHim], [target_character.GetLastName] now sets [target_character.GetHerHis] sights on the distant [GetCountry('YUA').GetLongName]. Tales of vast cities, refined customs, and powerful emperors have long reached [target_character.GetHerHis] ears. Eager to witness the wonders of the East and expand [target_character.GetHerHis] knowledge of distant courts and cultures, [target_character.GetLastNameWithNoTooltip] prepares for the next and most ambitious leg of [target_character.GetHerHis] journey. The path ahead is long and uncertain, but [target_character.GetLastNameWithNoTooltip] travels with unshaken resolve and a curious spirit, a true pioneer of our times."
  ibn_battuta_events.1.a: "Guide [target_character.GetHerHis] voyage to [target_location_1.GetNameWithNoTooltip]."
  ibn_battuta_events.1.b: "[target_character.GetSheHe|U] must visit [target_location_2.GetNameWithNoTooltip]!"
@@ -11,7 +12,7 @@
  when_ibn_battuta_drafts_rihla_he_will_remember_sumatra_tt: "$survive_string$ [target_location_1.GetArea.GetName]"
  ibn_battuta_will_admire_and_study_the_architecture_of_angkor_tt: "While in [target_location_2.GetName], [target_character.GetLastName] will admire the grandiose architecture of the [target_location_2.GetRank.GetName]. Subsequent stops during [target_character.GetHerHis] journey will benefit from [building|e] bonuses"
  when_ibn_battuta_drafts_rihla_he_will_remember_lower_mekong_tt: "$survive_string$ [target_location_2.GetArea.GetName]"
- ibn_battuta_trade_in_martaban_tt: "While in [target_location_3.GetName], [target_character.GetLastName] will witness its bustling port and the steady flow of valuable goods. Later stops on [target_character.GetHerHis] journey will benefit from [trade_efficiency|e] bonuses."
+ ibn_battuta_trade_in_martaban_tt: "While in [target_location_3.GetName], [target_character.GetLastName] will witness its bustling port and the steady flow of valuable goods. Later stops on [target_character.GetHerHis] journey will benefit from [selling_efficiency|e] bonuses."
  when_ibn_battuta_drafts_rihla_he_will_remember_irrawady_delta_area_tt: "$survive_string$ [target_location_3.GetArea.GetName]"
 
  
@@ -38,7 +39,6 @@
  ibn_battuta_events.4.desc: "After distant voyages through [ShowRegionName('indonesia_region')], and perhaps even the fabled cities of [GetCountry('YUA').GetLongName], [target_character.GetLastName] now finds [target_character.GetHerselfHimself] somewhere in our [ROOT.GetCountry.GetFlavorRank]. Welcomed according to our local traditions and customs, this weary traveler is eager to survey our society and note down everything that catches [target_character.GetHerHis] eye.\n\nTruthfully, [target_character.GetSheHe] carries with [target_character.GetHerHim] stories, gifts, and observations from across the eastern seas. Tales of sprawling cities, disciplined bureaucracies, and merchant networks stretching from [ShowRegionNameWithNoTooltip('indonesia_region')] to [GetCountry('CHI').GetCapital.GetName] now circulate among our scholars and [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. Whether advising a local administrator, debating in a [ShowBuildingTypeName('sufi_mosque')], or reflecting silently under the shadow of dome, [target_character.GetLastNameWithNoTooltip] once again proves to be a vessel of distant wisdom, carried on uncertain roads."
  ibn_battuta_events.4.a: "Shower [target_character.GetHerHis] with gifts worthy of the knowledge [target_character.GetSheHe] brought us."
  ibn_battuta_events.4.b: "We shall exhibit hospitality, not coin."
- ibn_battuta_events.4.c: ""
  ibn_studied_customs_of_china_tt: "Due to the fact that [target_character.GetLastName] studied the literary and expressive customs of [GetCountry('CHI').GetNameWithNoTooltip]:"
  chinese_laws_ibn_battuta_effect_tt: "Due to the fact that [target_character.GetLastName] studied the legal formalities and framework of [GetCountry('CHI').GetNameWithNoTooltip]:"
  ibn_battuta_will_carry_gifts_tt: "While in [ROOT.GetCountry.GetCapital.GetName], [target_character.GetLastName] will many gifts and coin from locals. Subsequent stops during [target_character.GetHerHis] journey will benefit from this wealth through the acquisition of a portion of [gold|e]"

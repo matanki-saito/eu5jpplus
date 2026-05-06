@@ -65,3 +65,5 @@
  STATIC_MODIFIER_DESC_amber_coast_base: "The coast of this region has many deposits of amber."
  STATIC_MODIFIER_NAME_sicily_sulfur_mines: "Sulfur Mines of Sicily"
  STATIC_MODIFIER_DESC_sicily_sulfur_mines: "The sulfur mines of Sicily are flush with resources required for gunpowder production."
+ STATIC_MODIFIER_NAME_damascus_base: "Damascus Bladesmithing Tradition"
+ STATIC_MODIFIER_DESC_damascus_base: "Damascus has been renowned for centuries for the exceptional quality of its blades, a craft tradition that gives its smiths a distinct edge in weaponry production."

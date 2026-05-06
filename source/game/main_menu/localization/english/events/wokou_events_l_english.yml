@@ -36,6 +36,7 @@
  wokou_warning_tt: "[ROOT.GetCountry.Custom('GetWokouName')] nations have the [ShowGovernmentReformName('pirate_brethren_reform')] [government_reform|e] and their existence in our vicinity will cause negative [events|e] to happen."
 
  wokou_events.101.title: "Enforcing the [ShowPolicyNameWithNoTooltip('haijin_policy')]"
+ wokou_events.101.entry: "Enforcing the Haijin Policy"
  wokou_events.101.desc: "Though for many years we have had the [ShowPolicyName('haijin_policy')] policy, it is only recently, during the rule of [target_character.GetShortName] that it has become harshly enforced. After a recent edict, we have taken to properly policing the coasts of [ROOT.GetCountry.GetName] and in the process we have put to death many smugglers and dissidents alike. Hopefully that will serve as an example not to defy the [ROOT.GetCountry.GetAdjective] policies."
  wokou_events.101.a: "Hopefully this will not have any negative repercussions."
  later_era_of_wokou_tt: "New [ROOT.GetCountry.Custom('GetWokouName')] nations will begin to appear in and around [ShowAreaName('taiwan_area')], north [ShowAreaName('luzon_area')] and [ShowAreaName('ryuukyuu_area')]."

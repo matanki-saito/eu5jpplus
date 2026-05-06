@@ -17,7 +17,7 @@
  horde_civil_war.3.a: "No succession crisis finds an easy end..."
 
  horde_civil_war.4.title: "Victory of the [target_country.GetGovernment.GetRulerTitle]!"
- horde_civil_war.4.desc: "The long struggle against our bitter enemy, [target_character.GetName] has finally found its end. With the complete annexation of [target.GetName], the [target_country.GetLongName] prevails, and the authority of [target_ruler.GetName] is restored! [target_character.GetShortNameWithNoTooltip] has been brought to justice, and shortly afterward to the sword as [target_character.GetSheHe] deserves it."
+ horde_civil_war.4.desc: "The long struggle against our bitter enemy, [target_character.GetName] has finally found its end. With the complete annexation of [loser.GetName], the [target_country.GetLongName] prevails, and the authority of [target_ruler.GetName] is restored! [target_character.GetShortNameWithNoTooltip] has been brought to justice, and shortly afterward to the sword as [target_character.GetSheHe] deserves it."
  horde_civil_war.4.desc.new: "$horde_civil_war.4.desc$\n\nYet, once one warlord is defeated, a new one aspires to continue [target_character.GetHerHis] efforts. [scope_pretender.GetName] has rallied the scattered warriors behind [scope_pretender.GetHerHis] banner to challenge the [target_country.GetGovernment.GetRulerTitle] once more."
  horde_civil_war.4.desc.end: "$horde_civil_war.4.desc$\n\nAfter such devastating defeat by the pretender, any further attempts on the [target_country.GetAdjectiveWithNoTooltip] throne seem to have ceased. Stability has once again returned to [target_country.GetName]."
  horde_civil_war.4.a: "Another vulture who tries to claim the throne."
@@ -29,7 +29,7 @@
  horde_civil_war.5.b: "This is the end of [target_country.GetNameWithNoTooltip]..."
 
  horde_civil_war.6.title: "The Rule of [target_character.GetShortNameWithNoTooltip]"
- horde_civil_war.6.desc: "The old order of the [target_country.GetLongName] is no more, and [target_character.GetName] has become the new ruler of the steppes. However, [target_character.GetHerHis] actions have caused much suffering and bloodshed, and other warlords may intend to try their own coups against the new [target.GetGovernment.GetRulerTitle]..."
+ horde_civil_war.6.desc: "The old order of the [target_country.GetLongName] is no more, and [target_character.GetName] has become the new ruler of the steppes. However, [target_character.GetHerHis] actions have caused much suffering and bloodshed, and other warlords may intend to try their own coups against the new [target_country.GetGovernment.GetRulerTitle]..."
  horde_civil_war.6.a: "Let them come!"
 
  horde_civil_war.7.title: "The [target_province.GetNameWithNoTooltip] Rebellion"
@@ -54,6 +54,10 @@
  horde_civil_war.10.a: "Hold an inspiring speech!"
  horde_civil_war.10.b: "Show them strength through combat!"
  horde_civil_war.10.c: "Initiate the warriors into our battle plans."
+
+ horde_civil_war.11.title: "Horde Coup"
+ horde_civil_war.11.desc: "The lack of a recognized ruler within our country has led to more intrigues and rebellion. Despite [target_ruler.GetName]'s best attempt to stabilize the situation, [target_ruler.GetHerHis] lack of authority was [target_ruler.GetHerHis] undoing as [target_character.GetName] and [target_character.GetHerHis] followers have shortly overthrown [target_ruler.GetShortNameWithNoTooltip] and has taken over as our new ruler."
+ horde_civil_war.11.a: "At least it is not the pretender..."
 
  horde_civil_war.1000.title: "Unsecured Borders"
  horde_civil_war.1000.desc: "Usually the borders of [from_country.GetName] are regularly patrolled by our mounted scouts. However, the chaos caused by the ambition of [target_character.GetName] undermines our border security. It is only a matter of time before any upstarting [ShowGovernmentTypeName('steppe_horde')] or any other state falls into our state without warning..."

@@ -23,7 +23,7 @@
 
  the_revolution.4.title: "Stirring Unrest in [target_province.GetNameWithNoTooltip]"
  the_revolution.4.desc: "It appears that one of our [ROOT.GetCountry.GetGovernment.GetCourtTitle] members has taken it upon [target_character.GetHerselfHimself] to spread unrest in one of our provinces. It is unknown what [target_character.GetHerHis] agenda entails. Some support the idea that [target_character.GetSheHe] harbors rage against the current state of affairs, be it due to the spread of revolutionary ideas or the current struggle our people, it is clear that [target_character.GetHerHis] zeal has gone a step too far!"
- the_revolution.4.a: "There is nothing we can do."
+ the_revolution.4.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  the_revolution.4.b: "Prison awaits [target_character.GetHerHim]."
  nobles_lose_10_pop_satisfaction_tt: "[pops|e] of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"
  peasants_lose_10_pop_satisfaction_tt: "[pops|e] of the [ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')] in [target_province.GetNameWithNoTooltip] will lose [ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%] [pop_satisfaction|e]"

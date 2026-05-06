@@ -46,6 +46,7 @@
  earthquake_events.1001.historical_info: "$earthquake_events.1000.historical_info$"
 
  earthquake_events.1100.title: "The Fate of [target_location.GetNameWithNoTooltip]"
+ earthquake_events.1100.entry: "The fate of Gallipoli"
  earthquake_events.1100.desc: "[target_location.GetName] lies in ruins after the earthquake, and our conquest has not made it better. But the depopulated city provides a great opportunity for resettlement, and [ShowCultureName('turkish_culture')] Anatolians of both urban and nomadic backgrounds have already begun to move in - encouraged by us, of course. This will become an important foothold in Rumelia!" 
  earthquake_events.1100.a: "It was God's will."
  earthquake_events.1100.historical_info: "After the Ottoman commander Süleyman Pasha conquered Gallipoli, the depopulated city was resettled by Turkish migrants from Anatolia, and became the Turks' first stronghold in Europe. This caused much fear in Constantinople, and eventually triggered the Savoyard Crusade of 1366—67."

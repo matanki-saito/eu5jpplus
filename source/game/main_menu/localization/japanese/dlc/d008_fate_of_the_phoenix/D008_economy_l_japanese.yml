@@ -1,0 +1,12 @@
+﻿l_japanese:
+ subject_pays_pronoia: "$D008_pronoia$から宗主国へ支払い"
+ select_orthodox_education: "$D008_orthodox_education$を選択"
+ deselect_orthodox_education: "$D008_orthodox_education$を中止"
+ loan_icon_price: "「$D008_loan_icon$」のコスト"
+ mend_schism_price: "「$D008_mend_schism$」のコスト"
+ restore_rome_primacy_price: "「$D008_restore_rome_primacy$」のコスト"
+ reestablish_hellenism_price: "「$D008_reestablish_hellenism$」のコスト"
+ assign_despot_price: "「$D008_assign_despot$」のコスト"
+ compose_strategikon_price: "「$D008_compose_strategikon$」のコスト"
+ castrate_character_price: "$castrate_character$ Price"
+ blind_character_price: "$blind_character$ Price"

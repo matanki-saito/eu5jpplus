@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_jap_kor.1.title: "天朝の野心"
+ flavor_jap_kor.1.entry: "$flavor_jap_kor.1.title$"
  flavor_jap_kor.1.desc: "[ROOT.GetCountry.GetName]の監視のもと、ついに[ShowRegionName('japan_region')]の再統一が果たされた。戦うべき敵がいなくなったことで、わが国の諸[ShowGovernmentReformName('daimyo')]は内紛に走るか、最悪の場合、結束してわが国の支配から逃れようとするかもしれない。そのためにも、新たな戦争を見つけることが不可欠である。$china$を支配し、[target_country2.GetAdjective]を追い出す——これ以上にふさわしい戦争があるだろうか。だが、そのためにはまず、[target_country.GetName]を支配しておく必要があるだろう。"
  flavor_jap_kor.1.a: "戦争だ！"
  flavor_jap_kor.1.b: "戦争には準備が必要だ。"

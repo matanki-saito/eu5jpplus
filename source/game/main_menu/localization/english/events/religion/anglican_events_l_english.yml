@@ -55,7 +55,6 @@
  anglican_events.11.title: "Controversy over Vestments"
  anglican_events.11.desc: "The matter of clerical vestments remains a contentious issue in the Anglican Church. The extravagant and superstitious rags of the papists are surely to be done away with, but the degree of austerity required of the clergy continues to inflame debate and protest.\n\nConservative Anglicans wish to reinstate some of the elaborate trappings of the old Catholic priesthood, while moderates argue that a simple surplice is sufficient. Radical reformers insist that vestments are not merely lacking scriptural support, but deface and corrupt the ordinances which God has instituted."
  anglican_events.11.a: "Allow traditional vestments."
- anglican_vestments_tt: "This will increase the demand for [ShowGoodsName('fine_cloth')] by our [ShowPopTypeName('clergy')]"
  anglican_events.11.b: "Surplices only."
  anglican_events.11.c: "Denounce all vestments."
 

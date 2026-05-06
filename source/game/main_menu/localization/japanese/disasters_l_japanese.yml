@@ -108,6 +108,7 @@
  horde_civil_war: "遊牧民の内紛"
  horde_civil_war_desc: "再び我々の統治者の権威が問われている！ ある対立する将軍が、玉座を奪おうと内紛を起こして遊牧民を脅かしているのだ。我々は、自らが生み出した反逆者たちとの戦いに赴かなければならない……"
  horde_civil_war_end_trigger_no_rebels: "[rebel|e]はすべて#Y 僭称#!反乱軍ではない"
+ horde_civil_war_capital_has_neighbor_province_tt: "首都が近隣の州にアクセスできる"
  horde_civil_war_crown_supporters: "遊牧民の王党派"
  horde_civil_war_pretender_supporters: "遊牧民の反逆者"
  GUI_REBEL_OWNED_LOCATIONS: "[rebels|e]が所有する[locations|e]：[DisasterView.GetDisaster.GetOwner.MakeScope.GetVariable('GUI_pretender_rebel_character').GetCharacter.GetCourtCountry.GetOwnedLocationCount]"
@@ -130,8 +131,8 @@
  #Disaster
  sinicization_disaster: "中国の影響"
  sinicization_disaster_desc: "[GetCountry('CHI').GetName]の影響は、わが国の社会に多くの恩恵をもたらしてきた。しかし、この文化大国との関係は社会という織物に多くの異質な糸を織り込み、我々を伝統から切り離し、独立を脅かすものとなっている。わが文化の独自性を守るためには、これらの魅惑的な影響によるさらなる腐敗に抗わなければならない。だが逆に、より緊密な関係を築くことで得られる恩恵があるのも確かだ……"
- has_opted_to_side_with_china_in_events_tt: "各[events|e]を通じて、宮廷内での[GetCountry('CHI').GetNameWithNoTooltip]の影響力が十分に#G 上昇#!した"
- has_opted_to_stay_sovereign_from_china_in_events_tt: "各[events|e]を通じて、宮廷内での[GetCountry('CHI').GetNameWithNoTooltip]の影響力が十分に#G 減少#!した"
+ has_opted_to_side_with_china_in_events_tt: "各[events|e]を通じて、宮廷内での[GetCountry('CHI').GetNameWithNoTooltip]の影響力が十分に#G 上昇#!した（[THIS.GetVariable('china_side').GetValue]/30）"
+ has_opted_to_stay_sovereign_from_china_in_events_tt: "各[events|e]を通じて、宮廷内での[GetCountry('CHI').GetNameWithNoTooltip]の影響力が十分に#G 減少#!した（[THIS.GetVariable('sovereign_side').GetValue]/30）"
  #Crisis of the Chinese Dynasty
  #Disaster
  crisis_of_the_chinese_dynasty: "[GetCountry('CHI').GetLongNameWithNoTooltip]の危機"
@@ -253,6 +254,7 @@
  coup_attempt_desc: "影に潜むハゲタカどもが我々の周囲を飛び回り、引き裂く機会を狙っている。連中のなかで最も恐ろしいのは、わが統治者を早すぎる死に追いやろうとする者どもだ！ さらに悪いことに、そのあとは傀儡が玉座に据えられ、ハゲタカどもに影から操られてしまうだろう。"
  recently_had_coup_attempt_inconclusive_tt: "過去#Y 5#!年間に未決着または成功したクーデターの試みはない"
  conspirators_murdered_ruler_tt: "陰謀者たちが我々の統治者の暗殺に成功した"
+ any_conspirator_became_ruler_tt: "陰謀者のひとりが[ruler|e]として戴冠した"
  #Byzantine Civil War
  #Disaster
  byzantine_succession_crisis: "[GetCountry('BYZ').GetAdjectiveWithNoTooltip]の継承危機"
@@ -268,8 +270,8 @@
  turmoil_in_brandenburg_neglect_tt: "$bra_wittelsbacher_neglect_var$のスコアが100に達すると、新たな[dynasty|e]が支配王朝となる"
  turmoil_in_brandenburg_dynastic_struggle_resolved_tt: "わが国は王位を巡る王朝内の争いを解決した"
  robber_barons_resolved_tt: "泥棒男爵の問題は解決された"
- wittelsbacher_event_occurs_tt: "An Event related to the Wittelsbacher Government occurs"
- robber_barons_when_tt: "After 1365 Events related to the Robber Barons may appear"
+ wittelsbacher_event_occurs_tt: "ヴィッテルスバッハ家の政治に関するイベントが発生する"
+ robber_barons_when_tt: "1365年以降、泥棒男爵に関するイベントが発生する可能性がある"
  robber_barons_spread_tt: "泥棒男爵は影響力を拡大している"
  robber_barons_stay_put_tt: "泥棒男爵は鳴りを潜めている"
  TURMOIL_IN_BRANDENBURG_DISASTERS_MODIFIERS_TT_LIST: "[disaster|e]の発生中、この国家は以下を得る："

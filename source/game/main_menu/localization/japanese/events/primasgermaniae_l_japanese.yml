@@ -1,5 +1,6 @@
 ﻿l_japanese:
  primasgermaniae.1.title: "最高位聖職者"
+ primasgermaniae.1.entry: "$primasgermaniae.1.title$"
  primasgermaniae.1.desc: "10世紀以来、[target_country.GetName][target_country.GetGovernment.GetRulerTitle]は名誉ある[ShowGovernmentReformName('primas_germaniae')]の称号を保持してきた。これは、[GetUniqueInternationalOrganization('hre').GetName]で最も重要な[ShowReligionAdjective('catholic')][target_country.GetGovernment.GetRulerTitle]という意味である。\n\n当然ながら、このような称号は帝国のほかの諸侯の嫉妬を買うことになる…… 我らが統治者[home_ruler.GetName]は注意しなければ、$game_concept_prestige$が低下して称号を失いかねない！"
  primasgermaniae.1.a: "なるほど……"
  primasgermaniae.2.title: "最高位聖職者の称号に異論"

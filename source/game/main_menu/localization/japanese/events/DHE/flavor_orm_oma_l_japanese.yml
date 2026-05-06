@@ -1,5 +1,6 @@
 ﻿l_japanese:
  flavor_orm_oma.1.title: "ナブハニ王朝によるオマーンの支配"
+ flavor_orm_oma.1.entry: "$flavor_orm_oma.1.title$"
  flavor_orm_oma.1.desc: "我々の祖先が支配を広げたオマーン沿岸は、統治が難しく貧しい地域だ。我々の支配がほとんど行き届かず、問題と反乱の温床となっているのだ。\n\nこの複雑な状況に加え、[ShowDynastyName('nabhani_dynasty')]朝がこの地域に関心を示しており、もともと不安定だった国境地帯の緊張が高まっている。幸い、わが国の外交官たちが将来的な国境紛争を回避し、財政にとっても長期的に益となる条約を締結することに自信を見せている。"
  flavor_orm_oma.1.a: "ナブハニ王朝に任せる。"
  flavor_orm_oma.1.b: "我々の領土だ！"

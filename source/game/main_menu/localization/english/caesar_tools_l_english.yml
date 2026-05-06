@@ -79,3 +79,5 @@
  DEFAULT_PLAYSET_TEXT: "Default playset (not editable)"
  INITIAL_PLAYSET_TEXT: "Initial playset"
  ACTIVE_PLAYSET_TEXT: "(Active)"
+ DLC_INGAME_PURCHASE_NOTIFICATION_TITLE: "DLCs Purchased"
+ DLC_INGAME_PURCHASE_NOTIFICATION_DESC: "Your purchased DLCs will be loaded the next time you return to the main menu."

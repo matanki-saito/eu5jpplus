@@ -35,6 +35,8 @@
  NOT_country_rank_equal: "Is NOT [TARGET_COUNTRY_RANK.GetName]"
  location_rank_equal: "[LOCATION.GetName] has the [location_rank|e] of [TARGET_LOCATION_RANK.GetName]"
  NOT_location_rank_equal: "Is NOT [TARGET_LOCATION_RANK.GetName]"
+ original_location_rank_equal: "[LOCATION.GetName] started the campaign as [TARGET_LOCATION_RANK.GetName]"
+ NOT_original_location_rank_equal: "Did NOT start the campaign as [TARGET_LOCATION_RANK.GetName]"
  parliament_type_equal: "Has a [TARGET_PARLIAMENT_TYPE.GetName]"
  NOT_parliament_type_equal: "Does not have a [TARGET_PARLIAMENT_TYPE.GetName]"
  land_ownership_rule_equal: "Has the [TARGET_LAND_OWNERSHIP_RULE.GetName] [land_ownership_rule|e]"
@@ -115,6 +117,8 @@
  NOT_language_family_equal: "The [language_family|e] of [LANGUAGE.GetName] is NOT [TARGET_LANGUAGE_FAMILY.GetName]"
  court_language_equal: "The [court_language|e] is [TARGET_LANGUAGE.GetName]"
  NOT_court_language_equal: "The [court_language|e] is NOT [TARGET_LANGUAGE.GetName]"
+ country_dominant_language_equal: "The [dominant_language|e] is [TARGET_LANGUAGE.GetName]"
+ NOT_country_dominant_language_equal: "The [dominant_language|e] is NOT [TARGET_LANGUAGE.GetName]"
  liturgical_language_equal: "The [liturgical_language|e] is [TARGET_LANGUAGE.GetName]"
  NOT_liturgical_language_equal: "The [liturgical_language|e] is NOT [TARGET_LANGUAGE.GetName]"
  group_equal: "The [religion_group|e] is [TARGET_RELIGION_GROUP.GetName]"
@@ -213,8 +217,10 @@
 
  culture_percentage_in_country_greater_or_equal: "Percentage of pops who are [TARGET_CULTURE.GetName] is greater or equal to $NUM|Y%2$"
  culture_percentage_in_country_greater_than: "Percentage of pops who are [TARGET_CULTURE.GetName] is greater than $NUM|Y%2$"
- religion_percentage_in_country_greater_or_equal: "Percentage of pops who are [TARGET_RELIGION.GetName] is greater or equal to $NUM|Y%2$"
- religion_percentage_in_country_greater_than: "Percentage of pops who are [TARGET_RELIGION.GetName] is greater than $NUM|Y%2$"
+ religion_percentage_in_country_greater_or_equal: "Percentage of pops who are [TARGET_RELIGION.GetAdjective] is greater or equal to $NUM|Y%2$"
+ religion_percentage_in_country_greater_than: "Percentage of pops who are [TARGET_RELIGION.GetAdjective] is greater than $NUM|Y%2$"
+ monarch_power_percentage_in_country_greater_or_equal: "Ruler's $NAME$ [ability|e] is greater or equal to $NUM|Y%2$"
+ monarch_power_percentage_in_country_greater_than: "Ruler's $NAME$ [ability|e] is greater than $NUM|Y%2$"
 
  num_artists_greater_than: "Has more [artists|e] than $NUM$"
  num_artists_less_than: "Has less [artists|e] than $NUM$"
@@ -414,6 +420,7 @@
  not_on_same_continent_as_capital: "Location is not on the same continent as the capital"
  dominant_culture_is_owners_culture: "[dominant_culture|e] is same as the [owner|e]'s [culture|e]"
  dominant_culture_is_of_owners_culture_group: "[dominant_culture|e] is one belonging to the [owner|e]'s [culture_group_short|e]"
+ dominant_culture_is_of_steppe_group: "[dominant_culture|e] belongs to the [ShowCultureGroupName('steppe_group')] [culture_group_short|e]"
  non_leader_countries_cannot_initiate_resolutions: "Non leaders cannot initiate law debates"
  non_member_countries_cannot_initiate_resolutions: "Non-members cannot initiate law debates"
 
@@ -704,6 +711,8 @@
  NOT_market_owner_equal: "[MARKET.GetName] is NOT in [TARGET_COUNTRY.GetName]" 
  character_owner_equal: "Lives in [TARGET_COUNTRY.GetName]"
  NOT_character_owner_equal: "Does NOT live in [TARGET_COUNTRY.GetName]"
+ character_owner_not_equal: "Does NOT live in [TARGET_COUNTRY.GetName]"
+ NOT_character_owner_not_equal: "Lives in [TARGET_COUNTRY.GetName]"
  trade_owner_equal: "Merchant is from [TARGET_COUNTRY.GetName]"
  NOT_trade_owner_equal: "Merchant is NOT from [TARGET_COUNTRY.GetName]"
  location_owner_equal: "[LOCATION.GetName] is owned by [TARGET_COUNTRY.GetName]"
@@ -717,8 +726,11 @@
  NOT_province_owner_equal: "Is NOT owned by [TARGET_COUNTRY.GetName]"
  unit_owner_equal: "Serves [TARGET_COUNTRY.GetName]"
  NOT_unit_owner_equal: "Does NOT serve [TARGET_COUNTRY.GetName]"
+ unit_owner_not_equal: "Does NOT serve [TARGET_COUNTRY.GetName]"
+ NOT_unit_owner_not_equal: "Serves [TARGET_COUNTRY.GetName]"
  sub_unit_owner_equal: "Serves [TARGET_COUNTRY.GetName]"
  NOT_sub_unit_owner_equal: "Does NOT serve [TARGET_COUNTRY.GetName]"
+ sub_unit_owner_not_equal: "Does NOT serve [TARGET_COUNTRY.GetName]"
  pop_owner_equal: "Belongs to [TARGET_COUNTRY.GetName]"
  NOT_pop_owner_equal: "Does NOT belong to [TARGET_COUNTRY.GetName]"
  colonial_charter_owner_equal: "Is owned by [TARGET_COUNTRY.GetName]"
@@ -792,6 +804,7 @@
  any_market_with_merchants_count: "$PARAMETERS$ [market|e] that [COUNTRY.GetName] has [merchants|e] in"
  any_port_in_country: "Any [port|e] in [COUNTRY.GetName]"
  any_sound_toll_in_country: "Any [sound_toll|e] in [COUNTRY.GetName]"
+ any_spy_network_built_in_us: "Any [country|e] actively building a [spy_network|e] in [COUNTRY.GetName]"
  any_privateer_in_area: "Any [privateer|e] in [AREA.GetName]"
  any_hired_mercenary: "Any [mercenary|e] hired by the country"
  any_rented_out_mercenary: "Any [mercenary|e] rented out from the country"
@@ -837,6 +850,14 @@
  NOT_any_market_center_in_country_count: "Not $PARAMETERS$ [markets|e] with their center in [COUNTRY.GetName]"
  any_market_center_in_country_percent: "$PARAMETERS$ [markets|e] with their center in [COUNTRY.GetName]"
  NOT_any_market_center_in_country_percent: "Not $PARAMETERS$ [markets|e] with their center in [COUNTRY.GetName]"
+ any_market_in_world: "Any [market|e] in the world"
+ NOT_any_market_in_world: "No [market|e] in the world"
+ any_market_in_world_all: "All [markets|e] in the world"
+ NOT_any_market_in_world_all: "Not all [markets|e] in the world"
+ any_market_in_world_count: "$PARAMETERS$ [markets|e] in the world"
+ NOT_any_market_in_world_count: "Not $PARAMETERS$ [markets|e] in the world"
+ any_market_in_world_percent: "$PARAMETERS$ [markets|e] in the world"
+ NOT_any_market_in_world_percent: "Not $PARAMETERS$ [markets|e] in the world"
  any_province: "Any [province|e] in [COUNTRY.GetName]"
  any_province_count: "$PARAMETERS$ [provinces|e] in [COUNTRY.GetName]"
  any_province_percent: "$PARAMETERS$ [provinces|e] in [COUNTRY.GetName]"
@@ -907,6 +928,10 @@
  any_revolutionary_all: "All [revolutionary|e] [countries|e]"
  any_revolutionary_count: "$PARAMETERS$ [revolutionary|e] [countries|e]"
  any_revolutionary_percent: "$PARAMETERS$ [revolutionary|e] [countries|e]"
+ any_location_in_scripted_geography: "Any [location|e] in [SCRIPTED_GEOGRAPHY.GetName]"
+ any_location_in_scripted_geography_all: "All [locations|e] in [SCRIPTED_GEOGRAPHY.GetName]"
+ any_location_in_scripted_geography_percent: "$PARAMETERS$ [locations|e] in [SCRIPTED_GEOGRAPHY.GetName]"
+ any_location_in_scripted_geography_count: "$PARAMETERS$ [locations|e] in [SCRIPTED_GEOGRAPHY.GetName]"
  any_location_in_area: "Any [location|e] in [AREA.GetName]"
  any_location_in_area_all: "All [locations|e] in [AREA.GetName]"
  any_location_in_area_percent: "$PARAMETERS$ of [locations|e] in [AREA.GetName]"
@@ -1311,7 +1336,18 @@
  every_overlord_or_above: "Every [overlord|e] or above"
  random_overlord_or_above: "Random [overlord|e] or above"
  any_unit: "Any [army|e] or [navy|e] in the Country"
+ any_army: "Any [army|e] in the Country"
+ any_navy: "Any [navy|e] in the Country"
+
  any_sub_unit: "Any [regiment|e] or [ship|e] in the Country"
+ NOT_sub_unit: "No [regiment|e] or [ship|e]"
+ any_sub_unit_all: "All [regiments|e] or [ships|e]"
+ NOT_any_sub_unit_all: "Not all [regiments|e] or [ships|e]"
+ any_sub_unit_count: "$PARAMETERS$ [regiments|e] or [ships|e]"
+ NOT_any_sub_unit_count: "Not $PARAMETERS$ [regiments|e] or [ships|e]"
+ any_sub_unit_percent: "$PARAMETERS$ [regiments|e] or [ships|e]"
+ NOT_any_sub_unit_percent: "Not $PARAMETERS$ [regiments|e] or [ships|e]"
+
  random_unit: "A random [army|e] or [navy|e] in the Country"
  every_unit: "Every [army|e] or [navy|e] in the Country"
  any_character: "Any [character|e] in the Country"
@@ -1480,10 +1516,28 @@
  any_current_law_all: "All [laws|e]"
  any_current_law_count: "$PARAMETERS$ [laws|e]"
  any_current_law_percentage: "$PARAMETERS$ [laws|e]"
+ NOT_any_current_bureaucracy_type: "No [bureaucracy|e]"
+ any_current_bureaucracy_type: "Any [bureaucracy|e]"
+ any_current_bureaucracy_type_all: "All [bureaucracies|e]"
+ any_current_bureaucracy_type_count: "$PARAMETERS$ [bureaucracies|e]"
+ any_current_bureaucracy_type_percentage: "$PARAMETERS$ [bureaucracies|e]"
+ NOT_any_current_bureaucracy: "No [bureaucracy|e]"
+ any_current_bureaucracy: "Any [bureaucracy|e]"
+ any_current_bureaucracy_all: "All [bureaucracies|e]"
+ any_current_bureaucracy_count: "$PARAMETERS$ [bureaucracies|e]"
+ any_current_bureaucracy_percentage: "$PARAMETERS$ [bureaucracies|e]"
  any_current_policy: "Any [policy|e]"
  any_current_policy_all: "All [policies|e]"
  any_current_policy_count: "$PARAMETERS$ [policies|e]"
  any_current_policy_percentage: "$PARAMETERS$ [policies|e]"
+ any_current_policy_in_international_organization: "Any [policy|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ NOT_any_current_policy_in_international_organization: "No [policy|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ any_current_policy_in_international_organization_all: "All [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ NOT_any_current_policy_in_international_organization_all: "Not all [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ any_current_policy_in_international_organization_count: "$PARAMETERS$ [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ NOT_any_current_policy_in_international_organization_count: "Not $PARAMETERS$ [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ any_current_policy_in_international_organization_percentage: "$PARAMETERS$ [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
+ NOT_any_current_policy_in_international_organization_percentage: "Not $PARAMETERS$ [policies|e] in [INTERNATIONAL_ORGANIZATION.GetName]"
  any_policy_in_law: "Any [policy|e] in [LAW.GetName]"
  NOT_any_policy_in_law: "No [policy|e] in [LAW.GetName]"
  any_policy_in_law_all: "All [policies|e] in [LAW.GetName]"
@@ -1563,6 +1617,32 @@
  any_culture_all: "All [cultures|e]"
  any_culture_count: "$PARAMETERS$ [culture|e]"
  any_culture_percent: "$PARAMETERS$ [culture|e]"
+
+ any_town_rights_in_country: "Any [town_rights|e] in [COUNTRY.GetName]"
+ NOT_any_town_rights_in_country: "No [town_rights|e] in [COUNTRY.GetName]"
+ any_town_rights_in_country_all: "All [town_rights|e] in [COUNTRY.GetName]"
+ NOT_any_town_rights_in_country_all: "Not all [town_rights|e] in [COUNTRY.GetName]"
+ any_town_rights_in_country_count: "$PARAMETERS$ [town_rights|e] in [COUNTRY.GetName]"
+ NOT_any_town_rights_in_country_count: "Not $PARAMETERS$ [town_rights|e] in [COUNTRY.GetName]"
+ any_town_rights_in_country_percent: "$PARAMETERS$ [town_rights|e] in [COUNTRY.GetName]"
+ NOT_any_town_rights_in_country_percent: "Not $PARAMETERS$ [town_rights|e] in [COUNTRY.GetName]"
+
+ any_town_rights_in_location: "Any [town_rights|e] in [LOCATION.GetName]"
+ NOT_any_town_rights_in_location: "No [town_rights|e] in [LOCATION.GetName]"
+ any_town_rights_in_location_all: "All [town_rights|e] in [LOCATION.GetName]"
+ NOT_any_town_rights_in_location_all: "Not all [town_rights|e] in [LOCATION.GetName]"
+ any_town_rights_in_location_count: "$PARAMETERS$ [town_rights|e] in [LOCATION.GetName]"
+ NOT_any_town_rights_in_location_count: "Not $PARAMETERS$ [town_rights|e] in [LOCATION.GetName]"
+ any_town_rights_in_location_percent: "$PARAMETERS$ [town_rights|e] in [LOCATION.GetName]"
+ NOT_any_town_rights_in_location_percent: "Not $PARAMETERS$ [town_rights|e] in [LOCATION.GetName]"
+
+ town_rights_type_equal: "Is [TARGET_TOWN_RIGHTS.GetName]"
+ NOT_town_rights_type_equal: "Is NOT [TARGET_TOWN_RIGHTS.GetName]"
+ town_rights_type_not_equal: "Is NOT [TARGET_TOWN_RIGHTS.GetName]"
+ NOT_town_rights_type_not_equal: "Is [TARGET_TOWN_RIGHTS.GetName]"
+
+ town_rights_this_equal: "Is [TARGET_TOWN_RIGHTS.GetName]"
+ NOT_town_rights_this_equal: "Is NOT [TARGET_TOWN_RIGHTS.GetName]"
 
  any_active_estate: "Any active [estate|e]"
  any_active_estate_all: "All active [estates|e]"
@@ -1648,6 +1728,8 @@
  NOT_is_situation_active_trigger: "The [TARGET_SITUATION.GetName] is NOT currently happening"
  country_exists_trigger: "[TARGET_COUNTRY.GetName] Exists"
  NOT_country_exists_trigger: "[TARGET_COUNTRY.GetName] does NOT exist"
+ io_exists_trigger: "[TARGET_INTERNATIONAL_ORGANIZATION.GetName] Exists"
+ NOT_io_exists_trigger: "[TARGET_INTERNATIONAL_ORGANIZATION.GetName] does NOT exist"
  dynasty_exists_trigger: "[TARGET_DYNASTY.GetName] [dynasty|e] Exists"
  NOT_dynasty_exists_trigger: "[TARGET_DYNASTY.GetName] [dynasty|e] does NOT exist"
  unique_international_organization_type_exists_trigger: "[TARGET_INTERNATIONAL_ORGANIZATION_TYPE.GetName] Exists"
@@ -1656,6 +1738,8 @@
  NOT_has_global_variable_trigger: "Does NOT have Global Variable: $VARIABLE$"
  has_variable_trigger: "Has Variable: $VARIABLE$"
  NOT_has_variable_trigger: "Does NOT have Variable: $VARIABLE$"
+ has_dlc_trigger: "Has DLC: $DLC$"
+ NOT_has_dlc_trigger: "Does NOT have DLC: $DLC$"
  country_var_greater_or_equal: "[country|e] has the $VAR_NAME$ of a value of $NUM$ or more"
  country_var_greater_than: "[country|e] has the $VAR_NAME$ of a value of more than $NUM$"
  country_var_less_or_equal: "[country|e] has the $VAR_NAME$ of a value of $NUM$ or less"
@@ -1811,10 +1895,10 @@
  NOT_THIRD_IS_PORT_TRIGGER: "[LOCATION.GetName] is NOT a Port"
  
  
- HAS_ROAD_TO_CAPITAL_TRIGGER: "Has a [road|e] connected to the [capital|e]."
- NOT_HAS_ROAD_TO_CAPITAL_TRIGGER: "Does NOT have a [road|e] connected to the [capital|e]."
- THIRD_HAS_ROAD_TO_CAPITAL_TRIGGER: "[LOCATION.GetName] has a [road|e] connected to the [capital|e]."
- NOT_THIRD_HAS_ROAD_TO_CAPITAL_TRIGGER: "[LOCATION.GetName] does NOT have a [road|e] connected to the [capital|e]."
+ HAS_ROAD_TO_CAPITAL_TRIGGER: "Has a [road|e] connected to the [capital|e] through [owned] [locations]."
+ NOT_HAS_ROAD_TO_CAPITAL_TRIGGER: "Does NOT have a [road|e] connected to the [capital|e] through [owned] [locations]."
+ THIRD_HAS_ROAD_TO_CAPITAL_TRIGGER: "[LOCATION.GetName] has a [road|e] connected to the [capital|e] through [owned] [locations]."
+ NOT_THIRD_HAS_ROAD_TO_CAPITAL_TRIGGER: "[LOCATION.GetName] does NOT have a [road|e] connected to the [capital|e] through [owned] [locations]."
  
 
  IS_UNIFIED_CULTURE_TRIGGER: "At least [GetDefine('NCulture','CORE_THRESHOLD')] of the [culture|e] is an [accepted_culture|e] in its [country|e]"
@@ -1853,15 +1937,15 @@
  NOT_IS_OWNABLE_TRIGGER: "It can NOT be [owned|e], i.e. it is an impassable, sea, or lake [location|e]"
  NOT_THIRD_IS_OWNABLE_TRIGGER: "[LOCATION.GetName] can NOT be [owned|e], i.e. it is an impassable, sea, or lake [location|e]"
 
- IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "Is owned by [TARGET_COUNTRY.GetName] or its [subjects|e] or its subjects' subjects"
- NOT_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "Is NOT owned by [TARGET_COUNTRY.GetName] or its [subjects|e] or its subjects' subjects"
- THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "[LOCATION.GetName] is owned by [TARGET_COUNTRY.GetName] or its [subjects|e] or its subjects' subjects"
- NOT_THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "[LOCATION.GetName] is NOT owned by [TARGET_COUNTRY.GetName] or its [subjects|e] or its subjects' subjects"
+ IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "Is [owned|e] by [TARGET_COUNTRY.GetName], its [subjects|e], or its Subjects' Subjects"
+ NOT_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "Is NOT [owned|e] by [TARGET_COUNTRY.GetName], its [subjects|e], or its Subjects' Subjects"
+ THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "[LOCATION.GetName] is [owned|e] by [TARGET_COUNTRY.GetName], its [subjects|e], or its Subjects' Subjects"
+ NOT_THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_OF_TRIGGER: "[LOCATION.GetName] is NOT [owned|e] by [TARGET_COUNTRY.GetName], its [subjects|e], or its Subjects' Subjects"
  
- IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "Is owned by [TARGET_COUNTRY.GetName] or its [subjects|e]"
- NOT_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "Is NOT owned by [TARGET_COUNTRY.GetName] or its [subjects|e]"
- THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "[LOCATION.GetName] is owned by [TARGET_COUNTRY.GetName] or its [subjects|e]"
- NOT_THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "[LOCATION.GetName] is NOT owned by [TARGET_COUNTRY.GetName] or its [subjects|e]"
+ IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "Is [owned|e] by [TARGET_COUNTRY.GetName] or its [subjects|e]"
+ NOT_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "Is NOT [owned|e] by [TARGET_COUNTRY.GetName] or its [subjects|e]"
+ THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "[LOCATION.GetName] is [owned|e] by [TARGET_COUNTRY.GetName] or its [subjects|e]"
+ NOT_THIRD_IS_OWNED_OR_OWNED_BY_SUBJECTS_OF_TRIGGER: "[LOCATION.GetName] is NOT [owned|e] by [TARGET_COUNTRY.GetName] or its [subjects|e]"
 
  WINTER_LEVEL_TRIGGER: "Current winter level is $ENUM|Y$"
  NOT_WINTER_LEVEL_TRIGGER: "Current winter level is NOT $ENUM|Y$"
@@ -1893,6 +1977,13 @@
  NOT_DEVELOPMENT_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|Y$ [development|e]"
  THIRD_DEVELOPMENT_TRIGGER: "[LOCATION.GetName] has $COMPARATOR$ $NUM|Y$ [development|e]"
  NOT_THIRD_DEVELOPMENT_TRIGGER: "[LOCATION.GetName] does NOT have $COMPARATOR$ $NUM|Y$ [development|e]"
+ 
+ RGO_LEVEL_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ level [rgo|e]"
+ NOT_RGO_LEVEL_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ level [rgo|e]"
+ THIRD_RGO_LEVEL_TRIGGER: "[LOCATION.GetName] has $COMPARATOR$ $NUM|V0$ level [rgo|e]"
+ NOT_THIRD_RGO_LEVEL_TRIGGER: "[LOCATION.GetName] does NOT have $COMPARATOR$ $NUM|V0$ level [rgo|e]"
+ 
+ 
  
  
  MAX_RGO_WORKERS_TRIGGER: "Can have $COMPARATOR$ $NUM|V0$ in $RGO$"
@@ -1985,6 +2076,10 @@
  NOT_LOCATION_RANK_TRIGGER: "Is NOT a $NAME$"
  THIRD_LOCATION_RANK_TRIGGER: "[LOCATION.GetName] is a $NAME$"
  NOT_THIRD_LOCATION_RANK_TRIGGER: "[LOCATION.GetName] is NOT a $NAME$"
+ ORIGINAL_LOCATION_RANK_TRIGGER: "Was a [TARGET_LOCATION_RANK.GetName] at the start of the campaign"
+ NOT_ORIGINAL_LOCATION_RANK_TRIGGER: "Was NOT a [TARGET_LOCATION_RANK.GetName] at the start of the campaign"
+ THIRD_ORIGINAL_LOCATION_RANK_TRIGGER: "[LOCATION.GetName] was a [TARGET_LOCATION_RANK.GetName] at the start of the campaign"
+ NOT_THIRD_ORIGINAL_LOCATION_RANK_TRIGGER: "[LOCATION.GetName] was NOT a $NAME$ at the start of the campaign"
  INSTITUTION_PROGRESS_TRIGGER: "Progress for $NAME$ is $COMPARATOR$ $NUM|Y/%$"
  NOT_INSTITUTION_PROGRESS_TRIGGER: "Progress for $NAME$ is NOT $COMPARATOR$ $NUM|Y/%$"
  THIRD_INSTITUTION_PROGRESS_TRIGGER: "Progress for $NAME$ in [LOCATION.GetName] is $COMPARATOR$ $NUM|Y/%$"
@@ -2139,6 +2234,20 @@
  THIRD_IS_REQUIRED_FOR_FORMABLE_TRIGGER: "[LOCATION.GetName] is required to [formable_country_form|e] [FORMABLE_COUNTRY.GetName]"
  NOT_THIRD_IS_REQUIRED_FOR_FORMABLE_TRIGGER: "[LOCATION.GetName] is NOT required to [formable_country_form|e] [FORMABLE_COUNTRY.GetName]"
 
+ IS_IN_SCRIPTED_GEOGRAPHY_TRIGGER: "Is in [TARGET_SCRIPTED_GEOGRAPHY.GetName]"
+ NOT_IS_IN_SCRIPTED_GEOGRAPHY_TRIGGER: "Is NOT in [TARGET_SCRIPTED_GEOGRAPHY.GetName]"
+ THIRD_IS_IN_SCRIPTED_GEOGRAPHY_TRIGGER: "[LOCATION.GetName] is in [TARGET_SCRIPTED_GEOGRAPHY.GetName]"
+ NOT_THIRD_IS_IN_SCRIPTED_GEOGRAPHY_TRIGGER: "[LOCATION.GetName] is NOT in [TARGET_SCRIPTED_GEOGRAPHY.GetName]"
+
+ HAS_TOWN_RIGHTS_TRIGGER: "Has [TARGET_TOWN_RIGHTS_TYPE.GetName]"
+ NOT_HAS_TOWN_RIGHTS_TRIGGER: "Does NOT have [TARGET_TOWN_RIGHTS_TYPE.GetName]"
+ THIRD_HAS_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] has [TARGET_TOWN_RIGHTS_TYPE.GetName]"
+ NOT_THIRD_HAS_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] does NOT have [TARGET_TOWN_RIGHTS_TYPE.GetName]"
+ HAS_DIFFERENT_TOWN_RIGHTS_THAN_TRIGGER: "Has different town rights than [TARGET_LOCATION.GetName]"
+ NOT_HAS_DIFFERENT_TOWN_RIGHTS_THAN_TRIGGER: "Does NOT have different town rights than [TARGET_LOCATION.GetName]"
+ THIRD_HAS_DIFFERENT_TOWN_RIGHTS_THAN_TRIGGER: "[LOCATION.GetName] has different town rights than [TARGET_LOCATION.GetName]"
+ NOT_THIRD_HAS_DIFFERENT_TOWN_RIGHTS_THAN_TRIGGER: "[LOCATION.GetName] does NOT have different town rights than [TARGET_LOCATION.GetName]"
+
  FOOD_VALUE_TRIGGER: "The [food|e] value is $COMPARATOR$ $NUM|Y$"
  NOT_FOOD_VALUE_TRIGGER: "The [food|e] value is NOT $COMPARATOR$ $NUM|Y$"
  THIRD_FOOD_VALUE_TRIGGER: "[GOODS.GetName] [food|e] value is $COMPARATOR$ $NUM|Y$"
@@ -2237,6 +2346,13 @@
  NOT_FIRST_ECO_BASE_TRIGGER: "We have NOT $COMPARATOR$ $NUM|Y$ [economical_base|e]"
  THIRD_ECO_BASE_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|Y$ [economical_base|e]"
  NOT_THIRD_ECO_BASE_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|Y$ [economical_base|e]"
+ 
+ CAPITAL_WEALTH_TRIGGER: "Has $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
+ NOT_CAPITAL_WEALTH_TRIGGER: "Does NOT have a $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
+ FIRST_CAPITAL_WEALTH_TRIGGER: "We have $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
+ NOT_FIRST_CAPITAL_WEALTH_TRIGGER: "We do NOT have a $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
+ THIRD_CAPITAL_WEALTH_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
+ NOT_THIRD_CAPITAL_WEALTH_TRIGGER: "[COUNTRY.GetName]  does NOT have a $COMPARATOR$ $NUM|Y$ [wealth|e] in the [province|e] of the [capital|e]"
 
 
  MINTING_VALUE_TRIGGER: "Has $COMPARATOR$ $NUM|%Y$ [minting|e]"
@@ -2408,6 +2524,16 @@
  THIRD_HAS_RIVER_TRIGGER: "[LOCATION.GetName] has a river"
  NOT_HAS_RIVER_TRIGGER: "Does NOT have a river"
  NOT_THIRD_HAS_RIVER_TRIGGER: "[LOCATION.GetName] does NOT have a river"
+  
+ HAS_ANY_TOWN_RIGHTS_TRIGGER: "Has Urban Rights"
+ THIRD_HAS_ANY_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] has Urban Rights"
+ NOT_HAS_ANY_TOWN_RIGHTS_TRIGGER: "Does NOT have any Urban Right"
+ NOT_THIRD_HAS_ANY_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] does NOT have any Urban Right"
+
+ HAS_MAX_TOWN_RIGHTS_TRIGGER: "Has the maximum number of Urban Rights"
+ THIRD_HAS_MAX_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] has the maximum number of Urban Rights"
+ NOT_HAS_MAX_TOWN_RIGHTS_TRIGGER: "Does NOT have the maximum number of Urban Rights"
+ NOT_THIRD_HAS_MAX_TOWN_RIGHTS_TRIGGER: "[LOCATION.GetName] does NOT have the maximum number of Urban Rights"
 
  IS_ADJACENT_TO_LAKE_TRIGGER: "Is adjacent to a lake"
  NOT_IS_ADJACENT_TO_LAKE_TRIGGER: "Is NOT adjacent to a lake"
@@ -2576,12 +2702,24 @@
  THIRD_HAS_OR_HAD_TAG_TRIGGER: "The country is or was $NAME|Y$"
  NOT_THIRD_HAS_OR_HAD_TAG_TRIGGER: "The country is and was NOT $NAME|Y$"
 
-
+ ORIGINAL_TAG_TRIGGER: "Was originally $NAME|Y$"
+ IS_NOT_ORIGINAL_TAG_TRIGGER: "Was NOT originally $NAME|Y$"
+ PLAYER_ORIGINAL_TAG_TRIGGER: "We were originally $NAME|Y$"
+ PLAYER_IS_NOT_ORIGINAL_TAG_TRIGGER: "We were NOT originally $NAME|Y$"
+ THIRD_ORIGINAL_TAG_TRIGGER: "The country was originally $NAME|Y$"
+ NOT_THIRD_ORIGINAL_TAG_TRIGGER: "The country was NOT originally $NAME|Y$"
 
  HAS_DOOM_TRIGGER: "Uses [doom|E]"
  NOT_HAS_DOOM_TRIGGER: "Does NOT use [doom|E]"
  THIRD_HAS_DOOM_TRIGGER: "[COUNTRY.GetName] uses [doom|E]"
  NOT_THIRD_HAS_DOOM_TRIGGER: "[COUNTRY.GetName] does NOT use [doom|E]"
+
+ IS_INVOKING_OMEN_TRIGGER: "Is currently invoking an [omen|e]"
+ NOT_IS_INVOKING_OMEN_TRIGGER: "Is NOT currently invoking an [omen|e]"
+ FIRST_IS_INVOKING_OMEN_TRIGGER: "We are currently invoking an [omen|e]"
+ NOT_FIRST_IS_INVOKING_OMEN_TRIGGER: "We are NOT currently invoking an [omen|e]"
+ THIRD_IS_INVOKING_OMEN_TRIGGER: "[COUNTRY.GetName] is currently invoking an [omen|e]"
+ NOT_THIRD_IS_INVOKING_OMEN_TRIGGER: "[COUNTRY.GetName] is NOT currently invoking an [omen|e]"
 
  TOPOGRAPHY_COUNT_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [locations|e] which are [TARGET_TOPOGRAPHY.GetName] $current_value_V0$"
  NOT_TOPOGRAPHY_COUNT_TRIGGER: "Has NOT $COMPARATOR$ $NUM|V0$ [locations|e] which are [TARGET_TOPOGRAPHY.GetName] $current_value_V0$"
@@ -2625,6 +2763,20 @@
  THIRD_CLIMATE_PERCENT_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V2%$ [locations|e] which are [TARGET_CLIMATE.GetName] $current_value_Vpercent2$"
  NOT_THIRD_CLIMATE_PERCENT_TRIGGER: "[COUNTRY.GetName] has NOT $COMPARATOR$ $NUM|V2%$ [locations|e] which are [TARGET_CLIMATE.GetName] $current_value_Vpercent2$"
 
+ NUM_RGO_OF_METHOD_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+ NOT_NUM_RGO_OF_METHOD_TRIGGER: "Has NOT $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+ FIRST_NUM_RGO_OF_METHOD_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+ NOT_FIRST_NUM_RGO_OF_METHOD_TRIGGER: "We have NOT $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+ THIRD_NUM_RGO_OF_METHOD_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+ NOT_THIRD_NUM_RGO_OF_METHOD_TRIGGER: "[COUNTRY.GetName] has NOT $COMPARATOR$ $NUM|V0$ [locations|e] with $ENUM$ raw material"
+
+ HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "Has at least one location with $ENUM$ raw material"
+ NOT_HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "Has no locations with $ENUM$ raw material"
+ FIRST_HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "We have at least one location with $ENUM$ raw material"
+ NOT_FIRST_HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "We have no locations with $ENUM$ raw material"
+ THIRD_HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "[COUNTRY.GetName] has at least one location with $ENUM$ raw material"
+ NOT_THIRD_HAS_ANY_RGO_OF_GOODS_METHOD_TRIGGER: "[COUNTRY.GetName] has no locations with $ENUM$ raw material"
+
  COUNTRY_RELIGION_TRIGGER: "[COUNTRY.GetName] is $RELIGION$"
  NOT_COUNTRY_RELIGION_TRIGGER: "[COUNTRY.GetName] is NOT $RELIGION$"
  PLAYER_COUNTRY_RELIGION_TRIGGER: "Our nation is $RELIGION$"
@@ -2649,12 +2801,12 @@
  THIRD_CURRENCY_TRIGGER: "$NAME$ has $COMPARATOR$ $CURRENCY$ $current_value_Y$"
  NOT_THIRD_CURRENCY_TRIGGER: "$NAME$ does NOT have $COMPARATOR$ $CURRENCY$ $current_value_Y$"
 
- CURRENCY_PERCENTAGE_TRIGGER: "Has a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
- NOT_CURRENCY_PERCENTAGE_TRIGGER: "Has NOT a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
- FIRST_CURRENCY_PERCENTAGE_TRIGGER: "We have a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
- NOT_FIRST_CURRENCY_PERCENTAGE_TRIGGER: "We have NOT a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
- THIRD_CURRENCY_PERCENTAGE_TRIGGER: "$NAME$ a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
- NOT_THIRD_CURRENCY_PERCENTAGE_TRIGGER: "$NAME$ has NOT a $CURRENCY$ percentage of $COMPARATOR$ $current_value$"
+ CURRENCY_PERCENTAGE_TRIGGER: "Has $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
+ NOT_CURRENCY_PERCENTAGE_TRIGGER: "Does NOT have $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
+ FIRST_CURRENCY_PERCENTAGE_TRIGGER: "We have $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
+ NOT_FIRST_CURRENCY_PERCENTAGE_TRIGGER: "We do NOT have $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
+ THIRD_CURRENCY_PERCENTAGE_TRIGGER: "$NAME$ $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
+ NOT_THIRD_CURRENCY_PERCENTAGE_TRIGGER: "$NAME$ does NOT have $COMPARATOR$ $CURRENCY$ $current_value_2percentY$"
 
  RELATIVE_MILITARY_STRENGTH_TRIGGER: "Relative military strength to [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V2$"
  NOT_RELATIVE_MILITARY_STRENGTH_TRIGGER: "Relative military strength to [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V2$"
@@ -2984,6 +3136,13 @@
  NOT_I_HAVE_THIS_TRUST_OF_TARGET_OR_ABOVE: "Our [trust|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
  COUNTRY_HAS_THIS_TRUST_OF_TARGET_OR_ABOVE: "[COUNTRY.GetName]'s [trust|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
  NOT_COUNTRY_HAS_THIS_TRUST_OF_TARGET_OR_ABOVE: "[COUNTRY.GetName]'s [trust|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+
+ HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "[trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "[trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ I_HAVE_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "Our [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_I_HAVE_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "Our [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ COUNTRY_HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "[COUNTRY.GetName]'s [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_COUNTRY_HAS_THIS_TRUST_EQUILIBRIUM_OF_TARGET_OR_ABOVE: "[COUNTRY.GetName]'s [trust_equilibrium|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
 
  ANTAGONISM_TRIGGER: "[antagonism|E] towards [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
  NOT_ANTAGONISM_TRIGGER: "[antagonism|E] towards [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
@@ -3540,6 +3699,13 @@
  NOT_FIRST_COUNTRY_POP_TRIGGER: "We do NOT have a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  THIRD_COUNTRY_POP_TRIGGER: "[COUNTRY.GetName] has a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  NOT_THIRD_COUNTRY_POP_TRIGGER: "[COUNTRY.GetName] does NOT have a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+
+ MONTHLY_POPULATION_CHANGE_TRIGGER: "Has a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+ NOT_MONTHLY_POPULATION_CHANGE_TRIGGER: "Does NOT have a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+ FIRST_MONTHLY_POPULATION_CHANGE_TRIGGER: "We have a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+ NOT_FIRST_MONTHLY_POPULATION_CHANGE_TRIGGER: "We do NOT have a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+ THIRD_MONTHLY_POPULATION_CHANGE_TRIGGER: "[COUNTRY.GetName] has a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+ NOT_THIRD_MONTHLY_POPULATION_CHANGE_TRIGGER: "[COUNTRY.GetName] does NOT have a monthly population change of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  
  TOTAL_POPULATION_IN_INTERNATIONAL_ORGANIZATION_TRIGGER: "Has a total population of $COMPARATOR$ $NUM|V0$ in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_V0$"
  NOT_TOTAL_POPULATION_IN_INTERNATIONAL_ORGANIZATION_TRIGGER: "Does NOT have a total population of $COMPARATOR$ $NUM|V0$ in [TARGET_INTERNATIONAL_ORGANIZATION.GetName] $current_value_V0$"
@@ -3618,6 +3784,13 @@
  THIRD_COUNTRY_RANK_LEVEL_TRIGGER: "[COUNTRY.GetName] has a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  NOT_THIRD_COUNTRY_RANK_LEVEL_TRIGGER: "[COUNTRY.GetName] does NOT have a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
 
+ COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "[country_rank|e] is at most [TARGET_COUNTRY.GetName]'s"
+ NOT_COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "[country_rank|e] is NOT at most [TARGET_COUNTRY.GetName]'s"
+ FIRST_COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "Our [country_rank|e] is at most [TARGET_COUNTRY.GetName]'s"
+ NOT_FIRST_COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "Our [country_rank|e] is NOT at most [TARGET_COUNTRY.GetName]'s"
+ THIRD_COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "[COUNTRY.GetName]'s [country_rank|e] is at most [TARGET_COUNTRY.GetName]'s"
+ NOT_THIRD_COUNTRY_RANK_LEVEL_LESS_OR_EQUAL_TRIGGER: "[COUNTRY.GetName]'s [country_rank|e] is NOT at most [TARGET_COUNTRY.GetName]'s"
+
  COUNTRY_RANK_LEVEL_ON_DATE_TRIGGER: "Had a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$ on $DATE$"
  NOT_COUNTRY_RANK_LEVEL_ON_DATE_TRIGGER: "Did NOT have a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$ on $DATE$"
  FIRST_COUNTRY_RANK_LEVEL_ON_DATE_TRIGGER: "We had a [country_rank|e] level of $COMPARATOR$ $NUM|V0$ $current_value_V0$ on $DATE$"
@@ -3635,6 +3808,11 @@
  THIRD_ESTATE_TARGET_SATISFACTION_TRIGGER: "The [ESTATE.GetName] have a target [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$"
  NOT_THIRD_ESTATE_TARGET_SATISFACTION_TRIGGER: "The [ESTATE.GetName] do NOT have a target [estate_satisfaction|E] of $COMPARATOR$ $NUM|2%V$"
 
+ ESTATE_MONTHLY_SATISFACTION_CHANGE_TRIGGER: "Monthly [estate_satisfaction|E] change is $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ NOT_ESTATE_MONTHLY_SATISFACTION_CHANGE_TRIGGER: "Monthly [estate_satisfaction|E] change is NOT $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ THIRD_ESTATE_MONTHLY_SATISFACTION_CHANGE_TRIGGER: "The [ESTATE.GetName] have a monthly [estate_satisfaction|E] change of $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+ NOT_THIRD_ESTATE_MONTHLY_SATISFACTION_CHANGE_TRIGGER: "The [ESTATE.GetName] do NOT have a monthly [estate_satisfaction|E] change of $COMPARATOR$ $NUM|2%V$ $current_value_Vpercent2$"
+
  ESTATE_POWER_TRIGGER: "[estate_power|E] is $COMPARATOR$ $NUM|2%V$"
  NOT_ESTATE_POWER_TRIGGER: "[estate_power|E] is NOT $COMPARATOR$ $NUM|2%V$"
  THIRD_ESTATE_POWER_TRIGGER: "The [ESTATE.GetName] have an [estate_power|E] of $COMPARATOR$ $NUM|2%V$"
@@ -3649,6 +3827,12 @@
  NOT_ESTATE_TAXABLE_INCOME_TRIGGER: "Does NOT have a taxable income of $COMPARATOR$ $NUM|2V$[gold_i]"
  THIRD_ESTATE_TAXABLE_INCOME_TRIGGER: "The [ESTATE.GetName] have a taxable income of $COMPARATOR$ $NUM|2V$[gold_i]"
  NOT_THIRD_ESTATE_TAXABLE_INCOME_TRIGGER: "The [ESTATE.GetName] do NOT have a taxable income of $COMPARATOR$ $NUM|2V$[gold_i]"
+
+ ESTATE_NUM_BUILDINGS_TRIGGER: "Owns $COMPARATOR$ $NUM|0Y$ [building|e]"
+ NOT_ESTATE_NUM_BUILDINGS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [building|e]"
+ THIRD_ESTATE_NUM_BUILDINGS_TRIGGER: "The [ESTATE.GetName] owns $COMPARATOR$ $NUM|0Y$ [building|e]"
+ NOT_THIRD_ESTATE_NUM_BUILDINGS_TRIGGER: "The [ESTATE.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [building|e]"
+ 
 
  ESTATE_TAX_TRIGGER: "Has a current [tax|e] of $COMPARATOR$ $NUM|2Y$[gold_i]"
  NOT_ESTATE_TAX_TRIGGER: "Does NOT have a current [tax|e] of $COMPARATOR$ $NUM|2Y$[gold_i]"
@@ -3680,6 +3864,11 @@
  NOT_FIRST_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "Our $NAME$ can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
  THIRD_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] can have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
  NOT_THIRD_ESTATE_NUM_POS_PRIVILEGES_TRIGGER: "The $NAME$ in [COUNTRY.GetName] can NOT have $COMPARATOR$ $VAL|0V$ more [estate_privileges|e]"
+ 
+ 
+ 
+ 
+ 
 
  HAS_CASUS_BELLI_TRIGGER: "Has a [casus_belli|E] on [TARGET_COUNTRY.GetName]"
  NOT_HAS_CASUS_BELLI_TRIGGER: "Does NOT have a [casus_belli|E] on [TARGET_COUNTRY.GetName]"
@@ -3810,6 +3999,13 @@
  THIRD_NUM_LOANS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ [loans|e]"
  NOT_THIRD_NUM_LOANS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [loans|e]"
 
+ NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+ NOT_NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+ FIRST_NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+ NOT_FIRST_NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+ THIRD_NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+ NOT_THIRD_NUM_COUNTRY_THAT_CAN_BE_CALLED_OFFENSIVELY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [countries|e] that can be called offensively"
+
  NUM_CHARACTERS_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [characters|e] $current_value_V0$"
  NOT_NUM_CHARACTERS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [characters|e] $current_value_V0$"
  FIRST_NUM_CHARACTERS_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ [characters|e] $current_value_V0$"
@@ -3866,18 +4062,18 @@
  THIRD_NUM_LOCATIONS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ [locations|E]"
  NOT_THIRD_NUM_LOCATIONS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [locations|E]"
 
- NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "Has or has direct subjects own $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "Does NOT have nor does have any direct subject have $COMPARATOR$ $NUM|V0$ [locations|E]"
- FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "We or our direct subjects have $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "We and our direct subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E]"
- THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "[COUNTRY.GetName] or its direct subjects have $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "[COUNTRY.GetName] and its direct subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E]"
- NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "Has or has subjects own $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "Does NOT have nor does have any subject have $COMPARATOR$ $NUM|V0$ [locations|E]"
- FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "We or our subjects have $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "We and our subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E]"
- THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "[COUNTRY.GetName] or its subjects have $COMPARATOR$ $NUM|V0$ [locations|E]"
- NOT_THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "[COUNTRY.GetName] and its subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E]"
+ NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "Has or has direct subjects own $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "Does NOT have nor does have any direct subject have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "We or our direct subjects have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "We and our direct subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "[COUNTRY.GetName] or its direct subjects have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_TRIGGER: "[COUNTRY.GetName] and its direct subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "Has or has subjects own $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "Does NOT have nor does have any subject have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "We or our subjects have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_FIRST_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "We and our subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "[COUNTRY.GetName] or its subjects have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
+ NOT_THIRD_NUM_LOCATIONS_OWNED_OR_OWNED_BY_SUBJECTS_OR_BELOW_TRIGGER: "[COUNTRY.GetName] and its subjects do NOT have $COMPARATOR$ $NUM|V0$ [locations|E] $current_value_V0$"
 
  NUM_PROVINCES_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [provinces|E]"
  NOT_NUM_PROVINCES_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [provinces|E]"
@@ -4043,12 +4239,21 @@
  NOT_FIRST_OWNS_TRIGGER: "We do NOT own [TARGET_LOCATION.GetName]"
  THIRD_OWNS_TRIGGER: "[COUNTRY.GetName] owns [TARGET_LOCATION.GetName]"
  NOT_THIRD_OWNS_TRIGGER: "[COUNTRY.GetName] does NOT own [TARGET_LOCATION.GetName]"
+
  OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "Owns or any of its [non_sovereign_subjects|e] owns [TARGET_LOCATION.GetName]"
  NOT_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "It or any of its [non_sovereign_subjects|e] do NOT own [TARGET_LOCATION.GetName]"
  FIRST_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "We or one of our [non_sovereign_subjects|e] own [TARGET_LOCATION.GetName]"
  NOT_FIRST_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "We or any of our [non_sovereign_subjects|e] do NOT own [TARGET_LOCATION.GetName]"
  THIRD_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "[COUNTRY.GetName] or any of its [non_sovereign_subjects|e] owns [TARGET_LOCATION.GetName]"
  NOT_THIRD_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_TRIGGER: "[COUNTRY.GetName] or any of its [non_sovereign_subjects|e] do NOT own [TARGET_LOCATION.GetName]"
+
+ OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "Owns or any of its [non_sovereign_subjects|e] owns all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "It or any of its [non_sovereign_subjects|e] do NOT own all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ FIRST_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "We or one of our [non_sovereign_subjects|e] own all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_FIRST_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "We or any of our [non_sovereign_subjects|e] do NOT own all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ THIRD_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "[COUNTRY.GetName] or any of its [non_sovereign_subjects|e] owns all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ NOT_THIRD_OWNS_OR_NON_SOVEREIGN_SUBJECT_OWNS_ENTIRE_PROVINCE_TRIGGER: "[COUNTRY.GetName] or any of its [non_sovereign_subjects|e] do NOT own all of [TARGET_PROVINCE_DEFINITION.GetName]"
+ 
  CONTROLS_TRIGGER: "Controls [TARGET_LOCATION.GetName]"
  NOT_CONTROLS_TRIGGER: "Does NOT control [TARGET_LOCATION.GetName]"
  FIRST_CONTROLS_TRIGGER: "We control [TARGET_LOCATION.GetName]"
@@ -4220,6 +4425,34 @@
  THIRD_RECEIVES_ISOLATION_EXEMPTION_FROM_TRIGGER: "[COUNTRY.GetName] receives [isolation|e] exemption from [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
  NOT_THIRD_RECEIVES_ISOLATION_EXEMPTION_FROM_TRIGGER: "[COUNTRY.GetName] does NOT receive [isolation|e] exemption from [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
 
+ GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "Will come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "Will NOT come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ FIRST_GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "We will come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_FIRST_GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "We will NOT come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ THIRD_GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "[COUNTRY.GetName] will come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_THIRD_GIVES_DEFENSIVE_SUPPORT_TO_TRIGGER: "[COUNTRY.GetName] will NOT come to the aid defensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+
+ RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to their aid defensively$EXISTING_RELATIONS$"
+ NOT_RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to their aid defensively$EXISTING_RELATIONS$"
+ FIRST_RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to our aid defensively$EXISTING_RELATIONS$"
+ NOT_FIRST_RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to our aid defensively$EXISTING_RELATIONS$"
+ THIRD_RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to the aid defensively of [COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_THIRD_RECEIVES_DEFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to the aid defensively of [COUNTRY.GetName]$EXISTING_RELATIONS$"
+
+ GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "Will come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "Will NOT come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ FIRST_GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "We will come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_FIRST_GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "We will NOT come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ THIRD_GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "[COUNTRY.GetName] will come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_THIRD_GIVES_OFFENSIVE_SUPPORT_TO_TRIGGER: "[COUNTRY.GetName] will NOT come to the aid offensively of [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
+
+ RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to their aid offensively$EXISTING_RELATIONS$"
+ NOT_RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to their aid offensively$EXISTING_RELATIONS$"
+ FIRST_RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to our aid offensively$EXISTING_RELATIONS$"
+ NOT_FIRST_RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to our aid offensively$EXISTING_RELATIONS$"
+ THIRD_RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will come to the aid offensively of [COUNTRY.GetName]$EXISTING_RELATIONS$"
+ NOT_THIRD_RECEIVES_OFFENSIVE_SUPPORT_FROM_TRIGGER: "[TARGET_COUNTRY.GetName] will NOT come to the aid offensively of [COUNTRY.GetName]$EXISTING_RELATIONS$"
+
  HAS_TRADE_TREATY_WITH_TRIGGER: "Has a treaty involving [market_attraction|e] with [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
  NOT_HAS_TRADE_TREATY_WITH_TRIGGER: "Does NOT have a treaty involving [market_attraction|e] with [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
  FIRST_HAS_TRADE_TREATY_WITH_TRIGGER: "We have a treaty involving [market_attraction|e] with [TARGET_COUNTRY.GetName]$EXISTING_RELATIONS$"
@@ -4352,6 +4585,13 @@
  NOT_PLAYER_HAS_LAW_TRIGGER: "We do NOT have the $LAW$ [law|e]"
  THIRD_HAS_LAW_TRIGGER: "[COUNTRY.GetName] has the $LAW$ [law|e]"
  NOT_THIRD_HAS_LAW_TRIGGER: "[COUNTRY.GetName] does NOT have the $LAW$ [law|e]"
+
+ HAS_AREA_PREFERENCE_TRIGGER: "Has [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
+ NOT_HAS_AREA_PREFERENCE_TRIGGER: "Does NOT have [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
+ FIRST_HAS_AREA_PREFERENCE_TRIGGER: "We have [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
+ NOT_FIRST_HAS_AREA_PREFERENCE_TRIGGER: "We do NOT have [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
+ THIRD_HAS_AREA_PREFERENCE_TRIGGER: "[COUNTRY.GetName] has [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
+ NOT_THIRD_HAS_AREA_PREFERENCE_TRIGGER: "[COUNTRY.GetName] does NOT have [TARGET_AREA_PREFERENCE.GetName] as an AI area preference"
 
  RESEARCH_PROGRESS_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [research_progress|E]"
  NOT_RESEARCH_PROGRESS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [research_progress|E]"
@@ -4575,6 +4815,34 @@
  NOT_FIRST_NUM_OPEN_REFORM_SLOTS_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|V0$ open slot(s) for [government_reforms|e] $current_value_V0$"
  THIRD_NUM_OPEN_REFORM_SLOTS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ open slot(s) for [government_reforms|e] $current_value_V0$"
  NOT_THIRD_NUM_OPEN_REFORM_SLOTS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ open slot(s) for [government_reforms|e] $current_value_V0$"
+
+ NUM_BUREAUCRACIES_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+ NOT_NUM_BUREAUCRACIES_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+ FIRST_NUM_BUREAUCRACIES_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+ NOT_FIRST_NUM_BUREAUCRACIES_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+ THIRD_NUM_BUREAUCRACIES_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+ NOT_THIRD_NUM_BUREAUCRACIES_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ [bureaucracies|e]"
+
+ NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+ NOT_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+ FIRST_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+ NOT_FIRST_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+ THIRD_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+ NOT_THIRD_NUM_OPEN_BUREAUCRACY_SLOTS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ open [bureaucracy|e] slots"
+
+ MAX_BUREAUCRACY_SLOTS_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+ NOT_MAX_BUREAUCRACY_SLOTS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+ FIRST_MAX_BUREAUCRACY_SLOTS_TRIGGER: "We have $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+ NOT_FIRST_MAX_BUREAUCRACY_SLOTS_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+ THIRD_MAX_BUREAUCRACY_SLOTS_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+ NOT_THIRD_MAX_BUREAUCRACY_SLOTS_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|V0$ maximum [bureaucracy|e] slots"
+
+ ALLOW_BUREAUCRACIES_TRIGGER: "Is allowed [bureaucracies|e]"
+ NOT_ALLOW_BUREAUCRACIES_TRIGGER: "Is NOT allowed [bureaucracies|e]"
+ FIRST_ALLOW_BUREAUCRACIES_TRIGGER: "We are allowed [bureaucracies|e]"
+ NOT_FIRST_ALLOW_BUREAUCRACIES_TRIGGER: "We are NOT allowed [bureaucracies|e]"
+ THIRD_ALLOW_BUREAUCRACIES_TRIGGER: "[COUNTRY.GetName] is allowed [bureaucracies|e]"
+ NOT_THIRD_ALLOW_BUREAUCRACIES_TRIGGER: "[COUNTRY.GetName] is NOT allowed [bureaucracies|e]"
 
  NUM_AVATARS_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [avatars|e]"
  NOT_NUM_AVATARS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|V0$ [avatars|e]"
@@ -4881,19 +5149,25 @@
  THIRD_HAS_BLOCKED_TREATIES_WITH_TRIGGER: "[COUNTRY.GetName] has [blocked_treaties|e] with [TARGET_COUNTRY.GetName]"
  NOT_THIRD_HAS_BLOCKED_TREATIES_WITH_TRIGGER: "[COUNTRY.GetName] does NOT have [blocked_treaties|e] with [TARGET_COUNTRY.GetName]"
 
- RELIGION_POPS_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_RELIGION_POPS_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- WE_RELIGION_POPS_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_WE_RELIGION_POPS_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- THIRD_RELIGION_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_THIRD_RELIGION_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
+ RELIGION_POPS_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
+ NOT_RELIGION_POPS_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
+ WE_RELIGION_POPS_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
+ NOT_WE_RELIGION_POPS_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
+ THIRD_RELIGION_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
+ NOT_THIRD_RELIGION_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [population|e] $current_value_0Y$"
 
- RELIGION_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_RELIGION_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- WE_RELIGION_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_WE_RELIGION_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- THIRD_RELIGION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_THIRD_RELIGION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
+ RELIGION_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ NOT_RELIGION_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ WE_RELIGION_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ NOT_WE_RELIGION_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ THIRD_RELIGION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ NOT_THIRD_RELIGION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetAdjective] [population|e] $current_value_2percentY$"
+ MONARCH_POWER_IN_COUNTRY_TRIGGER: "Ruler's $NAME$ [ability|e] is $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
+ NOT_MONARCH_POWER_IN_COUNTRY_TRIGGER: "Ruler's $NAME$ [ability|e] is NOT $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
+ WE_MONARCH_POWER_IN_COUNTRY_TRIGGER: "Our ruler's $NAME$ [ability|e] is $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
+ NOT_WE_MONARCH_POWER_IN_COUNTRY_TRIGGER: "Our ruler's $NAME$ [ability|e] is NOT $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
+ THIRD_MONARCH_POWER_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName]'s ruler's $NAME$ [ability|e] is $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
+ NOT_THIRD_MONARCH_POWER_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName]'s ruler's $NAME$ [ability|e] is NOT $COMPARATOR$ $NUM|Y2%$ $current_value_2percentY$"
 
  RELIGION_GROUP_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION_GROUP.GetName] [population|e] $current_value_2percentY$"
  NOT_RELIGION_GROUP_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION_GROUP.GetName] [population|e] $current_value_2percentY$"
@@ -4902,12 +5176,12 @@
  THIRD_RELIGION_GROUP_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION_GROUP.GetName] [population|e] $current_value_2percentY$"
  NOT_THIRD_RELIGION_GROUP_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION_GROUP.GetName] [population|e] $current_value_2percentY$"
 
- CULTURE_POPS_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
- NOT_CULTURE_POPS_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
- WE_CULTURE_POPS_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
- NOT_WE_CULTURE_POPS_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
- THIRD_CULTURE_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
- NOT_THIRD_CULTURE_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [pops|e] $current_value_0Y$"
+ CULTURE_POPS_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
+ NOT_CULTURE_POPS_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
+ WE_CULTURE_POPS_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
+ NOT_WE_CULTURE_POPS_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
+ THIRD_CULTURE_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
+ NOT_THIRD_CULTURE_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_CULTURE.GetName] [population|e] $current_value_0Y$"
 
  CULTURE_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE.GetName] [population|e] $current_value_2percentY$"
  NOT_CULTURE_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE.GetName] [population|e] $current_value_2percentY$"
@@ -4916,6 +5190,13 @@
  THIRD_CULTURE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE.GetName] [population|e] $current_value_2percentY$"
  NOT_THIRD_CULTURE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE.GetName] [population|e] $current_value_2percentY$"
 
+ CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+ NOT_CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+ WE_CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+ NOT_WE_CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+ THIRD_CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+ NOT_THIRD_CULTURE_GROUP_POPS_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
+
  CULTURE_GROUP_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
  NOT_CULTURE_GROUP_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
  WE_CULTURE_GROUP_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
@@ -4923,19 +5204,19 @@
  THIRD_CULTURE_GROUP_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
  NOT_THIRD_CULTURE_GROUP_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_CULTURE_GROUP.GetName] [population|e] $current_value_2percentY$"
 
- POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- FIRST_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_FIRST_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- THIRD_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
- NOT_THIRD_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_RELIGION.GetName] [pops|e] $current_value_0Y$"
+ POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
+ NOT_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
+ FIRST_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
+ NOT_FIRST_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
+ THIRD_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
+ NOT_THIRD_POP_TYPE_POPULATION_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ $NUM|0Y$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_0Y$"
 
- POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- FIRST_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_FIRST_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- THIRD_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
- NOT_THIRD_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_RELIGION.GetName] [population|e] $current_value_2percentY$"
+ POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "Has $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
+ NOT_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "Does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
+ FIRST_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "We have $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
+ NOT_FIRST_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "We do NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
+ THIRD_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] has $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
+ NOT_THIRD_POP_TYPE_PERCENTAGE_IN_COUNTRY_TRIGGER: "[COUNTRY.GetName] does NOT have $COMPARATOR$ a $NUM|Y2%$ [TARGET_POP_TYPE.GetName] [population|e] $current_value_2percentY$"
 
  LANGUAGE_IN_COUNTRY_TRIGGER: "$COMPARATOR|U$ $NUM|Y2%$ of the [population|e] speak [TARGET_LANGUAGE.GetName] $current_value_2percentY$"
  NOT_LANGUAGE_IN_COUNTRY_TRIGGER: "$COMPARATOR|U$ $NUM|Y2%$ of the [population|e] do NOT speak [TARGET_LANGUAGE.GetName] $current_value_2percentY$"
@@ -5085,6 +5366,11 @@
  THIRD_REBEL_HAS_MODIFIER_TRIGGER: "[REBEL.GetName] has $MODIFIER|Y$"
  NOT_THIRD_REBEL_HAS_MODIFIER_TRIGGER: "[REBEL.GetName] does NOT have $MODIFIER|Y$"
 
+ REBEL_HAS_SUPPORT_FROM_TRIGGER: "Has support from [TARGET_POP_TYPE.GetName]"
+ NOT_REBEL_HAS_SUPPORT_FROM_TRIGGER: "Does NOT have support from [TARGET_POP_TYPE.GetName]"
+ THIRD_REBEL_HAS_SUPPORT_FROM_TRIGGER: "[REBEL.GetName] has support from [TARGET_POP_TYPE.GetName]"
+ NOT_THIRD_REBEL_HAS_SUPPORT_FROM_TRIGGER: "[REBEL.GetName] does NOT have support from [TARGET_POP_TYPE.GetName]"
+
  any_country_supporting_rebel: "Any supporting country"
  any_country_supporting_rebel_count: "$PARAMETERS$ of supporting countries"
  any_country_supporting_rebel_percentage: "$PARAMETERS$ of supporting countries"
@@ -5111,6 +5397,11 @@
  #
  #
  # Culture
+ CULTURE_IS_ACTIVE_TRIGGER: "[culture|e] is active"
+ NOT_CULTURE_IS_ACTIVE_TRIGGER: "[culture|e] is NOT active"
+ THIRD_CULTURE_IS_ACTIVE_TRIGGER: "[CULTURE.GetName] [culture|e] is active"
+ NOT_THIRD_CULTURE_IS_ACTIVE_TRIGGER: "[CULTURE.GetName] [culture|e] is NOT active"
+
  NONE_CULTURAL_TRADITION_TRIGGER: "[culture|e] has $COMPARATOR$ $NUM|V0$ [cultural_tradition|e]"
  NOT_NONE_CULTURAL_TRADITION_TRIGGER: "[culture|e] does NOT have $COMPARATOR$ $NUM|V0$ [cultural_tradition|e]"
  CULTURAL_TRADITION_TRIGGER: "Has $COMPARATOR$ $NUM|V0$ [cultural_tradition|e]"
@@ -5209,6 +5500,13 @@
  THIRD_IS_MERGED_CULTURE_GROUP_OF_TRIGGER: "[CULTURE.GetName] is [merged_culture_group_merged|e] from the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]"
  NOT_THIRD_IS_MERGED_CULTURE_GROUP_OF_TRIGGER: "[CULTURE.GetName] is NOT [merged_culture_group_merged|e] from the [TARGET_CULTURE_GROUP.GetName] [culture_group_short|e]"
 
+ NONE_MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[culture|e]'s [merged_culture_group|e] contains [TARGET_CULTURE.GetName]"
+ NOT_NONE_MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[culture|e]'s [merged_culture_group|e] does NOT contain [TARGET_CULTURE.GetName]"
+ MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[merged_culture_group|e] contains [TARGET_CULTURE.GetName]"
+ NOT_MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[merged_culture_group|e] does NOT contain [TARGET_CULTURE.GetName]"
+ THIRD_MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[CULTURE.GetName]'s [merged_culture_group|e] contains [TARGET_CULTURE.GetName]"
+ NOT_THIRD_MERGED_CULTURE_GROUP_CONTAINS_CULTURE_TRIGGER: "[CULTURE.GetName]'s [merged_culture_group|e] does NOT contain [TARGET_CULTURE.GetName]"
+
 
  CULTURE_OPINION_IMPACT_TRIGGER: "The culture impact towards [TARGET_CULTURE.GetName] is $COMPARATOR$ $NUM|2Y$"
  NOT_CULTURE_OPINION_IMPACT_TRIGGER: "The culture impact towards [TARGET_CULTURE.GetName] is NOT $COMPARATOR$ $NUM|2Y$"
@@ -5231,6 +5529,16 @@
  NOT_HAS_DIALECT_TRIGGER: "Does NOT have a fixed [liturgical_language|e]"
  THIRD_HAS_DIALECT_TRIGGER: "[RELIGION.GetName] has a fixed [liturgical_language|e]"
  NOT_THIRD_HAS_DIALECT_TRIGGER: "[RELIGION.GetName] does NOT have a fixed [liturgical_language|e]"
+
+ IS_GOD_FEMALE_TRIGGER: "Is a female [goddess|e]"
+ NOT_IS_GOD_FEMALE_TRIGGER: "Is NOT a female [goddess|e]"
+ THIRD_IS_GOD_FEMALE_TRIGGER: "[GOD.GetName] is a female [goddess|e]"
+ NOT_THIRD_IS_GOD_FEMALE_TRIGGER: "[GOD.GetName] is NOT a female [goddess|e]"
+
+ HAS_OMENS_TRIGGER: "Can invoke [omens|e]"
+ NOT_HAS_OMENS_TRIGGER: "Can NOT invoke [omens|e]"
+ THIRD_HAS_OMENS_TRIGGER: "[RELIGION.GetName] can invoke [omens|e]"
+ NOT_THIRD_HAS_OMENS_TRIGGER: "[RELIGION.GetName] can NOT invoke [omens|e]"
 
  HAS_PURITY_TRIGGER: "Uses [purity|E]"
  NOT_HAS_PURITY_TRIGGER: "Does NOT use [purity|E]"
@@ -5256,6 +5564,11 @@
  NOT_IS_HOLY_SITE_FOR_TRIGGER: "Is NOT [holy_site|E] for [TARGET_RELIGION.GetName]"
  THIRD_IS_HOLY_SITE_FOR_TRIGGER: "[LOCATION.GetName] is [holy_site|E] for [TARGET_RELIGION.GetName]"
  NOT_THIRD_IS_HOLY_SITE_FOR_TRIGGER: "[LOCATION.GetName] is NOT [holy_site|E] for [TARGET_RELIGION.GetName]"
+
+ IS_HOLY_SITE_TYPE_TRIGGER: "Is [TARGET_HOLY_SITE_TYPE.GetName] [holy_site_type|e]"
+ NOT_IS_HOLY_SITE_TYPE_TRIGGER: "Is NOT [TARGET_HOLY_SITE_TYPE.GetName] [holy_site_type|e]"
+ THIRD_IS_HOLY_SITE_TYPE_TRIGGER: "[LOCATION.GetName] is [TARGET_HOLY_SITE_TYPE.GetName] [holy_site_type|e]"
+ NOT_THIRD_IS_HOLY_SITE_TYPE_TRIGGER: "[LOCATION.GetName] is NOT [TARGET_HOLY_SITE_TYPE.GetName] [holy_site_type|e]"
 
  IS_LOCATION_HOLY_SITE_FOR_TRIGGER: "Is [holy_site|E] for [TARGET_RELIGION.GetName]"
  NOT_IS_LOCATION_HOLY_SITE_FOR_TRIGGER: "Is NOT [holy_site|E] for [TARGET_RELIGION.GetName]"
@@ -5866,15 +6179,20 @@
  THIRD_HAS_ESTATE_TYPE_TRIGGER: "[CHARACTER.GetName] belongs to [TARGET_ESTATE_TYPE.GetName] [estate|E]"
  NOT_THIRD_HAS_ESTATE_TYPE_TRIGGER: "[CHARACTER.GetName] does NOT belong to [TARGET_ESTATE_TYPE.GetName] [estate|E]"
 
+ VALID_GENDER_FOR_HEIR_SELECTION_TRIGGER: "Has the gender valid for [TARGET_HEIR_SELECTION.GetName]"
+ BIT_VALID_GENDER_FOR_HEIR_SELECTION_TRIGGER: "Does NOT have the gender valid for [TARGET_HEIR_SELECTION.GetName]"
+ THIRD_VALID_GENDER_FOR_HEIR_SELECTION_TRIGGER: "[CHARACTER.GetName] has the gender valid for [TARGET_HEIR_SELECTION.GetName]"
+ BIT_THIRD_VALID_GENDER_FOR_HEIR_SELECTION_TRIGGER: "[CHARACTER.GetName] does NOT have the gender valid for [TARGET_HEIR_SELECTION.GetName]"
+
  VALID_ESTATE_FOR_HEIR_SELECTION_TRIGGER: "Belongs to an [estate|e] valid for [TARGET_HEIR_SELECTION.GetName]"
  NOT_VALID_ESTATE_FOR_HEIR_SELECTION_TRIGGER: "Does NOT belong to an [estate|e] valid for [TARGET_HEIR_SELECTION.GetName]"
  THIRD_VALID_ESTATE_FOR_HEIR_SELECTION_TRIGGER: "[CHARACTER.GetName] belongs to an [estate|e] valid for [TARGET_HEIR_SELECTION.GetName]"
  NOT_THIRD_VALID_ESTATE_FOR_HEIR_SELECTION_TRIGGER: "[CHARACTER.GetName] does NOT belong to an [estate|e] valid for [TARGET_HEIR_SELECTION.GetName]"
 
- IS_ELIGIBLE_HEIR_TRIGGER: "Is eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetHeirSelection.GetName] [heir_selection|e]"
- NOT_IS_ELIGIBLE_HEIR_TRIGGER: "Is NOT eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetHeirSelection.GetName] [heir_selection|e]"
- THIRD_IS_ELIGIBLE_HEIR_TRIGGER: "[CHARACTER.GetName] is eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetHeirSelection.GetName] [heir_selection|e]"
- NOT_THIRD_IS_ELIGIBLE_HEIR_TRIGGER: "[CHARACTER.GetName] is NOT eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetHeirSelection.GetName] [heir_selection|e]"
+ IS_ELIGIBLE_HEIR_TRIGGER: "Is eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetGovernment.GetHeirSelection.GetName] [heir_selection|e]"
+ NOT_IS_ELIGIBLE_HEIR_TRIGGER: "Is NOT eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetGovernment.GetHeirSelection.GetName] [heir_selection|e]"
+ THIRD_IS_ELIGIBLE_HEIR_TRIGGER: "[CHARACTER.GetName] is eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetGovernment.GetHeirSelection.GetName] [heir_selection|e]"
+ NOT_THIRD_IS_ELIGIBLE_HEIR_TRIGGER: "[CHARACTER.GetName] is NOT eligible to be an [heir|e] for [TARGET_COUNTRY.GetName] and its [TARGET_COUNTRY.GetGovernment.GetHeirSelection.GetName] [heir_selection|e]"
 
  IS_ELIGIBLE_HEIR_BASELINE_TRIGGER: "Is eligible to be an [heir|e] for [TARGET_COUNTRY.GetName]"
  NOT_IS_ELIGIBLE_HEIR_BASELINE_TRIGGER: "Is NOT eligible to be an [heir|e] for [TARGET_COUNTRY.GetName]"
@@ -6028,6 +6346,15 @@
  THIRD_IS_ELIGIBLE_FOR_ROYAL_MARRIAGE_TRIGGER: "[CHARACTER.GetName] can do a [royal_marriage|e]"
  NOT_THIRD_IS_ELIGIBLE_FOR_ROYAL_MARRIAGE_TRIGGER: "[CHARACTER.GetName] can NOT do a [royal_marriage|e]"
  
+ IS_ELIGIBLE_FOR_MARRIAGE: "Is eligible for any kind of marriage"
+ NOT_IS_ELIGIBLE_FOR_MARRIAGE: "Is NOT eligible for any kind of marriage"
+ THIRD_IS_ELIGIBLE_FOR_MARRIAGE: "[CHARACTER.GetName] is eligible for any kind of marriage"
+ NOT_THIRD_IS_ELIGIBLE_FOR_MARRIAGE: "[CHARACTER.GetName] is NOT eligible for any kind of marriage"
+ 
+ CAN_MARRY_CHARACTER_TRIGGER: "Can marry [TARGET_CHARACTER.GetName]"
+ NOT_CAN_MARRY_CHARACTER_TRIGGER: "Can NOT marry [TARGET_CHARACTER.GetName]"
+ THIRD_CAN_MARRY_CHARACTER_TRIGGER: "[CHARACTER.GetName] can marry [TARGET_CHARACTER.GetName]"
+ NOT_THIRD_CAN_MARRY_CHARACTER_TRIGGER: "[CHARACTER.GetName] can NOT marry [TARGET_CHARACTER.GetName]"
  
  CHARACTER_ADULT_TRIGGER: "Is an [adult|e]"
  NOT_CHARACTER_ADULT_TRIGGER: "Is a [child|e]"
@@ -6290,7 +6617,12 @@
  NOT_NUM_UNION_COUNTRIES_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|Y0$ [countries|e] in any [personal_union|e] $current_value_0Y$"
  THIRD_NUM_UNION_COUNTRIES_TRIGGER: "[DYNASTY.GetName] has $COMPARATOR$ $NUM|Y0$ [countries|e] in any [personal_union|e] $current_value_0Y$"
  NOT_THIRD_NUM_UNION_COUNTRIES_TRIGGER: "[DYNASTY.GetName] does NOT have $COMPARATOR$ $NUM|Y0$ [countries|e] in any [personal_union|e] $current_value_0Y$"
- 
+
+ NUM_ADULT_AVAILABLE_DYNASTY_MEMBERS_TRIGGER: "Has $COMPARATOR$ $NUM|Y0$ adult available [dynasty|e] [characters|e]"
+ NOT_NUM_ADULT_AVAILABLE_DYNASTY_MEMBERS_TRIGGER: "Does NOT have $COMPARATOR$ $NUM|Y0$ adult available [dynasty|e] [characters|e]"
+ THIRD_NUM_ADULT_AVAILABLE_DYNASTY_MEMBERS_TRIGGER: "[DYNASTY.GetName] has $COMPARATOR$ $NUM|Y0$ adult available [characters|e]"
+ NOT_THIRD_NUM_ADULT_AVAILABLE_DYNASTY_MEMBERS_TRIGGER: "[DYNASTY.GetName] does NOT have $COMPARATOR$ $NUM|Y0$ adult available [characters|e]"
+
  DYNASTY_BOOL_MODIFIER_YES_TRIGGER: "Has $MODIFIER_NAME$"
  NOT_DYNASTY_BOOL_MODIFIER_YES_TRIGGER: "Does NOT have $MODIFIER_NAME$"
  THIRD_DYNASTY_BOOL_MODIFIER_YES_TRIGGER: "[DYNASTY.GetName] has $MODIFIER_NAME$"
@@ -6932,6 +7264,13 @@
  THIRD_HAS_PRISONERS_TRIGGER: "[UNIT.GetName] has [prisoners|e]"
  NOT_THIRD_HAS_PRISONERS_TRIGGER: "[UNIT.GetName] does NOT have [prisoners|e]"
 
+ NONE_HAS_ONLY_PRISONERS_TRIGGER: "[unit|e] has only [prisoners|e]"
+ NOT_NONE_HAS_ONLY_PRISONERS_TRIGGER: "[unit|e] does NOT have only [prisoners|e]"
+ HAS_ONLY_PRISONERS_TRIGGER: "Has only [prisoners|e]"
+ NOT_HAS_ONLY_PRISONERS_TRIGGER: "Does NOT have only [prisoners|e]"
+ THIRD_HAS_ONLY_PRISONERS_TRIGGER: "[UNIT.GetName] has only [prisoners|e]"
+ NOT_THIRD_HAS_ONLY_PRISONERS_TRIGGER: "[UNIT.GetName] does NOT have only [prisoners|e]"
+
  NONE_CAN_UPGRADE_UNIT_TRIGGER: "[unit|e] can be upgraded"
  NOT_NONE_CAN_UPGRADE_UNIT_TRIGGER: "[unit|e] can NOT be upgraded"
  CAN_UPGRADE_UNIT_TRIGGER: "Can be upgraded"
@@ -7005,6 +7344,28 @@
  NOT_UNIT_CATEGORY_STRENGTH_TRIGGER: "Does NOT have $COMPARATOR$ $SIZE|V0$ $NAME$"
  THIRD_UNIT_CATEGORY_STRENGTH_TRIGGER: "[UNIT.GetName] has $COMPARATOR$ $SIZE|V0$ $NAME$"
  NOT_THIRD_UNIT_CATEGORY_STRENGTH_TRIGGER: "[UNIT.GetName] does NOT have $COMPARATOR$ $SIZE|V0$ $NAME$"
+
+ NONE_HAS_LEVIES_TRIGGER: "[unit|e] has [levies|e]"
+ NOT_NONE_HAS_LEVIES_TRIGGER: "[unit|e] does NOT have [levies|e]"
+ HAS_LEVIES_TRIGGER: "Has [levies|e]"
+ NOT_HAS_LEVIES_TRIGGER: "Does NOT have [levies|e]"
+ THIRD_HAS_LEVIES_TRIGGER: "[UNIT.GetName] has [levies|e]"
+ NOT_THIRD_HAS_LEVIES_TRIGGER: "[UNIT.GetName] does NOT have [levies|e]"
+
+ NONE_HAS_REGULARS_TRIGGER: "[unit|e] has [regulars|e]"
+ NOT_NONE_HAS_REGULARS_TRIGGER: "[unit|e] does NOT have [regulars|e]"
+ HAS_REGULARS_TRIGGER: "Has [regulars|e]"
+ NOT_HAS_REGULARS_TRIGGER: "Does NOT have [regulars|e]"
+ THIRD_HAS_REGULARS_TRIGGER: "[UNIT.GetName] has [regulars|e]"
+ NOT_THIRD_HAS_REGULARS_TRIGGER: "[UNIT.GetName] does NOT have [regulars|e]"
+
+ NONE_HAS_MERCENARIES_TRIGGER: "[unit|e] has [mercenaries|e]"
+ NOT_NONE_HAS_MERCENARIES_TRIGGER: "[unit|e] does NOT have [mercenaries|e]"
+ HAS_MERCENARIES_TRIGGER: "Has [mercenaries|e]"
+ NOT_HAS_MERCENARIES_TRIGGER: "Does NOT have [mercenaries|e]"
+ THIRD_HAS_MERCENARIES_TRIGGER: "[UNIT.GetName] has [mercenaries|e]"
+ NOT_THIRD_HAS_MERCENARIES_TRIGGER: "[UNIT.GetName] does NOT have [mercenaries|e]"
+
  #
  # Siege
  HAS_BREACH_TRIGGER: "Has a Breach"
@@ -7117,10 +7478,10 @@
  THIRD_IS_ON_SAME_SIDE_TRIGGER: "[COUNTRY.GetName] is on the same side with [TARGET_COUNTRY.GetName] in $WAR$"
  NOT_THIRD_IS_ON_SAME_SIDE_TRIGGER: "[COUNTRY.GetName] is NOT on the same side with [TARGET_COUNTRY.GetName] in $WAR$"
 
- WAR_GOAL_TYPE_TRIGGER: "Has the '#Y NAME#!' [war_goal|e]"
- NOT_WAR_GOAL_TYPE_TRIGGER: "Does NOT have the '#Y NAME#!' [war_goal|e]"
- THIRD_WAR_GOAL_TYPE_TRIGGER: "[WAR.GetName] has the '#Y NAME#!' [war_goal|e]"
- NOT_THIRD_WAR_GOAL_TYPE_TRIGGER: "[WAR.GetName] does NOT have the '#Y NAME#!' [war_goal|e]"
+ WAR_GOAL_TYPE_TRIGGER: "Has the '#Y $NAME$#!' [war_goal|e]"
+ NOT_WAR_GOAL_TYPE_TRIGGER: "Does NOT have the '#Y $NAME$#!' [war_goal|e]"
+ THIRD_WAR_GOAL_TYPE_TRIGGER: "[WAR.GetName] has the '#Y $NAME$#!' [war_goal|e]"
+ NOT_THIRD_WAR_GOAL_TYPE_TRIGGER: "[WAR.GetName] does NOT have the '#Y $NAME$#!' [war_goal|e]"
  #
  # Area
  IS_AREA_COASTAL_SEA_TRIGGER: "Is Coastal Sea"
@@ -7214,11 +7575,75 @@
 
  #
  #
+ # Bureaucracies
+ BUREAUCRACY_MAINTENANCE_TRIGGER: "Current [bureaucracy_maintenance|e] level is $COMPARATOR$ $NUM|0Y$"
+ NOT_BUREAUCRACY_MAINTENANCE_TRIGGER: "Current [bureaucracy_maintenance|e] level is NOT $COMPARATOR$ $NUM|0Y$"
+ THIRD_BUREAUCRACY_MAINTENANCE_TRIGGER: "[BUREAUCRACY.GetName] has a current [bureaucracy_maintenance|e] level of $COMPARATOR$ $NUM|0Y$"
+ NOT_THIRD_BUREAUCRACY_MAINTENANCE_TRIGGER: "[BUREAUCRACY.GetName] does NOT have a current [bureaucracy_maintenance|e] level of $COMPARATOR$ $NUM|0Y$"
+
+ BUREAUCRACY_ENTRENCHMENT_TRIGGER: "Current [entrenchment|e] is $COMPARATOR$ $NUM|0Y$"
+ NOT_BUREAUCRACY_ENTRENCHMENT_TRIGGER: "Current [entrenchment|e] is NOT $COMPARATOR$ $NUM|0Y$"
+ THIRD_BUREAUCRACY_ENTRENCHMENT_TRIGGER: "[BUREAUCRACY.GetName] has a current [entrenchment|e] of $COMPARATOR$ $NUM|0Y$"
+ NOT_THIRD_BUREAUCRACY_ENTRENCHMENT_TRIGGER: "[BUREAUCRACY.GetName] does NOT have a current [entrenchment|e] of $COMPARATOR$ $NUM|0Y$"
+
+ HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "Has a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+ NOT_HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "Does NOT have a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+ FIRST_HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "We have a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+ NOT_FIRST_HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "We do NOT have a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+ THIRD_HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "[COUNTRY.GetName] has a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+ NOT_THIRD_HAS_BUREAUCRACY_OF_TYPE_TRIGGER: "[COUNTRY.GetName] does NOT have a [BUREAUCRACY_TYPE.GetName] [bureaucracy|e]"
+  
+ BUREAUCRACY_LIKED_BY_ESTATE_TYPE_TRIGGER: "Is liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_LIKED_BY_ESTATE_TYPE_TRIGGER: "Is NOT liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_LIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_LIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is NOT liked by [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+
+ BUREAUCRACY_LIKED_BY_ESTATE_TRIGGER: "Is liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_LIKED_BY_ESTATE_TRIGGER: "Is NOT liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_LIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_LIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is NOT liked by the [TARGET_ESTATE.GetName] [estate|e]"
+
+ BUREAUCRACY_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "Is disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "Is NOT disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is NOT disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+
+ BUREAUCRACY_DISLIKED_BY_ESTATE_TRIGGER: "Is disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_DISLIKED_BY_ESTATE_TRIGGER: "Is NOT disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_DISLIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_DISLIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY.GetName] [bureaucracy|e] is NOT disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+
+ BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TYPE_TRIGGER: "Is liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TYPE_TRIGGER: "Is NOT liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is NOT liked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+
+ BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TRIGGER: "Is liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TRIGGER: "Is NOT liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is liked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_TYPE_LIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is NOT liked by the [TARGET_ESTATE.GetName] [estate|e]"
+
+ BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "Is disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "Is NOT disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TYPE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is NOT disliked by the [TARGET_ESTATE_TYPE.GetName] [estate|e]"
+
+ BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TRIGGER: "Is disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TRIGGER: "Is NOT disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ THIRD_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+ NOT_THIRD_BUREAUCRACY_TYPE_DISLIKED_BY_ESTATE_TRIGGER: "[BUREAUCRACY_TYPE.GetName] [bureaucracy|e] is NOT disliked by the [TARGET_ESTATE.GetName] [estate|e]"
+
+ #
+ #
  # Policies
  POLICY_LEVEL_TRIGGER: "Has a [policy|e] Level of $COMPARATOR$ $NUM|0Y$ $current_value_0Y$"
  NOT_POLICY_LEVEL_TRIGGER: "Does NOT have a [policy|e] Level of $COMPARATOR$ $NUM|0Y$ $current_value_0Y$"
  THIRD_POLICY_LEVEL_TRIGGER: "[POLICY.GetName] has a [policy|e] Level of $COMPARATOR$ $NUM|0Y$ $current_value_0Y$"
  NOT_THIRD_POLICY_LEVEL_TRIGGER: "[POLICY.GetName] does NOT have a [policy|e] Level of $COMPARATOR$ $NUM|0Y$ $current_value_0Y$"
+ POLICY_POSSIBLE_FOR_COUNTRY_TRIGGER: "Is possible for [TARGET_COUNTRY.GetName]"
+ NOT_POLICY_POSSIBLE_FOR_COUNTRY_TRIGGER: "Is NOT possible for [TARGET_COUNTRY.GetName]"
+ THIRD_POLICY_POSSIBLE_FOR_COUNTRY_TRIGGER: "[POLICY.GetName] is possible for [TARGET_COUNTRY.GetName]"
+ NOT_THIRD_POLICY_POSSIBLE_FOR_COUNTRY_TRIGGER: "[POLICY.GetName] is NOT possible for [TARGET_COUNTRY.GetName]"
  
  # 
  #
@@ -7366,6 +7791,16 @@
  NOT_TOTAL_ENEMIES_TRIGGER: "Does NOT have a total of $COMPARATOR$ $NUM|V0$ enemies"
  THIRD_TOTAL_ENEMIES_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total of $COMPARATOR$ $NUM|V0$ enemies"
  NOT_THIRD_TOTAL_ENEMIES_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a total of $COMPARATOR$ $NUM|V0$ enemies"
+
+ IO_TOTAL_GREAT_POWER_SCORE_TRIGGER: "Has a total great power score of $COMPARATOR$ $NUM|V0$"
+ NOT_IO_TOTAL_GREAT_POWER_SCORE_TRIGGER: "Does NOT have a total great power score of $COMPARATOR$ $NUM|V0$"
+ THIRD_IO_TOTAL_GREAT_POWER_SCORE_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total great power score of $COMPARATOR$ $NUM|V0$"
+ NOT_THIRD_IO_TOTAL_GREAT_POWER_SCORE_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a total great power score of $COMPARATOR$ $NUM|V0$"
+
+ IO_TOTAL_MILITARY_STRENGTH_TRIGGER: "Has a total military strength of $COMPARATOR$ $NUM|V0$"
+ NOT_IO_TOTAL_MILITARY_STRENGTH_TRIGGER: "Does NOT have a total military strength of $COMPARATOR$ $NUM|V0$"
+ THIRD_IO_TOTAL_MILITARY_STRENGTH_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total military strength of $COMPARATOR$ $NUM|V0$"
+ NOT_THIRD_IO_TOTAL_MILITARY_STRENGTH_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a total military strength of $COMPARATOR$ $NUM|V0$"
 
  MAX_COUNTRIES_WITH_SPECIAL_STATUS_TRIGGER: "Has a maximum number of countries with '$STATUS$' status of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  NOT_MAX_COUNTRIES_WITH_SPECIAL_STATUS_TRIGGER: "Does NOT have a maximum number of countries with '$STATUS$' status of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
@@ -7786,19 +8221,19 @@
  THIRD_ONLY_ALLOWED_OVERLORDS_COURT_LANGUAGE_TRIGGER: "[SUBJECT_TYPE.GetName] only allows use of the [overlord|e]'s [court_language|e]"
  NOT_THIRD_ONLY_ALLOWED_OVERLORDS_COURT_LANGUAGE_TRIGGER: "[SUBJECT_TYPE.GetName] does NOT only allow use of the [overlord|e]'s [court_language|e]"
 
- NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[subject_type|e] only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- NOT_NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[subject_type|e] only does NOT allo use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "Only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- NOT_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "Only does NOT allo use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- NOT_THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only does NOT allo use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
- 
- NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[subject_type|e] only allows use of the [overlord|e]'s [primary_culture|e]"
- NOT_NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[subject_type|e] only does NOT allo use of the [overlord|e]'s [primary_culture|e]"
- ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "Only allows use of the [overlord|e]'s [primary_culture|e]"
- NOT_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "Only does NOT allo use of the [overlord|e]'s [primary_culture|e]"
- THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only allows use of the [overlord|e]'s [primary_culture|e]"
- NOT_THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only does NOT allo use of the [overlord|e]'s [primary_culture|e]"
+ NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[subject_type|e] only allows use of the [overlord|e]'s [primary_culture|e]"
+ NOT_NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[subject_type|e] does NOT only allow use of the [overlord|e]'s [primary_culture|e]"
+ ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "Only allows use of the [overlord|e]'s [primary_culture|e]"
+ NOT_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "Does NOT only allow use of the [overlord|e]'s [primary_culture|e]"
+ THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only allows use of the [overlord|e]'s [primary_culture|e]"
+ NOT_THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] does NOT only allow use of the [overlord|e]'s [primary_culture|e]"
+
+ NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[subject_type|e] only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
+ NOT_NONE_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[subject_type|e] does NOT only allow use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
+ ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "Only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
+ NOT_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "Does NOT only allow use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
+ THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] only allows use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
+ NOT_THIRD_ONLY_ALLOWED_OVERLORD_PRIMARY_OR_KINDRED_CULTURE_TRIGGER: "[SUBJECT_TYPE.GetName] does NOT only allow use of the [overlord|e]'s [primary_culture|e] or #Y Kindred#! culture"
 
  NONE_GIVES_FLEET_BASING_RIGHTS_TRIGGER: "[subject_type|e] gives [fleet_basing_rights|e]"
  NOT_NONE_GIVES_FLEET_BASING_RIGHTS_TRIGGER: "[subject_type|e] does NOT give [fleet_basing_rights|e]"
@@ -7911,6 +8346,13 @@
  NOT_OVERLORD_CAN_ENFORCE_PEACE_ON_SUBJECT_TRIGGER: "Does NOT allow [overlord|e] to enforce a [subject|e] to leave a [war|e]"
  THIRD_OVERLORD_CAN_ENFORCE_PEACE_ON_SUBJECT_TRIGGER: "[SUBJECT_TYPE.GetName] allows [overlord|e] to enforce a [subject|e] to leave a [war|e]"
  NOT_THIRD_OVERLORD_CAN_ENFORCE_PEACE_ON_SUBJECT_TRIGGER: "[SUBJECT_TYPE.GetName] does NOT allow [overlord|e] to enforce a [subject|e] to leave a [war|e]"
+
+ NONE_SUBJECT_CAN_BE_ANNEXED_TRIGGER: "[subject_type|e] allows [annexation|e]"
+ NOT_NONE_SUBJECT_CAN_BE_ANNEXED_TRIGGER: "[subject_type|e] does NOT allow [annexation|e]"
+ SUBJECT_CAN_BE_ANNEXED_TRIGGER: "Allows [annexation|e]"
+ NOT_SUBJECT_CAN_BE_ANNEXED_TRIGGER: "Does NOT allow [annexation|e]"
+ THIRD_SUBJECT_CAN_BE_ANNEXED_TRIGGER: "[SUBJECT_TYPE.GetName] allows [annexation|e]"
+ NOT_THIRD_SUBJECT_CAN_BE_ANNEXED_TRIGGER: "[SUBJECT_TYPE.GetName] does NOT allow [annexation|e]"
 
  NONE_HAS_OVERLORDS_RULER_TRIGGER: "[subject_type|e] uses [overlord|e]'s' [ruler|e]"
  NOT_NONE_HAS_OVERLORDS_RULER_TRIGGER: "[subject_type|e] does NOT use [overlord|e]'s' [ruler|e]"
@@ -8041,6 +8483,12 @@
  NOT_INTERNATIONAL_ORGANIZATION_POPULATION_TRIGGER: "Does NOT have a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  THIRD_INTERNATIONAL_ORGANIZATION_POPULATION_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
  NOT_THIRD_INTERNATIONAL_ORGANIZATION_POPULATION_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a total population of $COMPARATOR$ $NUM|V0$ $current_value_V0$"
+
+ INTERNATIONAL_ORGANIZATION_ECONOMICAL_BASE_TRIGGER: "Has a total [economical_base|e] of $NUM|V2$"
+ NOT_INTERNATIONAL_ORGANIZATION_ECONOMICAL_BASE_TRIGGER: "Does NOT have a total [economical_base|e] of $NUM|V2$"
+ THIRD_INTERNATIONAL_ORGANIZATION_ECONOMICAL_BASE_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] has a total [economical_base|e] of $NUM|V2$"
+ NOT_THIRD_INTERNATIONAL_ORGANIZATION_ECONOMICAL_BASE_TRIGGER: "[INTERNATIONAL_ORGANIZATION.GetName] does NOT have a total [economical_base|e] of $NUM|V2$"
+
 
  HAS_LAND_OWNERSHIP_RULE_TRIGGER: "Has a [land_ownership_rule|e]"
  NOT_HAS_LAND_OWNERSHIP_RULE_TRIGGER: "Does NOT have a [land_ownership_rule|e]"
@@ -8176,6 +8624,13 @@
  NOT_FIRST_PARLIAMENT_TYPE_UTILITY_TRIGGER: "Our utility of $PARLIAMENT_TYPE$ is NOT $COMPARATOR$ $NUM|Y0$"
  THIRD_PARLIAMENT_TYPE_UTILITY_TRIGGER: "[COUNTRY.GetAdjective] utility of $PARLIAMENT_TYPE$ is $COMPARATOR$ $NUM|Y0$"
  NOT_THIRD_PARLIAMENT_TYPE_UTILITY_TRIGGER: "[COUNTRY.GetAdjective] utility of $PARLIAMENT_TYPE$ is NOT $COMPARATOR$ $NUM|Y0$"
+
+ POLICY_UTILITY_TRIGGER: "Utility of $POLICY$ is $COMPARATOR$ $NUM|Y0$"
+ NOT_POLICY_UTILITY_TRIGGER: "Utility of $POLICY$ is NOT $COMPARATOR$ $NUM|Y0$"
+ FIRST_POLICY_UTILITY_TRIGGER: "Our utility of $POLICY$ is $COMPARATOR$ $NUM|Y0$"
+ NOT_FIRST_POLICY_UTILITY_TRIGGER: "Our utility of $POLICY$ is NOT $COMPARATOR$ $NUM|Y0$"
+ THIRD_POLICY_UTILITY_TRIGGER: "[COUNTRY.GetAdjective] utility of $POLICY$ is $COMPARATOR$ $NUM|Y0$"
+ NOT_THIRD_POLICY_UTILITY_TRIGGER: "[COUNTRY.GetAdjective] utility of $POLICY$ is NOT $COMPARATOR$ $NUM|Y0$"
 
  ESTATE_TYPE_ALLOWED_IN_CABINET_TRIGGER: "Characters from the $ESTATE_TYPE$ are allowed in [cabinet|e]"
  NOT_ESTATE_TYPE_ALLOWED_IN_CABINET_TRIGGER: "Characters from the $ESTATE_TYPE$ are NOT allowed in [cabinet|e]"
@@ -8328,3 +8783,76 @@
  current_age_at_least_5_tt: "Current [age|e] is at least [ShowAgeName('age_5_absolutism')] or later"
  current_age_at_least_6_tt: "Current [age|e] is at least [ShowAgeName('age_6_revolutions')] or later"
  location_population_greater_or_equal: "[LOCATION.GetName] has a total population of at least $COMPARATOR$ $NUM|V3$ $current_value_Y3$"
+
+# MOVEMENT
+ MOVEMENT_PRESENCE_TRIGGER: "[TARGET_MOVEMENT.GetName] affects $COMPARATOR$ $POPSM|Y$ [pops|e]"
+ NOT_MOVEMENT_PRESENCE_TRIGGER: "[TARGET_MOVEMENT.GetName] does NOT affect $COMPARATOR$ $POPS|Y$ [pops|e]"
+ THIRD_MOVEMENT_PRESENCE_TRIGGER: "[TARGET_MOVEMENT.GetName] affects $COMPARATOR$ $POPS|Y$ [pops|e] in $SOURCE$"
+ NOT_THIRD_MOVEMENT_PRESENCE_TRIGGER: "[TARGET_MOVEMENT.GetName] does NOT affect $COMPARATOR$ $POPSM|Y$ [pops|e] in $SOURCE$"
+
+ NUM_OF_COMMON_RIVALS_TRIGGER: "Common [rivals|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_OF_COMMON_RIVALS_TRIGGER: "Common [rivals|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+ FIRST_NUM_OF_COMMON_RIVALS_TRIGGER: "Our common [rivals|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_FIRST_NUM_OF_COMMON_RIVALS_TRIGGER: "Our common [rivals|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+ THIRD_NUM_OF_COMMON_RIVALS_TRIGGER: "[COUNTRY.GetName]'s common [rivals|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_THIRD_NUM_OF_COMMON_RIVALS_TRIGGER: "[COUNTRY.GetName]'s common [rivals|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+
+ NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "Common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "Common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+ FIRST_NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "Our common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_FIRST_NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "Our common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+ THIRD_NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "[COUNTRY.GetName]'s common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V0$"
+ NOT_THIRD_NUM_OF_COMMON_RIVALS_AND_ENEMIES_TRIGGER: "[COUNTRY.GetName]'s common [rivals|e] and [enemies|e] with [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V0$"
+ 
+ THIS_TRUST_OF_PREV_TRIGGER: "[trust|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIS_TRUST_OF_PREV_TRIGGER: "[trust|E] of [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_THIS_TRUST_OF_PREV_TRIGGER: "Our [trust|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_THIS_TRUST_OF_PREV_TRIGGER: "Our [trust|E] of [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_THIS_TRUST_OF_PREV_TRIGGER: "[COUNTRY.GetName]'s [trust|E] of [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_THIS_TRUST_OF_PREV_TRIGGER: "[COUNTRY.GetName]'s [trust|E] of [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+
+ PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [trust|E] is $COMPARATOR$ $NUM|V00$"
+ NOT_PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [trust|E] is NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [trust|E] of us is $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [trust|E] of us is NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [trust|E] of [COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_PREV_TRUST_OF_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [trust|E] of [COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+
+ PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [spy_network|E] is $COMPARATOR$ $NUM|V00$"
+ NOT_PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [spy_network|E] is NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [spy_network|E] in our country is $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [spy_network|E] in our country is NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [spy_network|E] in [COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_PREV_SPY_NETWORK_IN_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [spy_network|E] in [COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+
+ THIS_SPY_NETWORK_IN_PREV_TRIGGER: "[spy_network|E] in [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIS_SPY_NETWORK_IN_PREV_TRIGGER: "[spy_network|E] in [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_THIS_SPY_NETWORK_IN_PREV_TRIGGER: "Our [spy_network|E] in [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_THIS_SPY_NETWORK_IN_PREV_TRIGGER: "Our [spy_network|E] in [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_THIS_SPY_NETWORK_IN_PREV_TRIGGER: "[COUNTRY.GetName]'s [spy_network|E] in [TARGET_COUNTRY.GetName] is $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_THIS_SPY_NETWORK_IN_PREV_TRIGGER: "[COUNTRY.GetName]'s [spy_network|E] in [TARGET_COUNTRY.GetName] is NOT $COMPARATOR$ $NUM|V00$"
+
+ PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [favors|E] are $COMPARATOR$ $NUM|V00$"
+ NOT_PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [favors|E] are NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [favors|E] with us are $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName] [favors|E] with us are NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [favors|E] with [COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_PREV_FAVORS_WITH_THIS_TRIGGER: "[TARGET_COUNTRY.GetName]'s [favors|E] with [COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$"
+
+ THIS_FAVORS_WITH_PREV_TRIGGER: "[favors|E] with [TARGET_COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$"
+ NOT_THIS_FAVORS_WITH_PREV_TRIGGER: "[favors|E] with [TARGET_COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$"
+ FIRST_THIS_FAVORS_WITH_PREV_TRIGGER: "Our [favors|E] with [TARGET_COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$"
+ NOT_FIRST_THIS_FAVORS_WITH_PREV_TRIGGER: "Our [favors|E] with [TARGET_COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$"
+ THIRD_THIS_FAVORS_WITH_PREV_TRIGGER: "[COUNTRY.GetName]'s [favors|E] with [TARGET_COUNTRY.GetName] are $COMPARATOR$ $NUM|V00$"
+ NOT_THIRD_THIS_FAVORS_WITH_PREV_TRIGGER: "[COUNTRY.GetName]'s [favors|E] with [TARGET_COUNTRY.GetName] are NOT $COMPARATOR$ $NUM|V00$"
+
+ location_not_recently_raided: "Location has not been recently raided"
+ location_has_enemy_imperial_family_holding_tt: "Location has an enemy Imperial Family holding"
+ location_has_enemy_clan_holding_tt: "Location has an enemy Clan holding"
+
+ HAS_PERSONALITY_TRIGGER: "AI personality is $PERSONALITY$"
+ NOT_HAS_PERSONALITY_TRIGGER: "AI personality is NOT $PERSONALITY$"
+ FIRST_HAS_PERSONALITY_TRIGGER: "Our AI personality is $PERSONALITY$"
+ NOT_FIRST_HAS_PERSONALITY_TRIGGER: "Our AI personality is NOT $PERSONALITY$"
+ THIRD_HAS_PERSONALITY_TRIGGER: "[COUNTRY.GetName]'s AI personality is $PERSONALITY$"
+ NOT_THIRD_HAS_PERSONALITY_TRIGGER: "[COUNTRY.GetName]'s AI personality is NOT $PERSONALITY$"

@@ -36,6 +36,7 @@
  earthquake_events.1001.b: "被災者に手を差し伸べ、[capital_location.GetNameWithNoTooltip]に移住させよう。"
  earthquake_events.1001.historical_info: "$earthquake_events.1000.historical_info$"
  earthquake_events.1100.title: "[target_location.GetNameWithNoTooltip]の運命"
+ earthquake_events.1100.entry: "this will follow earthquake_events.1001, if you have conquered Gallipoli"
  earthquake_events.1100.desc: "地震によって廃墟と化した[target_location.GetName]は、わが国が掌握したあとも復興が進んでいない。だが、街がもぬけの殻であるこの時が、移住を進める絶好の機会である。[ShowCultureName('turkish_culture')]のアナトリア人は、都市部の者も遊牧民系の者も、すでに移住を開始している——移住を促したのはもちろん我々である。ここはルメリアにおける重要な拠点となるだろう！"
  earthquake_events.1100.a: "これは神の思し召しだったのだ。"
  earthquake_events.1100.historical_info: "オスマン帝国の司令官スレイマン・パシャがガリポリを征服すると、人口が減少していたこの都市にアナトリアのトルコ人が移住し、ヨーロッパにおけるトルコ人の最初の拠点となった。これはコンスタンティノープルに大きな不安をもたらし、最終的に1366年から1367年にかけてのサヴォイア十字軍の遠征につながった。"

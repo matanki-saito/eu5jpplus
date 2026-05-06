@@ -1,0 +1,11 @@
+﻿l_japanese:
+ movements.10.title: "Latinitas"
+ movements.10.desc: "偉大なローマ帝国への復帰を祝い、[target_location.GetName]では、[ShowLanguageFamilyName('romance_language_family')]の話者である忠実なる住民たちが、[ShowLanguageName('latin_language')]と古代[ShowCultureName('roman_culture')]文化の理念に再び情熱を燃やしている。\n\nこの新たなローマ人たちは、ローマ帝国の栄光を取り戻そうとしている。自らの受け継いだものに誇りを抱き、その文化と影響力を世界に広めることを強く望んでいるのだ。"
+ movements.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ movements.10.b: "我らもまた[ShowCultureNameWithNoTooltip('roman_culture')]の民である！"
+ movements.10.tt: "[ShowMovementDefinitionName('roman_culture_movement')]が[target_location.GetName]に生じる"
+ movements.20.title: "「一者」の流出"
+ movements.20.desc: "A circle of scholars and philosophers of the [ShowMovementDefinitionName('hellenism_religion_movement')] have begun to teach that the highest truth lies not in scripture but in reason: all existence flows from the One, through emanations of divine intellect, down into our material world.\n\nDrawing on Plato, Plotinus, and Proclus, these thinkers are careful to note the parallels with [ShowReligionGroupName('christian')]. The One, they say, is not so different from God: eternal, beyond all predication, the source of all being.\n\nYet the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] grow wary, decrying it as base [ShowReligionAdjective('hellenism_religion')] paganism.\n\nWill we permit this philosophical revival to flourish, or move to extinguish it?"
+ movements.20.a: "「一者」の探求は真理につながる。"
+ movements.20.b: "この哲学は魂を迷わせる。"
+ movements.20.tt: "[ROOT.GetCountry.GetCapital.GetName]で[ShowMovementDefinitionName('hellenism_religion_movement')]が拡大"

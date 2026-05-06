@@ -15,7 +15,7 @@
  REBEL_HOUSE_SUPPORT: "Backed by [DYNASTY.GetName]: $VAL|2-=%$"
  REBEL_POWER_OF_SUPPORT: "Base Rebel [political_power|e]: $VAL|-2V$\nTotal [political_power|e] of [primary_culture|e]: #G -#!$SIZE|V2+$\n[political_power|e] of [primary_culture|e] factor: $SIZE_FACTOR|V2+%$\nScale: $SCALE|V2%$\nIf the rebel power is over $PERC|%2V$ of the power of primary culture, they get progress." 
  REBEL_STALLED_CIVIL_WAR: "Frozen due to [civil_war|e]."
- REBEL_STALLED_NOT_ENOUGH: "Frozen due to not having enough supporters."
+ REBEL_STALLED_NOT_ENOUGH: "Frozen due to not having enough supporters: #V +/-0.0%#!"
  REBEL_PROGRESS_ESTATE: "[estate_power|e]: $VAL|2-=%$"
  REBEL_PROGRESS_POPULATION: "Support from $POP|V$@population!: $VAL|2-=%$"
  REBEL_NATIONALISM_SOURCE: "Nationalism\nBase Nationalism: $VAL|2=-%$"
@@ -37,6 +37,7 @@
  rsi_goods: "Cost of [pop_needs|e]"
  rsi_lack_of_goods: "Lack of [pop_needs|e]"
  rsi_events: "[events|e]"
+ rsi_slave: "Slave"
  rsi_interventions: "local [building|e] built"
 
  FOREIGN_SUPPORT: "Foreign Support"
@@ -362,6 +363,12 @@
  serb_uprising_country_adjective: "$ADJ$ $serb_uprising$"
  chiprovtsi_uprising_country: "$ADJ$ $chiprovtsi_uprising$"
  chiprovtsi_uprising_country_adjective: "$ADJ$ $chiprovtsi_uprising$"
+
+ dobrujan_revolt_country: "$dobrujan_revolt$"
+ dobrujan_revolt_country_adjective: "$ADJ$ $dobrujan_revolt$"
+
+ nikephoros_ii_orsini_revolt_country: "$orsini_revolt$"
+ nikephoros_ii_orsini_revolt_country_adjective: "$ADJ$ $Orsini$"
  
  #
  pretender_rebels: "[pretender_rebels_icon] Pretender"
@@ -413,3 +420,9 @@
  REBELS_CABINET_MODIFIER: "@rebels_default! Rebel monthly progress: #G -0.25%#!"
  REBEL_SUPPORT_HEADER: "Countries supporting [Rebel.GetNameWithNoTooltip]"
  REBEL_DOES_HAVE_SUPPORTERS: "[Rebel.GetName] are supported by the following [countries|e]:"
+ REBEL_SUPPRESS_PRIORITY_TOOLTIP_ON: "Prioritize Suppression: #G Active#!\n\nArmies using the Suppress Rebels automation will be sent to this rebellion before others."
+ REBEL_SUPPRESS_PRIORITY_TOOLTIP_OFF: "Prioritize Suppression: #R Inactive#!\n\nClick to mark this rebellion as priority. Armies using the Suppress Rebels automation will be sent here before others."
+ REBEL_SUPPRESS_PRIORITY_TITLE: "Prioritize Suppression"
+ REBEL_SUPPRESS_PRIORITY_DESC: "Armies using the Suppress Rebels automation will be sent to this rebellion before others."
+ REBEL_SUPPRESS_PRIORITY_MARK: "Mark this rebellion as priority"
+ REBEL_SUPPRESS_PRIORITY_UNMARK: "Unmark this rebellion as priority"

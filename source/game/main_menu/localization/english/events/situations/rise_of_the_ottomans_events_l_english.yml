@@ -83,6 +83,15 @@
  rise_of_the_ottomans.109.a: "We must acquiesce."
  rise_of_the_ottomans.109.b: "Who do they think they are!?"
 
+ rise_of_the_ottomans.111.title: "$rise_of_the_ottomans.109.title$"
+ rise_of_the_ottomans.111.desc: "In the midst of tensions that have thrown all of [ShowRegionNameWithNoTooltip('anatolia_region')] into turmoil, envoys from [actor.GetLongName] arrive with a formal demand. Their [actor.GetGovernment.GetRulerTitle] seeks recognition, expecting us to affirm their authority over lands they now claim as rightfully theirs. The message may be measured, yet the intent is clear. A new power rises, casting its shade across the region and this is but their latest exhibition of newfound influence."
+
+ rise_of_the_ottomans.112.title: "$rise_of_the_ottomans.109.title$"
+ rise_of_the_ottomans.112.desc: "As disorder spreads across [ShowRegionNameWithNoTooltip('anatolia_region')], representatives of [actor.GetLongName] bring forth an offer. In exchange for peace, they demand a considerable payment, one that would secure a truce and, perhaps, buy time. Whether this is diplomacy or coercion is left to interpretation. To bend over in order to accomodate such a brazen request would only further solidify the [actor.GetAdjectiveWithNoTooltip] position..."
+ 
+ rise_of_the_ottomans.113.title: "$rise_of_the_ottomans.109.title$"
+ rise_of_the_ottomans.113.desc: "With [ShowRegionNameWithNoTooltip('anatolia_region')] unsettled and authority contested, envoys of [actor.GetLongName] present an unusual demand. Their [actor.GetGovernment.GetRulerTitle] expects gifts befitting their rising stature, not in gold alone, but in persons of standing. It is a gesture framed as goodwill, all while carrying the weight of obligation. It is clear that they wish to employ capable administrators so as to facilitate their lofty expansionist plans!"
+
  rise_of_the_ottomans.110.title: "The [GetCountry('BYZ').GetAdjectiveWithNoTooltip] Response"
  rise_of_the_ottomans.110.desc: "Not long since we dispatched a messenger to the court of the [GetCountry('BYZ').GetAdjective], our emissary returns, holding a letter that bears the seal of a once-powerful Empire, forgotten in the sands of time..."
  rise_of_the_ottomans.110.a: "Very well."
@@ -136,6 +145,7 @@
  rise_of_the_ottomans.211.a: "We will rise!"
 
  rise_of_the_ottomans.212.title: "Intervention in [target_country.GetNameWithNoTooltip]"
+ rise_of_the_ottomans.212.entry: "Intervention in Target Country"
  rise_of_the_ottomans.212.desc: "Years of mismanagement at the expense of the people, [target_character2.GetName] has led [target_country.GetName] into a period of instability and uncertainty. Peasants across the countryside fall victims to marauding bandits, the courts are in disorder, and central authority is nowhere to be found. Fortunately, [target_character.GetName], a member of our court, holds a valid claim to the [target_country.GetAdjectiveWithNoTooltip] throne, through which we can restore peace and prosperity to their people..."
  rise_of_the_ottomans.212.a: "We are the arbiters of stability and peace."
  rise_of_the_ottomans.212.b: "Let us not be hasty."

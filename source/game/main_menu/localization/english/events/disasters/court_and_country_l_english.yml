@@ -2,19 +2,19 @@
 
   #Events for the disaster
   court_and_country.1.title: "Conflict of Court and Country"
-  court_and_country.1.desc: "The encroachment of the [ROOT.GetCountry.GetAdjective] state on domains that have traditionally been dominated by regional aristocrats, local courts or other interest groups has led to a widespread resentment of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and the [target_location.GetName] [ROOT.GetCountry.GetGovernment.GetCourtTitle].\n\nThese groups have now united and formed alliances to combat central authority. Today we have received a number of objections to our latest tax decree, citing ancient rights and immoral conduct by the representatives of these upstrats. It is clear that continued attempts to strengthen our power will be obstructed at every opportunity."
+  court_and_country.1.desc: "The encroachment of the [ROOT.GetCountry.GetAdjective] state on domains that have traditionally been dominated by regional aristocrats, local courts or other interest groups has led to a widespread resentment of the [ROOT.GetCountry.GetGovernment.GetRulerTitle] and the [target_location.GetName] [ROOT.GetCountry.GetGovernment.GetCourtTitle].\n\nThese groups have now united and formed alliances to combat central authority. Today we have received a number of objections to our latest tax decree, citing ancient rights and immoral conduct by the representatives of these upstarts. It is clear that continued attempts to strengthen our power will be obstructed at every opportunity."
   court_and_country.1.a: "They will bend the knee to central authority!"
   court_and_country.1.b: "Attempt to negotiate with these Frondeurs."
 
   court_and_country.2.title: "An End to Hostilities between Court and Country"
-  court_and_country.2.desc: "The period of widespread obstruction of authority in the provinces has finally come to an end. The way we have handled this crisis will shape the way local power structures interact with the government in [target_location.GetName] for the foreseeble future."
+  court_and_country.2.desc: "The period of widespread obstruction of authority in the provinces has finally come to an end. The way we have handled this crisis will shape the way local power structures interact with the government in [target_location.GetName] for the foreseeable future."
   court_and_country.2.a: "The state is triumphant!"
   court_and_country.2.b: "Perhaps we can now finally work together."
   court_and_country.2.c: "The [target_location.GetNameWithNoTooltip] [ROOT.GetCountry.GetGovernment.GetCourtTitle] is devastated."
   legitimacy_yields_more_crown_power_tt: "[legitimacy|e] will now grant more [crown_power|e] due to our success in the [ShowDisasterName('court_and_country')] [disaster|e]"
 
   court_and_country.3.title: "The Power of the [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]"
-  court_and_country.3.desc: "As we seek to consolidate our power within, it has become apparent that we need to check the influence of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. The era of absolutism is shaping up to mark a great shift from feudal power structures, where [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] held significant regional authority, to our dream of a centralized and powerful institution under the undisputed jursdiction of [target_character.GetName]."
+  court_and_country.3.desc: "As we seek to consolidate our power within, it has become apparent that we need to check the influence of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]. The era of absolutism is shaping up to mark a great shift from feudal power structures, where [ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')] held significant regional authority, to our dream of a centralized and powerful institution under the undisputed jurisdiction of [target_character.GetName]."
   court_and_country.3.a: "Revoke their privileges!"
   court_and_country.3.b: "Intervene on a local level."
   court_and_country.3.c: "Strip them of their seats in the [ROOT.GetCountry.GetGovernment.GetParliament.GetName]."
@@ -69,4 +69,4 @@
   court_and_country.12.desc: "Not everyone stands to lose from the new order within the [ROOT.GetCountry.GetFlavorRank]! Some can now make a salaried career out of military service or as a functionary in one of the many new institutions of the state. Others yet remain loyal to the [ROOT.GetCountry.GetGovernment.GetRulerTitle] out of their sense of honor and tradition. While the resistance to the increasingly ironclad rule of the [target_location.GetName] [ROOT.GetCountry.GetGovernment.GetCourtTitle] is widespread in our country we have recently seen a surge of supporters."
   court_and_country.12.a: "An excellent opportunity to strengthen our ranks!"
   court_and_country.12.b: "Their loyalty will be rewarded."
-  court_and_country.12.c: "Excercise power with respect to the old institutions."
+  court_and_country.12.c: "Exercise power with respect to the old institutions."

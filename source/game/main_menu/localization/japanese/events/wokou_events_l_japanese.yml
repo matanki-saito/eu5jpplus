@@ -28,6 +28,7 @@
  wokou_events.100.b: "我々もそんな人生を送りたいものだ。"
  wokou_warning_tt: "[ROOT.GetCountry.Custom('GetWokouName')]の国々は[government_reform|e]「[ShowGovernmentReformName('pirate_brethren_reform')]」を採用しており、我々の近くに存在するとマイナスの[event|e]が発生する。"
  wokou_events.101.title: "[ShowPolicyNameWithNoTooltip('haijin_policy')]を強制"
+ wokou_events.101.entry: "海禁政策を強制"
  wokou_events.101.desc: "我々は長年にわたって[ShowPolicyName('haijin_policy')]政策をとってきたが、[target_character.GetShortName]の統治下で厳しく取り締まるようになったのは最近のことである。最近の勅令のあと、我々は[ROOT.GetCountry.GetName]沿岸を適切に取り締まるようになり、その過程で多くの密輸業者や反体制派を死に追いやった。これが[ROOT.GetCountry.GetAdjective]の政策に逆らうことへの見せしめになることを願う。"
  wokou_events.101.a: "これが悪影響を及ぼさないといいが。"
  later_era_of_wokou_tt: "新しい[ROOT.GetCountry.Custom('GetWokouName')]の国々が、[ShowAreaName('taiwan_area')]周辺、[ShowAreaName('luzon_area')]北部、[ShowAreaName('ryuukyuu_area')]に出現しはじめる"

@@ -52,3 +52,5 @@
  decline_of_majapahit.102.desc: "The increasingly autonomous [ShowReligionGroupAdjective('muslim')] community have found a champion in the renegade prince [target_character.GetName] who is said to be distantly related to the [ROOT.GetCountry.GetAdjective] ruling family. [target_character.GetNameWithNoTooltip] has not only declared the independence of the [target_country.GetAdjective] [target_country.GetFlavorRank], but also seeks to seize the throne of [ROOT.GetCountry.GetNameWithNoTooltip] for himself. Bound by our many struggles, there is little that we can do while [target_country.GetNameWithNoTooltip] gathers its strength."
  decline_of_majapahit.102.a: "Traitors! Face them on the battlefield!"
  decline_of_majapahit.102.b: "We will reconquer those territories in due time."
+
+ demak_progress_less_than_50: "#W $demak_progress$#! is less than #W 50.0%#!"
