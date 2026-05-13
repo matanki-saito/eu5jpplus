@@ -109,7 +109,7 @@
  STATIC_MODIFIER_NAME_kingdom_of_god_slot_modifier: "$kingdom_of_god_reform$"
  STATIC_MODIFIER_DESC_kingdom_of_god_slot_modifier: "$kingdom_of_god_reform$の宗教的な力は、古びた官僚制度すら屈服させることができる。"
  flavor_pap.21.title: "[GetCountry('PAP').GetGovernment.GetRulerTitle]が子をもうけたとして告発さる"
- flavor_pap.21.entry: "Pap Accused of Fathering Children"
+ flavor_pap.21.entry: "The Pope Accused of Fathering Children"
  flavor_pap.21.desc: "聖職にありながら、[GetCountry('PAP').GetGovernment.GetRulerTitle]が密かに子をもうけたという噂が国中に広まっている。この告発は[GetUniqueInternationalOrganization('catholic_church').GetName]の権威を損ねるための悪意ある策略だと言う者もいれば、特定の名前や証拠を挙げ、火のないところに煙は立たぬと主張する者もいる。枢機卿やほかの[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]たちは、この疑惑を調査すべきか、あるいは評判を守るために黙殺すべきかで意見が割れている。"
  flavor_pap.21.a: "黙殺するよう努める。"
  flavor_pap.21.b: "噂を止めるには遅すぎる。"

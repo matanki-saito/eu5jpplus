@@ -1420,8 +1420,6 @@
  DIPLOMACY_SUBJECT_TYPE_NOT_VALID: "以下の理由で[COUNTRY.GetName]に[SUBJECT_TYPE.GetName]を提案できない：\n$WHY$"
  DIPLOMACY_SUBJECT_TYPE_REQUEST_NOT_VALID: "以下の理由で[COUNTRY.GetName]から[SUBJECT_TYPE.GetName]化を要求できない：\n$WHY$"
  DIPLOMACY_TARGET_OF_IO: "[COUNTRY.GetName]は[international_organization|e]の標的である"
- DIPLOMACY_TARGET_OF_LOTS_OF_IOS: "[COUNTRY.GetName]は$NUM$の[international_organizations|e]の標的である"
- DIPLOMACY_TARGET_OF_COALITION: "[COUNTRY.GetName] is the target of a [coalition|e]"
  DIPLOMACY_TARGET_CANNOT_BE_SUBJUGATED: "[modifier|e]「$NAME$」により、[COUNTRY.GetLongName]を従属させることができない。"
  DIPLOMACY_ACTOR_CANNOT_BE_SUBJUGATED: "[modifier|e]「$NAME$」により、わが国は他国の従属国になることはできない。"
  # Vassal

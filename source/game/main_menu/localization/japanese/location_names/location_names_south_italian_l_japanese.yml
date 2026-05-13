@@ -55,7 +55,7 @@
  manfredonia.neapolitan_dialect: "Manfredónje"
  rotondo.south_italian_language: "San Giovanni Rotondo"
  rotondo.neapolitan_dialect: "Rutúnne"
- sansevero.south_italian_language: "San Severo"
+ sansevero.south_italian_language: "サンゼヴィーレ"
  sansevero.neapolitan_dialect: "Sanzëvírë"
  # Province 'otranto_province' (Terra d'Otranto) #
  # lecce.south_italian_language: "Lecce"
@@ -64,9 +64,9 @@
  brindisi.neapolitan_dialect: "Vrìnnise"
  francavilla.south_italian_language: "フランカイッダ"
  francavilla.neapolitan_dialect: "Francaìdda"
- gallipoliita.south_italian_language: "Gallipoli"
+ gallipoliita.south_italian_language: "カッディープリ"
  gallipoliita.neapolitan_dialect: "Caḍḍìpuli"
- martinafr.south_italian_language: "Martina Franca"
+ martinafr.south_italian_language: "マルテーネ"
  martinafr.neapolitan_dialect: "Marténe"
  # taranto.south_italian_language: "Taranto"
  taranto.neapolitan_dialect: "Tarde"
@@ -477,5 +477,6 @@
  # rovigo.south_italian_language: "Rovigo"
  # schio.south_italian_language: "Schio"
  # vicenza.south_italian_language: "Vicenza"
+ dubrovnik.south_italian_language: "ラグーザ"
  # Other #
  pontikokastro.south_italian_language: "ベルヴェデーレ"

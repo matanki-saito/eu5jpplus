@@ -45,7 +45,7 @@
  flavor_iro.32.a: "[target_character.GetNameWithNoTooltip]が引き続き宣教師を受け入れることを許可する。"
  flavor_iro.32.b: "これ以上の宣教師の受け入れを禁止する。"
  flavor_iro.33.title: "[target_character.GetNameWithNoTooltip]の改宗"
- flavor_iro.33.entry: "<Character> converts to Christianity from Missionaries"
+ flavor_iro.33.entry: "Character converts to Christianity from Missionaries"
  flavor_iro.33.desc: "[target_character.GetName]は宣教師たちと緊密な関係を保ってきたが、[target_character.GetHisHer]が突如として[ShowReligionName('lutheran')]へ改宗したことに、一部の首長は不意を突かれた。[target_character.GetNameWithNoTooltip]は依然として忠誠を保っているものの、その信仰の受け入れは[our_ruler.GetName]の側近のあいだで物議を醸し、[target_character.GetShortNameWithNoTooltip]に職を辞すよう強制すべきだと主張する者もいる。"
  flavor_iro.33.a: "[target_character.GetNameWithNoTooltip]が[ShowAreaNameWithNoTooltip('pennsylvania_area')]の統治を続けることを許可する。"
  flavor_iro.33.b: "[target_character.GetShortNameWithNoTooltip]に職を辞するよう強制する。"

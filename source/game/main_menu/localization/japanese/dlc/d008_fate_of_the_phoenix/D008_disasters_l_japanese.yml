@@ -27,7 +27,7 @@
  fate_of_the_phoenix.4.title: "$fate_of_the_phoenix.2.title$"
  fate_of_the_phoenix.4.desc: "以前は[GetCountry('TUR').GetAdjective]勢力の揺籃であった[target_location.GetName]が、帝国軍の手に落ちた。君侯国はかつて、この[target_location.GetRank.GetName]をその力と野心の源とし、貢納を得ていた。その陥落は[ShowRegionName('anatolia_region')]全土に明確な報せをもたらす。形勢は逆転し、[ROOT.GetCountry.GetFlavorRank]はもはや守勢に回ってはいないのだ。"
  fate_of_the_phoenix.4.a: "わが国こそ[ShowRegionNameWithNoTooltip('anatolia_region')]の支配者である！"
- unlocks_demand_beylik_tribute_disaster_action_tt: "この[disaster|e]の発生中、[action|e]「[ShowGenericActionName('D008_demand_beylik_tribute')]」が利用可能になる"
+ unlocks_demand_beylik_tribute_disaster_action_tt: "この[disaster|e]の発生中、[action|e]「[ShowGenericActionName('demand_beylik_tribute')]」が利用可能になる"
  fate_of_the_phoenix.5.title: "[loser.GetNameWithNoTooltip]に対する勝利"
  fate_of_the_phoenix.5.desc: "君侯国同士の抗争によって生じた混乱は、[loser.GetLongName]の台頭へとつながった。彼らは軍事力と巧みな外交によって、我らが[ROOT.GetCountry.GetFlavorRank]の独立に対する恒常的な脅威となっていたが、彼らに対する近年の勝利は、我々こそが$ROM$の先駆者であり、この激動の時代にあってなお獅子のごとく戦う存在であることを示した。この瞬間を転機とし、過去の衰退を覆す新たな時代の幕開けとしよう！"
  fate_of_the_phoenix.5.a: "流れは変わりつつある！"

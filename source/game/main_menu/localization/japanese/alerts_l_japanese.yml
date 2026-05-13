@@ -262,8 +262,6 @@
  ALERT_BEING_ANNEXED_DISLOYAL: "#T 併合されつつある#!\n我々の[overlord|e]$OVERLORD$がわが国の[annex|e]を開始した。\n\nしかし、我々が[disloyal_subject|e]であるあいだは併合は進行しない。併合されるとゲームオーバーとなる！\n\n[casus_belli|e]「[ShowCasusBelliName('cb_resist_annexation')]」によって宣戦布告が可能である！\n\n"
  ALERT_ANNEXING_DISLOYAL_SUBJECT_TITLE: "不忠の従属国を併合中"
  ALERT_ANNEXING_DISLOYAL_SUBJECT: "わが国は[subject|e]の[annex|e]中だが、相手国が[disloyal_subject|e]であるあいだは併合は進行しない。この場合、大量の資源を無駄にすることになる。\n$SUBJECTS$\n\n"
- ALERT_ANNEXING_STALLED_LOW_OPINION_TITLE: "Annexation Stalled: Low Opinion"
- ALERT_ANNEXING_STALLED_LOW_OPINION: "The following [subjects|e] have too low an [opinion|e] for [annexation|e] to progress:\n$SUBJECTS$\n\n"
  ALERT_HAS_BAD_ACTORS_TITLE: "影の勢力"
  ALERT_HAS_BAD_ACTORS: "現在、わが国に対して秘密裏に悪事を働く勢力がいる。これに対抗するため、防諜活動を試みるべきだろう！\n$INFO$\n\n"
  ALERT_HAS_BAD_ACTORS_ENTRY: "$WHAT|Y$：$HOW_MANY|Y$の勢力から"

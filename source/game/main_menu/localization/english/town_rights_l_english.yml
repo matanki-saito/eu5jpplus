@@ -152,7 +152,7 @@
  #Byzantine / Greek / Roman
 
  imperial_breadbasket_rights: "Imperial Breadbasket"
- imperial_breadbasket_rights_granary_tt: "Has a [ShowBuildingTypeName('granary')] at maximum level."
+ imperial_breadbasket_rights_granary_tt: "Has a [ShowBuildingTypeName('granary')] at level 5 or above"
  imperial_breadbasket_rights_desc: "This [location|e] has been entrusted with provisioning the wider realm, its granaries expanded to account for our ambitious plans. Grain flows inward and outward under imperial supervision, sustaining the citizens and army alike with abundance."
 
  constantinopolitan_silk_monopoly_rights: "Silk Monopoly of [ShowLocationNameWithNoTooltip('constantinople')]"

@@ -160,7 +160,7 @@
  AUTO_MODIFIER_DESC_ruler_has_all_traits: "わが国の[ruler|e]は就任歴が長く、さまざまな[ruler_traits|e]をもつ。"
  AUTO_MODIFIER_NAME_at_war_without_overlord: "[overlord|e]なしで[war|e]中"
  AUTO_MODIFIER_DESC_at_war_without_overlord: "わが国が現在参戦している[war|e]に、我々の[overlord|e]は参加していない。"
- AUTO_MODIFIER_NAME_d008_high_legitimacy: "「[ShowSituationName('rise_of_the_ottomans')]」で最強の君侯国に対して勝利を収めたため"
+ AUTO_MODIFIER_NAME_d008_high_legitimacy: "Due to our victory against the Strongest Beylik in the [ShowSituationName('rise_of_the_ottomans')]"
  AUTO_MODIFIER_NAME_below_half_fort_limit: "[fort_limit|e]の半分未満"
  AUTO_MODIFIER_DESC_below_half_fort_limit: "わが国の防衛網は、我々のような国家に求められる水準を大きく下回っている。"
  AUTO_MODIFIER_NAME_over_fort_limit: "[fort_limit|e]を超過"

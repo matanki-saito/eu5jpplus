@@ -11,7 +11,7 @@
  flavor_bav.2.b: "伝統を終わらせよう。"
  flavor_bav.2.c: "伝統は尊重されなければ。"
  flavor_bav.3.title: "[GetCountry('LBV').GetLongNameWithNoTooltip]"
- flavor_bav.3.entry: "LBV comes under Ludwigs Rule"
+ flavor_bav.3.entry: "$LBV$ comes under Ludwigs Rule"
  flavor_bav.3.desc: "ニーダーバイエルン公爵[target_cousin.GetName]が逝去した！ 彼はハンセン病を患っており、その死は予期されていたものの、我々一族ははまだ喪に服しており、彼の死後に[GetCountry('LBV').GetName]をどうするかを議論しなければならない。\n\n[target_ruler.GetName]は若き後継者の指導的役割を果たすように求められている。これを利用すれば、[target_ruler.GetNameWithNoTooltip]の悲願であるバイエルン再統一を目指すことができるかもしれない。"
  flavor_bav.3.a: "我々の望みに合わせた指導を。"
  flavor_bav.3.b: "直接併合してやろう！"

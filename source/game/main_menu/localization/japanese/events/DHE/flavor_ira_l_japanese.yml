@@ -40,7 +40,7 @@
  flavor_ira.6.a: "[target_character.GetName]は内閣に大いに役立つだろう。"
  flavor_ira.6.b: "[target_character.GetName]を雇う余裕はない。"
  flavor_ira.7.title: "[target_ruler.GetNameWithNoTooltip]の歴史"
- flavor_ira.7.entry: "Tārīkh-e 'Ālam-ārā-ye Ruler"
+ flavor_ira.7.entry: "Tārīkh-e 'Ālam-ārā-ye"
  flavor_ira.7.desc: "生涯を通じて[target_country.GetGovernment.GetAdjective]の官僚機構で仕官してきた[target_character.GetName]は、わが国の歴史を記した壮大な年代記を完成させた。その内容は、[target_country.GetFlavorRank]の建国から始まり、歴代の君主たちの治世を描いており、とりわけ[target_ruler.GetName]に焦点を当てている。年代記の後半部分では、[target_country.Custom('GetSeatOfPower')]に仕えた[target_character.GetLastNameWithNoTooltip]自身の豊かな経験が反映されている。"
  flavor_ira.7.a: "素晴らしい作品だ！"
  flavor_ira.8.title: "アン＝ナジャフ"

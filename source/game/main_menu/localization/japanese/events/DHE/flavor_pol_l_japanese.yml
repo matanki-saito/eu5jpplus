@@ -315,7 +315,7 @@
  flavor_pol.51.a: "つまらぬ権利をくれてやれ。"
  flavor_pol.51.b: "新たな権利は与えない。"
  flavor_pol.52.title: "[MOL_tag.GetNameWithNoTooltip]の忠誠の疑念"
- flavor_pol.52.entry: "$flavor_pol.52.title$"
+ flavor_pol.52.entry: "Dubious Loyalty in Moldavia"
  flavor_pol.52.desc: "我々の諜報員が再び、[MOL_tag.GetAdjective][MOL_tag.GetGovernment.GetRulerTitle]の異常な行動について報告してきた。[POL_disloyal_vassal.GetHeShe]は自らの安全を確保するため、国家に対する忠誠心を翻し、[MOL_tag.GetFlavorRank]と国境を接するあらゆる強国の属国となることを誓っている。この二枚舌の裏切り者には、わが国の強さ、そして彼を守る能力があることを再確認させる必要がある。"
  flavor_pol.52.a: "[POL_disloyal_vassal.GetHerHim]はサタンにすら忠誠を誓うだろう。"
  flavor_pol.52.a.entry: "We expect him to even swear fealty to Satan himself."

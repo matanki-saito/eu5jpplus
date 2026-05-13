@@ -85,6 +85,7 @@
  grant_a_triumph: "Grant a Triumph"
  grant_a_triumph_desc: "Successes ought to be celebrated. A capable leader of armies should be thus presented to the populace as a victor in a spectacular triumphal parade."
  grant_a_triumph_tt: "We have won a war in the last 5 years."
+ grant_a_triumph_triumphant_bonus_tt: "The chosen [character|e] will receive the [ShowTraitName('triumphant')] trait"
 
 
 

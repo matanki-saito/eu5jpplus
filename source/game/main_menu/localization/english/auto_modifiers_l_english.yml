@@ -101,6 +101,7 @@
  AUTO_MODIFIER_NAME_byz_ruler_religion_catholic: "[ruler|e] is [ShowReligionAdjective('catholic')]"
  AUTO_MODIFIER_NAME_byz_consort_religion_orthodox: "[consort|e] is [ShowReligionAdjective('orthodox')]"
  AUTO_MODIFIER_NAME_byz_consort_religion_catholic: "[consort|e] is [ShowReligionAdjective('catholic')]"
+ AUTO_MODIFIER_NAME_rom_capital_rome: "Roma Caput Mundi"
 
  AUTO_MODIFIER_NAME_byz_trading_romance_market: "[ShowLanguageFamilyName('romance_language_family')] [merchants|e] in [capital|e]'s [market|e]"
  AUTO_MODIFIER_DESC_byz_trading_romance_market: "[ShowLanguageFamilyName('romance_language_family')]-speaking [merchants|e] are trading in our [capital|e]'s [market|e], bringing foreign cultural influence."

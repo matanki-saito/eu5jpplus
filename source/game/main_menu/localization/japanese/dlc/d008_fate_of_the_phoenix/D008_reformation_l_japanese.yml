@@ -3,7 +3,7 @@
  contact_patriarch_of_constantinople_desc: "Dispatch Melanchthon to Constantinople bearing our Confession of Faith, opening a channel of dialogue with the [ShowReligionAdjective('orthodox')] Patriarchate."
  reformation.17.title: "[GetCharacter('reformer_philip_melanchton').GetLastNameWithNoTooltip]'s Letter to Constantinople"
  reformation.17.desc: "[melanchthon.GetName], the foremost theologian in our realm, has proposed a bold course: dispatching an envoy to the Patriarch of Constantinople bearing our Confession of Faith. While the [ShowReligionAdjective('orthodox')] and [ShowReligionAdjective('lutheran')] faiths remain divided on many matters, they share a common rejection of Papal supremacy. Perhaps the Patriarch would welcome an overture from fellow opponents of Rome."
- reformation.17.a: "Dispatch [melanchthon.GetLastNameWithNoTooltip] with our Confession of Faith."
+ reformation.17.a: "Dispatch [GetCharacter('reformer_philip_melanchton').GetLastNameWithNoTooltip] with our Confession of Faith."
  reformation.17.b: "This is not the moment for such overtures."
  reformation.17.historical_info: "Philipp Melanchthon (1497–1560), Luther's closest collaborator and author of the Augsburg Confession (1530), held a deep interest in the Eastern Church as a potential ally against Rome. His correspondence with Greek scholars laid the groundwork for later Lutheran overtures to Constantinople. In 1573, theologians from Tübingen sent a Greek translation of the Augsburg Confession to Patriarch Jeremias II, initiating one of the most sustained theological exchanges between Lutheranism and Orthodoxy in the Reformation era."
  reformation.18.title: "A Letter from the Lutheran Reformers"

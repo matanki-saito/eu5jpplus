@@ -2057,3 +2057,5 @@
  game_concept_country_personalities: "Country Personalities"
  game_concept_country_disposition: "Country Disposition"
  game_concept_country_dispositions: "Country Dispositions"
+ game_concept_pentarchy: "Pentarchy"
+ game_concept_pentarchy_desc: "The Pentarchy represents the traditional seats of power of [ShowReligionName('orthodox')]. Each of the [locations|e] that serve as a seat of the Pentarchy will give a different [modifier|e] to the [country|e] that owns it, and once a [country] owns all five seats those [modifiers] will be doubled."

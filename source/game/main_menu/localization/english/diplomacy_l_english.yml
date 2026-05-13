@@ -1131,6 +1131,7 @@
  ALREADY_RECEIVING_FLEET_RIGHTS: "@trigger_no![TARGET_COUNTRY.GetName] are already receiving fleet basing rights from us"
  NOT_RECEIVING_FLEET_RIGHTS: "@trigger_no![TARGET_COUNTRY.GetName] are not receiving fleet basing rights from us"
  NOT_AT_WAR_WITH: "@trigger_no! We are not at war with [TARGET_COUNTRY.GetName]"
+ NOT_CIVIL_WAR_WITH: "@trigger_no! This is a [civil_war|e] that we have with [TARGET_COUNTRY.GetName], and you can not surrender in those this way."
  PEACE_OFFER_PARTS_NOT_VALID: "@trigger_no! Parts of the offer are not valid"
  PEACE_OFFER_PARTS_NOT_EVER: "@trigger_no! [COUNTRY.GetName] does not negotiate a [peace_treaty|e]."
  NOT_AT_WAR_OR_REBELS: "@trigger_no! We are not at war and have no active rebels."

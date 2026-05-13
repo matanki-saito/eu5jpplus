@@ -13,7 +13,6 @@
  cesme.north_italian_language: "チェシュメ"
  chania.north_italian_language: "ラ・カネア"
  crikvenica.north_italian_language: "チルクェニッツァ"
- dubrovnik.north_italian_language: "ラグーザ"
  dukagjini.north_italian_language: "ドゥカジーニ"
  durres.north_italian_language: "デュラッツォ"
  edremit.north_italian_language: "アドラミッティオ"
@@ -124,7 +123,7 @@
  # nonantola.north_italian_language: "Nonantola"  # = south_italian_language
  ## Area 'liguria_area' (Liguria and Corsica) ##
  # Province 'levante_province' (Levante) #
- genoa.north_italian_language: "Zenova"
+ genoa.north_italian_language: "ジェノヴァ"
  genoa.ligurian_dialect: "Zêna"
  # lavagna.north_italian_language: "Lavagna"  # = south_italian_language
  lavagna.ligurian_dialect: "Lavàgna"
@@ -163,7 +162,7 @@
  # Province 'lodi_province' (Lodi) #
  lodi.north_italian_language: "Lòd"
  # Province 'mantua_province' (Mantua) #
- mantova.north_italian_language: "Màntua"
+ mantova.north_italian_language: "マントヴァ"
  # Province 'monza_province' (Monza) #
  monza.north_italian_language: "Monça"
  # Province 'pavia_province' (Pavia) #
@@ -183,7 +182,7 @@
  chiavenna.rhaetian_dialect: "Ciavëna"
  ## Area 'piemonte_area' (Piedmont) ##
  # Province 'turin_province' (Turin) #
- turin.north_italian_language: "Turin"
+ turin.north_italian_language: "トリノ"
  # turin.piedmontese_dialect: "Turin"  # = north_italian_language
  # Province 'acqui_province' (Acqui) #
  # acqui.north_italian_language: "Acqui"  # = south_italian_language
