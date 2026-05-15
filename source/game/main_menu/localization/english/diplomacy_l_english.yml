@@ -802,6 +802,7 @@
  DIPLOREASON_INTEREST_RATE_VS_BANK: "Interest Rate vs banks"
  DIPLOREASON_EXISTING_LOANS_FROM_COUNTRY: "Existing [loans|e] from country"
  DIPLOREASON_TOO_MANY_LOANS: "Too many [loans|e]"
+ DIPLOREASON_NUM_OF_LOANS: "Amount of [loans|e]"
  DIPLOREASON_CANT_AFFORD_INTEREST: "Cannot afford [interest|e]"
  DIPLOREASON_NEED_LOAN: "Need for a [loan|e]"
  DIPLOREASON_LOAN_IS_INSIGNIFICANT: "[loan|e] amount is insignificant to [TARGET_COUNTRY.GetName]"
