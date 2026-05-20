@@ -16,7 +16,7 @@
  flavor_vol.3.entry: "Regional Capital of Lviv"
  flavor_vol.3.desc: "[ShowAreaName('red_ruthenia_area')]の中心に位置する[target_location.GetName]は、わが[ROOT.GetCountry.GetFlavorRank]の中心地となるのにうってつけの[target_location.GetRank.GetName]である。ただ残念なことに、地元の住民にはそれを推し進めるための資金がない。[ShowEstatePrivilegeName('novi_fori')]から与えられる特権に我々の投資を加えれば、[target_location.GetNameWithNoTooltip]の魅力を高めることができるだろう。"
  flavor_vol.3.a: "[target_location.GetNameWithNoTooltip]は繁栄する。"
- flavor_vol.3.a.entry: "[ShowLocationNameWithNoTooltip('lviv')] will prosper."
+ flavor_vol.3.a.entry: "[ShowLocationNameWithNoTooltip('lviv')]は繁栄する。"
  flavor_vol.3.b: "金を無駄にする愚かな考えだ。"
  flavor_vol.3.c: "わが国の首都は新たな高みへと発展するだろう。"
  flavor_vol.4.title: "再び現れた年代記"

@@ -10,7 +10,7 @@
  flavor_cro.1001.desc: "わが国の従属下にある[GetCountry('CRO').GetName]からの使者が[ROOT.GetCountry.GetGovernment.GetCourtTitle]に到着し、[ShowAreaName('croatia_area')]と[ShowAreaName('slavonia_area')]のバンの職を統合すべきだと進言した。[GetCountry('TUR').GetAdjective]の脅威に直面するなか、指揮系統を一本化することで防備を固め、統治の負担も軽くできると主張している。"
  flavor_cro.1001.a: "国境地帯を一つにまとめれば、防備はいっそう強固になる。"
  flavor_cro.1001.b: "[ShowAreaNameWithNoTooltip('slavonia_area')]は、[GetCountry('HUN').GetAdjectiveWithNoTooltip]の[GetCountry('HUN').GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]のものだ。"
- flavor_cro.1001.b.entry: "[ShowAreaNameWithNoTooltip('slavonia_area')] belongs to the $HUN_ADJ$ $crown_estate$."
+ flavor_cro.1001.b.entry: "[ShowAreaNameWithNoTooltip('slavonia_area')]は、$HUN_ADJ$の$crown_estate$のものだ。"
  flavor_cro.1100.title: "[target_character.GetNameWithNoTooltip]の勢力"
  flavor_cro.1100.entry: "イヴァン・ネリピッチの勢力"
  flavor_cro.1100.desc: "[target_character.GetName]という有力者が、[ROOT.GetCountry.GetName]の政務にますます大きな影響力を持つようになっている。その本拠地で[target_character.GetNameWithNoTooltip]は多くの敵対者を排除し、地域政務に対する[GetCountry('HUN').GetAdjective]の[GetCountry('HUN').GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]の支配も弱めていた。これを有益なものとして受け入れる者も多いが、[GetCountry('HUN').GetNameWithNoTooltip]がいつ再びその権威を取り戻そうとするかわからないと恐れる者もいる。この状況を収めるため、[target_character.GetNameWithNoTooltip]が[GetCountry('HUN').GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]の権威を認めるのなら、その見返りとして[GetCountry('HUN').GetNameWithNoTooltip]もまた、[ROOT.GetCountry.GetNameWithNoTooltip]における彼の統治を認めるべきだという意見が出ている。"

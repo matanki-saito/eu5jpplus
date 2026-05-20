@@ -93,7 +93,7 @@
  flavor_vij.17.entry: "Vijayanagar, The City of Victory"
  flavor_vij.17.desc: "[target_character.GetName]と[target_character.GetHerHis]による[target_location.GetName]強化の取り組みにより、[target_location.GetRank.GetName]は多様な宗教の中心地となっただけでなく、多くの[ShowReligionAdjective('hindu')]学者が学ぶ場としての[target_location.GetRank.GetNameWithNoTooltip]としての地位も保っている。我々はこの取り組みをさらに支援できるかもしれない。"
  flavor_vij.17.a: "[target_location.GetNameWithNoTooltip]の名を$india$じゅうに知らしめよう！"
- flavor_vij.17.a.entry: "All of $india$ shall know of [ShowLocationNameWithNoTooltip('vijayanagar')]!"
+ flavor_vij.17.a.entry: "[ShowLocationNameWithNoTooltip('vijayanagar')]の名を$india$じゅうに知らしめよう！"
  flavor_vij.17.b: "こんなことで国を破産させるわけにはいかない。"
  flavor_vij.17.historical_info: "ヴィジャヤナガル、すなわち「勝利の都」は当時インドで最も人口が多く、最も名声ある都市だった。ハリハラとブッカ・ラヤによって建設されて以来、徐々にインド亜大陸のすべてのヒンドゥー教徒の中心地となった。ただし多くの建造物が多宗教的であり、単一宗教の都市というわけではなかった。16世紀にはイスラム教スルタン国の連合軍によって6ヵ月間、占領および略奪された。"
  flavor_vij.18.title: "[target_location.GetNameWithNoTooltip]の陥落"

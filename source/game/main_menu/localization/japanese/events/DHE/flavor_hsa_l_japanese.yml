@@ -30,7 +30,7 @@
  flavor_hsa.5.entry: "$flavor_hsa.5.title$"
  flavor_hsa.5.desc: "多くの商人が活動するわが同盟は、長らく繁栄を続けている。交易拠点を通じて、[ShowContinentName('europe')]全土に商業活動と富が自由に行き交っている。我々は分権的な体制をとっているが、外交的地位をさらに揺るぎないものとするため、団結の象徴として共通の印章を採用することを決定した。"
  flavor_hsa.5.a: "[target_location.GetNameWithNoTooltip]の印章を採用しよう。"
- flavor_hsa.5.a.entry: "We will adopt [ShowLocationNameWithNoTooltip('lubeck')]'s seal."
+ flavor_hsa.5.a.entry: "[ShowLocationNameWithNoTooltip('lubeck')]の印章を採用しよう。"
  flavor_hsa.5.b: "[target_location2.GetNameWithNoTooltip]の商人たちを同盟の代表としよう。"
  flavor_hsa.5.b.entry: "The merchants of the location will represent us."
  flavor_hsa.5.c: "[target_location3.GetNameWithNoTooltip]はどうだろうか？"

@@ -4,7 +4,7 @@
  flavor_kni_pap.1.desc: "[crusade_target.GetLongName]が主導する大規模な海賊行為は、[ROOT.GetCountry.GetReligion.GetGroup.GetAdjective]国家の海運に甚大な損害を与えており、これは誠に遺憾である。キリスト教徒が卑しい[crusade_target.GetReligion.GetAdjective]海賊に屈することなど、許されてはならない！ この苦難に終止符を打つために、[crusade_target.GetNameWithNoTooltip]に対する十字軍を呼びかけ、やつらの蛮行を根絶すべきである。"
  flavor_kni_pap.1.historical_info: "スミルナ十字軍は1343年から1351年にかけて2度おこなわれた。第1回スミルナ十字軍では、キリスト教徒側はスミルナのアクロポリスを制圧できなかったが、城塞と港を占領した。この勝利を祝うため、キリスト教徒側は市内でミサを挙行したが、その最中にテュルク勢が侵入し、祈りを捧げていた指導者たちを虐殺した。その後、キリスト教徒側の窮状を打破するため、第2回スミルナ十字軍が編制された。"
  flavor_kni_pap.1.a: "誰ひとりとして[ROOT.GetCountry.GetReligion.GetGroup.GetAdjectiveWithNoTooltip]の海運を脅かすことは許されない！"
- flavor_kni_pap.1.a.entry: "No one shall threaten [ShowReligionGroupAdjectiveWithNoTooltip('christian')] shipping!"
+ flavor_kni_pap.1.a.entry: "誰ひとりとして[ShowReligionGroupAdjectiveWithNoTooltip('christian')]の海運を脅かすことは許されない！"
  flavor_kni_pap.1.b: "なんということだ。"
  flavor_kni_pap.2.title: "$flavor_kni_pap.1.title$"
  flavor_kni_pap.2.desc: "[papal_state.GetLongName]から使節が到着し、[crusade_target.GetName]に対する十字軍への参加を呼びかけている。数十年ものあいだ、[crusade_target.GetReligion.GetAdjective]海賊は[ShowProvinceDefinitionName('aegean_sea_province')]の悩みの種となっており、最近では[papal_state.GetReligion.GetGroup.GetAdjective]国家の船舶を襲う頻度が増している。やつらを懲らしめる時が来た。"

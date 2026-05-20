@@ -75,7 +75,7 @@
  flavor_pap.15.entry: "$flavor_pap.15.title$"
  flavor_pap.15.desc: "古く、朽ち果てたカッペッラ・マッジョーレは取り壊され、その跡地には壮麗なシスティーナ礼拝堂が建てられた。この新しい礼拝堂は、旧約聖書に記されたソロモン神殿と同じ大きさとなっている。外観は装飾を排し、建物は3階建てで、アーチ型の天井と、両側に2つずつ計6つの高いアーチ型の窓がある。その簡素さのなかにも美しさがあるが、現代最高の芸術家たちによるフレスコ画があれば、その美しさはさらに増すだろう。"
  flavor_pap.15.a: "[sandro_boticelli_scope.GetNameWithNoTooltip]に依頼する。"
- flavor_pap.15.a.entry: "Hire $Botticelli$."
+ flavor_pap.15.a.entry: "$Botticelli$を雇おう。"
  flavor_pap.15.b: "[ghirlandaio_scope.GetNameWithNoTooltip]に依頼する。"
  flavor_pap.15.b.entry: "Hire Ghirlandaio."
  flavor_pap.15.c: "[pietro_perugino_scope.GetNameWithNoTooltip]に依頼する。"

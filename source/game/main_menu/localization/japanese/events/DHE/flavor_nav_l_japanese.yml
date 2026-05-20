@@ -21,7 +21,7 @@
  flavor_nav.40.entry: "$flavor_nav.40.title$"
  flavor_nav.40.desc: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]が日々の政務に関与することが一般的になったため、「#italic ナバラのフエロ#!」の写本が[ROOT.GetCountry.GetGovernment.GetRulerTitle]のために作られることとなった。\n\nこの写本には最高品質の革表紙が用いられ美しく装飾され、王国で最も熟練した写本師によって書き写される。文章は伝統に従い[spanish_language.GetName]で書かれ、随所に興味深い[basque_language.GetName]の語句が散りばめられる。\n\nしかしながら、我らが[ROOT.GetCountry.GetGovernment.GetRulerTitle]は[french_language.GetName]で話すため、ナバラ語のロマンス方言は話せないのが玉にきずだ。"
  flavor_nav.40.a: "[french_language.GetNameWithNoTooltip]への翻訳を追加せよ。"
- flavor_nav.40.a.entry: "A translation to [ShowLanguageNameWithNoTooltip('french_language')] will be added."
+ flavor_nav.40.a.entry: "[ShowLanguageNameWithNoTooltip('french_language')]への翻訳を追加せよ。"
  flavor_nav.40.b: "我らが統治者もこの土地の言葉を学ぶべきか。"
  flavor_nav.40.c: "バスク語が最も話されているのであれば、バスク語を公用語にすべきである。"
  flavor_nav.40.historical_info: "ナバラ王国の人口の大部分はバスク語（#italic Lingua Navarrorum#!）を母語としていたと思われるが、オック語の衰退に伴い、王国の公式文書のほとんどはナバラ・アラゴン語（#italic Ydiomate Navarre Terrae#!、#italic Ydiomate Navarre#!または#italic Lengoage de Navarra#!）で書かれた。\n\nさらに、1234年のシャンパーニュ家に始まる最初のフランス王朝による統治が始まって以来、フランス系の方言も広く用いられた。"

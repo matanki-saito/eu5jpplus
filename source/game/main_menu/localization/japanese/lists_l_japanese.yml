@@ -206,7 +206,7 @@
  BUILDING_LOCATION_SORT_BY_NUMBER: "[buildings|e]の数で並べ替え"
  BUILDING_LOCATION_SORT_BY_MARKET_ACCESS: "[market_access|e]で並べ替え"
  BUILDING_LOCATION_SORT_BY_FOOD_OUTPUT: "[food|e]生産量で並べ替え"
- BUILDING_LOCATION_SORT_BY_PEASANTS_AVAILABLE: "Sort by the total number of [ShowPopTypeName('peasants')] available on each [location|e]"
+ BUILDING_LOCATION_SORT_BY_PEASANTS_AVAILABLE: "各[location|e]の就業可能な[ShowPopTypeName('peasants')]の総数で並べ替え"
  REBELS_SORT_BY_NAME: "[rebel|e]の名前で並べ替え"
  REBELS_SORT_BY_CATEGORY: "カテゴリーの名前で並べ替え"
  REBELS_SORT_BY_SIZE: "[rebels|e]の規模で並べ替え"

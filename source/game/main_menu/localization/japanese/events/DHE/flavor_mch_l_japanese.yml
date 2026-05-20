@@ -85,7 +85,7 @@
  flavor_mch.16.desc: "我々は$china$の神聖なる皇帝に連なる系譜の、ひとつの王朝にすぎない。我々以前のさまざまな王朝は、巨大な[GetInternationalOrganization('middle_kingdom').GetName]をまとめあげるために効率的な官僚機構を確立してきた。ならば、我々もそのような政策を採用しない理由はない。このような行動は、我々をさらに[ShowSocietyDirectionName('sinicized')]の道へと進ませるだろうが、継続性を保ち、庶民の目から見た我々の権威を強化することにつながるだろう。"
  flavor_mch.16.a: "その政策を採用しよう。"
  flavor_mch.16.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('tribes_estate')]に配慮しよう。"
- flavor_mch.16.b.entry: "Favor the $tribes_estate$."
+ flavor_mch.16.b.entry: "$tribes_estate$を優遇."
  unlock_chinese_language_reforms: "この選択により、[government_reform|e]「[ShowGovernmentReformName('three_departments_system')]」がアンロックされる"
  MCH_conditional_benefit: "わが国が[government_reforms|e]「[ShowGovernmentReformName('three_departments_system')]」を採用しない場合、「[ShowEstatePrivilegeName('mch_tribal_favor')]」が追加の恩恵をもたらす"
  flavor_mch.17.title: "$QNG$の宣言"

@@ -574,7 +574,7 @@
  revolution_actions_price: "「$the_revolution$」の主要アクションコスト"
  wotr_action_price: "「$war_of_the_roses$」の主要アクションコスト"
  peasants_war_actions_price: "「$peasants_war$」の主要アクションコスト"
- rise_of_the_szlachta_actions_price: "$rise_of_the_szlachta$ Main Actions Price"
+ rise_of_the_szlachta_actions_price: "「$rise_of_the_szlachta$」の主要アクションコスト"
  religious_turmoil_actions_price: "「$religious_turmoil$」の主要アクションコスト"
  change_government_type_price: "$game_concept_government_type$のコストを変更"
  provoke_rebels_price: "「$provoke_rebels$」の主要アクションコスト"

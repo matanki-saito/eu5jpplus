@@ -132,4 +132,4 @@
  patronize_orthodox_monastery_desc: "[ShowBuildingTypeName('orthodox_monastery')]を後援することで我々の献身を再確認し、地域の宗教活動を活性化する。こういった寛大な支援は地域の生活の質を向上させ、[actor.GetLongName]はいまなお真の信仰の守護者であると、信者たちに再認識させるだろう。"
  reform_armed_forces_tt: "わが国が[army|e]または[navy|e]を改革し、過去数世紀の衰退を覆すことができる"
  has_not_completed_all_six_reforms_tt: "わが国が利用可能な#Y 6#!つの改革すべてを完了していない"
- patronize_orth_monastery_tt: "選択された[location|e]に[modifier|e]「[ShowModifier('D008_patronize_orthodox_monastery_modifier')]」が付与され、多くの[ShowReligionAdjective('orthodox')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]変化する"
+ patronize_orth_monastery_tt: "The selected [location|e] will receive the [ShowModifier('patronize_orthodox_monastery_modifier')] [modifier|e] while many of our [ShowReligionAdjective('orthodox')] [pops|e] will receive [ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%] [pop_satisfaction|e]"

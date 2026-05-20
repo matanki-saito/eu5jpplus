@@ -420,8 +420,9 @@
  NON_ENGAGED_SPEED_TITLE: "Regiments trying to engage based on their [combat_speed_with_icon|e]:"
  EMPTY_FLANK_TT_TEXT: "This [section|e] is empty."
 
- LOC_CORE_TT_HEADER: "The following [countries|e] have a [core|e] in this [location|e]:" 
+ LOC_CORE_TT_HEADER: "The following [countries|e] have a [core|e] in this [location|e]:"
  LOC_CORE_TT_LIST: "[COUNTRY.GetLongNameWithFlag]"
+ LOC_CORE_TT_EXPIRES: "Expires on $DATE|V$"
  
  CONTINUE_AS_PREFIX: "Continue as "
  CONTINUE_AS_SUFFIX: ""

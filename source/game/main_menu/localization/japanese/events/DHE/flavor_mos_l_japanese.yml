@@ -547,7 +547,7 @@
  flavor_mos.63.c: "虐げられた女性たちに給金を出そう。"
  flavor_mos.63.historical_info: "ノヴォデヴィチ女子修道院は、スモレンスク地域の征服を記念してヴァシーリー3世によって設立された。この修道院は、都市への西方進入路を守るため、要塞兼宗教施設としての役割も与えられていた。修道院はまた、修道生活を余儀なくされたロシア王家の女性たちに住居を提供した。"
  flavor_mos.64.title: "[ShowLocationNameWithNoTooltip('moscow')]大砲工廠"
- flavor_mos.64.entry: "Moscow Artillery Yard"
+ flavor_mos.64.entry: "モスクワ大砲工廠"
  flavor_mos.64.desc: "戦場における大砲技術の進歩に伴い、軍に戦争遂行のための豊富な軍需品を供給することが重要になっている。我々は技術者たちに、大砲の生産に特化した専用施設の設立を課し、[ShowLocationName('moscow')]を技術革新の中心地、そして信頼できる供給元へと変貌させるべきである。"
  flavor_mos.64.a: "爆発的な発想だ。"
  flavor_mos.64.b: "手間は軍事訓練に費やしたほうがいい。"

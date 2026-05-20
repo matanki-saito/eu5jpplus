@@ -29,7 +29,7 @@
  flavor_ayu.5.a: "新時代の始まりだ！"
  flavor_ayu.5.b: "未来の可能性ではなく、いまあるものに集中しよう。"
  flavor_ayu.6.title: "[ShowBuildingTypeNameWithNoTooltip('wat_chaiwatthanaram_temple_building')]"
- flavor_ayu.6.entry: "Wat Chaiwatthanaram"
+ flavor_ayu.6.entry: "ワット・チャイワッタナラーム"
  flavor_ayu.6.desc: "我々は敬虔な[ROOT.GetCountry.GetReligion.GetAdjective][ROOT.GetCountry.GetFlavorRank]であり、その模範を明確に示したいと考えた[target_ruler.GetName]は、[target_location.GetName]での新しい寺院の創設を支援し、[ROOT.GetCountry.GetGovernment.GetAdjective]の権威の象徴として扱おうと考えている。そこでは[ROOT.GetCountry.GetGovernment.GetRulerTitle]が儀式をおこない、それによって己の信仰とのつながりを確固たるものとするのだ。"
  flavor_ayu.6.historical_info: "1630年、プラサートトーン王は母を偲んで、治世最初の寺院ワット・チャイワッタナーラームを建立した。寺院の名前は「長き統治と栄光の時代の寺院」を意味し、クメール様式で設計され、王室の宗教儀式や王子・王女の火葬に使われた。黒と金で彩色された120体の仏坐像が外壁を飾り、仏像を安置した8つのチェディ型の仏塔が中央の基壇を取り囲んでいる。これらの仏塔の外壁は、仏陀の生涯を描いた12枚のレリーフで飾られ、内側には絵が描かれている。寺院は仏教の世界観を象徴しており、中央の塔は世界軸を、その周りの4つの小さな塔は四方の大陸を表している。"
  flavor_ayu.6.a: "[ShowBuildingTypeNameWithNoTooltip('wat_chaiwatthanaram_temple_building')]が我らの道を照らすだろう。"

@@ -19,7 +19,7 @@
  diminutive: "Diminutive"
  genitive: "Genitive"
  alternative: "Alternative"
- patronym: "Patronym"
+ patronym: "父称"
  name_aaron: "アーロン"
  name_aaron.arabic_language: "ハールーン"
  name_aaron.coptic_language: "アロン"
@@ -28,10 +28,10 @@
  name_aaron.turkish_language: "ハルン"
  name_aaron.greek_language: "Aarón" # Ἀαρών
  name_abd_al_qadir: "アブド・アル＝カーディル"
- name_abd_al_qadir.arabic_language: "'Abd al-Qādir"
+ name_abd_al_qadir.arabic_language: "アブド・アル＝カーディル"
  name_abd_al_qadir.maghrebi_dialect: "アブデルカデル"
  name_abderrahmane: "アブド・アッラフマーン"
- name_abderrahmane.arabic_language: "'Abd al-Raḥmān"
+ name_abderrahmane.arabic_language: "アブド・アッラフマーン"
  name_abdulaziz: "アブドゥルズィズ"
  name_abdulaziz.arabic_language: "アブド・アル＝アジーズ"
  name_abdulaziz.malay_language: "アブドゥル・アズィズ"
@@ -58,7 +58,7 @@
  name_abel.latvian_dialect: "エーベルス"
  name_abel.hungarian_language: "アーベル"
  name_abel.occitan_language: "アベル"
- name_abel.greek_language: "Ábel"
+ name_abel.greek_language: "アーベル"
  name_abelard: "アベラール"
  name_abelard.latin_language: "アベラルドゥス"
  name_abelard.south_italian_language: "アベラールド"
@@ -126,7 +126,7 @@
  name_absalon.swedish_dialect.diminutive: "アクセレン"
  name_absalon.west_slavic_language: "アブシャロム"
  name_abu: "アブ"
- name_abu.arabic_language: "'Abū"
+ name_abu.arabic_language: "アブ"
  name_abu_al_hasan: "アブ・アル＝ハサン"
  name_abu_al_hasan.arabic_language: "アブ・ウル＝ハサン"
  name_abu_al_hasan.south_arabic_language: "アブ・ウル＝ハサン"
@@ -317,7 +317,7 @@
  name_ahmad.south_arabic_language: "アフマド"
  name_ahmad.turkish_language: "アフメト"
  name_ai: "愛" #愛
- name_ai.mandarin_language: "Ài"
+ name_ai.mandarin_language: "愛"
  name_ai.southern_mandarin_dialect: "愛"
  name_ai.shu_language: "愛"
  name_ai.xiang_language: "愛"
@@ -329,7 +329,7 @@
  name_ai.kejia_language: "愛"
  name_ai.jin_language: "愛"
  name_ai4: "艾" #艾
- name_ai4.mandarin_language: "Ài"
+ name_ai4.mandarin_language: "愛"
  name_ai4.southern_mandarin_dialect: "艾"
  name_ai4.shu_language: "艾"
  name_ai4.xiang_language: "艾"
@@ -370,10 +370,10 @@
  name_akakios.georgian_language: "アカキ"
  name_akakios.greek_language: "Akákios" # Ἀκάκιος
  name_al_din: "アルディーン"
- name_al_din.arabic_language: "al-Dīn"
- name_al_din.arabic_language.alternative: "ud-Dīn"
+ name_al_din.arabic_language: "アルディーン"
+ name_al_din.arabic_language.alternative: "アドディーン"
  name_ala: "アラ"
- name_ala.arabic_language: "'Alā'"
+ name_ala.arabic_language: "アラ"
  name_ala.name_al_din.turkish_language: "アラエディン"
  name_alaman: "アラマン"
  name_alaman.south_italian_language: "アラマンノ"
@@ -604,10 +604,10 @@
  name_algoth: "アルゴス"
  name_algoth.scandinavian_language: "アルゴット"
  name_ali: "アリー"
- name_ali.arabic_language: "'Alī"
+ name_ali.arabic_language: "アリー"
  name_ali.aymara_language: "アリ"
  name_ali_shir: "アリー・シール"
- name_ali_shir.arabic_language: "'Alī-Shir"
+ name_ali_shir.arabic_language: "アリー・シール"
  name_alice: "アリス"
  name_alice.albanian_language: "アリーサ"
  name_alice.arabic_language: "アリヤス" # ألياس
@@ -647,10 +647,10 @@
  name_alikhan.azeri_dialect: "アリハン"
  name_alikhan.kipchak_language: "アリハン" #Kyrgyz
  name_alim: "アリーム"
- name_alim.arabic_language: "'Alīm"
+ name_alim.arabic_language: "アリーム"
  name_almodis: "アルモディス"
  name_almos: "アールモシュ"
- name_almos.hungarian_language: "Álmos"
+ name_almos.hungarian_language: "アールモシュ"
  name_almudena: "アルムデナ" # Spanish
  name_alodia: "アロディア"
  name_alodia.arabic_language: "アルワ"
@@ -723,7 +723,7 @@
  name_amabilis.french_language: "エマーブル"
  name_amabilis.occitan_language: "アマブル"
  name_amabilis.greek_language: "Amábilis"
- name_amabilis.spanish_language: "Amable"
+ name_amabilis.spanish_language: "アマブル"
  name_amadea: "アマデア" # Latin & Spanish
  name_amadea.south_italian_language: "アメデア"
  name_amadea.greek_language: "Amadéa"
@@ -785,7 +785,7 @@
  name_amelia.french_language: "アメリー"
  name_amelia.german_language: "アマリア"
  name_amelia.hungarian_language: "アマリア"
- name_amelia.central_german_dialect: "Amalie"
+ name_amelia.central_german_dialect: "アマリエ"
  name_amelia.south_italian_language: "アマリア"
  name_amelia.dalmatian_dialect: "アミルジャ"
  name_amelia.spanish_language: "アマリア"
@@ -794,19 +794,19 @@
  name_amin: "アミン"
  name_amin.turkish_language: "エミン"
  name_amina: "アミーナ"
- name_amina.arabic_language: "'Amīna"
+ name_amina.arabic_language: "アミーナ"
  name_amina.oghuric_language: "アミナ"
  name_amina.turkish_language: "エミネ"
  name_amina.azeri_dialect: "アミナ"
  name_amir: "アミール"
- name_amir.arabic_language: "'Āmir"
+ name_amir.arabic_language: "アミール"
  name_amicia: "アミシア"
  name_amicia.french_language: "アミシー"
  name_amos: "アモス"
  name_amos.greek_language: "Amós"
  name_amuna: "アムナ"
  name_an: "安" #安
- name_an.mandarin_language: "Ān"
+ name_an.mandarin_language: "安"
  name_an.southern_mandarin_dialect: "安"
  name_an.shu_language: "安"
  name_an.xiang_language: "安"
@@ -836,7 +836,7 @@
  name_anatoly.belarusian_dialect: "アナトリィ" # Анатоль Belarusian
  name_anatoly.catalan_dialect: "アナトリ"
  name_anatoly.east_slavic_language: "アナトリィ" # Russian
- name_anatoly.french_language: "Anatole"
+ name_anatoly.french_language: "アナトール"
  name_anatoly.greek_language: "アナトリオス" # Russian
  name_anatoly.latin_language: "アナトリウス"
  name_anatoly.novgorodian_dialect: "アナトーレ"
@@ -917,7 +917,7 @@
  name_angel.french_language: "アンジュ"
  name_angel.greek_language: "アンジェロス"
  name_angel.latin_language: "アンジェルス"
- name_angel.median_dialect: "Angiolo"
+ name_angel.median_dialect: "アンジョロ"
  name_angel.occitan_language: "アンジェル"
  name_angel.romanian_language: "アンゲル"
  name_angel.south_italian_language: "アンジェロ"
@@ -925,7 +925,7 @@
  name_angel.tuscan_dialect: "アニョーロ"
  name_angel.south_italian_language.diminutive: "アンジェリーノ"
  name_angel.sardinian_dialect: "アンゲル"
- name_angel.sicilian_dialect: "Àncilu"
+ name_angel.sicilian_dialect: "アンチル"
  name_angel.spanish_language: "アンヘル"
  name_angela: "アンジェラ" # English, Latin, North Italian & South Italian
  name_angela.diminutive: "Angelina"
@@ -954,7 +954,7 @@
  name_angus.gaelic_language.genitive: "アオンフサ"
  name_angus.greek_language: "Ángos"
  name_anna: "アンナ" # Catalan, Greek, Latin, Hungarian, North Italian, South Italian & West Slavic
- name_anna.albanian_language: "Ana"
+ name_anna.albanian_language: "アナ"
  name_anna.arabic_language: "ハンナ"
  name_anna.arpitan_dialect: "アナ"
  name_anna.basque_language: "アナ"
@@ -1036,8 +1036,8 @@
  name_anthony.portuguese_language: "アントニオ"
  name_anthony.portuguese_language.diminutive: "アントン"
  name_anthony.scandinavian_language: "アントン"
- name_anthony.venetian_dialect: "Toni"
- name_anthony.emilian_dialect: "Antòni"
+ name_anthony.venetian_dialect: "トニ"
+ name_anthony.emilian_dialect: "アントニ"
  name_anthony.neapolitan_dialect: "Ntonno"
  name_anthony.south_italian_language: "アントニオ" # Tuscan
  name_anthony.south_italian_language.diminutive: "アントニオット"
@@ -1058,7 +1058,7 @@
  name_antiocos.greek_language: "Antíochos" # Ἀντίοχος
  name_antonia: "アントニア"
  name_antonia.bulgarian_language: "ドンカ"
- name_antonia.church_slavonic_language: "Donka"
+ name_antonia.church_slavonic_language: "ドンカ"
  name_antonia.french_language: "アントワネット"
  name_antonia.galician_dialect: "アントニア"
  name_antonia.greek_language: "アントニア"
@@ -1206,19 +1206,19 @@
  name_artemis.portuguese_language: "アルテミス"
  name_artemis.south_italian_language: "アルテミサ"
  name_artemis.spanish_language: "アルテミサ"
- name_artemis.greek_language: "Ártemis"
+ name_artemis.greek_language: "アルテミス"
  name_artemios: "アルテミオス"
  name_artemios.greek_language: "アルテミオス"
  name_artemios.south_italian_language: "アルテミオ"
  name_artemios.spanish_language: "アルテミ"
  name_art: "アール"
  name_art.brythonic_language: "アース"
- name_art.greek_language: "Arthoúros" # short form of Arthur; see name_arthur
+ name_art.greek_language: "アルトゥロス" # short form of Arthur; see name_arthur
  name_arthur: "アーサー"
  name_arthur.baltic_language: "アルトゥラス"
  name_arthur.brythonic_language: "アルシール"
  name_arthur.breton_dialect: "アルズール"
- name_arthur.catalan_dialect: "Artur"
+ name_arthur.catalan_dialect: "アルトゥール"
  name_arthur.english_language: "アーサー"
  name_arthur.finnish_language: "アルト"
  name_arthur.french_language: "アルトゥール"
@@ -1236,7 +1236,7 @@
  name_asen: "アセン"
  name_asen.greek_language: "アサン" # Ασάν
  name_asiya: "アーシヤ"
- name_asiya.arabic_language: "'Āsiyā"
+ name_asiya.arabic_language: "アーシヤ"
  name_asiya.maghrebi_dialect: "アッシア"
  name_asli: "アスリ"
  name_asli.turkish_language: "アスル"
@@ -1314,9 +1314,9 @@
  name_augustine.spanish_language: "アグスティン"
  name_augustine.croatian_dialect: "ディーノ"
  name_augustine.slovene_dialect: "アヴグシュティン"
- name_augustus: "Augustus"
+ name_augustus: "オーガスタス"
  name_augustus.greek_language: "Augoustos" # Αύγουστος
- name_augustus.latin_language: "Augustus"
+ name_augustus.latin_language: "オーガスタス"
  name_aulus: "アウルス"
  name_aulus.greek_language: "Aulos"
  name_aura: "アウラ"
@@ -1339,14 +1339,14 @@
  name_aurelian.french_language: "Aurélien"
  name_aurelian.greek_language: "Aurelianos" # Αυρηλιανός
  name_aurelian.latin_language: "Aurelianus"
- name_aurelian.portuguese_language: "Aureliano"
- name_aurelian.spanish_language: "Aureliano"
+ name_aurelian.portuguese_language: "アウレリアーノ"
+ name_aurelian.spanish_language: "アウレリアーノ"
  name_aurelius: "アウレリウス"
  name_aurelius.french_language: "Aurèle"
  name_aurelius.greek_language: "アヴリリオス" # Αυρήλιος
- name_aurelius.latin_language: "Aurelius"
+ name_aurelius.latin_language: "アウレリウス"
  name_aurelius.portuguese_language: "Aurélio"
- name_aurelius.south_italian_language: "Aurelio"
+ name_aurelius.south_italian_language: "アウレリオ"
  name_aurelius.spanish_language: "アウレリオ"
  name_aurembiaix: "オーレンビア"
  name_auriga: "アウリーガ" # Basque, English, Latin, North Italian, Portuguese, Scandinavian, South Italian & Spanish
@@ -1376,7 +1376,7 @@
  name_aydin: "アイディン"
  name_aydin.turkish_language: "アイディン"
  name_ayneh: "アイネ"
- name_ayneh.arabic_language: "Āyneh"
+ name_ayneh.arabic_language: "アイネ"
  name_ayneh.kipchak_language: "アイナ"
  name_ayneh.turkish_language: "アイナ"
  name_ayneh.turkmen_dialect: "アイナ"
@@ -1402,7 +1402,7 @@
  name_bahador.turkish_language: "バハドゥル"
  name_bahador.turkmen_dialect: "バティル"
  name_bai: "白" #白
- name_bai.mandarin_language: "Bái"
+ name_bai.mandarin_language: "白"
  name_bai.southern_mandarin_dialect: "白"
  name_bai.shu_language: "白"
  name_bai.xiang_language: "白"
@@ -1415,7 +1415,7 @@
  name_bai.kejia_language: "白"
  name_bai.jin_language: "白"
  name_bai3: "百" #百
- name_bai3.mandarin_language: "Bǎi"
+ name_bai3.mandarin_language: "百"
  name_bai3.southern_mandarin_dialect: "百"
  name_bai3.shu_language: "百"
  name_bai3.xiang_language: "百"
@@ -1480,7 +1480,7 @@
  name_balthazar.west_slavic_language: "バルタザール" # Polish
  name_balzana: "バルザーナ" # North Italian & South Italian
  name_bao: "宝" #宝
- name_bao.mandarin_language: "Bǎo"
+ name_bao.mandarin_language: "宝"
  name_bao.xiang_language: "宝"
  name_bao.yue_language: "宝"
  name_bao.min_language: "宝"
@@ -1488,12 +1488,12 @@
  name_bao.kejia_language: "宝"
  name_bao.jin_language: "宝"
  name_bao1: "苞" #苞
- name_bao1.mandarin_language: "Bāo"
+ name_bao1.mandarin_language: "苞"
  name_bao1.yue_language: "苞"
  name_bao1.min_language: "苞"
  name_bao1.wu_language: "苞"
  name_bao12: "包" #包
- name_bao12.mandarin_language: "Bāo"
+ name_bao12.mandarin_language: "苞"
  name_bao12.southern_mandarin_dialect: "包"
  name_bao12.xiang_language: "包"
  name_bao12.gan_language: "包"
@@ -1504,7 +1504,7 @@
  name_bao12.kejia_language: "包"
  name_bao12.jin_language: "包"
  name_bao4: "鮑" #鮑
- name_bao4.mandarin_language: "Bào"
+ name_bao4.mandarin_language: "鮑"
  name_bao4.yue_language: "鮑"
  name_bao4.min_language: "鮑"
  name_bao4.kejia_language: "鮑"
@@ -1536,7 +1536,7 @@
  name_barisone: "バリソン"
  name_barisone.english_language: "バリソン"
  name_barlaam: "バーラーム"
- name_barlaam.greek_language: "Barlaam" # Βαρλαάμ, important Byzantine monastic figure
+ name_barlaam.greek_language: "バーラーム" # Βαρλαάμ, important Byzantine monastic figure
  name_barnabas: "バルナバス" # Dutch, Latin, Low German, Upper German
  name_barnabas.catalan_dialect: "ベルナベ"
  name_barnabas.east_slavic_language: "ヴァルナーヴァ" # Варнава
@@ -1645,7 +1645,7 @@
  name_beg: "ベグ"
  name_beg.georgian_language: "ベカ"
  name_bela: "ベーラ" #https://en.wikipedia.org/wiki/B%C3%A9la_(given_name)
- name_bela.hungarian_language: "Béla"
+ name_bela.hungarian_language: "ベーラ"
  name_belforte: "ベルフォート"
  name_belisarius: "ベリサリウス"
  name_belisarius.bulgarian_language: "ヴェリザル"
@@ -1691,7 +1691,7 @@
  name_benedict.scandinavian_language: "ベンクト"
  name_benedict.south_italian_language: "ベネデット"
  name_benedict.south_italian_language.diminutive: "ベニート"
- name_benedict.south_italian_language.alternative.diminutive: "Bino"
+ name_benedict.south_italian_language.alternative.diminutive: "ビーノ"
  name_benedict.sardinian_dialect: "ベネイットゥ"
  name_benedict.sicilian_dialect: "ビニディットゥ"
  name_benedict.sicilian_dialect.diminutive: "ベニトゥ"
@@ -1759,7 +1759,7 @@
  name_berengaria.occitan_language: "ベレンゲラ" # Also in Catalan
  name_berengaria.portuguese_language: "ベレンガリア"
  name_berengaria.spanish_language: "ベレンゲラ"
- name_berengaria.greek_language: "Berengária"
+ name_berengaria.greek_language: "ベレンガリア"
  name_berenice: "ベレニス"
  name_berenice.greek_language: "Bereníki"
  name_bermund: "ベルムンド" # English & French
@@ -1851,7 +1851,7 @@
  name_biljana: "ビリャナ"
  name_biljana.bulgarian_language: "ビリヤナ"
  name_biao: "標" #標
- name_biao.mandarin_language: "Biāo"
+ name_biao.mandarin_language: "標"
  name_biao.yue_language: "標"
  name_biao.min_language: "標"
  name_biao.kejia_language: "標"
@@ -1909,7 +1909,7 @@
  name_bo1.kejia_language: "波"
  name_bo1.jin_language: "波"
  name_bo2: "薄" #薄
- name_bo2.mandarin_language: "Bó"
+ name_bo2.mandarin_language: "薄"
  name_bo2.xiang_language: "薄"
  name_bo2.gan_language: "薄"
  name_bo2.ping_language: "薄"
@@ -2144,7 +2144,7 @@
  name_brunissende.south_italian_language: "ブルニセンダ"
  name_brunissende.spanish_language: "ブルニセンダ"
  name_bruno: "ブルーノ" # English, French, German, Latin & Spanish
- name_bruno.catalan_dialect: "Bruno"
+ name_bruno.catalan_dialect: "ブルーノ"
  name_bruno.occitan_language: "ブルノン"
  name_bruno.greek_language: "Broúnos"
  name_brunor: "ブルノール"
@@ -2174,7 +2174,7 @@
  name_caesar.basque_language: "セザール"
  name_caesar.catalan_dialect: "セザル"
  name_caesar.french_language: "シーザー"
- name_caesar.latin_language: "Cæsar"
+ name_caesar.latin_language: "カエサル"
  name_caesar.occitan_language: "セザリ"
  name_caesar.portuguese_language: "シーザー"
  name_caesar.south_italian_language: "チェザレ"
@@ -2192,7 +2192,7 @@
  name_cahir: "カヒル"
  name_cahir.gaelic_language: "カヒール"
  name_cai: "蔡" #蔡
- name_cai.mandarin_language: "Cài"
+ name_cai.mandarin_language: "蔡"
  name_cai.southern_mandarin_dialect: "蔡"
  name_cai.xiang_language: "蔡"
  name_cai.gan_language: "蔡"
@@ -2252,7 +2252,7 @@
  name_canute.scandinavian_language: "クヌト"
  name_canute.spanish_language: "カヌト"
  name_cao: "曹" #曹
- name_cao.mandarin_language: "Cáo"
+ name_cao.mandarin_language: "曹"
  name_cao.yue_language: "曹"
  name_cao.min_language: "曹"
  name_cao.wu_language: "曹"
@@ -2274,17 +2274,17 @@
  name_carmen_male: "カルメン"
  name_carmen_male.spanish_language: "カルミネオ"
  name_carnaval: "カルナヴァル" # Dutch, French, Occitan (+Catalan), Portuguese & Spanish
- name_carnaval.english_language: "Carnival"
+ name_carnaval.english_language: "カーニヴァル"
  name_carnaval.german_language: "カーネヴァル"
  name_carnaval.latin_language: "カルネヴァラリウス"
  name_carnaval.north_italian_language: "カルレヴァリオ"
  name_carnaval.venetian_dialect: "カルラヴァラ"
  name_carnaval.south_italian_language: "カルネヴァル"
  name_carnaval.tuscan_dialect: "カルナシャーレ"
- name_carnaval.sicilian_dialect: "Carnivalariu"
+ name_carnaval.sicilian_dialect: "カルニヴァラリウ"
  name_caroline: "キャロライン"
  name_caroline.catalan_dialect: "カロリナ"
- name_caroline.occitan_language: "Carolina"
+ name_caroline.occitan_language: "カロリナ"
  name_caroline.greek_language: "Karolína"
  name_caroline.serbo_croatian_language: "カロリナ"
  name_caroline.spanish_language: "カロリナ"
@@ -2391,8 +2391,8 @@
  name_cecile: "セシール"
  name_cecile.basque_language: "セシリア"
  name_cecile.catalan_dialect: "セシリア"
- name_cecile.dutch_dialect: "Cilla"
- name_cecile.dutch_dialect.alternative: "Silke"
+ name_cecile.dutch_dialect: "シラ"
+ name_cecile.dutch_dialect.alternative: "ジルケ"
  name_cecile.french_language: "セシル"
  name_cecile.frisian_language: "セシリア"
  name_cecile.galician_dialect: "セシリア"
@@ -2429,7 +2429,7 @@
  name_chandrenos: "ハンドレノス"
  name_chandrenos.greek_language: "Chandrinós" # Greco-Byzantine surname used as given name
  name_chang: "昌" #昌
- name_chang.mandarin_language: "Chāng"
+ name_chang.mandarin_language: "昌"
  name_chang.shu_language: "昌"
  name_chang.yue_language: "昌"
  name_chang.min_language: "昌"
@@ -2437,7 +2437,7 @@
  name_chang.kejia_language: "昌"
  name_chang.jin_language: "昌"
  name_chang2: "常" #常
- name_chang2.mandarin_language: "Cháng"
+ name_chang2.mandarin_language: "常"
  name_chang2.shu_language: "常"
  name_chang2.xiang_language: "常"
  name_chang2.gan_language: "常"
@@ -2448,7 +2448,7 @@
  name_chang2.kejia_language: "常"
  name_chang2.jin_language: "常"
  name_chang4: "唱" #唱
- name_chang4.mandarin_language: "Chàng"
+ name_chang4.mandarin_language: "唱"
  name_chang4.shu_language: "唱"
  name_chang4.xiang_language: "唱"
  name_chang4.gan_language: "唱"
@@ -2458,19 +2458,19 @@
  name_chang4.kejia_language: "唱"
  name_chang4.jin_language: "唱"
  name_chao: "超" #超
- name_chao.mandarin_language: "Chāo"
+ name_chao.mandarin_language: "超"
  name_chao.yue_language: "超"
  name_chao.min_language: "超"
  name_chao.wu_language: "超"
  name_chao.kejia_language: "超"
  name_chao2: "巣" #巢
- name_chao2.mandarin_language: "Cháo"
+ name_chao2.mandarin_language: "巣"
  name_chao2.yue_language: "巣"
  name_chao2.min_language: "巣"
  name_chao2.wu_language: "巣"
  name_chao2.kejia_language: "巣"
  name_chun: "春" #春
- name_chun.mandarin_language: "Chūn"
+ name_chun.mandarin_language: "春"
  name_chun.southern_mandarin_dialect: "春"
  name_chun.shu_language: "春"
  name_chun.xiang_language: "春"
@@ -2502,8 +2502,8 @@
  name_charles.romanian_language: "カロル"
  name_charles.scandinavian_language: "カール"
  name_charles.scottish_gaelic_dialect: "チェアロ"
- name_charles.lombard_dialect: "Carl"
- name_charles.piedmontese_dialect: "Carl"
+ name_charles.lombard_dialect: "カール"
+ name_charles.piedmontese_dialect: "カール"
  name_charles.south_italian_language: "カルロ"
  name_charles.south_italian_language.diminutive: "カーロット"
  name_charles.sardinian_dialect: "カラル"
@@ -2519,7 +2519,7 @@
  name_charlotte.spanish_language: "カルロタ"
  name_charlotte.greek_language: "Charlótta"
  name_chen: "陳" #陳
- name_chen.mandarin_language: "Chén"
+ name_chen.mandarin_language: "成"
  name_chen.shu_language: "陳"
  name_chen.xiang_language: "陳"
  name_chen.gan_language: "陳"
@@ -2529,7 +2529,7 @@
  name_chen.kejia_language: "陳"
  name_chen.jin_language: "陳"
  name_chen2: "辰" #辰
- name_chen2.mandarin_language: "Chén"
+ name_chen2.mandarin_language: "成"
  name_chen2.shu_language: "辰"
  name_chen2.xiang_language: "辰"
  name_chen2.gan_language: "辰"
@@ -2540,7 +2540,7 @@
  name_chen2.kejia_language: "辰"
  name_chen2.jin_language: "辰"
  name_cheng: "成" #成
- name_cheng.mandarin_language: "Chéng"
+ name_cheng.mandarin_language: "誠"
  name_cheng.southern_mandarin_dialect: "成"
  name_cheng.shu_language: "成"
  name_cheng.xiang_language: "成"
@@ -2552,7 +2552,7 @@
  name_cheng.kejia_language: "成"
  name_cheng.jin_language: "成"
  name_cheng2: "程" #程
- name_cheng2.mandarin_language: "Chéng"
+ name_cheng2.mandarin_language: "誠"
  name_cheng2.southern_mandarin_dialect: "程"
  name_cheng2.shu_language: "程"
  name_cheng2.xiang_language: "程"
@@ -2563,7 +2563,7 @@
  name_cheng2.wu_language: "程"
  name_cheng2.jin_language: "程"
  name_cheng22: "誠" #誠
- name_cheng22.mandarin_language: "Chéng"
+ name_cheng22.mandarin_language: "誠"
  name_cheng22.yue_language: "誠"
  name_cheng22.min_language: "誠"
  name_cheng22.wu_language: "誠"
@@ -2621,11 +2621,11 @@
  name_christine.serbo_croatian_language: "クリスティーナ"
  name_christine.spanish_language: "クリスティーナ"
  name_christopher: "クリストファー"
- name_christopher.albanian_language: "Kristofor"
+ name_christopher.albanian_language: "クリストフォル"
  name_christopher.arpitan_dialect: "クレトッフル"
  name_christopher.bulgarian_language: "フリスト"
  name_christopher.catalan_dialect: "クリストフォ"
- name_christopher.church_slavonic_language: "Hristo"
+ name_christopher.church_slavonic_language: "フリスト"
  name_christopher.dutch_dialect: "クリストッフェル"
  name_christopher.finnish_language: "リスト"
  name_christopher.french_language: "クリストフ"
@@ -2645,7 +2645,7 @@
  name_chrysogonos: "クリソゴノス"
  name_chrysogonos.latin_language: "クリソゴヌス"
  name_chrysogonos.south_italian_language: "クリソゴノ"
- name_chrysogonos.greek_language: "Chrysógonos" # Χρυσόγονος
+ name_chrysogonos.greek_language: "クリソゴノス" # Χρυσόγονος
  name_cianghella: "チャンゲッラ"
  name_cillian: "キリアン"
  name_cillian.greek_language: "Killiános"
@@ -2740,13 +2740,13 @@
  name_commodus.greek_language: "Kommodos" # Κόμμοδος
  name_commodus.latin_language: "Commodus"
  name_cong: "聡" #聰
- name_cong.mandarin_language: "Cōng"
+ name_cong.mandarin_language: "聡"
  name_cong.yue_language: "聡"
  name_cong.min_language: "聡"
  name_cong.wu_language: "聡"
  name_cong.kejia_language: "聡"
  name_cong2: "叢" #叢
- name_cong2.mandarin_language: "Cóng"
+ name_cong2.mandarin_language: "俊"
  name_cong2.yue_language: "叢"
  name_cong2.min_language: "叢"
  name_cong2.wu_language: "叢"
@@ -2917,7 +2917,7 @@
  name_crescentius.sicilian_dialect: "クレシェンツィウ"
  name_cubitosa: "クビトーザ"
  name_cui: "崔" #崔
- name_cui.mandarin_language: "Cuī"
+ name_cui.mandarin_language: "崔"
  name_cui.yue_language: "崔"
  name_cui.min_language: "崔"
  name_cui.kejia_language: "崔"
@@ -2968,7 +2968,7 @@
  name_cyrus.spanish_language: "シロ"
  name_cyrus.greek_language: "Kýros"
  name_da: "達" #達
- name_da.mandarin_language: "Dá"
+ name_da.mandarin_language: "達"
  name_da.xiang_language: "達"
  name_da.gan_language: "達"
  name_da.yue_language: "達"
@@ -2977,7 +2977,7 @@
  name_da.kejia_language: "達"
  name_da.jin_language: "達"
  name_da4: "大" #大
- name_da4.mandarin_language: "Dà"
+ name_da4.mandarin_language: "大"
  name_da4.southern_mandarin_dialect: "大"
  name_da4.shu_language: "大"
  name_da4.xiang_language: "大"
@@ -2992,7 +2992,7 @@
  name_dag.english_language: "デイ"
  name_dag.german_language: "タグ"
  name_dai: "戴" #戴
- name_dai.mandarin_language: "Dài"
+ name_dai.mandarin_language: "戴"
  name_dai.yue_language: "戴"
  name_dai.min_language: "戴"
  name_dai.wu_language: "戴"
@@ -3019,7 +3019,7 @@
  name_damasus.greek_language: "Dámasos"
  name_damian: "ダミアン" # English & Occitan
  name_damian.bulgarian_language: "ダミャン"
- name_damian.church_slavonic_language: "Damyan"
+ name_damian.church_slavonic_language: "ダミャン"
  name_damian.arpitan_dialect: "ダミアン"
  name_damian.catalan_dialect: "ダミア"
  name_damian.french_language: "ダミエン"
@@ -3033,7 +3033,7 @@
  name_damascus: "ダマスカス"
  name_damascus.mongolian_language: "ディミス"
  name_damascus.persian_language: "デマシュク"
- name_damascus.greek_language: "Damaskós"
+ name_damascus.greek_language: "ダマスコス"
  name_daphne: "ダフネ" #Dutch, English, Greek
  name_daphne.albanian_language: "ダフィナ"
  name_daphne.bulgarian_language: "ダフィナ"
@@ -3041,7 +3041,7 @@
  name_daphne.hebrew_language: "ダフナ"
  name_daphne.north_italian_language: "ダフネ"
  name_daphne.portuguese_language: "ダフネ"
- name_daphne.south_italian_language.diminutive: "Dafne"
+ name_daphne.south_italian_language.diminutive: "ダフネ"
  name_daphne.spanish_language: "ダフネ"
  name_daphne.turkish_language: "デフネ"
  name_daphne.greek_language: "Dáphni" # Δάφνη
@@ -3082,7 +3082,7 @@
  name_daria.serbo_croatian_language: "ダリヤ"
  name_daria.spanish_language: "ダリア"
  name_daria.ruthenian_language: "ダリア"
- name_daria.greek_language: "Daría"
+ name_daria.greek_language: "ダリア"
  name_darina: "ダリナ"
  name_darina.serbo_croatian_language: "ダリンカ"
  name_darya: "ダーリャ" # دریا
@@ -3104,7 +3104,7 @@
  name_david.arabic_language: "ダワッド"
  name_david.brythonic_language: "ダフィッド"
  name_david.brythonic_language.diminutive: "デヴィ"
- name_david.catalan_dialect: "David"
+ name_david.catalan_dialect: "ダヴィ"
  name_david.east_slavic_language: "デイヴィッド"
  name_david.english_language.diminutive: "デイヴィｰ"
  name_david.georgian_language: "ダヴィト"
@@ -3124,7 +3124,7 @@
  name_david.west_slavic_language: "ダヴィド"
  name_davor: "ダヴォル"
  name_de: "徳" #德
- name_de.mandarin_language: "Dé"
+ name_de.mandarin_language: "徳"
  name_de.xiang_language: "徳"
  name_de.ping_language: "徳"
  name_de.yue_language: "徳"
@@ -3134,9 +3134,9 @@
  name_de.jin_language: "徳"
  name_decimus: "デキムス"
  name_decimus.greek_language: "Dékimos"
- name_decius: "Decius"
+ name_decius: "デキウス"
  name_decius.greek_language: "Dekios" # Δέκιος
- name_decius.latin_language: "Decius"
+ name_decius.latin_language: "デキウス"
  name_dejan: "デヤン"
  name_dejana: "デヤナ"
  name_delfina: "デルフィナ" # North Italian, Occitan (+Catalan), Portuguese, South Italian & Spanish
@@ -3164,7 +3164,7 @@
  name_demetrius.dalmatian_dialect: "ディミトリ"
  name_demetrius.spanish_language: "デメトリオ"
  name_deng: "鄧" #鄧
- name_deng.mandarin_language: "Dèng"
+ name_deng.mandarin_language: "鄧"
  name_deng.southern_mandarin_dialect: "鄧"
  name_deng.shu_language: "鄧"
  name_deng.xiang_language: "鄧"
@@ -3261,7 +3261,7 @@
  name_dinadanus.south_italian_language: "ディナダノ"
  name_dinadanus.spanish_language: "ディナダノ"
  name_ding: "丁" #丁
- name_ding.mandarin_language: "Dīng"
+ name_ding.mandarin_language: "丁"
  name_ding.southern_mandarin_dialect: "丁"
  name_ding.shu_language: "丁"
  name_ding.xiang_language: "丁"
@@ -3273,7 +3273,7 @@
  name_ding.kejia_language: "丁"
  name_ding.jin_language: "丁"
  name_ding4: "定" #定
- name_ding4.mandarin_language: "Dìng"
+ name_ding4.mandarin_language: "婷"
  name_ding4.shu_language: "定"
  name_ding4.xiang_language: "定"
  name_ding4.gan_language: "定"
@@ -3364,7 +3364,7 @@
  name_donato.south_italian_language.diminutive: "ドナテッロ"
  name_donato.greek_language: "Donátos"
  name_dong: "東" #東
- name_dong.mandarin_language: "Dōng"
+ name_dong.mandarin_language: "東"
  name_dong.xiang_language: "東"
  name_dong.gan_language: "東"
  name_dong.yue_language: "東"
@@ -3373,7 +3373,7 @@
  name_dong.kejia_language: "東"
  name_dong.jin_language: "東"
  name_dong3: "董" #董
- name_dong3.mandarin_language: "Dǒng"
+ name_dong3.mandarin_language: "董"
  name_dong3.xiang_language: "董"
  name_dong3.gan_language: "董"
  name_dong3.yue_language: "董"
@@ -3381,7 +3381,7 @@
  name_dong3.wu_language: "董"
  name_dong3.kejia_language: "董"
  name_dong4: "棟" #棟
- name_dong4.mandarin_language: "Dòng"
+ name_dong4.mandarin_language: "唐"
  name_dong4.yue_language: "棟"
  name_dong4.min_language: "棟"
  name_dong4.wu_language: "棟"
@@ -3456,9 +3456,9 @@
  name_dragutin: "ドラグティン"
  name_dreux: "ドリュー"
  name_drzislav: "ドルジスラヴ"
- name_drzislav.croatian_dialect: "Držislav"
+ name_drzislav.croatian_dialect: "ドルジスラヴ"
  name_du: "玉" #玉
- name_du.mandarin_language: "Dù"
+ name_du.mandarin_language: "玉"
  name_du.southern_mandarin_dialect: "玉"
  name_du.gan_language: "玉"
  name_du.yue_language: "玉"
@@ -3468,7 +3468,7 @@
  name_du.kejia_language: "玉"
  name_du.jin_language: "玉"
  name_duan: "段" #段
- name_duan.mandarin_language: "Duàn"
+ name_duan.mandarin_language: "段"
  name_duan.yue_language: "段"
  name_duan.min_language: "段"
  name_duan.kejia_language: "段"
@@ -3496,7 +3496,7 @@
  name_duran.french_language: "ドゥラン"
  name_duran.south_italian_language: "ドゥランテ"
  name_dusan: "ドゥシャン"
- name_dusan.serbo_croatian_language: "Dušan"
+ name_dusan.serbo_croatian_language: "ドゥシャン"
  name_dusana: "ドゥシャナ"
  name_dusana.serbo_croatian_language: "ドゥシャンカ"
  name_dusana.west_slavic_language: "ドゥシャナ"
@@ -3831,7 +3831,7 @@
  name_epifanio.serbo_croatian_language: "エピファニエ"
  name_epifanio.west_slavic_language: "エピファニウス"
  name_er: "兒" #兒
- name_er.mandarin_language: "Ér"
+ name_er.mandarin_language: "兒"
  name_er.xiang_language: "兒"
  name_er.gan_language: "兒"
  name_er.yue_language: "兒"
@@ -3894,7 +3894,7 @@
  name_ernest.hungarian_language: "エルノー"
  name_ernest.spanish_language: "エルネスト"
  name_ertugrul: "エルトゥルル"
- name_ertugrul.turkish_language: "Ertuğrul"
+ name_ertugrul.turkish_language: "エルトゥルル"
  name_erwin: "アーウィン"
  name_eschivat: "エシヴァト"
  name_eschivat.occitan_language: "エスキヴァト" # Also in Catalan
@@ -4102,7 +4102,7 @@
  name_faly.gaelic_language: "フェイル"
  name_faly.gaelic_language.genitive: "フェイル"
  name_fan: "范" #范
- name_fan.mandarin_language: "Fàn"
+ name_fan.mandarin_language: "方"
  name_fan.southern_mandarin_dialect: "范"
  name_fan.xiang_language: "范"
  name_fan.gan_language: "范"
@@ -4113,7 +4113,7 @@
  name_fan.kejia_language: "范"
  name_fan.jin_language: "范"
  name_fang: "芳" #芳
- name_fang.mandarin_language: "Fāng"
+ name_fang.mandarin_language: "芳"
  name_fang.southern_mandarin_dialect: "芳"
  name_fang.shu_language: "芳"
  name_fang.xiang_language: "芳"
@@ -4125,7 +4125,7 @@
  name_fang.kejia_language: "芳"
  name_fang.jin_language: "芳"
  name_fang1: "方" #方
- name_fang1.mandarin_language: "Fāng"
+ name_fang1.mandarin_language: "芳"
  name_fang1.southern_mandarin_dialect: "方"
  name_fang1.shu_language: "方"
  name_fang1.xiang_language: "方"
@@ -4195,13 +4195,13 @@
  name_feltrino.english_language: "フェルトリアン"
  name_feltrino.latin_language: "フェルトレンスス"
  name_fen: "芬" #芬
- name_fen.mandarin_language: "Fēn"
+ name_fen.mandarin_language: "順"
  name_fen.yue_language: "芬"
  name_fen.min_language: "芬"
  name_fen.wu_language: "芬"
  name_fen.kejia_language: "芬"
  name_feng: "馮" #馮
- name_feng.mandarin_language: "Féng"
+ name_feng.mandarin_language: "馮"
  name_feng.yue_language: "馮"
  name_feng.min_language: "馮"
  name_feng.wu_language: "馮"
@@ -4259,7 +4259,7 @@
  name_flavia.greek_language: "Phlabía"
  name_flavius: "フラウィウス"
  name_flavius.greek_language: "Flavios" # Φλάβιος
- name_flavius.latin_language: "Flavius"
+ name_flavius.latin_language: "フラウィウス"
  name_flavius.north_italian_language: "フラヴィオ"
  name_flavius.portuguese_language: "Flávio"
  name_flavius.romanian_language: "フラヴィウ"
@@ -4362,11 +4362,11 @@
  name_francis.romanian_language: "フランチシュク"
  name_francis.serbo_croatian_language: "フランヨ"
  name_francis.slovene_dialect: "フランツ"
- name_francis.venetian_dialect: "Francesco"
+ name_francis.venetian_dialect: "フランチェスコ"
  name_francis.venetian_dialect.diminutive: "Franceschin"
  name_francis.piedmontese_dialect: "Fransèis"
  name_francis.rhaetian_dialect: "Francesch"
- name_francis.neapolitan_dialect: "Francesco"
+ name_francis.neapolitan_dialect: "フランチェスコ"
  name_francis.neapolitan_dialect.diminutive: "Ciccio"
  name_francis.south_italian_language: "フランチェスコ"
  name_francis.south_italian_language.diminutive: "フランチェスキーノ"
@@ -4412,7 +4412,7 @@
  name_frederica: "Frederica"
  name_frederica.french_language: " Frédérique"
  name_frederica.german_language: "Friederike"
- name_frederica.german_language.diminutive: "Frieda"
+ name_frederica.german_language.diminutive: "フリーダ"
  name_frederica.scandinavian_language: "Frederikke"
  name_frederica.spanish_language: "Federica"
  name_frederica.swedish_dialect: "Fredrika"
@@ -4433,27 +4433,27 @@
  name_froila.spanish_language: "フロイラン"
  name_frusardolo: "フルサルドロ"
  name_fu: "富" #富
- name_fu.mandarin_language: "Fù"
+ name_fu.mandarin_language: "胡"
  name_fu.gan_language: "富"
  name_fu.yue_language: "富"
  name_fu.min_language: "富"
  name_fu.wu_language: "富"
  name_fu.kejia_language: "富"
  name_fu2: "符" #符
- name_fu2.mandarin_language: "Fú"
+ name_fu2.mandarin_language: "胡"
  name_fu2.yue_language: "符"
  name_fu2.min_language: "符"
  name_fu2.wu_language: "符"
  name_fu2.kejia_language: "符"
  name_fu21: "福" #福
- name_fu21.mandarin_language: "Fú"
+ name_fu21.mandarin_language: "胡"
  name_fu21.yue_language: "福"
  name_fu21.min_language: "福"
  name_fu21.wu_language: "福"
  name_fu21.kejia_language: "福"
  name_fu21.jin_language: "福"
  name_fu22: "服" #服
- name_fu22.mandarin_language: "Fú"
+ name_fu22.mandarin_language: "胡"
  name_fu22.xiang_language: "服"
  name_fu22.gan_language: "服"
  name_fu22.yue_language: "服"
@@ -4462,14 +4462,14 @@
  name_fu22.kejia_language: "服"
  name_fu22.jin_language: "服"
  name_fu3: "甫" #甫
- name_fu3.mandarin_language: "Fǔ"
+ name_fu3.mandarin_language: "甫"
  name_fu3.xiang_language: "甫"
  name_fu3.yue_language: "甫"
  name_fu3.min_language: "甫"
  name_fu3.wu_language: "甫"
  name_fu3.kejia_language: "甫"
  name_fu4: "傅" #傅
- name_fu4.mandarin_language: "Fù"
+ name_fu4.mandarin_language: "胡"
  name_fu4.yue_language: "傅"
  name_fu4.min_language: "傅"
  name_fu4.wu_language: "傅"
@@ -4544,11 +4544,11 @@
  name_galehaut.south_italian_language.diminutive: "ロット"
  name_galehaut.sardinian_dialect: "ガリオトゥ"
  name_galehaut.sicilian_dialect: "ガリオトゥ"
- name_galerius: "Galerius"
+ name_galerius: "ガレリウス"
  name_galerius.greek_language: "Galerios" # Γαλέριος
- name_galerius.latin_language: "Galerius"
+ name_galerius.latin_language: "ガレリウス"
  name_galib: "ガリブ"
- name_galib.arabic_language: "Ġālib"
+ name_galib.arabic_language: "ガリブ"
  name_galileo: "ガリレオ"
  name_galileo.south_italian_language: "ガリレオ"
  name_galina: "ガリーナ"
@@ -4562,7 +4562,7 @@
  name_gallienus.greek_language: "Gallienos" # Γαλλιηνός
  name_gallienus.latin_language: "Gallienus"
  name_gang: "剛" #剛
- name_gang.mandarin_language: "Gāng"
+ name_gang.mandarin_language: "簡"
  name_gang.xiang_language: "剛"
  name_gang.gan_language: "剛"
  name_gang.yue_language: "剛"
@@ -4571,7 +4571,7 @@
  name_gang.kejia_language: "剛"
  name_gang.jin_language: "剛"
  name_gao: "高" #高
- name_gao.mandarin_language: "Gāo"
+ name_gao.mandarin_language: "高"
  name_gao.xiang_language: "高"
  name_gao.gan_language: "高"
  name_gao.yue_language: "高"
@@ -4583,7 +4583,7 @@
  name_garcia.basque_language: "ガルツィア"
  name_garcia.catalan_dialect: "ガルシア"
  name_garcia.galician_dialect: "ガルシア"
- name_garcia.occitan_language: "Garsia"
+ name_garcia.occitan_language: "ガルシア"
  name_garcia.spanish_language: "ガルシア"
  name_garcia.spanish_language.diminutive: "ガルシ"
  name_garcilaso: "ガルシラソ"
@@ -4680,7 +4680,7 @@
  name_george.serbian_dialect: "ジュラジ"
  name_george.slovene_dialect: "ユリイ"
  name_george.slovak_dialect: "イェルグシュ"
- name_george.venetian_dialect: "Zorzi"
+ name_george.venetian_dialect: "ゾルジ"
  name_george.ligurian_dialect: "Zorzo"
  name_george.rhaetian_dialect: "Jorg"
  name_george.south_italian_language: "ジョルジョ"
@@ -4779,7 +4779,7 @@
  name_geta.greek_language: "Getas" # Γέτας
  name_geta.latin_language: "Geta"
  name_geza: "ゲーザ"
- name_geza.hungarian_language: "Géza"
+ name_geza.hungarian_language: "ゲーザ"
  name_ghidda: "ギッダ"
  name_ghixia: "ギシア"
  name_ghisello: "ギセロ"
@@ -4807,11 +4807,11 @@
  name_giles.french_language.diminutive: "ジヨン"
  name_giles.galician_dialect: "シル"
  name_giles.greek_language: "アイギディオス" # Αιγίδιος
- name_giles.latin_language: "Ægidius"
+ name_giles.latin_language: "アイギディウス"
  name_giles.north_italian_language: "ジィリオ"
  name_giles.ligurian_dialect: "エジディオ"
  name_giles.venetian_dialect: "ジロ"
- name_giles.occitan_language: "Geli"
+ name_giles.occitan_language: "ジェリ"
  name_giles.portuguese_language: "ギル"
  name_giles.slovene_dialect: "エギディイ"
  name_giles.south_italian_language: "エジディオ"
@@ -4881,11 +4881,11 @@
  name_gombald.portuguese_language: "ゴンバルド"
  name_gombald.spanish_language: "ゴンバルド"
  name_gong: "龔" #龔
- name_gong.mandarin_language: "Gōng"
+ name_gong.mandarin_language: "江"
  name_gong.yue_language: "龔"
  name_gong.min_language: "龔"
  name_gong1: "公" #公
- name_gong1.mandarin_language: "Gōng"
+ name_gong1.mandarin_language: "江"
  name_gong1.southern_mandarin_dialect: "公"
  name_gong1.xiang_language: "公"
  name_gong1.gan_language: "公"
@@ -4934,7 +4934,7 @@
  name_gratian.french_language: "Gratien"
  name_gratian.greek_language: "Gratianos" # Γρατιανός
  name_gratian.latin_language: "Gratianus"
- name_gratian.spanish_language: "Graciano"
+ name_gratian.spanish_language: "グラシアーノ"
  name_grato: "グラト" # North Italian, South Italian & Spanish
  name_grato.latin_language: "グラトゥス"
  name_grato.south_italian_language.alternative: "グラトーネ"
@@ -4971,7 +4971,7 @@
  name_griffith.brythonic_language: "グリフィズ"
  name_griffith.latin_language: "グリフィヌス"
  name_gu: "顧" #顧
- name_gu.mandarin_language: "Gù"
+ name_gu.mandarin_language: "顧"
  name_gu.xiang_language: "顧"
  name_gu.gan_language: "顧"
  name_gu.yue_language: "顧"
@@ -4981,7 +4981,7 @@
  name_gu.jin_language: "顧"
  name_guadalupe: "グアダルーペ" # Portuguese & Spanish
  name_guang: "光" #光
- name_guang.mandarin_language: "Guāng"
+ name_guang.mandarin_language: "光"
  name_guang.southern_mandarin_dialect: "光"
  name_guang.xiang_language: "光"
  name_guang.gan_language: "光"
@@ -5004,7 +5004,7 @@
  name_gudula.greek_language: "Goudoúla"
  name_guerrino: "ゲリーノ"
  name_gui: "桂" #桂
- name_gui.mandarin_language: "Guì"
+ name_gui.mandarin_language: "桂"
  name_gui.southern_mandarin_dialect: "桂"
  name_gui.shu_language: "桂"
  name_gui.xiang_language: "桂"
@@ -5043,14 +5043,14 @@
  name_guntrude: "グントゥルード"
  name_guntrude.spanish_language: "ゴントロド"
  name_guo: "郭" #郭
- name_guo.mandarin_language: "Guō"
+ name_guo.mandarin_language: "郭"
  name_guo.shu_language: "郭"
  name_guo.yue_language: "郭"
  name_guo.min_language: "郭"
  name_guo.wu_language: "郭"
  name_guo.kejia_language: "郭"
  name_guo2: "国" #国
- name_guo2.mandarin_language: "Guó"
+ name_guo2.mandarin_language: "国"
  name_guo2.southern_mandarin_dialect: "国"
  name_guo2.shu_language: "国"
  name_guo2.xiang_language: "国"
@@ -5078,7 +5078,7 @@
  name_hafiz.alternative: "ハフィズ"
  name_hafiz.turkish_language: "ハフィズ"
  name_hai: "海" #海
- name_hai.mandarin_language: "Hǎi"
+ name_hai.mandarin_language: "海"
  name_hai.xiang_language: "海"
  name_hai.gan_language: "海"
  name_hai.ping_language: "海"
@@ -5109,7 +5109,7 @@
  name_halsten.scandinavian_language: "ハルスタイン"
  name_hamid: "ハミド"
  name_han2: "韓" #韓
- name_han2.mandarin_language: "Hán"
+ name_han2.mandarin_language: "涵"
  name_han2.xiang_language: "韓"
  name_han2.gan_language: "韓"
  name_han2.yue_language: "韓"
@@ -5118,14 +5118,14 @@
  name_han2.kejia_language: "韓"
  name_han2.jin_language: "韓"
  name_han21: "涵" #涵
- name_han21.mandarin_language: "Hán"
+ name_han21.mandarin_language: "涵"
  name_han21.yue_language: "涵"
  name_han21.min_language: "涵"
  name_han21.kejia_language: "涵"
  name_hana: "ハナ" # هناء
  name_hana.alternative: "ハナー"
  name_hang2: "航" #航
- name_hang2.mandarin_language: "Háng"
+ name_hang2.mandarin_language: "航"
  name_hang2.yue_language: "航"
  name_hang2.min_language: "航"
  name_hang2.wu_language: "航"
@@ -5134,17 +5134,17 @@
  name_hannibal.south_italian_language: "アンニバル"
  name_hannibal.greek_language: "Anníbas"
  name_hao: "豪" #豪
- name_hao.mandarin_language: "Háo"
+ name_hao.mandarin_language: "豪"
  name_hao.yue_language: "豪"
  name_hao.min_language: "豪"
  name_hao.wu_language: "豪"
  name_hao.kejia_language: "豪"
  name_hao3: "郝" #郝
- name_hao3.mandarin_language: "Hǎo"
+ name_hao3.mandarin_language: "郝"
  name_hao3.yue_language: "郝"
  name_hao3.min_language: "郝"
  name_haoran: "浩然" #浩然
- name_haoran.mandarin_language: "Hàorán"
+ name_haoran.mandarin_language: "浩然"
  name_haoran.xiang_language: "浩然"
  name_haoran.gan_language: "浩然"
  name_haoran.yue_language: "浩然"
@@ -5175,7 +5175,7 @@
  name_hasan.south_arabic_language: "ハサン"
  name_hasan.turkish_language: "ヒュセイン"
  name_he: "和" #和
- name_he.mandarin_language: "Hé"
+ name_he.mandarin_language: "何"
  name_he.southern_mandarin_dialect: "和"
  name_he.shu_language: "和"
  name_he.xiang_language: "和"
@@ -5187,7 +5187,7 @@
  name_he.kejia_language: "和"
  name_he.jin_language: "和"
  name_he2: "河" #河
- name_he2.mandarin_language: "Hé"
+ name_he2.mandarin_language: "何"
  name_he2.southern_mandarin_dialect: "河"
  name_he2.shu_language: "河"
  name_he2.xiang_language: "河"
@@ -5199,7 +5199,7 @@
  name_he2.kejia_language: "河"
  name_he2.jin_language: "河"
  name_he21: "荷" #荷
- name_he21.mandarin_language: "Hé"
+ name_he21.mandarin_language: "何"
  name_he21.southern_mandarin_dialect: "荷"
  name_he21.shu_language: "荷"
  name_he21.xiang_language: "荷"
@@ -5211,7 +5211,7 @@
  name_he21.kejia_language: "荷"
  name_he21.jin_language: "荷"
  name_he22: "何" #何
- name_he22.mandarin_language: "Hé"
+ name_he22.mandarin_language: "何"
  name_he22.southern_mandarin_dialect: "何"
  name_he22.shu_language: "何"
  name_he22.xiang_language: "何"
@@ -5223,7 +5223,7 @@
  name_he22.kejia_language: "何"
  name_he22.jin_language: "何"
  name_he4: "賀" #賀
- name_he4.mandarin_language: "Hè"
+ name_he4.mandarin_language: "賀"
  name_he4.yue_language: "賀"
  name_he4.min_language: "賀"
  name_he4.kejia_language: "賀"
@@ -5245,7 +5245,7 @@
  name_hector.sicilian_dialect: "エットゥーリ"
  name_hector.spanish_language: "エクトル"
  name_hedwig: "ヘドウィグ"
- name_hedwig.breton_dialect: "Hawiz"
+ name_hedwig.breton_dialect: "ハウィズ"
  name_hedwig.brythonic_language: "ハウィス"
  name_hedwig.czechslovak_language: "ヘドウィガ"
  name_hedwig.english_language: "アワイズ"
@@ -5275,7 +5275,7 @@
  name_helen.greek_language.alternative: "ヘレナ"
  name_helen.hungarian_language: "イロナ"
  name_helen.latin_language: "ヘレナ"
- name_helen.central_german_dialect: "Helene"
+ name_helen.central_german_dialect: "ヘレネ"
  name_helen.occitan_language: "エレナ"
  name_helen.portuguese_language: "ヘレナ"
  name_helen.ruthenian_language: "オレーナ"
@@ -5288,7 +5288,7 @@
  name_helen.spanish_language: "エレナ"
  name_helen.west_slavic_language: "ヘレナ"
  name_helion: "ヘリオン"
- name_helion.arabic_language: "Hélion"
+ name_helion.arabic_language: "ヘリオン"
  name_helios: "ヘリオス"
  name_helios.french_language: "エリー"
  name_helios.latin_language: "アエリウス"
@@ -5308,7 +5308,7 @@
  name_helisenne.spanish_language: "エリゼンダ"
  name_helvig: "ヘルヴィグ"
  name_heng: "恒" #恒
- name_heng.mandarin_language: "Héng"
+ name_heng.mandarin_language: "衡"
  name_heng.southern_mandarin_dialect: "恒"
  name_heng.shu_language: "恒"
  name_heng.xiang_language: "恒"
@@ -5318,7 +5318,7 @@
  name_heng.wu_language: "恒"
  name_heng.kejia_language: "恒"
  name_heng2: "横" #橫
- name_heng2.mandarin_language: "Héng"
+ name_heng2.mandarin_language: "衡"
  name_heng2.southern_mandarin_dialect: "横"
  name_heng2.shu_language: "横"
  name_heng2.xiang_language: "横"
@@ -5329,7 +5329,7 @@
  name_heng2.huizhou_language: "横"
  name_heng2.kejia_language: "横"
  name_heng21: "衡" #衡
- name_heng21.mandarin_language: "Héng"
+ name_heng21.mandarin_language: "衡"
  name_heng21.yue_language: "衡"
  name_heng21.min_language: "衡"
  name_henrietta: "アンリエッタ"
@@ -5453,7 +5453,7 @@
  name_hieronyma.spanish_language: "ヘロニマ"
  name_hieronyma.greek_language: "Ieronýma"
  name_hieronymus: "ヒエロニマス" # Latin & West Slavic
- name_hieronymus.albanian_language: "Jeronim"
+ name_hieronymus.albanian_language: "イェロニム"
  name_hieronymus.arpitan_dialect: "ジェロモ"
  name_hieronymus.basque_language: "ヘロニモ"
  name_hieronymus.catalan_dialect: "ジェロニ"
@@ -5507,7 +5507,7 @@
  name_honest_f.south_italian_language: "オネスタ"
  name_honest_f.south_italian_language.diminutive: "オネスティナ"
  name_hong: "紅" #紅
- name_hong.mandarin_language: "Hóng"
+ name_hong.mandarin_language: "宏"
  name_hong.xiang_language: "紅"
  name_hong.gan_language: "紅"
  name_hong.ping_language: "紅"
@@ -5518,7 +5518,7 @@
  name_hong.kejia_language: "紅"
  name_hong.jin_language: "紅"
  name_hong2: "洪" #洪
- name_hong2.mandarin_language: "Hóng"
+ name_hong2.mandarin_language: "宏"
  name_hong2.xiang_language: "洪"
  name_hong2.gan_language: "洪"
  name_hong2.ping_language: "洪"
@@ -5529,7 +5529,7 @@
  name_hong2.kejia_language: "洪"
  name_hong2.jin_language: "洪"
  name_hong21: "弘" #弘
- name_hong21.mandarin_language: "Hóng"
+ name_hong21.mandarin_language: "宏"
  name_hong21.xiang_language: "弘"
  name_hong21.gan_language: "弘"
  name_hong21.ping_language: "弘"
@@ -5540,7 +5540,7 @@
  name_hong21.kejia_language: "弘"
  name_hong21.jin_language: "弘"
  name_hong22: "宏" #宏
- name_hong22.mandarin_language: "Hóng"
+ name_hong22.mandarin_language: "宏"
  name_hong22.xiang_language: "宏"
  name_hong22.yue_language: "宏"
  name_hong22.min_language: "宏"
@@ -5579,7 +5579,7 @@
  name_hosea.occitan_language: "オジア"
  name_hosea.greek_language: "Osiíe"
  name_hou: "侯" #侯
- name_hou.mandarin_language: "Hóu"
+ name_hou.mandarin_language: "侯"
  name_hou.xiang_language: "侯"
  name_hou.gan_language: "侯"
  name_hou.yue_language: "侯"
@@ -5591,7 +5591,7 @@
  name_howell.brythonic_language: "フウェル"
  name_hrelja: "フレリャ"
  name_hu: "胡" #胡
- name_hu.mandarin_language: "Hú"
+ name_hu.mandarin_language: "胡"
  name_hu.shu_language: "胡"
  name_hu.gan_language: "胡"
  name_hu.yue_language: "胡"
@@ -5600,7 +5600,7 @@
  name_hu.kejia_language: "胡"
  name_hu.jin_language: "胡"
  name_hua: "花" #花
- name_hua.mandarin_language: "Huā"
+ name_hua.mandarin_language: "花"
  name_hua.southern_mandarin_dialect: "花"
  name_hua.xiang_language: "花"
  name_hua.gan_language: "花"
@@ -5613,7 +5613,7 @@
  name_hua.korean_language: "花"
  name_hua.japanese_language: "花"
  name_huan: "歓" #歡
- name_huan.mandarin_language: "Huān"
+ name_huan.mandarin_language: "歓"
  name_huan.southern_mandarin_dialect: "歓"
  name_huan.xiang_language: "歓"
  name_huan.gan_language: "歓"
@@ -5625,13 +5625,13 @@
  name_huan.kejia_language: "歓"
  name_huan.jin_language: "歓"
  name_huang: "凰" #凰
- name_huang.mandarin_language: "Huáng"
+ name_huang.mandarin_language: "凰"
  name_huang.yue_language: "凰"
  name_huang.min_language: "凰"
  name_huang.wu_language: "凰"
  name_huang.kejia_language: "凰"
  name_huang2: "黄" #黄
- name_huang2.mandarin_language: "Huáng"
+ name_huang2.mandarin_language: "凰"
  name_huang2.xiang_language: "黄"
  name_huang2.gan_language: "黄"
  name_huang2.yue_language: "黄"
@@ -5668,7 +5668,7 @@
  name_hugh.tuscan_dialect.diminutive: "ニーノ"
  name_huguette: "ユグエット"
  name_hui: "恵" #惠
- name_hui.mandarin_language: "Huì"
+ name_hui.mandarin_language: "慧"
  name_hui.xiang_language: "恵"
  name_hui.gan_language: "恵"
  name_hui.yue_language: "恵"
@@ -5677,16 +5677,16 @@
  name_hui.huizhou_language: "恵"
  name_hui.kejia_language: "恵"
  name_hui1: "輝" #輝
- name_hui1.mandarin_language: "Huī"
+ name_hui1.mandarin_language: "輝"
  name_hui1.yue_language: "輝"
  name_hui1.min_language: "輝"
  name_hui1.wu_language: "輝"
  name_hui1.kejia_language: "輝"
  name_hui12: "翬" #翬
- name_hui12.mandarin_language: "Huī"
+ name_hui12.mandarin_language: "輝"
  name_hui12.yue_language: "翬"
  name_hui4: "慧" #慧
- name_hui4.mandarin_language: "Huì"
+ name_hui4.mandarin_language: "慧"
  name_hui4.xiang_language: "慧"
  name_hui4.gan_language: "慧"
  name_hui4.yue_language: "慧"
@@ -5705,10 +5705,10 @@
  name_humphrey.greek_language: "ウンフレドス" # Ουμφρέδος
  name_humphrey.occitan_language: "ウンフレッド"
  name_huriya: "フーリヤ"
- name_huriya.arabic_language: "Ḥūrīya"
+ name_huriya.arabic_language: "フーリヤ"
  name_huriya.turkish_language: "フリエ"
  name_husayn: "フサイン"
- name_husayn.arabic_language: "Ḥusayn"
+ name_husayn.arabic_language: "フサイン"
  name_husayn.kashmiri_language: "ハサン"
  name_husayn.turkish_language: "ヒュセイン"
  name_hyacinth: "ヒヤシンス"
@@ -5773,7 +5773,7 @@
  name_ildephonsa: "イルデフォンサ"
  name_ildephonsa.spanish_language: "イルデフォンサ"
  name_inanc: "イナンチュ"
- name_inanc.turkish_language: "İnanç"
+ name_inanc.turkish_language: "イナンチ"
  name_indulf: "インドゥルフ"
  name_indulf.gaelic_language: "イル"
  name_indulf.gaelic_language.genitive: "イル"
@@ -5829,7 +5829,7 @@
  name_iris: "イリス"
  name_iris.icelandic_dialect: "イリス"
  name_iris.portuguese_language: "イリス"
- name_iris.greek_language: "Íris"
+ name_iris.greek_language: "イリス"
  name_irma: "イルマ"
  name_isaac: "アイザック"
  name_isaac.greek_language: "イサキオス" #Ἰσαάκιος
@@ -5899,16 +5899,16 @@
  name_jacqueline.spanish_language: "ヤコバ"
  name_jadila: "ジャディラ"
  name_jahangir: "ジャハーンギール"
- name_jahangir.persian_language: "Jahāngīr"
+ name_jahangir.persian_language: "ジャハーンギール"
  name_jahangir.turkish_language: "ジハンギル"
  name_jahangir.azeri_dialect: "ジャハンギル"
  name_jalal: "ジャラル"
- name_jalal.arabic_language: "Jalāl"
+ name_jalal.arabic_language: "ジャラル"
  name_jalal.turkish_language: "ジェラール"
  name_jam: "ジャム" #Persian
  name_jam.turkish_language: "ジェム"
  name_jamal: "ジャマール"
- name_jamal.arabic_language: "Jamāl"
+ name_jamal.arabic_language: "ジャマール"
  name_jamal.egyptian_dialect: "ガマル"
  name_jamal.maghrebi_dialect: "ジャメル"
  name_jamal.turkish_language: "ジェマル"
@@ -5954,7 +5954,7 @@
  name_james.south_italian_language.alternative: "ヤコポ"
  name_james.south_italian_language.diminutive: "ジャコミノ"
  name_james.venetian_dialect: "Jàcomo"
- name_james.median_dialect: "Jacopo"
+ name_james.median_dialect: "ヤコポ"
  name_james.tuscan_dialect: "Iacopo"
  name_james.dalmatian_dialect: "ヤコプ"
  name_james.sardinian_dialect: "ジャグ"
@@ -5965,7 +5965,7 @@
  name_james.west_slavic_language: "ヤクプ"
  name_james.west_slavic_language.diminutive: "クバ"
  name_jamshid: "ジャムシード"
- name_jamshid.persian_language: "Jamshīd"
+ name_jamshid.persian_language: "ジャムシード"
  name_januaria: "ジャヌアリア"
  name_januaria.galician_dialect: "ヘナラ"
  name_januaria.portuguese_language: "ジャヌアリア"
@@ -5993,10 +5993,10 @@
  name_jason.georgian_language: "イアソン"
  name_jason.greek_language: "イアソン"
  name_jaune: "ヤウネ"
- name_jaune.baltic_language: "Jaunė"
+ name_jaune.baltic_language: "ヤウネ"
  name_jawad: "ジャワード"
  name_jawad.albanian_language: "シェヴァット"
- name_jawad.arabic_language: "Jawād"
+ name_jawad.arabic_language: "ジャワード"
  name_jawad.azeri_dialect: "ジャヴァド"
  name_jawad.persian_language: "ジャヴァド"
  name_jawad.turkish_language: "ジェヴァト"
@@ -6038,7 +6038,7 @@
  name_jeremiah.greek_language: "Ieremías"
  name_jarmila: "ヤルミラ"
  name_jia: "家" #家
- name_jia.mandarin_language: "Jiā"
+ name_jia.mandarin_language: "佳"
  name_jia.southern_mandarin_dialect: "家"
  name_jia.xiang_language: "家"
  name_jia.gan_language: "家"
@@ -6050,7 +6050,7 @@
  name_jia.kejia_language: "家"
  name_jia.jin_language: "家"
  name_jia1: "佳" #佳
- name_jia1.mandarin_language: "Jiā"
+ name_jia1.mandarin_language: "佳"
  name_jia1.southern_mandarin_dialect: "佳"
  name_jia1.xiang_language: "佳"
  name_jia1.gan_language: "佳"
@@ -6062,18 +6062,18 @@
  name_jia1.kejia_language: "佳"
  name_jia1.jin_language: "佳"
  name_jia12: "嘉" #嘉
- name_jia12.mandarin_language: "Jiā"
+ name_jia12.mandarin_language: "佳"
  name_jia12.yue_language: "嘉"
  name_jia12.min_language: "嘉"
  name_jia12.wu_language: "嘉"
  name_jia12.kejia_language: "嘉"
  name_jia3: "賈" #賈
- name_jia3.mandarin_language: "Jiǎ"
+ name_jia3.mandarin_language: "賈"
  name_jia3.yue_language: "賈"
  name_jia3.min_language: "賈"
  name_jiajak: "賈"
  name_jian: "健" #健
- name_jian.mandarin_language: "Jiàn"
+ name_jian.mandarin_language: "江"
  name_jian.southern_mandarin_dialect: "健"
  name_jian.xiang_language: "健"
  name_jian.gan_language: "健"
@@ -6084,17 +6084,17 @@
  name_jian.kejia_language: "健"
  name_jian.jin_language: "健"
  name_jian4: "鑑" #鑒
- name_jian4.mandarin_language: "Jiàn"
+ name_jian4.mandarin_language: "江"
  name_jian4.yue_language: "鑑"
  name_jian4.min_language: "鑑"
  name_jian3: "簡" #簡
- name_jian3.mandarin_language: "Jiǎn"
+ name_jian3.mandarin_language: "簡"
  name_jian3.yue_language: "簡"
  name_jian3.min_language: "簡"
  name_jian3.wu_language: "簡"
  name_jian3.kejia_language: "簡"
  name_jiang: "江" #江
- name_jiang.mandarin_language: "Jiāng"
+ name_jiang.mandarin_language: "姜"
  name_jiang.southern_mandarin_dialect: "江"
  name_jiang.xiang_language: "江"
  name_jiang.gan_language: "江"
@@ -6106,25 +6106,25 @@
  name_jiang.kejia_language: "江"
  name_jiang.jin_language: "江"
  name_jiang1: "姜" #姜
- name_jiang1.mandarin_language: "Jiāng"
+ name_jiang1.mandarin_language: "姜"
  name_jiang1.yue_language: "姜"
  name_jiang1.min_language: "姜"
  name_jiang1.wu_language: "姜"
  name_jiang1.kejia_language: "姜"
  name_jiang3: "蔣" #蔣
- name_jiang3.mandarin_language: "Jiǎng"
+ name_jiang3.mandarin_language: "蔣"
  name_jiang3.yue_language: "蔣"
  name_jiang3.min_language: "蔣"
  name_jiang3.wu_language: "蔣"
  name_jiang3.kejia_language: "蔣"
  name_jie: "傑" #傑
- name_jie.mandarin_language: "Jié"
+ name_jie.mandarin_language: "傑"
  name_jie.yue_language: "傑"
  name_jie.min_language: "傑"
  name_jie.wu_language: "傑"
  name_jie.kejia_language: "傑"
  name_jin: "金" #金
- name_jin.mandarin_language: "Jīn"
+ name_jin.mandarin_language: "金"
  name_jin.southern_mandarin_dialect: "金"
  name_jin.xiang_language: "金"
  name_jin.gan_language: "金"
@@ -6136,17 +6136,17 @@
  name_jin.kejia_language: "金"
  name_jin.jin_language: "金"
  name_jin3: "瑾" #瑾
- name_jin3.mandarin_language: "Jǐn"
+ name_jin3.mandarin_language: "景"
  name_jin3.yue_language: "瑾"
  name_jing: "静" #静
- name_jing.mandarin_language: "Jìng"
+ name_jing.mandarin_language: "景"
  name_jing.yue_language: "静"
  name_jing.min_language: "静"
  name_jing.wu_language: "静"
  name_jing.kejia_language: "静"
  name_jing.jin_language: "静"
  name_jing1: "精" #精
- name_jing1.mandarin_language: "Jīng"
+ name_jing1.mandarin_language: "征"
  name_jing1.shu_language: "精"
  name_jing1.xiang_language: "精"
  name_jing1.gan_language: "精"
@@ -6156,12 +6156,12 @@
  name_jing1.kejia_language: "精"
  name_jing1.jin_language: "精"
  name_jing12: "晶" #晶
- name_jing12.mandarin_language: "Jīng"
+ name_jing12.mandarin_language: "征"
  name_jing12.min_language: "晶"
  name_jing12.wu_language: "晶"
  name_jing12.kejia_language: "晶"
  name_jing3: "景" #景
- name_jing3.mandarin_language: "Jǐng"
+ name_jing3.mandarin_language: "景"
  name_jing3.shu_language: "景"
  name_jing3.xiang_language: "景"
  name_jing3.gan_language: "景"
@@ -6410,7 +6410,7 @@
  name_joseph.south_italian_language.diminutive: "ペポ"
  name_joseph.spanish_language: "ホセ"
  name_joseph.spanish_language.diminutive: "ペペ"
- name_joseph.swahili_language: "Yūsuf"
+ name_joseph.swahili_language: "ユースフ"
  name_joseph.tamazight_language: "ユスフ"
  name_joseph.turkish_language: "ユスフ"
  name_joseph.west_slavic_language: "ヨージェフ"
@@ -6449,7 +6449,7 @@
  name_joyce.greek_language: "イウドコス" # Ιουδόκος
  name_joyce.west_slavic_language: "ヨシュト"
  name_ju: "菊" #菊
- name_ju.mandarin_language: "Jú"
+ name_ju.mandarin_language: "菊"
  name_ju.southern_mandarin_dialect: "菊"
  name_ju.xiang_language: "菊"
  name_ju.gan_language: "菊"
@@ -6461,7 +6461,7 @@
  name_ju.kejia_language: "菊"
  name_ju.jin_language: "菊"
  name_juan: "娟" #娟
- name_juan.mandarin_language: "Juān"
+ name_juan.mandarin_language: "娟"
  name_juan.yue_language: "娟"
  name_juan.min_language: "娟"
  name_juan.wu_language: "娟"
@@ -6525,12 +6525,12 @@
  name_julius.spanish_language: "フリオ"
  name_jumaz: "ジュマズ"
  name_jun: "俊" #俊
- name_jun.mandarin_language: "Jùn"
+ name_jun.mandarin_language: "俊"
  name_jun.yue_language: "俊"
  name_jun.min_language: "俊"
  name_jun.kejia_language: "俊"
  name_jun1: "軍" #軍
- name_jun1.mandarin_language: "Jūn"
+ name_jun1.mandarin_language: "軍"
  name_jun1.xiang_language: "軍"
  name_jun1.gan_language: "軍"
  name_jun1.yue_language: "軍"
@@ -6553,11 +6553,11 @@
  name_justus: "ユストゥス"
  name_justus.greek_language: "Ioustos"
  name_kai: "凱" #凱
- name_kai.mandarin_language: "Kǎi"
+ name_kai.mandarin_language: "凱"
  name_kai.yue_language: "凱"
  name_kai.min_language: "凱"
  name_kai1: "開" #開
- name_kai1.mandarin_language: "Kāi"
+ name_kai1.mandarin_language: "凱"
  name_kai1.xiang_language: "開"
  name_kai1.gan_language: "開"
  name_kai1.ping_language: "開"
@@ -6572,17 +6572,17 @@
  name_kalman.greek_language: "コロマノス" # Κολωμάνος
  name_kalman.hungarian_language: "カールマーン"
  name_kamal: "カマール"
- name_kamal.arabic_language: "Kamāl"
+ name_kamal.arabic_language: "カマール"
  name_kamal.turkish_language: "ケマル"
  name_kang: "康" #康
- name_kang.mandarin_language: "Kāng"
+ name_kang.mandarin_language: "康"
  name_kang.yue_language: "康"
  name_kang.min_language: "康"
  name_kang.kejia_language: "康"
  name_karaman: "カラマン"
  name_karijotas: "カリオタス"
  name_karim: "カリーム"
- name_karim.arabic_language: "Karīm"
+ name_karim.arabic_language: "カリーム"
  name_karim.kurdish_language: "ケリム"
  name_karim.turkish_language: "ケレム"
  name_karim.azeri_dialect: "ケリム"
@@ -6590,14 +6590,14 @@
  name_karp: "カルプ"
  name_karp.novgorodian_dialect: "カルプ"
  name_ke: "ケ" #可
- name_ke.mandarin_language: "Kě"
+ name_ke.mandarin_language: "ケ"
  name_ke.shu_language: "コ"
  name_ke.yue_language: "ホ"
  name_ke.min_language: "コ"
  name_ke.wu_language: "ク"
  name_ke.kejia_language: "コ"
  name_ke1: "ケ" #柯
- name_ke1.mandarin_language: "Kē"
+ name_ke1.mandarin_language: "ケ"
  name_ke1.yue_language: "オ"
  name_ke1.min_language: "コ"
  name_ke1.wu_language: "ク"
@@ -6613,39 +6613,39 @@
  name_kenny: "ケニー"
  name_kenny.gaelic_language: "キャナ"
  name_kera: "ケラ"
- name_kera.greek_language: "Kéra"
+ name_kera.greek_language: "ケラ"
  name_keratsa: "ケラツァ"
  name_kestutis: "ケストゥティス"
- name_kestutis.baltic_language: "Kęstutis"
+ name_kestutis.baltic_language: "ケストゥティス"
  name_keyqobad: "ケイコバード"
- name_keyqobad.arabic_language: "Keyqobâd"
+ name_keyqobad.arabic_language: "ケイコバード"
  name_keyqobad.turkish_language: "ケイクバッド"
  name_khadija: "ハディージャ"
- name_khadija.arabic_language: "Ḵadīja"
+ name_khadija.arabic_language: "ハディージャ"
  name_khadija.turkish_language: "ハティジェ"
  name_khalifa: "カリファ"
- name_khalifa.arabic_language: "Khalīfa"
+ name_khalifa.arabic_language: "カリファ"
  name_khalil: "ハリール"
- name_khalil.arabic_language: "Ḵalīl"
+ name_khalil.arabic_language: "ハリール"
  name_khalil.persian_language: "ハリル"
  name_khalil.turkish_language: "ハリル"
  name_khan: "ハン"
- name_khan.arabic_language: "Khān"
+ name_khan.arabic_language: "ハン"
  name_khayr: "ハイル"
- name_khayr.arabic_language: "Ḵayr"
+ name_khayr.arabic_language: "ハイル"
  name_khayr.name_al_din.maghrebi_dialect: "ハイレッディン"
  name_khayr.name_al_din.turkish_language: "ハイレッディン"
  name_khidr: "ヒズル"
- name_khidr.arabic_language: "Ḵidr"
+ name_khidr.arabic_language: "ヒズル"
  name_khidr.turkish_language: "ヒズル"
  name_khorram: "ホラム"
- name_khorram.arabic_language: "Ḵorram"
+ name_khorram.arabic_language: "ホラム"
  name_khorram.turkish_language: "ヒュッレム"
  name_kinsella: "キンセラ"
  name_kinsella.gaelic_language: "ケンサラック"
  name_kinsella.gaelic_language.genitive: "ケンセレーグ"
  name_kong: "孔" #孔
- name_kong.mandarin_language: "Kǒng"
+ name_kong.mandarin_language: "孔"
  name_kong.gan_language: "孔"
  name_kong.yue_language: "孔"
  name_kong.min_language: "孔"
@@ -6662,10 +6662,10 @@
  name_kresimir.west_slavic_language.alternative: "クシェスワフ"
  name_kubad: "クバド"
  name_kulthum: "クルスーム"
- name_kulthum.arabic_language: "Kulthūm"
+ name_kulthum.arabic_language: "クルスーム"
  name_kulthum.turkish_language: "ギュルスム"
  name_kumus: "キュミュシュ"
- name_kumus.arabic_language: "Kümüş"
+ name_kumus.arabic_language: "キュミュシュ"
  name_kumus.turkish_language: "ギュミュシュ"
  name_kunigunde: "クニグンデ"
  name_kunigunde.french_language: "クネゴンド"
@@ -6693,7 +6693,7 @@
  name_laeta.south_italian_language: "レタ"
  name_laeta.spanish_language: "レタ"
  name_lai: "頼" #賴
- name_lai.mandarin_language: "Lài"
+ name_lai.mandarin_language: "雷"
  name_lai.southern_mandarin_dialect: "頼"
  name_lai.shu_language: "頼"
  name_lai.xiang_language: "頼"
@@ -6706,7 +6706,7 @@
  name_laima: "ライマ"
  name_laleh: "ラーラ" #Persian
  name_laleh.azeri_dialect: "ラレ"
- name_laleh.persian_language: "Lāla"
+ name_laleh.persian_language: "ラーラ"
  name_laleh.turkish_language: "ラーレ"
  name_laleh.turkmen_dialect: "レレ"
  name_lambert: "ランバート" # English & French
@@ -6726,7 +6726,7 @@
  name_lamoral.scandinavian_language: "ラモラル"
  name_lamoral.south_italian_language: "ラモラル"
  name_lan: "蘭" #蘭
- name_lan.mandarin_language: "Lán"
+ name_lan.mandarin_language: "蘭"
  name_lan.xiang_language: "蘭"
  name_lan.gan_language: "蘭"
  name_lan.yue_language: "蘭"
@@ -6747,13 +6747,13 @@
  name_lanfrank: "ランフランク"
  name_lanfrank.south_italian_language: "ランフランコ"
  name_larisa: "ラリーサ"
- name_larisa.greek_language: "Lárissa"
+ name_larisa.greek_language: "ラリッサ"
  name_latron: "ラトロン"
  name_latron.basque_language: "ラドロン"
  name_latron.south_italian_language: "ラトローネ"
  name_latron.spanish_language: "ラドロン"
  name_latrona: "ラトローナ"
- name_latrona.basque_language: "Ladrona"
+ name_latrona.basque_language: "ラドロナ"
  name_latrona.greek_language: "Latróna"
  name_laura: "ローラ" # North Italian, South Italian & Spanish
  name_laura.arpitan_dialect: "ローラ"
@@ -6795,7 +6795,7 @@
  name_laurence.scots_dialect: "ローレンス"
  name_laurence.scots_dialect.diminutive: "ローリー"
  name_laurence.serbo_croatian_language: "ロヴロ"
- name_laurence.neapolitan_dialect: "Lorenzo"
+ name_laurence.neapolitan_dialect: "ロレンツォ"
  name_laurence.neapolitan_dialect.diminutive: "Lurenziello"
  name_laurence.south_italian_language: "ロレンツォ"
  name_laurence.dalmatian_dialect: "ラウレンツォ"
@@ -6814,7 +6814,7 @@
  name_lech: "レフ"
  name_lech.diminutive: "レシェク"
  name_lei: "雷" #雷
- name_lei.mandarin_language: "Léi"
+ name_lei.mandarin_language: "雷"
  name_lei.shu_language: "雷"
  name_lei.xiang_language: "雷"
  name_lei.gan_language: "雷"
@@ -6824,11 +6824,11 @@
  name_lei.kejia_language: "雷"
  name_lei.jin_language: "雷"
  name_lei3: "磊" #磊
- name_lei3.mandarin_language: "Lěi"
+ name_lei3.mandarin_language: "磊"
  name_lei3.yue_language: "磊"
  name_lei3.min_language: "磊"
  name_lei31: "蕾" #蕾
- name_lei31.mandarin_language: "Lěi"
+ name_lei31.mandarin_language: "磊"
  name_lei31.yue_language: "蕾"
  name_lei31.min_language: "蕾"
  name_lei31.wu_language: "蕾"
@@ -6898,19 +6898,19 @@
  name_leyre: "レイレ"
  name_leyre.basque_language: "レイレ"
  name_li: "麗" #麗
- name_li.mandarin_language: "Lì"
+ name_li.mandarin_language: "歷"
  name_li.yue_language: "麗"
  name_li.min_language: "麗"
  name_li.wu_language: "麗"
  name_li.kejia_language: "麗"
  name_li2: "黎" #黎
- name_li2.mandarin_language: "Lí"
+ name_li2.mandarin_language: "李"
  name_li2.yue_language: "黎"
  name_li2.min_language: "黎"
  name_li2.wu_language: "黎"
  name_li2.kejia_language: "黎"
  name_li3: "理" #理
- name_li3.mandarin_language: "Lǐ"
+ name_li3.mandarin_language: "理"
  name_li3.xiang_language: "理"
  name_li3.gan_language: "理"
  name_li3.ping_language: "理"
@@ -6920,7 +6920,7 @@
  name_li3.kejia_language: "理"
  name_li3.jin_language: "理"
  name_li31: "李" #李
- name_li31.mandarin_language: "Lǐ"
+ name_li31.mandarin_language: "理"
  name_li31.shu_language: "李"
  name_li31.xiang_language: "李"
  name_li31.gan_language: "李"
@@ -6931,17 +6931,17 @@
  name_li31.kejia_language: "李"
  name_li31.jin_language: "李"
  name_li4: "歷" #歷
- name_li4.mandarin_language: "Lì"
+ name_li4.mandarin_language: "歷"
  name_li4.yue_language: "歷"
  name_li4.min_language: "歷"
  name_li4.wu_language: "歷"
  name_li4.kejia_language: "歷"
  name_lian: "濂" #濂
- name_lian.mandarin_language: "Lián"
+ name_lian.mandarin_language: "廉"
  name_lian.yue_language: "濂"
  name_lian.min_language: "濂"
  name_lian2: "連" #連
- name_lian2.mandarin_language: "Lián"
+ name_lian2.mandarin_language: "廉"
  name_lian2.shu_language: "連"
  name_lian2.xiang_language: "連"
  name_lian2.yue_language: "連"
@@ -6950,7 +6950,7 @@
  name_lian2.kejia_language: "連"
  name_lian2.jin_language: "連"
  name_lian21: "廉" #廉
- name_lian21.mandarin_language: "Lián"
+ name_lian21.mandarin_language: "廉"
  name_lian21.southern_mandarin_dialect: "廉"
  name_lian21.shu_language: "廉"
  name_lian21.xiang_language: "廉"
@@ -6962,13 +6962,13 @@
  name_lian21.kejia_language: "廉"
  name_lian21.jin_language: "廉"
  name_lian4: "練" #練
- name_lian4.mandarin_language: "Liàn"
+ name_lian4.mandarin_language: "練"
  name_lian4.yue_language: "練"
  name_lian4.min_language: "練"
  name_lian4.wu_language: "練"
  name_lian4.kejia_language: "練"
  name_liang: "梁" #梁
- name_liang.mandarin_language: "Liáng"
+ name_liang.mandarin_language: "梁"
  name_liang.xiang_language: "梁"
  name_liang.gan_language: "梁"
  name_liang.yue_language: "梁"
@@ -6976,7 +6976,7 @@
  name_liang.wu_language: "梁"
  name_liang.kejia_language: "梁"
  name_liang2: "良" #良
- name_liang2.mandarin_language: "Liáng"
+ name_liang2.mandarin_language: "梁"
  name_liang2.xiang_language: "良"
  name_liang2.gan_language: "良"
  name_liang2.yue_language: "良"
@@ -6985,23 +6985,23 @@
  name_liang2.kejia_language: "良"
  name_liang2.jin_language: "良"
  name_liang4: "諒" #諒
- name_liang4.mandarin_language: "Liàng"
+ name_liang4.mandarin_language: "諒"
  name_liang4.yue_language: "諒"
  name_liang4.min_language: "諒"
  name_liang4.wu_language: "諒"
  name_liang4.kejia_language: "諒"
  name_liang4.jin_language: "諒"
  name_liao: "廖" #廖
- name_liao.mandarin_language: "Liào"
+ name_liao.mandarin_language: "廖"
  name_liao.yue_language: "廖"
  name_liao.min_language: "廖"
  name_liao.wu_language: "廖"
  name_liao.kejia_language: "廖"
  name_libero: "リベロ"
  name_licinia: "リチニア" # English, Latin, North Italian, South Italian & Spanish
- name_licinius: "Licinius"
+ name_licinius: "リキニウス"
  name_licinius.greek_language: "Likinios" # Λικίνιος
- name_licinius.latin_language: "Licinius"
+ name_licinius.latin_language: "リキニウス"
  name_lieta: "リエータ"
  name_ligita: "リギタ"
  name_lillian: "リリアン"
@@ -7009,7 +7009,7 @@
  name_lillian.church_slavonic_language: "リリヤナ"
  name_lillian.west_slavic_language: "リリアナ"
  name_lin: "林" #林
- name_lin.mandarin_language: "Lín"
+ name_lin.mandarin_language: "寧"
  name_lin.shu_language: "林"
  name_lin.xiang_language: "林"
  name_lin.gan_language: "林"
@@ -7021,24 +7021,24 @@
  name_lin.kejia_language: "林"
  name_lin.jin_language: "林"
  name_ling: "凌" #凌
- name_ling.mandarin_language: "Líng"
+ name_ling.mandarin_language: "凌"
  name_ling.yue_language: "凌"
  name_ling.min_language: "凌"
  name_ling.kejia_language: "凌"
  name_ling2: "鈴" #鈴
- name_ling2.mandarin_language: "Líng"
+ name_ling2.mandarin_language: "凌"
  name_ling2.yue_language: "鈴"
  name_ling2.min_language: "鈴"
  name_ling2.kejia_language: "鈴"
  name_ling21: "霊" #靈
- name_ling21.mandarin_language: "Líng"
+ name_ling21.mandarin_language: "凌"
  name_ling21.yue_language: "霊"
  name_ling21.min_language: "霊"
  name_ling21.wu_language: "霊"
  name_ling21.kejia_language: "霊"
  name_ling21.jin_language: "霊"
  name_ling22: "齡" #齡
- name_ling22.mandarin_language: "Líng"
+ name_ling22.mandarin_language: "凌"
  name_ling22.yue_language: "齡"
  name_ling22.min_language: "齡"
  name_ling22.wu_language: "齡"
@@ -7054,16 +7054,16 @@
  name_lisa.french_language: "リーズ"
  name_lisa.hungarian_language: "リザ"
  name_lisan: "リサーン"
- name_lisan.arabic_language: "Lisān"
+ name_lisan.arabic_language: "リサーン"
  name_liu: "柳" #柳
- name_liu.mandarin_language: "Liǔ"
+ name_liu.mandarin_language: "柳"
  name_liu.yue_language: "柳"
  name_liu.min_language: "柳"
  name_liu.wu_language: "柳"
  name_liu.kejia_language: "柳"
  name_liu.jin_language: "柳"
  name_liu2: "劉" #劉
- name_liu2.mandarin_language: "Liú"
+ name_liu2.mandarin_language: "劉"
  name_liu2.shu_language: "劉"
  name_liu2.yue_language: "劉"
  name_liu2.min_language: "劉"
@@ -7099,7 +7099,7 @@
  name_lombard.south_italian_language: "ロンバルド"
  name_lombard.spanish_language: "ロンバルド"
  name_long: "龍" #龍
- name_long.mandarin_language: "Lóng"
+ name_long.mandarin_language: "龍"
  name_long.southern_mandarin_dialect: "龍"
  name_long.shu_language: "龍"
  name_long.xiang_language: "龍"
@@ -7177,7 +7177,7 @@
  name_loyal.south_italian_language: "レアーレ"
  name_loyal.spanish_language: "レアウ"
  name_lu: "呂" #呂
- name_lu.mandarin_language: "Lǚ"
+ name_lu.mandarin_language: "呂"
  name_lu.shu_language: "呂"
  name_lu.xiang_language: "呂"
  name_lu.gan_language: "呂"
@@ -7187,13 +7187,13 @@
  name_lu.huizhou_language: "呂"
  name_lu.kejia_language: "呂"
  name_lu2: "盧" #盧
- name_lu2.mandarin_language: "Lú"
+ name_lu2.mandarin_language: "盧"
  name_lu2.yue_language: "盧"
  name_lu2.min_language: "盧"
  name_lu2.wu_language: "盧"
  name_lu2.kejia_language: "盧"
  name_lu4: "陸" #陸
- name_lu4.mandarin_language: "Lù"
+ name_lu4.mandarin_language: "盧"
  name_lu4.southern_mandarin_dialect: "陸"
  name_lu4.shu_language: "陸"
  name_lu4.xiang_language: "陸"
@@ -7318,7 +7318,7 @@
  name_lupus.spanish_language: "ロペ"
  name_lupus.spanish_language.patronym: "ロペス"
  name_luo: "羅" #羅
- name_luo.mandarin_language: "Luó"
+ name_luo.mandarin_language: "羅"
  name_luo.southern_mandarin_dialect: "羅"
  name_luo.shu_language: "羅"
  name_luo.xiang_language: "羅"
@@ -7333,7 +7333,7 @@
  name_luxemburg.arpitan_dialect: "ルッセンブルク"
  name_luxemburg.basque_language: "ルシェンブルゴ"
  name_luxemburg.breton_dialect: "ルクセンブルク"
- name_luxemburg.brythonic_language: "Lwcsembwrg"
+ name_luxemburg.brythonic_language: "ルクセンブルク"
  name_luxemburg.czechslovak_language: "ルツェムブルスコ"
  name_luxemburg.english_language: "ルクセンブルク"
  name_luxemburg.french_language: "ルクセンブルク"
@@ -7367,7 +7367,7 @@
  name_lyubov.ruthenian_language: "リュボフ"
  name_lyubov.ruthenian_language.alternative: "リュボフ"
  name_ma: "馬" #馬
- name_ma.mandarin_language: "Mǎ"
+ name_ma.mandarin_language: "馬"
  name_ma.xiang_language: "馬"
  name_ma.gan_language: "馬"
  name_ma.yue_language: "馬"
@@ -7397,7 +7397,7 @@
  name_macbeth.west_slavic_language: "マクベト"
  name_maccia: "マッチャ"
  name_macrinus: "Macrinus"
- name_macrinus.greek_language: "Makrinos" # Μακρίνος
+ name_macrinus.greek_language: "マクリノス" # Μακρίνος
  name_macrinus.latin_language: "Macrinus"
  name_madeleine: "マデレーヌ" # English & French
  name_madeleine.arpitan_dialect: "マデレーナ"
@@ -7428,7 +7428,7 @@
  name_magnus.south_italian_language: "マグノ"
  name_magnus.spanish_language: "マグノ"
  name_mahdi: "マフディー"
- name_mahdi.arabic_language: "Mahdī"
+ name_mahdi.arabic_language: "マフディー"
  name_mahdi.maghrebi_dialect: "メフディー"
  name_mahdi.persian_language: "メフディー"
  name_mahdi.turkmen_dialect: "マティ"
@@ -7436,7 +7436,7 @@
  name_mahon.gaelic_language: "マフナ"
  name_mahon.gaelic_language.genitive: "マフナ"
  name_mahmud: "マフムード"
- name_mahmud.arabic_language: "Maḥmūd"
+ name_mahmud.arabic_language: "マフムード"
  name_mahmud.persian_language: "マフムード"
  name_mahmud.turkish_language: "マフムト"
  name_maia: "マイア"
@@ -7468,7 +7468,7 @@
  name_malcolm.serbo_croatian_language: "マルコム"
  name_malcolm.turkish_language: "マルコム"
  name_malik: "マーリク"
- name_malik.arabic_language: "Mālik"
+ name_malik.arabic_language: "マーリク"
  name_malik.turkish_language: "メリク"
  name_malley: "マリー"
  name_malley.gaelic_language: "マリャ"
@@ -7492,14 +7492,14 @@
  name_manric.south_italian_language: "マンリコ"
  name_manric.spanish_language: "マンリケ"
  name_mansur: "マンスール"
- name_mansur.arabic_language: "Manṣūr"
+ name_mansur.arabic_language: "マンスール"
  name_mansur.turkish_language: "マンスール"
  name_mansura: "マンスーラ"
- name_mansura.arabic_language: "Manṣūra"
+ name_mansura.arabic_language: "マンスーラ"
  name_mansura.turkish_language: "マンスレ"
  name_manvydas: "マンヴィダス"
  name_mao: "毛" #毛
- name_mao.mandarin_language: "Máo"
+ name_mao.mandarin_language: "毛"
  name_mao.xiang_language: "毛"
  name_mao.gan_language: "毛"
  name_mao.yue_language: "毛"
@@ -7544,15 +7544,15 @@
  name_marcius.spanish_language: "マルシオ"
  name_marcius.west_slavic_language: "マルティウス"
  name_marcius.greek_language: "Márkios"
- name_marcus: "Marcus"
+ name_marcus: "マルクス"
  name_marcus.greek_language: "Markos" # Μάρκος
- name_marcus.latin_language: "Marcus"
+ name_marcus.latin_language: "マルクス"
  name_marcus.name_aurelius: "Marcus Aurelius"
  name_marcus.name_julius: "Marcus Julius"
  name_marcus.name_valerius: "Marcus Valerius"
- name_marcus.portuguese_language: "Marco"
- name_marcus.south_italian_language: "Marco"
- name_marcus.spanish_language: "Marco"
+ name_marcus.portuguese_language: "マルコ"
+ name_marcus.south_italian_language: "マルコ"
+ name_marcus.spanish_language: "マルコ"
  name_margaret: "マーガレット"
  name_margaret.armenian_language.diminutive: "レタ"
  name_margaret.arpitan_dialect: "マルガレータ"
@@ -7713,12 +7713,12 @@
  name_mascarose: "マスカロゼ"
  name_mascarose.occitan_language: "マスカロザ" # Also in Catalan
  name_massa: "メッサ"
- name_massa.oghuric_language: "Mӑssa"
+ name_massa.oghuric_language: "メッサ"
  name_mastin: "マスティン"
  name_mastin.south_italian_language: "マスティノ"
  name_mastin.spanish_language: "マルティン"
  name_masud: "マスウード"
- name_masud.arabic_language: "Mas'ūd"
+ name_masud.arabic_language: "マスウード"
  name_masud.turkish_language: "メスード"
  name_matilda: "マティルダ"
  name_matilda.arpitan_dialect: "マティルダ"
@@ -7748,7 +7748,7 @@
  name_mattea.spanish_language: "マテア"
  name_mattea.greek_language: "Matthaía"
  name_matthew: "マシュー"
- name_matthew.albanian_language: "Mateo"
+ name_matthew.albanian_language: "マテオ"
  name_matthew.arpitan_dialect: "マテイ"
  name_matthew.baltic_language: "モティエユス"
  name_matthew.latvian_dialect: "マトヴェイス"
@@ -7826,7 +7826,7 @@
  name_maurice.latin_language: "マウリツィウス" # classical Latin
  name_maurice.mandarin_language: "マオリシ" # 毛里斯
  name_maurice.north_italian_language: "マウリツィオ"
- name_maurice.south_italian_language: "Maurizio"
+ name_maurice.south_italian_language: "マウリツィオ"
  name_maurice.occitan_language: "マウリシ" # Also in Catalan
  name_maurice.portuguese_language: "マウリシオ"
  name_maurice.scandinavian_language: "マウリッツ"
@@ -7900,7 +7900,7 @@
  name_maysa.turkmen_dialect: "マイサ"
  name_mazzocco: "マッゾッコ"
  name_mei: "美" #美
- name_mei.mandarin_language: "Měi"
+ name_mei.mandarin_language: "美"
  name_mei.xiang_language: "美"
  name_mei.gan_language: "美"
  name_mei.yue_language: "美"
@@ -7909,7 +7909,7 @@
  name_mei.kejia_language: "美"
  name_mei.jin_language: "美"
  name_mei2: "梅" #梅
- name_mei2.mandarin_language: "Méi"
+ name_mei2.mandarin_language: "梅"
  name_mei2.xiang_language: "梅"
  name_mei2.gan_language: "梅"
  name_mei2.yue_language: "梅"
@@ -7941,7 +7941,7 @@
  name_melior: "メリオル"
  name_melior.brythonic_language: "メイリル"
  name_meng: "夢" #夢
- name_meng.mandarin_language: "Mèng"
+ name_meng.mandarin_language: "夢"
  name_meng.southern_mandarin_dialect: "夢"
  name_meng.shu_language: "夢"
  name_meng.xiang_language: "夢"
@@ -7954,7 +7954,7 @@
  name_meng.kejia_language: "夢"
  name_meng.jin_language: "夢"
  name_meng2: "蒙" #蒙
- name_meng2.mandarin_language: "Méng"
+ name_meng2.mandarin_language: "蒙"
  name_meng2.xiang_language: "蒙"
  name_meng2.gan_language: "蒙"
  name_meng2.yue_language: "蒙"
@@ -7963,7 +7963,7 @@
  name_meng2.kejia_language: "蒙"
  name_meng2.jin_language: "蒙"
  name_meng4: "孟" #孟
- name_meng4.mandarin_language: "Mèng"
+ name_meng4.mandarin_language: "夢"
  name_meng4.southern_mandarin_dialect: "孟"
  name_meng4.shu_language: "孟"
  name_meng4.xiang_language: "孟"
@@ -8131,7 +8131,7 @@
  name_milos.serbo_croatian_language: "ミロシュ"
  name_milos.west_slavic_language: "ミウォシュ"
  name_min: "敏" #敏
- name_min.mandarin_language: "Mǐn"
+ name_min.mandarin_language: "敏"
  name_min.shu_language: "敏"
  name_min.xiang_language: "敏"
  name_min.gan_language: "敏"
@@ -8143,7 +8143,7 @@
  name_min.jin_language: "敏"
  name_mindaugas: "ミンダウガス"
  name_ming: "明" #明
- name_ming.mandarin_language: "Míng"
+ name_ming.mandarin_language: "鳴"
  name_ming.shu_language: "明"
  name_ming.xiang_language: "明"
  name_ming.gan_language: "明"
@@ -8153,7 +8153,7 @@
  name_ming.kejia_language: "明"
  name_ming.jin_language: "明"
  name_ming2: "鳴" #鳴
- name_ming2.mandarin_language: "Míng"
+ name_ming2.mandarin_language: "鳴"
  name_ming2.xiang_language: "鳴"
  name_ming2.yue_language: "鳴"
  name_ming2.min_language: "鳴"
@@ -8176,14 +8176,14 @@
  name_miroslava: "ミロスラヴァ"
  name_miroslava.west_slavic_language: "ミロスワヴァ"
  name_mirza: "ミールザー"
- name_mirza.arabic_language: "Mīrzā"
+ name_mirza.arabic_language: "ミールザー"
  name_mirza.azeri_dialect: "ミルゼ"
  name_mirza.kurdish_language: "ミールザ"
  name_mitarella: "ミタレッラ"
  name_mladen: "ムラデン"
  name_mladen.greek_language: "ムラデン" # Μλάδεν
  name_mo: "墨" #墨
- name_mo.mandarin_language: "Mò"
+ name_mo.mandarin_language: "墨"
  name_mo.shu_language: "墨"
  name_mo.xiang_language: "墨"
  name_mo.gan_language: "墨"
@@ -8193,7 +8193,7 @@
  name_mo.kejia_language: "墨"
  name_mo.jin_language: "墨"
  name_mo4: "莫" #莫
- name_mo4.mandarin_language: "Mò"
+ name_mo4.mandarin_language: "墨"
  name_mo4.southern_mandarin_dialect: "莫"
  name_mo4.shu_language: "莫"
  name_mo4.xiang_language: "莫"
@@ -8219,7 +8219,7 @@
  name_montserrat: "モンセラート"
  name_montserrat.greek_language: "Monserrát"
  name_moon: "月"
- name_moon.arabic_language: "Qamar"
+ name_moon.arabic_language: "カマル"
  name_moran: "モラン"
  name_moran.gaelic_language: "モラン"
  name_morgan: "モーガン"
@@ -8248,7 +8248,7 @@
  name_mstislav.novgorodian_dialect: "ムスティスラフ"
  name_mstislav.ruthenian_language: "ムスティスラフ" # Мстислав Ukrainian
  name_mubariz: "ムバリス"
- name_mubariz.arabic_language: "Mubāriz"
+ name_mubariz.arabic_language: "ムバリス"
  name_mubariz.azeri_dialect: "ムバリズ"
  name_muhammad: "ムハンマド"
  name_muhammad.adharic_language: "モハマッド"
@@ -8281,7 +8281,7 @@
  name_muhammad.west_slavic_language: "モハメト" # Polish
  name_muhanna: "ムハナ"
  name_mukhtar: "ムフタール"
- name_mukhtar.arabic_language: "Muḵtār"
+ name_mukhtar.arabic_language: "ムフタール"
  name_mukhtar.maghrebi_dialect: "モフタール"
  name_mukhtar.persian_language: "モフタール"
  name_muluccio: "ムルッチョ"
@@ -8317,16 +8317,16 @@
  name_musciatto.diminutive: "ムスチャッティーノ"
  name_musso: "ムッソ"
  name_mustafa: "ムスタファ"
- name_mustafa.arabic_language: "Muṣṭafā"
+ name_mustafa.arabic_language: "ムスタファ"
  name_mustafa.turkish_language: "ムスタファ"
  name_mutius: "ムティウス"
  name_mutius.north_italian_language: "ムツィオ"
  name_mutius.south_italian_language: "ムツィオ"
  name_muzaffar: "ムザッファル"
- name_muzaffar.arabic_language: "Muẓaffar"
+ name_muzaffar.arabic_language: "ムザッファル"
  name_muzaffar.persian_language: "モザッファル"
  name_na: "娜" #娜
- name_na.mandarin_language: "Nà"
+ name_na.mandarin_language: "娜"
  name_na.yue_language: "娜"
  name_na.min_language: "娜"
  name_nadia: "ナディア"
@@ -8338,7 +8338,7 @@
  name_nadia.west_slavic_language.alternative: "ナジェイヤ"
  name_nachana: "ナチャナ"
  name_nafisa: "ナフィーサ"
- name_nafisa.arabic_language: "Nafīsa"
+ name_nafisa.arabic_language: "ナフィーサ"
  name_nafisa.turkish_language: "ネフィーセ"
  name_nafisa.turkmen_dialect: "ナフィーサ"
  name_nanne: "ナンヌ"
@@ -8411,7 +8411,7 @@
  name_nevena: "ネヴェナ"
  name_nevena.serbo_croatian_language: "ネヴェンカ"
  name_ni: "倪" #倪
- name_ni.mandarin_language: "Ní"
+ name_ni.mandarin_language: "宜"
  name_ni.yue_language: "倪"
  name_ni.min_language: "倪"
  name_ni.wu_language: "倪"
@@ -8507,11 +8507,11 @@
  name_nikephoros.greek_language: "Nikīphóros"
  name_niklot: "ニクロット"
  name_niloufar: "ニールーファル"
- name_niloufar.arabic_language: "Nīlūfar"
+ name_niloufar.arabic_language: "ニールーファル"
  name_niloufar.turkish_language: "ニリュフェル"
  name_niloufar.azeri_dialect: "ニルフェル"
  name_ning: "寧" #寧
- name_ning.mandarin_language: "Níng"
+ name_ning.mandarin_language: "寧"
  name_ning.southern_mandarin_dialect: "寧"
  name_ning.shu_language: "寧"
  name_ning.xiang_language: "寧"
@@ -8524,7 +8524,7 @@
  name_nino: "ニノ"
  name_nino.greek_language: "Níno" # Saint Nino, apostle of Georgia, venerated in the Orthodox church
  name_nizam: "ニザーム"
- name_nizam.arabic_language: "Niẓām"
+ name_nizam.arabic_language: "ニザーム"
  name_nizam.persian_language: "ネザーム"
  name_nizam.name_al_din.turkish_language: "ニザメッディン"
  name_nolan: "ノーラン"
@@ -8537,7 +8537,7 @@
  name_nostra.spanish_language: "ヌエストラ"
  name_notto: "ノット"
  name_nuan: "暖" #暖
- name_nuan.mandarin_language: "Nuǎn"
+ name_nuan.mandarin_language: "暖"
  name_nuan.xiang_language: "暖"
  name_nuan.gan_language: "暖"
  name_nuan.ping_language: "暖"
@@ -8636,12 +8636,12 @@
  name_oneca.basque_language: "オネカ"
  name_oneca.spanish_language: "オネカ"
  name_onesim: "オネシム"
- name_onesim.belarusian_dialect: "Onisim" # Онисім Belarusian
- name_onesim.east_slavic_language: "Onisim" # Онисим Russian
+ name_onesim.belarusian_dialect: "オニシム" # Онисім Belarusian
+ name_onesim.east_slavic_language: "オニシム" # Онисим Russian
  name_onesim.greek_language: "オネシモス" # Ονήσιμος
  name_onesim.latin_language: "オネシムス"
  name_onesim.novgorodian_dialect: "オネシム"
- name_onesim.ruthenian_language: "Onysym" # Онисим Ukrainian
+ name_onesim.ruthenian_language: "オニシム" # Онисим Ukrainian
  name_onesim.spanish_language: "オネシモ"
  name_ognyan: "オグニャン"
  name_ognyan.church_slavonic_language: "オグネン"
@@ -8662,8 +8662,8 @@
  name_ordelaffo: "オルデラッフォ" # North Italian & South Italian
  name_ordono: "オルドーニョ"
  name_ordono.latin_language: "オルドニウス"
- name_ordono.portuguese_language: "Ordoño"
- name_ordono.spanish_language: "Ordoño"
+ name_ordono.portuguese_language: "オルドーニョ"
+ name_ordono.spanish_language: "オルドーニョ"
  name_orestes: "オレステス"
  name_orestes.greek_language: "オレステス"
  name_orestes.south_italian_language: "オレステ"
@@ -8673,7 +8673,7 @@
  name_orm.icelandic_dialect: "オルム"
  name_orm.icelandic_dialect.genitive: "オルム"
  name_orzocorre: "オルゾッコ"
- name_orzocorre.south_italian_language: "Orzocco"
+ name_orzocorre.south_italian_language: "オルゾッコ"
  name_orzocorre.sardinian_dialect: "オロゾコル"
  name_oscar: "オスカール"
  name_oscar.greek_language: "オスカル" # Όσκαρ
@@ -8691,7 +8691,7 @@
  name_ostasio: "オスタシオ"
  name_ostoja: "オストヤ"
  name_otho: "Otho"
- name_otho.greek_language: "Othon" # Όθων
+ name_otho.greek_language: "オトン" # Όθων
  name_otho.latin_language: "Otho"
  name_otto: "オットー"
  name_otto.arpitan_dialect: "オトン"
@@ -8722,7 +8722,7 @@
  name_ottobonus.ligurian_dialect: "オットボーノ"
  name_ottobonus.south_italian_language: "オットブオーノ"
  name_ou: "欧" #歐
- name_ou.mandarin_language: "Ōu"
+ name_ou.mandarin_language: "奥羽"
  name_ou.southern_mandarin_dialect: "欧"
  name_ou.shu_language: "欧"
  name_ou.xiang_language: "欧"
@@ -8759,7 +8759,7 @@
  name_paraskevi.ruthenian_language: "プラスコーヴィャ"
  name_paraskevi.greek_language: "Paraskebí" # Παρασκευή
  name_pan: "潘" #潘
- name_pan.mandarin_language: "Pān"
+ name_pan.mandarin_language: "潘"
  name_pan.yue_language: "潘"
  name_pan.min_language: "潘"
  name_pan.wu_language: "潘"
@@ -8836,7 +8836,7 @@
  name_paul.serbian_dialect: "パヴレ"
  name_paul.serbo_croatian_language: "パヴレ"
  name_paul.slovene_dialect: "パヴェル"
- name_paul.rhaetian_dialect: "Pol"
+ name_paul.rhaetian_dialect: "政治"
  name_paul.south_italian_language: "パオロ"
  name_paul.sardinian_dialect: "パウル"
  name_paul.sicilian_dialect: "パウル"
@@ -8878,7 +8878,7 @@
  name_pelin: "ペリン"
  name_pelin.south_italian_language.diminutive: "ペリネッタ"
  name_peng: "彭" #彭
- name_peng.mandarin_language: "Péng"
+ name_peng.mandarin_language: "彭"
  name_peng.southern_mandarin_dialect: "彭"
  name_peng.shu_language: "彭"
  name_peng.xiang_language: "彭"
@@ -8942,7 +8942,7 @@
  name_peter.bulgarian_language: "ペタル"
  name_peter.breton_dialect: "ペル"
  name_peter.catalan_dialect: "ペレ"
- name_peter.church_slavonic_language: "Petar"
+ name_peter.church_slavonic_language: "ペタル"
  name_peter.czechslovak_language: "ペトル"
  name_peter.danish_dialect: "ペデル"
  name_peter.dutch_dialect: "ピーテル"
@@ -8967,12 +8967,12 @@
  name_peter.north_italian_language.alternative: "ピエロ"
  name_peter.south_italian_language: "ピエトロ" # MSI: Tuscan re-Latinisation
  name_peter.south_italian_language.alternative: "ピエロ"
- name_peter.venetian_dialect: "Piero"
+ name_peter.venetian_dialect: "ピエロ"
  name_peter.ligurian_dialect: "Pê"
- name_peter.emilian_dialect: "Piero"
- name_peter.piedmontese_dialect: "Piero"
+ name_peter.emilian_dialect: "ピエロ"
+ name_peter.piedmontese_dialect: "ピエロ"
  name_peter.rhaetian_dialect: "Pieder"
- name_peter.tuscan_dialect: "Piero"
+ name_peter.tuscan_dialect: "ピエロ"
  name_peter.sardinian_dialect: "ペドル"
  name_peter.sicilian_dialect: "ペトル"
  name_peter.spanish_language: "ペドロ"
@@ -8991,7 +8991,7 @@
  name_petra.english_language.diminutive: "ペレット"
  name_petra.south_italian_language.alternative: "ピエトラ"
  name_petra.south_italian_language.diminutive: "ペレッタ"
- name_petra.greek_language: "Pétra"
+ name_petra.greek_language: "ペトラ"
  name_petronilla: "ペトロニッラ" # English, North Italian & South Italian
  name_petronilla.arpitan_dialect: "ペトロリーナ"
  name_petronilla.basque_language: "ペトロニラ"
@@ -9070,7 +9070,7 @@
  name_philotheos: "フィロテオス"
  name_philotheos.greek_language: "Philótheos"
  name_phocas: "Phocas"
- name_phocas.greek_language: "Phokas" # Φωκάς
+ name_phocas.greek_language: "フォカス" # Φωκάς
  name_phocas.latin_language: "Phocas"
  name_phoebus: "フィーバス" # English & Latin
  name_phoebus.french_language: "フェブス"
@@ -9086,7 +9086,7 @@
  name_picardian_f.south_italian_language.diminutive: "ピッカルディーナ"
  name_pieternelle: "ピーテルネッレ"
  name_ping: "平" #平
- name_ping.mandarin_language: "Píng"
+ name_ping.mandarin_language: "平"
  name_ping.southern_mandarin_dialect: "平"
  name_ping.shu_language: "平"
  name_ping.xiang_language: "平"
@@ -9195,11 +9195,11 @@
  name_prudentius.spanish_language: "プルデンシオ"
  name_prudentius.greek_language: "Phroudéntios"
  name_pu: "溥" #溥
- name_pu.mandarin_language: "Pǔ"
+ name_pu.mandarin_language: "溥"
  name_pu.yue_language: "溥"
  name_pu.min_language: "溥"
  name_pu3: "普" #普
- name_pu3.mandarin_language: "Pǔ"
+ name_pu3.mandarin_language: "溥"
  name_pu3.yue_language: "普"
  name_pu3.min_language: "普"
  name_pu3.wu_language: "普"
@@ -9220,32 +9220,32 @@
  name_qamar: "カマル"
  name_qamar.turkish_language: "カメール"
  name_qasim: "カースィム"
- name_qasim.arabic_language: "Qāsim"
+ name_qasim.arabic_language: "カースィム"
  name_qasim.azeri_dialect: "ガスム"
  name_qasim.turkish_language: "カシム"
  name_qi: "啓" #啟
- name_qi.mandarin_language: "Qǐ"
+ name_qi.mandarin_language: "啓"
  name_qi.yue_language: "啓"
  name_qi.min_language: "啓"
  name_qi.kejia_language: "啓"
  name_qi1: "戚" #戚
- name_qi1.mandarin_language: "Qī"
+ name_qi1.mandarin_language: "気"
  name_qi1.yue_language: "戚"
  name_qi1.min_language: "戚"
  name_qi1.wu_language: "戚"
  name_qi1.kejia_language: "戚"
  name_qi2: "齊" #齊
- name_qi2.mandarin_language: "Qí"
+ name_qi2.mandarin_language: "齊"
  name_qi2.yue_language: "齊"
  name_qi2.min_language: "齊"
  name_qi2.wu_language: "齊"
  name_qi2.kejia_language: "齊"
  name_qi21: "祁" #祁
- name_qi21.mandarin_language: "Qí"
+ name_qi21.mandarin_language: "齊"
  name_qi21.yue_language: "祁"
  name_qi21.min_language: "祁"
  name_qi4: "気" #氣
- name_qi4.mandarin_language: "Qì"
+ name_qi4.mandarin_language: "気"
  name_qi4.southern_mandarin_dialect: "気"
  name_qi4.xiang_language: "気"
  name_qi4.gan_language: "気"
@@ -9256,13 +9256,13 @@
  name_qi4.kejia_language: "気"
  name_qi4.jin_language: "気"
  name_qiang: "強" #強
- name_qiang.mandarin_language: "Qiáng"
+ name_qiang.mandarin_language: "強"
  name_qiang.yue_language: "強"
  name_qiang.min_language: "強"
  name_qiang.wu_language: "強"
  name_qiang.kejia_language: "強"
  name_qian: "銭" #錢
- name_qian.mandarin_language: "Qián"
+ name_qian.mandarin_language: "銭"
  name_qian.southern_mandarin_dialect: "銭"
  name_qian.xiang_language: "銭"
  name_qian.gan_language: "銭"
@@ -9273,7 +9273,7 @@
  name_qian.kejia_language: "銭"
  name_qian.jin_language: "銭"
  name_qian1: "謙" #謙
- name_qian1.mandarin_language: "Qiān"
+ name_qian1.mandarin_language: "謙"
  name_qian1.xiang_language: "謙"
  name_qian1.gan_language: "謙"
  name_qian1.yue_language: "謙"
@@ -9282,7 +9282,7 @@
  name_qian1.kejia_language: "謙"
  name_qian1.jin_language: "謙"
  name_qiao: "巧" #巧
- name_qiao.mandarin_language: "Qiǎo"
+ name_qiao.mandarin_language: "巧"
  name_qiao.xiang_language: "巧"
  name_qiao.ping_language: "巧"
  name_qiao.yue_language: "巧"
@@ -9291,7 +9291,7 @@
  name_qiao.kejia_language: "巧"
  name_qiao.jin_language: "巧"
  name_qiao2: "喬" #喬
- name_qiao2.mandarin_language: "Qiáo"
+ name_qiao2.mandarin_language: "喬"
  name_qiao2.xiang_language: "喬"
  name_qiao2.gan_language: "喬"
  name_qiao2.yue_language: "喬"
@@ -9300,7 +9300,7 @@
  name_qiao2.kejia_language: "喬"
  name_qiao2.jin_language: "喬"
  name_qin: "秦" #秦
- name_qin.mandarin_language: "Qín"
+ name_qin.mandarin_language: "芹"
  name_qin.xiang_language: "秦"
  name_qin.yue_language: "秦"
  name_qin.min_language: "秦"
@@ -9308,7 +9308,7 @@
  name_qin.kejia_language: "秦"
  name_qin.jin_language: "秦"
  name_qin2: "芹" #芹
- name_qin2.mandarin_language: "Qín"
+ name_qin2.mandarin_language: "芹"
  name_qin2.xiang_language: "芹"
  name_qin2.gan_language: "芹"
  name_qin2.yue_language: "芹"
@@ -9317,7 +9317,7 @@
  name_qin2.kejia_language: "芹"
  name_qin2.jin_language: "芹"
  name_qing: "青" #青
- name_qing.mandarin_language: "Qīng"
+ name_qing.mandarin_language: "青"
  name_qing.southern_mandarin_dialect: "青"
  name_qing.shu_language: "青"
  name_qing.xiang_language: "青"
@@ -9329,7 +9329,7 @@
  name_qing.kejia_language: "青"
  name_qing.jin_language: "青"
  name_qiu: "秋" #秋
- name_qiu.mandarin_language: "Qiū"
+ name_qiu.mandarin_language: "邱"
  name_qiu.xiang_language: "秋"
  name_qiu.gan_language: "秋"
  name_qiu.yue_language: "秋"
@@ -9339,21 +9339,21 @@
  name_qiu.kejia_language: "秋"
  name_qiu.jin_language: "秋"
  name_qiu1: "丘" #丘
- name_qiu1.mandarin_language: "Qiū"
+ name_qiu1.mandarin_language: "邱"
  name_qiu1.gan_language: "丘"
  name_qiu1.yue_language: "丘"
  name_qiu1.min_language: "丘"
  name_qiu1.wu_language: "丘"
  name_qiu1.kejia_language: "丘"
  name_qiu12: "邱" #邱
- name_qiu12.mandarin_language: "Qiū"
+ name_qiu12.mandarin_language: "邱"
  name_qiu12.gan_language: "邱"
  name_qiu12.yue_language: "邱"
  name_qiu12.min_language: "邱"
  name_qiu12.wu_language: "邱"
  name_qiu12.kejia_language: "邱"
  name_qiu2: "仇" #仇
- name_qiu2.mandarin_language: "Qiú"
+ name_qiu2.mandarin_language: "仇"
  name_qiu2.yue_language: "仇"
  name_qiu2.min_language: "仇"
  name_qiu2.wu_language: "仇"
@@ -9412,7 +9412,7 @@
  name_ramla: "ラムラ"
  name_rasa: "ラーサ"
  name_rashida: "ラシーダ"
- name_rashida.arabic_language: "Rashīda"
+ name_rashida.arabic_language: "ラシーダ"
  name_rashida.maghrebi_dialect: "ラシダ"
  name_ranuccio: "ラヌッチョ"
  name_ranuccio.alternative: "ライヌッチョ"
@@ -9470,8 +9470,8 @@
  name_rayner.spanish_language: "レイニエロ"
  name_rayner.greek_language: "Rainéros"
  name_raynera: "レイネラ"
- name_raynera.south_italian_language: "Raniera"
- name_raynera.south_italian_language.diminutive: "Nera"
+ name_raynera.south_italian_language: "ラニエラ"
+ name_raynera.south_italian_language.diminutive: "ネラ"
  name_raynera.greek_language: "Rainéra"
  name_redondello: "レドンデッロ" # North Italian & South Italian
  name_redondello.spanish_language: "レドンデル"
@@ -9517,7 +9517,7 @@
  name_reinhild.dutch_dialect: "レインヒルデ"
  name_rembrandt: "レンブラント"
  name_ren: "任" #任
- name_ren.mandarin_language: "Rén"
+ name_ren.mandarin_language: "任"
  name_ren.southern_mandarin_dialect: "任"
  name_ren.shu_language: "任"
  name_ren.gan_language: "任"
@@ -9586,7 +9586,7 @@
  name_richilda.spanish_language: "リキルダ"
  name_riddag: "リッダグ"
  name_ridwan: "リドワーン"
- name_ridwan.arabic_language: "Riḍwān"
+ name_ridwan.arabic_language: "リドワーン"
  name_ridwan.turkish_language: "リドヴァン"
  name_rikissa: "リキッサ"
  name_rikissa.low_german_dialect: "リクサ" # western_pomeranian
@@ -9704,24 +9704,24 @@
  name_roman.sardinian_dialect: "ロマーヌ"
  name_roman.sicilian_dialect: "ロマーヌ"
  name_roman.spanish_language: "ロマン"
- name_romanos: "Romanos"
- name_romanos.bulgarian_language: "Roman"
- name_romanos.east_slavic_language: "Roman"
+ name_romanos: "ロマノス"
+ name_romanos.bulgarian_language: "ローマ語"
+ name_romanos.east_slavic_language: "ローマ語"
  name_romanos.greek_language: "Romanós" # Ρωμανός
- name_romanos.latin_language: "Romanus"
+ name_romanos.latin_language: "ロマヌス"
  name_romeo: "ロメオ" # English, North Italian, South Italian & Spanish
  name_romeo.catalan_dialect: "ロメウ"
  name_romeo.greek_language: "ロマイオス" # Ρωμαῖος
  name_romeo.latin_language: "ロマエス"
  name_romeo.portuguese_language: "ロメウ"
  name_rong: "戎" #戎
- name_rong.mandarin_language: "Róng"
+ name_rong.mandarin_language: "容"
  name_rong.yue_language: "戎"
  name_rong.min_language: "戎"
  name_rong.wu_language: "戎"
  name_rong.kejia_language: "戎"
  name_rong2: "栄" #榮
- name_rong2.mandarin_language: "Róng"
+ name_rong2.mandarin_language: "容"
  name_rong2.southern_mandarin_dialect: "栄"
  name_rong2.shu_language: "栄"
  name_rong2.xiang_language: "栄"
@@ -9732,7 +9732,7 @@
  name_rong2.kejia_language: "栄"
  name_rong2.jin_language: "栄"
  name_rong21: "容" #容
- name_rong21.mandarin_language: "Róng"
+ name_rong21.mandarin_language: "容"
  name_rong21.shu_language: "容"
  name_rong21.xiang_language: "容"
  name_rong21.gan_language: "容"
@@ -9836,7 +9836,7 @@
  name_sabine.spanish_language: "サビーナ"
  name_sabine.greek_language: "Sabína"
  name_safiya: "サフィーヤ"
- name_safiya.arabic_language: "Ṣafīya"
+ name_safiya.arabic_language: "サフィーヤ"
  name_safiya.turkish_language: "サフィエ"
  name_sadiq: "サディク"
  name_sadiq.azeri_dialect: "サディク"
@@ -9844,7 +9844,7 @@
  name_sadiq.south_arabic_language: "サディク"
  name_sadiq.turkish_language: "サディク"
  name_sahar: "サハル"
- name_sahar.arabic_language: "Saḥar"
+ name_sahar.arabic_language: "サハル"
  name_sahar.persian_language: "サハル"
  name_sahar.turkish_language: "セヘル"
  name_sahar.azeri_dialect: "シャハル"
@@ -9852,17 +9852,17 @@
  name_sahib.turkish_language: "サーヒプ"
  name_sahib.name_ata.turkish_language: "サーヒパタ"
  name_said: "サイード"
- name_said.arabic_language: "Sa'īd"
+ name_said.arabic_language: "サイード"
  name_said.azeri_dialect: "セイド"
- name_said.spanish_language: "Cid"
+ name_said.spanish_language: "シド"
  name_said.turkish_language: "サイット"
  name_saint: "サン"
  name_saint.south_italian_language: "サンテ"
  name_salih: "サーリフ"
- name_salih.arabic_language: "Ṣāliḥ"
+ name_salih.arabic_language: "サーリフ"
  name_salih.turkish_language: "サリフ"
  name_salim: "セリーム"
- name_salim.arabic_language: "Salīm"
+ name_salim.arabic_language: "セリーム"
  name_salim.turkish_language: "セリム"
  name_salinguerra: "サリングエッラ"
  name_salome: "サロメ" # English, German, Greek & Latin
@@ -9874,7 +9874,7 @@
  name_salome.west_slavic_language: "サロメア"
  name_salome.greek_language: "Salṓmī"
  name_samir: "サーミル"
- name_samir.arabic_language: "Sāmir"
+ name_samir.arabic_language: "サーミル"
  name_samir.azeri_dialect: "サミール"
  name_samir.turkish_language: "セミル"
  name_samira: "サミーラ"
@@ -9947,10 +9947,10 @@
  name_sara.south_arabic_language: "サーラ"
  name_sara.greek_language: "Sárra"
  name_sardar: "サルダール"
- name_sardar.arabic_language: "Sardār"
+ name_sardar.arabic_language: "サルダール"
  name_sardar.kashmiri_language: "シダール"
  name_sati: "サティ"
- name_sati.arabic_language: "Sātī"
+ name_sati.arabic_language: "サティ"
  name_sati.sanskrit_language: "サティ"
  name_saura: "サウラ"
  name_savage: "サベージ"
@@ -10045,20 +10045,20 @@
  name_sextus.greek_language: "Séxtos"
  name_sforza: "スフォルツァ" # North Italian & South Italian
  name_shabah: "サバーハ"
- name_shabah.arabic_language: "Ṣabāḥ"
+ name_shabah.arabic_language: "サバーハ"
  name_shabah.azeri_dialect: "シャバフ"
  name_shadi: "シャーディ"
- name_shadi.arabic_language: "Shādī"
+ name_shadi.arabic_language: "シャーディ"
  name_shah: "シャー"
  name_shah.persian_language: "シャー"
  name_shahnaz: "シャハナズ"
- name_shahnaz.persian_language: "Šâhnāz"
+ name_shahnaz.persian_language: "シャハナズ"
  name_shahnaz.turkish_language: "シャナズ"
  name_shahnshan: "Shahanshah"
- name_shahnshan.persian_language: "Šâhanšâh"
+ name_shahnshan.persian_language: "シャーハンシャー"
  name_shahnshan.armenian_language: "サンサ"
  name_shan: "山" #山
- name_shan.mandarin_language: "Shān"
+ name_shan.mandarin_language: "山"
  name_shan.southern_mandarin_dialect: "山"
  name_shan.shu_language: "山"
  name_shan.xiang_language: "山"
@@ -10072,13 +10072,13 @@
  name_shan.jin_language: "山"
  name_shanba: "シャンバ"
  name_shao: "邵" #邵
- name_shao.mandarin_language: "Shào"
+ name_shao.mandarin_language: "邵"
  name_shao.yue_language: "邵"
  name_shao.min_language: "邵"
  name_shao.wu_language: "邵"
  name_shao.kejia_language: "邵"
  name_sharif: "シャリーフ"
- name_sharif.arabic_language: "Šarīf"
+ name_sharif.arabic_language: "シャリーフ"
  name_sharif.maghrebi_dialect: "シェリフ"
  name_sharif.turkish_language: "シェリフ"
  name_sharifa: "シャリーファ"
@@ -10087,16 +10087,16 @@
  name_shea: "シェイ"
  name_shea.gaelic_language: "シェイ"
  name_shen: "沈" #沈
- name_shen.mandarin_language: "Shěn"
+ name_shen.mandarin_language: "沈"
  name_shen.yue_language: "沈"
  name_shen4: "慎" #慎
- name_shen4.mandarin_language: "Shèn"
+ name_shen4.mandarin_language: "慎"
  name_shen4.yue_language: "慎"
  name_shen4.min_language: "慎"
  name_shen4.wu_language: "慎"
  name_shen4.kejia_language: "慎"
  name_sheng: "勝" #勝
- name_sheng.mandarin_language: "Shèng"
+ name_sheng.mandarin_language: "勝"
  name_sheng.xiang_language: "勝"
  name_sheng.yue_language: "勝"
  name_sheng.min_language: "勝"
@@ -10106,7 +10106,7 @@
  name_sherali.adharic_language: "シレリ"
  name_sherali.azeri_dialect: "シレリ"
  name_shi: "時" #時
- name_shi.mandarin_language: "Shí"
+ name_shi.mandarin_language: "石"
  name_shi.shu_language: "時"
  name_shi.xiang_language: "時"
  name_shi.gan_language: "時"
@@ -10117,7 +10117,7 @@
  name_shi.kejia_language: "時"
  name_shi.jin_language: "時"
  name_shi1: "施" #施
- name_shi1.mandarin_language: "Shī"
+ name_shi1.mandarin_language: "施"
  name_shi1.southern_mandarin_dialect: "施"
  name_shi1.shu_language: "施"
  name_shi1.xiang_language: "施"
@@ -10129,7 +10129,7 @@
  name_shi1.kejia_language: "施"
  name_shi1.jin_language: "施"
  name_shi2: "石" #石
- name_shi2.mandarin_language: "Shí"
+ name_shi2.mandarin_language: "石"
  name_shi2.southern_mandarin_dialect: "石"
  name_shi2.shu_language: "石"
  name_shi2.xiang_language: "石"
@@ -10141,7 +10141,7 @@
  name_shi2.kejia_language: "石"
  name_shi2.jin_language: "石"
  name_shi3: "史" #史
- name_shi3.mandarin_language: "Shǐ"
+ name_shi3.mandarin_language: "史"
  name_shi3.xiang_language: "史"
  name_shi3.gan_language: "史"
  name_shi3.yue_language: "史"
@@ -10150,7 +10150,7 @@
  name_shi3.kejia_language: "史"
  name_shi3.jin_language: "史"
  name_shi4: "士" #士
- name_shi4.mandarin_language: "Shì"
+ name_shi4.mandarin_language: "士"
  name_shi4.southern_mandarin_dialect: "士"
  name_shi4.shu_language: "士"
  name_shi4.xiang_language: "士"
@@ -10163,7 +10163,7 @@
  name_shi4.jin_language: "士"
  name_shishman: "シシュマン"
  name_shou: "壽" #壽
- name_shou.mandarin_language: "Shòu"
+ name_shou.mandarin_language: "壽"
  name_shou.southern_mandarin_dialect: "壽"
  name_shou.yue_language: "壽"
  name_shou.min_language: "壽"
@@ -10172,13 +10172,13 @@
  name_shou.kejia_language: "壽"
  name_shou.jin_language: "壽"
  name_shu: "淑" #淑
- name_shu.mandarin_language: "Shū"
+ name_shu.mandarin_language: "淑"
  name_shu.yue_language: "淑"
  name_shu.min_language: "淑"
  name_shu.wu_language: "淑"
  name_shu.kejia_language: "淑"
  name_shu1: "舒" #舒
- name_shu1.mandarin_language: "Shū"
+ name_shu1.mandarin_language: "淑"
  name_shu1.xiang_language: "舒"
  name_shu1.gan_language: "舒"
  name_shu1.yue_language: "舒"
@@ -10187,7 +10187,7 @@
  name_shu1.kejia_language: "舒"
  name_shu1.jin_language: "舒"
  name_shun: "順" #順
- name_shun.mandarin_language: "Shùn"
+ name_shun.mandarin_language: "順"
  name_shun.southern_mandarin_dialect: "順"
  name_shun.shu_language: "順"
  name_shun.xiang_language: "順"
@@ -10199,7 +10199,7 @@
  name_shun.kejia_language: "順"
  name_shun.jin_language: "順"
  name_si: "思" #思
- name_si.mandarin_language: "Sī"
+ name_si.mandarin_language: "思"
  name_si.xiang_language: "思"
  name_si.gan_language: "思"
  name_si.min_language: "思"
@@ -10222,7 +10222,7 @@
  name_sigfrid.south_italian_language: "シグフリード"
  name_sigfrid.spanish_language: "シグフリード"
  name_sigfrid.swedish_dialect: "シグフリド"
- name_sigfrid.west_slavic_language: "Zygfryd"
+ name_sigfrid.west_slavic_language: "ツィグフリート"
  name_siginulf: "シギヌルフ"
  name_siginulf.south_italian_language: "シギノルフォ"
  name_siginulf.south_italian_language.diminutive: "ノルフォ"
@@ -10307,7 +10307,7 @@
  name_simone.sicilian_dialect: "シムナ"
  name_simone.greek_language: "Simōn"
  name_sinan: "スィナン"
- name_sinan.arabic_language: "Sinân"
+ name_sinan.arabic_language: "スィナン"
  name_sinan.azeri_dialect: "セナン"
  name_sinan.turkish_language: "シナン"
  name_sinibaldo: "シニバルド"
@@ -10341,7 +10341,7 @@
  name_solveig: "ソルヴェイグ"
  name_solveig.baltic_language: "ソルヴェイガ"
  name_song: "宋" #宋
- name_song.mandarin_language: "Sòng"
+ name_song.mandarin_language: "宋"
  name_song.southern_mandarin_dialect: "宋"
  name_song.xiang_language: "宋"
  name_song.gan_language: "宋"
@@ -10477,11 +10477,11 @@
  name_sture: "ストゥーレ"
  name_syrgiannes: "Syrgiannes"
  name_su: "肅" #肅
- name_su.mandarin_language: "Sù"
+ name_su.mandarin_language: "肅"
  name_su.yue_language: "肅"
  name_su.min_language: "肅"
  name_su1: "蘇" #蘇
- name_su1.mandarin_language: "Sū"
+ name_su1.mandarin_language: "蘇"
  name_su1.xiang_language: "蘇"
  name_su1.gan_language: "蘇"
  name_su1.yue_language: "蘇"
@@ -10490,7 +10490,7 @@
  name_su1.kejia_language: "蘇"
  name_su1.jin_language: "蘇"
  name_subhan: "スブハーン"
- name_subhan.arabic_language: "Subḥān"
+ name_subhan.arabic_language: "スブハーン"
  name_subhan.azeri_dialect: "スブハン"
  name_sucidus: "スチドゥス"
  name_sucidus.south_italian_language: "ソッゾ"
@@ -10512,7 +10512,7 @@
  name_sun.south_arabic_language: "シャムス"
  name_sun.spanish_language: "ソル"
  name_sun1: "孫" #孫
- name_sun1.mandarin_language: "Sūn"
+ name_sun1.mandarin_language: "孫"
  name_sun1.southern_mandarin_dialect: "孫"
  name_sun1.xiang_language: "孫"
  name_sun1.gan_language: "孫"
@@ -10613,14 +10613,14 @@
  name_tamara.greek_language: "タマル"
  name_tamara.hebrew_language: "タマル"
  name_tan: "譚" #譚
- name_tan.mandarin_language: "Tán"
+ name_tan.mandarin_language: "譚"
  name_tan.xiang_language: "譚"
  name_tan.yue_language: "譚"
  name_tan.min_language: "譚"
  name_tan.wu_language: "譚"
  name_tan.kejia_language: "譚"
  name_tang: "唐" #唐
- name_tang.mandarin_language: "Táng"
+ name_tang.mandarin_language: "唐"
  name_tang.xiang_language: "唐"
  name_tang.gan_language: "唐"
  name_tang.yue_language: "唐"
@@ -10629,7 +10629,7 @@
  name_tang.kejia_language: "唐"
  name_tang.jin_language: "唐"
  name_tang1: "湯" #湯
- name_tang1.mandarin_language: "Tāng"
+ name_tang1.mandarin_language: "湯"
  name_tang1.southern_mandarin_dialect: "湯"
  name_tang1.xiang_language: "湯"
  name_tang1.gan_language: "湯"
@@ -10642,7 +10642,7 @@
  name_tanush: "タヌシュ"
  name_tanush.south_italian_language: "タヌージオ"
  name_tao: "濤" #濤
- name_tao.mandarin_language: "Tāo"
+ name_tao.mandarin_language: "濤"
  name_tao.xiang_language: "濤"
  name_tao.gan_language: "濤"
  name_tao.yue_language: "濤"
@@ -10650,7 +10650,7 @@
  name_tao.wu_language: "濤"
  name_tao.kejia_language: "濤"
  name_tao1: "陶" #陶
- name_tao1.mandarin_language: "Tāo"
+ name_tao1.mandarin_language: "濤"
  name_tao1.xiang_language: "陶"
  name_tao1.gan_language: "陶"
  name_tao1.yue_language: "陶"
@@ -10684,7 +10684,7 @@
  name_terentius.ruthenian_language: "テレンティー" # Терентій Ukrainian
  name_terentius.greek_language: "Teréntion"
  name_thabid: "サービト"
- name_thabid.arabic_language: "Thābit"
+ name_thabid.arabic_language: "サービト"
  name_thaddea: "サデア"
  name_thaddea.south_italian_language: "タッデア"
  name_thaddea.spanish_language: "タデア"
@@ -10796,7 +10796,7 @@
  name_theodosius.serbo_croatian_language: "テオドシエ"
  name_theodosius.spanish_language: "テオドシオ"
  name_theophilos: "Theophilos"
- name_theophilos.east_slavic_language: "Feofil"
+ name_theophilos.east_slavic_language: "フェオフィル"
  name_theophilos.greek_language: "Theóphilos" # Θεόφιλος
  name_theophilos.latin_language: "Theophilus"
  name_theophilos.serbo_croatian_language: "Teofilakt"
@@ -10891,7 +10891,7 @@
  name_thyrsus.spanish_language: "ティルソ"
  name_thyrsus.greek_language: "Thýrsos"
  name_tian: "田" #田
- name_tian.mandarin_language: "Tián"
+ name_tian.mandarin_language: "田"
  name_tian.xiang_language: "田"
  name_tian.gan_language: "田"
  name_tian.yue_language: "田"
@@ -10922,10 +10922,10 @@
  name_timur: "ティムル"
  name_timur.karluk_language: "テムル"
  name_timur.mongolian_language: "テムル"
- name_timur.turkish_language: "Demir"
+ name_timur.turkish_language: "デミル"
  name_timur.turkmen_dialect: "テムル"
  name_ting: "婷" #婷
- name_ting.mandarin_language: "Tíng"
+ name_ting.mandarin_language: "婷"
  name_ting.yue_language: "婷"
  name_ting.min_language: "婷"
  name_ting.kejia_language: "婷"
@@ -10951,7 +10951,7 @@
  name_tomislav: "トムスラヴ"
  name_tomislav.west_slavic_language: "トミスワフ"
  name_tong: "桐" #桐
- name_tong.mandarin_language: "Tóng"
+ name_tong.mandarin_language: "童"
  name_tong.gan_language: "桐"
  name_tong.yue_language: "桐"
  name_tong.min_language: "桐"
@@ -10959,7 +10959,7 @@
  name_tong.kejia_language: "桐"
  name_tong.jin_language: "桐"
  name_tong1: "通" #通
- name_tong1.mandarin_language: "Tōng"
+ name_tong1.mandarin_language: "通"
  name_tong1.xiang_language: "通"
  name_tong1.gan_language: "通"
  name_tong1.ping_language: "通"
@@ -10969,7 +10969,7 @@
  name_tong1.kejia_language: "通"
  name_tong1.jin_language: "通"
  name_tong2: "童" #童
- name_tong2.mandarin_language: "Tóng"
+ name_tong2.mandarin_language: "童"
  name_tong2.xiang_language: "童"
  name_tong2.gan_language: "童"
  name_tong2.yue_language: "童"
@@ -10984,7 +10984,7 @@
  name_torbjorn.sardinian_dialect: "トルベニウ"
  name_torbjorn.south_italian_language: "トルベノ"
  name_torbjorn.spanish_language: "トルベノ"
- name_torbjorn.swedish_dialect: "Torbjörn"
+ name_torbjorn.swedish_dialect: "トールビヨン"
  name_torchitorio: "トルキトリオ"
  name_torchitorio.sardinian: "トルキトル"
  name_torquil: "トルキル"
@@ -10993,7 +10993,7 @@
  name_torvid: "トルヴィッド"
  name_torvid.icelandic_dialect: "トルヴィル"
  name_torvid.icelandic_dialect.genitive: "ソルヴィズ"
- name_trajan: "Trajan"
+ name_trajan: "トラヤン"
  name_trajan.greek_language: "Traianos" # Τραιανός
  name_trajan.latin_language: "Traianus"
  name_trajan.portuguese_language: "Trajano"
@@ -11006,7 +11006,7 @@
  name_trincia: "トリンチャ"
  name_tristan: "トリスタン"
  name_tristan.catalan_dialect: "トリスタニ"
- name_tristan.galician_dialect: "Tristán"
+ name_tristan.galician_dialect: "トリスタン"
  name_tristan.portuguese_language: "トリスタン"
  name_tristan.spanish_language: "トリスタン"
  name_tristan.greek_language: "Tristános"
@@ -11057,7 +11057,7 @@
  name_ulrick.west_slavic_language: "オールドリッチ"
  name_ulrike: "Ulrike"
  name_ulrike.scandinavian_language: "Ulrikke"
- name_ulrike.swedish_dialect: "Ulrika"
+ name_ulrike.swedish_dialect: "ウルリカ"
  name_ulysses: "ユリシーズ" # English & Latin
  name_ulysses.catalan_dialect: "ウリセス"
  name_ulysses.east_slavic_language: "オディッシェ" #Russian: Одиссей
@@ -11114,13 +11114,13 @@
  name_ursus.south_italian_language.diminutive: "オルセッロ"
  name_ursus.greek_language: "Oúrsos"
  name_vaclav: "ヴァーツラフ"
- name_vaclav.czechslovak_language: "Václav"
+ name_vaclav.czechslovak_language: "ヴァーツラフ"
  name_vaclav.serbo_croatian_language: "ヴィシェスラヴ"
  name_vaclav.slovene_dialect: "ヴェンチェスラヴ"
  name_vaclava: "ヴァーツラヴァ"
  name_vaclava.east_slavic_language: "ヴャチェスラヴァ"
  name_vaclava.ruthenian_language: "ヴャチェスラヴァ"
- name_vaclava.serbo_croatian_language: "Václava"
+ name_vaclava.serbo_croatian_language: "ヴァーツラヴァ"
  name_vaclava.west_slavic_language: "ヴァツワヴァ"
  name_vaclava.west_slavic_language.alternative: "ヴィスワヴァ"
  name_vahram: "ヴァフラム"
@@ -11167,7 +11167,7 @@
  name_valerius: "ウァレリウス"
  name_valerius.east_slavic_language: "ヴァレリイ"
  name_valerius.greek_language: "Balérios" # Βαλέριος
- name_valerius.latin_language: "Valerius"
+ name_valerius.latin_language: "ウァレリウス"
  name_valerius.portuguese_language: "ヴァレリオ"
  name_valerius.romanian_language: "ヴァレリウ"
  name_valerius.ruthenian_language: "ヴァレリイ"
@@ -11339,7 +11339,7 @@
  name_vysheslav.novgorodian_dialect: "ヴィシェスラフ"
  name_vytenis: "ヴィテニス"
  name_wahida: "ワヒーダ"
- name_wahida.arabic_language: "Waḥīda"
+ name_wahida.arabic_language: "ワヒーダ"
  name_wahida.turkish_language: "ヴァヒデ"
  name_walburga: "ヴァルブルガ" # Spanish & West Slavic
  name_walburga.catalan_dialect: "ヴァルブルガ"
@@ -11374,13 +11374,13 @@
  name_walderam: "ヴァルデラム"
  name_walderam.dutch_dialect: "ヴァールラム"
  name_wali: "ワリ"
- name_wali.arabic_language: "Walī"
+ name_wali.arabic_language: "ワリ"
  name_waleram: "ワレラム"
  name_waleram.catalan_dialect: "ワレラ"
  name_waleram.french_language: "ヴァレラン"
  name_waleram.german_language: "ヴァルラム"
  name_waleram.greek_language: "バレラン"
- name_waleram.latin_language: "Waleranus"
+ name_waleram.latin_language: "ヴァレラヌス"
  name_waleram.south_italian_language: "ヴァレラノ"
  name_waleram.spanish_language: "ヴァレラノ"
  name_walraven: "ヴァルラーヴェン"
@@ -11419,7 +11419,7 @@
  name_wandelberta.south_italian_language: "グアンデルベルタ"
  name_wandelberta.spanish_language: "グアンデルベルタ"
  name_wan: "萬" #萬
- name_wan.mandarin_language: "Wàn"
+ name_wan.mandarin_language: "萬"
  name_wan.southern_mandarin_dialect: "萬"
  name_wan.xiang_language: "萬"
  name_wan.gan_language: "萬"
@@ -11430,7 +11430,7 @@
  name_wan.kejia_language: "萬"
  name_wan.jin_language: "萬"
  name_wang: "王" #王
- name_wang.mandarin_language: "Wáng"
+ name_wang.mandarin_language: "王"
  name_wang.xiang_language: "王"
  name_wang.gan_language: "王"
  name_wang.yue_language: "王"
@@ -11439,7 +11439,7 @@
  name_wang.kejia_language: "王"
  name_wang.jin_language: "王"
  name_wang1: "汪" #汪
- name_wang1.mandarin_language: "Wāng"
+ name_wang1.mandarin_language: "汪"
  name_wang1.southern_mandarin_dialect: "汪"
  name_wang1.xiang_language: "汪"
  name_wang1.gan_language: "汪"
@@ -11450,19 +11450,19 @@
  name_wang1.kejia_language: "汪"
  name_wang1.jin_language: "汪"
  name_wang4: "望" #望
- name_wang4.mandarin_language: "Wàng"
+ name_wang4.mandarin_language: "望"
  name_wang4.xiang_language: "望"
  name_wang4.yue_language: "望"
  name_wang4.min_language: "望"
  name_wang4.wu_language: "望"
  name_wang4.kejia_language: "望"
  name_wei: "偉" #偉
- name_wei.mandarin_language: "Wěi"
+ name_wei.mandarin_language: "偉"
  name_wei.yue_language: "偉"
  name_wei.min_language: "偉"
  name_wei.kejia_language: "偉"
  name_wei1: "威" #威
- name_wei1.mandarin_language: "Wēi"
+ name_wei1.mandarin_language: "微"
  name_wei1.xiang_language: "威"
  name_wei1.gan_language: "威"
  name_wei1.yue_language: "威"
@@ -11472,7 +11472,7 @@
  name_wei1.kejia_language: "威"
  name_wei1.jin_language: "威"
  name_wei12: "危" #危
- name_wei12.mandarin_language: "Wēi"
+ name_wei12.mandarin_language: "微"
  name_wei12.southern_mandarin_dialect: "危"
  name_wei12.shu_language: "危"
  name_wei12.xiang_language: "危"
@@ -11484,20 +11484,20 @@
  name_wei12.kejia_language: "危"
  name_wei12.jin_language: "危"
  name_wei13: "微" #微
- name_wei13.mandarin_language: "Wēi"
+ name_wei13.mandarin_language: "微"
  name_wei13.xiang_language: "微"
  name_wei13.yue_language: "微"
  name_wei13.min_language: "微"
  name_wei13.wu_language: "微"
  name_wei13.kejia_language: "微"
  name_wei2: "韋" #韋
- name_wei2.mandarin_language: "Wéi"
+ name_wei2.mandarin_language: "韋"
  name_wei2.yue_language: "韋"
  name_wei2.min_language: "韋"
  name_wei2.wu_language: "韋"
  name_wei2.kejia_language: "韋"
  name_wei4: "衛" #衛
- name_wei4.mandarin_language: "Wèi"
+ name_wei4.mandarin_language: "衛"
  name_wei4.gan_language: "衛"
  name_wei4.yue_language: "衛"
  name_wei4.min_language: "衛"
@@ -11506,7 +11506,7 @@
  name_wei4.kejia_language: "衛"
  name_wei4.jin_language: "衛"
  name_wei42: "魏" #魏
- name_wei42.mandarin_language: "Wèi"
+ name_wei42.mandarin_language: "衛"
  name_wei42.xiang_language: "魏"
  name_wei42.gan_language: "魏"
  name_wei42.yue_language: "魏"
@@ -11514,7 +11514,7 @@
  name_wei42.wu_language: "魏"
  name_wei42.kejia_language: "魏"
  name_wen: "文" #文
- name_wen.mandarin_language: "Wén"
+ name_wen.mandarin_language: "聞"
  name_wen.southern_mandarin_dialect: "文"
  name_wen.shu_language: "文"
  name_wen.xiang_language: "文"
@@ -11526,7 +11526,7 @@
  name_wen.kejia_language: "文"
  name_wen.jin_language: "文"
  name_wen1: "温" #温
- name_wen1.mandarin_language: "Wēn"
+ name_wen1.mandarin_language: "温"
  name_wen1.southern_mandarin_dialect: "温"
  name_wen1.xiang_language: "温"
  name_wen1.gan_language: "温"
@@ -11537,14 +11537,14 @@
  name_wen1.kejia_language: "温"
  name_wen1.jin_language: "温"
  name_wen2: "聞" #聞
- name_wen2.mandarin_language: "Wén"
+ name_wen2.mandarin_language: "聞"
  name_wen2.gan_language: "聞"
  name_wen2.yue_language: "聞"
  name_wen2.min_language: "聞"
  name_wen2.wu_language: "聞"
  name_wen2.kejia_language: "聞"
  name_wen22: "雯" #雯
- name_wen22.mandarin_language: "Wén"
+ name_wen22.mandarin_language: "聞"
  name_wen22.yue_language: "雯"
  name_wen22.min_language: "雯"
  name_wen22.wu_language: "雯"
@@ -11587,7 +11587,7 @@
  name_wibrand: "ヴィブランド"
  name_wibrand.frisian_language: "ヴィブランド"
  name_widan: "ウィダン"
- name_widan.breton_dialect: "Guyonne"
+ name_widan.breton_dialect: "ギヨンヌ"
  name_widan.french_language: "ギヨット"
  name_widan.south_italian_language: "ギダ"
  name_widan.spanish_language: "ギダ"
@@ -11602,7 +11602,7 @@
  name_wido.greek_language: "グイドス" # Γουίδος
  name_wido.latin_language: "グイドス"
  name_wido.occitan_language: "グイ"
- name_wido.poitevin_dialect.diminutive: "Guiart"
+ name_wido.poitevin_dialect.diminutive: "ギアール"
  name_wido.sicilian_dialect: "グイドゥ"
  name_wido.south_italian_language: "グイード"
  name_wido.south_italian_language.diminutive: "グイディソ"
@@ -11695,7 +11695,7 @@
  name_wolfgang.turkish_language: "ヴォルファング"
  name_wok: "ウォク"
  name_wu: "呉" #吳
- name_wu.mandarin_language: "Wú"
+ name_wu.mandarin_language: "吾"
  name_wu.xiang_language: "呉"
  name_wu.gan_language: "呉"
  name_wu.yue_language: "呉"
@@ -11704,14 +11704,14 @@
  name_wu.kejia_language: "呉"
  name_wu.jin_language: "呉"
  name_wu2: "吾" #吾
- name_wu2.mandarin_language: "Wú"
+ name_wu2.mandarin_language: "吾"
  name_wu2.southern_mandarin_dialect: "吾"
  name_wu2.yue_language: "吾"
  name_wu2.min_language: "吾"
  name_wu2.wu_language: "吾"
  name_wu2.kejia_language: "吾"
  name_wu3: "武" #武
- name_wu3.mandarin_language: "Wǔ"
+ name_wu3.mandarin_language: "武"
  name_wu3.southern_mandarin_dialect: "武"
  name_wu3.shu_language: "武"
  name_wu3.xiang_language: "武"
@@ -11723,13 +11723,13 @@
  name_wu3.kejia_language: "武"
  name_wu3.jin_language: "武"
  name_wu32: "伍" #伍
- name_wu32.mandarin_language: "Wǔ"
+ name_wu32.mandarin_language: "武"
  name_wu32.yue_language: "伍"
  name_wu32.min_language: "伍"
  name_wu32.wu_language: "伍"
  name_wu32.kejia_language: "伍"
  name_wu4: "務" #務
- name_wu4.mandarin_language: "Wù"
+ name_wu4.mandarin_language: "務"
  name_wu4.yue_language: "務"
  name_wu4.min_language: "務"
  name_wu4.wu_language: "務"
@@ -11791,30 +11791,30 @@
  name_xwaja.mongolian_language: "クア"
  name_xwaja.south_arabic_language: "カウージャ"
  name_xi: "僖" #僖
- name_xi.mandarin_language: "Xī"
+ name_xi.mandarin_language: "僖"
  name_xi.yue_language: "僖"
  name_xi.min_language: "僖"
  name_xia: "霞" #霞
- name_xia.mandarin_language: "Xiá"
+ name_xia.mandarin_language: "霞"
  name_xia.gan_language: "霞"
  name_xia.yue_language: "霞"
  name_xia.min_language: "霞"
  name_xia.wu_language: "霞"
  name_xia.kejia_language: "霞"
  name_xia4: "夏" #夏
- name_xia4.mandarin_language: "Xià"
+ name_xia4.mandarin_language: "夏"
  name_xia4.xiang_language: "夏"
  name_xia4.yue_language: "夏"
  name_xia4.min_language: "夏"
  name_xia4.wu_language: "夏"
  name_xia4.kejia_language: "夏"
  name_xian: "顕" #顯
- name_xian.mandarin_language: "Xiǎn"
+ name_xian.mandarin_language: "顕"
  name_xian.yue_language: "顕"
  name_xian.min_language: "顕"
  name_xian.kejia_language: "顕"
  name_xiang: "翔" #翔
- name_xiang.mandarin_language: "Xiáng"
+ name_xiang.mandarin_language: "祥"
  name_xiang.xiang_language: "翔"
  name_xiang.gan_language: "翔"
  name_xiang.yue_language: "翔"
@@ -11823,13 +11823,13 @@
  name_xiang.kejia_language: "翔"
  name_xiang.jin_language: "翔"
  name_xiang1: "相" #相
- name_xiang1.mandarin_language: "Xiāng"
+ name_xiang1.mandarin_language: "項"
  name_xiang1.yue_language: "相"
  name_xiang1.min_language: "相"
  name_xiang1.wu_language: "相"
  name_xiang1.kejia_language: "相"
  name_xiang12: "香" #香
- name_xiang12.mandarin_language: "Xiāng"
+ name_xiang12.mandarin_language: "項"
  name_xiang12.southern_mandarin_dialect: "香"
  name_xiang12.xiang_language: "香"
  name_xiang12.gan_language: "香"
@@ -11841,7 +11841,7 @@
  name_xiang12.kejia_language: "香"
  name_xiang12.jin_language: "香"
  name_xiang2: "祥" #祥
- name_xiang2.mandarin_language: "Xiáng"
+ name_xiang2.mandarin_language: "祥"
  name_xiang2.southern_mandarin_dialect: "祥"
  name_xiang2.xiang_language: "祥"
  name_xiang2.gan_language: "祥"
@@ -11852,13 +11852,13 @@
  name_xiang2.kejia_language: "祥"
  name_xiang2.jin_language: "祥"
  name_xiang4: "向" #向
- name_xiang4.mandarin_language: "Xiàng"
+ name_xiang4.mandarin_language: "向"
  name_xiang4.yue_language: "向"
  name_xiang4.min_language: "向"
  name_xiang4.wu_language: "向"
  name_xiang4.kejia_language: "向"
  name_xiang42: "項" #項
- name_xiang42.mandarin_language: "Xiàng"
+ name_xiang42.mandarin_language: "向"
  name_xiang42.southern_mandarin_dialect: "項"
  name_xiang42.shu_language: "項"
  name_xiang42.xiang_language: "項"
@@ -11870,7 +11870,7 @@
  name_xiang42.kejia_language: "項"
  name_xiang42.jin_language: "項"
  name_xiao: "蕭" #蕭
- name_xiao.mandarin_language: "Xiāo"
+ name_xiao.mandarin_language: "蕭"
  name_xiao.southern_mandarin_dialect: "蕭"
  name_xiao.xiang_language: "蕭"
  name_xiao.gan_language: "蕭"
@@ -11881,7 +11881,7 @@
  name_xiao.kejia_language: "蕭"
  name_xiao.jin_language: "蕭"
  name_xie: "謝" #謝
- name_xie.mandarin_language: "Xiè"
+ name_xie.mandarin_language: "謝"
  name_xie.southern_mandarin_dialect: "謝"
  name_xie.xiang_language: "謝"
  name_xie.gan_language: "謝"
@@ -11903,7 +11903,7 @@
  name_ximeno.spanish_language: "ヒメノ"
  name_ximeno.spanish_language.patronym: "ヒメネス"
  name_xin: "新" #新
- name_xin.mandarin_language: "Xīn"
+ name_xin.mandarin_language: "興"
  name_xin.southern_mandarin_dialect: "新"
  name_xin.xiang_language: "新"
  name_xin.gan_language: "新"
@@ -11914,13 +11914,13 @@
  name_xin.kejia_language: "新"
  name_xin.jin_language: "新"
  name_xin1: "辛" #辛
- name_xin1.mandarin_language: "Xīn"
+ name_xin1.mandarin_language: "興"
  name_xin1.yue_language: "辛"
  name_xin1.min_language: "辛"
  name_xin1.wu_language: "辛"
  name_xin1.kejia_language: "辛"
  name_xin12: "欣" #欣
- name_xin12.mandarin_language: "Xīn"
+ name_xin12.mandarin_language: "興"
  name_xin12.southern_mandarin_dialect: "欣"
  name_xin12.xiang_language: "欣"
  name_xin12.gan_language: "欣"
@@ -11931,7 +11931,7 @@
  name_xin12.kejia_language: "欣"
  name_xin12.jin_language: "欣"
  name_xin4: "信" #信
- name_xin4.mandarin_language: "Xìn"
+ name_xin4.mandarin_language: "興"
  name_xin4.southern_mandarin_dialect: "信"
  name_xin4.xiang_language: "信"
  name_xin4.gan_language: "信"
@@ -11942,7 +11942,7 @@
  name_xin4.kejia_language: "信"
  name_xin4.jin_language: "信"
  name_xing: "興" #興
- name_xing.mandarin_language: "Xīng"
+ name_xing.mandarin_language: "興"
  name_xing.southern_mandarin_dialect: "興"
  name_xing.shu_language: "興"
  name_xing.xiang_language: "興"
@@ -11953,7 +11953,7 @@
  name_xing.huizhou_language: "興"
  name_xing.kejia_language: "興"
  name_xiong: "熊" #熊
- name_xiong.mandarin_language: "Xióng"
+ name_xiong.mandarin_language: "熊"
  name_xiong.xiang_language: "熊"
  name_xiong.gan_language: "熊"
  name_xiong.yue_language: "熊"
@@ -11963,13 +11963,13 @@
  name_xiong.kejia_language: "熊"
  name_xiong.jin_language: "熊"
  name_xiu: "秀" #秀
- name_xiu.mandarin_language: "Xiù"
+ name_xiu.mandarin_language: "秀"
  name_xiu.yue_language: "秀"
  name_xiu.min_language: "秀"
  name_xiu.wu_language: "秀"
  name_xiu.kejia_language: "秀"
  name_xiu1: "修" #修
- name_xiu1.mandarin_language: "Xiū"
+ name_xiu1.mandarin_language: "修"
  name_xiu1.xiang_language: "修"
  name_xiu1.gan_language: "修"
  name_xiu1.yue_language: "修"
@@ -11978,7 +11978,7 @@
  name_xiu1.kejia_language: "修"
  name_xiu1.jin_language: "修"
  name_xu: "徐" #徐
- name_xu.mandarin_language: "Xú"
+ name_xu.mandarin_language: "徐"
  name_xu.southern_mandarin_dialect: "徐"
  name_xu.xiang_language: "徐"
  name_xu.gan_language: "徐"
@@ -11989,7 +11989,7 @@
  name_xu.kejia_language: "徐"
  name_xu.jin_language: "徐"
  name_xu3: "許" #許
- name_xu3.mandarin_language: "Xǔ"
+ name_xu3.mandarin_language: "許"
  name_xu3.xiang_language: "許"
  name_xu3.gan_language: "許"
  name_xu3.yue_language: "許"
@@ -11999,7 +11999,7 @@
  name_xu3.kejia_language: "許"
  name_xu3.jin_language: "許"
  name_xuan: "軒" #軒
- name_xuan.mandarin_language: "Xuān"
+ name_xuan.mandarin_language: "軒"
  name_xuan.southern_mandarin_dialect: "軒"
  name_xuan.xiang_language: "軒"
  name_xuan.yue_language: "軒"
@@ -12009,11 +12009,11 @@
  name_xuan.kejia_language: "軒"
  name_xuan.jin_language: "軒"
  name_xuan1: "萱" #萱
- name_xuan1.mandarin_language: "Xuān"
+ name_xuan1.mandarin_language: "軒"
  name_xuan1.yue_language: "萱"
  name_xuan1.min_language: "萱"
  name_xuan2: "玄" #玄
- name_xuan2.mandarin_language: "Xuán"
+ name_xuan2.mandarin_language: "玄"
  name_xuan2.southern_mandarin_dialect: "玄"
  name_xuan2.shu_language: "玄"
  name_xuan2.xiang_language: "玄"
@@ -12025,7 +12025,7 @@
  name_xuan2.kejia_language: "玄"
  name_xuan2.jin_language: "玄"
  name_xue: "雪" #雪
- name_xue.mandarin_language: "Xuě"
+ name_xue.mandarin_language: "雪"
  name_xue.southern_mandarin_dialect: "雪"
  name_xue.shu_language: "雪"
  name_xue.xiang_language: "雪"
@@ -12037,7 +12037,7 @@
  name_xue.kejia_language: "雪"
  name_xue.jin_language: "雪"
  name_xue1: "薛" #薛
- name_xue1.mandarin_language: "Xuē"
+ name_xue1.mandarin_language: "薛"
  name_xue1.southern_mandarin_dialect: "薛"
  name_xue1.shu_language: "薛"
  name_xue1.xiang_language: "薛"
@@ -12049,21 +12049,21 @@
  name_xue1.kejia_language: "薛"
  name_xue1.jin_language: "薛"
  name_ya: "雅" #雅
- name_ya.mandarin_language: "Yǎ"
+ name_ya.mandarin_language: "雅"
  name_ya.yue_language: "雅"
  name_ya.min_language: "雅"
  name_ya.wu_language: "雅"
  name_ya.kejia_language: "雅"
  name_yahya: "ヤヤ"
- name_yahya.arabic_language: "Yaḥyā"
+ name_yahya.arabic_language: "ヤヤ"
  name_yan: "艶" #豔
- name_yan.mandarin_language: "Yàn"
+ name_yan.mandarin_language: "顏"
  name_yan.yue_language: "艶"
  name_yan.min_language: "艶"
  name_yan.wu_language: "艶"
  name_yan.kejia_language: "艶"
  name_yan2: "厳" #嚴
- name_yan2.mandarin_language: "Yán"
+ name_yan2.mandarin_language: "羊"
  name_yan2.southern_mandarin_dialect: "厳"
  name_yan2.shu_language: "厳"
  name_yan2.xiang_language: "厳"
@@ -12076,7 +12076,7 @@
  name_yan2.kejia_language: "厳"
  name_yan2.jin_language: "厳"
  name_yan21: "閻" #閻
- name_yan21.mandarin_language: "Yán"
+ name_yan21.mandarin_language: "羊"
  name_yan21.shu_language: "閻"
  name_yan21.xiang_language: "閻"
  name_yan21.gan_language: "閻"
@@ -12086,19 +12086,19 @@
  name_yan21.kejia_language: "閻"
  name_yan21.jin_language: "閻"
  name_yan22: "顏" #顏
- name_yan22.mandarin_language: "Yàn"
+ name_yan22.mandarin_language: "顏"
  name_yan22.yue_language: "顏"
  name_yan22.min_language: "顏"
  name_yan22.wu_language: "顏"
  name_yan22.kejia_language: "顏"
  name_yang: "楊" #楊
- name_yang.mandarin_language: "Yáng"
+ name_yang.mandarin_language: "影"
  name_yang.yue_language: "楊"
  name_yang.min_language: "楊"
  name_yang.wu_language: "楊"
  name_yang.kejia_language: "楊"
  name_yang2: "洋" #洋
- name_yang2.mandarin_language: "Yáng"
+ name_yang2.mandarin_language: "影"
  name_yang2.xiang_language: "洋"
  name_yang2.gan_language: "洋"
  name_yang2.yue_language: "洋"
@@ -12107,7 +12107,7 @@
  name_yang2.kejia_language: "洋"
  name_yang2.jin_language: "洋"
  name_yang22: "陽" #陽
- name_yang22.mandarin_language: "Yáng"
+ name_yang22.mandarin_language: "影"
  name_yang22.xiang_language: "陽"
  name_yang22.gan_language: "陽"
  name_yang22.yue_language: "陽"
@@ -12116,7 +12116,7 @@
  name_yang22.kejia_language: "陽"
  name_yang22.jin_language: "陽"
  name_yang23: "羊" #羊
- name_yang23.mandarin_language: "Yáng"
+ name_yang23.mandarin_language: "影"
  name_yang23.southern_mandarin_dialect: "羊"
  name_yang23.xiang_language: "羊"
  name_yang23.gan_language: "羊"
@@ -12128,7 +12128,7 @@
  name_yang23.kejia_language: "羊"
  name_yang23.jin_language: "羊"
  name_yao: "姚" #姚
- name_yao.mandarin_language: "Yáo"
+ name_yao.mandarin_language: "姚"
  name_yao.yue_language: "姚"
  name_yao.min_language: "姚"
  name_yao.wu_language: "姚"
@@ -12146,7 +12146,7 @@
  name_yaroslava.czechslovak_language: "ヤロスラヴァ"
  name_yaroslava.west_slavic_language: "ヤロスワヴァ"
  name_ye: "葉" #葉
- name_ye.mandarin_language: "Yè"
+ name_ye.mandarin_language: "葉"
  name_ye.southern_mandarin_dialect: "葉"
  name_ye.shu_language: "葉"
  name_ye.xiang_language: "葉"
@@ -12158,12 +12158,12 @@
  name_ye.kejia_language: "葉"
  name_ye.jin_language: "葉"
  name_yi: "奕" #奕
- name_yi.mandarin_language: "Yì"
+ name_yi.mandarin_language: "兪"
  name_yi.yue_language: "奕"
  name_yi.min_language: "奕"
  name_yi.wu_language: "奕"
  name_yi1: "一" #一
- name_yi1.mandarin_language: "Yī"
+ name_yi1.mandarin_language: "義"
  name_yi1.southern_mandarin_dialect: "一"
  name_yi1.shu_language: "一"
  name_yi1.xiang_language: "一"
@@ -12176,18 +12176,18 @@
  name_yi1.kejia_language: "一"
  name_yi1.jin_language: "一"
  name_yi12: "依" #依
- name_yi12.mandarin_language: "Yī"
+ name_yi12.mandarin_language: "義"
  name_yi12.gan_language: "依"
  name_yi12.min_language: "依"
  name_yi12.wu_language: "依"
  name_yi12.kejia_language: "依"
  name_yi2: "儀" #儀
- name_yi2.mandarin_language: "Yí"
+ name_yi2.mandarin_language: "雨"
  name_yi2.yue_language: "儀"
  name_yi2.min_language: "儀"
  name_yi2.kejia_language: "儀"
  name_yi22: "宜" #宜
- name_yi22.mandarin_language: "Yí"
+ name_yi22.mandarin_language: "雨"
  name_yi22.shu_language: "宜"
  name_yi22.xiang_language: "宜"
  name_yi22.gan_language: "宜"
@@ -12198,13 +12198,13 @@
  name_yi22.kejia_language: "宜"
  name_yi22.jin_language: "宜"
  name_yi23: "怡" #怡
- name_yi23.mandarin_language: "Yí"
+ name_yi23.mandarin_language: "雨"
  name_yi23.yue_language: "怡"
  name_yi23.min_language: "怡"
  name_yi23.wu_language: "怡"
  name_yi23.kejia_language: "怡"
  name_yi4: "益" #益
- name_yi4.mandarin_language: "Yì"
+ name_yi4.mandarin_language: "兪"
  name_yi4.shu_language: "益"
  name_yi4.xiang_language: "益"
  name_yi4.gan_language: "益"
@@ -12214,7 +12214,7 @@
  name_yi4.kejia_language: "益"
  name_yi4.jin_language: "益"
  name_yi42: "義" #義
- name_yi42.mandarin_language: "Yì"
+ name_yi42.mandarin_language: "兪"
  name_yi42.southern_mandarin_dialect: "義"
  name_yi42.shu_language: "義"
  name_yi42.xiang_language: "義"
@@ -12226,23 +12226,23 @@
  name_yi42.kejia_language: "義"
  name_yi42.jin_language: "義"
  name_yi43: "易" #易
- name_yi43.mandarin_language: "Yì"
+ name_yi43.mandarin_language: "兪"
  name_yi43.yue_language: "易"
  name_yi43.min_language: "易"
  name_yi43.wu_language: "易"
  name_yi43.kejia_language: "易"
  name_yin: "蔭" #蔭
- name_yin.mandarin_language: "Yīn"
+ name_yin.mandarin_language: "応"
  name_yin.yue_language: "蔭"
  name_yin.min_language: "蔭"
  name_yin1: "殷" #殷
- name_yin1.mandarin_language: "Yīn"
+ name_yin1.mandarin_language: "応"
  name_yin1.yue_language: "殷"
  name_yin1.min_language: "殷"
  name_yin1.wu_language: "殷"
  name_yin1.kejia_language: "殷"
  name_yin2: "銀" #銀
- name_yin2.mandarin_language: "Yín"
+ name_yin2.mandarin_language: "穎"
  name_yin2.xiang_language: "銀"
  name_yin2.gan_language: "銀"
  name_yin2.ping_language: "銀"
@@ -12253,7 +12253,7 @@
  name_yin2.kejia_language: "銀"
  name_yin2.jin_language: "銀"
  name_yin21: "寅" #寅
- name_yin21.mandarin_language: "Yín"
+ name_yin21.mandarin_language: "穎"
  name_yin21.xiang_language: "寅"
  name_yin21.gan_language: "寅"
  name_yin21.yue_language: "寅"
@@ -12262,12 +12262,12 @@
  name_yin21.kejia_language: "寅"
  name_yin21.jin_language: "寅"
  name_yin3: "尹" #尹
- name_yin3.mandarin_language: "Yǐn"
+ name_yin3.mandarin_language: "影"
  name_yin3.yue_language: "尹"
  name_yin3.min_language: "尹"
  name_yin3.kejia_language: "尹"
  name_yin4: "印" #印
- name_yin4.mandarin_language: "Yìn"
+ name_yin4.mandarin_language: "印"
  name_yin4.xiang_language: "印"
  name_yin4.gan_language: "印"
  name_yin4.yue_language: "印"
@@ -12276,7 +12276,7 @@
  name_yin4.kejia_language: "印"
  name_yin4.jin_language: "印"
  name_ying: "英" #英
- name_ying.mandarin_language: "Yīng"
+ name_ying.mandarin_language: "応"
  name_ying.southern_mandarin_dialect: "英"
  name_ying.shu_language: "英"
  name_ying.xiang_language: "英"
@@ -12287,7 +12287,7 @@
  name_ying.kejia_language: "英"
  name_ying.jin_language: "英"
  name_ying1: "応" #應
- name_ying1.mandarin_language: "Yīng"
+ name_ying1.mandarin_language: "応"
  name_ying1.southern_mandarin_dialect: "応"
  name_ying1.shu_language: "応"
  name_ying1.xiang_language: "応"
@@ -12298,18 +12298,18 @@
  name_ying1.kejia_language: "応"
  name_ying1.jin_language: "応"
  name_ying2: "瑩" #瑩
- name_ying2.mandarin_language: "Yíng"
+ name_ying2.mandarin_language: "影"
  name_ying2.yue_language: "瑩"
  name_ying2.min_language: "瑩"
  name_ying3: "穎" #穎
- name_ying3.mandarin_language: "Yǐng"
+ name_ying3.mandarin_language: "影"
  name_ying3.yue_language: "穎"
  name_ying3.min_language: "穎"
  name_ying3.wu_language: "穎"
  name_ying3.kejia_language: "穎"
  name_ying3.jin_language: "穎"
  name_ying32: "影" #影
- name_ying32.mandarin_language: "Yǐng"
+ name_ying32.mandarin_language: "影"
  name_ying32.shu_language: "影"
  name_ying32.xiang_language: "影"
  name_ying32.gan_language: "影"
@@ -12339,13 +12339,13 @@
  name_yolande.west_slavic_language: "ヨランタ"
  name_yolande.greek_language: "Biolántha"
  name_yong: "雍" #雍
- name_yong.mandarin_language: "Yōng"
+ name_yong.mandarin_language: "雍"
  name_yong.yue_language: "雍"
  name_yong.min_language: "雍"
  name_yong.wu_language: "雍"
  name_yong.kejia_language: "雍"
  name_you: "友" #友
- name_you.mandarin_language: "Yǒu"
+ name_you.mandarin_language: "友"
  name_you.xiang_language: "友"
  name_you.gan_language: "友"
  name_you.yue_language: "友"
@@ -12354,7 +12354,7 @@
  name_you.kejia_language: "友"
  name_you.jin_language: "友"
  name_yu: "宇" #宇
- name_yu.mandarin_language: "Yǔ"
+ name_yu.mandarin_language: "玉"
  name_yu.xiang_language: "宇"
  name_yu.gan_language: "宇"
  name_yu.yue_language: "宇"
@@ -12362,29 +12362,29 @@
  name_yu.wu_language: "宇"
  name_yu.kejia_language: "宇"
  name_yu2: "余" #余
- name_yu2.mandarin_language: "Yú"
+ name_yu2.mandarin_language: "虞"
  name_yu2.yue_language: "余"
  name_yu2.min_language: "余"
  name_yu2.wu_language: "余"
  name_yu2.kejia_language: "余"
  name_yu2.jin_language: "余"
  name_yu22: "兪" #俞
- name_yu22.mandarin_language: "Yú"
+ name_yu22.mandarin_language: "虞"
  name_yu22.yue_language: "兪"
  name_yu22.min_language: "兪"
  name_yu22.kejia_language: "兪"
  name_yu23: "虞" #虞
- name_yu23.mandarin_language: "Yú"
+ name_yu23.mandarin_language: "虞"
  name_yu23.yue_language: "虞"
  name_yu23.min_language: "虞"
  name_yu23.kejia_language: "虞"
  name_yu24: "于" #于
- name_yu24.mandarin_language: "Yú"
+ name_yu24.mandarin_language: "虞"
  name_yu24.yue_language: "于"
  name_yu24.min_language: "于"
  name_yu24.wu_language: "于"
  name_yu3: "雨" #雨
- name_yu3.mandarin_language: "Yǔ"
+ name_yu3.mandarin_language: "玉"
  name_yu3.xiang_language: "雨"
  name_yu3.gan_language: "雨"
  name_yu3.yue_language: "雨"
@@ -12393,7 +12393,7 @@
  name_yu3.kejia_language: "雨"
  name_yu3.jin_language: "雨"
  name_yu4: "玉" #玉
- name_yu4.mandarin_language: "Yù"
+ name_yu4.mandarin_language: "玉"
  name_yu4.southern_mandarin_dialect: "玉"
  name_yu4.xiang_language: "玉"
  name_yu4.gan_language: "玉"
@@ -12404,13 +12404,13 @@
  name_yu4.kejia_language: "玉"
  name_yu4.jin_language: "玉"
  name_yuan: "袁" #袁
- name_yuan.mandarin_language: "Yuán"
+ name_yuan.mandarin_language: "元"
  name_yuan.yue_language: "袁"
  name_yuan.min_language: "袁"
  name_yuan.wu_language: "袁"
  name_yuan.kejia_language: "袁"
  name_yuan2: "元" #元
- name_yuan2.mandarin_language: "Yuán"
+ name_yuan2.mandarin_language: "元"
  name_yuan2.xiang_language: "元"
  name_yuan2.gan_language: "元"
  name_yuan2.yue_language: "元"
@@ -12420,7 +12420,7 @@
  name_yuan2.kejia_language: "元"
  name_yuan2.jin_language: "元"
  name_yuan21: "原" #原
- name_yuan21.mandarin_language: "Yuán"
+ name_yuan21.mandarin_language: "元"
  name_yuan21.xiang_language: "原"
  name_yuan21.gan_language: "原"
  name_yuan21.yue_language: "原"
@@ -12429,7 +12429,7 @@
  name_yuan21.kejia_language: "原"
  name_yuan21.jin_language: "原"
  name_yue: "月" #月
- name_yue.mandarin_language: "Yuè"
+ name_yue.mandarin_language: "月"
  name_yue.southern_mandarin_dialect: "月"
  name_yue.shu_language: "月"
  name_yue.xiang_language: "月"
@@ -12442,7 +12442,7 @@
  name_yue.kejia_language: "月"
  name_yue.jin_language: "月"
  name_yun: "允" #允
- name_yun.mandarin_language: "Yǔn"
+ name_yun.mandarin_language: "允"
  name_yun.xiang_language: "允"
  name_yun.gan_language: "允"
  name_yun.yue_language: "允"
@@ -12452,7 +12452,7 @@
  name_yun.kejia_language: "允"
  name_yun.jin_language: "允"
  name_yun2: "雲" #雲
- name_yun2.mandarin_language: "Yún"
+ name_yun2.mandarin_language: "允"
  name_yun2.xiang_language: "雲"
  name_yun2.gan_language: "雲"
  name_yun2.ping_language: "雲"
@@ -12463,7 +12463,7 @@
  name_yun2.kejia_language: "雲"
  name_yun2.jin_language: "雲"
  name_yun4: "惲" #惲
- name_yun4.mandarin_language: "Yùn"
+ name_yun4.mandarin_language: "雲"
  name_yun4.yue_language: "惲"
  name_yvonne: "イヴォンネ"
  name_yvonne.bulgarian_language: "イヴェト"
@@ -12485,12 +12485,12 @@
  name_zahra.south_arabic_language: "ザフラー"
  name_zahra.turkish_language: "ゼフラ"
  name_zan: "瓚" #瓚
- name_zan.mandarin_language: "Zàn"
+ name_zan.mandarin_language: "瓚"
  name_zan.yue_language: "瓚"
  name_zawisza: "ザヴィシャ"
  name_zbygnev: "ズビグニェフ"
- name_zbygnev.czechslovak_language: "Zbygněv"
- name_zbygnev.czechslovak_language.diminutive: "Zbyněk"
+ name_zbygnev.czechslovak_language: "ズビグニェフ"
+ name_zbygnev.czechslovak_language.diminutive: "ズビネク"
  name_zbygnev.west_slavic_language: "ズビグニェフ"
  name_zbygnev.west_slavic_language.alternative: "ズビシュコ"
  name_zbygnev.west_slavic_language.diminutive: "ズビシェク"
@@ -12500,7 +12500,7 @@
  name_zdzislaw: "ズジスワフ"
  name_zdzislaw.bulgarian_language: "ズデスラフ"
  name_zdzislaw.church_slavonic_language: "ズデスラフ"
- name_zdzislaw.west_slavic_language: "Zdzisław"
+ name_zdzislaw.west_slavic_language: "ズジスワフ"
  name_zechariah: "ゼカリヤ"
  name_zechariah.arabic_language: "ザカリヤ"
  name_zechariah.armenian_language: "ザカレ"
@@ -12511,7 +12511,7 @@
  name_zechariah.south_italian_language: "ザッカリア"
  name_zechariah.tamazight_language: "ゼカリヤ"
  name_zeljko: "ジェリコ"
- name_zeljko.serbo_croatian_language: "Željko"
+ name_zeljko.serbo_croatian_language: "ジェリコ"
  name_zenaida: "ゼナイダ"
  name_zenaida.arpitan_dialect: "ゼナイダ"
  name_zenaida.french_language: "ゼネイデ"
@@ -12519,14 +12519,14 @@
  name_zenaida.romanian_language: "ジナ"
  name_zenaida.greek_language: "Zīnaída"
  name_zeng: "曽" #曾
- name_zeng.mandarin_language: "Zēng"
+ name_zeng.mandarin_language: "曽"
  name_zeng.yue_language: "曽"
  name_zeng.min_language: "曽"
  name_zeng.wu_language: "曽"
  name_zeng.kejia_language: "曽"
- name_zeno: "Zeno"
+ name_zeno: "ゼノ"
  name_zeno.greek_language: "Zenon" # Ζήνων
- name_zeno.latin_language: "Zeno"
+ name_zeno.latin_language: "ゼノ"
  name_zeno.south_italian_language: "Zenone"
  name_zenobia: "ゼノビア" # Basque, Latin, North Italian, South Italian & Spanish
  name_zenobia.arabic_language: "ザイナブ"
@@ -12539,17 +12539,17 @@
  name_zenobia.greek_language: "Zīnobía"
  name_zephyrine: "ゼフィリン" # English
  name_zephyrine.latin_language: "ゼフィリナ"
- name_zephyrine.north_italian_language: "Zefferina"
- name_zephyrine.south_italian_language: "Zefirina"
+ name_zephyrine.north_italian_language: "ゼッフェリーナ"
+ name_zephyrine.south_italian_language: "ゼフェリーナ"
  name_zephyrine.spanish_language: "セフェリナ"
  name_zerra: "セラ"
  name_zhang: "仉" #仉
- name_zhang.mandarin_language: "Zhǎng"
+ name_zhang.mandarin_language: "仉"
  name_zhang.yue_language: "仉"
  name_zhang.min_language: "仉"
  name_zhang.wu_language: "仉"
  name_zhang1: "張" #張
- name_zhang1.mandarin_language: "Zhāng"
+ name_zhang1.mandarin_language: "璋"
  name_zhang1.southern_mandarin_dialect: "張"
  name_zhang1.shu_language: "張"
  name_zhang1.xiang_language: "張"
@@ -12561,10 +12561,10 @@
  name_zhang1.kejia_language: "張"
  name_zhang1.jin_language: "張"
  name_zhang12: "璋" #璋
- name_zhang12.mandarin_language: "Zhāng"
+ name_zhang12.mandarin_language: "璋"
  name_zhang12.yue_language: "璋"
  name_zhao: "趙" #趙
- name_zhao.mandarin_language: "Zhào"
+ name_zhao.mandarin_language: "趙"
  name_zhao.southern_mandarin_dialect: "趙"
  name_zhao.shu_language: "趙"
  name_zhao.xiang_language: "趙"
@@ -12576,7 +12576,7 @@
  name_zhao.jin_language: "趙"
  name_zhao.korean_language: "趙"
  name_zhen: "真" #真
- name_zhen.mandarin_language: "Zhēn"
+ name_zhen.mandarin_language: "征"
  name_zhen.shu_language: "真"
  name_zhen.xiang_language: "真"
  name_zhen.gan_language: "真"
@@ -12587,19 +12587,19 @@
  name_zhen.kejia_language: "真"
  name_zhen.jin_language: "真"
  name_zhen1: "甄" #甄
- name_zhen1.mandarin_language: "Zhēn"
+ name_zhen1.mandarin_language: "征"
  name_zhen1.yue_language: "甄"
  name_zhen1.min_language: "甄"
  name_zhen1.wu_language: "甄"
  name_zhen1.kejia_language: "甄"
  name_zhen12: "珍" #珍
- name_zhen12.mandarin_language: "Zhēn"
+ name_zhen12.mandarin_language: "征"
  name_zhen12.yue_language: "珍"
  name_zhen12.min_language: "珍"
  name_zhen12.wu_language: "珍"
  name_zhen12.kejia_language: "珍"
  name_zhen13: "貞" #貞
- name_zhen13.mandarin_language: "Zhēn"
+ name_zhen13.mandarin_language: "征"
  name_zhen13.southern_mandarin_dialect: "貞"
  name_zhen13.shu_language: "貞"
  name_zhen13.xiang_language: "貞"
@@ -12610,7 +12610,7 @@
  name_zhen13.kejia_language: "貞"
  name_zhen13.jin_language: "貞"
  name_zhen4: "鎮" #鎮
- name_zhen4.mandarin_language: "Zhèn"
+ name_zhen4.mandarin_language: "征"
  name_zhen4.southern_mandarin_dialect: "鎮"
  name_zhen4.xiang_language: "鎮"
  name_zhen4.gan_language: "鎮"
@@ -12620,7 +12620,7 @@
  name_zhen4.kejia_language: "鎮"
  name_zhen4.jin_language: "鎮"
  name_zheng: "鄭" #鄭
- name_zheng.mandarin_language: "Zhèng"
+ name_zheng.mandarin_language: "鄭"
  name_zheng.southern_mandarin_dialect: "鄭"
  name_zheng.shu_language: "鄭"
  name_zheng.yue_language: "鄭"
@@ -12629,7 +12629,7 @@
  name_zheng.kejia_language: "鄭"
  name_zheng.jin_language: "鄭"
  name_zheng1: "征" #征
- name_zheng1.mandarin_language: "Zhēng"
+ name_zheng1.mandarin_language: "征"
  name_zheng1.southern_mandarin_dialect: "征"
  name_zheng1.shu_language: "征"
  name_zheng1.xiang_language: "征"
@@ -12640,12 +12640,12 @@
  name_zheng1.kejia_language: "征"
  name_zheng1.jin_language: "征"
  name_zhong: "鍾" #鍾
- name_zhong.mandarin_language: "Zhōng"
+ name_zhong.mandarin_language: "鍾"
  name_zhong.yue_language: "鍾"
  name_zhong.min_language: "鍾"
  name_zhong.kejia_language: "鍾"
  name_zhou: "周" #周
- name_zhou.mandarin_language: "Zhōu"
+ name_zhou.mandarin_language: "周"
  name_zhou.southern_mandarin_dialect: "周"
  name_zhou.shu_language: "周"
  name_zhou.yue_language: "周"
@@ -12653,7 +12653,7 @@
  name_zhou.wu_language: "周"
  name_zhou.kejia_language: "周"
  name_zhu: "朱" #朱
- name_zhu.mandarin_language: "Zhū"
+ name_zhu.mandarin_language: "朱"
  name_zhu.gan_language: "朱"
  name_zhu.yue_language: "朱"
  name_zhu.min_language: "朱"
@@ -12661,7 +12661,7 @@
  name_zhu.kejia_language: "朱"
  name_zhu.jin_language: "朱"
  name_zhuang: "莊" #莊
- name_zhuang.mandarin_language: "Zhuāng"
+ name_zhuang.mandarin_language: "莊"
  name_zhuang.southern_mandarin_dialect: "莊"
  name_zhuang.shu_language: "莊"
  name_zhuang.xiang_language: "莊"
@@ -12679,11 +12679,11 @@
  name_zi.wu_language: "子"
  name_zi.kejia_language: "子"
  name_zi3: "梓" #梓
- name_zi3.mandarin_language: "Zǐ"
+ name_zi3.mandarin_language: "梓"
  name_zi3.yue_language: "梓"
  name_zi3.min_language: "梓"
  name_zi4: "自" #自
- name_zi4.mandarin_language: "Zì"
+ name_zi4.mandarin_language: "自"
  name_zi4.southern_mandarin_dialect: "自"
  name_zi4.xiang_language: "自"
  name_zi4.gan_language: "自"
@@ -12708,13 +12708,13 @@
  name_zoe.greek_language: "ゾエ"
  name_zoran: "ゾラン"
  name_zou: "鄒" #鄒
- name_zou.mandarin_language: "Zōu"
+ name_zou.mandarin_language: "鄒"
  name_zou.yue_language: "鄒"
  name_zou.min_language: "鄒"
  name_zou.wu_language: "鄒"
  name_zou.kejia_language: "鄒"
  name_zu: "祖" #祖
- name_zu.mandarin_language: "Zǔ"
+ name_zu.mandarin_language: "祖"
  name_zu.xiang_language: "祖"
  name_zu.ping_language: "祖"
  name_zu.yue_language: "祖"
@@ -12725,190 +12725,190 @@
  name_zuhal: "ズハル"
  name_zuhal.turkish_language: "ズハル"
  name_zvelgutis: "ジュヴェルグティス"
- name_zvelgutis.baltic_language: "Žvelgutis"
+ name_zvelgutis.baltic_language: "ジュヴェルグティス"
  ####### Unique Names #######
  #Arabic
  name_abd_al_aziz: "アブド・アル＝アジーズ"
- name_abd_al_aziz.arabic_language: "'Abd al-'Azīz"
+ name_abd_al_aziz.arabic_language: "アブド・アル＝アジーズ"
  name_abd_al_gaffar: "アブド・アル＝ガッファール"
- name_abd_al_gaffar.arabic_language: "'Abd al-Ḡaffār"
+ name_abd_al_gaffar.arabic_language: "アブド・アル＝ガッファール"
  name_abd_al_gafur: "アブド・アル＝ガフール"
- name_abd_al_gafur.arabic_language: "'Abd al-Ḡafūr"
+ name_abd_al_gafur.arabic_language: "アブド・アル＝ガフール"
  name_abd_al_jalil: "アブド・アル＝ジャリール"
- name_abd_al_jalil.arabic_language: "'Abd al-Jalīl"
+ name_abd_al_jalil.arabic_language: "アブド・アル＝ジャリール"
  name_abd_al_razzaq: "アブド・アッラザック"
- name_abd_al_razzaq.arabic_language: "'Abd al-Razzâq"
+ name_abd_al_razzaq.arabic_language: "アブド・アッラザック"
  name_abd_al_wahhab: "アブド・アル＝ワッハーブ"
- name_abd_al_wahhab.arabic_language: "'Abd al-Wahhāb"
+ name_abd_al_wahhab.arabic_language: "アブド・アル＝ワッハーブ"
  name_abla: "アブラ"
  name_adila: "アーディラ"
- name_adila.arabic_language: "'Ādila"
+ name_adila.arabic_language: "アーディラ"
  name_adra: "アズラー"
- name_adra.arabic_language: "'Aḏrā'"
+ name_adra.arabic_language: "アズラー"
  name_afnan: "アフナーン"
- name_afnan.arabic_language: "'Afnān"
+ name_afnan.arabic_language: "アフナーン"
  name_aghlab: "アグラブ"
- name_aghlab.arabic_language: "'Aḡlab"
+ name_aghlab.arabic_language: "アグラブ"
  name_al_malik: "アルマリーク"
- name_al_malik.arabic_language: "Al-Mālik"
+ name_al_malik.arabic_language: "アルマリーク"
  name_aliya: "アリーヤ"
- name_aliya.arabic_language: "'Alīya"
+ name_aliya.arabic_language: "アリーヤ"
  name_arwa: "アルワー"
- name_arwa.arabic_language: "'Arwā"
+ name_arwa.arabic_language: "アルワー"
  name_ashraf: "アシュラフ"
- name_ashraf.arabic_language: "'Ašraf"
+ name_ashraf.arabic_language: "アシュラフ"
  name_asma: "アスマー"
- name_asma.arabic_language: "'Asmā"
+ name_asma.arabic_language: "アスマー"
  name_atika: "アーティカ"
- name_atika.arabic_language: "'Ātika"
+ name_atika.arabic_language: "アーティカ"
  name_bahir: "バーヒル"
- name_bahir.arabic_language: "Bāhir"
+ name_bahir.arabic_language: "バーヒル"
  name_badriya: "バドリヤ"
  name_baqi: "バーキー"
- name_baqi.arabic_language: "Bāqī"
+ name_baqi.arabic_language: "バーキー"
  name_burhan: "ブルハーン"
- name_burhan.arabic_language: "Burhān"
+ name_burhan.arabic_language: "ブルハーン"
  name_daniya: "ダーニヤ"
- name_daniya.arabic_language: "Dāniya"
+ name_daniya.arabic_language: "ダーニヤ"
  name_ezz: "エズ"
  name_fadil: "ファディール"
  name_fadil.alternative: "ファーディル"
  name_fadl: "ファドル"
- name_fadl.arabic_language: "Faḍl"
+ name_fadl.arabic_language: "ファドル"
  name_fakhr: "ファクル"
- name_fakhr.arabic_language: "Faḵr"
+ name_fakhr.arabic_language: "ファクル"
  name_faruq: "ファールーク"
- name_faruq.arabic_language: "Fārūq"
+ name_faruq.arabic_language: "ファールーク"
  name_ghalib: "ガーリブ"
- name_ghalib.arabic_language: "Ḡālib"
+ name_ghalib.arabic_language: "ガーリブ"
  name_habiba: "ハビーバ"
- name_habiba.arabic_language: "Ḥabība"
+ name_habiba.arabic_language: "ハビーバ"
  name_hafsa: "ハフサ"
- name_hafsa.arabic_language: "Ḥafṣa"
+ name_hafsa.arabic_language: "ハフサ"
  name_haidar: "ハイダル"
- name_haidar.arabic_language: "Ḥaydar"
+ name_haidar.arabic_language: "ハイダル"
  name_hajar: "ハージャル"
- name_hajar.arabic_language: "Hājar"
+ name_hajar.arabic_language: "ハージャル"
  name_hala: "ハーラ"
- name_hala.arabic_language: "Hāla"
+ name_hala.arabic_language: "ハーラ"
  name_halima: "ハリーマ"
- name_halima.arabic_language: "Ḥalīma"
+ name_halima.arabic_language: "ハリーマ"
  name_hanifa: "ハニーファ"
- name_hanifa.arabic_language: "Ḥanīfa"
+ name_hanifa.arabic_language: "ハニーファ"
  name_hind: "ヒンド"
  name_humayra: "フマイラー"
- name_humayra.arabic_language: "Ḥumayrā'"
+ name_humayra.arabic_language: "フマイラー"
  name_husam: "フサーム"
- name_husam.arabic_language: "Ḥusām"
+ name_husam.arabic_language: "フサーム"
  name_ibtisam: "イブティサーム"
- name_ibtisam.arabic_language: "Ibtisām"
+ name_ibtisam.arabic_language: "イブティサーム"
  name_ikram: "イクラーム"
- name_ikram.arabic_language: "'Ikrām"
+ name_ikram.arabic_language: "イクラーム"
  name_isra: "イスラー"
- name_isra.arabic_language: "'Isrā'"
+ name_isra.arabic_language: "イスラー"
  name_jabir: "ジャービル"
- name_jabir.arabic_language: "Jābir"
+ name_jabir.arabic_language: "ジャービル"
  name_jalil: "ジャリール"
- name_jalil.arabic_language: "Jalīl"
+ name_jalil.arabic_language: "ジャリール"
  name_jamila: "ジャミーラ"
- name_jamila.arabic_language: "Jamīla"
+ name_jamila.arabic_language: "ジャミーラ"
  name_jawahir: "ジャワーヒル"
- name_jawahir.arabic_language: "Jawāhir"
+ name_jawahir.arabic_language: "ジャワーヒル"
  name_kawthar: "カウサル"
- name_kawthar.arabic_language: "Kawṯar"
+ name_kawthar.arabic_language: "カウサル"
  name_khawla: "ハウラ"
- name_khawla.arabic_language: "Ḵawla"
+ name_khawla.arabic_language: "ハウラ"
  name_lamia: "ラーミア"
- name_lamia.arabic_language: "Lāmi'a"
+ name_lamia.arabic_language: "ラーミア"
  name_latif_allah: "ラティフ・アッラー"
- name_latif_allah.arabic_language: "Laṭīf Allāh"
+ name_latif_allah.arabic_language: "ラティフ・アッラー"
  name_latifa: "ラティーファ"
- name_latifa.arabic_language: "Laṭīfa"
+ name_latifa.arabic_language: "ラティーファ"
  name_lubna: "ルブナー"
- name_lubna.arabic_language: "Lubnā"
+ name_lubna.arabic_language: "ルブナー"
  name_madiha: "マディーハ"
- name_madiha.arabic_language: "Madīḥa"
+ name_madiha.arabic_language: "マディーハ"
  name_masuma: "マスーマ"
- name_masuma.arabic_language: "Ma'ṣūma"
+ name_masuma.arabic_language: "マスーマ"
  name_mubarak: "ムバーラク"
- name_mubarak.arabic_language: "Mubārak"
+ name_mubarak.arabic_language: "ムバーラク"
  name_muizz: "ムイッズ"
  name_mumtaz: "ムムターズ"
- name_mumtaz.arabic_language: "Mumtāz"
+ name_mumtaz.arabic_language: "ムムターズ"
  name_muslih: "ムスリフ"
- name_muslih.arabic_language: "Muṣliḥ"
+ name_muslih.arabic_language: "ムスリフ"
  name_nabila: "ナビーラ"
- name_nabila.arabic_language: "Nabīla"
+ name_nabila.arabic_language: "ナビーラ"
  name_nadir: "ナーディル"
- name_nadir.arabic_language: "Nādir"
+ name_nadir.arabic_language: "ナーディル"
  name_nadira: "ナーディラ"
- name_nadira.arabic_language: "Nādira"
+ name_nadira.arabic_language: "ナーディラ"
  name_nadiya: "ナーディヤ"
- name_nadiya.arabic_language: "Nādīya"
+ name_nadiya.arabic_language: "ナーディヤ"
  name_naila: "ナイラ"
- name_naila.arabic_language: "Nā'ila"
+ name_naila.arabic_language: "ナイラ"
  name_najah: "ナジャーフ"
- name_najah.arabic_language: "Najāḥ"
+ name_najah.arabic_language: "ナジャーフ"
  name_najib: "ナジーブ"
- name_najib.arabic_language: "Najīb"
+ name_najib.arabic_language: "ナジーブ"
  name_nazira: "ナズィーラ"
- name_nazira.arabic_language: "Naẓīra"
+ name_nazira.arabic_language: "ナズィーラ"
  name_nura: "ヌーラ"
- name_nura.arabic_language: "Nūra"
+ name_nura.arabic_language: "ヌーラ"
  name_qawurd: "カウルド"
  name_qutb: "クトゥブ"
- name_qutb.arabic_language: "Quṭb"
+ name_qutb.arabic_language: "クトゥブ"
  name_rabia: "ラービア"
- name_rabia.arabic_language: "Rābi'a"
+ name_rabia.arabic_language: "ラービア"
  name_rafiqa: "ラフィーカ"
- name_rafiqa.arabic_language: "Rafīqa"
+ name_rafiqa.arabic_language: "ラフィーカ"
  name_rahma: "ラフマ"
- name_rahma.arabic_language: "Raḥma"
+ name_rahma.arabic_language: "ラフマ"
  name_rayhanna: "ライハーナ"
- name_rayhanna.arabic_language: "Rayḥāna"
+ name_rayhanna.arabic_language: "ライハーナ"
  name_rubab: "ルバーブ"
- name_rubab.arabic_language: "Rubāb"
+ name_rubab.arabic_language: "ルバーブ"
  name_ruqayya: "ルカイヤ"
  name_sadiya: "サーディヤ"
  name_sajida: "サージダ"
- name_sajida.arabic_language: "Sājida"
+ name_sajida.arabic_language: "サージダ"
  name_sami: "サーミー"
- name_sami.arabic_language: "Sāmī"
+ name_sami.arabic_language: "サーミー"
  name_samiya: "サーミヤ"
- name_samiya.arabic_language: "Sāmiya"
+ name_samiya.arabic_language: "サーミヤ"
  name_sawda: "サウダ"
  name_shahira: "シャヒーラ"
- name_shahira.arabic_language: "Šahīra"
+ name_shahira.arabic_language: "シャヒーラ"
  name_shahrazad: "シャフラザード"
- name_shahrazad.arabic_language: "Šahrazād"
+ name_shahrazad.arabic_language: "シャフラザード"
  name_shaima: "シャイマー"
- name_shaima.arabic_language: "Šaymā'"
+ name_shaima.arabic_language: "シャイマー"
  name_shakura: "シャクーラ"
- name_shakura.arabic_language: "Šakūra"
+ name_shakura.arabic_language: "シャクーラ"
  name_sharaf: "シャラフ"
- name_sharaf.arabic_language: "Šaraf"
+ name_sharaf.arabic_language: "シャラフ"
  name_shayban: "シャイバーン"
- name_shayban.arabic_language: "Šaybān"
+ name_shayban.arabic_language: "シャイバーン"
  name_shuja: "シュジャー"
- name_shuja.arabic_language: "Šujā'"
+ name_shuja.arabic_language: "シュジャー"
  name_suad: "スアード"
- name_suad.arabic_language: "Su'ād"
+ name_suad.arabic_language: "スアード"
  name_taj: "タージ"
- name_taj.arabic_language: "Tāj"
+ name_taj.arabic_language: "タージ"
  name_tal_al_din: "タル・$name_al_din$"
  name_talib: "ターリブ"
- name_talib.arabic_language: "Ṭālib"
+ name_talib.arabic_language: "ターリブ"
  name_taliba: "ターリバ"
- name_taliba.arabic_language: "Ṭāliba"
+ name_taliba.arabic_language: "ターリバ"
  name_taqi: "タキ"
- name_taqi.arabic_language: "Taqī"
+ name_taqi.arabic_language: "タキ"
  name_ubayd: "ウバイド"
  name_umayma: "ウマイマ"
  name_uways: "ウワイス"
  name_wafa: "ワファー"
- name_wafa.arabic_language: "Wafā'"
+ name_wafa.arabic_language: "ワファー"
  name_yara: "ヤーラー"
- name_yara.arabic_language: "Yārā"
+ name_yara.arabic_language: "ヤーラー"
  name_zayd: "ザイド"
  name_zayda: "ザイダ"
  name_zubaida: "ズバイダ"
@@ -12940,13 +12940,13 @@
  name_amar: "アマル"
  name_amid: "アミド"
  name_amrita: "アムリタ"
- name_amrita.sanskrit_language: "Amṛta"
+ name_amrita.sanskrit_language: "アムリタ"
  name_ananga_dev: "アナンガ・デヴ"
  name_anangabhima: "アナンガビーマ"
  name_annan: "アンナン"
  name_annemamba: "アンマンバ"
  name_arisimha: "アリシンハ"
- name_arisimha.sanskrit_language: "Arisiṃha"
+ name_arisimha.sanskrit_language: "アリシンハ"
  name_arjan: "アルジャン"
  name_arjanji: "アルジャンジ"
  name_arjun: "アルジュン"
@@ -12958,7 +12958,7 @@
  name_baksh: "バクシュ"
  name_balbhadra: "バルバドラ"
  name_ballala: "バララ"
- name_ballala.sanskrit_language: "Ballāla"
+ name_ballala.sanskrit_language: "バララ"
  name_ballu: "バルゥ"
  name_ban: "バン"
  name_bhaal: "バール"
@@ -12969,18 +12969,18 @@
  name_bhanu: "バーヌ"
  name_bhatta: "バッタ"
  name_bhavana: "バヴァナ"
- name_bhavana.sanskrit_language: "Bhāvanā"
+ name_bhavana.sanskrit_language: "バヴァナ"
  name_bhawani: "バワニ"
  name_bhilala: "ビララ"
  name_bhim: "ビム"
  name_bhimasimha: "ビーマシンハ"
- name_bhimasimha.sanskrit_language: "Bhimasiṃha"
+ name_bhimasimha.sanskrit_language: "ビーマシンハ"
  name_bhoo: "ブー"
  name_bhuvanasimha: "ブヴァナシンハ"
- name_bhuvanasimha.sanskrit_language: "Bhuvanasiṃha"
+ name_bhuvanasimha.sanskrit_language: "ブヴァナシンハ"
  name_bibi: "ビビ"
  name_brahm: "ブラーム"
- name_brahm.sanskrit_language: "Brāhm"
+ name_brahm.sanskrit_language: "ブラーム"
  name_budh: "ブッドゥ"
  name_bujang_deo: "ブジャング・デオ"
  name_bukka_raya: "ブッカ・ラヤ"
@@ -13002,7 +13002,7 @@
  name_dev: "デヴ"
  name_deva: "デヴァ"
  name_devi: "デヴィ"
- name_devi.sanskrit_language: "Devī"
+ name_devi.sanskrit_language: "デヴィ"
  name_dharam: "ダーラム"
  name_dharma: "ダルマ"
  name_dhavalmaji: "ダワラムジ"
@@ -13019,7 +13019,7 @@
  name_emalji: "エマルジ"
  name_ereyanga: "エレヤンガ"
  name_fateh: "ファティ"
- name_fateh.arabic_language: "Fātiḥ"
+ name_fateh.arabic_language: "ファティ"
  name_gahunia: "ガフニア"
  name_garasia: "ガラシア"
  name_ghamand: "ガマンド"
@@ -13040,7 +13040,7 @@
  name_iyakan: "イヤカン"
  name_jagat: "ジャガット"
  name_jahan: "ジャハーン"
- name_jahan.persian_language: "Jahān"
+ name_jahan.persian_language: "ジャハーン"
  name_jai: "ジェイ"
  name_jaikarat: "ジェイカラット"
  name_jaita: "ジャイタ"
@@ -13052,10 +13052,10 @@
  name_jatipal: "ジャティパル"
  name_jawan: "ジャワン"
  name_jay_singh: "ジェイ・シン"
- name_jay_singh.sanskrit_language: "Jay Siṅgh"
+ name_jay_singh.sanskrit_language: "ジェイ・シン"
  name_jayaba: "ジャパバ"
  name_jayasimha: "ジャヤシンハ"
- name_jayasimha.sanskrit_language: "Jayasiṃha"
+ name_jayasimha.sanskrit_language: "ジャヤシンハ"
  name_jayat: "ジャヤト"
  name_jhala: "ジャラ"
  name_joyasingh_deva: "ジョヤシン・デヴァ"
@@ -13077,10 +13077,10 @@
  name_kota_rani: "コタ・ラニ"
  name_kralawari: "クララワリ"
  name_krishna: "クリシュナ"
- name_krishna.sanskrit_language: "Kṛṣṇa"
+ name_krishna.sanskrit_language: "クリシュナ"
  name_kriznook: "クリスヌーク"
  name_ksemasimha: "クシェマシンハ"
- name_ksemasimha.sanskrit_language: "Kṣemasiṃha"
+ name_ksemasimha.sanskrit_language: "クシェマシンハ"
  name_kumara: "クマラ"
  name_kumara.malayalam_language: "クマラン"
  name_kumbha: "クンバ"
@@ -13088,7 +13088,7 @@
  name_kunwar: "クンワル"
  name_lakha: "ラカ"
  name_lakhanasimha: "ラクハナシンハ"
- name_lakhanasimha.sanskrit_language: "Lakhanasiṃha"
+ name_lakhanasimha.sanskrit_language: "ラクハナシンハ"
  name_lal: "ラル"
  name_lalit: "ラリト"
  name_lhagyen: "ラギェン"
@@ -13118,14 +13118,14 @@
  name_nagji: "ナグジ"
  name_namgyal: "ナムギャル"
  name_narasimha: "ナラシンハ"
- name_narasimha.sanskrit_language: "Narasiṃha"
+ name_narasimha.sanskrit_language: "ナラシンハ"
  name_narapati: "ナラパティ"
  name_narendra: "ナレンダ"
  name_naryan: "ナリヤン"
  name_natwar: "ナトワール"
  name_nripa_kama: "ニリパ・カマ"
  name_nur: "ヌール"
- name_nur.arabic_language: "Nūr"
+ name_nur.arabic_language: "ヌール"
  name_nyima: "ニマ"
  name_opame: "オパメ"
  name_pahore: "パホレ"
@@ -13138,9 +13138,9 @@
  name_pradyuman: "プラデュマン"
  name_pratap: "プラタップ"
  name_primoz: "プリモシュ"
- name_primoz.czechslovak_language: "Primož"
+ name_primoz.czechslovak_language: "プリモシュ"
  name_prithvi: "プリトヴィ"
- name_prithvi.sanskrit_language: "Pṛthvī"
+ name_prithvi.sanskrit_language: "プリトヴィ"
  name_prolaya: "プロラヤ"
  name_pundir: "プンディル"
  name_purandarshah: "プランダルシャー"
@@ -13155,7 +13155,7 @@
  name_ram: "ラム"
  name_ramshah: "ラムシャー"
  name_ranasimha: "ラナシンハ"
- name_ranasimha.sanskrit_language: "Raṇasiṃha"
+ name_ranasimha.sanskrit_language: "ラナシンハ"
  name_ranganadha: "ランガナダ"
  name_ranoji: "ラノジ"
  name_rao_palansang: "ラオ・パランサン"
@@ -13165,7 +13165,7 @@
  name_rupra: "ルプラ"
  name_sahaj: "サハジ"
  name_samantasimha: "サーマンタシンハ"
- name_samantasimha.sanskrit_language: "Sāmantasiṃha"
+ name_samantasimha.sanskrit_language: "サーマンタシンハ"
  name_samdup: "サムダップ"
  name_samma: "サンマ"
  name_sampurn: "サンプルン"
@@ -13187,22 +13187,22 @@
  name_singama: "シンガマ"
  name_singeya_nayaka: "シンゲヤ・ナヤカ"
  name_singh: "シン"
- name_singh.sanskrit_language: "Siṅgh"
+ name_singh.sanskrit_language: "シン"
  name_sinhat: "シンハト"
  name_siripat: "シリパット"
  name_sobhang: "ソーバン"
  name_sodhi: "ソーディ"
  name_sohagdeva: "ソハデーヴァ"
  name_somaladevi: "ソマラデヴィ"
- name_somaladevi.sanskrit_language: "Somaladevī"
+ name_somaladevi.sanskrit_language: "ソマラデヴィ"
  name_somba: "ソンバ"
  name_someshwara: "ソメスヴァラ"
- name_someshwara.sanskrit_language: "Someśvara"
+ name_someshwara.sanskrit_language: "ソメスヴァラ"
  name_somshah: "ソムシャー"
  name_sonangji: "ソナンジ"
  name_sudarshan: "スダルシャン"
  name_suhadeva: "スハデヴァ"
- name_suhadeva.sanskrit_language: "Sūhadeva"
+ name_suhadeva.sanskrit_language: "スハデヴァ"
  name_sundara: "スンダラ"
  name_suriyadeva: "スリデヴァ"
  name_suvira: "スヴィラ"
@@ -13232,9 +13232,9 @@
  name_vira: "ヴィーラ"
  name_vira.name_varman: "ヴィラヴァルマン"
  name_virsingh: "ヴィルシンハ"
- name_virsingh.sanskrit_language: "Virsiṅgh"
+ name_virsingh.sanskrit_language: "ヴィルシンハ"
  name_vishnuvardhana: "ヴィシュヌヴァルダナ"
- name_vishnuvardhana.sanskrit_language: "Viṣṇuvardhana"
+ name_vishnuvardhana.sanskrit_language: "ヴィシュヌヴァルダナ"
  name_wangchuck: "ワンチュク"
  name_yadav: "ヤダヴ"
  name_yangchen: "ヤンシェン"
@@ -13301,12 +13301,12 @@
  name_chinu: "茅渟" #茅渟
  name_chitsune: "千常" #千常
  name_chuukyou: "仲恭" #仲恭
- name_chuukyou.japanese_language: "Chūkyō"
+ name_chuukyou.japanese_language: "仲恭"
  name_daigo: "醍醐" #醍醐
  name_douyo: "道誉" #道誉
- name_douyo.japanese_language: "Dōyo"
+ name_douyo.japanese_language: "道誉"
  name_en_yuu: "円融" #円融
- name_en_yuu.japanese_language: "En'yū"
+ name_en_yuu.japanese_language: "円融"
  name_fuhito: "不比等" #不比等
  name_fujifusa: "藤房" #藤房
  name_fujinari: "藤成" #藤成
@@ -13323,20 +13323,20 @@
  name_genmei: "元明" #元明
  name_gensei: "玄盛" #玄盛
  name_genshou: "元正" #元正
- name_genshou.japanese_language: "Genshō"
+ name_genshou.japanese_language: "元正"
  name_giben: "義弁" #義弁
  name_go_daigo: "後醍醐" #後醍醐
  name_go_fukakusa: "後深草" #後深草
  name_go_fushimi: "後伏見" #後伏見
  name_go_horikawa: "後堀河" #後堀河
  name_go_ichijou: "後一条" #後一条
- name_go_ichijou.japanese_language: "Go-Ichijō"
+ name_go_ichijou.japanese_language: "後一条"
  name_go_nijou: "後二条" #後二条
- name_go_nijou.japanese_language: "Go-Nijō"
+ name_go_nijou.japanese_language: "後二条"
  name_go_reizei: "後冷泉" #後冷泉
  name_go_saga: "後嵯峨" #後嵯峨
  name_go_sanjou: "後三条" #後三条
- name_go_sanjou.japanese_language: "Go-Sanjō"
+ name_go_sanjou.japanese_language: "後三条"
  name_go_shirakawa: "後白河" #後白河
  name_go_suzaku: "後朱雀" #後朱雀
  name_go_toba: "後鳥羽" #後鳥羽
@@ -13357,7 +13357,7 @@
  name_hidetaka: "秀高" #秀高
  name_hidetomo: "秀朝" #秀朝
  name_hidetoo: "秀遠" #秀遠
- name_hidetoo.japanese_language: "Hidetō"
+ name_hidetoo.japanese_language: "秀遠"
  name_hidetsuna: "秀綱" #秀綱
  name_hidetsura: "豪連" #豪連
  name_hideyoshi: "秀義" #秀義
@@ -13395,10 +13395,10 @@
  name_hisatoki: "久時" #久時
  name_hisatsune: "久経" #久経
  name_honkouin: "本光院" #本光院
- name_honkouin.japanese_language: "Honkōin"
+ name_honkouin.japanese_language: "本光院"
  name_horikawa: "堀河" #堀河
  name_ichijou: "一条" #一条
- name_ichijou.japanese_language: "Ichijō"
+ name_ichijou.japanese_language: "一条"
  name_ieasa: "家朝" #家朝
  name_iechika: "家周" #家周
  name_iehide: "家秀" #家秀
@@ -13433,12 +13433,12 @@
  name_isobe: "礒部" #礒部
  name_iwami: "石見" #石見
  name_jirou: "次郎" #次郎
- name_jirou.japanese_language: "Jirō"
+ name_jirou.japanese_language: "次郎"
  name_jitou: "持統" #持統
- name_jitou.japanese_language: "Jitō"
+ name_jitou.japanese_language: "持統"
  name_jomei: "舒明" #舒明
  name_jouzen: "定禅" #定禅
- name_jouzen.japanese_language: "Jōzen"
+ name_jouzen.japanese_language: "定禅"
  name_junna: "淳和" #淳和
  name_junnin: "淳仁" #淳仁
  name_juntoku: "順徳" #順徳
@@ -13462,7 +13462,7 @@
  name_kagetada: "景忠" #景忠
  name_kagetomo: "景朝" #景朝
  name_kagetou: "景任" #景任
- name_kagetou.japanese_language: "Kagetō"
+ name_kagetou.japanese_language: "景任"
  name_kagetsuna: "景綱" #景綱
  name_kagetsura: "景連" #景連
  name_kageyori: "景頼" #景頼
@@ -13538,7 +13538,7 @@
  name_kinsuke: "公佐" #公佐
  name_kinsuke_alternative: "公扶" #公扶
  name_kintou: "公任" #公任
- name_kintou.japanese_language: "Kintō"
+ name_kintou.japanese_language: "公任"
  name_kintsuna: "公綱" #公綱
  name_kintsura: "公貫" #公貫
  name_kinuji: "公氏" #公氏
@@ -13590,7 +13590,7 @@
  name_koretoki_alternative: "惟時" #惟時
  name_koretomo: "惟共" #惟共
  name_koretoo: "維遠" #維遠
- name_koretoo.japanese_language: "Koretō"
+ name_koretoo.japanese_language: "維遠"
  name_koretsugu: "維継" #維継
  name_koretsugu_alternative: "惟次" #惟次
  name_koretsuna: "惟綱" #惟綱
@@ -13603,23 +13603,23 @@
  name_korezane: "維実" #維実
  name_korezumi: "惟澄" #惟澄
  name_koubun: "弘文" #弘文
- name_koubun.japanese_language: "Kōbun"
+ name_koubun.japanese_language: "弘文"
  name_kougon: "光厳" #光厳
- name_kougon.japanese_language: "Kōgon"
+ name_kougon.japanese_language: "光厳"
  name_kougyoku: "皇極" #皇極
- name_kougyoku.japanese_language: "Kōgyoku"
+ name_kougyoku.japanese_language: "皇極"
  name_koukai: "皇海" #皇海
- name_koukai.japanese_language: "Kōkai"
+ name_koukai.japanese_language: "皇海"
  name_kouken: "孝謙" #孝謙
- name_kouken.japanese_language: "Kōken"
+ name_kouken.japanese_language: "孝謙"
  name_koukou: "光孝" #光孝
- name_koukou.japanese_language: "Kōkō"
+ name_koukou.japanese_language: "光孝"
  name_koumyou: "光明" #光明
- name_koumyou.japanese_language: "Kōmyō"
+ name_koumyou.japanese_language: "光明"
  name_kounin: "光仁" #光仁
- name_kounin.japanese_language: "Kōnin"
+ name_kounin.japanese_language: "光仁"
  name_koutoku: "孝徳" #孝徳
- name_koutoku.japanese_language: "Kōtoku"
+ name_koutoku.japanese_language: "孝徳"
  name_kuginaga: "栓永" #栓永
  name_kunifusa: "国房" #国房
  name_kuniharu: "邦治" ##邦治
@@ -13671,7 +13671,7 @@
  name_masatoku: "政徳" #政徳
  name_masatomo: "政友" #政友
  name_masatoo: "正遠" #正遠
- name_masatoo.japanese_language: "Masatō"
+ name_masatoo.japanese_language: "正遠"
  name_masatoyo: "政豊" #政豊
  name_masatsugu: "政継" #政継
  name_masatsuna: "政綱" #政綱
@@ -13708,7 +13708,7 @@
  name_michitomo: "通朝" #通朝
  name_michitoshi: "通俊" #通俊
  name_michitou: "通任" #通任
- name_michitou.japanese_language: "Michitō"
+ name_michitou.japanese_language: "通任"
  name_michitsugu: "通継" #通継
  name_michitsuna: "通綱" #通綱
  name_michiyasu: "道康" #道康
@@ -13866,7 +13866,7 @@
  name_munetomo: "宗知" #宗知
  name_munetomo_alternative: "宗朝" #宗朝
  name_munetoo: "宗遠" #宗遠
- name_munetoo.japanese_language: "Munetō"
+ name_munetoo.japanese_language: "宗遠"
  name_munetsugu: "宗継" #宗継
  name_munetsuna: "宗綱" #宗綱
  name_munetsune: "宗経" #宗経
@@ -13940,18 +13940,18 @@
  name_naritane: "成胤" #成胤
  name_naritoki: "済時" #済時
  name_naritoo: "業遠" #業遠
- name_naritoo.japanese_language: "Naritō"
+ name_naritoo.japanese_language: "業遠"
  name_naritsuna: "業綱" #業綱
  name_nariuji: "業氏" #業氏
  name_nariyori: "成頼" #成頼
  name_nariyoshi: "成良" #成良
  name_nariyuki: "成行" #成行
  name_nichijou: "日静" #日静
- name_nichijou.japanese_language: "Nichijō"
+ name_nichijou.japanese_language: "日静"
  name_nijou: "二条" #二条
- name_nijou.japanese_language: "Nijō"
+ name_nijou.japanese_language: "二条"
  name_ninmyou: "仁明" #仁明
- name_ninmyou.japanese_language: "Ninmyō"
+ name_ninmyou.japanese_language: "仁明"
  name_noboru: "昇" #昇
  name_nobuaki: "信顕" #信顕
  name_nobue: "宣栄" #宣栄
@@ -14015,7 +14015,7 @@
  name_okisada: "居貞" #居貞
  name_okiyoshi: "興良" #興良
  name_ootomo: "大伴" #大伴
- name_ootomo.japanese_language: "Ōtomo"
+ name_ootomo.japanese_language: "大伴"
  name_osauji: "長氏" #長氏
  name_oshisaka: "押坂" #押坂
  name_otokawa: "弟河" #弟河
@@ -14025,7 +14025,7 @@
  name_reizei: "冷泉" #冷泉
  name_renshi: "廉子" #廉子
  name_rokujou: "六条" #六条
- name_rokujou.japanese_language: "Rokujō"
+ name_rokujou.japanese_language: "六条"
  name_sadaakira: "貞明" #貞明
  name_sadachika: "貞親" #貞親
  name_sadafuji: "貞藤" #貞藤
@@ -14056,7 +14056,7 @@
  name_sadatoki: "貞時" #貞時
  name_sadatomo: "貞朝" #貞朝
  name_sadatou: "定任" #定任
- name_sadatou.japanese_language: "Sadatō"
+ name_sadatou.japanese_language: "定任"
  name_sadatsugu: "貞継" #貞継
  name_sadatsuna: "定綱" #定綱
  name_sadatsuna_alternative: "貞綱" #貞綱
@@ -14091,13 +14091,13 @@
  name_sanesue: "実季" #実季
  name_sanetaka: "実高" #実高
  name_sanetoo: "実遠" #実遠
- name_sanetoo.japanese_language: "Sanetō"
+ name_sanetoo.japanese_language: "実遠"
  name_sanetsugu: "実継" #実継
  name_sanetsune: "実経" #実経
  name_saneyori: "実頼" #実頼
  name_saneyuki: "実行" #実行
  name_sanjou: "三条" #三条
- name_sanjou.japanese_language: "Sanjō"
+ name_sanjou.japanese_language: "三条"
  name_sazuke: "授" #授
  name_seiwa: "清和" #清和
  name_senka: "宣化" #宣化
@@ -14127,9 +14127,9 @@
  name_shigetoki: "重時" #重時
  name_shigetoki_alternative: "茂時" #茂時
  name_shigetou: "重任" #重任
- name_shigetou.japanese_language: "Shigetō"
+ name_shigetou.japanese_language: "重任"
  name_shigetou_altnernative: "重遠" #重遠
- name_shigetou_altnernative.japanese_language: "Shigetō"
+ name_shigetou_altnernative.japanese_language: "重任"
  name_shigetoshi: "重俊" #重俊
  name_shigeuji: "繁氏" #繁氏
  name_shigeuji_alternative: "重氏" #重氏
@@ -14140,19 +14140,19 @@
  name_shigeyuki: "重行" #重行
  name_shigezane: "重実" #重実
  name_shijou: "四条" #四条
- name_shijou.japanese_language: "Shijō"
+ name_shijou.japanese_language: "四条"
  name_shiki: "志貴" #志貴
  name_shinkaku: "心覚" #心覚
  name_shirakabe: "白壁" #白壁
  name_shirakawa: "白河" #白河
  name_shoumu: "聖武" #聖武
- name_shoumu.japanese_language: "Shōmu"
+ name_shoumu.japanese_language: "聖武"
  name_shoutoku: "称徳" #称徳
- name_shoutoku.japanese_language: "Shōtoku"
+ name_shoutoku.japanese_language: "称徳"
  name_shouun: "昌運" #昌運
- name_shouun.japanese_language: "Shōun"
+ name_shouun.japanese_language: "昌運"
  name_souen: "宗円" #宗円
- name_souen.japanese_language: "Sōen"
+ name_souen.japanese_language: "宗円"
  name_suefusa: "季房" #季房
  name_suehira: "季衡" #季衡
  name_suehiro: "末広" #末広
@@ -14461,17 +14461,17 @@
  name_tomoyoshi: "共良" #共良
  name_toneri: "舎人" #舎人
  name_toohira: "遠平" #遠平
- name_toohira.japanese_language: "Tōhira"
+ name_toohira.japanese_language: "遠平"
  name_toomitsu: "遠光" #遠光
- name_toomitsu.japanese_language: "Tōmitsu"
+ name_toomitsu.japanese_language: "遠光"
  name_tooru: "融" #融
- name_tooru.japanese_language: "Tōru"
+ name_tooru.japanese_language: "融"
  name_tootsune: "遠経" #遠経
- name_tootsune.japanese_language: "Tōtsune"
+ name_tootsune.japanese_language: "遠経"
  name_tooyoshi: "遠義" #遠義
- name_tooyoshi.japanese_language: "Tōyoshi"
+ name_tooyoshi.japanese_language: "遠義"
  name_toozumi: "遠純" #遠純
- name_toozumi.japanese_language: "Tōzumi"
+ name_toozumi.japanese_language: "遠純"
  name_toshihide: "俊秀" #俊秀
  name_toshihira: "俊平" #俊平
  name_toshihito: "利仁" #利仁
@@ -14486,14 +14486,14 @@
  name_toshiyo: "利世" #利世
  name_toshiyuki: "俊行" #俊行
  name_toushi: "登子" #登子
- name_toushi.japanese_language: "Tōshi"
+ name_toushi.japanese_language: "登子"
  name_toyofusa: "豊房" #豊房
  name_toyohide: "豊秀" #豊秀
  name_toyohito: "茂仁" #茂仁
  name_toyosawa: "豊沢" #豊沢
  name_tsuchimikado: "土御門" #土御門
  name_tsukou: "仕" #仕
- name_tsukou.japanese_language: "Tsukō"
+ name_tsukou.japanese_language: "仕"
  name_tsuna: "綱" #綱
  name_tsuneaki: "経秋" #経秋
  name_tsuneaki_alternative: "常顕" #常顕
@@ -14529,7 +14529,7 @@
  name_tsunetane: "常胤" #常胤
  name_tsunetomo: "経朝" #経朝
  name_tsunetoo: "常遠" #常遠
- name_tsunetoo.japanese_language: "Tsunetō"
+ name_tsunetoo.japanese_language: "常遠"
  name_tsunetsugu: "経継" #経継
  name_tsunetsura: "経連" ##経連
  name_tsunetsura_alternative: "常連" #常連
@@ -14667,10 +14667,10 @@
  name_yoritaka_alternative: "頼尊" #頼尊
  name_yoritane: "頼胤" #頼胤
  name_yoritoo: "頼遠" #頼遠
- name_yoritoo.japanese_language: "Yoritō"
+ name_yoritoo.japanese_language: "頼遠"
  name_yoritoshi: "頼俊" #頼俊
  name_yoritou: "頼任" #頼任
- name_yoritou.japanese_language: "Yoritō"
+ name_yoritou.japanese_language: "頼遠"
  name_yoritsugu: "頼次" #頼次
  name_yoritsugu_alternative: "頼嗣" #頼嗣
  name_yoritsuna: "頼綱" #頼綱
@@ -14760,9 +14760,9 @@
  name_yoshizumi: "義純" #義純
  name_yoshizumi_alternative: "義澄" #義澄
  name_youmei: "用明" #用明
- name_youmei.japanese_language: "Yōmei"
+ name_youmei.japanese_language: "用明"
  name_youzei: "陽成" #陽成
- name_youzei.japanese_language: "Yōzei"
+ name_youzei.japanese_language: "陽成"
  name_yukiaki: "行明" #行明
  name_yukiari: "行有" #行有
  name_yukichika: "幸親" #幸親
@@ -14789,7 +14789,7 @@
  name_yukitaka_alternative: "行高" #行高
  name_yukitomo: "行朝" #行朝
  name_yukitoo: "行遠" #行遠
- name_yukitoo.japanese_language: "Yukitō"
+ name_yukitoo.japanese_language: "行遠"
  name_yukitsuna: "行綱" #行綱
  name_yukiuji: "幸氏" #幸氏
  name_yukiuji_alternative: "行氏" #行氏
@@ -14853,7 +14853,7 @@
  name_sakura: "サクラ"
  name_sundiata: "スンジャタ"
  name_wati: "ワティ"
- name_wati.arabic_language: "Wātī"
+ name_wati.arabic_language: "ワティ"
  #Mongolian
  name_abaqa: "アバカ"
  name_ajashiri: "アジャシリ"
@@ -14876,11 +14876,11 @@
  name_belgutei: "ベルグテイ"
  name_berke: "ベルケ"
  name_boke: "ボコ"
- name_boke.mongolian_language: "Böke"
+ name_boke.mongolian_language: "ボコ"
  name_bolot: "ボロト"
  name_buqa: "ブカ"
  name_buri: "ブリ"
- name_buri.mongolian_language: "Büri"
+ name_buri.mongolian_language: "ブリ"
  name_burgul: "ブルグル"
  name_buyantu: "Buyantu"
  name_buzan: "ブザン"
@@ -14892,7 +14892,7 @@
  name_ebugen: "エブゲン"
  name_eljigidey: "エルジギデイ"
  name_emugen: "エムゲン"
- name_emugen.mongolian_language: "Emügen"
+ name_emugen.mongolian_language: "エムゲン"
  name_erumduli: "エルムドゥリ"
  name_esen: "エセン"
  name_gaykhatu: "ガイハトゥ"
@@ -14900,9 +14900,9 @@
  name_ghazan: "ガザン"
  name_hachiun: "ハチウン"
  name_hugeci: "フゲチ"
- name_hugeci.mongolian_language: "Hügeči"
+ name_hugeci.mongolian_language: "フゲチ"
  name_hulegu: "フレグ"
- name_hulegu.mongolian_language: "Hülegü"
+ name_hulegu.mongolian_language: "フレグ"
  name_ichil: "イチル"
  name_jayaatu: "Jayaatu"
  name_jibugen: "ジブゲン"
@@ -14911,55 +14911,55 @@
  name_kaidu: "カイドゥ"
  name_kebek: "ケベク"
  name_keun: "ケウン"
- name_keun.mongolian_language: "Ke'ün"
+ name_keun.mongolian_language: "ケウン"
  name_khabul: "カブール"
  name_khaduli: "ケドゥリ"
  name_khashin: "カシン"
  name_khuchun: "フチュン"
  name_khulahur: "フラフン"
  name_koke: "ココ"
- name_koke.mongolian_language: "Köke"
+ name_koke.mongolian_language: "ココ"
  name_konchek: "コンチェク"
- name_konchek.mongolian_language: "Könchek"
+ name_konchek.mongolian_language: "コンチェク"
  name_kumun: "クムン"
  name_majartai: "マジャルタイ"
  name_melig: "メリグ" #Perhaps a mongolian version of Malik
  name_mingqan: "ミンガン"
  name_mongke: "モンケ"
- name_mongke.mongolian_language: "Möngke"
+ name_mongke.mongolian_language: "モンケ"
  name_munanzi: "ムナンズィ"
  name_naghachu: "ナガチュ"
  name_nayan: "ナヤン"
  name_negubei: "ネグバイ"
- name_negubei.mongolian_language: "Negübei"
+ name_negubei.mongolian_language: "ネグバイ"
  name_ogedei: "オゴデイ"
- name_ogedei.mongolian_language: "Ögedei"
+ name_ogedei.mongolian_language: "オゲデイ"
  name_oljaitu: "オルジェイトゥ"
- name_oljaitu.mongolian_language: "Öljaitü"
+ name_oljaitu.mongolian_language: "オルジェイトゥ"
  name_oljeytu: "Oljeyitu"
  name_oljeytu.mongolian_language: "Öljeyitü"
  name_onggiradai: "オンギラダイ"
  name_orug: "オルグ"
- name_orug.mongolian_language: "Orüg"
+ name_orug.mongolian_language: "オルグ"
  name_pulad: "プラド"
  name_qadaqchi: "カダクチ"
  name_qara_hulegu: "カラ・フレグ"
- name_qara_hulegu.mongolian_language: "Qara Hülegü"
+ name_qara_hulegu.mongolian_language: "カラ・フレグ"
  name_qarachar: "カラチャル"
  name_qazan: "カザン"
  name_qongur: "コングル"
  name_quli: "クリ"
- name_quli.mongolian_language: "Qulï"
+ name_quli.mongolian_language: "クリ"
  name_ragibagh: "Ragibagh"
  name_sarban: "サルバン"
  name_sartaq: "サルタク"
  name_shidibala: "Shidibala"
  name_shigdur: "シグドゥル"
- name_shigdur.mongolian_language: "Shigdür"
+ name_shigdur.mongolian_language: "シグドゥル"
  name_shilieman: "シリェマン"
  name_sogai: "ソガイ"
  name_sose: "ソゼ"
- name_sose.mongolian_language: "Söse"
+ name_sose.mongolian_language: "ソゼ"
  name_suqu_sechen: "スク・セチェン"
  name_surgan: "スルガン"
  name_surguda: "スルグダ"
@@ -14969,66 +14969,66 @@
  name_taraghai: "タラガイ"
  name_tartu: "タルトゥ"
  name_tekuder: "テクデル"
- name_tekuder.mongolian_language: "Tögöldör"
+ name_tekuder.mongolian_language: "テクデル"
  name_temur: "テムル"
- name_temur.mongolian_language: "Temür"
+ name_temur.mongolian_language: "テムル"
  name_temuge: "テムゲ"
- name_temuge.mongolian_language: "Temüge"
+ name_temuge.mongolian_language: "テムゲ"
  name_temurchi: "テムルチ"
- name_temurchi.mongolian_language: "Temürchi"
+ name_temurchi.mongolian_language: "テムルチ"
  name_todar: "トダル"
  name_tode: "トゥダ"
- name_tode.mongolian_language: "Töde"
+ name_tode.mongolian_language: "トゥダ"
  name_toqta: "トクタ"
  name_tole: "トゥラ"
- name_tole.mongolian_language: "Töle"
+ name_tole.mongolian_language: "トゥラ"
  name_tugh: "Tugh"
  name_tughluq: "トゥフルク"
  name_tuhu: "トゥフ"
  name_tumbinai: "トンビナイ"
  name_ulaghchi: "ウラグチ"
  name_vajravarmi: "バツァラワルミ"
- name_vajravarmi.mongolian_language: "Vaǰravarmi"
+ name_vajravarmi.mongolian_language: "バツァラワルミ"
  name_yanashiri: "ヤナシリ"
  name_yasaur: "ヤサウル"
  name_yesu: "イェス"
- name_yesu.mongolian_language: "Yesü"
+ name_yesu.mongolian_language: "イェス"
  name_yesun: "イェスン"
- name_yesun.mongolian_language: "Yesün"
+ name_yesun.mongolian_language: "イェスン"
  name_yoshmut: "ヨシュムト"
  #Nahua
  name_acamapichtli: "アチャマピチトリ"
- name_acamapichtli.nahuatl_language: "Ācamāpīchtli"
+ name_acamapichtli.nahuatl_language: "アチャマピチトリ"
  name_achitomecatl: "アキトメカトル"
- name_achitomecatl.nahuatl_language: "Achitomécatl"
+ name_achitomecatl.nahuatl_language: "アキトメカトル"
  name_atotoztli: "アトツトリ"
- name_atotoztli.nahuatl_language: "Ātōtōztli"
+ name_atotoztli.nahuatl_language: "アトツトリ"
  name_coxcoxtli: "コックスコクストリ"
  name_huehue: "フエフエ"
- name_huehue.nahuatl_language: "Huēhueh"
+ name_huehue.nahuatl_language: "フエフエ"
  name_opochtli: "オポチトリ"
  #Persian
  name_agha: "アーガー"
- name_agha.persian_language: "Āğā"
+ name_agha.persian_language: "アーガー"
  name_chupan: "チューパン"
- name_chupan.persian_language: "Čupân"
+ name_chupan.persian_language: "チューパン"
  name_delshad: "デルサド"
- name_delshad.persian_language: "Delšâd"
+ name_delshad.persian_language: "デルサド"
  name_fath: "ファトフ"
- name_fath.arabic_language: "Fatḥ"
+ name_fath.arabic_language: "ファトフ"
  name_hushang: "フシャン"
- name_hushang.persian_language: "Hušang"
+ name_hushang.persian_language: "フシャン"
  name_kuchek: "クチェク"
- name_kuchek.persian_language: "Kuček"
+ name_kuchek.persian_language: "クチェク"
  name_rukn: "ルク"
  name_shahi: "シャーヒ"
- name_shahi.persian_language: "Šâhi"
+ name_shahi.persian_language: "シャーヒ"
  name_shaikh: "シャイク"
- name_shaikh.persian_language: "Šayḵ"
+ name_shaikh.persian_language: "シャイク"
  name_shoja: "ショヤ"
- name_shoja.persian_language: "Šojâ'"
+ name_shoja.persian_language: "ショヤ"
  name_togha: "トガ"
- name_togha.arabic_language: "Ṭoghā"
+ name_togha.arabic_language: "トガ"
  #Punjapi
  name_angad: "アンガド"
  name_das: "ダス"
@@ -15085,7 +15085,7 @@
  name_uthong: "ウトン"
  #Turkish
  name_mecduddin: "マジュドゥディン"
- name_mecduddin.turkish_language: "Mecdüddin"
+ name_mecduddin.turkish_language: "マジュドゥディン"
  #Hawaiian
  name_kamauliwahine: "カマウイワヒネ"
  name_hualani: "フアラニ"
@@ -15097,7 +15097,7 @@
  name_kamauaua: "カマウアウア"
  name_hinakeha: "ヒナケア"
  name_nawele: "ナウェレ"
- name_nawele.olelo_hawaii_language: "Nāwele"
+ name_nawele.olelo_hawaii_language: "ナウェレ"
  name_maweke: "マウェケ"
  name_kahokupohakano: "カホクポハカノ"
  name_kaumana: "カウマナ"
@@ -15133,37 +15133,37 @@
  name_kayangan: "カヤンガン"
  name_betatar: "ベタタル"
  name_fulane: "フラネ"
- name_fulane.turkish_language: "Fülane"
+ name_fulane.turkish_language: "フラネ"
  name_kilic: "キリチ"
- name_kilic.turkish_language: "Kiliç"
+ name_kilic.turkish_language: "キリチ"
  name_hizir: "ヒズィール"
  name_sahi: "シャヒ"
- name_sahi.turkish_language: "Şahi"
+ name_sahi.turkish_language: "シャヒ"
  name_taci: "タチ"
  name_ayse: "アイシェ"
- name_ayse.turkish_language: "Ayşe"
+ name_ayse.turkish_language: "アイシェ"
  name_pasa: "パシャ"
- name_pasa.turkish_language: "Paşa"
+ name_pasa.turkish_language: "パシャ"
  name_coban: "チョバン"
- name_coban.turkish_language: "Çoban"
+ name_coban.turkish_language: "チョバン"
  name_pazarli: "パザルル"
  name_ilyas: "イリヤス"
- name_ilyas.turkish_language: "İlyas"
+ name_ilyas.turkish_language: "イリヤス"
  name_arslan: "アルスラン"
  name_melek: "メレク"
  name_savci: "サヴジ"
  # Birth-order names for female characters (name_ordinal_female.N)
  # Dialect-specific overrides: name_ordinal_female.<dialect>.<N>
- name_ordinal_female.1: "Prima"
- name_ordinal_female.2: "Secunda"
- name_ordinal_female.3: "Tertia"
- name_ordinal_female.4: "Quarta"
- name_ordinal_female.5: "Quinta"
- name_ordinal_female.6: "Sexta"
- name_ordinal_female.7: "Septima"
- name_ordinal_female.8: "Octavia"
- name_ordinal_female.9: "Nona"
- name_ordinal_female.10: "Decima"
+ name_ordinal_female.1: "プリマ"
+ name_ordinal_female.2: "セクンダ"
+ name_ordinal_female.3: "テルティア"
+ name_ordinal_female.4: "クァルタ"
+ name_ordinal_female.5: "クィンタ"
+ name_ordinal_female.6: "セスタ"
+ name_ordinal_female.7: "セプティマ"
+ name_ordinal_female.8: "オクタウィア"
+ name_ordinal_female.9: "ノナ"
+ name_ordinal_female.10: "デキマ"
  name_ordinal_female.11: "Undecima"
  name_ordinal_female.12: "Duodecima"
  name_ordinal_female.13: "Tertiadecima"
@@ -15206,5 +15206,5 @@
  name_ordinal_female.50: "Quinquagensima"
  # examples for Male
  name_ordinal_male.1: "Firsto"
- name_ordinal_male.2: "Secondo"
+ name_ordinal_male.2: "セコンド"
  name_ordinal_male.3: "Thirdo"

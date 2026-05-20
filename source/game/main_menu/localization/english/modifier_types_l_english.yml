@@ -1756,7 +1756,7 @@
  MODIFIER_TYPE_NAME_recruit_explorer_cost_modifier: "Recruiting Explorers"
  MODIFIER_TYPE_DESC_recruit_explorer_cost_modifier: "This impacts how much it [costs|e] to recruit an [explorer|e]."
  MODIFIER_TYPE_NAME_local_pop_join_rebel_threshold: "Pop Join Rebels Threshold"
- MODIFIER_TYPE_DESC_local_pop_join_rebel_threshold: "This impact the level of [pop_satisfaction|e] a [pop|e] has to be below to join [rebels|e]. It can never be lower than [GetDefine('NPop','REBEL_JOIN_MIN_THRESHOLD')|%V]."
+ MODIFIER_TYPE_DESC_local_pop_join_rebel_threshold: "This impacts the level of [pop_satisfaction|e] a [pop|e] has to be below to join [rebels|e]. It can never be lower than [GetDefine('NPop','REBEL_JOIN_MIN_THRESHOLD')|%V]."
  MODIFIER_TYPE_NAME_pop_join_rebel_threshold: "Pop Join Rebels Threshold"
  MODIFIER_TYPE_DESC_pop_join_rebel_threshold: "This impact the level of [pop_satisfaction|e] a [pop|e] has to be below to join [rebels|e]. It can never be lower than [GetDefine('NPop','REBEL_JOIN_MIN_THRESHOLD')|%V]."
  MODIFIER_TYPE_NAME_local_pop_leave_rebels_threshold: "Pop Leave Rebels Threshold"

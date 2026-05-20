@@ -33,4 +33,4 @@
  flavor_wittelsbach_house_union.6.entry: "The Subjugation of the Bavaria Country Line"
  flavor_wittelsbach_house_union.6.desc: "[GetInternationalOrganization('hre').GetName]内の微妙な力関係が変化した。[palatine_ruler.GetDynasty]王朝の分家によって統治されていた[bavaria_country.GetName]が、[palatine_country.GetName]によって服従させられたのだ。この逆転によって[GetInternationalOrganization('hre').GetName]内の[palatine_ruler.GetDynasty]王朝の代表権に関する極めて重要な問題が浮上した。[bavaria_country.GetName]が[palatine_country.GetAdjectiveWithNoTooltip]の支配下に入ったことで、[ShowSpecialStatusName('elector')]の称号を[bavaria_country.GetName]に譲渡することが決定された。"
  flavor_wittelsbach_house_union.6.a: "[ShowSpecialStatusName('elector')]としての正当な地位を[palatine_country.GetNameWithNoTooltip]に与えよう。"
- flavor_wittelsbach_house_union.6.a.entry: "Let $PAL$ take its rightful place as an [ShowSpecialStatusNameWithNoTooltip('elector')]."
+ flavor_wittelsbach_house_union.6.a.entry: "[ShowSpecialStatusNameWithNoTooltip('elector')]としての正当な地位を$PAL$に与えよう。"

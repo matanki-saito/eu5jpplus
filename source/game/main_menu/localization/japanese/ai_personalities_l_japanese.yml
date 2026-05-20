@@ -1,12 +1,12 @@
 ﻿l_japanese:
  # AI Personality names (used as PdxDataLocalize(GetKey()) in CAiPersonality::GetName)
- ai_aggressive: "Aggressive"
- ai_expansionist: "Expansionist"
- ai_defensive: "Defensive"
+ ai_aggressive: "攻撃的"
+ ai_expansionist: "拡張主義者"
+ ai_defensive: "防衛的"
  ai_cautious: "Cautious"
  ai_opportunistic: "Opportunistic"
- ai_isolationist: "Isolationist"
- ai_friendly: "Friendly"
+ ai_isolationist: "孤立主義者"
+ ai_friendly: "友好"
  # AI Personality descriptions (key + "_desc")
  ai_aggressive_desc: "This nation pursues power through force. It is quick to initiate wars, demands harsh peace terms, and views neighboring powers as obstacles to be overcome rather than partners to be cultivated."
  ai_expansionist_desc: "This nation seeks to expand its borders and influence. It favors territorial growth, pursues claims actively, and tends toward subjugation rather than outright annexation when the opportunity presents itself."
@@ -24,8 +24,8 @@
  AI_DISPOSITION_WARY: "Wary"
  AI_DISPOSITION_PLANNING_WAR: "Planning War"
  AI_DISPOSITION_COVETS: "Covets Your Land"
- AI_DISPOSITION_RIVALS: "Rivals"
- AI_DISPOSITION_INDIFFERENT: "Indifferent"
+ AI_DISPOSITION_RIVALS: "ライバル"
+ AI_DISPOSITION_INDIFFERENT: "無関心"
  # AI disposition descriptions (tooltip body for each disposition)
  AI_DISPOSITION_ALARMED_DESC: "This [country_disposition|e] means they see you as an existential threat and are likely to seek defensive alliances or take pre-emptive action against you."
  AI_DISPOSITION_WARY_DESC: "This [country_disposition|e] means they are cautious around you and will be reluctant to make concessions or lower their guard."
@@ -37,7 +37,7 @@
  AI_ATTITUDE_TOOLTIP_TITLE: "Attitude & Stance"
  AI_SEES_YOU_AS: "Sees you as:"
  # Objectives display text (shown in country tooltip)
- OBJECTIVES_HEADER: "Objectives:"
+ OBJECTIVES_HEADER: "軍事目標:"
  OBJECTIVES_SPY_NETWORK_REQUIRED: "Build a [spy_network|e] above #G 25#! to reveal their strategic objectives."
  OBJECTIVE_EXPAND_AGAINST: "• Wants to conquer [COUNTRY.GetLongName]"
  OBJECTIVE_EXPAND_AGAINST_CB: "• Wants to conquer [COUNTRY.GetLongName] and has [casus_belli|e]"
@@ -50,8 +50,8 @@
  wary: "Wary"
  planning_war: "Planning War"
  covets: "Covets"
- rivals: "Rivals"
- indifferent: "Indifferent"
+ rivals: "ライバル"
+ indifferent: "無関心"
  # Personality mapmode tooltip title ("[Country] is [Personality]")
  AI_PERSONALITY_MAPMODE_TITLE: "[COUNTRY.GetLongNameWithNoTooltip] is $PERSONALITY$"
  # Disposition mapmode tooltip titles (per disposition, for country hover while in ai_disposition_mapmode)

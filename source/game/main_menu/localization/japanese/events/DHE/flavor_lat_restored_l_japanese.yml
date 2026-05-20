@@ -33,7 +33,7 @@
  flavor_lat.5.entry: "Control of Anatolia Reasserted"
  flavor_lat.5.desc: "While initially seen as a daunting task for the restored [ROOT.GetCountry.GetLongName], our soldiers have made great strides in asserting dominance over [ShowRegionName('anatolia_region')]. While there still remain several [ShowCultureName('turkish_culture')] states within [ShowRegionNameWithNoTooltip('anatolia_region')], they should no longer pose a serious threat to [ROOT.GetCountry.GetNameWithNoTooltip]."
  flavor_lat.5.a: "Glory to the [ROOT.GetCountry.GetLongNameWithNoTooltip]!"
- flavor_lat.5.a.entry: "Glory to us!"
+ flavor_lat.5.a.entry: "我々に栄光あれ！"
  flavor_lat_anatolia_secured: "Every [location|e] in [ShowRegionName('anatolia_region')] owned by [ROOT.GetCountry.GetName] or our [subjects|e] will get the [ShowModifier('lat_improved_location_integration')] [modifier|e] for #Y 15#! years"
  flavor_lat.6.title: "Campaigns into [target_country.GetNameWithNoTooltip] Successful"
  flavor_lat.6.entry: "Bulgaria Crushed"

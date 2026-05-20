@@ -29,6 +29,6 @@
  flavor_pue.106.a: "いま再び、我らの民はひとつとなる。"
  flavor_pue.106.b: "費用がかかりすぎる。平和の維持に注力すべきだ。"
  flavor_pue.107.title: "古代[ShowCultureGroupNameWithNoTooltip('puebloan_group')]族の後継者"
- flavor_pue.107.entry: "Successors of the Ancestral Puebloans"
+ flavor_pue.107.entry: "古代プエブロ人の後継者"
  flavor_pue.107.desc: "かつては不可能と思われたが、[our_ruler.GetName]は祖先の崩壊後に分裂したさまざまな[ShowCultureGroupName('puebloan_group')]部族を統一してみせた。それぞれの部族が独自に発展させてきた文化を維持することを誓い、[our_ruler.GetNameWithNoTooltip]は再統一された民が数世紀にわたり親族関係を維持し、我々の祖先を分裂させた紛争を避けることを望んでいる。"
  flavor_pue.107.a: "未来永劫、わが民が統一されんことを！"

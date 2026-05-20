@@ -143,6 +143,7 @@
  request_papal_donation_desc: "With the [actor.GetFlavorRank] strained and its coffers thin, envoys could be sent to the $PAP$ to appeal for aid in the name of [ShowReligionGroupName('christian')]. Though such requests are rarely made without consequence, their gold may yet buy us time in our hour of need."
  grant_latin_merchants_privileges: "Grant [ShowCultureGroupNameWithNoTooltip('italian_group')] Merchants Privileges"
  grant_latin_merchants_privileges_desc: "By extending special rights to [ShowCultureGroupName('italian_group')] merchant republics, we hope to revive trade and secure naval support. These concessions may strengthen commerce in [actor.GetCapital.GetName], though they risk deepening foreign influence within the [actor.GetCapital.GetRank.GetName]."
+ grant_latin_merchants_privileges_tooltip: "Any [country|e] in [ShowRegionName('italy_region')] with the [ShowGovernmentReformName('merchant_republic')] is neither subject nor our rival"
  accept_catholic_delegation: "Accept [ShowReligionAdjectiveWithNoTooltip('catholic')] Delegation"
  accept_catholic_delegation_desc: "Delegates from the [GetUniqueInternationalOrganization('catholic_church').GetName] may be invited to [actor.GetCapital.GetName], bearing words of unity and quiet expectations of compromise. According to many of our advisors, hosting these delegates may improve relations with the [ShowReligionAdjective('catholic')] world, but such gestures are not without domestic tension."
  attract_italian_engineer: "Attract [ShowCultureGroupNameWithNoTooltip('italian_group')] Engineer"

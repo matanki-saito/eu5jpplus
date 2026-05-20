@@ -83,7 +83,7 @@
  flavor_boh.18.entry: "$flavor_boh.18.title$"
  flavor_boh.18.desc: "わが国の領土の管理は複雑な問題であり、多くの優秀な宰相や閣僚が細部まで注意を払う必要がある。\n\n法律の手続きを円滑に進め、[ROOT.GetCountry.GetFlavorRank]の管理能力を向上させるため、わが[ROOT.GetCountry.GetGovernment.GetCabinetTitle]の相談役の多くは、裕福な一族から敷地の広い邸宅を購入し、わが評議会の相談役たちと貴族のあいだでおこなわれる、政策や政府の動きに関する議論に使用することを提案した。"
  flavor_boh.18.a: "これは[ROOT.GetCountry.GetGovernment.GetAdjective]にとって有益だ！"
- flavor_boh.18.a.entry: "This is a benefit for our royal standing!"
+ flavor_boh.18.a.entry: "わが王権にとって有益となるだろう！"
  flavor_boh.18.b: "現状を維持すべきだ。"
  flavor_boh.19.title: "地区の課税権"
  flavor_boh.19.entry: "$flavor_boh.19.title$"

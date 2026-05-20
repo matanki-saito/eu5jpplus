@@ -1485,7 +1485,7 @@
  game_concept_cores: "Cores"
  game_concept_cored: "Cored"
  game_concept_core_list_title: "A Core [location] receives the following effects:"
- game_concept_core_desc: "A [location|e] that is a Core of a [country|e] is the integral part of that [country].\nIf that [location] is ever lost in a [war|e], it is easy to fabricate a [casus_belli|e] to attempt to get it back.\nAny [integrated|e] [location] who has a majority of the [owner_s|e] [primary_culture|e] or any [accepted_culture|e] will become a Core."
+ game_concept_core_desc: "A [location|e] that is a Core of a [country|e] is the integral part of that [country].\nIf that [location] is ever lost in a [war|e], it is easy to fabricate a [casus_belli|e] to attempt to get it back.\nAny [integrated|e] [location] who has a majority of the [owner_s|e] [primary_culture|e] or any [accepted_culture|e] will become a Core.\nCores gained through [effects|e] or those lost to other countries will disappear after [GetDefine('NCountry', 'SCRIPTED_CORE_DURATION_YEARS')] years if they do not have the correct [culture|e]."
  game_concept_colonial_charter: "Colonial Charter" 
  game_concept_colonial_charters: "Colonial Charters" 
  game_concept_colonial_charter_desc: "A colonial charter is formed by a [country|e] that wishes to [colonize|e] an entire [province|e].\nThe Colonial Charter will [migrate|e] [pops|e] to the [province]. When the [location|e] is [fully_settled|e] the [location] will become [owned|e] by the colonizer."

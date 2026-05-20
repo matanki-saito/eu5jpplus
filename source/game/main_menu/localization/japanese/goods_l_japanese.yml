@@ -1001,5 +1001,5 @@
  colonial_administration_requirements: "Colonial Administrations"
  build_hippodrome_price: "$hippodrome$の費用"
  merchant_guild_chapel_requirements: "商人ギルドの礼拝堂"
- viceroyalty_maintenance: "$viceroyalty$ Maintenance"
- lieutenancy_maintenance: "$lieutenancy$ Maintenance"
+ viceroyalty_maintenance: "$viceroyalty$維持費"
+ lieutenancy_maintenance: "$lieutenancy$維持費"

@@ -1,7 +1,7 @@
 ﻿l_japanese:
  revoke_town_rights: "都市特権を剥奪する"
  revoke_town_rights_desc: ""
- REVOKE_TOWN_RIGHTS_FROM: "Revoke [town_rights|E] from [TownRightsItem.GetFirstLocationName]"
+ REVOKE_TOWN_RIGHTS_FROM: "[TownRightsItem.GetFirstLocationName]から[town_rights|E]を剥奪する"
  #######################################
  #   Non-production Rights    ##########
  #######################################

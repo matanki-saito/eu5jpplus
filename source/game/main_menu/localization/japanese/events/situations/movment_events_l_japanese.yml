@@ -1,5 +1,5 @@
 ﻿l_japanese:
- movements.10.title: "Latinitas"
+ movements.10.title: "ラティニタス"
  movements.10.desc: "偉大なローマ帝国への復帰を祝い、[target_location.GetName]では、[ShowLanguageFamilyName('romance_language_family')]の話者である忠実なる住民たちが、[ShowLanguageName('latin_language')]と古代[ShowCultureName('roman_culture')]文化の理念に再び情熱を燃やしている。\n\nこの新たなローマ人たちは、ローマ帝国の栄光を取り戻そうとしている。自らの受け継いだものに誇りを抱き、その文化と影響力を世界に広めることを強く望んでいるのだ。"
  movements.10.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  movements.10.b: "我らもまた[ShowCultureNameWithNoTooltip('roman_culture')]の民である！"

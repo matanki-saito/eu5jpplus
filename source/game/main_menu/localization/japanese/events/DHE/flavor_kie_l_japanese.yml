@@ -51,7 +51,7 @@
  flavor_kie.7.entry: "キーウでの問題"
  flavor_kie.7.desc: "[target_location.GetName]の[target_location.GetRank.GetName]での最近の調査により、[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]が任命した総主教が、現地住民の支持を失っていることが判明した。これは我々が彼らの権利を剥奪したことが理由であり、彼らは[ShowReligionName('orthodox')]信仰に不寛容な[ROOT.GetCountry.GetName]からの分離を望み、彼らの権利を保護する[ShowReligionNameWithNoTooltip('orthodox')]の領土に加わることを画策している。"
  flavor_kie.7.a: "[target_location.GetNameWithNoTooltip]での方針は変えない。"
- flavor_kie.7.a.entry: "We shall maintain our stance in [ShowLocationNameWithNoTooltip('kyiv')]."
+ flavor_kie.7.a.entry: "[ShowLocationNameWithNoTooltip('kyiv')]での方針は変えない。"
  flavor_kie.7.b: "我々は府主教に対する統制を緩めるべきかもしれない。"
  kie_all_kiev_pops_become_angrier_tt: "[target_location.GetName]のすべての[ShowReligionAdjective('orthodox')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_ultimate_penalty')|+=2%]低下する"
  flavor_kie.8.title: "[ShowLocationNameWithNoTooltip('kyiv')]の新たな府主教"

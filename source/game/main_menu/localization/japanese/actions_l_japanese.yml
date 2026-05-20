@@ -576,7 +576,7 @@
  create_colonial_charter_desc: "わが国は[SCOPE.sProvince('source').GetName]から[pops|e]を送り、[SCOPE.sProvinceDefinition('target').GetName]に[colonial_charter|e]を設立する。\n\n[GetMonthlyMaintenanceInfoForCountry(SCOPE.sCountry('actor'),SCOPE.sProvinceDefinition('target'),SCOPE.sProvince('source').GetCapital)]"
  create_colonial_charter_prov_desc_t: "わが国は[Province.GetName]から[pops|e]を[colonial_charter]へ送る。"
  create_colonial_charter_select_province: "[pops|e]の移住元となる[province|e]を選択："
- can_use_agenda_bribe_tt: "We can use any [parliament_agenda|e] of the [ESTATE_TYPE.GetName] of [TARGET_COUNTRY.GetName] as a bribe"
+ can_use_agenda_bribe_tt: "わが国は[TARGET_COUNTRY.GetName]の[ESTATE_TYPE.GetName]がもつ任意の[parliament_agenda|e]を買収材料に利用できる"
  abandon_colonial_charter_desc: "認可植民地を放棄すると、POPの移住が停止する。我々が所有していない[locations|E]に移住した[pops|e]はその後放棄される。"
  abandon_colonial_charter_select_colonial_charter: "放棄する認可植民地を選択："
  conduct_keju_examination: "$keju_examination$を実施"

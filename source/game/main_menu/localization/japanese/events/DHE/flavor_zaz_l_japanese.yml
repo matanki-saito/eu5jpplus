@@ -8,7 +8,7 @@
  flavor_zaz.1.b: "わが国の優れた属国となるだろう。"
  zaz_gains_cores_in_all_of_zaporizhzhia_area_tt: "$ZAZ$が[ShowAreaName('zaporizhzhia_area')][area|e]全域の[cores|e]を獲得する"
  flavor_zaz.2.title: "[target_international_organization.GetNameWithNoTooltip]との我々の未来"
- flavor_zaz.2.entry: "Our Future with the $autocephalous_patriarchate$"
+ flavor_zaz.2.entry: "$autocephalous_patriarchate$との我々の未来"
  flavor_zaz.2.desc: "[ROOT.GetCountry.GetName]は[target_international_organization.GetName]内[ROOT.GetCountry.GetReligion.GetAdjective]徒の忠実な[ROOT.GetCountry.GetFlavorRank]としての地位を保っているにもかかわらず、[target_character.GetName]を始めとする多くの者が、我々が[target_country.GetName]から距離を置くようになったことに気づいている。[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]階級や[ROOT.GetCountry.GetGovernment.GetCourtTitle]は、この流れを傍観するのではなく状況を正したいと考えている。しかし一部には、これは[target_country.GetCapital.GetName]の官僚たちによる干渉とは無縁の、[ROOT.GetCountry.GetNameWithNoTooltip]独自の文化を育む好機であると考える者たちもいる。"
  flavor_zaz.2.a: "友情の証として、彼らに贈り物を与えよう。"
  flavor_zaz.2.b: "[target_country.GetNameWithNoTooltip]に贈り物などしない！"

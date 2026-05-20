@@ -1,4 +1,4 @@
 ﻿l_japanese:
  #Fate of the Phoenix DLC
- pronoia: "Prónoia"
- pronoia_desc: "A crucial component of the administrative organization of [GetCountry('BYZ').GetName], Prónoiai were originally temporarily appointed fiscal collectors. However, the change in times forced them to change their obligations too. Turned now into hereditary posts that provide military assistance as well as extracting money from the territory, they continue to serve as an extension of the will of the Emperor."
+ pronoia: "プロノイア"
+ pronoia_desc: "[GetCountry('BYZ').GetName]の行政組織において極めて重要な役割を担うプロノイアは元来、一時的に任命される徴税官であった。しかし時代の変遷に伴い、その職務内容も変化を余儀なくされた。現在は、領土からの徴税に加え軍事的支援も提供する世襲の職位へと変わり、皇帝の意思を体現する機関として機能しつづけている。"
