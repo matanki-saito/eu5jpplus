@@ -23,7 +23,7 @@
  flavor_ven_tur_conflict.1100.entry: "$TUR_ADJ$によるモレア地域支配"
  flavor_ven_tur_conflict.1100.desc: "[ShowLocationName('constantinople')]の陥落後にオスマン帝国軍が南下し、1461年には[ShowAreaName('morea_area')|U]に残っていた最後の要塞が[GetCountry('TUR').GetName]の手に墜ちた。この半島は[ROOT.GetCountry.GetAdjective]の交易航路にとって極めて重要で、これをないがしろにすることはできない。その結果[ROOT.GetCountry.GetNameWithNoTooltip]が[ShowAreaNameWithNoTooltip('morea_area')|U]に領有権を主張したため、[ROOT.GetCountry.GetNameWithNoTooltip]と[GetCountry('TUR').GetNameWithNoTooltip]とのあいだに数々の戦争が勃発した。\n我々はどうするべきだろうか？"
  flavor_ven_tur_conflict.1100.a: "今日は[GetCountry('TUR').GetNameWithNoTooltip]の滅亡日和だ！"
- flavor_ven_tur_conflict.1100.a.entry: "Today is a good day for $TUR$ to die!"
+ flavor_ven_tur_conflict.1100.a.entry: "今日は$TUR$の滅亡日和だ！"
  ven_opinion_morean_confrontation: "モレアをめぐる衝突"
  flavor_ven_tur_conflict.1100.b: "戦争の危険は冒せない。"
  flavor_ven_tur_conflict.1101.title: "[origin_tag.GetAdjectiveWithNoTooltip]が[ShowAreaNameWithNoTooltip('morea_area')|U]を請求"

@@ -566,7 +566,7 @@
  scottish_clans_desc: "[GetCountry('SCO').GetName]の人々は、伝統的に複数の氏族を構成しており、各氏族は血縁関係と地理的位置の両方で結ばれ、それぞれの氏族長に忠誠を誓っている。氏族の集まりと彼らのあいだの相互関係が、[GetCountry('SCO').GetAdjective]の政治を動かしているのだ。"
  autonomous_scottish_clans: "自治的な$scottish_clans$"
  autonomous_scottish_clans_desc: "$scottish_clans_desc$"
- gaelic_clans_pop_assignment_tt: "[ShowLanguageName('gaelic_language')]-speaking pops of the [ShowCultureGroupName('celtic_group')] culture group are assigned to the [ShowEstateTypeName('tribes_estate')]"
+ gaelic_clans_pop_assignment_tt: "[ShowLanguageName('gaelic_language')]を話す[ShowCultureGroupName('celtic_group')]文化圏のPOPは、[ShowEstateTypeName('tribes_estate')]に割り当てられる。"
  tribes_scotland_gaelic_heritage: "[ShowCultureGroupNameWithNoTooltip('scottish_group')]の伝統の統一"
  tribes_scotland_gaelic_heritage_desc: "北部の農村高地の部族は何世代にもわたり、ゲール人のアイデンティティを維持してきた。一方、低地の部族は大部分が独自の[ShowCultureGroupName('scottish_group')]文化を発展させている。双方の慣習は異なるものの、高地と低地の部族はその違いを脇に置き、[GetCountry('SCO').GetName]を脅かす外国勢力と戦う。"
  autonomous_tribes_scotland_gaelic_heritage: "自治的な$tribes_scotland_gaelic_heritage$"

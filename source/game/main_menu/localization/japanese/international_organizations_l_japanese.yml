@@ -934,7 +934,7 @@
  independence_movement_name: "[ROOT.GetInternationalOrganization.GetLeaderCountry.GetAdjectiveWithNoTooltip]の独立運動"
  independence_movement_join_war_always_tt: "彼らの[overlord|e]に対し宣戦布告がなされている"
  independence_movement_join_war_def_always_tt: "彼らの[overlord|e]が宣戦布告する"
- independence_movement_join_war_def_always_tt_during: "They are fighting the [overlord|e] for independence"
+ independence_movement_join_war_def_always_tt_during: "彼らが独立を求めて[overlord|e]と戦っている"
  #Papal Holy League
  PAPAL_HOLY_LEAGUE_NAME: "神聖同盟"
  #War of Religions

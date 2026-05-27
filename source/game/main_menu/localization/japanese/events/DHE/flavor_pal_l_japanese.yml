@@ -5,7 +5,7 @@
  flavor_pal.1.a: "建設を始めよう。"
  flavor_pal.1.b: "そのような支出の余裕はない。"
  flavor_pal.2.title: "[target_character.GetNameWithNoTooltip]の迫害"
- flavor_pal.2.entry: "The Persecution of Johannes Reuchlin"
+ flavor_pal.2.entry: "ヨハネス・ロイヒリンの迫害"
  flavor_pal.2.desc: "[target_character.GetName]は尊敬される学者にして人文学者である一方で、ほかの[ShowReligionAdjective('catholic')]系神学者としばしば衝突している。事実、別の相談役との個人的な衝突のせいで、[target_character.GetSheHe|U]は前の職を辞することになったばかりである。\n\n幸いなことに、[target_character.GetNameWithNoTooltip]は我々に仕えることに強い興味をもっており、すでに[ROOT.GetCountry.GetCapital.GetName]へ向かう旅に出ているという。[target_character.GetSheHe|U]の人文主義的性質は、わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]の評判に大きな恩恵をもたらしてくれるだろう。"
  flavor_pal.2.a: "わが国が[target_character.GetSheHe|U]の新たな故郷となる。"
  flavor_pal.2.b: "[target_character.GetSheHe|U]には引き返して別の国に向かってもらおう。"

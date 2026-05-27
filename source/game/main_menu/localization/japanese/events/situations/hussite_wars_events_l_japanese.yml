@@ -71,7 +71,7 @@
  hussite_wars.3.a: "武器を取れ！"
  hussite_wars.3.b: "慌てて行動を起こすのはよそう。"
  hussite_wars.4.title.hussite_victory: "[ShowReligionAdjectiveWithNoTooltip('hussite')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]"
- hussite_wars.4.title.catholic_victory: "[ShowReligionAdjectiveWithNoTooltip('catholic')] Victory in the [ShowSituationNameWithNoTooltip('hussite_wars')]"
+ hussite_wars.4.title.catholic_victory: "「[ShowSituationNameWithNoTooltip('hussite_wars')]」における[ShowReligionAdjectiveWithNoTooltip('catholic')]の勝利"
  hussite_wars.4.a.desc: "[ShowReligionAdjective('catholic')]当局から平等な待遇と評価を得るための努力が、ついに実を結んだ。国民と信仰を無事守り、いまでは我々はヨーロッパ諸国の交渉のテーブルに平等な立場で参加できるようになった。"
  hussite_wars.4.b.desc: "我々は敗北の苦い味を味わっている。我々は[ShowReligionAdjective('catholic')]教会の至高の権威を認めるほかなかった。正義を実現したいと夢見ていたが、腐敗と悪に勝つことはできなかった。悲しいかな、それはだたの夢だったのだ……"
  hussite_wars.4.c.desc: "Our crusade against heresy has been crowned with divine success. The fires of [ShowReligionName('hussite')] have been extinguished within [GetCountry('BOH').GetLongName], and the righteous authority of [ShowReligionName('catholic')] has been restored across the faithful lands. Let the world see that the Church's resolve is unbreakable."

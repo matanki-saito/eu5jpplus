@@ -16,4 +16,4 @@
  smallpox_desc: "天然痘は感染者に発熱、嘔吐を引き起こし、最終的には大量の液体で満たされた水疱が全身を覆う恐ろしい病気。この疫病の発症は非常に致命的で、生き延びても生涯視力を失う場合が多い。"
  smallpox_location_modifier: "天然痘のロケーション補正"
  great_pestilence_location_modifier: "大疫病のロケーション補正"
- DISEASE_CHARACTER_TRAIT: "Afflicts characters with: [Trait.GetName]"
+ DISEASE_CHARACTER_TRAIT: "キャラクターに以下を付与する：[Trait.GetName]"

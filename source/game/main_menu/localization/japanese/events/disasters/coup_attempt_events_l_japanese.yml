@@ -54,7 +54,7 @@
  coup_attempt.100.a: "次の陰謀に備えなくては。"
  inconclusive_end_5_years_tt: "陰謀者は期間内に排除されなかったが、[target_character.GetName]に対する行動も起こさなかった。[disaster|e]は#R 未決#!で終了し、#Y 5年#!後に再発生する可能性がある"
  murdered_ending_tt: "陰謀者は[target_character_2.GetName]の暗殺に成功した。[target_character.GetName]が陰謀者の傀儡かどうかは、現時点では不明である"
- conspirator_crowned_tt: "One of the conspirators, [ROOT.GetCountry.GetGovernment.GetRuler.GetName], was crowned [ruler|e]"
+ conspirator_crowned_tt: "陰謀者のひとりである[ROOT.GetCountry.GetGovernment.GetRuler.GetName]が[ruler|e]として戴冠した"
  coup_attempt.101.title: "陰謀の終わり"
  coup_attempt.101.desc: "正統性の回復により、[target_character.GetName]の統治は確固たるものとなった。国民は我々のもとに結集し、我々の権利に敢えて挑もうとする者も誰もいない。我々は以前よりもより大きな力を手にして、暗闇を抜け出したのだ！"
  coup_attempt.101.a: "我らに立ち塞がる者はいない！"

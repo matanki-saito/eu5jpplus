@@ -41,4 +41,4 @@
  decline_of_majapahit.102.desc: "自治権を強めつつあるムスリム共同体は、逆賊の王子[target_character.GetName]の旗印を掲げはじめた。この王子は、[ROOT.GetCountry.GetAdjective]を統治する一族の遠縁にあたるとも言われている。[target_character.GetNameWithNoTooltip]は[target_country.GetAdjective][target_country.GetFlavorRank]の独立を宣言しただけでなく、[ROOT.GetCountry.GetNameWithNoTooltip]の王位すら己が手中に収めようとしている。だが、多くの難題を抱えるわが国にとって、力を蓄えゆく[target_country.GetNameWithNoTooltip]に対抗できる手段は多くはない。"
  decline_of_majapahit.102.a: "逆賊どもめ！ 戦場で相まみえよう！"
  decline_of_majapahit.102.b: "失われた領土はいつか奪還してみせる。"
- demak_progress_less_than_50: "#W $demak_progress$#! is less than #W 50.0%#!"
+ demak_progress_less_than_50: "#W $demak_progress$#!が#W 50.0%#!未満"

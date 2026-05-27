@@ -1,6 +1,6 @@
 ﻿l_japanese:
  flavor_hun_ven.1.title: "[ShowCultureNameWithNoTooltip('dalmatian')|U]問題"
- flavor_hun_ven.1.entry: "Treaty of Zadar - Hungarian Event"
+ flavor_hun_ven.1.entry: "ザダル条約 - ハンガリー関連イベント"
  flavor_hun_ven.1.desc: "長年にわたり、[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]は内陸に閉ざされた状況から脱し、[ShowAreaName('adriatic_sea_area')]に面する地を得ることを願ってきた。[GetCountry('VEN').GetAdjective]の衰退を伝える報せがもたらされるなか、[ROOT.GetCountry.GetGovernment.GetCourtTitle]ではいまこそ待ち望んでいた好機だとする声が上がっている。いたずらに戦に踏み切るのではなく、[GetCountry('VEN').GetNameWithNoTooltip]に外交的圧力を加え、譲歩を引き出すべきだとの案も出ている。"
  flavor_hun_ven.1.a: "交渉など時間の無駄だ。"
  flavor_hun_ven.1.b: "外交で圧力をかけてみるとしよう。"
@@ -8,5 +8,5 @@
  flavor_hun_ven.2.title: "[ShowCultureNameWithNoTooltip('dalmatian')|U]問題"
  flavor_hun_ven.2.desc: "[ROOT.GetCountry.GetFlavorRank]の内政上の苦境は、すでに周囲にも知られている。[GetCountry('HUN').GetName]はわが国の[ShowCultureName('dalmatian')|U]領の引き渡しをめぐって、使節団による会談を開くよう提案してきた。[ROOT.GetCountry.GetGovernment.GetCourtTitle]ではこの件をめぐって意見が割れている。この提案はわが国の名誉を傷つけ、国力を弱めるものだと非難する者は多い。一方で、これを退ければ、ダルマチア以上の損失をもたらす戦争を招きかねないとして、慎重な対応を求める者もいる。"
  flavor_hun_ven.2.a: "この提案は、連中の[GetCountry('HUN').GetGovernment.GetRulerTitle]と同じくらい愚かだ！"
- flavor_hun_ven.2.a.entry: "This proposal is as foolish as their ruler!"
+ flavor_hun_ven.2.a.entry: "この提案は、連中の統治者と同じくらい愚かだ！"
  flavor_hun_ven.2.b: "受け入れるほかあるまい。"

@@ -16,7 +16,7 @@
  diplomatic_status_infiltrate_administration_target_name: "政府に敵が潜入"
  diplomatic_status_infiltrate_administration_target_tooltip: "#T 政府に敵が潜入#!\nこの国の政府には以下の[countries|e]の人員が潜入しており、それらの国々はこの国の領土にかかる[fog_of_war|e]を見通すことができる。"
  infiltrate_administration_target_list_who_tt: "$LIST$が$WHO$の政府に潜入している"
- infiltrate_administration_ongoing_tooltip: "[fog_of_war|E] over their territory is lifted until $DATE$."
+ infiltrate_administration_ongoing_tooltip: "その領土にかかる[fog_of_war|E]は$DATE$まで取り除かれる。"
  diplomatic_status_curry_favors_name: "取り入っている"
  diplomatic_status_curry_favors_tooltip: "#T 取り入っている#!\n現在この国家は、次の[countries|e]に取り入って[favors|e]を得ている。"
  diplomatic_status_union_name: "同君連合"

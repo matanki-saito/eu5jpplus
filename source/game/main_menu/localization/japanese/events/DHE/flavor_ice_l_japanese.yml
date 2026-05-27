@@ -4,7 +4,7 @@
  flavor_ice.10.a: "独立した[target_location.GetNameWithNoTooltip]を支持する。"
  flavor_ice.10.a.entry: "独立した[ShowLocationNameWithNoTooltip('holar')]を支持する。"
  flavor_ice.10.b: "[overlord.GetAdjectiveWithNoTooltip]の司教に取り入ろう。"
- flavor_ice.10.b.entry: "Ingratiate their bishop."
+ flavor_ice.10.b.entry: "彼らの司教に取り入ろう。"
  opinion_opposed_our_bishop: "我々の司教に反対した"
  opinion_supported_our_bishop: "我々の司教を支持した"
  flavor_ice.11.title: "フルドゥフォルク"

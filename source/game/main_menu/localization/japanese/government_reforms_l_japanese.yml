@@ -208,7 +208,7 @@
  state_sponsored_markets_desc: "商業を振興するため、国の支援のもとで交易拠点を設立しなければならない。政府の支援により、公正な価格設定や経済成長が確保される。"
  coastal_city_or_town_gets_tt: "所有するすべての[coastal|e][towns_and_cities|e]が以下を得る："
  every_coastal_location_gains_tt: "所有するすべての[coastal|e][location|e]が以下を得る："
- plutocratic_monarchy: "Plutocratic Monarchy"
+ plutocratic_monarchy: "金権君主制"
  plutocratic_monarchy_desc: "商人階級に依存し、商業の流れを確保することで財政を管理する君主制。"
  # Specific ones
  alsno_stadga: "アルスノー・スタッガ"
@@ -520,7 +520,7 @@
  bohemian_commonwealth_reform_desc: "コモンウェルスは[GetCountry('BOH').GetFlavorRank]の憲法を改革し、領土内に暮らすさまざまな国民により多くの特権と自由を与える。"
  kritai_katholikoi_reformed: "クリタイ・カトリコイの改革"
  kritai_katholikoi_reformed_desc: "[GetCharacter('byz_andronikos_ii_palaiologos').GetName]によって創設された司法制度は、当初は成功を収めていたが、裁判官が自らの利益を追求できる欠陥が存在していた。この最高裁判所の改革により、裁判官の汚職を防止しつつ既存の法手続きが合理化された。"
- is_currently_in_disaster_for_byz_tt: "現在「[ShowDisasterName('D008_fate_of_the_phoenix')]」が進行中、またはわが国が勝利を収めてこれを完了した"
+ is_currently_in_disaster_for_byz_tt: "現在「[ShowDisasterName('fate_of_the_phoenix')]」が進行中、またはわが国が勝利を収めてこれを完了した"
  modern_imperial_army: "近代的な帝国軍"
  modern_imperial_army_desc: "[GetCountry('BYZ').GetName]の古い$theme_system$には、統治者ではなく総督や将軍の権限が強化されるという欠陥があった。これに代わり、兵士を義務ではなく職業とみなす新しい帝国軍が創設された。"
  #Oman

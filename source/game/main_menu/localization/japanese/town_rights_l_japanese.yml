@@ -1,7 +1,7 @@
 ﻿l_japanese:
  revoke_town_rights: "都市特権を剥奪する"
  revoke_town_rights_desc: ""
- REVOKE_TOWN_RIGHTS_FROM: "[TownRightsItem.GetFirstLocationName]から[town_rights|E]を剥奪する"
+ REVOKE_TOWN_RIGHTS_FROM: "[TownRightsItem.GetFirstLocationName]から[town_rights|E]らを剥奪"
  #######################################
  #   Non-production Rights    ##########
  #######################################
@@ -44,7 +44,7 @@
  nuremberg_rights_town_rights_desc: "$magdeburg_rights_town_rights_desc$"
  upper_bergregal: "上位鉱業特権"
  upper_bergregal_desc: "鉱山の採掘権を都市政府に譲渡すれば、新たな鉱物を探すための資金が増え、新しく移住を考える者への魅力も高まる。ただ残念ながら、地元の平民に対する規制が厳しくなり、平民が鉱山から直接利益を得る機会は減ってしまう。"
- unlock_bergregal_rights_tt: "[town_rights]「[ShowTownRightsName ('upper_bergregal')]」と「[ShowTownRightsName('lower_bergregal')]」をアンロックする"
+ unlock_bergregal_rights_tt: "[town_rights]「[ShowTownRightsName('upper_bergregal')]」および「[ShowTownRightsName('lower_bergregal')]」をアンロックする"
  lower_bergregal: "下位鉱業特権"
  lower_bergregal_desc: "$upper_bergregal_desc$"
  stapelrecht_town_rights: "[ShowSpecialStatusNameWithNoTooltip('free_city')]の互市強制権"
@@ -101,7 +101,7 @@
  scandinavian_thing_rights_desc: "この[location|e]には、正式な議会開催権が与えられている。これにより、住民は統治と裁きのための公認の場を持つ。王権はその分制限されるが、住民はより忠実で規律正しくなる。"
  #Byzantine / Greek / Roman
  imperial_breadbasket_rights: "帝国のパン籠"
- imperial_breadbasket_rights_granary_tt: "Has a [ShowBuildingTypeName('granary')] at maximum level."
+ imperial_breadbasket_rights_granary_tt: "レベル5以上の[ShowBuildingTypeName('granary')]を持っている"
  imperial_breadbasket_rights_desc: "この[location|e]は広範な領土への食糧供給の役目を負っており、我々の野心的な計画に対応するためその穀物倉は拡張されている。穀物は帝国の監督のもとで内外へと流通し、市民と軍の双方を豊かに支えている。"
  constantinopolitan_silk_monopoly_rights: "[ShowLocationNameWithNoTooltip('constantinople')]による絹の独占"
  constantinopolitan_silk_monopoly_rights_desc: "[ShowLocationName('constantinople')]には、高品質の[ShowGoodsName('silk')]を何世代にもわたり生産してきた長い歴史がある。工房は帝国の監督のもとで繁栄しているが、その生産はすべて独占の体制に従っておこなわれている。"

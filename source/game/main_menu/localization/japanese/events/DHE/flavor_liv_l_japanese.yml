@@ -5,7 +5,7 @@
  flavor_liv.1.historical_info: "リヴォニア騎士団は1435年のウクメルゲの戦いで多大な犠牲を出したことで、指導力が大幅に低下した。この戦いの直後、同年の12月4日に結ばれた協定によってリヴォニア連盟が設立され、その過程でさまざまな聖職者や属国の有力者が多くの権限を得た。"
  flavor_liv.1.a: "やむを得ず従おう。"
  flavor_liv.1.b: "連中のほうがわが国を去れば解決するのだが。"
- flavor_liv.1.b.entry: "Why do they not find a different realm to rule?"
+ flavor_liv.1.b.entry: "連中のほうがわが国を去れば解決するのだが。"
  flavor_liv.2.title: "[target_character.GetNameWithNoTooltip]"
  flavor_liv.2.entry: "リヴォニアの年代記作者、バルサザール・ルッソウ"
  flavor_liv.2.desc: "[target_character.GetName]という、多くの才能に恵まれた聖職者の噂が届いた。[target_character.GetBirthLocation.GetName]生まれのこの男は[target_character.GetCulture.GetName]の[target_character.GetArtistType.GetName]であり、日々の説教の傍ら、[ShowAreaName('baltic_area')]地域の歴史に関する[ShowWorkOfArtTypeName('chronicle')]を編纂するのに最適な人材と思われる。"

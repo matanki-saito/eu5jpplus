@@ -3,6 +3,6 @@
  flavor_tri.1.entry: "$flavor_tri.1.title$"
  flavor_tri.1.desc: "わが王朝史における宿命的な瞬間を描いた、美しい年代記が贈られてきた！ これは、わが王朝初の皇帝である[GetCharacter('lux_henry_vii_luxembourg').GetName]のイタリア遠征を詳述するもので、わが一族が高貴な地位にあり、皇帝位に対し正当な権利を有するという事実を際立たせていた。作者は匿名を望んでいるが、この者が手がけた[GetCharacter('lux_henry_vii_luxembourg').GetNameWithNoTooltip]の戴冠と選帝侯団を描いた場面は、[GetInternationalOrganization('hre').GetName]における我らの立場を確固たるものとしている。"
  flavor_tri.1.a: "[target_location.GetNameWithNoTooltip]の[ROOT.GetCountry.GetGovernment.GetCourtTitle]を飾る至宝となるだろう。"
- flavor_tri.1.a.entry: "It will decorate our court in the capital."
+ flavor_tri.1.a.entry: "首都のわが宮廷を飾る至宝となるだろう。"
  flavor_tri.1.b: "[GetInternationalOrganization('hre').GetLeaderTitle]に贈る。"
- flavor_tri.1.b.entry: "Gift it to the Emperor."
+ flavor_tri.1.b.entry: "皇帝に贈る。"

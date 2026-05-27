@@ -1,7 +1,7 @@
 ﻿l_japanese:
  maintain_bureaucracy_price: "官僚機構維持コスト"
  MODIFIER_TYPE_NAME_maintain_bureaucracy_price_cost_modifier: "$maintain_bureaucracy_price$の補正"
- MODIFIER_TYPE_DESC_maintain_bureaucracy_price_cost_modifier: "わが国の[bureaucracy|e]の維持にかかる[costs|e]に影響を与える。"
+ MODIFIER_TYPE_DESC_maintain_bureaucracy_price_cost_modifier: "[bureaucracy|e]を維持する際にかかる[costs|e]に影響を与える。"
  remove_bureaucracy_price: "官僚機構廃止コスト"
  MODIFIER_TYPE_NAME_remove_bureaucracy_price_cost_modifier: "$remove_bureaucracy_price$の補正"
  MODIFIER_TYPE_DESC_remove_bureaucracy_price_cost_modifier: "[bureaucracy|e]の廃止にかかる[costs|e]に影響を与える。"

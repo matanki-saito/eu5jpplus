@@ -5,7 +5,7 @@
  flavor_dah.1.title: "$flavor_dah_released_title_common$"
  flavor_dah.1.desc: "$flavor_dah_released_desc_common$"
  flavor_dah.1.a: "[GetCountry('DAH').GetNameWithNoTooltip]を征服せねばならん！"
- flavor_dah.1.a.entry: "$DAH$ shall be conquered!"
+ flavor_dah.1.a.entry: "$DAH$を征服せねばならん！"
  flavor_dah.1.b: "新たな国が台頭すべき時なのかもしれん。"
  flavor_dah.1.c: "それはけっこう。"
  flavor_dah.2.title: "$flavor_dah_released_title_common$"

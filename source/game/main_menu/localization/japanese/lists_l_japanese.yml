@@ -196,7 +196,7 @@
  DISEASE_SORT_BY_OUTBREAKS_AMOUNT: "[disease|e]の大流行数で並べ替え"
  MOVEMENT_SORT_BY_NAME: "[movement|e]の名前で並べ替え"
  MOVEMENT_SORT_BY_COUNTRY_AFFECTED: "影響を受けている[country|e]で並べ替え"
- MOVEMENT_SORT_BY_AMOUNT: "Sort by the amount of [movement|e]"
+ MOVEMENT_SORT_BY_AMOUNT: "[movement|e]の数で並べ替え"
  BUILDING_LOCATION_SORT_BY_LOCATION: "[location|e]の名前で並べ替え"
  BUILDING_LOCATION_SORT_BY_UNEMPLOYED: "利用可能な労働者数で並べ替え"
  BUILDING_LOCATION_SORT_BY_PROFIT: "利益で並べ替え"

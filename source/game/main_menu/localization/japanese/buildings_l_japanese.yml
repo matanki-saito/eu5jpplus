@@ -21,7 +21,7 @@
  rgo_building_category_desc: "手に入りにくい[raw_materials|e]を入手できるようにする[buildings|e]。"
  trade_company_building: "交易会社施設"
  satellite_trade_building: "衛星交易施設"
- colonial_administration: "Colonial Administration"
+ colonial_administration: "植民地行政府"
  colonial_administration_desc: "海外植民地は、多種多様な交易品や製品が交換される拠点となることが多い。その結果、植民地商人の活動を支援・規制する行政組織も発展する。"
  free_village: "自由農民村"
  free_village_desc: "一般的な農村社会とは異なり、領主への義務に縛られずに成立した自由農民による共同体。"

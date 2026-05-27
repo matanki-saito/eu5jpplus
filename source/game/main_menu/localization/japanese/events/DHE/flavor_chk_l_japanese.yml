@@ -114,7 +114,7 @@
  flavor_chk.35.desc: "[our_ruler.GetName]をはじめとする多くの[ShowLocationName('cahokia')]住民は努力を重ねてきたものの、地域の不安定化に加え、作物の不作や河川環境の悪化といった住みにくさの増大により、多くの者が[ShowLocationNameWithNoTooltip('cahokia')]を去っていった。[our_ruler.GetNameWithNoTooltip]と[ROOT.GetCountry.GetAdjective]の支配層の一部はいまのところは留まることを選んでいるが、[target_location.GetRank.GetName]の栄光の日々はすでに遠い過去のものとなっている。"
  flavor_chk.35.a: "わが国の栄光の日々は、もはや過去の残影にすぎない。"
  # has_variable custom tooltips
- variable_tt_chk_had_flood_happened: "The Great Flood has Struck the Woodlands"
- variable_tt_chk_enable_strengthening_events: "Strengthening of Cahokia"
- variable_tt_chk_enable_downfall_events: "Fall of Cahokia"
- variable_tt_chk_no_more_plight_events: "No More Plight Events"
+ variable_tt_chk_had_flood_happened: "大洪水が森林地帯を襲った"
+ variable_tt_chk_enable_strengthening_events: "カホキアの再興"
+ variable_tt_chk_enable_downfall_events: "カホキアの没落"
+ variable_tt_chk_no_more_plight_events: "苦境イベントが終息"

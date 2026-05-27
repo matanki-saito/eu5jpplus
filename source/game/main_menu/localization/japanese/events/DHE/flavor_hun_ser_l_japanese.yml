@@ -18,4 +18,4 @@
  flavor_hun_ser.1003.desc: "$flavor_hun_ser_response_common$残念なことに、わが同盟国[target_country.GetAdjective]は提案を拒絶したため、[target_location.GetNameWithNoTooltip]は依然として彼らの支配下にある。"
  flavor_hun_ser.1003.a: "仕方がない。やるだけのことはやった……"
  flavor_hun_ser.1003.b: "[target_location.GetNameWithNoTooltip]を武力で奪い取る！"
- flavor_hun_ser.1003.b.entry: "We will take the location by force!"
+ flavor_hun_ser.1003.b.entry: "この地を武力で奪い取る！"

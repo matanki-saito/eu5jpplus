@@ -1,9 +1,9 @@
 ﻿l_japanese:
  flavor_dan_skane_war.1.title: "[target_character.GetNameWithNoTooltip]の反乱"
- flavor_dan_skane_war.1.entry: "The Rebellion of Johan Offesson"
+ flavor_dan_skane_war.1.entry: "ヨハン・オッフェソンの反乱"
  flavor_dan_skane_war.1.desc: "多くの敬意を集める[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の[target_character.GetName]が、[ROOT.GetCountry.GetName]による[GetCountry('SWE').GetAdjective]の支配に対して陰謀を企てていることが発覚した。その動機は、[target_ruler.GetName]が[GetCountry('SWE').GetCulture.GetNameWithNoTooltip][GetCountry('SWE').GetGovernment.GetEstateName('nobles_estate')]を優先し、しばしばわが国の問題を無視しているためだという。近年の[GetCountry('DAN').GetName]情勢を考慮すると、我々も[GetCountry('DAN').GetAdjectiveWithNoTooltip]に再び忠誠を捧げるのが有益かもしれない。"
  flavor_dan_skane_war.1.a: "彼を[GetCountry('DAN').GetNameWithNoTooltip]へ追放しろ。"
- flavor_dan_skane_war.1.a.entry: "Exile him to $DAN$."
+ flavor_dan_skane_war.1.a.entry: "彼を$DAN$へ追放しろ。"
  flavor_dan_skane_war.1.b: "彼の反乱を支援しよう。"
  flavor_dan_skane_war.1.b.tt: "これはわが国が[GetCountry('DAN').GetName]に併合される事態につながる可能性がある"
  flavor_dan_skane_war.2.title: "[target_character.GetNameWithNoTooltip]の申し出"
