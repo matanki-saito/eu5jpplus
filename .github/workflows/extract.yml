@@ -12,9 +12,10 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+
     strategy:
       matrix:
-        python-version: [ 3.10.8 ]
+        python-version: [3.10.8]
 
     steps:
       - uses: actions/checkout@v3
@@ -62,3 +63,20 @@ jobs:
           SOURCE_DIR: ${{ secrets.SOURCE_DIR }}
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           PYTHONUTF8: 1
+
+      - name: Notify Discord on failure
+        if: failure()
+        run: |
+          $body = @{
+            content = "❌ extract_localization_files が失敗しました。
+            Repository: ${{ github.repository }}
+            Workflow: ${{ github.workflow }}
+            Run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          } | ConvertTo-Json
+
+          Invoke-RestMethod `
+            -Uri "${{ secrets.DISCORD_WEBHOOK_URL }}" `
+            -Method Post `
+            -ContentType "application/json" `
+            -Body $body
+        shell: pwsh
