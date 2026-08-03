@@ -215,6 +215,8 @@
  diplomatic_status_italian_league_3_name: "$italian_league_3$"
  diplomatic_status_italian_league_3_tooltip: "#T $italian_league_3$#!\nこの国家はイタリア連盟のメンバーである。"
  italian_league_3_list_who_tt: "$WHO$は$LIST$とともに[GetUniqueInternationalOrganization('italian_league_3').GetName]に属している。"
+ diplomatic_status_italian_league_sponsor_name: "$italian_league_sponsor$"
+ diplomatic_status_italian_league_sponsor_tooltip: "#T $italian_league_sponsor$#!\nこの国家はイタリア同盟を後援しており、同盟のリーダーにダカットと人員を提供している"
  diplomatic_status_guelphs_io_name: "$guelphs_io$"
  diplomatic_status_guelphs_io_tooltip: "#T $guelphs_io$#!\nこの国家は$guelphs_io$の一員である。"
  guelphs_io_list_who_tt: "$WHO$は$LIST$とともに$guelphs_io$に属している"

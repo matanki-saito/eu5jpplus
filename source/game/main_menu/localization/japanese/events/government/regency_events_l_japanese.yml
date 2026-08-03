@@ -1,6 +1,6 @@
 ﻿l_japanese:
  regencies.1.title: "摂政と王位継承"
- regencies.1.desc: "[target_previous_ruler.GetName]の早すぎる死により、[ROOT.GetCountry.GetFlavorRank]の正当な後継者が選ばれるまで、一時的に摂政が置かれることとなった。[ROOT.GetCountry.GetAdjective]法によると、[target_character.GetName]がそのまま即位することは禁止されている反面、[target_character.GetSheHe]は[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]階級から絶大な人気と支持を得ている。\n\n当然[target_character.GetShortNameWithNoTooltip]は大きな野望をもつ者として、即位に強い関心を示しているが、[ROOT.GetCountry.GetLongNameWithNoTooltip]の正当な統治者にふさわしいのか、最終的な判断を下すのは[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]階級である。"
+ regencies.1.desc: "[target_previous_ruler.GetName]の早すぎる死により、[ROOT.GetCountry.GetFlavorRank]の正当な後継者が選ばれるまで、一時的に摂政が置かれることとなった。$regencies.1.desc.base$"
  regencies.1.desc.fallback: "玉座は長きにわたり空位のままとなっている。[ROOT.GetCountry.GetFlavorRank]の先代君主の記憶はすでに薄れつつあるが、依然として後継者が現れる兆しはない。$regencies.1.desc.base$"
  regencies.1.desc.base: "[ROOT.GetCountry.GetAdjective]法によると、[target_character.GetName]がそのまま即位することは禁止されている反面、[target_character.GetSheHe]は[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]階級から絶大な人気と支持を得ている。\n\n当然[target_character.GetShortNameWithNoTooltip]は大きな野望をもつ者として、即位に強い関心を示しているが、[ROOT.GetCountry.GetLongNameWithNoTooltip]の正当な統治者にふさわしいのか、最終的な判断を下すのは[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]階級である。"
  regencies.1.a: "いい案だ！"

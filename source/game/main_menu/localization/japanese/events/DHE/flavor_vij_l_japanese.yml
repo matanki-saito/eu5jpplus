@@ -107,6 +107,7 @@
  flavor_vij.19.historical_info: "その内容の多くは時の流れにより失われてしまったものの、『マドゥラ・ヴィジャヤム』はブッカ・ラーヤ1世の子クマーラ・カンパナの生涯を描いており、マドゥライ・スルターン朝の滅亡に関する記述が収録されている。そのため、単なる詩ではなく歴史的資料としての価値も有している。1916年に再発見されたことにより、全世界に向けた印刷・出版が可能になった。"
  flavor_vij.19.a: "この事業に出資する余裕はある。"
  flavor_vij.19.b: "詩に金を使うだと？ 割に合わないな。"
+ variable_vij_harihara_or_bukka_raya_conquered_madurai_flag_tt: "マドゥライが征服された"
  flavor_vij.20.title: "[target_character.GetNameWithNoTooltip]"
  flavor_vij.20.entry: "宮廷翻訳家、ナチャナ・ソマナータ"
  flavor_vij.20.desc: "我らが[ROOT.GetCountry.GetGovernment.GetCourtTitle]では、多様な言語で膨大な数の詩が書かれているため、翻訳家の需要が高まっている。[target_character.GetName]もそうした翻訳家のひとりで、身分こそ卑しいものの才能に恵まれている。その彼が我々の翻訳事業を助けるべく、[ROOT.GetCountry.GetGovernment.GetCourtTitle]を訪れた。"

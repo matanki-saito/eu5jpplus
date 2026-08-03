@@ -1,6 +1,6 @@
 ﻿l_japanese:
  march_to_sound_of_guns: "戦場の呼び声"
- march_to_sound_of_guns_desc: "鳴り響く大砲の音を耳にすれば、我々の部隊は即座に援護に駆けつける！"
+ march_to_sound_of_guns_desc: "#bold [armies]は、近くの戦いへ向けて自動的に移動できるようになる。#!\n\n鳴り響く大砲の音を耳にすれば、我々の部隊は即座に援護に駆けつける！"
  drill_army: "軍事教練"
  drill_army_desc: "軍事教練は費用はかかるが、命を危険にさらすことなく兵士の練度を上げるのに最適である。経験は最良の師なのだ。"
  drill_army_cta: "クリックで軍事教練を始める。"
@@ -19,7 +19,6 @@
  scorch_earth: "焦土作戦"
  scorch_earth_desc: "撤退時、我々側の[food|e]を敵に使われないように破壊する。"
  scorch_earth_cta: "クリックですべて焦土に変える！"
- scorched_earth_pops_unhappy: "対象の[province|e]に居住するすべての[pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_severe_penalty')|+=2%]減少する"
  hunt_pirates: "海賊の掃討"
  hunt_pirates_desc: "わが艦隊は[privateers|e]の掃討と活動の妨害に注力する。これにより当該海域の交易力は低下するが、海賊行為の抑制能力は向上する。"
  hunt_pirates_cta: "クリックで[privateers|e]の掃討を開始する。"

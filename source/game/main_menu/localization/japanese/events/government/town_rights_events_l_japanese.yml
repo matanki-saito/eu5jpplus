@@ -63,7 +63,7 @@
  town_rights_events.10.b: "損失を補償し、生産を継続させる。"
  town_rights_events.10.c: "地元民がその負担を負うべきだ。"
  cooldown_10_years: "この[town_rights|e]は今後#v 10年間#!、強制的に撤回することはできない"
- laborers_and_peasants_happy_tt: "[target_location.GetName]に居住する[Laborers|E]と[peasants|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%]増加する"
+ laborers_and_peasants_happy_tt: "[target_location.GetName]に居住する$laborers$と$peasants$の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_weak_bonus')|+=2%]上昇する"
  town_rights_events.11.title: "[target_location.GetNameWithNoTooltip]の流行"
  town_rights_events.11.desc: "[target_location.GetName]の仕立屋、染色職人、織物商人たちは、衣服における新たな水準を打ち立てた！ 多くの住民たちの見事に仕立てられた装いは、いまや最も熱い話の種だ！ 新作コレクションはそのたびに[ROOT.GetCountry.GetFlavorRank]全土のスタイルとファッションの定番となっている。実際、その生地や仕立ては[target_province.GetName]の外でも模倣されるようになり、[target_location.GetRank.GetName]の名は上流社会でますます称賛を込めて語られるようになっている。どうせ誰かに見られるのなら、見惚れられるほどの逸品を！"
  town_rights_events.11.a: "[target_character.GetShortNameWithNoTooltip]の装いは、まさに目の保養だ！"

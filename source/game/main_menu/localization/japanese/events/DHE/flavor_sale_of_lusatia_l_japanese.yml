@@ -21,6 +21,8 @@
  flavor_sale_of_lusatia.1100.c: "我々の正当な領土を取り戻す！"
  flavor_sale_of_lusatia.1100.d: "判断を誤ったのだろうか。"
  flavor_sale_of_lusatia.1100.historical_info: "1353年の協定が期限を迎え、オットー・フォン・ヴィッテルスバッハはラウジッツ辺境伯の称号と領地をボヘミア王室に売却し、ボヘミアはこれを受け入れた。ラウジッツはボヘミアの支配下に入り、上ラウジッツと下ラウジッツは再びひとつの支配のもとに統一された。"
+ pledge_of_lusatia_accepted_tt: "ルサチアの協定が承認された"
+ pledge_of_lusatia_timeout_tt: "ルサチアの協定が期限切れとなった"
  flavor_sale_of_lusatia.1101.desc: "[GetCountry('MEI').GetName]への[GetCountry('SOR').GetName]の協定が期限切れとなり、[GetCountry('BRA').GetName]はわが国に[GetCountry('SOR').GetLongNameWithNoTooltip]の完全購入を申し出てきた。価格は確かに高いが、我々にとっては実入りの多い投資となるだろう。"
  flavor_sale_of_lusatia.1101.a: "申し出を受けよう！"
  flavor_sale_of_lusatia.1101.b: "いい投資とは思えない。"

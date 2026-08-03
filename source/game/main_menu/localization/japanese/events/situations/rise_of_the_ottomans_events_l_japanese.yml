@@ -13,7 +13,7 @@
  rise_of_the_ottomans.5.title: "トルコ人の台頭"
  rise_of_the_ottomans.5.desc: "我々は、王朝の創始者が抱いた最も壮大な野望や夢すら超えてしまった。我々はこの先どこへ向かうのだろう？"
  rise_of_the_ottomans.5.a: "これは永遠に続くのだ！"
- ability_to_form_rum_tt: "ルーム・セルジュークを再建する能力を獲得"
+ ability_to_form_rum_tt: "ルーム・スルターン国を再建する"
  history_rewritten_tt: "#italic こうして歴史は書き換えられていく。我々は未来の大国の誕生の瞬間に立ち会い、隆盛への道を切り拓いた者たちの遺産と栄光を受け継ぐのだ。#!"
  rise_of_the_ottomans.6.title: "[ROOT.GetCountry.GetNameWithNoTooltip]の台頭"
  rise_of_the_ottomans.6.desc: "隣国の危険に打ち勝つために奮闘してきた結果、我々は[ShowRegionName('anatolia_region')]全域の内政・外交問題において確固たる地位を築くに至った。我々の新たな影響力をもってすれば、並みいる強国でさえ我々にこうべを垂れるはずだ！"

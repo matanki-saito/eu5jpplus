@@ -1,11 +1,11 @@
 ﻿l_japanese:
- # Topography
+ #Topography
  flatland: "平野"
  mountains: "山岳"
  hills: "丘陵"
  plateau: "高原"
  wetlands: "湿地"
- # Vegetation
+ #Vegetation
  desert: "砂漠"
  sparse: "平原"
  grasslands: "草原"
@@ -13,7 +13,7 @@
  woods: "林野"
  forest: "森林"
  jungle: "ジャングル"
- # Climate
+ #Climate
  arctic: "寒帯"
  continental: "大陸部"
  mediterranean: "地中海"
@@ -22,7 +22,7 @@
  cold_arid: "寒冷乾燥帯"
  oceanic: "大洋州地域"
  subtropical: "亜熱帯"
- # Water & Wastelands
+ #Water & Wastelands
  ocean: "海"
  deep_ocean: "遠洋"
  coastal_ocean: "近海"
@@ -41,9 +41,9 @@
  flatland_wasteland: "平地の未開拓地"
  mesa_wasteland: "卓状台地の未開墾地"
  atoll: "環礁"
- # Misc
+ #Misc
  TERRAIN_MOVEMENT_COST: "[units|e]の移動コスト：$VALUE|-=%V$"
- TERRAIN_PROXIMITY_COST: "近接性速度への影響：$VALUE|+=%$"
+ TERRAIN_PROXIMITY_COST: "近接性効率への影響：$VALUE|+=%$"
  TERRAIN_ATTACKER_PENALTY: "[combat|e]の攻撃側ペナルティ：$VALUE|-=$"
  TERRAIN_ATTACKER_PENALTY_TT: "この[location|e]は、[combat|e]時に[attacker|e]に[Location.GetAttackerPenalty|-=]のペナルティを与える。"
  TERRAIN_CAN_FREEZE_OVER: "冬になると凍結する可能性がある。凍結すると[ships|e]の移動、および[armies|e]の横断を妨げる。"

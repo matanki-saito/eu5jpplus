@@ -42,6 +42,7 @@
  flavor_brapru.7.desc: "We let the problems with our Recruitment system fester for too long and a Reform now seems like the only option. The Plans for the [ShowPolicyName('canton_system_policy')] are still present and our advisors in favor of reform are still advising us to implement this policy to regulate recruitment."
  flavor_brapru.7.a: "Give in to the demands."
  flavor_brapru.7.b: "Ignore these complaints."
+ canton_reform_done_tt: "The Canton System Reform has been Enacted"
 
  flavor_brapru.8.title: "Reforms of the Great Elector"
  flavor_brapru.8.desc: "Our most capable ruler, [target_character.GetName], has drafted multiple plans to reform the [ROOT.GetCountry.GetLongName] into a modern state. Among [ROOT.GetCountry.GetGovernment.GetRuler.GetHisHer] plans are a radical reform and expansion of the army, an improvement for [ShowLocationName('berlin')], and dreams of a capable navy for [ROOT.GetCountry.GetNameWithNoTooltip]. Although all of these would elevate us among the countries of [ShowRegionName('north_german_region')], we will have to decide where our resources should be allocated for now."
@@ -148,24 +149,24 @@
  flavor_brapru.23.a: "All should strive towards tolerance!"
  flavor_brapru.23.b: "A useless plea for tolerance."
 
- flavor_brapru.24.title: "[ShowPolicyNameWithNoTooltip('order_of_the_swan_policy')]"
+ flavor_brapru.24.title: "[ShowChivalricOrderNameWithNoTooltip('order_of_the_swan')]"
  flavor_brapru.24.entry: "Order of The Swan"
- flavor_brapru.24.desc: "Much of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] consider the [country_ruler.GetName]'s efforts of spreading piety to be rather inadequate. Apparently, they believe that the creation of a new chivalry order to spread the Virgin Mary cult would rectify that [ROOT.GetCountry.GetGovernment.GetAdjective] indifference. A domestic chivalric order would lead to the spiritual growth of the members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and their serfs.\n\nThough the creation of such an order would be quite costly, it would greatly contribute to growing the prestige of the [ROOT.GetCountry.GetFlavorRank]. Lured by those reasons, [country_ruler.GetNameWithNoTooltip] was convinced to at least entertain such a possibility. As such, [country_ruler.GetSheHe] let several proposals be made, but only the one about [ShowPolicyName('order_of_the_swan_policy')] seems to be to the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s liking."
+ flavor_brapru.24.desc: "Much of the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')] consider the [country_ruler.GetName]'s efforts of spreading piety to be rather inadequate. Apparently, they believe that the creation of a new chivalry order to spread the Virgin Mary cult would rectify that [ROOT.GetCountry.GetGovernment.GetAdjective] indifference. A domestic chivalric order would lead to the spiritual growth of the members of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] and their serfs.\n\nThough the creation of such an order would be quite costly, it would greatly contribute to growing the prestige of the [ROOT.GetCountry.GetFlavorRank]. Lured by those reasons, [country_ruler.GetNameWithNoTooltip] was convinced to at least entertain such a possibility. As such, [country_ruler.GetSheHe] let several proposals be made, but only the one about [ShowChivalricOrderName('order_of_the_swan')] seems to be to the [ROOT.GetCountry.GetGovernment.GetRulerTitle]'s liking."
  flavor_brapru.24.historical_info: "The Brandenburgian #italic Schwanenorden#! was founded in 1440 by Prince-elector Frederick II. Its #italic modus operandi#! was to promote piety and to spread the cult of the Virgin Mary. The founding members amounted to 37 people but the Order would quickly grow to encompass hundreds."
  flavor_brapru.24.a: "Encourage this establishment."
  flavor_brapru.24.b: "Why should we bother?"
 
  flavor_brapru.25.title: "$flavor_brapru.24.title$"
  flavor_brapru.25.entry: "$flavor_brapru.25.title$"
- flavor_brapru.25.desc: "[country_ruler.GetName] has recently founded the [ShowPolicyName('order_of_the_swan_policy')] in order to promote piety and the cult of the Virgin Mary in [country_ruler.GetHerHis] country. Due to our dynastic connections, many of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been offered membership in the chivalric establishment. This could be an excellent opportunity to promote our own interests."
+ flavor_brapru.25.desc: "[country_ruler.GetName] has recently founded the [ShowChivalricOrderName('order_of_the_swan')] in order to promote piety and the cult of the Virgin Mary in [country_ruler.GetHerHis] country. Due to our dynastic connections, many of our [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')] have been offered membership in the chivalric establishment. This could be an excellent opportunity to promote our own interests."
  flavor_brapru.25.historical_info: "$flavor_brapru.24.historical_info$"
  flavor_brapru.25.a: "We should have [ROOT.GetCountry.GetGovernment.GetRuler.GetShortNameWithNoTooltip] join this order."
  flavor_brapru.25.a.entry: "We should have him join this order."
  flavor_brapru.25.b: "Good to have them."
 
- flavor_brapru.26.title: "[ShowPolicyNameWithNoTooltip('order_of_the_black_eagle_policy')]"
+ flavor_brapru.26.title: "[ShowChivalricOrderNameWithNoTooltip('order_of_the_black_eagle')]"
  flavor_brapru.26.entry: "Order of the Black Eagle"
- flavor_brapru.26.desc: "As the militarization of our country grows and we pivot towards [ShowSocietyDirectionName('quality')] more and more, we find ourselves lacking in rewards befitting our outstanding generals. Though land grants and direct payments are good rewards in and of themselves, the establishment of a new, secular military order would go a long way toward promoting the good name of our war heroes. Though costly, the [ShowPolicyName('order_of_the_black_eagle_policy')] would promote more discipline and merit."
+ flavor_brapru.26.desc: "As the militarization of our country grows and we pivot towards [ShowSocietyDirectionName('quality')] more and more, we find ourselves lacking in rewards befitting our outstanding generals. Though land grants and direct payments are good rewards in and of themselves, the establishment of a new, secular military order would go a long way toward promoting the good name of our war heroes. Though costly, the [ShowChivalricOrderName('order_of_the_black_eagle')] would promote more discipline and merit."
  flavor_brapru.26.historical_info: "Prince-elector Frederick III founded the Order of the Black Eagle, a military order that included most reigning members and kinsmen of the ruling Hohenzollern dynasty and many visiting foreign royals, on January 17th, 1701, on the eve of being crowned as King in Prussia. Aside from being awarded to royals, it was also conferred to skilled military personnel, promoting meritocracy in the process."
  flavor_brapru.26.a: "We will fund the establishment."
  flavor_brapru.26.b: "Such vanities do not concern us or our generals!"
@@ -414,6 +415,7 @@
  flavor_brapru_teu.3.b: "Or perhaps [GetCountry('POL').GetNameWithNoTooltip] would be better."
  flavor_brapru_teu.3.b.entry: "Or perhaps $POL$ would be better."
  flavor_brapru_teu.3.c: "What is ours is ours."
+ variable_bought_neumark_tt: "The Neumark has been Purchased"
  TEU_sell_neumark_back_to_brandenburg: "We will offer [GetCountry('BRA').GetName] the following locations, if they accept:"
  TEU_sell_neumark_back_to_poland: "We will offer [GetCountry('POL').GetName] the following locations, if they accept:"
 
@@ -448,6 +450,7 @@
  flavor_brapru.1802.desc: "The challenges of ruling a country are all but few. While most are ready to face such hard tasks, some fail to live up to the pressure. Clearly, one of such people was [insane_individual.GetName], as [insane_individual.GetSheHe] has begun to show signs of mental decline. Most members of the [ROOT.GetCountry.GetGovernment.GetCourtTitle] and of the estates have declared [insane_individual.GetHerHim] as unfit to rule."
  flavor_brapru.1802.a: "Only [proposed_regent.GetNameWithNoTooltip] can help us."
  flavor_brapru.1802.a.entry: "Only he can help us."
+ variable_insanity_cooldown_tt: "Mental Illness has Recently Afflicted the Dynasty"
 
  flavor_brapru.1803.title: "$flavor_brapru.1802.title$"
  flavor_brapru.1803.desc: "We have received word from our subject in [pru_from.GetName] of their political woes. Their government has been left without a ruler due to the mental decline of [insane_individual.GetName]. In those dark times, they have reached out to their kinsman, [proposed_regent.GetName]. Should [proposed_regent.GetNameWithNoTooltip] become the regent, a personal union would form, leading to troubles on the horizon for us. We could impose our own regent, but that would be met with outrage in [pru_from.GetNameWithNoTooltip]."
@@ -472,7 +475,7 @@
  flavor_brapru.1806.a: "They will be punished for meddling!"
 
  flavor_brapru.1807.title: "Treaty of [wehlau_loc.GetNameWithNoTooltip]"
- flavor_brapru.1807.entry: "Treaty of Wehlau Loc"
+ flavor_brapru.1807.entry: "Treaty of Wehlau"
  flavor_brapru.1807.desc: "Since our succession in [GetCountry('PRU').GetName], we have been slowly gaining in power relative to our partial suzerain in [GetCountry('PRU').GetDiplomacy.GetOverlord.GetName]. Today, as our relative power to the [GetCountry('PRU').GetDiplomacy.GetOverlord.GetLongNameWithNoTooltip] is more favorable than ever, we should propose a treaty between two nations, offering the [GetCountry('PRU').GetDiplomacy.GetOverlord.GetAdjectiveWithNoTooltip] the promise of peace in return for them renouncing [GetCountry('PRU').GetNameWithNoTooltip] as their subject."
  flavor_brapru.1807.historical_info: "The Treaty of Wehlau was a humiliating pact between the Kingdom of Poland and the Hohenzollern Duchy of Prussia, whereas the former have rescinded their overlordship over the latter, receiving Hohenzollern military support against the Swedes in return. The catalyst of this treaty was the catastrophic invasion of Poland, known as the #italic Swedish Deluge#!."
  flavor_brapru.1807.a: "Let us propose the notion."
@@ -519,6 +522,7 @@
  flavor_brapru.2000.c: "Prioritize the [ROOT.GetCountry.GetFlavorRank]'s stabilization."
  flavor_brapru.2000.c.entry: "Prioritize the realm's stabilization."
  flavor_brapru.2000.d: "We must work on modernization."
+ had_turmoil_in_brandenburg_disaster_variable_tt: "Brandenburg has had the Turmoil in Brandenburg Disaster"
  
  flavor_brapru.2001.title: "Reversal of Allegiances"
  flavor_brapru.2001.entry: "$flavor_brapru.2001.title$"

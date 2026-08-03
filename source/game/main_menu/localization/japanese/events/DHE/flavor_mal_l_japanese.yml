@@ -196,7 +196,7 @@
  flavor_mal.32.c.entry: "彼のせいにしよう。"
  flavor_mal.33.title: "$timbuktu_palace$の建設"
  flavor_mal.33.entry: "$flavor_mal.33.title$"
- flavor_mal.33.desc: "[target_location.GetName]の[target_location.GetRank.GetName]が享受している黄金時代をさらに安泰にするために、[target_character.GetName]はわが[ROOT.GetCountry.GetRank]の富と威信の証となる壮大な宮殿の建設を構想している。偉大なる諸帝国の華々しい宮廷に触発された[target_character.GetSheHe]は、[ROOT.GetCountry.GetName]でも最高の建造物群に匹敵する傑作を作ろうとしているのだ。精巧な職人技によって設計され、権力の象徴で飾られるこの宮殿は、行政の中心地として、また[target_character.GetNameWithNoTooltip]の遺産として機能する予定だ。その堂々たる姿は、[target_location.GetNameWithNoTooltip]を歴史に刻み込む、繁栄と文化の標となるだろう。"
+ flavor_mal.33.desc: "[target_location.GetName]の[target_location.GetRank.GetName]が享受している黄金時代をさらに安泰にするために、[target_character.GetName]はわが[ROOT.GetCountry.GetRank.GetName]の富と威信の証となる壮大な宮殿の建設を構想している。偉大なる諸帝国の華々しい宮廷に触発された[target_character.GetSheHe]は、[ROOT.GetCountry.GetName]でも最高の建造物群に匹敵する傑作を作ろうとしているのだ。精巧な職人技によって設計され、権力の象徴で飾られるこの宮殿は、行政の中心地として、また[target_character.GetNameWithNoTooltip]の遺産として機能する予定だ。その堂々たる姿は、[target_location.GetNameWithNoTooltip]を歴史に刻み込む、繁栄と文化の標となるだろう。"
  flavor_mal.33.a: "建設計画を支援しよう。"
  flavor_mal.33.b: "無駄な建造物を建てる必要はない。"
  flavor_mal.33.c: "大宮殿？ それほど壮大なものを？"

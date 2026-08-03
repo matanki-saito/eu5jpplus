@@ -41,3 +41,4 @@
  treaty_of_tordesillas.7.a: "思い切って彼らの提案を受け入れよう。"
  treaty_of_tordesillas.7.a.tt: "[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_east_country').GetCountry.GetLongName]と[GetSituationByKey('treaty_of_tordesillas').MakeScope.GetVariable('var_west_country').GetCountry.GetLongName]が、それぞれ領有する地域を入れ替える"
  treaty_of_tordesillas.7.b: "こんな馬鹿げた提案を受け入れられるものか。"
+ treaty_of_tordesillas_can_end_tt: "[GetSituationByKey('treaty_of_tordesillas').GetName]は第2フェーズにあり、条約関係は0になった"

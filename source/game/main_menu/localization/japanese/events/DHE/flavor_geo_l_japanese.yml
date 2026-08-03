@@ -151,6 +151,7 @@
  flavor_geo.26.desc: "最近、わが国の[ROOT.GetCountry.GetGovernment.GetRulerTitle]が[GetCountry('TIM').GetAdjective]の信仰を強制され、受け入れたことを、国民の大多数は好ましい目で見ていない。我々の[ROOT.GetCountry.GetReligion.GetAdjective]信仰は、たとえ戦争の脅威にさらされようとも、外国の影響に容易に揺らぐべきではないのだ。多くの者は、[target_character.GetName]はこのような改宗を撤回し、真の信仰を守る準備をすべきだと主張している。"
  flavor_geo.26.a: "これは実は作戦であり、その目的は果たされた。"
  flavor_geo.26.b: "済んだことは仕方ない。"
+ variable_timur_conversion_variable_tt: "わが国の信仰はティムールの征服により形作られた"
  flavor_geo.27.title: "[target_character2.GetNameWithNoTooltip]"
  flavor_geo.27.entry: "ジョルジ・サアカーゼ"
  flavor_geo.27.desc: "最近、[ROOT.GetCountry.GetGovernment.GetCourtTitle]の多くの者が、ある著名な人物の名を頻繁に口にしている。[target_location.GetName]出身の、土地を持たぬ小貴族である[target_character2.GetName]である。彼は若いころから軍人としての道を歩みつづけ、すでに軍功で名を馳せている。このように才覚ある者を身近に置くことは、間違いなく我々の軍事能力の向上につながるうえに、その鋭い戦術は、今後の紛争において必ずや役立つだろう。"

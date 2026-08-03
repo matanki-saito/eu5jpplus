@@ -1,16 +1,16 @@
 ﻿l_japanese:
- # Non-Italian trade cities #
+ #Non-Italian trade cities #
  acre.north_italian_language: "サン・ジョヴァンニ・ダクリ"
  amasra.north_italian_language: "アマストリス"
  ayas.north_italian_language: "ライアッツォ"
  balat.north_italian_language: "パラティア"
  berat.north_italian_language: "ベルグラード・ディ・ロマーニャ"
+ brac.emilian_dialect: "ブロッヅ"
  brac.north_italian_language: "ブラッツァ"
+ brac.romagnol_dialect: "ブラッツァ"
  brixen.north_italian_language: "ブレッサノーネ"
  bruneck.north_italian_language: "ブルニコ"
  buzet.north_italian_language: "ピングエンテ"
- candia.north_italian_language: "キャンディア"
- cesme.north_italian_language: "チェシュメ"
  chania.north_italian_language: "ラ・カネア"
  crikvenica.north_italian_language: "チルクェニッツァ"
  dukagjini.north_italian_language: "ドゥカジーニ"
@@ -32,13 +32,19 @@
  morphou.north_italian_language: "オモルフォ"
  novigrad.north_italian_language: "ノヴェグラディ"
  otocac.north_italian_language: "オットーチョ"
+ pag.emilian_dialect: "ポーグ"
+ pag.lombard_dialect: "パグ"
  pag.north_italian_language: "パゴ"
+ pag.romagnol_dialect: "パーグ"
  paphos.north_italian_language: "パフォ"
  pazin.north_italian_language: "ピシノ"
- pola.north_italian_language: "ポラ"
  rethymno.north_italian_language: "レティモ"
  rijeka.north_italian_language: "フィウーメ"
+ rovinj.emilian_dialect: "ロヴィニ"
+ rovinj.lombard_dialect: "レヴィニ"
  rovinj.north_italian_language: "ロヴィーニョ"
+ rovinj.piedmontese_dialect: "ロヴィニ"
+ rovinj.romagnol_dialect: "ロヴィニ"
  samsun.north_italian_language: "シミッソ"
  senj.north_italian_language: "セーニャ"
  shkoder.north_italian_language: "スクタリ"
@@ -48,249 +54,1003 @@
  siteia.north_italian_language: "シティア"
  slano.north_italian_language: "スターニョ"
  smyrna.north_italian_language: "スミルナ"
+ split.emilian_dialect: "スポロト"
+ split.lombard_dialect: "スパラト"
  split.north_italian_language: "スパラト"
+ split.romagnol_dialect: "スパラト"
  sterzing.north_italian_language: "ヴィピテーノ"
  theodoro.north_italian_language: "テドーロ"
  trebizond.north_italian_language: "トレビゾンダ"
+ zadar.emilian_dialect: "ゾール"
  zadar.north_italian_language: "ザラ"
+ zadar.romagnol_dialect: "ザーラ"
  ### Region 'italy_region' (Italy) ###
  ## Area 'abruzzo_area' (Abruzzo) ##
- # All Abruzzo locations: north_italian_language = south_italian_language
+ #All Abruzzo locations: north_italian_language = south_italian_language
  ## Area 'molise_area' (Molise) ##
- # All Molise locations: north_italian_language = south_italian_language
+ #All Molise locations: north_italian_language = south_italian_language
  ## Area 'apulia_area' (Apulia) ##
- # All Apulia locations: north_italian_language = south_italian_language
+ #All Apulia locations: north_italian_language = south_italian_language
  ## Area 'basilicata_area' (Basilicata) ##
- # All Basilicata locations: north_italian_language = south_italian_language
+ #All Basilicata locations: north_italian_language = south_italian_language
  ## Area 'calabria_area' (Calabria) ##
- # All Calabria locations: north_italian_language = south_italian_language
+ #All Calabria locations: north_italian_language = south_italian_language
  ## Area 'campania_area' (Campania) ##
- # All Campania locations: north_italian_language = south_italian_language
+ #All Campania locations: north_italian_language = south_italian_language
  ## Area 'lazio_area' (Lazio) ##
- # All Lazio locations: north_italian_language = south_italian_language
+ #All Lazio locations: north_italian_language = south_italian_language
  ## Area 'marche_area' (Marche) ##
- # All Marche locations: north_italian_language = south_italian_language
+ #All Marche locations: north_italian_language = south_italian_language
  ## Area 'tuscany_area' (Tuscany) ##
- # Province 'florence_province' (Florence) #
- florence.north_italian_language: "フィレンツェ"
- # All other Tuscany locations: north_italian_language = south_italian_language
+ #All Tuscany locations: north_italian_language = south_italian_language
  ## Area 'umbria_area' (Umbria) ##
- # All Umbria locations: north_italian_language = south_italian_language
+ #All Umbria locations: north_italian_language = south_italian_language
  ## Area 'sardinia_area' (Sardinia) ##
- # All Sardinia locations: north_italian_language = south_italian_language
+ #All Sardinia locations: north_italian_language = south_italian_language
  ## Area 'sicily_area' (Sicily) ##
- # All Sicily locations: north_italian_language = south_italian_language
+ #All Sicily locations: north_italian_language = south_italian_language
  ## Area 'emilia_area' (Emilia and Romagna) ##
- # Province 'bologna_province' (Bologna) #
- bologna.north_italian_language: "ブラーニャ"
- # bologna.emilian_dialect: "Bulagna"  # = north_italian_language
- # Province 'ferrara_province' (Ferrara) #
- ferrara.north_italian_language: "フェラーラ"
- # ferrara.emilian_dialect: "Fràra"  # = north_italian_language
- # Province 'modena_province' (Modena) #
- modena.north_italian_language: "モドナ"
- # modena.emilian_dialect: "Mòdna"  # = north_italian_language
- # Province 'piacenza_province' (Piacenza) #
- piacenza.north_italian_language: "ピァズィンサ"
- # piacenza.emilian_dialect: "Piaṡeinsa"  # = north_italian_language
- # Province 'reggioem_province' (Reggio di Lombardia) #
- reggioem.north_italian_language: "レッツ"
- # reggioem.emilian_dialect: "Rèz"  # = north_italian_language
- # Province 'romagna_province' (Romagna) #
- rimini.north_italian_language: "レーミン"
- # rimini.emilian_dialect: "Rémin"  # = north_italian_language
- ravenna.north_italian_language: "ラヴェーナ"
- # ravenna.emilian_dialect: "Ravèna"  # = north_italian_language
- # Province 'parma_province' (Parma) #
- parma.north_italian_language: "ペルマ"
- # parma.emilian_dialect: "Pärma"  # = north_italian_language
- # Province 'imola_province' (Imola) #
- imola.north_italian_language: "イモーラ"
- # imola.emilian_dialect: "Imòla"  # = north_italian_language
- # Province 'casalmaggiore_province' (Casalmaggiore) #
- casalmaggiore.north_italian_language: "カザルマジュール"
- # casalmaggiore.emilian_dialect: "Casalmajùr"  # = north_italian_language
- # Province 'guastalla_province' (Guastalla) #
- guastalla.north_italian_language: "ガスタラ"
- # guastalla.emilian_dialect: "Gastàla"  # = north_italian_language
- # Province 'mirandola_province' (Mirandola) #
- mirandola.north_italian_language: "ミラーンドラ"
- # mirandola.emilian_dialect: "Miràndla"  # = north_italian_language
- # argenta.north_italian_language: "Argenta"  # = south_italian_language
- # comacchio.north_italian_language: "Comacchio"  # = south_italian_language
- # fiorenzuola.north_italian_language: "Fiorenzuola"  # = south_italian_language
- # medicina.north_italian_language: "Medicina"  # = south_italian_language
- # nonantola.north_italian_language: "Nonantola"  # = south_italian_language
+ #Province 'bologna_province' (Bologna) #
+ bologna.emilian_dialect: "ブラーニャ"
+ bologna.ligurian_dialect: "ボーニャ"
+ bologna.lombard_dialect: "ベレーニャ"
+ bologna.rhaetian_dialect: "ボノニア"
+ bologna.romagnol_dialect: "ブロンニャ"
+ #Province 'ferrara_province' (Ferrara) #
+ ferrara.emilian_dialect: "フラーラ"
+ ferrara.ligurian_dialect: "フェアーラ"
+ ferrara.piedmontese_dialect: "フェラーラ"
+ ferrara.rhaetian_dialect: "フェラリア"
+ ferrara.romagnol_dialect: "フェレーラ"
+ ferrara.venetian_dialect: "フェラーラ"
+ #Province 'modena_province' (Modena) #
+ modena.emilian_dialect: "モドナ"
+ modena.ligurian_dialect: "モーデナ"
+ modena.lombard_dialect: "メーデナ"
+ modena.piedmontese_dialect: "モドゥナ"
+ modena.rhaetian_dialect: "ムティナ"
+ modena.romagnol_dialect: "モドナ"
+ #Province 'piacenza_province' (Piacenza) #
+ piacenza.emilian_dialect: "ピァズィンサ"
+ piacenza.piedmontese_dialect: "ピアチェンツァ"
+ piacenza.rhaetian_dialect: "プラセンシア"
+ #Province 'reggioem_province' (Reggio di Lombardia) #
+ reggioem.emilian_dialect: "レッツ"
+ reggioem.lombard_dialect: "レッジョ・ディ・レンバルディア"
+ reggioem.north_italian_language: "レッジョ"
+ reggioem.piedmontese_dialect: "ルッジョ・ディ・ロンバルディア"
+ reggioem.romagnol_dialect: "レッジョ・ディ・ロンバルディア"
+ #Province 'romagna_province' (Romagna) #
+ rimini.romagnol_dialect: "レーミン"
+ ravenna.emilian_dialect: "ロヴェンヌ"
+ ravenna.piedmontese_dialect: "ラヴェンナ"
+ ravenna.romagnol_dialect: "ラヴェーナ"
+ cesena.emilian_dialect: "チェゼーナ"
+ cesena.ligurian_dialect: "セゼーナ"
+ cesena.piedmontese_dialect: "チュズナ"
+ cesena.rhaetian_dialect: "カエセナ"
+ cesena.romagnol_dialect: "ズセーナ"
+ faenza.emilian_dialect: "ファエンツ"
+ faenza.ligurian_dialect: "ファエンサ"
+ faenza.lombard_dialect: "ファエンサ"
+ faenza.rhaetian_dialect: "ファヴェンティア"
+ faenza.romagnol_dialect: "ファエンツァ"
+ faenza.venetian_dialect: "ファエンサ"
+ forli.romagnol_dialect: "フルレ"
+ modigliana.emilian_dialect: "モディリアン"
+ modigliana.lombard_dialect: "メディリアーナ"
+ modigliana.romagnol_dialect: "ムディリエーナ"
+ #Province 'parma_province' (Parma) #
+ parma.emilian_dialect: "ペルマ"
+ parma.romagnol_dialect: "パルマ"
+ #Province 'imola_province' (Imola) #
+ imola.emilian_dialect: "イモル"
+ imola.lombard_dialect: "イメラ"
+ imola.romagnol_dialect: "イモーラ"
+ #Province 'casalmaggiore_province' (Casalmaggiore) #
+ casalmaggiore.emilian_dialect: "カザルマジュール"
+ casalmaggiore.piedmontese_dialect: "カザルマッジョール"
+ casalmaggiore.romagnol_dialect: "カサルマッジョール"
+ #Province 'guastalla_province' (Guastalla) #
+ guastalla.emilian_dialect: "ガスタラ"
+ guastalla.romagnol_dialect: "グアスタッラ"
+ #Province 'mirandola_province' (Mirandola) #
+ mirandola.emilian_dialect: "ミラーンドラ"
+ mirandola.lombard_dialect: "ミランデラ"
+ mirandola.romagnol_dialect: "ミランドラ"
+ #argenta.north_italian_language: "Argenta"
+ #comacchio.north_italian_language: "Comacchio"
+ #fiorenzuola.north_italian_language: "Fiorenzuola"
+ #medicina.north_italian_language: "Medicina"
+ #nonantola.north_italian_language: "Nonantola"
  ## Area 'liguria_area' (Liguria and Corsica) ##
- # Province 'levante_province' (Levante) #
- genoa.north_italian_language: "ジェノヴァ"
+ #Province 'levante_province' (Levante) #
+ genoa.emilian_dialect: "ゼーヌア"
  genoa.ligurian_dialect: "ゼーナ"
- # lavagna.north_italian_language: "Lavagna"  # = south_italian_language
+ genoa.lombard_dialect: "ジェーヌア"
+ genoa.piedmontese_dialect: "ジェーノア"
+ genoa.rhaetian_dialect: "ジェノヴァ"
+ genoa.romagnol_dialect: "ゼーヌア"
+ genoa.venetian_dialect: "ジェノヴァ"
+ #lavagna.north_italian_language: "Lavagna"
+ lavagna.emilian_dialect: "ロヴォンヌ"
  lavagna.ligurian_dialect: "ラヴァーニャ"
- # Province 'punente_province' (Punente) #
- # ventimiglia.north_italian_language: "Ventimiglia"  # = south_italian_language
+ lavagna.romagnol_dialect: "ラヴァーニャ"
+ #Province 'punente_province' (Punente) #
+ #ventimiglia.north_italian_language: "Ventimiglia"
  ventimiglia.ligurian_dialect: "ヴィンティミッジャ"
- # albenga.north_italian_language: "Albenga"  # = south_italian_language
+ ventimiglia.piedmontese_dialect: "ヴェンティミーリア"
+ #albenga.north_italian_language: "Albenga"
+ albenga.emilian_dialect: "アルベング"
  albenga.ligurian_dialect: "アルベンガ"
- # cairo_montenotte.north_italian_language: "Cairo Montenotte"  # = south_italian_language
+ albenga.piedmontese_dialect: "アルブンガ"
+ #cairo_montenotte.north_italian_language: "Cairo Montenotte"
+ cairo_montenotte.emilian_dialect: "カイロ・モンテノット"
  cairo_montenotte.ligurian_dialect: "カイル"
- # ceva.north_italian_language: "Ceva"  # = south_italian_language
+ cairo_montenotte.lombard_dialect: "カイロ・メンテネット"
+ cairo_montenotte.romagnol_dialect: "カイロ・モンテノット"
+ #ceva.north_italian_language: "Ceva"
+ ceva.emilian_dialect: "チェヴ"
  ceva.ligurian_dialect: "チェーヴァ"
- # finalborgo.north_italian_language: "Finalborgo"  # = south_italian_language
+ #finalborgo.north_italian_language: "Finalborgo"
+ finalborgo.emilian_dialect: "フィノルボルグ"
  finalborgo.ligurian_dialect: "オ・フィナ"
- # savona.north_italian_language: "Savona"  # = south_italian_language
+ finalborgo.lombard_dialect: "フィナルベルグ"
+ finalborgo.romagnol_dialect: "フィナルボルグ"
+ #savona.north_italian_language: "Savona"
+ savona.emilian_dialect: "ソヴォン"
  savona.ligurian_dialect: "サンナ"
- # Province 'corsica_province' (Corsica) #
- # All Corsica locations: north_italian_language = south_italian_language
+ savona.lombard_dialect: "サヴェナ"
+ savona.romagnol_dialect: "サヴォナ"
+ #Province 'corsica_province' (Corsica) #
+ #All Corsica locations: north_italian_language = south_italian_language
  ## Area 'lombardy_area' (Lombardy) ##
- # Province 'milan_province' (Milan) #
+ #Province 'milan_province' (Milan) #
+ milan.ligurian_dialect: "ミラン"
  milan.north_italian_language: "ミラン"
- # Province 'bergamo_province' (Bergamo) #
- bergamo.north_italian_language: "ベルゲム"
- # Province 'bobbio_province' (Bobbio) #
- bobbio.north_italian_language: "ボビ"
- # Province 'brescia_province' (Brescia) #
- brescia.north_italian_language: "ブレッシャ"
- # Province 'casale_province' (Casale Monferrato) #
+ milan.rhaetian_dialect: "メディオラヌム"
+ #Province 'bergamo_province' (Bergamo) #
+ bergamo.emilian_dialect: "ベルゴム"
+ bergamo.ligurian_dialect: "ベルガモ"
+ bergamo.lombard_dialect: "ベルゲム"
+ bergamo.piedmontese_dialect: "ベルガム"
+ bergamo.rhaetian_dialect: "ベルゴムム"
+ bergamo.romagnol_dialect: "ベルゴム"
+ #Province 'bobbio_province' (Bobbio) #
+ bobbio.lombard_dialect: "ボビ"
+ #Province 'brescia_province' (Brescia) #
+ brescia.ligurian_dialect: "ブレッサ"
+ brescia.lombard_dialect: "ブレザ"
+ brescia.piedmontese_dialect: "ブレッサ"
+ brescia.rhaetian_dialect: "ブリクシア"
+ brescia.venetian_dialect: "ブレッサ"
+ #Province 'casale_province' (Casale Monferrato) #
+ casale.emilian_dialect: "コソーレ・ンフェッロット"
+ casale.lombard_dialect: "カザーレ・メンフェッラト"
  casale.north_italian_language: "カザール"
- # Province 'como_province' (Como) #
- como.north_italian_language: "コム"
- # Province 'cremona_province' (Cremona) #
- cremona.north_italian_language: "クレムーナ"
- # Province 'lecco_province' (Lecco) #
- lecco.north_italian_language: "レック"
- # Province 'lodi_province' (Lodi) #
- lodi.north_italian_language: "ロド"
- # Province 'mantua_province' (Mantua) #
- mantova.north_italian_language: "マントヴァ"
- # Province 'monza_province' (Monza) #
- monza.north_italian_language: "モンツァ"
- # Province 'pavia_province' (Pavia) #
- # pavia.north_italian_language: "Pavia"  # = south_italian_language
- # Province 'arona_province' (Arona) #
- arona.north_italian_language: "アルナ"
- # Province 'soncino_province' (Soncino) #
- soncino.north_italian_language: "スンスィ"
- # Province 'voghera_province' (Voghera) #
- voghera.north_italian_language: "ヴォーゲラ"
- # Province 'valtellina_province' (Valtellina) #
- # tresivio.north_italian_language: "Tresivio"  # = south_italian_language
+ casale.romagnol_dialect: "カザーレ・モンフェッラト"
+ #Province 'como_province' (Como) #
+ como.emilian_dialect: "コム"
+ como.lombard_dialect: "コム"
+ como.piedmontese_dialect: "コム"
+ como.romagnol_dialect: "コム"
+ #Province 'cremona_province' (Cremona) #
+ cremona.emilian_dialect: "クレモン"
+ cremona.ligurian_dialect: "クレモーナ"
+ cremona.lombard_dialect: "クレムーナ"
+ cremona.piedmontese_dialect: "クルモーナ"
+ cremona.rhaetian_dialect: "クレモナ"
+ #Province 'lecco_province' (Lecco) #
+ lecco.emilian_dialect: "レック"
+ lecco.lombard_dialect: "レック"
+ lecco.piedmontese_dialect: "リュック"
+ lecco.romagnol_dialect: "レック"
+ #Province 'lodi_province' (Lodi) #
+ lodi.lombard_dialect: "ロド"
+ #Province 'mantua_province' (Mantua) #
+ mantova.emilian_dialect: "マンタ"
+ mantova.ligurian_dialect: "マントーア"
+ mantova.lombard_dialect: "マントゥア"
+ mantova.north_italian_language: "マントゥア"
+ mantova.rhaetian_dialect: "マントゥア"
+ mantova.romagnol_dialect: "マンタ"
+ mantova.venetian_dialect: "マントア"
+ #Province 'monza_province' (Monza) #
+ monza.emilian_dialect: "モンツ"
+ monza.lombard_dialect: "モンツァ"
+ #Province 'pavia_province' (Pavia) #
+ #pavia.north_italian_language: "Pavia"
+ #Province 'arona_province' (Arona) #
+ arona.emilian_dialect: "アロン"
+ arona.lombard_dialect: "アルナ"
+ #Province 'soncino_province' (Soncino) #
+ soncino.emilian_dialect: "ソンチン"
+ soncino.lombard_dialect: "スンスィ"
+ soncino.piedmontese_dialect: "ソンチン"
+ soncino.romagnol_dialect: "ソンチン"
+ #Province 'voghera_province' (Voghera) #
+ voghera.emilian_dialect: "ヴォゲル"
+ voghera.lombard_dialect: "ヴォーゲラ"
+ voghera.piedmontese_dialect: "ヴォグハラ"
+ #Province 'valtellina_province' (Valtellina) #
+ #tresivio.north_italian_language: "Tresivio"
+ tresivio.piedmontese_dialect: "トゥレジヴィオ"
  tresivio.rhaetian_dialect: "トレジーヴィ"
- bormio.north_italian_language: "ボルミ"
+ bormio.lombard_dialect: "ボルミ"
  bormio.rhaetian_dialect: "ビュルム"
- # chiavenna.north_italian_language: "Chiavenna"  # = south_italian_language
+ #chiavenna.north_italian_language: "Chiavenna"
+ chiavenna.emilian_dialect: "チアヴェンヌ"
+ chiavenna.piedmontese_dialect: "キアヴンナ"
  chiavenna.rhaetian_dialect: "チャヴェーナ"
+ #Province 'ticino_province' (Ticino) — Lombard-cultured Swiss Lombardy #
+ bellinzona.emilian_dialect: "ベリンツォン"
+ bellinzona.lombard_dialect: "ベリンツォナ"
+ bellinzona.piedmontese_dialect: "ブリンツォナ"
+ locarno.emilian_dialect: "ロコルヌ"
+ locarno.lombard_dialect: "ルガルノ"
+ locarno.piedmontese_dialect: "ロカルン"
+ locarno.romagnol_dialect: "ロカルン"
+ lugano.emilian_dialect: "ルゴン"
+ lugano.lombard_dialect: "リュガン"
+ lugano.piedmontese_dialect: "ルガン"
+ lugano.romagnol_dialect: "ルガン"
+ #Province 'verbano_province' (Verbano) #
+ domodossola.emilian_dialect: "ドモドッソル"
+ domodossola.lombard_dialect: "デムドスラ"
+ varallo.emilian_dialect: "ヴォロル"
+ varallo.lombard_dialect: "ヴァラル"
+ varallo.piedmontese_dialect: "ヴァラル"
+ varallo.romagnol_dialect: "ヴァラル"
  ## Area 'piemonte_area' (Piedmont) ##
- # Province 'turin_province' (Turin) #
+ #Province 'turin_province' (Turin) #
+ turin.emilian_dialect: "トゥレン"
+ turin.ligurian_dialect: "テュリン"
+ turin.lombard_dialect: "テリン"
  turin.north_italian_language: "トリノ"
- # turin.piedmontese_dialect: "Turin"  # = north_italian_language
- # Province 'acqui_province' (Acqui) #
- # acqui.north_italian_language: "Acqui"  # = south_italian_language
+ turin.rhaetian_dialect: "タウリヌム"
+ turin.romagnol_dialect: "トゥレン"
+ #turin.piedmontese_dialect: "Turin"
+ #Province 'acqui_province' (Acqui) #
+ #acqui.north_italian_language: "Acqui"
  acqui.piedmontese_dialect: "アイキ"
- # Province 'alba_province' (Alba) #
- # alba.north_italian_language: "Alba"  # = south_italian_language
+ #Province 'alba_province' (Alba) #
+ #alba.north_italian_language: "Alba"
+ alba.emilian_dialect: "アルブ"
  alba.piedmontese_dialect: "アルバ"
- # Province 'alessandria_province' (Alessandria) #
+ #Province 'alessandria_province' (Alessandria) #
+ alessandria.emilian_dialect: "リッソンドリア"
  alessandria.north_italian_language: "リッサンドリア"
- # alessandria.piedmontese_dialect: "Lissandria"  # = north_italian_language
- # Province 'aosta_province' (Aosta) #
- # aosta.north_italian_language: "Aosta"  # = south_italian_language
+ alessandria.romagnol_dialect: "リッサンドリア"
+ #Province 'aosta_province' (Aosta) #
+ #aosta.north_italian_language: "Aosta"
  aosta.piedmontese_dialect: "アオウスタ"
- # Province 'asti_province' / 'monferrato_province' (Asti / Monferrato) #
+ #Province 'asti_province' / 'monferrato_province' (Asti / Monferrato) #
  asti.north_italian_language: "アスト"
- # asti.piedmontese_dialect: "Ast"  # = north_italian_language
- # Province 'biella_province' (Biella) #
- # biella.north_italian_language: "Biella"  # = south_italian_language
+ #asti.piedmontese_dialect: "Ast"
+ #Province 'biella_province' (Biella) #
+ #biella.north_italian_language: "Biella"
+ biella.emilian_dialect: "ビエル"
  biella.piedmontese_dialect: "ビエラ"
- # Province 'carmagnola_province' (Carmagnola) #
- # carmagnola.north_italian_language: "Carmagnola"  # = south_italian_language
+ #Province 'carmagnola_province' (Carmagnola) #
+ #carmagnola.north_italian_language: "Carmagnola"
+ carmagnola.emilian_dialect: "コルモッニョル"
+ carmagnola.lombard_dialect: "カルマニェラ"
  carmagnola.piedmontese_dialect: "カルマニョーラ"
- # Province 'chieri_province' (Chieri) #
- # chieri.north_italian_language: "Chieri"  # = south_italian_language
+ carmagnola.romagnol_dialect: "カルマニョラ"
+ #Province 'chieri_province' (Chieri) #
+ #chieri.north_italian_language: "Chieri"
  chieri.piedmontese_dialect: "ケール"
- # Province 'cuneo_province' / 'saluzzo_province' (Cuneo / Saluzzo) #
+ #Province 'cuneo_province' / 'saluzzo_province' (Cuneo / Saluzzo) #
  cuneo.north_italian_language: "コーニ"
- # cuneo.piedmontese_dialect: "Coni"  # = north_italian_language
- # saluzzo.north_italian_language: "Saluzzo"  # = south_italian_language
+ #cuneo.piedmontese_dialect: "Coni"
+ #saluzzo.north_italian_language: "Saluzzo"
+ saluzzo.emilian_dialect: "ソルッツ"
+ saluzzo.lombard_dialect: "サリュッツ"
  saluzzo.piedmontese_dialect: "サルッセ"
- # Province 'ivrea_province' (Ivrea) #
- # ivrea.north_italian_language: "Ivrea"  # = south_italian_language
+ saluzzo.romagnol_dialect: "サルッツ"
+ #Province 'ivrea_province' (Ivrea) #
+ #ivrea.north_italian_language: "Ivrea"
  ivrea.piedmontese_dialect: "イヴレヤ"
- # Province 'mondovi_province' (Mondovì) #
- # mondovi.north_italian_language: "Mondovì"  # = south_italian_language
+ #Province 'mondovi_province' (Mondovì) #
+ #mondovi.north_italian_language: "Mondovì"
+ mondovi.lombard_dialect: "メンデヴィ"
  mondovi.piedmontese_dialect: "モンドヴィ"
- # Province 'novara_province' (Novara) #
- # novara.north_italian_language: "Novara"  # = south_italian_language
+ #Province 'novara_province' (Novara) #
+ #novara.north_italian_language: "Novara"
+ novara.emilian_dialect: "ノヴォル"
  novara.piedmontese_dialect: "ヌアラ"
- # Province 'pinerolo_province' (Pinerolo) #
- # pinerolo.north_italian_language: "Pinerolo"  # = south_italian_language
+ novara.romagnol_dialect: "ノヴァラ"
+ #Province 'pinerolo_province' (Pinerolo) #
+ #pinerolo.north_italian_language: "Pinerolo"
+ pinerolo.emilian_dialect: "ピネロル"
+ pinerolo.lombard_dialect: "ピネレル"
  pinerolo.piedmontese_dialect: "ピナレウル"
- # Province 'vercelli_province' (Vercelli) #
- # vercelli.north_italian_language: "Vercelli"  # = south_italian_language
+ pinerolo.romagnol_dialect: "ピネロル"
+ #Province 'vercelli_province' (Vercelli) #
+ #vercelli.north_italian_language: "Vercelli"
  vercelli.piedmontese_dialect: "ヴェルセイ"
  ## Area 'veneto_area' (Veneto and Friuli) ##
- # Province 'aquileia_province' (Aquileia) #
- # aquileia.north_italian_language: "Aquileia"  # = south_italian_language
+ #Province 'aquileia_province' (Aquileia) #
+ #aquileia.north_italian_language: "Aquileia"
+ aquileia.emilian_dialect: "アクイレヤ"
+ aquileia.ligurian_dialect: "アクイレヤ"
+ aquileia.lombard_dialect: "アクイレヤ"
+ aquileia.romagnol_dialect: "アクイレヤ"
  aquileia.venetian_dialect: "アクィレヤ"
- # Province 'bassano_province' (Bassano) #
- # bassano.north_italian_language: "Bassano"  # = south_italian_language
+ #Province 'bassano_province' (Bassano) #
+ #bassano.north_italian_language: "Bassano"
+ bassano.emilian_dialect: "ボッソーノ・デル・グロップ"
+ bassano.piedmontese_dialect: "バッサーノ・ドゥル・グラッパ"
+ bassano.romagnol_dialect: "バッサーノ・デル・グラッパ"
  bassano.venetian_dialect: "バサン"
- # Province 'belluno_province' (Belluno) #
- # belluno.north_italian_language: "Belluno"  # = south_italian_language
+ #Province 'belluno_province' (Belluno) #
+ #belluno.north_italian_language: "Belluno"
+ belluno.emilian_dialect: "ベルン"
+ belluno.lombard_dialect: "ベリュン"
+ belluno.piedmontese_dialect: "ブルン"
+ belluno.romagnol_dialect: "ベルン"
  belluno.venetian_dialect: "ベロン"
- # Province 'ceneda_province' (Ceneda) #
- # ceneda.north_italian_language: "Ceneda"  # = south_italian_language
- # ceneda.venetian_dialect: "Ceneda"  # = north_italian_language
- # Province 'chioggia_province' (Chioggia) #
- # chioggia.north_italian_language: "Chioggia"  # = south_italian_language
+ #Province 'ceneda_province' (Ceneda) #
+ #ceneda.north_italian_language: "Ceneda"
+ #ceneda.venetian_dialect: "Ceneda"
+ #Province 'chioggia_province' (Chioggia) #
+ #chioggia.north_italian_language: "Chioggia"
  chioggia.venetian_dialect: "チョーザ"
- # Province 'este_province' (Este) #
- # este.north_italian_language: "Este"  # = south_italian_language
- # este.venetian_dialect: "Este"  # = north_italian_language
- # Province 'feltre_province' (Feltre) #
- # feltre.north_italian_language: "Feltre"  # = south_italian_language
+ #Province 'este_province' (Este) #
+ #este.north_italian_language: "Este"
+ #este.venetian_dialect: "Este"
+ #Province 'feltre_province' (Feltre) #
+ #feltre.north_italian_language: "Feltre"
+ feltre.lombard_dialect: "フェルトル"
+ feltre.piedmontese_dialect: "フルトル"
  feltre.venetian_dialect: "フェルトレ"
- # Province 'friuli_province' (Friuli) #
- # cividale.north_italian_language: "Cividale"  # = south_italian_language
+ #Province 'friuli_province' (Friuli) #
+ #cividale.north_italian_language: "Cividale"
+ cividale.emilian_dialect: "チヴィドーレ・デル・フリウリ"
+ cividale.piedmontese_dialect: "チヴィダーレ・ドゥル・フリウリ"
+ cividale.romagnol_dialect: "チヴィダーレ・デル・フリウリ"
  cividale.venetian_dialect: "チヴィダート"
- # udine.north_italian_language: "Udine"  # = south_italian_language
+ #udine.north_italian_language: "Udine"
+ udine.lombard_dialect: "ウディン"
  udine.venetian_dialect: "ウディン"
- # Province 'legnago_province' (Legnago) #
- legnago.north_italian_language: "レニャック"
+ gemona.emilian_dialect: "ジェモン"
+ gemona.lombard_dialect: "ジェメナ"
+ gemona.piedmontese_dialect: "ジュモーナ"
+ #Province 'legnago_province' (Legnago) #
+ legnago.emilian_dialect: "レニョグ"
+ legnago.lombard_dialect: "レニャック"
+ legnago.piedmontese_dialect: "ルニョグ"
+ legnago.romagnol_dialect: "レニャグ"
  legnago.venetian_dialect: "レニャーゴ"
- # Province 'mestre_province' (Mestre) #
- # mestre.north_italian_language: "Mestre"  # = south_italian_language
+ #Province 'mestre_province' (Mestre) #
+ #mestre.north_italian_language: "Mestre"
+ mestre.lombard_dialect: "メストル"
+ mestre.piedmontese_dialect: "ムストル"
  mestre.venetian_dialect: "メステ"
- # Province 'padua_province' (Padua) #
- # padova.north_italian_language: "Padova"  # = south_italian_language
+ #Province 'padua_province' (Padua) #
+ #padova.north_italian_language: "Padova"
+ padova.emilian_dialect: "パドヴァ"
+ padova.ligurian_dialect: "パードア"
+ padova.lombard_dialect: "パドア"
+ padova.rhaetian_dialect: "パタヴィウム"
+ padova.romagnol_dialect: "パドヴァ"
  padova.venetian_dialect: "パドア"
- # Province 'peschiera_province' (Peschiera) #
- # peschiera.north_italian_language: "Peschiera"  # = south_italian_language
+ #Province 'peschiera_province' (Peschiera) #
+ #peschiera.north_italian_language: "Peschiera"
+ peschiera.emilian_dialect: "ペスキエーラ・デル・ゴルド"
+ peschiera.piedmontese_dialect: "プスキエーラ・ドゥル・ガルダ"
+ peschiera.romagnol_dialect: "ペスキエーラ・デル・ガルダ"
  peschiera.venetian_dialect: "ピスケラ"
- # Province 'pordenone_province' (Pordenone) #
- # pordenone.north_italian_language: "Pordenone"  # = south_italian_language
+ #Province 'pordenone_province' (Pordenone) #
+ #pordenone.north_italian_language: "Pordenone"
+ pordenone.emilian_dialect: "ポルデノン"
+ pordenone.lombard_dialect: "ペルデネン"
+ pordenone.piedmontese_dialect: "ポルドゥノン"
+ pordenone.romagnol_dialect: "ポルデノン"
  pordenone.venetian_dialect: "ポルデノン"
- # Province 'rovigo_province' (Rovigo) #
- rovigo.north_italian_language: "ルヴィック"
+ #Province 'rovigo_province' (Rovigo) #
+ rovigo.lombard_dialect: "ルヴィック"
+ rovigo.piedmontese_dialect: "ロヴィグ"
+ rovigo.romagnol_dialect: "ロヴィグ"
  rovigo.venetian_dialect: "ルヴィーゴ"
- # Province 'schio_province' (Schio) #
- # schio.north_italian_language: "Schio"  # = south_italian_language
- # schio.venetian_dialect: "Schio"  # = north_italian_language
- # Province 'spilimbergo_province' (Spilimbergo) #
- # spilimbergo.north_italian_language: "Spilimbergo"  # = south_italian_language
+ #Province 'schio_province' (Schio) #
+ #schio.north_italian_language: "Schio"
+ #schio.venetian_dialect: "Schio"
+ #Province 'spilimbergo_province' (Spilimbergo) #
+ #spilimbergo.north_italian_language: "Spilimbergo"
+ spilimbergo.lombard_dialect: "スピリンベルグ"
+ spilimbergo.piedmontese_dialect: "スピリンブルグ"
  spilimbergo.venetian_dialect: "スピリンベルク"
- # Province 'tolmezzo_province' (Tolmezzo) #
- # tolmezzo.north_italian_language: "Tolmezzo"  # = south_italian_language
+ #Province 'tolmezzo_province' (Tolmezzo) #
+ #tolmezzo.north_italian_language: "Tolmezzo"
+ tolmezzo.emilian_dialect: "トルメッツ"
+ tolmezzo.lombard_dialect: "テルメッツ"
+ tolmezzo.piedmontese_dialect: "トルムッツ"
+ tolmezzo.romagnol_dialect: "トルメッツ"
  tolmezzo.venetian_dialect: "トゥミエチ"
- # Province 'treviso_province' (Treviso) #
- # treviso.north_italian_language: "Treviso"  # = south_italian_language
+ #Province 'treviso_province' (Treviso) #
+ #treviso.north_italian_language: "Treviso"
+ treviso.ligurian_dialect: "トレヴィーゾ"
+ treviso.lombard_dialect: "トレヴィス"
+ treviso.piedmontese_dialect: "トゥルヴィス"
+ treviso.rhaetian_dialect: "タルヴィシウム"
  treviso.venetian_dialect: "トレヴィーゾ"
- # Province 'venice_province' (Venice) #
- # venice.north_italian_language: "Venezia"  # = south_italian_language
+ #Province 'venice_province' (Venice) #
+ #venice.north_italian_language: "Venezia"
+ venice.emilian_dialect: "ヴェネジア"
+ venice.ligurian_dialect: "ヴェネジア"
+ venice.lombard_dialect: "ヴェネジア"
+ venice.piedmontese_dialect: "ヴヌッツィア"
+ venice.rhaetian_dialect: "ヴェネツィエ"
+ venice.romagnol_dialect: "ヴェネジア"
  venice.venetian_dialect: "ヴェネシア"
- # Province 'verona_province' (Verona) #
- verona.north_italian_language: "ヴェルーナ"
+ #Province 'verona_province' (Verona) #
+ verona.emilian_dialect: "ヴェロン"
+ verona.ligurian_dialect: "ヴェローナ"
+ verona.lombard_dialect: "ヴェルーナ"
+ verona.piedmontese_dialect: "ヴローナ"
  verona.venetian_dialect: "ヴェローナ"
- # Province 'vicenza_province' (Vicenza) #
- # vicenza.north_italian_language: "Vicenza"  # = south_italian_language
+ #Province 'vicenza_province' (Vicenza) #
+ #vicenza.north_italian_language: "Vicenza"
+ vicenza.emilian_dialect: "ヴィチェンツ"
+ vicenza.ligurian_dialect: "ヴィセンサ"
+ vicenza.lombard_dialect: "ヴィセンサ"
+ vicenza.piedmontese_dialect: "ヴィチュンツァ"
+ vicenza.rhaetian_dialect: "ヴィセンティア"
  vicenza.venetian_dialect: "ヴィチェンサ"
+ florence.emilian_dialect: "フィウレンザ"
+ florence.ligurian_dialect: "シュエンザ"
+ florence.lombard_dialect: "フィオレンザ"
+ florence.piedmontese_dialect: "フィルンツ"
+ florence.rhaetian_dialect: "フロレンティア"
+ florence.romagnol_dialect: "フィウレンザ"
+ florence.venetian_dialect: "フィオレンザ"
+ naples.emilian_dialect: "ノーポリ"
+ naples.lombard_dialect: "ナポリ"
+ naples.rhaetian_dialect: "ネアポリス"
+ palermo.emilian_dialect: "パレルム"
+ palermo.ligurian_dialect: "パエールモ"
+ palermo.lombard_dialect: "パレルム"
+ palermo.piedmontese_dialect: "パレルム"
+ palermo.rhaetian_dialect: "パレルム"
+ palermo.romagnol_dialect: "パレルム"
+ siena.emilian_dialect: "シエン"
+ siena.ligurian_dialect: "シエナ"
+ siena.rhaetian_dialect: "サエナ"
+ lucca.emilian_dialect: "ルック"
+ lucca.ligurian_dialect: "リュッカ"
+ lucca.lombard_dialect: "リュッカ"
+ lucca.rhaetian_dialect: "ルカ"
+ cagliari.ligurian_dialect: "カジャリ"
+ cagliari.lombard_dialect: "カラリ"
+ cagliari.rhaetian_dialect: "カラリス"
+ cagliari.venetian_dialect: "カジャリ"
+ ancona.emilian_dialect: "アンコーナ"
+ ancona.ligurian_dialect: "アンコウナ"
+ ancona.lombard_dialect: "アンケナ"
+ ancona.romagnol_dialect: "アンコーナ"
+ perugia.emilian_dialect: "ペルージャ"
+ perugia.ligurian_dialect: "ペジャ"
+ perugia.lombard_dialect: "ペリュジャ"
+ perugia.piedmontese_dialect: "プルジャ"
+ perugia.rhaetian_dialect: "ペルシア"
+ perugia.romagnol_dialect: "ペルージャ"
+ perugia.venetian_dialect: "ペローザ"
+ pavia.emilian_dialect: "ポーヴィア"
+ pavia.rhaetian_dialect: "パピア"
+ pavia.romagnol_dialect: "パヴィア"
+ spoleto.ligurian_dialect: "スポエト"
+ spoleto.lombard_dialect: "スポレト"
+ spoleto.piedmontese_dialect: "スポルト"
+ spoleto.rhaetian_dialect: "スポレティウム"
+ trieste.ligurian_dialect: "トリエスト"
+ trieste.lombard_dialect: "トリエスト"
+ trieste.rhaetian_dialect: "テルゲステ"
+ pesaro.emilian_dialect: "ペゾル"
+ pesaro.ligurian_dialect: "ペザウ"
+ pesaro.lombard_dialect: "ペザル"
+ pesaro.piedmontese_dialect: "プザル"
+ pesaro.rhaetian_dialect: "ピサウルム"
+ urbino.ligurian_dialect: "ユルビン"
+ urbino.lombard_dialect: "ウルビン"
+ urbino.rhaetian_dialect: "ウルビヌム"
+ urbino.venetian_dialect: "ウルビン"
+ volterra.emilian_dialect: "ヴォルテル"
+ volterra.ligurian_dialect: "ヴォルテーラ"
+ volterra.lombard_dialect: "ヴェルテッラ"
+ volterra.piedmontese_dialect: "ヴォルトゥッラ"
+ volterra.rhaetian_dialect: "ヴォラテッラエ"
+ volterra.romagnol_dialect: "ヴォルテーラ"
+ macerata.emilian_dialect: "モチェロト"
+ macerata.ligurian_dialect: "マゼラータ"
+ macerata.piedmontese_dialect: "マチュラータ"
+ macerata.romagnol_dialect: "マチェラータ"
+ macerata.venetian_dialect: "マゼラータ"
+ tortona.ligurian_dialect: "トルトーナ"
+ tortona.lombard_dialect: "テュルトゥナ"
+ tortona.rhaetian_dialect: "デルトナ"
+ cortona.emilian_dialect: "コルトン"
+ cortona.ligurian_dialect: "クルトウナ"
+ cortona.lombard_dialect: "ケルトナ"
+ piombino.ligurian_dialect: "チョンビン"
+ piombino.lombard_dialect: "ピオンビン"
+ piombino.rhaetian_dialect: "プルンビヌム"
+ fermo.lombard_dialect: "フェルム"
+ fermo.piedmontese_dialect: "フルム"
+ fermo.rhaetian_dialect: "フィルムム"
+ camerino.emilian_dialect: "コメリン"
+ camerino.ligurian_dialect: "カメーリン"
+ camerino.lombard_dialect: "カメリン"
+ camerino.piedmontese_dialect: "カムリン"
+ camerino.rhaetian_dialect: "カメリヌム"
+ camerino.romagnol_dialect: "カメリン"
+ camerino.venetian_dialect: "カメリン"
+ fabriano.emilian_dialect: "フォブリアン"
+ fabriano.ligurian_dialect: "ファブリアン"
+ fabriano.lombard_dialect: "ファブリアン"
+ cittacastello.emilian_dialect: "チテ・エド・カステル"
+ cittacastello.ligurian_dialect: "シテ・デ・カステッロ"
+ cittacastello.lombard_dialect: "チタ・デ・カステル"
+ cittacastello.piedmontese_dialect: "チタ・ウド・カステル"
+ cittacastello.romagnol_dialect: "チテ・エド・カステル"
+ cittacastello.venetian_dialect: "チタ・デ・カステロ"
+ pitigliano.ligurian_dialect: "ピティリアン"
+ pitigliano.lombard_dialect: "ピティリアン"
+ pitigliano.rhaetian_dialect: "ピティリアン"
+ pitigliano.venetian_dialect: "ピティリアン"
+ ascolipiceno.emilian_dialect: "アスコリ・ピチェン"
+ ascolipiceno.ligurian_dialect: "アスコリ・ピセン"
+ ascolipiceno.lombard_dialect: "アスコル・ピチェン"
+ ascolipiceno.piedmontese_dialect: "アスコリ・ピチュン"
+ ascolipiceno.rhaetian_dialect: "アスクルム・ピケヌム"
+ ascolipiceno.romagnol_dialect: "アスコリ・ピチェン"
+ ascolipiceno.venetian_dialect: "アスコリ・ピチェン"
+ salerno.emilian_dialect: "ソレルン"
+ salerno.ligurian_dialect: "サレルン"
+ salerno.lombard_dialect: "サレルン"
+ salerno.piedmontese_dialect: "サルールン"
+ salerno.rhaetian_dialect: "サレルヌム"
+ salerno.romagnol_dialect: "サレルン"
+ bari.emilian_dialect: "ボーリ"
+ bari.rhaetian_dialect: "バリアム"
+ bari.romagnol_dialect: "バリ"
+ catania.emilian_dialect: "コトニア"
+ catania.ligurian_dialect: "カタニア"
+ catania.rhaetian_dialect: "カティナ"
+ catania.romagnol_dialect: "カターニア"
+ messina.emilian_dialect: "メッスィン"
+ messina.ligurian_dialect: "メジーナ"
+ messina.piedmontese_dialect: "ムッスィーナ"
+ messina.rhaetian_dialect: "メッサーナ"
+ sassari.ligurian_dialect: "サッサイ"
+ brindisi.ligurian_dialect: "ブリンディス"
+ brindisi.lombard_dialect: "ブリンディス"
+ brindisi.rhaetian_dialect: "ブランディシウム"
+ taranto.emilian_dialect: "トロント"
+ taranto.ligurian_dialect: "タラント"
+ taranto.lombard_dialect: "タラント"
+ taranto.rhaetian_dialect: "タレンタム"
+ taranto.romagnol_dialect: "タラント"
+ lecce.lombard_dialect: "レック"
+ lecce.piedmontese_dialect: "レッチュ"
+ lecce.rhaetian_dialect: "ルピアエ"
+ cosenza.emilian_dialect: "コゼンツ"
+ cosenza.ligurian_dialect: "コゼンザ"
+ cosenza.lombard_dialect: "コセンザ"
+ cosenza.piedmontese_dialect: "コズンザ"
+ cosenza.rhaetian_dialect: "コンセンツィア"
+ cosenza.venetian_dialect: "コセンザ"
+ reggiocal.emilian_dialect: "レッズ・エド・カラブリア"
+ reggiocal.ligurian_dialect: "レゾ・デ・カラブリア"
+ reggiocal.lombard_dialect: "レッズ・デ・カラブリア"
+ reggiocal.piedmontese_dialect: "レッズ・ウド・カラブリア"
+ reggiocal.rhaetian_dialect: "レギウム・カラブリアエ"
+ reggiocal.romagnol_dialect: "レッズ・エド・カラブリア"
+ reggiocal.venetian_dialect: "レッツォ・デ・カラブリア"
+ acerenza.emilian_dialect: "アチェレンツ"
+ acerenza.piedmontese_dialect: "アチュレンザ"
+ aleria.piedmontese_dialect: "アルエリア"
+ ales.piedmontese_dialect: "アルエス"
+ altamura.emilian_dialect: "アルトムール"
+ altamura.lombard_dialect: "アルタミューラ"
+ altamura.romagnol_dialect: "アルタムーラ"
+ anagni.emilian_dialect: "アノーニ"
+ anagni.romagnol_dialect: "アナーニ"
+ aquila.emilian_dialect: "ラクィル"
+ arezzo.lombard_dialect: "アレッツ"
+ arezzo.piedmontese_dialect: "アルエッツ"
+ argenta.piedmontese_dialect: "アルゲンタ"
+ ariano.lombard_dialect: "アリアーノ・イルピン"
+ asola.lombard_dialect: "アゼーラ"
+ avellino.lombard_dialect: "アヴェッリン"
+ avellino.piedmontese_dialect: "アヴェッリン"
+ avignon.lombard_dialect: "アヴィニェン"
+ bardi.emilian_dialect: "ボールディ"
+ bardi.romagnol_dialect: "バルディ"
+ barletta.emilian_dialect: "ボールレット"
+ barletta.piedmontese_dialect: "バルレッタ"
+ barletta.romagnol_dialect: "バルレッタ"
+ bastia.emilian_dialect: "ボースティア"
+ bastia.romagnol_dialect: "バスティア"
+ benevento.lombard_dialect: "ベネヴェント"
+ benevento.piedmontese_dialect: "ブヌヴェント"
+ berceto.lombard_dialect: "ベルチェト"
+ berceto.piedmontese_dialect: "ブルチェト"
+ bivona.emilian_dialect: "ビヴォン"
+ bivona.lombard_dialect: "ビヴェーナ"
+ bojano.lombard_dialect: "ボイャン"
+ bonifacio.emilian_dialect: "ボニフォーチョ"
+ bonifacio.lombard_dialect: "ベニフォーチョ"
+ bonifacio.romagnol_dialect: "ボニファーチョ"
+ bosa.emilian_dialect: "ボス"
+ bosa.lombard_dialect: "ベーザ"
+ bovino.emilian_dialect: "ボヴィン"
+ bovino.lombard_dialect: "ベヴィン"
+ bovino.piedmontese_dialect: "ボヴィン"
+ bovino.romagnol_dialect: "ボヴィン"
+ bracciano.emilian_dialect: "ブロッチャン"
+ bracciano.romagnol_dialect: "ブラッチャン"
+ breno.lombard_dialect: "ブレン"
+ breno.piedmontese_dialect: "ブルェン"
+ caltagirone.emilian_dialect: "コルトジロン"
+ caltagirone.lombard_dialect: "カルタジレン"
+ caltagirone.piedmontese_dialect: "カルタジロン"
+ caltagirone.romagnol_dialect: "カルタジロン"
+ caltanisetta.emilian_dialect: "コルトニセット"
+ caltanisetta.piedmontese_dialect: "カルタニッセッタ"
+ caltanisetta.romagnol_dialect: "カルタニセッタ"
+ calvi.emilian_dialect: "コルヴィ"
+ calvi.romagnol_dialect: "カルヴィ"
+ campagna.emilian_dialect: "コンパーニュ"
+ campagna.romagnol_dialect: "カンパーニャ"
+ canossa.lombard_dialect: "カネッサ"
+ canossa.romagnol_dialect: "カノッサ"
+ caserta.emilian_dialect: "コゼルト"
+ caserta.piedmontese_dialect: "カゼルタ"
+ caserta.romagnol_dialect: "カセルタ"
+ cassano.emilian_dialect: "コッソン"
+ cassano.lombard_dialect: "カッサン"
+ cassano.romagnol_dialect: "カッサン"
+ castelfranco.emilian_dialect: "カステルフロンク"
+ castelfranco.lombard_dialect: "カステルフランク"
+ castelfranco.piedmontese_dialect: "カステルフランク"
+ castelfranco.romagnol_dialect: "カステルフランク"
+ castrovillari.emilian_dialect: "カストロヴィローリ"
+ castrovillari.lombard_dialect: "カストレヴィラーリ"
+ castrovillari.romagnol_dialect: "カストロヴィラーリ"
+ catanzaro.emilian_dialect: "コタンツォル"
+ catanzaro.lombard_dialect: "カタンツァル"
+ catanzaro.romagnol_dialect: "カタンツァル"
+ cefalu.emilian_dialect: "チェフォール"
+ cefalu.piedmontese_dialect: "チュファル"
+ cefalu.romagnol_dialect: "チェファル"
+ celano.emilian_dialect: "チェロン"
+ celano.lombard_dialect: "チェラン"
+ celano.piedmontese_dialect: "チュラン"
+ celano.romagnol_dialect: "チェラン"
+ ceneda.emilian_dialect: "チェネド"
+ ceneda.piedmontese_dialect: "チュネダ"
+ cittaducale.emilian_dialect: "チッタドゥコル"
+ cittaducale.lombard_dialect: "チッタデュカル"
+ cittaducale.piedmontese_dialect: "チッタドゥカル"
+ cittaducale.romagnol_dialect: "チッタドゥカル"
+ civitavecchia.emilian_dialect: "チヴィタヴォッキア"
+ civitavecchia.piedmontese_dialect: "チヴィタヴェッキア"
+ civitavecchia.romagnol_dialect: "チヴィタヴェッキア"
+ clusone.emilian_dialect: "クルソン"
+ clusone.piedmontese_dialect: "クルソン"
+ clusone.romagnol_dialect: "クルソン"
+ comacchio.lombard_dialect: "チェマッキオ"
+ comacchio.romagnol_dialect: "コマッキオ"
+ conegliano.emilian_dialect: "コネリアン"
+ conegliano.lombard_dialect: "チェネリアン"
+ conegliano.piedmontese_dialect: "コニュリアン"
+ conegliano.romagnol_dialect: "コネリアン"
+ corleone.emilian_dialect: "コルレオン"
+ corleone.lombard_dialect: "ケルレオン"
+ corleone.piedmontese_dialect: "コルレオン"
+ corleone.romagnol_dialect: "コルレオン"
+ corneto.emilian_dialect: "コルネット"
+ corneto.lombard_dialect: "ケルネット"
+ corneto.piedmontese_dialect: "コルニュット"
+ corneto.romagnol_dialect: "コルネット"
+ corte.emilian_dialect: "コルト"
+ corte.lombard_dialect: "ケルト"
+ corte.piedmontese_dialect: "コルト"
+ corte.romagnol_dialect: "コルト"
+ cortenuova.emilian_dialect: "コルテヌォヴ"
+ cortenuova.piedmontese_dialect: "コルテニュオヴァ"
+ cotrone.emilian_dialect: "コトロン"
+ cotrone.lombard_dialect: "ケトレン"
+ cotrone.piedmontese_dialect: "コトロン"
+ cotrone.romagnol_dialect: "コトロン"
+ csantangelo.emilian_dialect: "チョントンジェル"
+ csantangelo.lombard_dialect: "チャントアンジェル"
+ csantangelo.piedmontese_dialect: "チャントアンジュル"
+ csantangelo.romagnol_dialect: "チャントンジェル"
+ ficarolo.lombard_dialect: "フィカレル"
+ ficarolo.piedmontese_dialect: "フィカロル"
+ ficarolo.romagnol_dialect: "フィカロル"
+ fiorenzuola.emilian_dialect: "フィオレンツオーラ・ダルダ"
+ fiorenzuola.piedmontese_dialect: "フィオルェンツオーラ・ダルダ"
+ foggia.lombard_dialect: "フェッジャ"
+ fosdinovo.lombard_dialect: "フェスディノフ"
+ fosdinovo.piedmontese_dialect: "フォスディノフ"
+ fosdinovo.romagnol_dialect: "フォスディノフ"
+ francavilla.emilian_dialect: "フロンコヴィッラ・フォントン"
+ francavilla.lombard_dialect: "フランカヴィッラ・フェンターナ"
+ francavilla.romagnol_dialect: "フランカヴィッラ・フォンターナ"
+ frassinoro.lombard_dialect: "フラッシネル"
+ frassinoro.piedmontese_dialect: "フラッシノル"
+ frassinoro.romagnol_dialect: "フラッシノル"
+ gaeta.emilian_dialect: "ガエト"
+ gallipoliita.emilian_dialect: "ゴッリポリ"
+ gallipoliita.lombard_dialect: "ガッリペリ"
+ gallipoliita.romagnol_dialect: "ガッリポリ"
+ gerace.emilian_dialect: "ジェロッチ"
+ gerace.lombard_dialect: "ジェラッチ"
+ gerace.piedmontese_dialect: "ジュラッチ"
+ gerace.romagnol_dialect: "ジェラッチ"
+ girgenti.lombard_dialect: "アグリジェント"
+ girgenti.piedmontese_dialect: "アグリジュント"
+ goito.lombard_dialect: "ゴイト"
+ grosseto.emilian_dialect: "グロセット"
+ grosseto.lombard_dialect: "グレセット"
+ grosseto.piedmontese_dialect: "グロスット"
+ grosseto.romagnol_dialect: "グロセット"
+ gubbio.lombard_dialect: "ギュッビオ"
+ ilirska_bistrica.emilian_dialect: "イリルスカ・ビストリッチ"
+ isernia.piedmontese_dialect: "イスュルニア"
+ lagonegro.emilian_dialect: "ロゴネーグロ"
+ lagonegro.lombard_dialect: "ラゴネーグロ"
+ lagonegro.piedmontese_dialect: "ラゴニューグロ"
+ lagonegro.romagnol_dialect: "ラゴネーグロ"
+ lanciano.emilian_dialect: "ロンチャン"
+ lanciano.lombard_dialect: "ランチャン"
+ lanciano.romagnol_dialect: "ランチャン"
+ lanzo.emilian_dialect: "ロンツォ・トリネス"
+ lanzo.lombard_dialect: "ランツォ・テリネス"
+ lanzo.romagnol_dialect: "ロンツォ・トリネス"
+ larino.emilian_dialect: "ロリン"
+ larino.lombard_dialect: "ラリン"
+ larino.romagnol_dialect: "ラリン"
+ legnano.emilian_dialect: "レニョン"
+ legnano.piedmontese_dialect: "レニュアン"
+ legnano.romagnol_dialect: "レニャン"
+ livorno.emilian_dialect: "リヴォルン"
+ livorno.lombard_dialect: "リヴェルン"
+ livorno.piedmontese_dialect: "リヴォルン"
+ livorno.romagnol_dialect: "リヴォルン"
+ lomello.emilian_dialect: "ロメッル"
+ lomello.piedmontese_dialect: "ロムエッル"
+ lomello.romagnol_dialect: "ロメッル"
+ lucera.emilian_dialect: "ルチェル"
+ lucera.lombard_dialect: "リュチェーラ"
+ lucera.piedmontese_dialect: "ルムエッラ"
+ macomer.emilian_dialect: "モコメル"
+ macomer.lombard_dialect: "マケメル"
+ macomer.piedmontese_dialect: "マコムエル"
+ macomer.romagnol_dialect: "マコメル"
+ manfredonia.emilian_dialect: "モンフレドニア"
+ manfredonia.lombard_dialect: "マンフレデニア"
+ manfredonia.piedmontese_dialect: "マンフレュドニア"
+ manfredonia.romagnol_dialect: "マンフレドニア"
+ mangona.emilian_dialect: "モンゴン"
+ mangona.lombard_dialect: "マンゲナ"
+ mangona.romagnol_dialect: "マンゴーナ"
+ marsciano.emilian_dialect: "モルシアン"
+ marsciano.lombard_dialect: "マルシアン"
+ marsciano.romagnol_dialect: "マルシアン"
+ martinafr.emilian_dialect: "モルティナ・フロンク"
+ martinafr.romagnol_dialect: "マルティナ・フランカ"
+ massa.emilian_dialect: "モッス"
+ massa.romagnol_dialect: "マッサ"
+ massamar.emilian_dialect: "モッサ・モリッティム"
+ massamar.romagnol_dialect: "マッサ・マリッティマ"
+ matera.emilian_dialect: "モテル"
+ matera.piedmontese_dialect: "マムエラ"
+ matera.romagnol_dialect: "マテラ"
+ mazara.emilian_dialect: "モゾール"
+ mazara.romagnol_dialect: "マザーラ"
+ medicina.piedmontese_dialect: "ムエディチナ"
+ melfi.piedmontese_dialect: "ムエルフィ"
+ mesocco.emilian_dialect: "メソック"
+ mesocco.piedmontese_dialect: "ムエソック"
+ mesocco.romagnol_dialect: "メソック"
+ milano.emilian_dialect: "ミロン"
+ milano.piedmontese_dialect: "ミラン"
+ milano.romagnol_dialect: "ミラン"
+ mistretta.emilian_dialect: "ミストレット"
+ mistretta.piedmontese_dialect: "ミストルエッタ"
+ modica.emilian_dialect: "モディク"
+ modica.lombard_dialect: "メディカ"
+ monopoli.lombard_dialect: "メネペリ"
+ monselice.emilian_dialect: "モンセリーク"
+ monselice.lombard_dialect: "メンセリーク"
+ monselice.piedmontese_dialect: "モンツェリーク"
+ monselice.romagnol_dialect: "モンセリーク"
+ montalcino.emilian_dialect: "モルトルチン"
+ montalcino.lombard_dialect: "メンタルチン"
+ montalcino.piedmontese_dialect: "モンタルチン"
+ montalcino.romagnol_dialect: "モンタルチン"
+ montefeltro.emilian_dialect: "モンテフェルトル"
+ montefeltro.lombard_dialect: "メンテフェルトル"
+ montefeltro.piedmontese_dialect: "モンツェフェルツル"
+ monteleone.emilian_dialect: "モンテレオーネ・ディ・コラブリア"
+ monteleone.lombard_dialect: "メンテレオーネ・ディ・カラブリア"
+ monteleone.piedmontese_dialect: "モンツェレオーネ・ディ・カラブリア"
+ monteleone.romagnol_dialect: "モンテレオーネ・ディ・カラブリア"
+ montepeloso.emilian_dialect: "モンテペロス"
+ montepeloso.lombard_dialect: "メンテペレス"
+ montepeloso.piedmontese_dialect: "モンツェペロス"
+ montepeloso.romagnol_dialect: "モンテペロス"
+ narni.emilian_dialect: "ノルニ"
+ narni.romagnol_dialect: "ナルニ"
+ nicastro.emilian_dialect: "ニコストル"
+ nicastro.lombard_dialect: "ニカストル"
+ nicastro.romagnol_dialect: "ニカストル"
+ nicosiasic.lombard_dialect: "ニコシアシック"
+ nola.emilian_dialect: "ノル"
+ nola.lombard_dialect: "ネーラ"
+ nonantola.lombard_dialect: "ネナンテラ"
+ nonantola.romagnol_dialect: "ノナントラ"
+ noto.emilian_dialect: "ノト"
+ noto.lombard_dialect: "ネート"
+ noto.piedmontese_dialect: "ノト"
+ noto.romagnol_dialect: "ノト"
+ novi.lombard_dialect: "ネーヴィ"
+ nozza.emilian_dialect: "ノッツ"
+ nozza.lombard_dialect: "ネッツァ"
+ oristano.emilian_dialect: "オリストン"
+ oristano.lombard_dialect: "オリスタン"
+ oristano.romagnol_dialect: "オリスタン"
+ orte.lombard_dialect: "オルト"
+ orvietano.emilian_dialect: "オルヴィエトン"
+ orvietano.lombard_dialect: "オルヴィエタン"
+ orvietano.romagnol_dialect: "オルヴィエタン"
+ palazzolo.emilian_dialect: "ポラッツォール"
+ palazzolo.lombard_dialect: "パラッツェール"
+ palazzolo.piedmontese_dialect: "パラッツォール"
+ palazzolo.romagnol_dialect: "パラッツォール"
+ palestrina.emilian_dialect: "ポレストリン"
+ palestrina.piedmontese_dialect: "パルエステリーナ"
+ palestrina.romagnol_dialect: "パレストリーナ"
+ palmi.emilian_dialect: "ポルミ"
+ palmi.romagnol_dialect: "パルミ"
+ paola.emilian_dialect: "パオル"
+ patti.emilian_dialect: "ポッティ"
+ patti.romagnol_dialect: "パッティ"
+ pescia.piedmontese_dialect: "プエッシャ"
+ piazza.emilian_dialect: "ピアッツ"
+ piedimonte.emilian_dialect: "ピエディモント"
+ piedimonte.lombard_dialect: "ピエディメント"
+ piedimonte.piedmontese_dialect: "ピエディモント"
+ piedimonte.romagnol_dialect: "ピエディモント"
+ pieve.lombard_dialect: "ピエヴ"
+ pisa.emilian_dialect: "ピス"
+ poggibonsi.lombard_dialect: "ペッジェベンシ"
+ pola.emilian_dialect: "ポル"
+ pola.lombard_dialect: "ペーラ"
+ pontedera.emilian_dialect: "ポンテデル"
+ pontedera.lombard_dialect: "ペンテデーラ"
+ pontedera.piedmontese_dialect: "ポンツェデーラ"
+ potenza.emilian_dialect: "ポテンツ"
+ potenza.lombard_dialect: "ペテンツァ"
+ potenza.piedmontese_dialect: "ポツェンツァ"
+ prato.emilian_dialect: "プロト"
+ prato.lombard_dialect: "プラト"
+ prato.romagnol_dialect: "プラト"
+ rome.emilian_dialect: "ロム"
+ rome.lombard_dialect: "レーマ"
+ rossano.emilian_dialect: "ロッソン"
+ rossano.lombard_dialect: "レッサン"
+ rossano.piedmontese_dialect: "ロッサン"
+ rossano.romagnol_dialect: "ロッサン"
+ rotondo.emilian_dialect: "ソン・ジョヴォンニ・ロトンド"
+ rotondo.lombard_dialect: "サン・ジョヴァンニ・レテンド"
+ rotondo.piedmontese_dialect: "サン・ジョヴァンニ・ロトンド"
+ rotondo.romagnol_dialect: "サン・ジョヴァンニ・ロトンド"
+ rovegno.lombard_dialect: "レヴェーン"
+ rovegno.piedmontese_dialect: "ロヴェーン"
+ rovegno.romagnol_dialect: "ロヴェーン"
+ rovereto.emilian_dialect: "ロヴェレート"
+ rovereto.lombard_dialect: "レヴェレート"
+ rovereto.piedmontese_dialect: "ロヴェレート"
+ rovereto.romagnol_dialect: "ロヴェレート"
+ sabina.emilian_dialect: "ソビン"
+ sabina.romagnol_dialect: "サビーナ"
+ salacon.emilian_dialect: "ソラ・コンシーリン"
+ salacon.lombard_dialect: "サーラ・コンシーリナ"
+ salacon.romagnol_dialect: "サーラ・コンシーリナ"
+ salemi.emilian_dialect: "ソレーミ"
+ salemi.piedmontese_dialect: "サレーミ"
+ salemi.romagnol_dialect: "サレーミ"
+ salo_ita.emilian_dialect: "ソロ"
+ salo_ita.romagnol_dialect: "サロ"
+ sandonnino.lombard_dialect: "ベルゴ・サン・デンニン"
+ sandonnino.piedmontese_dialect: "ボルゴ・サン・ドンニン"
+ sandonnino.romagnol_dialect: "ボルゴ・サン・ドンニン"
+ sanlorenzo.emilian_dialect: "ソンロレンツ"
+ sanlorenzo.lombard_dialect: "サンレレンツ"
+ sanlorenzo.piedmontese_dialect: "サンロレンツ"
+ sanlorenzo.romagnol_dialect: "サンロレンツ"
+ sansepolcro.emilian_dialect: "ソンセポルクル"
+ sansepolcro.lombard_dialect: "サンセペルクル"
+ sansepolcro.piedmontese_dialect: "サンセポルクル"
+ sansepolcro.romagnol_dialect: "サンセポルクル"
+ sansevero.emilian_dialect: "ソン・セヴェル"
+ sansevero.lombard_dialect: "サン・セヴェル"
+ sansevero.piedmontese_dialect: "サン・セヴェル"
+ sansevero.romagnol_dialect: "サン・セヴェル"
+ santangelo.emilian_dialect: "ソンタンジェロ・デイ・ロンボルディ"
+ santangelo.lombard_dialect: "サンタンジェロ・デイ・レンバルディ"
+ santangelo.piedmontese_dialect: "サンタンジェロ・デイ・ロンバルディ"
+ santangelo.romagnol_dialect: "サンタンジェロ・デイ・ロンバルディ"
+ santarcangelo.emilian_dialect: "ソンタルカンジェル"
+ santarcangelo.lombard_dialect: "サンタルカンジェル"
+ santarcangelo.piedmontese_dialect: "サンタルカンジェル"
+ santarcangelo.romagnol_dialect: "サンタルカンジェル"
+ sartene.emilian_dialect: "ソルテン"
+ sartene.lombard_dialect: "サルテン"
+ sartene.romagnol_dialect: "サルテン"
+ sarzana.emilian_dialect: "ソルゾン"
+ sarzana.romagnol_dialect: "サルザーナ"
+ scalea.emilian_dialect: "スコレア"
+ scalea.romagnol_dialect: "スカレア"
+ sciacca.emilian_dialect: "シャック"
+ sorgono.emilian_dialect: "ソルゴン"
+ sorgono.lombard_dialect: "セルゲン"
+ sorgono.piedmontese_dialect: "ソルゴン"
+ sorgono.romagnol_dialect: "ソルゴン"
+ sulmona.emilian_dialect: "スルモン"
+ sulmona.lombard_dialect: "セルモーナ"
+ susa.emilian_dialect: "サス"
+ susa.lombard_dialect: "スューザ"
+ syracuse.emilian_dialect: "シロクス"
+ syracuse.lombard_dialect: "シラキューザ"
+ syracuse.romagnol_dialect: "シラクーザ"
+ teramo.emilian_dialect: "テロム"
+ teramo.lombard_dialect: "テラム"
+ teramo.piedmontese_dialect: "テラム"
+ teramo.romagnol_dialect: "テラム"
+ termini.piedmontese_dialect: "テルミニ"
+ terracina.emilian_dialect: "テロチン"
+ terracina.piedmontese_dialect: "テラチーナ"
+ terracina.romagnol_dialect: "テラチーナ"
+ terralba.emilian_dialect: "テロルブ"
+ terralba.piedmontese_dialect: "テラルバ"
+ terralba.romagnol_dialect: "テラルバ"
+ terranovasic.emilian_dialect: "テロノヴシク"
+ terranovasic.lombard_dialect: "テラノヴェシク"
+ terranovasic.piedmontese_dialect: "テラノヴァシク"
+ terranovasic.romagnol_dialect: "テラノヴァシク"
+ tivoli.lombard_dialect: "ティヴェーリ"
+ todi.lombard_dialect: "テディ"
+ tolmin.lombard_dialect: "テルミン"
+ trapani.emilian_dialect: "トロポニ"
+ trapani.romagnol_dialect: "トラパーニ"
+ treviglio.piedmontese_dialect: "トレヴィーリョ"
+ trivento.lombard_dialect: "トリヴェント"
+ trivento.piedmontese_dialect: "トリヴェント"
+ vallo.emilian_dialect: "ヴォッル"
+ vallo.lombard_dialect: "ヴァッル"
+ vallo.romagnol_dialect: "ヴァッル"
+ varese.emilian_dialect: "ヴォレス"
+ varese.piedmontese_dialect: "ヴァレス"
+ varese.romagnol_dialect: "ヴァレス"
+ vasto.emilian_dialect: "ヴォスト"
+ vasto.lombard_dialect: "ヴァスト"
+ vasto.romagnol_dialect: "ヴァスト"
+ velletri.piedmontese_dialect: "ヴェッレトリ"
+ venafro.emilian_dialect: "ヴェノフル"
+ venafro.lombard_dialect: "ヴェナフル"
+ venafro.piedmontese_dialect: "ヴェナフル"
+ venafro.romagnol_dialect: "ヴェナフル"
+ vergato.lombard_dialect: "ヴェルガート"
+ vergato.piedmontese_dialect: "ヴェルガート"
+ vergato.romagnol_dialect: "ヴェルガート"
+ vico.lombard_dialect: "ヴィック"
+ viterbo.piedmontese_dialect: "ヴィテルブ"
+ zogno.emilian_dialect: "ツォン"
+ zogno.piedmontese_dialect: "ツォン"
+ zogno.romagnol_dialect: "ツォン"

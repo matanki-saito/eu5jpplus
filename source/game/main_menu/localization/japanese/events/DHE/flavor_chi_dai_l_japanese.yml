@@ -37,6 +37,7 @@
  flavor_chi_dai.7.desc: "$jiaozhi_province$における抵抗は激しく、[ROOT.GetCountry.GetCapital.GetName]にいる[ROOT.GetCountry.GetGovernment.GetCourtTitle]を大いに憤慨させている。$jiaozhi_province$のさらなる統合を進めるべく、大臣たちは[ShowCultureName('vietnamese_culture')]の民の同化と漢化を促進する政策を実施するとともに、多くの有能な労働者を首都に招き入れることを望んでいる。"
  flavor_chi_dai.7.a: "大臣たちの望む政策を実施しよう。"
  flavor_chi_dai.7.b: "放っておけば、いずれ統合される。"
+ variable_has_province_of_jiaozhi_tt: "わが国が$jiaozhi_province$を支配"
  flavor_chi_dai.8.title: "[target_character.GetNameWithNoTooltip]の反乱"
  flavor_chi_dai.8.entry: "Rebellion of Lê Lợi"
  flavor_chi_dai.8.desc: "我々は[ShowCultureName('vietnamese_culture')]文化の統合に長年取り組んできたが、残念ながら期待したほどの成果は得られなかった。最近も、[target_character.GetName]という成り上がり者が首謀者の新たな反乱が勃発した。忌まわしいことに、この反乱軍は現地のわが守備隊を打破するという大きな戦果を上げている。そろそろこの占領を終わらせるべきかもしれない。"

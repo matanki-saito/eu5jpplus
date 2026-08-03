@@ -1,5 +1,5 @@
 ﻿l_japanese:
- # Cultural Templates
+ #Cultural Templates
  NEW_CULTURE_NAME_ADJ_OLD_CULTURE: "$COUNTRY_ADJ$ $OLD_CULTURE_NAME$" #for naming possible new cultures. COUNTRY_NAME is also available
  swedish: "スウェーデン"
  danish: "デンマーク"
@@ -33,6 +33,7 @@
  maltese: "マルタ"
  neapolitan: "ナポリ"
  piedmontese: "ピエモンテ"
+ romagnol: "ロマニョール"
  romansh: "ロマンシュ"
  sardinian: "サルデーニャ"
  sicilian: "シチリア"
@@ -469,7 +470,7 @@
  tubalar_culture: "トゥバラル"
  shor_culture: "ショール"
  yerle_qaliq_culture: "イェルレ・カルク"
- # Langauge Families
+ #Langauge Families
  celtic_language_family: "ケルト語派"
  romance_language_family: "ロマンス語派"
  germanic_language_family: "ゲルマン語派"
@@ -526,7 +527,7 @@
  vanuatu_language_family: "バヌアツ語派"
  micronesian_language_family: "ミクロネシア語派"
  solomonic_language_family: "ソロモン語派"
- # Languages
+ #Languages
  scandinavian_language: "スカンジナビア語"
  swedish_dialect: "スウェーデン語"
  danish_dialect: "デンマーク語"
@@ -587,6 +588,7 @@
  lombard_dialect: "ロンバルト語"
  ligurian_dialect: "リグーリア語"
  emilian_dialect: "エミリア語"
+ romagnol_dialect: "ロマニョール"
  rhaetian_dialect: "ラエティア語"
  south_italian_language: "イタリア語"
  tuscan_dialect: "トスカーナ語"

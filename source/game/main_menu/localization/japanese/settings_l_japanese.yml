@@ -17,6 +17,7 @@
  SETTING_TRIPLANAR_UV_QUALITY: "トライプラナーUVの品質"
  SETTING_TRIPLANAR_UV_QUALITY_TOOLTIP: "#T $SETTING_TRIPLANAR_UV_QUALITY$#!\n急斜面の地形のテクスチャ品質に影響します。"
  OPTION_VERY_LOW: "非常に低い"
+ OPTION_VERY_HIGH: "非常に高い"
  SETTING_UNIT_COA_RESOLUTION: "ユニットの紋章解像度"
  SETTING_UNIT_COA_RESOLUTION_TOOLTIP: "#T $SETTING_UNIT_COA_RESOLUTION$#!\nユニットの軍服に表示される紋章の解像度に影響します。"
  # System
@@ -165,6 +166,7 @@
  SETTING_INPUT_ACTION_CLOSE_LEFT: "左パネルを閉じる"
  SETTING_INPUT_ACTION_CLOSE_RIGHT: "右パネルを閉じる"
  SETTING_INPUT_ACTION_CONFIRM: "確定"
+ SETTING_INPUT_ACTION_DECLINE: "拒否"
  SETTING_INPUT_ACTION_TOGGLE_PAUSE: "一時停止を切り替え"
  SETTING_INPUT_ACTION_PAUSE: "一時停止"
  SETTING_INPUT_ACTION_UNPAUSE: "一時停止を解除"
@@ -296,6 +298,9 @@
  #MP Chat Position
  SETTING_MP_CHAT_POSITION: "マルチプレイチャットの表示位置"
  SETTING_MP_CHAT_POSITION_LOBBY: "「国家選択」画面でのマルチプレイチャットの表示位置"
+ #MP Chat Sound
+ SETTING_MP_CHAT_SOUND: "マルチプレイチャットの通知音"
+ SETTING_MP_CHAT_SOUND_TOOLTIP: "#T $SETTING_MP_CHAT_SOUND$#!\nチャットウィンドウが閉じているあいだにチャットメッセージまたはプライベートメッセージを受信した際、サウンドを再生します"
  # Confirm
  SETTING_CONFIRM_MODE: "確定モード"
  SETTING_CONFIRM_MODE_HOLD: "長押し"
@@ -309,6 +314,11 @@
  #Graphics
  SETTING_SSR_QUALITY: "反射表現"
  SETTING_SSR_QUALITY_TOOLTIP: "#T $SETTING_SSR_QUALITY$#!\n品質を下げるとフレームレートが向上する場合があります。"
+ SETTING_ICON_SCALING_QUALITY: "アイコン拡大・縮小時の表示品質"
+ SETTING_ICON_SCALING_QUALITY_TOOLTIP: "#T $SETTING_ICON_SCALING_QUALITY$#!\nUIアイコンを拡大・縮小する際のフィルター方法\n\n#H なし#!—ポイントサンプリング。最も軽量。くっきり表示されますが、ブロック状に見えることがあります\n#H スムーズ#!—ハードウェアバイリニア。1080pでぼやけて見えることがあります。4Kに最適。旧方式です\n#H シャープ#!—ミッチェルバイキュービック。「スムーズ」より細部が鮮明で、「なし」にした場合のようにブロック状に見えません。すべての解像度で推奨。特に1080pで効果的。デフォルトの設定です"
+ OPTION_NONE: "なし"
+ OPTION_SMOOTH: "スムーズ"
+ OPTION_SHARP: "シャープ"
  SETTING_BLUR_QUALITY: "GUIぼかしの品質"
  SETTING_BLUR_QUALITY_TOOLTIP: "#T $SETTING_BLUR_QUALITY$#!\n一部のGUI画面で背景に適用されるぼかし効果に影響します。低品質にすると、ローエンドGPUや内蔵グラフィックカードでもフレームレートが向上する場合があります。"
  SETTING_FLATMAP_MODE: "フラットマップモード"
@@ -326,6 +336,8 @@
  SETTING_FILL_IN_IMPASSABLE_TERRAIN_TOOLTIP: "#T $SETTING_FILL_IN_IMPASSABLE_TERRAIN$#!\nマップ上で国境内に通行不可の地形を含めるかどうかを設定します。"
  SETTING_CAMERA_ROTATION_RESET: "カメラ回転のリセット"
  SETTING_CAMERA_ROTATION_RESET_TOOLTIP: "#T $SETTING_CAMERA_ROTATION_RESET$#!\n回転させたカメラを自動的に初期位置に戻すかどうかを設定します。"
+ SETTING_GOVERNMENT_REFORMS_EXPANDED_VIEW: "政府改革の拡張表示"
+ SETTING_GOVERNMENT_REFORMS_EXPANDED_VIEW_TOOLTIP: "#T $SETTING_GOVERNMENT_REFORMS_EXPANDED_VIEW$#!\n政府改革パネルを、時代ごとの拡張ビューで開くか、コンパクトビューで開くかを決定します"
  SETTING_FLATMAP_WATER_COLOR: "フラットマップの水の色"
  SETTING_FLATMAP_WATER_COLOR_TOOLTIP: "#T $SETTING_FLATMAP_WATER_COLOR$#!\nフラットマップ上で水を表す色を設定します。"
  SETTING_BLUE_WATER: "青色"
@@ -389,3 +401,4 @@
  #Playsets
  SETTING_WARNING_PLAYSET: "プレイセットエラーに関する警告ダイアログを表示"
  SETTING_WARNING_PLAYSET_TOOLTIP: "#T $SETTING_WARNING_PLAYSET$\n#!有効にすると、アクティブなプレイセット内のMODにエラーがある場合、警告ダイアログを表示します。"
+ DISABLED_BECAUSE_IS_SET: "「$SETTING_NAME$」が 「$SETTING_VALUE$」に設定されてるため無効です"

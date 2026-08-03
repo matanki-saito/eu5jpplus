@@ -1,7 +1,7 @@
 ﻿l_japanese:
  western_schism.1.title: "カトリック教会の分裂"
  western_schism.1.desc: "[ShowReligionName('catholic')]に分裂が生じ、$curia$が些末な派閥抗争に陥っている！\n\nこれまでも教会は分裂することがあったが、今回は以前とは異なる性質の分裂のようだ。前[GetInternationalOrganization('catholic_church').GetLeaderTitle]の死後、[ShowCultureGroupName('italian_group')]系枢機卿の派閥が聖座を自らの支配下に戻そうと動いている。これは教皇庁が[ShowCultureGroupName('french_group')]の支配下に落ちてから、彼らがずっと望んでいたことなのだ。この動きに対抗し、[ShowCultureGroupNameWithNoTooltip('french_group')]系の派閥は新たな[GetInternationalOrganization('catholic_church').GetLeaderTitle]を支配下に置くことを主張している。両派の要求は到底両立するものではなく、[ShowReligionAdjectiveWithNoTooltip('catholic')]世界は急速に派閥抗争へと突き進み、[GetInternationalOrganization('catholic_church').GetName]の善良な[ShowReligionAdjectiveWithNoTooltip('catholic')]信徒たちは導き手を失ってしまった。この分裂が続くかぎり、彼らはかつてのような権威なき世界を生き抜き、真に神意を代表する者を自ら決めなければならない。"
- western_schism.1.a: "これはまずい……"
+ western_schism.1.a: "これはまずい。"
  western_schism.3.title: "不満を抱く[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('clergy_estate')]"
  western_schism.3.desc: "わが国は、大分裂において[target_schism_pope_cardinal.GetName]と[target_schism_opponent_cardinal.GetName]のどちらの側につくか決めかねている。わが国の枢機卿が、どちらを支持するのか早く公式に決定するよう求めている。"
  western_schism.3.a: "決定はもう少し先でもいいだろう……"

@@ -75,6 +75,7 @@
  flavor_tim.11.b: "自分たちの建物に使わせておけ。"
  flavor_tim.11.c: "[target_character.GetNameWithNoTooltip]がこの新たな様式を先導するのだ！"
  flavor_tim.11.c.entry: "この人物がこの新たな様式を先導するのだ！"
+ variable_tim_allow_timurid_architecture_event_tt: "ティムール朝の建築様式が勃興しつつある"
  flavor_tim.12.title: "$tamerlane_chess$の発展"
  flavor_tim.12.entry: "$flavor_tim.12.title$"
  flavor_tim.12.desc: "征服地や近隣諸国でのチェスの人気を受けて、[target_character.GetName]はそのさらに複雑な亜種を考案した。この亜種では基本的な構成だけでなく、駒の種類や初期配置にも変更が加えられている。これは早くもわが国の宮廷で流行しており、通常のチェスよりも複雑かつ面白いと評されている。"

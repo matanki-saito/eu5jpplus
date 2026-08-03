@@ -46,6 +46,8 @@
  flavor_wls.15.tt5: "貴族が拒否される"
  flavor_wls.15.d: "彼を自由にしてやれ。"
  flavor_wls.15.tt6: "エドマンド・モーティマーが解放される"
+ tripartite_indenture_tt: "[GetCountry('ENG').GetName]が三家契約のもと、国土を分割することに同意した"
+ ransom_paid_edmund_mortimer_tt: "[GetCountry('ENG').GetName]がエドマンド・モーティマーの身代金を払った"
  flavor_wls.16.title: "密偵頭からの報告"
  flavor_wls.16.desc_england_success: "[dishonorable_dynasty.GetName]家が[GetCountry('ENG').GetGovernment.GetRuler.GetName]の寛大さを称賛し、武装解除に同意した。わが国の諜報員たちは、彼らの軍勢が解散している様子を確認した。"
  flavor_wls.16.desc_england_failure: "[dishonorable_dynasty.GetName]家が[GetCountry('ENG').GetGovernment.GetRuler.GetName]からの買収の試みを拒絶した。さらなる流血は避けられそうにない。"

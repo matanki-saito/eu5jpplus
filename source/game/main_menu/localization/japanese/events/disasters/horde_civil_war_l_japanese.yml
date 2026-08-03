@@ -14,7 +14,7 @@
  horde_civil_war.3.desc: "対立する[target.GetName]はついに倒された！ しかし、不安を抱えた戦士たちが新たな軍閥の旗のもとに結集しており、現実的な脅威は依然として残っている。[scope_pretender.GetName]は、[target_country.GetAdjective]の王位をめぐって戦争を続けるつもりである！"
  horde_civil_war.3.a: "継承危機はたやすく終わらない…"
  horde_civil_war.4.title: "[target_country.GetGovernment.GetRulerTitle]の勝利！"
- horde_civil_war.4.desc: "我らが仇敵、[target_character.GetName]との長い戦いについに終止符が打たれた。[target.GetName]の完全な併合により、[target_country.GetLongName]は勝利し、[target_ruler.GetName]の権威は回復した！ [target_character.GetShortNameWithNoTooltip]は正義の裁きを受け、まもなく[target_character.GetSheHe]にふさわしい刑に処されるだろう。"
+ horde_civil_war.4.desc: "我らが仇敵、[target_character.GetName]との長い戦いについに終止符が打たれた。[loser.GetName]の完全な併合により、[target_country.GetLongName]は勝利し、[target_ruler.GetName]の権威は回復した！ [target_character.GetShortNameWithNoTooltip]は正義の裁きを受け、まもなく[target_character.GetSheHe]にふさわしい刑に処されるだろう。"
  horde_civil_war.4.desc.new: "$horde_civil_war.4.desc$\n\nしかし、ひとつの軍閥が倒されると、新たな軍閥がそのあとに続こうと現れる。[scope_pretender.GetName]は、[target_country.GetGovernment.GetRulerTitle]にもう一度挑むため、散り散りになっていた戦士たち[scope_pretender.GetHerHis]の旗のもとにを結集させた。"
  horde_civil_war.4.desc.end: "$horde_civil_war.4.desc$\n\n僭称者がこれほどの壊滅的な敗北を喫したことで、[target_country.GetAdjectiveWithNoTooltip]の王位への挑戦は止まったようだ。[target_country.GetName]に再び安定が戻ってきた。"
  horde_civil_war.4.a: "また王位を狙うハゲタカが現れたか。"

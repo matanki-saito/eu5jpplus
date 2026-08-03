@@ -6,7 +6,7 @@
  flavor_hsa.1.b: "彼は無視しろ。"
  flavor_hsa.2.title: "造船技術"
  flavor_hsa.2.entry: "$flavor_hsa.2.title$"
- flavor_hsa.2.desc: "我々ハンザ同盟は、イタリアをはじめとするヨーロッパ全土で船を販売しており、主にリューベックやダンツィヒで造船市場の大半を支配している。オランダは、交易路の終点にあるブルージュを主要市場として優遇しようとしており、我々の競争相手となりつつある。オランダへの造船技術の流出を止めるべきだろうか？"
+ flavor_hsa.2.desc: "我々ハンザ同盟は、[ShowAreaName('baltic_area')]から[ShowRegionName('italy_region')]に至るヨーロッパ全土で船を販売している。[ShowLocationName('lubeck')]と[ShowProvinceDefinitionName('danzig_province')]にある我々の造船所は、極めて高品質な船舶と熟練した船大工の主要な供給源として造船市場を支配している。しかし[GetCountry('HOL').GetName]は、交易路の終点にある[GetCountry('HOL').GetCapital.GetName]を主要拠点に押し上げようとしており、彼らの船大工は年々大胆になっている。もし我々の技術が[ROOT.GetCountry.GetAdjective]の町から[GetCountry('HOL').GetAdjectiveWithNoTooltip]に流出しつづけるようであれば、我々はライバルの台頭を自ら援助することになるかもしれない。"
  flavor_hsa.2.a: "造船技術を流出させるな！"
  flavor_hsa.2.b: "造船技術を広めよう。"
  STATIC_MODIFIER_NAME_hsa_spread_shipbuilding_technology: "造船技術の拡散"

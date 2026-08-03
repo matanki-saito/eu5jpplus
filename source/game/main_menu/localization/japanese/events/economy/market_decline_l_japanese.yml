@@ -1,0 +1,7 @@
+﻿l_japanese:
+ market_decline.1.title: "[withering_market.GetName]の衰退"
+ market_decline.1.desc: "[withering_market.GetCenterLocation.GetName]の市場は、もはやかつてのような交易の中心地ではない。この市場を利用する地域はいまやごくわずかで、わが国の商人たちは次第に、より便利な近隣の市場に交易品を持ち込むようになっている。このまま何もしなければ[withering_market.GetCenterLocation.GetNameWithNoTooltip]の市場は衰退し、通りがかりで通行料を払うだけの場所になってしまうだろう。\n\nわが国の内閣が、この衰退にどう対処すべきか尋ねている。"
+ market_decline.1.a: "商人たちを助成して市場を支えよう。"
+ market_decline.1.b: "その市場は解散させ、各地域に向いた近隣市場を使わせよう。"
+ market_decline.1.b.tt: "[withering_market.GetName]の[market|e]が解散する。この市場に含まれていたロケーションは、それぞれ次に最適な[market|e]に割り当てられる。"
+ market_decline.1.c: "衰退を受け入れ、どうするか商人たち自身に決めさせよう。"

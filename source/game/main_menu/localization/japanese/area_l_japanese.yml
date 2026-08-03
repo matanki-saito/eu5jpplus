@@ -928,7 +928,7 @@
  australian_yalanji_area: "ヤランジ"
  southeastern_australia_area: "南東オーストラリア"
  south_australia_area: "サウスオーストラリア"
- # unsorted
+ #unsorted
  bermuda_province: "$bermuda$"
  bermuda_area: "$bermuda$"
  gulf_of_mexico_area: "メキシコ湾"
@@ -946,5 +946,5 @@
  azores_area: "アゾレス"
  canary_islands_area: "カナリア諸島"
  south_macaronesia_area: "南マカロネシア"
- # temporary ones
+ #temporary ones
  nw_africa_coast_area: "北西アフリカ沿岸"

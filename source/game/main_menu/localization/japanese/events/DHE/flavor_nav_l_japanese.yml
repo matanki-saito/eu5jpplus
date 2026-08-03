@@ -1,9 +1,9 @@
 ﻿l_japanese:
  flavor_nav.10.title: "教会の声"
  flavor_nav.10.entry: "$flavor_nav.10.title$"
- flavor_nav.10.desc: "我らが[ROOT.GetCountry.GetGovernment.GetRuler.GetName]の長女である[target_character.GetName]が、自らを[ShowLocationName('paris')]での新たな生活に導く随行団を待っている。\n\nこの世に生を受けたとき、[target_character.GetSheHe]は両親の全財産を相続する者として星々の祝福を受けたかに見えたが、もはや状況が変わった。[GetCountry('ARA').GetGovernment.GetRuler.GetName]との結婚は破棄され、[target_character.GetSheHe]はいまや妹である[target_sister.GetShortName]の障害にすぎない存在となってしまった。\n\nこうして[target_character.GetNameWithNoTooltip]は、[ShowLocationNameWithNoTooltip('paris')]で[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]に加わり、我らが救い主に奉仕することとなった。\n\nしかしながら、[target_character.GetSheHe]が依然として国家にとっては有用であり、外交交渉において利用できる可能性を指摘する声もある。"
- flavor_nav.10.a: "[target_character.GetSheHe|U]は修道女となるのだ。"
- flavor_nav.10.b: "[target_character.GetSheHe|U]にはまだ使い途がある。"
+ flavor_nav.10.desc: "我らが[ROOT.GetCountry.GetGovernment.GetRuler.GetName]の長女である[target_character.GetName]が、自らを[ShowLocationName('paris')]での新たな生活に導く随行団を待っている。\n\nこの世に生を受けたとき、[target_character.GetSheHe]は両親の全財産を相続する者として星々の祝福を受けたかに見えたが、もはや状況が変わった。[GetCountry('ARA').GetGovernment.GetRuler.GetName]との結婚は破棄され、彼女はいまや妹である[target_sister.GetShortName]の障害にすぎない存在となってしまった。\n\nこうして[target_character.GetNameWithNoTooltip]は、[ShowLocationNameWithNoTooltip('paris')]で[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]に加わり、我らが救い主に奉仕することとなった。\n\nしかしながら、彼女が依然として国家にとっては有用であり、外交交渉において利用できる可能性を指摘する声もある。"
+ flavor_nav.10.a: "彼女は修道女となるのだ。"
+ flavor_nav.10.b: "彼女にはまだ使い途がある。"
  flavor_nav.10.historical_info: "フアナ2世はアラゴン王ペドロ4世と婚約していたものの、結婚は実現しなかった。歴史家たちは、フアナになんらかの欠陥があったか、あるいは病気であったために、ペドロ4世に忌避されたのではと論じている。その後、妹のマリアが彼女の代わりとなってペドロ4世と結婚した。\n\n妹の結婚に備えてフアナは継承権を放棄せざるを得なくなり、パリ近郊のロンシャンのフランシスコ会修道院に入り、聖クララ会修道女として隠遁生活を送った。"
  flavor_nav.20.title: "サン・フランチェスコ・デ・オリテ"
  flavor_nav.20.entry: "$flavor_nav.20.title$"

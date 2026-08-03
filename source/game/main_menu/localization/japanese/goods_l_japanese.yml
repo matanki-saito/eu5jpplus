@@ -141,7 +141,7 @@
  olives: "オリーブ"
  olives_desc: "オリーブは、地中海周辺で何千年も栽培されてきた同名の木から収穫される。食文化において高く評価されており、特にオリーブオイルは幅広い地中海料理やドレッシングに使用されている。"
  slaves_goods: "奴隷"
- slaves_goods_desc: "奴隷は古代から取引がおこなわれていたが、16世紀後半に急速に需要が高まった。これは当時、アメリカ大陸でヨーロッパ人が経営していた大規模農園にとって、奴隷が最も安価な労働力だったためである。"
+ slaves_goods_desc: "奴隷は古代から取引がおこなわれていたが、16世紀後半に急速に需要が高まった。これは当時、アメリカ大陸でヨーロッパ人が経営していた大規模農園にとって、奴隷が最も安価な労働力だったためである。ほかの[goods_with_icon|e]とは異なり、[ShowGoodsName('slaves_goods')]の交易は、空いている奴隷の仕事を埋めるために[markets_with_icon|e]間で@slaves![ShowPopTypeName('slaves')]を物理的に移動させる。"
  tropical_wood: "熱帯木材"
  saltpeter: "硝石"
  saltpeter_desc: "硝石は古代から知られており、その用途は肥料や食肉加工用の塩など多岐にわたる。しかし、実際にその重要性が高まったのは中世の火薬と銃器の発明以降で、木炭や硫黄とともに火薬の主成分となった。世界中で大量に採掘されるこの金属は、やがて悪名高い地位を獲得することになる。"
@@ -173,7 +173,7 @@
  pottery_desc: "粘土から道具を作り出す技術は、人類社会の最も古い痕跡のひとつであり、人類の発展における重要な要素である。先史時代の粗末な土器からより複雑な形状のものまで、陶器はあらゆる文化に普遍的に存在している。"
  furniture: "家具"
  furniture_desc: "家具は、住まいに屋根だけでなく豊かさも求める人々の欲求を満たす。簡素なベッドやテーブルから凝ったつくりのもの、そして木や石などの素朴な素材から高級素材まで、家具はあらゆる目的、好みや予算に応じて作られる。"
- # Goods Demand Names
+ #Goods Demand Names
  elephant_auxiliary_construction: "象の補助兵の編制"
  elephant_cavalry_construction: "戦象の編制"
  elephant_infantry_construction: "象歩兵の編制"
@@ -301,7 +301,7 @@
  steppe_auxiliary_construction: "$a_a_urughs$を募集している"
  steppe_horse_archers_maintenance: "$a_steppe_horse_archers$維持費"
  steppe_horse_auxiliary_maintenance: "$a_a_urughs$維持費"
- # Event specific demands
+ #Event specific demands
  silver_fancy: "銀に対する貪欲さ"
  special_demands: "特需"
  porcelain_tower_demand: "$porcelain_tower$建設の需要"
@@ -311,7 +311,7 @@
  demands_of_ships: "海軍物資の需要"
  introduction_of_new_world_crops: "[ShowInstitutionNameWithNoTooltip('new_world')]作物の導入"
  ambitious_print_pressing: "野心的な印刷所"
- # Demands from Buildings
+ #Demands from Buildings
  default_construct_building: "建造物の建設"
  default_maintenance_building: "建造物維持費"
  guild_input: "ギルド投入物資"
@@ -462,7 +462,7 @@
  bronze_tools_guild_maintenance: "青銅製工具工房"
  stone_tools_guild_maintenance: "石製工具工房"
  copper_tools_guild_maintenance: "銅製工具工房"
- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+ ## # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
  cloth_manufactory_slot_0: "$wool_cloth_manufactory_maintenance$方法"
  wool_cloth_manufactory_maintenance: "羊毛生地職人"
  cloth_manufactory_slot_1: "$cotton_cloth_manufactory_maintenance$方法"
@@ -673,6 +673,7 @@
  bank_construction: "銀行の建設"
  bank_maintenance: "銀行の要求"
  wissel_bank_maintenance: "銀行"
+ riksbank_maintenance: "リクスバンク"
  minting_office_construction: "貨幣鋳造所を建設"
  basic_construction_needs: "基本的な建築物"
  cathedral_construction: "大聖堂を建設"
@@ -770,6 +771,7 @@
  alum_fine_cloth_manufactory_maintenance: "ミョウバンで染める"
  bailiff_input: "執行官"
  arctic_fishing_village_maintenance: "北極圏の漁村"
+ coastal_boatyard: "沿岸の造船所"
  market_village_slot_1: "生産"
  rural_blacksmith: "農村の鍛冶屋"
  rural_glassmaker: "農村のガラス製作者"
@@ -841,7 +843,7 @@
  hippodrome_construction: "$hippodrome$の建設"
  merchant_guild_chapel_construction: "$merchant_guild_chapel$の建設"
  seljuk_mint_maintenance: "$seljuk_mint$維持費"
- # Pop Demands
+ #Pop Demands
  pop_needs: "POP必需品"
  pop_demand: "人口必需品"
  pop_demand_nl: "人口必需品"
@@ -965,6 +967,7 @@
  admiralty_requirements: "$admiralty$"
  tax_assessor_requirements: "$tax_assessor$"
  supreme_court_requirements: "$supreme_court$"
+ burgtor_maintenance: "ブルク門"
  bajang_ratu_maintenance: "バジャンラトゥ"
  bubu_building_maintenance: "ブブ"
  eghabho_nore_mansion_construction: "$eghabho_nore_mansion$の建設"
@@ -1003,3 +1006,6 @@
  merchant_guild_chapel_requirements: "商人ギルドの礼拝堂"
  viceroyalty_maintenance: "$viceroyalty$維持費"
  lieutenancy_maintenance: "$lieutenancy$維持費"
+ lutheran_preachers_building: "$lutheran_preachers$施設"
+ calvinist_preachers_building: "$calvinist_preachers$施設"
+ porto_pisano_maintenance: "$porto_pisano$"

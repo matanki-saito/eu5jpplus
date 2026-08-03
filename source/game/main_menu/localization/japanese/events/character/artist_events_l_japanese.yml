@@ -186,7 +186,7 @@
  artist_events.44.desc: "我々の法律は、わが[ROOT.GetCountry.GetFlavorRank]全体を公正に支配している。我々の進歩を逆戻りさせ、わが国を引き裂こうとする者たちに対しても、法は偏見なく寛大な手を差し伸べるのだ。\n\n[target_rebel.GetName]と、その支持者たちの一件がまさにその例だ。[target_character.GetName]の法的保護に対する思慮深さが、多くの人々の反抗的傾向を和らげ、彼らに適切な影響力を及ぼす機会をもたらしている。"
  artist_events.44.a: "善なる羊飼いは、迷える羊を温かく迎え入れる。"
  artist_events.44.b: "この機会を利用し、我々の文化を彼らに強いるのだ！"
- every_supporter_pop_gains_20_satisfaction_tt: "[target_rebel.GetName][rebellion|e]を支持するすべての[pop|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]増加する"
+ every_supporter_pop_gains_20_satisfaction_tt: "[ROOT.GetRebel.GetName][rebellion|e]を支持するすべての[pop|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_extreme_bonus')|+=2%]上昇する"
  artist_events.45.title: "喜ばしい偶然"
  artist_events.45.desc: "[target_character.GetName]が最近、[target_estate.GetName]階級の著名人を代表して出廷し、階級に利益をもたらしたようだ。その見返りとして、彼らは国庫に寛大な寄付をおこなった。この寄付が我々の富をさらに増やすことは間違いなく、我々の相談役は、新たに得た資金を適切に投資する方法を熱心に提案してきている。"
  artist_events.45.a: "ありがたく受け取ろう！"

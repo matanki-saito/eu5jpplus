@@ -192,7 +192,7 @@
  boh_widespread_condemnation_tt: "すべての[ShowReligionAdjective('catholic')]国家のわが国に対する[opinion|e]が[ShowBiasValue('opinion_hussite_aggression_modifier')|+=0]低下する"
  four_articles: "四箇条"
  four_articles_desc: "教皇庁の十字軍の侵略者たちが、脆弱な力でもって我々の信仰を抑えつけんとしたことに対し、わが国と信仰の長が突きつけた要求。"
- flavor_boh.36.historical_info: "プラハの四箇条は、15世紀のバーゼル公会議において、ボヘミアの改革者である[GetCharacter('boh_jan_hus').GetName]の信奉者たちによって出された一連の要求。これらの条項は、プロテスタント宗教改革の先駆けとなったフス派運動において重要な役割を果たすことになる。この条文には、神の言葉を宣べ伝える自由、聖体拝領、教会制度の全般的改革、大罪人の教会からの排除などの条項が含まれていた。"
+ flavor_boh.36.historical_info: "プラハの四箇条は、15世紀のバーゼル公会議において、ボヘミアの改革者であるヤン・フスの信奉者たちによって出された一連の要求。これらの条項は、プロテスタント宗教改革の先駆けとなったフス派運動において重要な役割を果たすことになる。この条文には、神の言葉を宣べ伝える自由、聖体拝領、教会制度の全般的改革、大罪人の教会からの排除などの条項が含まれていた。"
  flavor_boh.37.title: "同胞の結束"
  flavor_boh.37.entry: "$flavor_boh.37.title$"
  flavor_boh.37.desc: "[ShowReligionAdjective('hussite')]の典礼を実践したこの数年間で、我々の信仰の木は多くの枝を伸ばし、国中で栄え成長してきた。多くの信者が、道を踏み外した異端者の手から自由となった教会の儀式に参加するために、集会をおこなっている。\n\nしかし、このような敬虔と神の崇拝を示す環境のなかで、[ShowReligionNameWithNoTooltip('hussite')]の極端な解釈に傾倒し、貴族や商人を教会の代表から排除するとともに、典礼は簡素で質素な儀式でおこない、使徒継承の拒否を説く[ShowEstateTypeName('clergy_estate')]が増えている。"
@@ -290,6 +290,6 @@
  flavor_boh.52.desc: "民衆のあいだで山火事のように広まっている、ある恐ろしい話が我々のもとに届いた。[ShowLocationName('vizovice')]の近隣地域の沼地に潜む怪物が、無力な村人を誘拐して食っているというのだ。この伝説は、地域に大きな不安と混乱を引き起こしている。相談役のなかには、恐怖を鎮めて秩序を回復するために、この謎の生物を討伐する軍隊を派遣しようと提案する者もいる。一方で、これはただの民話にすぎず、[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]は無意味なことに資源を浪費すべきではないと主張する者もいる。"
  flavor_boh.52.a: "調査部隊に出資しよう。"
  flavor_boh.52.b: "迷信深い民には困ったものだ……"
- # has_variable custom tooltips
+ #has_variable custom tooltips
  variable_tt_boh_force_crown_st_wenceslas: "聖ヴァーツラフの王冠を強制"
  variable_tt_not_prevent_kutna_hora_flood: "[ShowLocationName('kutna_hora')]で洪水対策が実施されていない"

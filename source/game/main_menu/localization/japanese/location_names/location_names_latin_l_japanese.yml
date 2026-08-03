@@ -912,7 +912,7 @@
  lynn.latin_language: "レンナ"
  yarmouth.latin_language: "ゲルネムタ"
  thetford.latin_language: "シトマグス"
- # fakenham.latin_language: "Fakenham"
+ #fakenham.latin_language: "Fakenham"
  colchester.latin_language: "カムロドゥヌム"
  chelmsford.latin_language: "カエサロマグス"
  prittlewell.latin_language: "プリッテヴェラ"
@@ -1050,26 +1050,26 @@
  caerphilly.latin_language: "カエルフィリウム"
  ### Region 'iberia_region' (Iberia) ###
  ## Area 'galicia_area' (Galicia) ##
- # Province 'coruna_province' (A Coruña) #
- coruna.latin_language: "ブリガンティウム" # attested
+ #Province 'coruna_province' (A Coruña) #
+ coruna.latin_language: "ブリガンティウム" #attested
  betanzos.latin_language: "ベタンゾス"
  ferrol.latin_language: "フェロル"
  mondonedo.latin_language: "モンドニエトゥム"
  vivero.latin_language: "ヴィヴェラム"
- # Province 'lugo_province' (Lugo) #
- lugo.latin_language: "ルクス・アウグスティ" # attested
+ #Province 'lugo_province' (Lugo) #
+ lugo.latin_language: "ルクス・アウグスティ" #attested
  monforte_de_lemos.latin_language: "モンス・フォルティス・レモラム"
  navia_de_suarna.latin_language: "ナヴィア・スアルネンシス"
  sarria.latin_language: "サリア"
  villalba.latin_language: "ヴィラ・アルバ"
- # Province 'ourense_province' (Ourense) #
- ourense.latin_language: "アウリア" # attested
+ #Province 'ourense_province' (Ourense) #
+ ourense.latin_language: "アウリア" #attested
  barco_de_valdeorras.latin_language: "ナヴィス・ヴァリス・アウララム"
  ginzo_de_limia.latin_language: "ギンツィウム・リミアエ"
  monterrey.latin_language: "モンス・レギウス"
  ribadavia.latin_language: "リパ・アヴィアエ"
  viana_bolo.latin_language: "ビアナ・ボレンシス"
- # Province 'santiago_province' (Santiago de Compostela) #
+ #Province 'santiago_province' (Santiago de Compostela) #
  santiago_compostela.latin_language: "サンクトゥス・イアコブス・コンポステラヌス"
  finisterre.latin_language: "フィニス・テラエ"
  lalin.latin_language: "ラリヌム"
@@ -1078,85 +1078,85 @@
  pontevedra.latin_language: "ポンテム・ヴェテラム"
  tuy.latin_language: "トゥデンシス"
  ## Area 'leon_area' (León) ##
- # Province 'astorga_province' (Astorga) #
- astorga.latin_language: "アストゥリカ・アウグスタ" # attested
+ #Province 'astorga_province' (Astorga) #
+ astorga.latin_language: "アストゥリカ・アウグスタ" #attested
  castrocalbon.latin_language: "カストルム・カルボニス"
  ponferrada.latin_language: "ポンス・フェラータ"
  villablino.latin_language: "ヴィラ・ブリニィ"
  villafranca_bierzo.latin_language: "ヴィラ・フランカ・ベルギデンシス"
- # Province 'benavente_province' (Benavente) #
+ #Province 'benavente_province' (Benavente) #
  benavente.latin_language: "ベネヴェントゥム"
  alcanices.latin_language: "アルカニシア"
  puebla_de_sanabria.latin_language: "プエブラ・サナブリアエ"
  villalpando.latin_language: "ヴィラ・アルパンディ"
- # Province 'ciudad_rodrigo_province' (Ciudad Rodrigo) #
+ #Province 'ciudad_rodrigo_province' (Ciudad Rodrigo) #
  ciudad_rodrigo.latin_language: "ウルブス・ロデリキ"
  coria.latin_language: "カウリア"
  ledesma.latin_language: "レデスマ"
  san_felices.latin_language: "サンクトゥス・フェリクス"
  yecla_de_yeltes.latin_language: "イェクラ・デ・イェルテス"
- # Province 'east_asturias_province' (East Asturias) #
+ #Province 'east_asturias_province' (East Asturias) #
  villaviciosa.latin_language: "ヴィラ・ヴィティオサ"
  cangas.latin_language: "カンガエ"
  llanes.latin_language: "ラニウス"
  mieres.latin_language: "ミエレス"
- # Province 'leon_province' (León) #
- leon.latin_language: "レギオ" # attested
+ #Province 'leon_province' (León) #
+ leon.latin_language: "レギオ" #attested
  mansilla.latin_language: "マンシラ"
  riano.latin_language: "リアヌム"
  sahagun.latin_language: "サンクトゥス・ファクンドゥス"
- # Province 'salamanca_province' (Salamanca) #
- salamanca.latin_language: "サルマンティカ" # attested
+ #Province 'salamanca_province' (Salamanca) #
+ salamanca.latin_language: "サルマンティカ" #attested
  alba_de_tormes.latin_language: "アルバ・デ・トルメス"
  bejar.latin_language: "ベギアルム"
  matilla_de_canos.latin_language: "マティラ・デ・カノス"
  piedrahita.latin_language: "ペトラ・フィクタ"
- # Province 'west_asturias_province' (West Asturias) #
+ #Province 'west_asturias_province' (West Asturias) #
  oviedo.latin_language: "オヴェトゥム"
  aviles.latin_language: "アビラエ"
  castropol.latin_language: "カストルム・パウルム"
  tineo.latin_language: "ティネウム"
- # Province 'zamora_province' (Zamora) #
- zamora.latin_language: "オケッルム・ドゥリ" # attested
+ #Province 'zamora_province' (Zamora) #
+ zamora.latin_language: "オケッルム・ドゥリ" #attested
  alba_de_aliste.latin_language: "アルバ・アリスティンシス"
  fermoselle.latin_language: "フォルモセラ"
  toro.latin_language: "タウルス"
  ## Area 'castile_area' (Castile) ##
- # Province 'avila_province' (Ávila) #
+ #Province 'avila_province' (Ávila) #
  avila.latin_language: "アビラ"
  adrada.latin_language: "アドラダ"
  arevalo.latin_language: "アレヴァルム"
  las_navas.latin_language: "ナヴァエ"
  oropesa.latin_language: "アウルム・ペンサ"
  villatoro.latin_language: "ヴィラ・トリ"
- # Province 'burgos_province' (Burgos) #
+ #Province 'burgos_province' (Burgos) #
  burgos.latin_language: "ブルグス"
  briviesca.latin_language: "ブリヴィエスカ"
  logrono.latin_language: "ログロニウム"
  miranda_de_ebro.latin_language: "ミランダ・デ・エブロ"
  najera.latin_language: "ナゲラ"
  villarcayo.latin_language: "ヴィラ・アルカイィ"
- # Province 'lerma_province' (Lerma) #
+ #Province 'lerma_province' (Lerma) #
  lerma.latin_language: "レルマ"
  aranda_de_duero.latin_language: "アランダ・デ・ドゥリウス"
  castrojeriz.latin_language: "カストルム・イェリス"
  sto_domingo_silos.latin_language: "サンクトゥス・ドミニクス・デ・シリス"
  villadiego.latin_language: "ヴィラ・ディダキ"
- # Province 'palencia_province' (Palencia) #
- palencia.latin_language: "パランティア" # attested
+ #Province 'palencia_province' (Palencia) #
+ palencia.latin_language: "パランティア" #attested
  aguilar_de_campoo.latin_language: "アクィラリス・カンピ"
  carrion_de_los_condes.latin_language: "カリオ・コミトゥム"
  monzon_campos.latin_language: "モンス・ゾン・カンポス"
  palenzuela.latin_language: "パレンティオラ"
  saldana.latin_language: "サルダニア"
  reinosa.latin_language: "レギノサ"
- # Province 'segovia_province' (Segovia) #
- segovia.latin_language: "セゴビア" # attested
+ #Province 'segovia_province' (Segovia) #
+ segovia.latin_language: "セゴビア" #attested
  cuellar.latin_language: "クエラリウム"
  fuentiduena.latin_language: "フォンス・ドミナエ"
  pedraza.latin_language: "ペトラザ"
  sepulveda.latin_language: "セプルヴェダ"
- # Province 'soria_province' (Soria) #
+ #Province 'soria_province' (Soria) #
  soria.latin_language: "ソリア"
  agreda.latin_language: "アグレダ"
  almazan.latin_language: "アルマザヌム"
@@ -1166,68 +1166,68 @@
  calahorra.latin_language: "カラグリス"
  calatanazor.latin_language: "カラタナソル"
  medinaceli.latin_language: "メディナ・カエリ"
- # Province 'montana_province' (La Montaña) #
+ #Province 'montana_province' (La Montaña) #
  santander.latin_language: "ポルトゥス・ヴィクトリアエ"
  laredo.latin_language: "ラレトゥム"
  potes.latin_language: "ポテス"
  san_vicente_barquera.latin_language: "サンクトゥス・ヴィンケンティウス・デ・バルケラ"
- # Province 'valladolid_province' (Valladolid) #
+ #Province 'valladolid_province' (Valladolid) #
  valladolid.latin_language: "ヴァリソレトゥム"
  medina_de_rioseco.latin_language: "メディナ・デ・リオセコ"
  medina_del_campo.latin_language: "メディナ・カンピ"
  penafiel.latin_language: "ペナフィデリス"
  tordesillas.latin_language: "トルデシリャス"
  ## Area 'extremadura_area' (Extremadura) ##
- # Province 'badajoz_province' (Badajoz) #
+ #Province 'badajoz_province' (Badajoz) #
  badajoz.latin_language: "パクス・オーガスタ"
  albuquerque.latin_language: "アルブス・ケルクス"
  barcarrota.latin_language: "バルカロッタ"
  jerez_de_los_caballeros.latin_language: "ヘレス・カバレロラム"
  villanueva_del_fresno.latin_language: "ヴィラ・ノヴァ・フレスニ"
- # Province 'caceres_province' (Cáceres) #
+ #Province 'caceres_province' (Cáceres) #
  caceres.latin_language: "カストリス"
  alcantara.latin_language: "アルカンタラ"
  arroyo.latin_language: "アルギウム"
  brozas.latin_language: "ブロザエ"
  valencia_de_alcantara.latin_language: "ヴァレンティア・デ・アルカンタラ"
- # Province 'merida_province' (Mérida) #
- merida.latin_language: "エメリタ・アウグスタ" # attested
+ #Province 'merida_province' (Mérida) #
+ merida.latin_language: "エメリタ・アウグスタ" #attested
  azuaga.latin_language: "アズアガ"
  llerena.latin_language: "レレーナ"
  monesterio.latin_language: "モナステリウム"
  montanchez.latin_language: "モンス・サンクティウス"
  zafra.latin_language: "サフラ"
- # Province 'plasencia_province' (Plasencia) #
+ #Province 'plasencia_province' (Plasencia) #
  plasencia.latin_language: "プラケンティア・ヴェトナム"
  galisteo.latin_language: "ガリステウム"
  granadilla.latin_language: "グラナテラ"
  jaraicejo.latin_language: "イアライティウム"
  valverde.latin_language: "ヴァリス・ヴィリディス"
- # Province 'trujillo_province' (Trujillo) #
+ #Province 'trujillo_province' (Trujillo) #
  trujillo.latin_language: "トゥルガリウム"
  escurial.latin_language: "エスクリアレ"
  herrera.latin_language: "フェラリア"
  puebla_de_alcocer.latin_language: "プエブラ・デ・アルコセル"
- # Province 'villanueva_de_la_serena_province' (Villanueva de la Serena) #
+ #Province 'villanueva_de_la_serena_province' (Villanueva de la Serena) #
  villanueva_de_la_serena.latin_language: "ヴィラ・ノヴァ・セレナ"
  belalcazar.latin_language: "ベルム・アルカザリス"
  medellin.latin_language: "メテリヌム"
  zalamea.latin_language: "サラメア"
  ## Area 'navarre_area' (Navarra) ##
- # Province 'alava_province' (Álava) #
+ #Province 'alava_province' (Álava) #
  vitoria.latin_language: "ヴィクトリア"
  anana.latin_language: "アナニア"
  laguardia.latin_language: "クストディア"
  salvatierra.latin_language: "サルヴァ・テラ"
- # Province 'biscay_province' (Biscay) #
+ #Province 'biscay_province' (Biscay) #
  bilbao.latin_language: "ビルバウム"
  durango.latin_language: "ドゥラングム"
  valmaseda.latin_language: "バルマセダ"
- # Province 'gipuzkoa_province' (Gipuzkoa) #
+ #Province 'gipuzkoa_province' (Gipuzkoa) #
  san_sebastian.latin_language: "サンクトゥス・セバスティアヌス"
  onate.latin_language: "オナティア"
  tolosa.latin_language: "トロサ・カンタブリカ"
- # Province 'navarre_province' (Navarre) #
+ #Province 'navarre_province' (Navarre) #
  pamplona.latin_language: "ポンパエロ"
  elizondo.latin_language: "エリゾンドゥム"
  estella.latin_language: "ステラ"
@@ -1237,66 +1237,66 @@
  tudela.latin_language: "トゥテーラ"
  viana.latin_language: "ビアナ"
  ## Area 'aragon_area' (Aragon) ##
- # Province 'alcaniz_province' (Alcañiz) #
+ #Province 'alcaniz_province' (Alcañiz) #
  alcaniz.latin_language: "アルカニス"
  cantavieja.latin_language: "カンタヴィエハ"
  caspe.latin_language: "カスペ"
  montalban.latin_language: "モンス・アルバン"
  valderrobres.latin_language: "ヴァリス・ロボルム"
- # Province 'barbastro_province' (Barbastro) #
+ #Province 'barbastro_province' (Barbastro) #
  barbastro.latin_language: "バルバストロ"
  ainsa.latin_language: "アインサ"
  benabarre.latin_language: "ベナバラ"
  fraga.latin_language: "フラガ"
  monzon.latin_language: "モンティソニス"
  sarinena.latin_language: "サリネナ"
- # Province 'calatayud_province' (Calatayud) #
+ #Province 'calatayud_province' (Calatayud) #
  calatayud.latin_language: "カラタユビウム"
  ariza.latin_language: "アリシア"
  carinena.latin_language: "カリニアナ"
  daroca.latin_language: "ダロカ"
- # Province 'huesca_province' (Huesca) #
+ #Province 'huesca_province' (Huesca) #
  huesca.latin_language: "オスカ"
  almudevar.latin_language: "アルムデバル"
  anso.latin_language: "アンソ"
  ejea_de_los_caballeros.latin_language: "エクセア・カバラリオルム"
  jaca.latin_language: "イアッカ"
  sos.latin_language: "ソシウム"
- # Province 'teruel_province' (Teruel) #
+ #Province 'teruel_province' (Teruel) #
  teruel.latin_language: "ティルエルム"
  albarracin.latin_language: "アルバラキヌム"
  alfambra.latin_language: "アルファンブラ"
  mora_de_rubielos.latin_language: "モラ・デ・ルビエリス"
  ## Area 'catalonia_area' (Catalonia) ##
- # Province 'barcelona_province' (Barcelona) #
- barcelona.latin_language: "バルキノ" # attested
- sitges.latin_language: "スブル" # attested
+ #Province 'barcelona_province' (Barcelona) #
+ barcelona.latin_language: "バルキノ" #attested
+ sitges.latin_language: "スブル" #attested
  terrassa.latin_language: "テラキア"
  villafranca_del_penedes.latin_language: "ヴィラ・フランカ・ペネデシイ"
- # Province 'girona_province' (Girona) #
- girona.latin_language: "ゲルンダ" # attested
+ #Province 'girona_province' (Girona) #
+ girona.latin_language: "ゲルンダ" #attested
  besalu.latin_language: "ビスルドゥヌム"
  castellon_ampurias.latin_language: "カステッロネム・アンプリアルム"
  ripoll.latin_language: "リポリス"
  sant_feliu.latin_language: "サンクトゥス・フェリクス"
- # Province 'new_catalonia_province' (New Catalonia) #
- tarragona.latin_language: "タッラコ" # attested
+ #Province 'new_catalonia_province' (New Catalonia) #
+ tarragona.latin_language: "タッラコ" #attested
  flix.latin_language: "フリックス"
- lleida.latin_language: "イレルダ" # attested
+ lleida.latin_language: "イレルダ" #attested
  montblanc.latin_language: "モンス・ブランクス"
  tarrega.latin_language: "タッレガ"
- tortosa.latin_language: "デルトサ" # attested
- # Province 'osona_province' (Osona) #
- vic.latin_language: "アウサ" # attested
+ tortosa.latin_language: "デルトサ" #attested
+ #Province 'osona_province' (Osona) #
+ vic.latin_language: "アウサ" #attested
  berga.latin_language: "ベルギア"
  cardona.latin_language: "カルドナ"
  cervera.latin_language: "セルベラ"
  manresa.latin_language: "ミノリサ"
- # Province 'rosello_province' (Roselló) #
+ #Province 'rosello_province' (Roselló) #
  perpignan.latin_language: "ペルピニアヌム"
  prades.latin_language: "プラタ"
  puigcerda.latin_language: "ポディウム・ケレタヌム"
- # Province 'urgell_province' (Urgell) #
+ #Province 'urgell_province' (Urgell) #
  seu_durgell.latin_language: "セデス・ウルゲレンシス"
  agramunt.latin_language: "アグラモントゥム"
  andorra_la_vella.latin_language: "アンドラ・ヴェトゥス"
@@ -1304,36 +1304,36 @@
  talarn.latin_language: "タラルヌム"
  vielha.latin_language: "ヴィエラ"
  ## Area 'valencia_area' (Valencia) ##
- # Province 'castellon_province' (Castellón de la Plana) #
+ #Province 'castellon_province' (Castellón de la Plana) #
  castellon_de_la_plana.latin_language: "カステッリオ・プラネンシス"
  ares_del_maestre.latin_language: "アレス・マギストリ"
  llucena.latin_language: "ルセナ"
  morella.latin_language: "モレラ"
  peniscola.latin_language: "ペナエ・イスコラ"
- # Province 'jativa_province' (Játiva) #
+ #Province 'jativa_province' (Játiva) #
  jativa.latin_language: "サエタビス"
  alcoy.latin_language: "アルコイウム"
  ayora.latin_language: "アイオラ"
- denia.latin_language: "ディアニウム" # attested
+ denia.latin_language: "ディアニウム" #attested
  gandia.latin_language: "ガンディア"
- # Province 'orihuela_province' (Orihuela) #
+ #Province 'orihuela_province' (Orihuela) #
  orihuela.latin_language: "アウリクラ"
- alicante.latin_language: "ルケントゥム" # attested
- elche.latin_language: "イリキ" # attested
- # Province 'valencia_province' (Valencia) #
- valencia.latin_language: "ヴァレンティア" # attested
+ alicante.latin_language: "ルケントゥム" #attested
+ elche.latin_language: "イリキ" #attested
+ #Province 'valencia_province' (Valencia) #
+ valencia.latin_language: "ヴァレンティア" #attested
  bunol.latin_language: "ブノルム"
  chelva.latin_language: "ケルヴァ"
  lliria.latin_language: "エデタ"
  ## Area 'balearics_area' (Balearics) ##
- # Province 'mallorca_province' (Mallorca) #
- palma.latin_language: "パルマ" # attested
+ #Province 'mallorca_province' (Mallorca) #
+ palma.latin_language: "パルマ" #attested
  ciudadela_de_menorca.latin_language: "キウィタス・ミノリカ"
- ibiza.latin_language: "エブスス" # attested
+ ibiza.latin_language: "エブスス" #attested
  manacor.latin_language: "マナコリス"
- pollensa.latin_language: "ポレンティア" # attested
+ pollensa.latin_language: "ポレンティア" #attested
  ## Area 'north_portugal_area' (North Portugal) ##
- # Province 'beira_alta_province' (Beira Alta) #
+ #Province 'beira_alta_province' (Beira Alta) #
  viseu.latin_language: "ヴィサイウム"
  besteiros.latin_language: "ベステイルム"
  guarda.latin_language: "グアルディア"
@@ -1342,30 +1342,30 @@
  pinhel.latin_language: "ピネルム"
  seia.latin_language: "セイア"
  trancoso.latin_language: "トランコスム"
- # Province 'beira_baixa_province' (Beira Baixa) #
+ #Province 'beira_baixa_province' (Beira Baixa) #
  castelo_branco.latin_language: "カステッルム・ブランクム"
  covilha.latin_language: "コヴィリアナ"
  idanha.latin_language: "イダーニャ"
  proenca_nova.latin_language: "プロヴィンティア・ノヴァ"
  sabugal.latin_language: "サブガルム"
- # Province 'beira_litoral_province' (Beira Litoral) #
- coimbra.latin_language: "アエミニウム" # attested
+ #Province 'beira_litoral_province' (Beira Litoral) #
+ coimbra.latin_language: "アエミニウム" #attested
  chao_de_couce.latin_language: "プラヌム・デ・コウケ"
  esgueira.latin_language: "エスゲイラ"
  feira.latin_language: "フェリア"
  figueira.latin_language: "フィゲイラ・アド・フォケム"
  leiria.latin_language: "レリア"
- # Province 'minho_province' (Minho) #
- porto.latin_language: "ポルトゥス・カレ" # attested
+ #Province 'minho_province' (Minho) #
+ porto.latin_language: "ポルトゥス・カレ" #attested
  barcelos.latin_language: "バルセラ"
- braga.latin_language: "ブルカラ・アウグスタ" # attested
+ braga.latin_language: "ブルカラ・アウグスタ" #attested
  guimaraes.latin_language: "ヴィマラネス"
  valenca.latin_language: "ヴァレンティア・ミノリス"
  viana_do_castelo.latin_language: "ビアナ・カステレンシス"
- # Province 'tras_os_montes' (Trás-os-Montes) #
- braganca.latin_language: "ブリガンティア" # attested
+ #Province 'tras_os_montes' (Trás-os-Montes) #
+ braganca.latin_language: "ブリガンティア" #attested
  aguiar.latin_language: "アクィラリア"
- chaves.latin_language: "アクアエ・フラヴィアエ" # attested
+ chaves.latin_language: "アクアエ・フラヴィアエ" #attested
  macedo.latin_language: "マケドゥム"
  miranda_de_i_douro.latin_language: "ミランダ・ドゥリ"
  mirandela.latin_language: "ミランデラ"
@@ -1373,13 +1373,13 @@
  montalegre.latin_language: "モンス・アレグリ"
  vila_real.latin_language: "ヴィラ・レガリス"
  ## Area 'south_portugal_area' (South Portugal) ##
- # Province 'algarve_province' (Algarve) #
- lagos.latin_language: "ラコブリガ" # attested
- faro.latin_language: "オッソノバ" # attested
+ #Province 'algarve_province' (Algarve) #
+ lagos.latin_language: "ラコブリガ" #attested
+ faro.latin_language: "オッソノバ" #attested
  silves.latin_language: "シルビス"
  tavira.latin_language: "タビラ"
- # Province 'alto_alentejo_province' (Alto Alentejo) #
- evora.latin_language: "エボラ・リベラリタス・イウリア" # attested
+ #Province 'alto_alentejo_province' (Alto Alentejo) #
+ evora.latin_language: "エボラ・リベラリタス・イウリア" #attested
  avis.latin_language: "アヴィシウム"
  crato.latin_language: "クラトゥス"
  elvas.latin_language: "ヘルヴァス"
@@ -1388,8 +1388,8 @@
  portalegre.latin_language: "ポルトゥス・アレグリ"
  portel.latin_language: "ポルテラ"
  vila_vicosa.latin_language: "ヴィラ・ヴィコサ"
- # Province 'baixo_alentejo_province' (Baixo Alentejo) #
- beja.latin_language: "パクス・イウリア" # attested
+ #Province 'baixo_alentejo_province' (Baixo Alentejo) #
+ beja.latin_language: "パクス・イウリア" #attested
  alvalade.latin_language: "アルヴァラタ"
  alvito.latin_language: "アルヴィトゥム"
  mertola.latin_language: "ミルティリス"
@@ -1398,21 +1398,21 @@
  ourique.latin_language: "ウリカ"
  serpa.latin_language: "セルパ"
  sines.latin_language: "シネス"
- # Province 'estremadura_province' (Estremadura) #
- lisbon.latin_language: "オリシポ" # attested
- alcacer_do_sal.latin_language: "サラキア" # attested
+ #Province 'estremadura_province' (Estremadura) #
+ lisbon.latin_language: "オリシポ" #attested
+ alcacer_do_sal.latin_language: "サラキア" #attested
  alcobaca.latin_language: "アルコバティア"
- setubal.latin_language: "カエトブリガ" # attested
+ setubal.latin_language: "カエトブリガ" #attested
  torres_vedras.latin_language: "トゥレス・ヴェテレス"
- # Province 'ribatejo_province' (Ribatejo) #
- santarem.latin_language: "スカラビス" # attested
+ #Province 'ribatejo_province' (Ribatejo) #
+ santarem.latin_language: "スカラビス" #attested
  mora_portugal.latin_language: "モーラ"
  ponte_sor.latin_language: "ポンス・ソリ"
  salvaterra.latin_language: "サルヴァ・テラ"
  tomar.latin_language: "トマール"
  torres_novas.latin_language: "トゥレス・ノヴァエ"
  ## Area 'toledo_area' (Toledo) ##
- # Province 'alarcon_province' (Alarcón) #
+ #Province 'alarcon_province' (Alarcón) #
  alarcon.latin_language: "アルアルコニウム"
  belmonte.latin_language: "ベルス・モンス"
  iniesta.latin_language: "イネスタ"
@@ -1420,21 +1420,21 @@
  moya.latin_language: "モイア"
  san_clemente.latin_language: "サンクトゥス・クレメンス"
  requena.latin_language: "レケナ"
- # Province 'east_mancha_province' (Eastern La Mancha) #
+ #Province 'east_mancha_province' (Eastern La Mancha) #
  alcaraz.latin_language: "アルカラズム"
  lezuza.latin_language: "レトゥリサ"
  alhambra_location.latin_language: "アルハンブラ"
  montiel.latin_language: "モンテルム"
  villapalacios.latin_language: "ヴィラ・パラティオラム"
  villarobledo.latin_language: "ヴィラ・ロブレテンシス"
- # Province 'guadalajara_province' (Guadalajara) #
+ #Province 'guadalajara_province' (Guadalajara) #
  guadalajara.latin_language: "グアダラハラ"
  brihuega.latin_language: "ブリゲギア"
  buitrago_de_lozoya.latin_language: "ブイトラゴ・デ・ロソヤ"
  cobeta.latin_language: "コベタ"
  siguenza.latin_language: "セゴンティア"
  zorita.latin_language: "ゾリータ"
- # Province 'cuenca_province' (Cuenca) #
+ #Province 'cuenca_province' (Cuenca) #
  cuenca.latin_language: "コンカ"
  beteta.latin_language: "ベテタ"
  canete.latin_language: "カネトゥム"
@@ -1442,20 +1442,20 @@
  molina_de_aragon.latin_language: "モリーナ・アラゴニアエ"
  pareja.latin_language: "パリアタ"
  torralba.latin_language: "トゥラルバ"
- # Province 'madrid_province' (Madrid) #
+ #Province 'madrid_province' (Madrid) #
  madrid.latin_language: "マトリトゥム"
  alcala_de_henares.latin_language: "コンプルトゥム"
  colmenar.latin_language: "コルメナリウム"
  el_escorial.latin_language: "スコリアレ"
  maqueda.latin_language: "マケダ"
- # Province 'ocana_province' (Ocaña) #
+ #Province 'ocana_province' (Ocaña) #
  ocana.latin_language: "オカニア"
  alcazar_de_san_juan.latin_language: "アルカザル・サンクティ・イオアニス"
  chinchon.latin_language: "キンキオ"
  consuegra.latin_language: "コンスエグラ"
  tomelloso.latin_language: "トメロスム"
  ucles.latin_language: "ウクレス"
- # Province 'toledo_province' (Toledo) #
+ #Province 'toledo_province' (Toledo) #
  toledo.latin_language: "トントゥム"
  guadalupe.latin_language: "グアダラピア"
  illescas.latin_language: "イレスカス"
@@ -1464,7 +1464,7 @@
  puebla_de_montalban.latin_language: "プエブラ・デ・モンタルバン"
  puente_arzobispo.latin_language: "ポンス・アルキエピスコピ"
  talavera_de_la_reina.latin_language: "タラブリガ・レギナエ"
- # Province 'west_mancha_province' (Western La Mancha) #
+ #Province 'west_mancha_province' (Western La Mancha) #
  ciudad_real.latin_language: "キウィタス・レギア"
  almaden.latin_language: "アルマデネ"
  almodovar_del_campo.latin_language: "アルモドヴァル・カンピ"
@@ -1473,8 +1473,8 @@
  manzanares.latin_language: "マンサナレス"
  puertollano.latin_language: "ポルトゥス・プラニ"
  ## Area 'andalusia_area' (Andalusia) ##
- # Province 'cadiz_province' (Cádiz) #
- cadiz.latin_language: "ガデス" # attested
+ #Province 'cadiz_province' (Cádiz) #
+ cadiz.latin_language: "ガデス" #attested
  algeciras.latin_language: "イウリア・トラドゥクタ"
  arcos_de_la_frontera.latin_language: "アルクス・フロンテラエ"
  gibraltar.latin_language: "モンス・カルペ"
@@ -1482,8 +1482,8 @@
  medina_sidonia.latin_language: "メディナ・シドニア"
  sanlucar.latin_language: "サンクトゥス・ルカルス・バリ"
  tarifa.latin_language: "タリファ"
- # Province 'cordoba_province' (Córdoba) #
- cordoba.latin_language: "コルドラ" # attested
+ #Province 'cordoba_province' (Córdoba) #
+ cordoba.latin_language: "コルドラ" #attested
  baena.latin_language: "バエナ"
  carpio.latin_language: "カルピウム"
  espiel.latin_language: "スペリウム"
@@ -1492,24 +1492,24 @@
  palma_del_rio.latin_language: "パルマ・アド・フルヴィウム"
  pedroche.latin_language: "ペトロキア"
  santa_eufemia.latin_language: "サンクタ・エウフェミア"
- # Province 'huelva_province' (Huelva) #
- huelva.latin_language: "オヌバ" # attested
+ #Province 'huelva_province' (Huelva) #
+ huelva.latin_language: "オヌバ" #attested
  almonaster_la_real.latin_language: "アルモナステール・レガリス"
  aracena.latin_language: "アラセナ"
  aroche.latin_language: "アローチェ"
  ayamonte.latin_language: "アヤ・モンス"
- niebla.latin_language: "イリプラ" # attested
+ niebla.latin_language: "イリプラ" #attested
  puebla_de_guzman.latin_language: "プエブラ・グスマニ"
- # Province 'jaen_province' (Jaén) #
- jaen.latin_language: "アウルギ" # attested
+ #Province 'jaen_province' (Jaén) #
+ jaen.latin_language: "アウルギ" #attested
  andujar.latin_language: "マンドゥラ"
  baeza.latin_language: "ビアティア"
  cazorla.latin_language: "カソルラ"
  jodar.latin_language: "イオダルス"
  martos.latin_language: "マルトス"
  ubeda.latin_language: "ヴェダ"
- # Province 'sevilla_province' (Sevilla) #
- sevilla.latin_language: "ヒスパリス" # attested
+ #Province 'sevilla_province' (Sevilla) #
+ sevilla.latin_language: "ヒスパリス" #attested
  carmona.latin_language: "カルモ"
  constantina.latin_language: "コンスタンティーナ"
  coria_del_rio.latin_language: "コリア・アド・フルヴィウム"
@@ -1519,7 +1519,7 @@
  osuna.latin_language: "ウルソ"
  sanlucar_la_mayor.latin_language: "サンクトゥス・ルカルス・マイヨール"
  ## Area 'granada_area' (Granada) ##
- # Province 'almeria_province' (Almería) #
+ #Province 'almeria_province' (Almería) #
  almeria.latin_language: "ウルキ"
  almanzora.latin_language: "アルマンゾラ"
  baza.latin_language: "バスティ"
@@ -1527,7 +1527,7 @@
  huescar.latin_language: "オスカリウム"
  mojacar.latin_language: "モハカル"
  velez_rubio.latin_language: "ヴェレス・ルベル"
- # Province 'granada_province' (Granada) #
+ #Province 'granada_province' (Granada) #
  granada.latin_language: "イリべリス"
  adra.latin_language: "アブデラ"
  almunecar.latin_language: "セクシ・フィルムム・イウリウム"
@@ -1536,25 +1536,25 @@
  loja.latin_language: "ロクサ"
  pinar.latin_language: "ピナリウム"
  orgiva.latin_language: "オルギバ"
- # Province 'malaga_province' (Málaga) #
- malaga.latin_language: "マラカ" # attested
+ #Province 'malaga_province' (Málaga) #
+ malaga.latin_language: "マラカ" #attested
  antequera.latin_language: "アルティカリア"
  marbella.latin_language: "マルベラ"
  ronda.latin_language: "アルンダ"
  velez_malaga.latin_language: "ヴェレス・マラキタヌス"
  ## Area 'murcia_area' (Murcia) ##
- # Province 'albacete_province' (Albacete) #
+ #Province 'albacete_province' (Albacete) #
  albacete.latin_language: "アルバケトゥム"
  chinchilla.latin_language: "サルティギ"
  jumilla.latin_language: "イウメラ"
  villena.latin_language: "ビリェーナ"
- # Province 'hellin_province' (Hellín) #
+ #Province 'hellin_province' (Hellín) #
  hellin.latin_language: "エリヌム"
  caravaca.latin_language: "カラバカ"
  cieza.latin_language: "シエサ"
  segura_de_la_sierra.latin_language: "セグラ・デ・セラ"
- # Province 'murcia_province' (Murcia) #
+ #Province 'murcia_province' (Murcia) #
  murcia.latin_language: "ムルティア"
- cartagena.latin_language: "カルタゴ・ノヴァ" # attested
+ cartagena.latin_language: "カルタゴ・ノヴァ" #attested
  lorca.latin_language: "エリオクロカ"
  mula.latin_language: "ムラ"

@@ -5,6 +5,7 @@
  casus_belli_forbids_location_conquest_tt: "この戦争では、いかなる[location|e]も直接征服することが禁じられている"
  casus_belli_forbids_normal_subjugation_tt: "この戦争では、通常の方法で敵国を[subjugate|e]させることが禁じられている"
  casus_belli_forbids_normal_subjugation_tributary_tt: "$casus_belli_forbids_normal_subjugation_tt$\n[ShowSubjectTypeName('tributary')]を樹立するには、[peace_treaty|e]「[ShowPeaceTreatyTypeName('force_tributary')]」を使用する必要がある"
+ has_enabled_hre_treasury_tt: "[GetUniqueInternationalOrganization('hre').GetName]が[ShowPolicyName('only_treasury_payment')]か[ShowPolicyName('complete_imperial_contribution')]を制定し、帝国国庫をアンロックした"
  #DYNAMIC TRIGGER LOC#
  INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW: "[law|e]「[TARGET_LAW.GetName]」はロックされているため、これ以上変更できない"
  NOT_INTERNATIONAL_ORGANIZATION_HAS_LOCKED_LAW: "[law|e]「[TARGET_LAW.GetName]」はロックされていないため、変更することができる"

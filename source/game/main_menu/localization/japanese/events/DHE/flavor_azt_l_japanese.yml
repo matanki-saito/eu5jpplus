@@ -100,8 +100,8 @@
  flavor_azt.240.title: "[moctezuma_scope.GetShortNameWithNoTooltip]の台頭"
  flavor_azt.240.entry: "モクテスマの台頭"
  flavor_azt.240.desc: "わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]は、有能な行政官や優れた指導者には事欠かない。しかし、わが一族出身の[moctezuma_scope.GetName]が意外にも、[ROOT.GetCountry.GetGovernment.GetCourtTitle]や宗教的な祝祭において優れた働きを見せている。教育係によれば、若き[moctezuma_scope.GetShortNameWithNoTooltip]はわが民族の豊かな文化と宗教的伝統に浸り、歴史や戦争、統治に関する包括的な教育を受けたという。\n\n最近では、わが国の複雑な暦や宗教儀礼について深い理解を示し、学者としても非常に優れた能力を備えている。さらに、[moctezuma_scope.GetShortNameWithNoTooltip]の力は知的探求だけにとどまらず、戦場においても幾度となくその実力を証明している。"
- flavor_azt.240.a: "[moctezuma_scope.GetHerHis|U]の治世は伝説となるだろう！"
- flavor_azt.240.b: "[moctezuma_scope.GetHerHis|U]の時代はやがて来る。"
+ flavor_azt.240.a: "モクテスマの治世は伝説となるだろう！"
+ flavor_azt.240.b: "モクテスマの時代はやがて来る。"
  flavor_azt.240.historical_info: "モクテスマの治世は1502年から1520年の約20年間続いた。彼の在位中に帝国はその最大の版図を獲得したが、その一方で衰退の始まりも示していた。モクテスマは権力の中央集権化をおこない、貢納の要求を拡大したことで、各地の領主や評議会との伝統的な関係が乱れ、国内に動揺をもたらした。1519年にエルナン・コルテス率いるスペインの征服者が到来した際、モクテスマは彼をケツァルコアトルの地上の化身であるとみなし、対処をためらった。モクテスマは最終的には人質として捕らえられ、アステカの権威は弱体化した。彼の治世はアステカの抵抗の崩壊と、スペインの征服の始まりとともに終わった。アステカの最後の皇帝として、モクテスマは帝国の終焉を予言しているとも言われる彗星や火災、奇妙な人影の現れる不吉な夢に悩まされていたという。"
- # has_variable custom tooltips
+ #has_variable custom tooltips
  variable_tt_not_aztec_coronation_variable: "アステカの戴冠式が行われていない"

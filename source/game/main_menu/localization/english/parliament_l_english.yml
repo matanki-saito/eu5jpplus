@@ -32,6 +32,7 @@
  PARLIAMENT_CURRENT_SUPPORT: "The current parliament support is: $SUPPORT$%"
 
  NO_POSSIBLE_AGENDAS: "@trigger_no! There are no possible [parliament_agendas|e] left."
+ PARLIAMENT_TYPE_ALREADY_SELECTED: "@trigger_no! This is already our current [parliament_type|e]."
 
  LAWS_THAT_CAN_BE_DEBATED: "Policies that can be Debated"
  IO_PARLIAMENT_NO_LAWS_CALL_DIET: "@trigger_no! No [laws|e] available for debate. Check the Imperial Constitution to see all the Laws."
@@ -60,7 +61,7 @@
 
  #Actions
  call_parliament: "Call Parliament"
- call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\n\nDuring this session we will get the following effects: [ShowModifier('parliament_in_session')], [ShowModifier('parliament_location')]; and either [ShowModifier('parliament_in_capital')] or [ShowModifier('parliament_outside_capital')] depending on selected [location|e]."
+ call_parliament_desc: "This will call in the Parliament in an attempt to get support to resolve a [parliament_issue|e], change [policies|e] in our [laws|e], creating a [casus_belli|e], raising higher [taxes|e] or larger [army_levies|e] and [navy_levies|e].\n\nDuring this session we will get the following effects\n[ShowModifier('parliament_in_session')],\n[ShowModifier('parliament_location')];\nand either [ShowModifier('parliament_in_capital')] or [ShowModifier('parliament_outside_capital')] depending on selected [location|e]."
  
  request_more_taxes: "Request Additional Taxes"
  request_more_taxes_desc: "Asking [Player.GetGovernment.GetParliament.GetName] to allow us to collect more [tax|e] from the [estates|e]."
@@ -72,6 +73,9 @@
  ask_for_law_changes_desc: "Asking the [estates|e] to approve us changing a specific [policy|e] in our [laws|e]."
  ask_for_law_changes_select_law_title: "Select a [law|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
  ask_for_law_changes_select_policies_title: "Select a [policy|e] that our [Player.GetGovernment.GetParliament.GetName] will agree to change."
+
+ declare_holidays_request: "Declare Holidays"
+ declare_holidays_request_desc: "Declaring an upcoming day to be a holiday for all our people will garner us popular support and also help us stabilize our affairs."
  
  
  prepare_for_war_select_title: "Select [country|e] to gain a [casus_belli|e] on"
@@ -1052,3 +1056,28 @@
  STATIC_MODIFIER_NAME_parl_parish_waypoints_mod: "Parish Waypoints"
  STATIC_MODIFIER_NAME_parl_coastal_posts_mod: "Coastal Trading Posts"
  STATIC_MODIFIER_NAME_parl_road_corvee_mod: "Road Upkeep Corvée"
+ STATIC_MODIFIER_NAME_parl_standing_regiments_mod: "Standing Regiments"
+ STATIC_MODIFIER_NAME_parl_wartime_conscription_mod: "Wartime Conscription"
+ STATIC_MODIFIER_NAME_parl_industrial_workshops_mod: "Industrial Workshops"
+ STATIC_MODIFIER_NAME_parl_wartime_officer_corps_mod: "Reinforced Officer Corps"
+
+ establish_standing_regiments: "Establish Standing Regiments"
+ establish_standing_regiments_desc: "The age of mustering retainers at need has passed. Our noble houses should instead furnish trained officers to lead regiments kept permanent in royal service, a fighting force that owes its discipline to the crown rather than to its lord."
+ mandate_wartime_conscription: "Mandate Wartime Conscription"
+ mandate_wartime_conscription_desc: "Our enemies field armies of conscripted men, and we must do the same. Drawing reserves and recruits through the parish rolls will swell our forces in this hour of need."
+ promote_industrial_workshops: "Promote Industrial Workshops"
+ promote_industrial_workshops_desc: "The craft brotherhoods that once sustained our towns can no longer match the output our age demands. We should invest in the new manufactories and mechanized workshops that produce far more, far faster, and let our trades meet the times."
+ wartime_officer_corps: "Reinforce the Officer Corps"
+ wartime_officer_corps_desc: "The shock of cavalry no longer wins the day. What carries a battle now is the skill of those who command, and parliament should give the army its pick of our finest, trained and posted before the campaign opens."
+
+ pa_accept_estate_culture: "Accept Estate Culture"
+ pa_accept_estate_culture_simple: "Bribe Estate"
+ pa_accept_estate_culture_desc: "The [estate|e] demands that the dominant [culture|e] of its people be granted official acceptance."
+ pa_convert_to_estate_religion: "Convert to Estate Religion"
+ pa_convert_to_estate_religion_simple: "Bribe Estate"
+ pa_convert_to_estate_religion_desc: "The [estate|e] demands that the country convert to the [religion|e] of its people."
+ pa_change_court_language_to_estate_language: "Change Court Language"
+ pa_change_court_language_to_estate_language_simple: "Bribe Estate"
+ pa_change_court_language_to_estate_language_desc: "The [estate|e] demands that the [court_language|e] be changed to one that better reflects its identity."
+ iw_militarize_country: "Militarize the Nation"
+ iw_militarize_country_desc: "Call upon [parliament|e] to support an emergency military buildup, granting [army_tradition|e] and hardening our most experienced [army|e]."

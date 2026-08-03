@@ -1,5 +1,5 @@
 ﻿l_japanese:
- # Artist Types
+ #Artist Types
  ARTIST_TYPE_NAME_: "（素人）"
  ARTIST_TYPE_DESC_: "プロの芸術家ではない。"
  ARTIST_TYPE_NAME_painter: "画家"
@@ -26,7 +26,7 @@
  ARTIST_TYPE_DESC_calligrapher: "書家は、文字を複雑に組み合わせて芸術を創造する。作品は通常、本や巻物に収められ、宮殿や寺院に保管される。この時代の有名な書家としては、ミールエマード・ハサニー、韓石峰、#italic 寛永の三筆#!がいる。"
  ARTIST_TYPE_NAME_storyteller: "語り部"
  ARTIST_TYPE_DESC_storyteller: "語り部は、口承によって先祖の物語や伝統を受け継ぎ、次世代へと伝える役目をもつ。各部族において重んじられる彼らは、重要な伝統を新しい世代に伝える役割を担っている。"
- # Work of Arts
+ #Work of Arts
  painting: "絵画"
  painting_name: "$ADJECTIVE|U$$FIRST_NOUN|U$"
  painting_name_0: "$FIRST_NOUN|U$または$SECOND_NOUN|U$"
@@ -156,7 +156,7 @@
  ART_CREATE_TYPE_NAME: "$TYPE$"
  ART_CREATION_DATE_TT: "$DATE$制作"
  ART_PRE_BC_TT: "紀元前$DATE$年制作"
- # Ancient Monuments
+ #Ancient Monuments
  great_mosque_of_samarra: "$ORIGIN$の大モスク"
  great_mosque_of_samarra_desc: "アッバース朝のカリフ、アル＝ムタワッキルの治世下、9世紀に焼成煉瓦で建造されたサマッラーの大モスクは、かつて世界最大級のモスクとしてその威容を誇ったが、のちにモンゴル軍に破壊された。その最大の特徴は、ティグリス川流域の平原にそびえる高さ52メートルの螺旋状のミナレット、「マルウィヤ塔」である。"
  stonehenge: "ストーンヘンジ"
@@ -173,7 +173,7 @@
  leshan_giant_buddha_desc: "中国・四川省の崖に刻まれた楽山大仏は、唐代の8世紀に造られた。その高さは71メートルを誇り、石造の仏像としては世界最大である。この大仏の建立は、眼下の荒れ狂う河川を鎮めようと願った僧、海通によって発願された。"
  teotihuacan_temple: "$ORIGIN$の神殿複合体"
  teotihuacan_temple_desc: "アメリカ大陸に現存する先コロンブス期最大級のピラミッドのひとつが、西暦200年ごろに建てられたテオティワカンの太陽の神殿である。メキシコシティ近郊に位置する古代都市の中心に築かれたこの神殿は、天体現象と調和するよう設計され、メソアメリカにおける儀礼生活の中心的役割を果たしていた。神殿は火山石で築かれるとともに漆喰で覆われており、テオティワカンの政治的・宗教的な覇権を誇示する目的で使用され、その威容は後世の文明にも影響を与えた。たとえば、アステカ人はこの地を聖域として崇めたという。"
- # Unique art keys
+ #Unique art keys
  de_jure_belli_ac_pacis: "戦争と平和の法"
  book_of_kells: "ケルズの書"
  bayeux_tapestry_key: "$bayeux$タペストリー"
@@ -951,7 +951,7 @@
  dynastic_history_of_the_dynasty_desc: "この年代記の各ページは黄金に彩られ、わが王朝の権力の興隆を物語っている。我々は豊かさと富によって歴史を精緻に描き出し、王朝と我々が固く握る権力とを強く結びつけてきた。この芸術作品は、我々の主張が正当であり、その地位を奪おうとするいかなる僭称者によっても反駁できないことを証明している。"
  hong_lu_meng: "紅楼夢"
  hong_lu_meng_desc: "天壁の翡翠から人間に姿を変えた賈宝玉が、人間としての生を体験しようとする物語を描いた小説。賈一族という架空の家系を詳細に描き、その大半が家族間の争い、政治、あるいは死によって徐々に姿を消していく様子を記述している。"
- # Japan
+ #Japan
  hana_no_gosho_palace: "花の御所"
  hana_no_gosho_palace_desc: "$hana_no_gosho_palace$は、$ASK_ADJ$の威信と華麗さの象徴として建てられた、[ShowLocationName('kyoto')]にある豪華な御所・邸宅のひとつである。"
  kinkaku_ji: "金閣寺"
@@ -1036,3 +1036,13 @@
  carta_monastery_desc: "13世紀、トランシルヴァニア南部カルパティア山脈にシトー会修道院として創建されたこの修道院は、ハンガリー王室の後援のもと設立され、シトー会の厳格な理想に従う修道士たちが定住した。その教会堂はロマネスク様式からゴシック様式への過渡期の様式で建てられ、高いファサード、尖頭アーチ、リブ・ヴォールト（天井の骨組み）を特徴とし、この地域におけるフランス・ゴシック美術の導入と発展に貢献した。修道院建築群は回廊を中心に配置され、質素さ、肉体労働、瞑想を重んじるシトー会の精神を反映している。"
  gospels_of_tsar_ivan_alexander: "イヴァン・アレクサンダー帝の福音書"
  gospels_of_tsar_ivan_alexander_desc: "『イヴァン・アレクサンダー帝の福音書』は、ブルガリア第二の黄金時代における文化的意欲と宗教的敬虔とを体現する、豪華な彩飾を施した写本である。"
+ leaning_tower_of_pisa: "ピサの斜塔"
+ leaning_tower_of_pisa_desc: "$leaning_tower_of_pisa$は不安定な基礎の上に建設され、その名の由来となった有名な傾きを生み出した。その傾いたシルエットは象徴的なものとなり、いまでは[ShowLocationName('pisa')]を代表する名所となっている。"
+ boccaccio_on_the_fates_of_famous_men: "名士列伝"
+ boccaccio_on_the_fates_of_famous_men_desc: "[GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip]によって執筆されたこの著作は、聖書の登場人物から[GetCharacter('nap_giovanni_boccaccio').GetHisHer]と同じ時代の人々に至るまで、重要な男性たちのさまざまな人生を扱っている。"
+ boccaccio_the_decameron: "デカメロン"
+ boccaccio_the_decameron_desc: "『$boccaccio_the_decameron$』は、[ShowSituationNameWithNoTooltip('black_death')]から逃れ、束の間の休息を求めて田舎へと避難した10名の人物の興味深い物語を綴っている。"
+ boccaccio_concerning_famous_women: "名婦列伝"
+ boccaccio_concerning_famous_women_desc: "[GetCharacter('nap_giovanni_boccaccio').GetNameWithNoTooltip]によって執筆された『$boccaccio_concerning_famous_women$』は、歴史上の著名な女性たちに関連するさまざまな物語を収録しており、主に古典時代の人物を扱っている。"
+ ARTIST_TYPE_NAME_doctor: "医師"
+ ARTIST_TYPE_DESC_doctor: "人間の身体の性質や病気の原因を研究した内科医、外科医、そして学識ある治療師たち。この時代の著名な医師には、イブン・スィーナー、パラケルスス、アンドレアス・ヴェサリウスなどが含まれる。"

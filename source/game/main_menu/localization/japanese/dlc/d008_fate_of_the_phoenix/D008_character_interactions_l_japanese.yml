@@ -30,3 +30,5 @@
  blind_character_desc_specific: "[character|e]の目潰しを命じ、[ShowTraitName('blind')]という状態を付与する。"
  blind_character_past: "[SCOPE.sCharacter('recipient').GetName]は皇帝の命令により目を潰された"
  blind_character_act_past: "[SCOPE.sCharacter('recipient').GetName]は皇帝の命令により目を潰された"
+ blind_pretender_removed_tt: "盲目となった以上[SCOPE.sCharacter('recipient').GetName]は王位を継ぐことができないため、自らの請求権を放棄する"
+ blind_new_pretender_emerges_tt: "陰謀をたくらむ者たちが、新たな王位主張者として[SCOPE.sCharacter('new_pretender_scope').GetName]を担ぎ上げる"

@@ -1,9 +1,9 @@
 ﻿l_japanese:
- ASSIGN_LAW_POLICY_TITLE: "$STRING$法のポリシーを割り当てる"
- # Custom Tags
+ ASSIGN_LAW_POLICY_TITLE: "「$STRING$」のポリシーを割り当てる"
+ #Custom Tags
  forbids_no_policy: "いずれかのポリシーを有している必要がある"
  no_ai_propose_cd: "クールダウンのペナルティなしで提案可能"
- # Monarchy Laws
+ #Monarchy Laws
  feudal_de_jure_law: "封建的慣習法"
  feudal_de_jure_law_desc: "わが国の封建社会をまとめる法律。"
  by_tradition: "伝統的"
@@ -46,6 +46,7 @@
  harem_policy_desc: "わが国の宮廷での暮らしは閉鎖的で、かつ男女別に分けられている。その中心となるのがハーレムであり、そこでは奴隷の召使いや妾が、統治者への影響力をめぐり争っている。"
  harem_law: "ハーレム法"
  harem_law_desc: "ハーレムは王室の重要な制度であり、王位後継者の輩出を確保するためのものである。"
+ unlocks_harem_law_tt: "[law|e]「[ShowLawName('harem_law')]」をアンロックする"
  secluded_harem_policy: "隔離されたハーレム"
  secluded_harem_policy_desc: "わが国のハーレムは、宮廷外の一般大衆の目に晒されるべきものではない。そのため、ハーレムは王室のなかでも特に隔離され、君主のおこなう営みに直接干渉することは固く禁じられている。"
  public_harem_policy: "公衆ハーレム"
@@ -56,7 +57,7 @@
  dispersed_harem_policy_desc: "ハーレムは複数の場所に分散しており、王宮が移動すると側室も同じように移動する。側室は男子を出産するとわが子とともに地方に送られ、子を将来の統治者とするべく教育を監督し養成する。"
  luxurious_harem_policy: "絢爛なハーレム"
  luxurious_harem_policy_desc: "わが国のハーレムは富を誇示するきらびやかな場であり、何よりも君主の享楽を重視する。側室は選りすぐりの高貴な血統の者に限られ、その生活は極限まで贅を尽くしたものとなる。"
- # Republic Laws
+ #Republic Laws
  republican_foundation_law: "共和国の基礎"
  republican_foundation_law_desc: "わが共和国は、絶対的な統治者を置かずに国民に権力を与える、という理念に基づいて建国されている。しかし、いかなる政体であれ秩序を維持するには、その法と決定が尊重され、遵守されなければならない。そのためには、統治のための複雑な行政機構を整備する必要がある。"
  republicanism_policy: "共和主義"
@@ -115,7 +116,7 @@
  board_of_admirals_policy_desc: "海軍本部委員会は、国家の最高海事機関だ。海軍司令長官が率いるこの提督府は、我らの海軍の軍事および商業の専門性を確保する。"
  military_rulership_policy: "軍事的統治"
  military_rulership_policy_desc: "共和国は、我らを滅ぼそうとする多くの潜在的な敵にとって厄介なものとなる。国家の安全のため、我々は将軍たちに政府の権限を与えた。彼らの経験と祖国への愛が共和国を守ってくれることを願う。"
- # Theocratic Laws
+ #Theocratic Laws
  theocratic_leadership: "神権政治の指導者"
  theocratic_leadership_desc: "この国家は神権政治体制のもとで統治されており、宗教的権威が政治権力を掌握し、宗教法はしばしば世俗法に優先して適用される。"
  clerical_state: "聖職者による国家"
@@ -166,7 +167,7 @@
  expulsion_of_heathens_policy_desc: "国家が成長するにつれ、誤った教えに触れる機会も増える。異教徒や異端者が国内に存在することを許してはならず、そのような者たちは、真の信仰に改宗した場合にのみ都市に住むことが許されるようにすべきだ。"
  pursuit_of_knowledge_policy: "知識の追求"
  pursuit_of_knowledge_policy_desc: "我々の大義は、宗教の保護でも信仰の強制的な拡大でもない。その代わりに、存在の本質、つまり人間と神の領域との関わりを探究することに焦点を当てている。"
- # Religion Specific Laws
+ #Religion Specific Laws
  iqta_law: "イクター"
  iqta_law_desc: "$iqta_law$は[ShowReligionGroupAdjective('muslim')]の租税慣行であり、「ザカート」の一環として[ShowEstateTypeName('peasants_estate')]から土地収入を徴収する。ザカートとは、[ShowReligionGroupAdjectiveWithNoTooltip('muslim')]国家が基本収入として広く徴収する、施し用の資金のこと。"
  efficient_tax_farming: "税徴収"
@@ -276,6 +277,7 @@
  heir_religion_law: "後継者の宗教"
  heir_religion_law_desc: "[heir|e]が保持する宗教を決定する権限は、継承と統治の問題において非常に重要な意味をもつ。これにより、統治者と政府は宗教的安定を維持し、統治者の信念と活動を大多数の国民と一致させることができる。最終的に、後継者の宗教を決定する権限は、宗教の自由、統治、および社会の調和の微妙なバランスを保つための重要な要素となる。"
  act_of_settlement_tt: "[dynamic_historical_event|e]によりアンロック済み"
+ recently_negotiated_succession_law_locked_tt: "我々の[union_partner|e]が近年、この法律の変更を強制した"
  heir_special_succession: "宗教継承法"
  heir_special_succession_desc: "[heir|e]の宗教は法律によってではなく、[heir_selection|e]そのものによって決まる。"
  heir_same_religion: "同一の宗教"
@@ -312,7 +314,7 @@
  barter_exchange_desc: "家畜、生地、貝殻、カカオなど、さまざまな交易品や資源が、交易における共通の交換手段として用いられる。"
  stavraton_coin_policy: "スタウラトン硬貨"
  stavraton_coin_policy_desc: "純銀と少量の銅を混合して製造されるスタウラトンは、経済の活性化と為替相場の近代化を図るため、廃止されたヒュペルピュロン金貨に代わる通貨として導入された。"
- # Estates specific
+ #Estates specific
  nobles_rights_laws: "$nobles_estate$の権利"
  nobles_rights_laws_desc: "[ShowEstateTypeName('nobles_estate')]の地位は特権だけでなく、わが国の法律によっても強化されている。"
  strengthen_nobles_rights_policy: "$nobles_estate$の権利強化"
@@ -376,7 +378,7 @@
  secretnoye_byuro_policy: "秘密局"
  secretnoye_byuro_policy_desc: "$secretnoye_byuro_policy$は、政治犯罪で有罪判決を受けた[ShowPopTypeName('nobles')]を処罰することを目的としているが、ときに政治的性質をもたない事件も引き受ける。有罪判決を受けた者に科される処罰は、統治に対する批判を抑止するために極めて苛烈なものになることが多い。"
  secretnoye_byuro_policy_tt: "[event|e]「#Y $flavor_rus.66.title$#!」の発生中にこの官職の設置を選択した"
- # Estates specific
+ #Estates specific
  recruitment_law: "徴兵制度"
  recruitment_law_desc: "戦場に兵士がいなければ勝つことはできないため、兵士の徴兵は絶対的に不可欠な活動である。時が経つにつれて兵士を集める方法は変化し、軍も自然とそれに適応していくだろう。"
  expanded_levies_policy: "召集軍の拡大"
@@ -477,7 +479,7 @@
  dynastic_administration_policy_desc: "どの階級の人間も、国家に奉仕するよりも自らの影響力拡大を優先するため、[ShowEstateTypeName('crown_estate')]にとって信頼できる存在ではない。国家行政の運営は、君主の親族だけに委ねられるべきである。"
  yorkist_tradition_policy: "ヨーク家の伝統"
  yorkist_tradition_policy_desc: "身分が低くとも教養ある男性は[ShowEstateTypeName('clergy_estate')]と同等に貢献でき、その実務経験により、どのような政府役職に就いても優れた人材となる。ヨーク家の伝統によれば、素晴らしい経歴をもつ教養のある男性は誰でも、神に奉仕する者たちとともに統治階級に加わることができる。"
- # Tribal ones
+ #Tribal ones
  tribal_legal_basis_law: "法的根拠"
  tribal_legal_basis_law_desc: "法的根拠は、国家初の正式な法典の礎となる。その目標は単純でありながら崇高で、誰もが平和と繁栄のなかで暮らせる公正な社会を確保することである。"
  codified_power_policy: "成文化された権力"
@@ -532,7 +534,7 @@
  modernize_into_republic_policy_desc: "$rule_by_the_public_policy_desc$"
  modernize_into_theocracy_policy: "$theocracy$に近代化する"
  modernize_into_theocracy_policy_desc: "$state_of_faith_policy_desc$"
- # Generic ones
+ #Generic ones
  legal_code_law: "法典"
  legal_code_law_desc: "社会というかたちで集まるようになって以来、人々は自分たちの行動や交流を規制する法律を作り上げてきた。法典は社会の価値観や信念を反映し、商売のやり方から互いとの接し方まで、あらゆるものを形作る。社会をまとめる基盤であり、秩序と正義の枠組みとなるのだ。人々は互いに異なる点を抱えながらも、おおむね共通の目標をもっている——それは誰もが平和と繁栄のなかで暮らせる、公正で公平な社会を作ることだ。"
  traditional_law_policy: "伝統的な法律"
@@ -596,6 +598,8 @@
  chi_ming_dynasty_code_policy_desc: "$chi_ming_dynasty_code_policy$は、わが王朝ならびに先人たちが直面してきた諸問題に対処すべく制定される。本法典は腐敗や官僚による権力の濫用を確実に防ぐものとなるだろう！"
  scottish_civil_law: "スコットランド民法"
  scottish_civil_law_desc: "最高法院は、わが国の民法を新たな基準に向けて改革した。この機関はわが国の高学歴の裁判官で構成されており、「スコットランド法」に関するあらゆる重要な問題について判決を下す。"
+ carta_de_logu_policy: "カルタ・デ・ログ"
+ carta_de_logu_policy_desc: "アルボレア王国から生まれたこの法典は、ロマンス系の俗語（サルデーニャ語）で書かれたヨーロッパ初の包括的な法典のひとつである。これにより、平民の権利を保護し、牧畜地の利用を規制する「法の支配」の文化が確立された。この高度な法制度のおかげで、サルデーニャの人々は強固な社会秩序を維持することができ、市民権と、ログ（土地）の共同所有に対する深い敬意によって定義される文化的アイデンティティが育まれた。"
  naval_doctrine_law: "海軍ドクトリン"
  naval_doctrine_law_desc: "海軍ドクトリンは、自国の[navy|e]が専門的に扱えるスキルセットを指す。これに取り組む時間が長くなるほど、ドクトリンは海軍に定着し、より優れたスキルを習得できる。時間が経つにつれて、自国の艦隊に強力なボーナスが付与されるようになる。"
  economical_policies_law: "経済政策"
@@ -650,7 +654,7 @@
  maritime_society_desc: "わが国の海事の伝統は、社会の基盤そのものを成している。海を制し、異国の港へと乗り出す高揚を分かち合いながら、わが国民は海軍活動の名手としての名声を築いてきた。"
  plc_sarmatism: "サルマティズム"
  plc_sarmatism_desc: "我々の社会の起源は古代サルマティア人にある。しかし、$plc_sarmatism$は単なる起源論ではなく、[ShowSocietyDirectionName('aristocracy')]と[ShowEstatePrivilegeName('golden_liberty')]の理想を促進する文化的・政治的現象である。"
- # Marriage laws
+ #Marriage laws
  marriage_law: "婚姻法"
  not_catholic_theocracies: "[ShowReligionAdjective('catholic')]の[ShowGovernmentTypeName('theocracy')]はこの[policy|e]を採用できない。"
  marriage_law_desc: "婚姻法とは、特定の管轄区域内での婚姻制度を規定する法的枠組みを指す。"
@@ -683,10 +687,11 @@
  pte_not_blocked_from_conversion: "@blocked_from_conversion_negative! $MODIFIER_TYPE_NAME_blocked_from_conversion$：#R いいえ#!"
  pte_no_disallow_migration_beyond_borders: "@disallow_migration_beyond_borders_negative! $MODIFIER_TYPE_NAME_disallow_migration_beyond_borders$：#R いいえ#!"
  pte_no_allow_self_vote: "@allow_self_vote_negative! $MODIFIER_TYPE_NAME_allow_self_vote$：#R いいえ#!"
- pte_no_clergy_estate_cannot_marry: "@clergy_estate_cannot_marry_negative! $MODIFIER_TYPE_NAME_clergy_estate_cannot_marry$：#R いいえ#!"
+ pte_no_clergy_estate_cannot_marry: "@clergy_estate_cannot_marry_negative! $MODIFIER_TYPE_NAME_clergy_estate_cannot_marry$：#G いいえ#!"
  pte_clergy_estate_cannot_marry: "@clergy_estate_cannot_marry_negative! $MODIFIER_TYPE_NAME_clergy_estate_cannot_marry$：#R はい#!"
  pte_no_imperial_armory: "新しい[ShowBuildingTypeName('hre_imperial_armory_foreign')]の建設：#R 不可#!"
  pte_yes_imperial_armory: "新しい[ShowBuildingTypeName('hre_imperial_armory_foreign')]の建設：#G 可#!"
+ pte_no_imperial_circles: "帝国クライスを形成：#R いいえ#!"
  fleet_in_being: "現存艦隊主義"
  fleet_in_being_desc: "わが海軍の影響力は、よほど条件が悪くないかぎり、艦隊を出港させるまでもなく感じ取れるはずだ。"
  free_oarsmen: "漕手の解放"
@@ -950,7 +955,7 @@
  cordial_relations_desc: "地域の問題に関して、現地の部族が我々よりも上の立場にあることを明確に認めるつもりはない。しかし、彼らとのあいだの健全で敬意ある関係を維持することは、すべての者にとって利益となる。"
  refuse_recognition: "承認しない"
  refuse_recognition_desc: "わが領土への居住を許されてきた諸部族は、長いあいだ我々の権威を揺るがそうとしてきた。我々の支配を揺るぎないものにするには、実力行使でこの反抗的な部族を屈服させなくてはならない。"
- # HRE Laws
+ #HRE Laws
  prince_very_friendly_policy_opinion_impact_all_members: "[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーの、[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]からの[opinion|e]が[ShowBiasValue('opinion_hre_passed_prince_very_friendly_law')|+=0]上昇する\n"
  prince_friendly_policy_opinion_impact_all_members: "[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーの、[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]からの[opinion|e]が[ShowBiasValue('opinion_hre_passed_prince_friendly_law')|+=0]上昇する\n"
  mild_prince_friendly_policy_opinion_impact_all_members: "[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーの、[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]からの[opinion|e]が[ShowBiasValue('opinion_hre_passed_mild_prince_friendly_law')|+=0]上昇する\n"
@@ -1024,7 +1029,7 @@
  imperial_standing_army: "帝国常備軍"
  imperial_standing_army_desc: "[ShowBuildingTypeName('hre_imperial_armory_foreign')]の利用可能な資源がさらに拡充され、[GetUniqueInternationalOrganization('hre').GetLeaderTitle]が帝国の[manpower|e]を使って本格的な常備軍を編成できるようになる。"
  great_imperial_army: "大帝国軍"
- great_imperial_army_desc: "[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーは、[GetUniqueInternationalOrganization('hre').GetLeaderTitle]に追加の兵力を提供する義務を負う。"
+ great_imperial_army_desc: "[ShowBuildingTypeName('hre_imperial_armory_foreign')]の最終的な立法段階。これが制定されると、[GetUniqueInternationalOrganization('hre').GetLeaderTitle]が直接指揮下にある軍隊の潜在能力は、かつてない高みに達する。"
  great_imperial_army_tt: "[GetUniqueInternationalOrganization('hre').GetName]のすべてのメンバーは[GetUniqueInternationalOrganization('hre').GetLeaderTitle]に[manpower|e]を提供しなければならない"
  perpetual_diet_policy_tt: "#Y 常設帝国議会#!の本拠地である[location|e]に以下の補正が適用される："
  imperial_voting_law: "皇帝の選挙"
@@ -1069,6 +1074,9 @@
  princely_bishopric_electorate_policy_desc: "[GetUniqueInternationalOrganization('hre').GetName]の選帝侯領は、引き続き[ShowSpecialStatusNamePlural('elector')]と[ShowSpecialStatusNamePlural('archbishop_elector')]のあいだで分割される。"
  secularized_electors_policy: "選帝侯の世俗化"
  secularized_electors_policy_desc: "かつての[ShowSpecialStatusNamePlural('archbishop_elector')]の地位は、完全に世俗化された。"
+ #Electorate Organization - elector-count preview shown when hovering each policy.
+ #The sentence lives once in ELECTORATE_ORG_COUNT_PREVIEW; C++ (GetElectorateOrgCountPreviewForPolicy) fills the counts, resolves the Traditional/Secularized branch, and applies the engine clamp. Each policy just passes its own key.
+ ELECTORATE_ORG_COUNT_PREVIEW: "この改革後、$PRINCE_NAME$の最大数は#Y $PRINCE_MAX$#!名（現在#Y $PRINCE_NOW$#!名）、$ARCH_NAME$の最大数は#Y $ARCH_MAX$#!名（現在#Y $ARCH_NOW$#!名）となる。"
  electorate_religion_law: "選帝侯の宗教に関する法律"
  electorate_religion_law_desc: "宗教は皇帝にとっても[ShowSpecialStatusNamePlural('elector')]にとっても[GetUniqueInternationalOrganization('hre').GetName]の主要な柱である。"
  only_imperial_religion_policy: "帝国の宗教のみ"
@@ -1307,7 +1315,7 @@
  por_estudo_in_coimbra_desc: "国立[ShowBuildingTypeName('university')]を学問の街として名高い[ShowLocationName('coimbra')]に設置することで、大学の独立性を維持し、我々の教育上の目標について諸階級の理解を得ることができる。"
  por_estudo_in_lisbon: "[ShowLocationNameWithNoTooltip('lisbon')]の$por_estudo_geral_law$"
  por_estudo_in_lisbon_desc: "$por_estudo_geral_law$を宮廷の近くに設置すれば、権力を我々に集中させ、[ShowBuildingTypeName('university')]の運営をより厳しく管理することができる。"
- # Teutonic Order
+ #Teutonic Order
  teu_amber_monopoly_law: "[ShowGoodsNameWithNoTooltip('amber')]の独占"
  teu_amber_monopoly_law_desc: "[ShowGoodsName('amber')]はわが国で最も貴重な資源のひとつである。その取引は極めて重要であり、慎重な管理が求められる。"
  state_controlled_amber_gathering: "国家による琥珀採取"
@@ -1361,19 +1369,33 @@
  order_of_chivalry_law_desc: "宗教と宮廷の伝統が融合したこの法律は、[ShowReligionGroupAdjective('christian')]の理想と慈善活動に身を捧げた騎士の伝統を体現している。もとは聖地を訪れる巡礼者を保護し、清貧、服従、貞潔の誓いを守るために設立されたこれらの騎士団は、時とともに変化し、著名な個人を称える名誉ある象徴となった。"
  has_not_assumed_chivalric_order_in_last_25_years_tt: "我々は過去#Y 25#!年間、「#Y $order_of_chivalry_law$#!」法を制定していない"
  order_of_saint_george_policy: "聖ゲオルク騎士団"
- order_of_saint_george_policy_desc: "「聖ゲオルクの騎士道会」として知られるこの政府改革は、騎士道と名誉の理想への取り組みを体現し、騎士の競技会や祝祭を通じてこれらの価値観を推進している。"
+ order_of_saint_george_policy_desc: "$order_of_saint_george_desc$"
  order_of_the_ermine_policy: "アーミン騎士団"
- order_of_the_ermine_policy_desc: "アーミン騎士団は、[GetCountry('ENG').GetAdjective]のガーター騎士団からインスピレーションを得ている。アーミンをシンボルとして揺るぎない個人の名誉を表すこの騎士団は、社会的地位に関係なく、[ShowAreaName('brittany_area')]公国に並外れた貢献をした男女を評価する。"
+ order_of_the_ermine_policy_desc: "$order_of_the_ermine_desc$"
  order_of_the_dragon_policy: "ドラゴン騎士団"
- order_of_the_dragon_policy_desc: "「ソシエタス・ドラコニカ」としても知られるこの騎士団は、[GetCountry('HUN').GetAdjective]王室、[ShowReligionAdjective('catholic')]教会、[ShowReligionGroupName('christian')]信徒を[GetCountry('TUR').GetLongName]や異端者、異教徒の脅威から守ることに専念していた。聖ゲオルク騎士団をモデルに、当時の十字軍精神に触発されたこの組織は、ウロボロスと赤十字のシンボルのもとに[ShowEstateTypeName('nobles_estate')]と[ShowEstateTypeName('crown_estate')]を団結させ、国内外の脅威に対する集団防衛を促進し、$nobles_estate$に忠誠心に対する見返りとして王室の保護と名誉を与えた。"
+ order_of_the_dragon_policy_desc: "$order_of_the_dragon_desc$"
  order_of_the_band_policy: "バンダ騎士団"
- order_of_the_band_policy_desc: "バンダ騎士団は、[GetCountry('CAS').GetName]の統治者に忠誠と服従を誓う非常に優秀な騎士で構成されている。騎士団の構成員は、宮廷にふさわしい礼節と非の打ちどころのない振る舞いが期待され、馬上槍試合への定期的な参加と、何よりも君主を忠実に支えることが義務づけられている。"
+ order_of_the_band_policy_desc: "$order_of_the_band_desc$"
  order_of_the_swan_policy: "白鳥騎士団"
- order_of_the_swan_policy_desc: "白鳥騎士団は、信仰心を広め、聖母マリアの崇拝を広めることを目的とした宗教的な騎士団である。団員には王家の王子や[ShowEstateTypeName('nobles_estate')]が名を連ね、堅忍によって団結している。"
+ order_of_the_swan_policy_desc: "$order_of_the_swan_desc$"
  order_of_the_black_eagle_policy: "黒鷲勲章騎士団"
- order_of_the_black_eagle_policy_desc: "黒鷲勲章騎士団は、精神的な騎士団というよりも軍事的な騎士団である。団員には、優れた功績を上げた名高い将軍たちのほか、王族、他国から来訪した王族などが含まれる。"
+ order_of_the_black_eagle_policy_desc: "$order_of_the_black_eagle_desc$"
  order_of_the_white_eagle_policy: "白鷲勲章"
- order_of_the_white_eagle_policy_desc: "$order_of_the_white_eagle_policy$は、国家に貢献した忠実な支持者や、特に優秀な市民に授与される。また、わが国を訪問した高位の来賓にも授けられる。"
+ order_of_the_white_eagle_policy_desc: "$order_of_the_white_eagle_desc$"
+ order_of_saint_george: "聖ゲオルク騎士団"
+ order_of_saint_george_desc: "「聖ゲオルクの騎士道会」として知られるこの騎士団は、騎士道と名誉の理想への取り組みを体現し、騎士の競技会や祝祭を通じてこれらの価値観を推進している。"
+ order_of_the_ermine: "アーミン騎士団"
+ order_of_the_ermine_desc: "アーミン騎士団は、[GetCountry('ENG').GetAdjective]のガーター騎士団からインスピレーションを得ている。アーミンをシンボルとして揺るぎない個人の名誉を表すこの騎士団は、社会的地位に関係なく、[ShowAreaName('brittany_area')]公国に並外れた貢献をした男女を評価する。"
+ order_of_the_dragon: "ドラゴン騎士団"
+ order_of_the_dragon_desc: "「ソシエタス・ドラコニカ」としても知られるこの騎士団は、[GetCountry('HUN').GetAdjective]王室、[ShowReligionAdjective('catholic')]教会、[ShowReligionGroupName('christian')]信徒を[GetCountry('TUR').GetLongName]や異端者、異教徒の脅威から守ることに専念していた。聖ゲオルク騎士団をモデルに、当時の十字軍精神に触発されたこの組織は、ウロボロスと赤十字のシンボルのもとに[ShowEstateTypeName('nobles_estate')]と[ShowEstateTypeName('crown_estate')]を団結させ、国内外の脅威に対する集団防衛を促進し、$nobles_estate$に忠誠心に対する見返りとして王室の保護と名誉を与えた。"
+ order_of_the_band: "バンダ騎士団"
+ order_of_the_band_desc: "バンダ騎士団は、[GetCountry('CAS').GetName]の統治者に忠誠と服従を誓う非常に優秀な騎士で構成されている。騎士団の構成員は、宮廷にふさわしい礼節と非の打ちどころのない振る舞いが期待され、馬上槍試合への定期的な参加と、何よりも君主を忠実に支えることが義務づけられている。"
+ order_of_the_swan: "白鳥騎士団"
+ order_of_the_swan_desc: "白鳥騎士団は、信仰心を広め、聖母マリアの崇拝を広めることを目的とした宗教的な騎士団である。団員には王家の王子や[ShowEstateTypeName('nobles_estate')]が名を連ね、堅忍によって団結している。"
+ order_of_the_black_eagle: "黒鷲勲章騎士団"
+ order_of_the_black_eagle_desc: "黒鷲勲章騎士団は、精神的な騎士団というよりも軍事的な騎士団である。団員には、優れた功績を上げた名高い将軍たちのほか、王族、他国から来訪した王族などが含まれる。"
+ order_of_the_white_eagle: "白鷲勲章"
+ order_of_the_white_eagle_desc: "$order_of_the_white_eagle_policy$は、国家に貢献した忠実な支持者や、特に優秀な市民に授与される。また、わが国を訪問した高位の来賓にも授けられる。"
  society_with_the_donkey: "$noble_society_baden_palatine$"
  society_with_the_donkey_desc: "$noble_society_baden_palatine_desc$"
  society_lion_nassau: "$noble_society_nassau$"
@@ -1393,8 +1415,10 @@
  chi_grand_chancellorship_desc: "六部は、左丞相と右丞相によって代表される宰相の監督下に置かれるものとする。左丞相と右丞相のうち、上位に位置するのは左丞相である。"
  chi_grand_secretariat: "中書省"
  chi_grand_secretariat_desc: "六部は文書を$chi_grand_secretariat$に提出し、同省がそれを精査・整理して君主に奏上する。"
+ six_boards_grand_secretariat_oversight_tt: "[bureaucracy|e]「[ShowBureaucracyTypeName('six_boards_bureaucracy')]」のプラスのエフェクトが#G 20%#!向上する"
  chi_direct_report: "直属"
  chi_direct_report_desc: "六部は君主のもとに直接出頭する。これにより君主の権威が強化されるが、統治の効率が低下する可能性がある。"
+ six_boards_direct_report_oversight_tt: "[bureaucracy|e]「[ShowBureaucracyTypeName('six_boards_bureaucracy')]」のプラスのエフェクトが#G 10%#!向上する"
  #Ashta Pradham Council
  ashta_pradhan_council_law: "アシュタ・プラダーンの評議会"
  ashta_pradhan_council_law_desc: "$mhr_ashta_pradhan_desc$"
@@ -1414,7 +1438,7 @@
  apc_nyayadhish_focus_policy_desc: "ニヤーヤディーシュは国家の民事および刑事問題を担当する首席判事である。\n評議会はニヤーヤディーシュにさらなる権限を与え、彼らの国内での影響力を高める。"
  apc_panditrao_focus_policy: "パンディト・ラーオ重視"
  apc_panditrao_focus_policy_desc: "パンディト・ラーオは国家の宗教問題に責任をもつ大司祭である。\n評議会はパンディト・ラーオにさらなる権限を与え、彼らの国内での影響力を高める。"
- # Middle Kingdom Laws
+ #Middle Kingdom Laws
  civil_registration: "戸籍制度"
  civil_registration_desc: "我々の旗のもとに集う人々の生活水準を向上させるために、領土内のすべての国民を把握することを目的とした制度。"
  delegated_civil_registration_policy: "$civil_registration$の委任"
@@ -1556,7 +1580,7 @@
  couteume_de_normaundie_desc: "[GetCountry('NRM').GetLongName]の成文化された慣習法は、封建的な土地権、貴族の特権、地方の自治を重んじる。分権的で伝統的な社会を支える一方で、これらの法律は貴族の権力を保障し、[GetCountry('NRM').GetFlavorRank]固有の在り方を保つ強固な法体系を形作っている。"
  #Byzantium
  pronoia_system: "プロノイア制"
- pronoia_system_desc: "プロノイア制は、税金やさまざまな収入源からの収入など、帝国の財政権を一時的に個人や機関に移譲する手段として機能する。当時のヨーロッパで一般的だった封建制度とは異なり、プロノイアの特権は世襲も譲渡もできず、最終的な所有権は皇帝に留まっていた。その制度は最終的に、この特権と引き換えに国家元首が必要に応じて軍隊を編制できるという目的を果たし、軍隊は必然的に、主に自費で費用を賄う必要があった。"
+ pronoia_system_desc: "$pronoia_system$は、税金やさまざまな収入源からの収入など、帝国の財政権を一時的に個人や機関に移譲する手段として機能する。当時のヨーロッパで一般的だった封建制度とは異なり、プロノイアの特権は世襲も譲渡もできず、最終的な所有権は皇帝に留まっていた。その制度は最終的に、この特権と引き換えに国家元首が必要に応じて軍隊を編制できるという目的を果たし、軍隊は必然的に、主に自費で費用を賄う必要があった。"
  reformed_pronoia_system: "プロノイア制の改革"
  reformed_pronoia_system_desc: "プロノイアを得た統治者が領土に対する支配力を強めるのを許すのではなく、統治者の称号を世襲する、または譲渡可能にする抜け穴が利用されないよう制度が変更された。"
  komnenian_formalization: "コムネノス朝のプロノイア"
@@ -1569,6 +1593,8 @@
  byz_varangian_guard_policy_desc: "ヴァリャーグ親衛隊は北欧人、[ShowCultureName('english')]人、その他の北方民族から選抜され、皇帝への個人的な誓約によって縛られ、皇帝の護衛および近衛突撃部隊として仕えている。彼らの忠誠は血筋によるものではなく金で買われたものであるため、[ShowCultureName('greek_culture')]の貴族将校たちを悩ませる派閥間の陰謀には無縁である。彼らの斧は代々王座を守りつづけており、その厳格な規律は全軍の規範となっている。"
  byz_megas_domestikos_policy: "メガス・ドメスティコスの指揮"
  byz_megas_domestikos_policy_desc: "$byz_megas_domestikos_policy$、すなわち帝国軍総司令官の職は、全帝国軍の最高戦場指揮権を任命された単一の指揮官の手に委ねるものである。競合するタグマ将校たちのあいだで軍事権限を分散させるのではなく、メガス・ドメスティコスは戦域全体にわたる戦略を統括する。この職の威信は、特に優秀な[ShowPopTypeName('nobles')]を惹きつけ、その旗のもとで勝利した戦いは、通常の戦役の2倍の速さでわが軍を鍛え上げる。"
+ byz_tagmata_policy_upgraded: "改良型タグマタ"
+ byz_tagmata_policy_upgraded_desc: "危機から生まれた抜本的な改革により、タグマタはかつての恐るべき職業軍人に近い存在へと鍛え直された。より厳格な訓練、帝国からの資金援助の再開、そして新たな目的意識により、連隊はかつての衰退した姿から脱却した。これらの兵士たちは、単なる名目だけでなく、規律、結束力、そして実戦能力においても、封建徴募兵とは一線を画している。"
  #Rome
  new_corpus_juris_civilis: "ローマ法大全"
  new_corpus_juris_civilis_desc: "皇帝ユスティニアヌスのもとで編纂されたローマ法大全は、何世紀にもわたる判例や勅令、知恵をひとつにまとめたものである。『勅法彙纂（いさん）』、『学説彙纂』、『法学提要』、『新勅法』は再び統治と司法の基盤となり、我々の権威、法的一貫性、政府運営の適正を保障する。"
@@ -1947,6 +1973,7 @@
  mutual_offense_law_desc: "他国に対し宣戦布告をおこなった場合に、メンバーがどのように支援しあうかを定めた方針。"
  assured_offense_policy: "必ず攻撃"
  assured_offense_policy_desc: "メンバーは、ほかのメンバーが開始宣言した攻撃戦争に自動的に参加する。"
+ SPONSOR_EXEMPT_FROM_OFFENSIVE_WARS: "この同盟の[ShowSpecialStatusName('italian_league_sponsor')]ではない"
  automatic_offense_policy: "攻撃を自動要請"
  automatic_offense_policy_desc: "メンバーは、ほかのメンバーが開始宣言した攻撃戦争への参加要請を自動的に受け取るが、要請に応じる義務はない。"
  possible_offense_policy: "攻撃を要請可能"
@@ -2151,14 +2178,14 @@
  khalsa_fauj_desc: "[ShowLawName('khalsa_law')]の戦士は、強力な軍隊に組織されることでのみ[ShowReligionName('sikhism')]の守護者としての役割を果たすことができる。"
  amrit_sanskar: "アムリット・サンスカール"
  amrit_sanskar_desc: "[ShowLawName('khalsa_law')]の構成員は、戦に駆り出されるだけの野蛮人ではない。彼らは共同体の一員として課せられた入信儀式、行動規範、服装規定を遵守する優秀な者たちである。[ShowLawNameWithNoTooltip('khalsa_law')]の威信は戦士の力ではなく、彼らの純粋さにあるのだ。"
- guru_granth_sahib_guruship: "[ShowWorkOfArtNameWithNoTooltip('guru_granth_sahib')]の教義"
- guru_granth_sahib_guruship_desc: "[ShowWorkOfArtName('guru_granth_sahib')]のなかで定められた教義。"
+ guru_granth_sahib_guruship: "$guru_granth_sahib$の教義"
+ guru_granth_sahib_guruship_desc: "$guru_granth_sahib$のなかで定められた教義。"
  eternally_living_guru: "永遠に生きる$character_title_guru$"
- eternally_living_guru_desc: "[ShowWorkOfArtName('guru_granth_sahib')]は、[ShowReligionName('sikhism')]のすべての信徒を導く光となる、最後にして至高の永遠なる$character_title_guru$である。"
+ eternally_living_guru_desc: "$guru_granth_sahib$は、[ShowReligionName('sikhism')]のすべての信徒を導く光となる、最後にして至高の永遠なる$character_title_guru$である。"
  divine_justice: "神の正義"
- divine_justice_desc: "[ShowWorkOfArtName('guru_granth_sahib')]に記された教えは、$sikhism_god_name$とその正義に基づき、我々の社会が平和と調和のなかで生きるよう導いている。"
+ divine_justice_desc: "$guru_granth_sahib$に記された教えは、$sikhism_god_name$とその正義に基づき、我々の社会が平和と調和のなかで生きるよう導いている。"
  unchanging_writing: "不変の聖典"
- unchanging_writing_desc: "[ShowWorkOfArtName('guru_granth_sahib')]は、複数の$character_title_guru$が長い年月をかけて編纂したものだが、いまでは形態が定まり、不変のものとなっている。その内容はいかなる方法においても、もはや変更されることはない。"
+ unchanging_writing_desc: "$guru_granth_sahib$は、複数の$character_title_guru$が長い年月をかけて編纂したものだが、いまでは形態が定まり、不変のものとなっている。その内容はいかなる方法においても、もはや変更されることはない。"
  tur_kanum_i_osmani: "オスマン帝国法"
  tur_kanum_i_osmani_desc: "[GetCountry('TUR').GetName]の法体系を成す諸法令の総称。多民族国家の内的安定を維持することを主眼とし、新たな征服ではなく統治の秩序を重んじている。"
  tur_has_not_first_option_in_flavor_tur_208_event: "[event|e]「#Y $flavor_tur.208.title$#!」で最初の選択肢を選ばなかった"
@@ -2177,3 +2204,28 @@
  act_of_navigation_desc: "わが国のあらゆる市場において、我々は敵対勢力に対抗しなければならない。強力な中央指令と重商主義的な優遇措置を通じて、わが国の商人が敵国や対立国に対して明確な優位性をもつよう努めよう。"
  lit_casimir_code_policy: "リトアニア裁判法規集"
  lit_casimir_code_policy_desc: "国内に法典が存在しないこと、ならびに上層階級による犯罪行為に対処するため、「$lit_casimir_code_policy$」が制定された。これは混乱を適切に抑え、[GetEstateName('crown_estate')]により多くの権限を与えることを目的としている。"
+ #Imperial Circles Law
+ imperial_circles_law: "帝国クライス"
+ imperial_circles_law_desc: "$imperial_circles_law$により、[GetUniqueInternationalOrganization('hre').GetName]は地理的な行政区域に分割されており、各区域は指定された[circle_leader|e]によって統治されている。"
+ no_imperial_circles: "帝国クライスなし"
+ no_imperial_circles_desc: "[GetUniqueInternationalOrganization('hre').GetName]には正式な地理的区分がない。"
+ imperial_circles_established: "帝国クライスの確立"
+ imperial_circles_established_desc: "[GetUniqueInternationalOrganization('hre').GetName]は帝国クライスに分割されており、各クライスは指定された[circle_leader|e]によって統治され、その地域の政務を調整する。"
+ #Italian Wars Law
+ administration_of_italian_lands_law: "イタリア領土の管理"
+ administration_of_italian_lands_law_desc: "イタリア戦争後、王室がイタリア領土をどのように統治するかを定義する。"
+ locations_in_italy_gain_tt: "[ShowRegionName('italy_region')]内でわが国の所有する[locations|e]が以下を得る："
+ italian_direct_rule_policy: "直轄統治"
+ italian_direct_rule_policy_desc: "王室により任命された総督がイタリア全土に配置され、半島内の市街地を強固に掌握し、地元の抵抗の余地をほとんど残さない。"
+ italian_local_autonomy_policy: "地方自治"
+ italian_local_autonomy_policy_desc: "イタリアのコムーネ（都市共同体）や貴族は、各々の諸事を自ら統治するよう委ねられる。中央による監視の重荷から解放された都市は自身に投資し、その過程で富を蓄積する。"
+ italian_tribute_system_policy: "貢納制度"
+ italian_tribute_system_policy_desc: "イタリアの土地は王室のために働かされる。工房はより激しく稼働し、徴兵もより自由におこなわれ、半島の成果はわが国の国庫や軍隊へと注ぎ込まれる。"
+ italian_catepanate_policy: "イタリア総督府"
+ italian_catepanate_policy_desc: "東方からの総督がイタリア全土に配置され、半島における外国勢力の存在感を再び確立し、その民衆を領土の枠組みへと徐々に引き込んでいく。"
+ italian_ordonnances_royales_policy: "王令"
+ italian_ordonnances_royales_policy_desc: "王室はイタリア領に対し新たな勅令を発布することで行政的な影響力を拡大し、王権を拡張するための官職を創設して、領土に対する王の支配を強固なものにする。"
+ italian_adelantamiento_policy: "イタリアのアデランタミエント"
+ italian_adelantamiento_policy_desc: "アデランタード（辺境総督）たちが王冠の名のもとにイタリアの都市を統治し、それらをイベリアの交易網に取り込み、国の影響圏へとさらに深く引き入れていく。"
+ italian_imperial_fiefs_policy: "イタリアの帝国封土"
+ italian_imperial_fiefs_policy_desc: "イタリアの領土は帝国の封土として組み込まれ、その民は封建的義務によって縛られる。皇帝の存在は地元の不満を鎮めると同時に、帝国召集軍の兵力を増強する。"

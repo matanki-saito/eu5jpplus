@@ -25,7 +25,7 @@
  common_string_fantastic: "素晴らしい！"
  common_string_extraordinary: "比類なき偉業だ！"
  common_string_wonder_german: "#italic Fantastisch!#!"
- # OK response
+ #OK response
  common_string_ok: "わかった。"
  common_string_alright: "いいだろう。"
  common_string_ok_spanish: "#italic Vale.#!"
@@ -87,3 +87,4 @@
  AREA_PREFERENCES_INFO_TITLE: "AIの地域的嗜好："
  AREA_PREFERENCE_TYPE_EXPLORATION: "$SCOPE$の[explore|e]と[colonize|e]を好む。"
  AREA_PREFERENCE_TYPE_CONQUEST: "$SCOPE$の[conquer|e]を好む。"
+ AREA_PREFERENCE_HOME_REGION: "ゆかりの地域"

@@ -284,6 +284,8 @@
  signoria_council_desc: "[GetCountry('FLO').GetName]のシニョリーアとは、都市を統治する評議会の名称であり、これを構成する9人の評議員はさまざまなギルドから選ばれる。2ヵ月ごとに評議会を再選出するための抽選がおこなわれ、つねに評議員が入れ替わることで個人の利益よりも共和国の利益が優先される。ただし、シニョリーアに所属する全員がギルド出身であるため、つねに同じ家系から選出される。"
  florence_guilds: "[GetCountry('FLO').GetNameWithNoTooltip]のギルド"
  florence_guilds_desc: "[GetCountry('FLO').GetName]のさまざまな職人や商人は、伝統的にそれぞれ異なるギルドに所属している。これにより、製品の高い品質基準が保証されるだけでなく、不公平な競争の発生も回避される。しかし、その結果としてギルドがもつことになる権力と影響力は否定できない。\n\n[law|e]「[ShowLawName('guilds_of_florence')]」がアンロックされる。"
+ arte_della_lana: "フィレンツェ羊毛業ギルド"
+ arte_della_lana_desc: "アルテ・デッラ・ラーナ（フィレンツェ羊毛業ギルド）は、[GetCountry('FLO').GetName]の7大ギルドのなかでも特に力のあるギルドであり、原毛の購入から完成した織物の販売に至るまで、羊毛交易のあらゆる段階を支配している。その構成員には商人、染色職人、織工、仕上げ職人が含まれ、全員がギルドの検査官によって強制される厳格な品質基準に縛られている。アルテに正式な認可を与えれば、商人階級の影響力は確固たるものとなり、[GetCountry('FLO').GetNameWithNoTooltip]の高級織物の評判はこれからも大陸全土において随一でありつづけるだろう。"
  #Korea
  scholar_officials: "士大夫"
  scholar_officials_desc: "わが国の上流階級は、科挙で知識を証明して羨望される地位を獲得した、賢明な官僚および政治家で構成されている。\nこれらの高官の家族は、3世代ごとに1人以上の官僚を輩出しつづけるかぎり、この特権的な地位を維持できる。"
@@ -324,7 +326,7 @@
  promote_cultural_unity_desc: "まとまりのある強固な社会の基礎は、本質的にはひとつの文化を推進することで成り立つ。これによって全国民が団結し、他国の影響から身を守ることができる。"
  embellish_great_works_of_faith: "偉大な宗教施設の誇示"
  embellish_great_works_of_faith_desc: "我々の寛大さと信仰の強さを示すには、畏敬の念を抱かせるような大規模な施設を建て、神に捧げるのが最も効果的である。"
- # dhimmi privileges
+ #dhimmi privileges
  dhimmi_land_rights: "地方の土地使用権の保証"
  dhimmi_land_rights_desc: "人間にとって家は生命線である。わが国にいる異教徒の土地使用権を保証することで、彼らと政府とのあいだに信頼関係を築くことができる。"
  dhimmi_lighter_taxes: "税の軽減"
@@ -540,7 +542,7 @@
  autonomous_kadiluks_desc: "カーディー（裁判官）の裁量をより有効に活用するため、彼らには、割り当てられたカディルク管轄区域内でより大きな権限が与えられるべきである。"
  ayans_privilege: "アーヤーンの名士たち"
  ayans_privilege_desc: "遠隔地の複雑な権力構造を最も理解しているのは、すでに現地に住んでいる上流階級である。彼らはアーヤーンの地位を与えられ、国家からの干渉をほとんど受けることなく統治を任される。"
- # Brandenburg / Prussia
+ #Brandenburg / Prussia
  bra_kreditwerk: "信用組合"
  bra_kreditwerk_desc: "信用組合はわが国の財政の大部分を支配しており、我々の財務能力を妨げている。"
  bra_kreditwerk_reformed: "信用組合の改革"
@@ -578,7 +580,7 @@
  salt_tax_exemption_desc: "[ShowGoodsName('salt')]の不足と価格の高騰が[ShowEstateTypeName('peasants_estate')]に経済的困難をもたらしている。この困難を迅速に緩和し、社会不安を軽減するために、彼らは[ShowGoodsNameWithNoTooltip('salt')]に対するいかなる税金も免除される。"
  charter_of_the_nobility: "貴族の勅令"
  charter_of_the_nobility_desc: "プガチョフの乱のあと、[ShowEstateTypeName('nobles_estate')]の特権を強化し、秩序維持における彼らの役割を強調する勅令が出された。"
- # France
+ #France
  villes_franches: "ヴィルフランシュ"
  villes_franches_desc: "過去数十年で、わが国のいくつかの市場街は著しい成長を遂げている。その結果、これらの街は地方を支配する封建領主たちに対抗し、王国全土に及ぶ王権の拡大を象徴する存在となっている。"
  residence_in_versailles: "ヴェルサイユ宮殿内の住居"
@@ -687,7 +689,7 @@
  #Mamluks
  mam_muhtasibs: "ムフタスィブ市場監督"
  mam_muhtasibs_desc: "ムフタスィブは[ShowEstateTypeName('burghers_estate')]を検査し、詐欺を働いた者を公に罰し、不正を見抜き防ぐための手引書を作成することで、市場の健全性を監督する。"
- # Delhi
+ #Delhi
  heritable_iqta: "世襲[ShowLawNameWithNoTooltip('iqta_law')]"
  heritable_iqta_desc: "[ShowLawName('iqta_law')]の職位は通常、世襲されるものではない。これを世襲制とすることは前例がなく、[ShowEstateTypeName('nobles_estate')]の忠誠心を大いに高めるだろう。"
  #Rise of the Ottomans

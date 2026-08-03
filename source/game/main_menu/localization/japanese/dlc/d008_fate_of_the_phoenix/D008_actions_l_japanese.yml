@@ -6,6 +6,7 @@
  loan_icon_bad_economy_tt: "相手国は財政難にあるようで、わが国への[opinion|e]が十分でなければ、#R 同意しない可能性がある#!"
  loan_icon_choose_icon: "貸与する[ShowWorkOfArtTypeName('icon')]を選択"
  not_already_receiving_icon_tt: "相手がすでに[ShowWorkOfArtTypeName('icon')]の貸与を受けていてはならない"
+ icon_not_already_loaned_tt: "現在、ほかの[country|e]からこの[ShowWorkOfArtTypeName('icon')]を借りていてはならない"
  mend_schism: "分裂を修復"
  mend_schism_desc: "[ShowReligionGroupName('christian')]は、あまりにも長くにわたって分裂したままであった。五総主教座のすべてがわが国の支配下に入ったいまこそ、その亀裂を癒やし、諸教会を和解へ導くため、わが国の影響力を行使すべき時だ。"
  restore_rome_primacy: "[ShowLocationNameWithNoTooltip('rome')]の首位権の回復"

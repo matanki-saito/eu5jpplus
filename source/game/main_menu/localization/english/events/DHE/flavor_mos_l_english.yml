@@ -57,6 +57,7 @@
  flavor_mos.6.a.custom: "The rapid growth of the settlement attracts [ShowPopTypeName('clergy')] from all over [ShowRegionName('russian_region')]"
  flavor_mos.6.tt: "The centering of believers near the capital facilitates the overseeing of religious matters"
  flavor_mos.6.b: "Faith can be practiced anywhere."
+ mos_sergius_of_radonezh_alive_tt: "$name_sergius.east_slavic_language$ $of_Radonezh$ must be alive in the realm"
  mos_holy_trinity_st_sergius_lavra_construction: "Holy Trinity St. Sergius Lavra Construction"
  flavor_mos.6.historical_info: "The Trinity Lavra of St. Sergius was founded in the fourteenth century and has continually evolved architecturally over time, and today boasts several churches and cathedrals. It is considered the most important monastery in Russia and acts as the spiritual center of the Russian Orthodox Church. It serves as a burial place for metropolitans and patriarchs and has a vast collection of religious art."
 
@@ -126,6 +127,7 @@
  flavor_mos.12.tt1: "Andrew Rublev instead works on further enriching the religious art at the [ShowWorkOfArtName('holy_trinity_st_sergius_lavra')]"
  flavor_mos.12.tt2: "The devotion shown for spiritual matters is deeply appreciated by the [ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]"
  flavor_mos.12.c: "It clashes with the carpets."
+ mos_andrei_rublev_alive_tt: "$name_andrew.east_slavic_language$ Rublev must be alive in the realm"
  flavor_mos.12.historical_info: "The Holy Trinity, created by Andrei Rublev around 1410, is considered one of the greatest works in religious art. It has inspired artists and continues to serve as a symbol of Russian Orthodox spirituality. The work encourages contemplation and prayer, and to reflect on its mysteries."
 
  flavor_mos.13.title: "The Paper Will"
@@ -184,7 +186,7 @@
  flavor_mos.21.entry: "$flavor_mos.21.title$"
  flavor_mos.21.desc: "The absence of an efficient administration is seen as a hindrance for [ROOT.GetCountry.GetName] to take its rightful place among the great powers. We could improve the governance by setting up a series of offices to oversee different areas of governmental affairs, which in turn can expedite the implementation of various decrees by [ROOT.GetCountry.GetGovernment.GetRuler.GetName] and help centralize power."
  flavor_mos.21.a: "How are we to function otherwise."
- flavor_mos.21.tt1: "Several bureaus are set up, enabling [cabinet|e] members to oversee them via [cabinet_action|e]"
+ flavor_mos.21.tt1: "Several bureaus are set up, enabling [cabinet_members|e] to oversee them via [cabinet_action|e]"
  enable_prikazi_reform: "Grants access to the [ShowGovernmentReformName('prikazi_reform')] [government_reform|e]"
  flavor_mos.21.b: "Free reins are the recipe for success."
  flavor_mos.21.historical_info: "Prikazi refers to the administrative offices in place during the time of the Tsardom and the early Russian Empire. They were essential for implementing the policies and decisions of the Tsar but also dealt with day-to-day functions related to state affairs. Some of the larger offices dealt with matters concerning foreign affairs and were crucial during a time when Russia saw itself surrounded by enemies and still struggling to assert its independence from the Golden Horde."
@@ -396,6 +398,7 @@
  flavor_mos.42.tt1: "[target_character.GetName] is poisoned to death"
  flavor_mos.42.c: "Extend an olive branch."
  flavor_mos.42.tt2: "[target_character.GetName] survives survives attempts on [target_character.GetHimHer] life"
+ mos_eleanor_glinskaya_regent_tt: "$name_eleanor$ $glinski_dynasty$ must be alive and acting as regent"
  flavor_mos.42.historical_info: "Elena Glinskaya ruled as regent during the early years of Ivan IV's reign, from 1533 to 1538. The period was characterized by political intrigues and power struggles within the court, and Elena herself faced challenges from rival boyar factions as well as the brothers of the late Vasili III. She had both brothers arrested and successfully seized their land in the name of her son. Despite their capture, she died in 1538, most likely poisoned by a boyar."
 
  flavor_mos.43.title: "[ShowCultureGroupNameWithNoTooltip('tatar_group')] Sloboda"
@@ -434,6 +437,7 @@
  STATIC_MODIFIER_NAME_the_apostle: "The Apostle"
  flavor_mos.46.c: "Get the marker pen ready."
  flavor_mos.46.tt2: "The book undergoes substantial revisions to enhance its effectiveness in accordance with the [ShowPolicyName('strict_censorship')] [policy|e]"
+ mos_ivan_fyodorov_alive_tt: "$name_john.east_slavic_language$ Fyodorov must be alive in the realm"
  flavor_mos.46.historical_info: "The publication of the #italic Apostle#! was a major factor in the cultural development of Russia. It made it possible to transition from handwritten manuscripts to printed books, which made religious texts more accessible. It also contributed to the religious education of the people which helped strengthen Christian beliefs."
 
  flavor_mos.47.title: "The Teachings of Nil Sorsky"
@@ -534,10 +538,12 @@
  flavor_mos.56.tt1: "Members of the [ShowDynastyNameWithNoTooltip('glinskaya_dynasty')] dynasty are persecuted and killed by an angry mob"
  flavor_mos.56.tt2: "The onslaught of her family members causes great duress to Eleanor Glinski"
  flavor_mos.56.b: "Hand over the missus too."
+ mos_eleanor_glinskaya_spouse_tt: "$name_eleanor$ $glinski_dynasty$ must be alive and married to the ruler"
  flavor_mos.56.tt3: "Every member of the [ShowDynastyNameWithNoTooltip('glinskaya_dynasty')] are rounded up and killed by an angry mob"
  flavor_mos.56.c: "Strike down hard on the mobsters."
  flavor_mos.56.d: "Every man has a price."
  flavor_mos.56.historical_info: "The Moscow fire of 1547 had a profound effect on the peasant population, resulting in thousands killed or displaced and forced into poverty. The civilian population sought a scapegoat, directing their attention to the Tsar's grandmother, whose shamanist origins were perceived as the source of the unleashed magic affecting the Christian population. Several relatives were stoned to death; however, the Tsar adamantly refused to hand over his grandmother to the enraged mob."
+ variable_great_fire_moscow_tt: "[ShowLocationName('moscow')] has Suffered a Great Fire"
 
  flavor_mos.57.title: "The Kremlin Expansion"
  flavor_mos.57.entry: "$flavor_mos.57.title$"
@@ -728,6 +734,7 @@
  flavor_mos.76.tt2: "He may perform great deeds of diplomacy if assigned to the [ShowCabinetActionName('posolsky')] [cabinet_action|e]"
  flavor_mos.76.b: "Yet another talentless hack."
  flavor_mos.76.historical_info: "Ivan Gramotin was a successful diplomat during the reign of Ivan IV and beyond, who is mostly remembered for being the head of the foreign ministry. He became close friends with the future patriarch during a diplomatic visit to Poland, where he was being held captive. This friendship helped secure Ivan a future place at court and several influential positions, including the boyar duma. Towards the later stages of his life, he fell out of favor and was exiled, only to return following the death of the patriarch. He retired to a convent a few years later, where he died a monk."
+ variable_posolsky_prikaz_established_tt: "The Posolsky Prikaz has been Established"
 
  flavor_mos.77.title: "The Eloquent Diplomat"
  flavor_mos.77.entry: "$flavor_mos.77.title$"
@@ -768,6 +775,7 @@
  flavor_mos.80.c: "Disarm them with artful rhetoric."
  flavor_mos.80.tt1: "The negotiating tactics of [ROOT.GeGovernment.GetRuler.GetName] persuades the rebel leaders to lay down their arms."
  flavor_mos.80.historical_info: "The Bolotnikov Rebellion took place from 1606 to 1607 during the Time of Troubles. They were instigated by Cossack Ivan Bolotnikov, who sought to combat social injustices, abuses of power, and economic difficulties. The rebellion received substantial backing from a range of estates, including peasants, Cossacks, and dissatisfied segments of the nobility. At one point, the rebellion controlled over seventy towns in southern Russia, and the Tsar was forced to brutally suppress it in order to regain control."
+ variable_bolotnikov_uprising_possible_tt: "The Bolotnikov Uprising Looms"
 
  flavor_mos.81.title: "The Influential Marshal"
  flavor_mos.81.entry: "$flavor_mos.81.title$"
@@ -904,6 +912,7 @@
  flavor_mos.93.b: "Kaftans are the new black."
  flavor_mos.93.tt3: "The traditional attires are retained, further cementing any resistance to change"
  flavor_mos.93.historical_info: "Under the rule of Peter 'the Great', there were significant changes to the clothing of the nobility as part of his broader efforts to modernize and Westernize Russia. He implemented strict measures against the traditional attire, such as the long kaftans and beards that were commonly worn by the nobles."
+ variable_grand_embassy_tt: "The Grand Embassy is Underway"
 
  flavor_mos.94.title: "The Synod of Fools and Jesters"
  flavor_mos.94.entry: "$flavor_mos.94.title$"
@@ -966,6 +975,7 @@
  flavor_mos.98.b: "Governance is delicate and must not be trifled with."
  flavor_mos.98.tt2: "Steps are taken to enhance the administration of [ShowLocationName('neva')] in line with the [ShowPolicyName('dop_law_governing_senate')] [policy|e]" 
  flavor_mos.98.historical_info: "After the establishment of the Governing Senate, Peter 'the Great' set up various collegiums as administrative bodies responsible for different aspects of governance, such as the Synod and the Admiralty Board. Inspiration was drawn from similar reforms that had been recently implemented in neighboring Sweden. The urgency for reform was expedited by the growing number of territories of the Russian Empire."
+ variable_prikazi_tt: "The Prikaz System Governs the State"
 
  flavor_mos.99.title: "The Beard Token"
  flavor_mos.99.entry: "$flavor_mos.99.title$"
@@ -1006,6 +1016,7 @@
  flavor_mos.101.c: "An observant owl silently perches in the shadows."
  flavor_mos.101.tt6: "The elaborate [spy_network|e] in [target_country.GetNameWithNoTooltip] is used to gather information in liaison with the official visit"
  flavor_mos.101.historical_info: "The Grand Embassy by Peter 'the Great' eventually brought him to the shores of England, which, at the time, was a growing influence in world affairs and considered a gathering place for intellectuals seeking to escape the persecutions of autocratic Europe. Peter visited several renowned institutions such as the Royal Mint, the Society and Observatory, participated in drinking sessions with the English King, and studied English techniques in city building that would later be used in the construction of the new capital of Saint Petersburg. The main purpose of the visit was to secure valuable technological assets."
+ variable_incognito_travels_in_progress_tt: "The Ruler Travels Incognito"
 
  flavor_mos.102.title: "The Malta Delegation"
  flavor_mos.102.entry: "$flavor_mos.102.title$"
@@ -1059,6 +1070,7 @@
  enable_preobrazhensky_semyonovsky_imperial_guard_advance: "Grants access to the [ShowAdvanceName('preobrazhensky_semyonovsky_imperial_guard')] [advance|e]"
  flavor_mos.106.b: "Superfluous to the established order."
  flavor_mos.106.historical_info: "The Preobrazhensky and Semenovsky Regiments stood as two of the Russian Imperial Army's most prestigious and elite military units, known for their historical importance and close ties with the Russian monarchs. They were formed by Peter 'the Great' as part of sweeping reforms to the overall military structure, and would continue to protect the monarchy until their dissolution during the Russian Revolution."
+ variable_preobrazhensky_semenovsky_tt: "The Preobrazhensky and Semenovsky Guards are Formed"
 
  flavor_mos.107.title: "The Exceptionally Tall Stateman"
  flavor_mos.107.entry: "$flavor_mos.107.title$"
@@ -1103,6 +1115,7 @@
  flavor_mos.110.d: "No longer interested."
  flavor_mos.110.tt2: "Abraham Petrovich is exiled to the joyous satisfaction of the [ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]"
  flavor_mos.110.historical_info: "Abram Petrovich returned to Russia following the completion of his studies in France. His godfather, Peter 'the Great', passed away shortly after, and the new regent was not fond of Abram, exiling him to Siberia. Later, thanks to his exceptional engineering skills, he was pardoned and tasked with constructing several fortifications across Russia. Subsequent reigns witnessed his return to prominence, culminating in his appointment as the chief military engineer of the Russian army."
+ variable_gannibal_studies_abroad_tt: "Abram Gannibal Studies Abroad"
 
  flavor_mos.111.title: "Peter and Paul Fortress"
  flavor_mos.111.entry: "$flavor_mos.111.title$"

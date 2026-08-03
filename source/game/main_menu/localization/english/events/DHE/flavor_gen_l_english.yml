@@ -44,13 +44,14 @@
  flavor_gen.7.desc: "While the #italic Liber Gazerie#! covers trade, property rights, and criminal justice in the [ROOT.GetCountry.GetAdjective] Gazaria, it only describes the government of the colony on a relative surface level. With the introduction of the #italic Statuta Gazerie#!, an update of this legal framework, the concerns of governance and the organization of the community in Gazaria could be addressed. Once again though, the implementation and enforcement of this code of law is a financial investment that [ROOT.GetCountry.GetNameWithNoTooltip] has to make."
  flavor_gen.7.a: "Implement the #italic Statuta Gazerie#!."
  flavor_gen.7.b: "We cannot afford it."
+ variable_codified_liber_gazerie_tt: "The Statuta Gazariae has been Codified"
  
  flavor_gen.8.title: "Bankruptcy of the Casa San Giorgio"
  flavor_gen.8.entry: "$flavor_gen.8.title$"
  flavor_gen.8.desc: "The [target_country.GetLongName] have seen themselves in a lot of financial troubles lately. Their inability to properly manage money represents a disgrace as a bank, and they have come to us for help in these dire times. With our assistance, they could blow a bit of fresh air into their ledgers and keep afloat until they are able to sustain themselves once again."
  flavor_gen.8.a: "Save the bank!"
  flavor_gen.8.b: "Let it die..."
- flavor_gen.8.historical_info: "In 1407, the #italic Casa delle compere e dei banchi di San Giorgio#!, informally known as #italic Ufficio di San Giorgio#! began a banking business, lending money to its shareholders and providing services such as bills of exchange. By 1437, the bank also managed the mint. Continued state borrowing and undercapitalization brought the bank down in 1444."
+ flavor_gen.8.historical_info: "In 1407, the #italic Casa delle compere e dei banchi di San Giorgio#!, informally known as #italic Ufficio di San Giorgio#! began a banking business, lending money to its shareholders and providing services such as bills of exchange. By 1437, the bank also managed the mint. Continued state borrowing and under-capitalization brought the bank down in 1444."
  
  flavor_gen.9.title: "The Guelph-Ghibelline Feud"
  flavor_gen.9.entry: "$flavor_gen.9.title$"
@@ -82,9 +83,9 @@
  gen_andrea_doria_reform: "Legacy of Andrea Doria"
  flavor_gen.12.b: "Side with Spain."
  
- flavor_gen.13.title: "The Golden Age of [ROOT.GetCountry.GetAdjective] Bankers"
- flavor_gen.13.entry: "$flavor_gen.13.title$"
- flavor_gen.13.desc: "The [ROOT.GetCountry.GetAdjective] bankers financed many of the Spanish crown's foreign endeavors. Some historians even called this period the Age of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip]. Several brilliant palaces were built during this era along the Strada Nuova, but it did not last forever, as when the Turks took Chios, then the [ROOT.GetCountry.GetAdjective] trade empire in the eastern Mediterranean collapsed."
+ flavor_gen.13.title: "The Golden Age of [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Bankers"
+ flavor_gen.13.entry: "The Golden Age of Genoese Bankers"
+ flavor_gen.13.desc: "The [ROOT.GetCountry.GetAdjective] bankers financed many of the foreign endeavors of the most powerful monarchies of Europe. Some of our most wealthy individuals have even start to call this period the Age of the [ROOT.GetCountry.GetAdjectiveWithNoTooltip]. Our people have become accustomed to living in lavish affluence, and the road ahead seems to be gilded with our gold."
  flavor_gen.13.a: "This will last forever!"
  
  flavor_gen.14.title: "The Fate of Gazaria"
@@ -92,6 +93,7 @@
  flavor_gen.14.desc: "[ShowLocationName('constantinople')]'s fall is not only a shock to the Christian world but also the end to the existence of [ROOT.GetCountry.GetAdjective] colonial ambitions in the Black Sea. It is clear that the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] Gazaria is doomed to fall to the Turkish threat.\n\nAs there is little reason for us to hold the colony, ideas to cede it to the [target_country.GetLongName] have occurred. Although the fate of the colony is sealed, it might still have a chance of survival under the sovereignty of the bank."
  flavor_gen.14.a: "Cede Gazaria to the bank."
  flavor_gen.14.b: "We can and will defend Gazaria ourselves!"
+ variable_gen_had_fall_of_constantinople_tt: "[ShowLocationName('constantinople')] has Fallen"
  
  flavor_gen.15.title: "The Maona of Chios and Phocaea"
  flavor_gen.15.entry: "$flavor_gen.15.title$"
@@ -101,13 +103,14 @@
  
  flavor_gen.16.title: "The Reconquest of the Eastern Aegean"
  flavor_gen.16.entry: "$flavor_gen.16.title$"
- flavor_gen.16.desc: "The island of [ShowLocationName('chios')] was home to the Lordship of Chios, which was subject to the [ROOT.GetCountry.GetLongName] from 1304 until its fall in 1329. The crumbling [GetCountry('BYZ').GetLongName] reclaimed the island for themselves once again in 1329 after the local Zaccaria family antagonized the local Greek population. Ever since, our presence in the eastern Aegean has dwindled to nothing, until a new civil war wracked the Greeks.\n\nAs their government was occupied with their infighting, the cunning members of the Maona of Chios and Phocaea have secured [ShowLocationName('chios')] and its neighbouring islands from the Greeks. The eastern Aegean has returned to [ROOT.GetCountry.GetAdjectiveWithNoTooltip] hands."
+ flavor_gen.16.desc: "The island of [ShowLocationName('chios')] was home to the Lordship of Chios, which was subject to the [ROOT.GetCountry.GetLongName] from 1304 until its fall in 1329. The crumbling [GetCountry('BYZ').GetLongName] reclaimed the island for themselves once again in 1329 after the local Zaccaria family antagonized the local Greek population. Ever since, our presence in the eastern Aegean has dwindled to nothing, until a new civil war wracked the Greeks.\n\nAs their government was occupied with their infighting, the cunning members of the Maona of Chios and Phocaea have secured [ShowLocationName('chios')] and its neighboring islands from the Greeks. The eastern Aegean has returned to [ROOT.GetCountry.GetAdjectiveWithNoTooltip] hands."
  flavor_gen.16.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_gen.16.a.entry: "$common_string_brilliant$"
  gen_has_taken_chios_from_us: "Has taken Chios from us."
  flavor_gen.16.b: "We should not anger the Greeks and return the island."
+ variable_gen_has_maona_event_tt: "The Maona of [ShowLocationName('chios')] is Established"
  gen_has_returned_chios_to_us: "Has returned Chios to us."
- 
+
  flavor_gen.17.title: "[arrigo_della_rocca.GetNameWithNoTooltip]"
  flavor_gen.17.entry: "Arrigo Della Rocca"
  flavor_gen.17.desc: "Although Corsica, conformed by the provinces of [ShowProvinceDefinitionName('cismonte_province')] and [ShowProvinceDefinitionName('pumonte_province')], is formally under the sovereignty of the [ROOT.GetCountry.GetLongName], the local politics of the Corsican island is traditionally dominated by five noble clans. One of them is the family of the Banda dei Fuori, which brought out the ambitious [arrigo_della_rocca.GetName]. Originally held hostage by the Genoese after his father was forced to give him away, [arrigo_della_rocca.GetShortNameWithNoTooltip] joined the army of [GetCountry('ARA').GetName] and made a living as a soldier of fortune.\n\nEventually, he returned to the island and was elected count of Corsica by the other noble clans with [GetCountry('ARA').GetAdjectiveWithNoTooltip] support, undermining the [ROOT.GetCountry.GetAdjectiveWithNoTooltip] authority over the island even further."
@@ -121,7 +124,7 @@
  flavor_gen.18.desc: "Corsica has always been a cause for many troubles to the [ROOT.GetCountry.GetLongName]. Its people are stubborn and seek independence from us at any opportunity.\n\nYet, they refuse to bow before any feudal lord too. The leader of a jacquerie, peasant revolters from [GetCountry('FRA').GetName] during the Hundred Years War, [sambucuccio_dalando.GetName] and his allies have started a revolt against the [rebel_location.GetController.GetAdjective] in [rebel_location.GetName]."
  anti_feudal_revolters: "Anti-Feudal Revolters"
  flavor_gen.18.a: "May the revolters repel our enemies."
- flavor_gen.18.b: "We need d'Alando as our general!"
+ flavor_gen.18.b: "We need Dalando as our general!"
  
  flavor_gen.19.title: "The Foundation of Bastia"
  flavor_gen.19.entry: "$flavor_gen.19.title$"
@@ -179,6 +182,7 @@
  flavor_gen.26.desc: "The [ROOT.GetCountry.GetLongName] and the [GetCountry('VEN').GetLongName] have yet to resolve their long-term rivalry, and the dispute over the Straits is still fresh in the memory of their rulers.\n\nA new confrontation for control of the Aegean Sea is approaching, and an idea begins to form around the leaders of [ROOT.GetCountry.GetNameWithNoTooltip]: Why not launch a new war over the [GetCountry('VEN').GetAdjectiveWithNoTooltip] possessions in the Adriatic Sea?"
  flavor_gen.26.a: "Fortune favors the bold!"
  flavor_gen.26.b: "It might be too risky to keep this conflict open."
+ variable_gen_war_of_straits_tt: "The War of the Straits is Underway"
  
  flavor_gen.27.title: "The Siege of Caffa"
  flavor_gen.27.entry: "$flavor_gen.27.title$"
@@ -228,12 +232,14 @@
  flavor_gen.34.desc: "After their first attempt, the Corsican revolutionaries have reorganized under the leadership of [pasquale_paoli.GetName] and are doing another push for their independence, now with even greater popular support after their previous failure."
  flavor_gen.34.a: "Crush the revolutionaries!"
  flavor_gen.34.b: "Grant them their independence."
+ variable_corsican_revolt_tt: "Corsica is in Revolt"
  
  flavor_gen.35.title: "The Troubles of Corsica"
  flavor_gen.35.entry: "$flavor_gen.35.title$"
  flavor_gen.35.desc: "The Corsican Revolution has gained power and spread under the leadership of Pasquale Paoli. The objectives of the revolutionaries are to establish an independent Republic, ruled by a General Diet of the People of Corsica, whose representatives would be elected by the citizens for three-year terms."
  flavor_gen.35.a: "This island is more a curse than a blessing..."
  flavor_gen.35.b: "Grant them their independence."
+ variable_corsican_republic_tt: "The Corsican Republic has been Proclaimed"
  can_sell_corsica_via_diplo_action: "Unlock a Diplomatic Action that allows us to sell Corsica to another power.\n\n#italic Can only be used ONCE.#!"
  
  flavor_gen.36.title: "The Troubles of Corsica"
@@ -289,12 +295,14 @@
  flavor_gen.44.entry: "$flavor_gen.44.title$"
  flavor_gen.44.desc: "The siege of [ShowLocationName('kaffa')] caused great pain and suffering amongst the population, yet this was but the mere start. The sieging forces used plagued bodies to speed up the siege and although the citizens of [ShowLocationName('kaffa')] disposed of the corpses as fast as they could, the diseases spread to the living nonetheless.\n\nTaking refuge from war, the people from our colonies have brought the [ShowSituationName('black_death')] itself into our homes and houses!"
  flavor_gen.44.a: "$common_string_the_end_is_nigh$"
+ variable_genoese_plague_bringer_tt: "Genoese Ships are Spreading the Plague"
  
  flavor_gen.45.title: "[sampieru_corso.GetName] strikes back!"
  flavor_gen.45.entry: "Sampieru Corso strikes back!"
  flavor_gen.45.desc: "[sampieru_corso.GetName] has been gaining strength in exile with foreign support. He has now decided that the time has come for an island-wide rebellion to free Corsica from our rule."
  flavor_gen.45.a: "The Corsicans are rising once again!"
  flavor_gen.45.a.tt: "All of the [ShowCultureName('corsican')] population in [ShowProvinceDefinitionName('cismonte_province')] and [ShowProvinceDefinitionName('pumonte_province')] will join the [corsican_independence_fighter.GetName]"
+ variable_exiled_sampieru_tt: "Sampiero Corso has been Exiled"
 
  unlocked_advance_bank_of_saint_george_tt: "Has had the $flavor_gen.46.title$ [dynamic_historical_event|e]"
  flavor_gen.46.title: "The Bank of Saint George"
@@ -325,5 +333,37 @@
 
  flavor_gen.51.title: "The Genoese Have Taken [ShowLocationName('chios')]"
  flavor_gen.51.desc: "Taking advantage of the turmoil brought about by our succession crisis, the [GetCountry('GEN').GetLongName] has seized the island of [ShowLocationName('chios')]. The Maona of Chios and Phocaea has reclaimed what they consider to be theirs, and [ShowLocationName('chios')] is once again under [GetCountry('GEN').GetAdjectiveWithNoTooltip] control."
- flavor_gen.51.desc_aegean: "Taking advantage of the turmoil brought about by our succession crisis, the [GetCountry('GEN').GetLongName] has seized [ShowLocationName('chios')] along with its neighbouring islands. The Maona of Chios and Phocaea has reclaimed what they consider to be theirs, and the eastern Aegean is once again under [GetCountry('GEN').GetAdjectiveWithNoTooltip] control."
+ flavor_gen.51.desc_aegean: "Taking advantage of the turmoil brought about by our succession crisis, the [GetCountry('GEN').GetLongName] has seized [ShowLocationName('chios')] along with its neighboring islands. The Maona of Chios and Phocaea has reclaimed what they consider to be theirs, and the eastern Aegean is once again under [GetCountry('GEN').GetAdjectiveWithNoTooltip] control."
  flavor_gen.51.a: "This is a grave loss."
+
+ flavor_gen.52.title: "The Grimaldi Bank"
+ flavor_gen.52.entry: "$flavor_gen.52.title$"
+ flavor_gen.52.desc: "The noble house of [GetDynasty('grimaldi_dynasty').GetName] has long been prominent in the affairs of [ROOT.GetCountry.GetName], their network of connections spanning the courts of Europe. Now, members of the family led by [target_character.GetName] wish to establish a formal banking house in [grimaldi_bank_hq.GetName], pooling their resources and credit to provide financial services to merchants, nobles, and monarchs alike."
+ flavor_gen.52.historical_info: "The Grimaldi were one of the great #italic alberghi#! of Genoa — powerful noble families that dominated Genoese politics and commerce. As bankers, they extended credit across Europe, providing loans to the courts of France, Castile, and the papacy. Their reach and influence were so great that the family name became synonymous with Genoese financial power during the 15th and 16th centuries."
+ flavor_gen.52.a: "Their wealth shall strengthen us."
+ flavor_gen.52.b: "Let us see what fortune brings!"
+
+ flavor_gen.53.title: "$flavor_gen.52.title$"
+ flavor_gen.53.desc: "Our banking house is now open in the heart of [GetCountry('GEN').GetName]. The coffers of nobles, merchants, and princes await our management, and we shall prove ourselves worthy of their trust."
+ flavor_gen.53.a: "The ledgers are open."
+
+ flavor_gen.54.title: "The Spinola Bank"
+ flavor_gen.54.entry: "$flavor_gen.54.title$"
+ flavor_gen.54.desc: "The [GetDynasty('spinola_dynasty').GetName] family, one of the most powerful noble families of [ROOT.GetCountry.GetName], has long wielded influence over both the [ROOT.GetCountry.GetFlavorRank]'s commerce and its politics. Their representatives now propose to consolidate their financial activities into a formal banking house in [spinola_bank_hq.GetName], offering credit and financial services that could rival the great banks of the continent."
+ flavor_gen.54.historical_info: "The Spinola were among the most distinguished of Genoa's #italic alberghi#!, the powerful noble families that shaped the republic's destiny. As bankers, they financed the Spanish Habsburgs extensively, enabling their military campaigns across Europe. Ambrogio Spinola, their most famous son, became a celebrated general in Spanish service — a career made possible by his family's vast financial resources and connections."
+ flavor_gen.54.a: "Their networks will enrich us."
+ flavor_gen.54.b: "Let their coffers grow alongside ours!"
+
+ flavor_gen.55.title: "$flavor_gen.54.title$"
+ flavor_gen.55.desc: "The [ROOT.GetCountry.GetName] banking house is now established in [GetCountry('GEN').GetName]. With our extensive connections to the courts of Europe and the great trading houses of the Mediterranean, we are well positioned to become indispensable to all who seek financial backing."
+ flavor_gen.55.a: "Wealth flows to the bold."
+
+ flavor_gen.56.title: "The Pallavicino Bank"
+ flavor_gen.56.entry: "$flavor_gen.56.title$"
+ flavor_gen.56.desc: "The [GetDynasty('pallavicini_dynasty').GetName], another of [ROOT.GetCountry.GetName]'s great noble houses, have built their fortune through trade and diplomacy. Now they seek to formalize their financial activities by establishing a banking house in [pallavicino_bank_hq.GetName], one that can channel their resources and connections into profitable ventures for both themselves and the [ROOT.GetCountry.GetFlavorRank]."
+ flavor_gen.56.historical_info: "The Pallavicino were a prominent Genoese noble family and one of the influential #italic alberghi#! of the republic. They were active in banking and trade across the Mediterranean and northern Europe, providing credit to the Spanish crown and other monarchs. Their banking activities helped sustain the flow of capital that made Genoa one of the financial capitals of early modern Europe."
+ flavor_gen.56.a: "Our wealth grows with each new bank."
+ flavor_gen.56.b: "Fortune favors the bold!"
+ flavor_gen.57.title: "$flavor_gen.56.title$"
+ flavor_gen.57.desc: "Our banking house is now open in [GetCountry('GEN').GetName]. The name of [GetDynasty('pallavicini_dynasty').GetName] has always stood for reliability and excellence, and we shall ensure that our [ROOT.GetCountry.GetFlavorRank] lives up to that reputation."
+ flavor_gen.57.a: "Prosperity is ours to claim."

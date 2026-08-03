@@ -9,6 +9,7 @@
  flavor_khm.1001.desc: "[ShowBuildingTypeName('khmer_baray')]は無惨にも荒れ果ててしまった。民が頼りにしていた広大な貯水地は、もはや役に立たない。"
  flavor_khm.1001.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
  flavor_khm.1001.a.entry: "$common_string_curses$"
+ variable_khm_baray_in_disrepair_tt: "[ShowLocationName('angkor')]のバライ（人工水域）が荒廃している"
  flavor_khm.1100.title: "[target_art.GetNameWithNoTooltip]の喪失"
  flavor_khm.1100.entry: "包囲されたエメラルド仏"
  flavor_khm.1100.desc: "[target_location.GetName]包囲戦の際、非常に貴重な[target_art.GetName]を[siege_leader.GetName]の部隊に奪われた。我らが信仰の象徴ともいえるあの美しい像を失うとは、嘆かわしいばかりである……"
@@ -16,4 +17,4 @@
  flavor_khm.1100.a.entry: "$common_string_this_is_disappointing$"
  flavor_khm.1101.title: "[target_io.GetNameWithNoTooltip]の獲得"
  flavor_khm.1101.desc: "[target_location.GetName]包囲戦において、我々は[target_art.GetName]と呼ばれる美しい芸術作品を手に入れた。その名高い像はいま、わが首都へ運ばれており、今後は[ROOT.GetCountry.GetCapital.GetName]に安置されることになる。"
- flavor_khm.1101.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_khm.1101.a: "$common_string_brilliant$"

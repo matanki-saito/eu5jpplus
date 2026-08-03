@@ -1,7 +1,7 @@
 ﻿l_japanese:
  hre.privilege_revoked.intro_desc: "西暦[GetCurrentYear]年、最も偉大なるアウグストゥス、神により戴冠されたるローマ帝国皇帝[target_character.GetName]が、[GetUniqueInternationalOrganization('hre').GetName]の諸侯を再び招集した。"
  hre.100.title: "特権を剥奪"
- hre.100.desc: "$hre.privilege_revoked.intro_desc$帝国議会は、すべての構成国を[GetUniqueInternationalOrganization('hre').GetLeaderTitle]の直属の臣下とし、外交政策と戦争行動を中央集権化する動議に同意した。"
+ hre.100.desc: "$hre.privilege_revoked.intro_desc$帝国議会は、すべての構成国が[GetUniqueInternationalOrganization('hre').GetLeaderTitle]に対して自治権を放棄し、外交政策と戦争行動を中央集権化する動議に同意した。"
  hre.100.a: "忠誠の誓いを要求する。"
  hre.100.ctt: "[GetUniqueInternationalOrganization('hre').GetName]の全メンバーが、#g 忠誠の誓い#!を立てるか、帝国から#r 離脱#!しなければならない！ [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]に含まれるわが国の[owned|e][locations|e]のなかで、拒否するものは[GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip]を離れ、[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]の[core|e]となる"
  hre.101.title: "特権を剥奪"
@@ -39,7 +39,7 @@
  hre.900.desc.default: "選帝侯が引き続き我々を支持することを決定し、帝冠は変わらず[GetUniqueInternationalOrganization('hre').GetLeaderCountry.GetName]のものとなる。わが国が皇帝の座を握り、諸侯が我々を帝冠の当然の保有者とみなすようになれば、[GetUniqueInternationalOrganization('hre').GetName]における我々の権威が高まるだろう。"
  hre.900.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  hre.imperial_authority_change.tt: "[GetUniqueInternationalOrganization('hre').GetName]が#Y $imperial_authority$#!を[ROOT.GetVariable('imperial_authority_change').GetValue|+2]得る"
- hre.imperial_authority_change_action.tt: "[GetUniqueInternationalOrganization('hre').GetName]が#Y $imperial_authority$#!を[ROOT.GetVariable('imperial_authority_change_action').GetValue|+2]得る"
+ hre.imperial_authority_change_action.tt: "[GetUniqueInternationalOrganization('hre').GetName]が#Y $imperial_authority$#!を$VALUE|+2$得る"
  hre.901.title: "諸侯の復活"
  hre.901.desc: "[released_country.GetName]は不死鳥のごとく灰から蘇り、[GetUniqueInternationalOrganization('hre').GetName]の諸侯に復帰した！"
  hre.901.a: "[ROOT.GetCountry.Custom('common_string_positive')]"

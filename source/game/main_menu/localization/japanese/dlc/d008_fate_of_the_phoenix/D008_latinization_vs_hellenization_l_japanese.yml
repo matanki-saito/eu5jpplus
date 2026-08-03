@@ -39,7 +39,7 @@
  latinization_vs_hellenization.8.desc: "[ROOT.GetCountry.GetCapital.GetName]の役人たちは、[target_province.GetName]のような属州を全面的に再編し、管轄区分と行政を我らの文化的・政治的中枢にいっそう近づける案を提起した。この計画は統制の強化を確約する一方で、長らく保たれてきた地方の均衡を乱すおそれもある。"
  latinization_vs_hellenization.8.a: "いかなる代償を払おうとも、新たな秩序を押し通せ。"
  latinization_vs_hellenization.8.b: "地方の旧来の取り決めを尊重し、その不安を和らげよう。"
- pops_in_selected_provinces_will_gain_mild_bonus_satisfaction_tt: "影響を受ける[provinces|e]にいるわが国の[pops|e]の満足度が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]増加する"
+ pops_in_selected_provinces_will_gain_mild_bonus_satisfaction_tt: "影響を受ける[provinces|e]にいるわが国の[pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_bonus')|+=2%]増加する"
  latinization_vs_hellenization.9.title: "[target_character.GetShortNameWithNoTooltip]の教育"
  latinization_vs_hellenization.9.desc: "[target_character.GetName]が成年に近づくにつれ、その教育方針をめぐって教師や廷臣たちの対立が深まっている。どの言語を用い、どの書物を読ませ、誰を師とするか——いずれを選ぶにせよ、それは[ROOT.GetCountry.GetName]の将来のあり方をめぐる代理戦となりかねない。"
  latinization_vs_hellenization.9.a: "[target_character.GetShortNameWithNoTooltip]の教育は、明確な方針に基づき、熟慮のうえで進めねばならない。"

@@ -60,6 +60,7 @@
  flavor_kbo.13.entry: "カネムの再征服"
  flavor_kbo.13.desc: "我々は祖先の地である[ShowProvinceDefinitionName('kanem_province')]を追われ、かつての栄光を奪われる屈辱を味わったが、決して屈することはなかった。[ShowProvinceDefinitionName('kanem_province')]と[ShowLocationName('njimi')]の地を取り戻したいま、再び栄えある国家として、チャド湖周辺を治める支配者となれるだろう。"
  flavor_kbo.13.a: "我々に栄光あれ！"
+ variable_kbo_lost_kanem_tt: "[ShowProvinceDefinitionName('kanem_province')]を失った"
  flavor_kbo.14.title: "チャド湖と$kanembu_culture$交易"
  flavor_kbo.14.entry: "$flavor_kbo.14.title$"
  flavor_kbo.14.desc: "わが国民は何世紀にもわたり、各地の水域の恵みを享受してきた。領内の砂漠には、命の源となる貴重な水域が点在し、商人や地元民の糧となっている。チャド湖周辺の支配が広がるにつれ、湖岸での商業活動から得られる収益も増加している。"

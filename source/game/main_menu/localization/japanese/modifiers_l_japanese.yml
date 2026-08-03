@@ -1,8 +1,8 @@
 ﻿l_japanese:
- # Types
+ #Types
  MODIFIER_NONE: "なし"
  MODIFIER_ABSTAIN: "棄権"
- # Generic
+ #Generic
  less_left_than_right: "$RIGHT|Y$より$LEFT|Y$ではない"
  no_more_left_than_right: "$RIGHT|Y$と同様$LEFT|Y$である"
  more_left_than_right: "$RIGHT|Y$より$LEFT|Y$である"

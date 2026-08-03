@@ -40,7 +40,7 @@
  lutheranism_events.11.b: "彼らを冒涜の罪により裁き、処刑せよ。"
  lutheranism_events.11.c: "実に残念なことだ……"
  lutheranism_events.12.title: "宮廷のカトリック信者"
- lutheranism_events.12.desc: "[target_character.GetName]は鋭い知性の持ち主として知られる。宮廷におけるその存在は、わが国の威厳を高める効果があるだろう。しかし、[target_character.GetNameWithNoTooltip]は忠実な[ShowReligionName('catholic')]信者でもあり、宮廷に仕えることを条件に信仰を認められている。[ROOT.GetCountry.GetName]の教会が[ROOT.GetCountry.GetGovernment.GetRuler.GetName]を批判するなどもってのほかだが、[ROOT.GetCountry.GetCapital.GetName]の街では、[target_character.GetNameWithNoTooltip]が[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]に危険なカトリックの思想を植えつけようとしているという噂が立っている。"
+ lutheranism_events.12.desc: "[target_character.GetName]は鋭い知性の持ち主として知られる。宮廷におけるその存在は、わが国の威厳を高める効果があるだろう。しかし、[target_character.GetNameWithNoTooltip]は忠実な[ShowReligionAdjective('catholic')]信者でもあり、宮廷に仕えることを条件に信仰を認められている。[ROOT.GetCountry.GetName]の教会が[ROOT.GetCountry.GetGovernment.GetRuler.GetName]を批判するなどもってのほかだが、[ROOT.GetCountry.GetCapital.GetName]の街では、[target_character.GetNameWithNoTooltip]が[ROOT.GetCountry.GetGovernment.GetRuler.GetNameWithNoTooltip]に危険なカトリックの思想を植えつけようとしているという噂が立っている。"
  lutheranism_events.12.a: "好きに言わせておけ。"
  lutheranism_events.12.b: "この者を宮廷から追放しろ。"
  lutheranism_events.13.title: "カルヴァン主義の影響"

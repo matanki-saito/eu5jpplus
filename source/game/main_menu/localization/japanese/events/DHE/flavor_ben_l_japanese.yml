@@ -21,6 +21,7 @@
  flavor_ben.4.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]に対する我々の行動により、彼らは団結し、[target_character.GetName]に対抗するために立ち上がった。そして[target_character.GetName]の影響力を排除し、[ROOT.GetCountry.GetFlavorRank]を自分たちの手に取り戻そうとしている。これは実に危機的な状況だが、[target_character.GetNameWithNoTooltip]の支持者は立ち上がるべきか、それとも[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]の要求に屈するべきなのだろうか？"
  flavor_ben.4.a: "武器を取れ！"
  flavor_ben.4.b: "正しいのは彼らかもしれない……"
+ variable_ben_upset_nobility_flag_tt: "[ShowEstateTypeName('nobles_estate')]が憤慨"
  ben_all_nobles_join_revolt: "すべての[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]が[target_rebel.GetName]に加わる"
  uzama_revolt: "ウザマの反乱"
  flavor_ben.5.title: "[ROOT.GetCountry.GetNameWithNoTooltip]内の情勢不穏"

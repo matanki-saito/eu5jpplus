@@ -1,5 +1,5 @@
 ﻿l_japanese:
- # Types
+ #Types
  shrine: "神社"
  shrine_desc: "$shrine$は信仰上重要な場所に建てられる。そして、その場所の神聖性を保護しつつ、崇拝を慣例化する。"
  mountain: "山"
@@ -16,7 +16,7 @@
  islam_holy_site_desc: "[ShowReligionGroupAdjective('muslim')]を信仰するすべての人にとっての重要な[holy_site|e]。"
  orthodox_church_holy_site: "正教会の聖地"
  orthodox_church_holy_site_desc: "[ShowReligionName('orthodox')]を信仰するすべての人にとっての重要な[holy_site|e]。"
- # Sites
+ #Sites
  ise_grand_shrine: "伊勢神宮"
  izumo_taisha: "出雲大社"
  mount_kouya: "高野山"
@@ -284,7 +284,7 @@
  kulpakji_temple: "クルパクジ寺院"
  shankhapur_temple: "シャンクハプール寺院"
  muktagiri_temples: "ムクタギリの寺院群"
- # Hellenism
+ #Hellenism
  delphi: "デルポイ"
  olympia: "オリンピア"
  telesterion: "テレステリオン"

@@ -29,4 +29,4 @@
  flavor_dan_skane_war.6.b: "提案を拒否しろ！"
  flavor_dan_skane_war.7.title: "[GetCountry('SWE').GetNameWithNoTooltip]が提案を受諾"
  flavor_dan_skane_war.7.desc: "[GetCountry('SWE').GetName]は、[GetCountry('SKE').GetName]の領有権購入の提案を受け入れた。いくつかの手続きはまだ進行中だが、条約は批准され、すでに発効している。"
- flavor_dan_skane_war.7.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
+ flavor_dan_skane_war.7.a: "$common_string_brilliant$"

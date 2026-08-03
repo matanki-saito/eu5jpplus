@@ -80,7 +80,7 @@
  flavor_bav.24.desc: "[ShowLocationName('garmisch')]近郊の小さな村にある[ShowBuildingTypeName('scriptorium')]は、優れた写字生や画家で知られている。最近、この修道院を揺るがす衝撃的な事件が起こった。ある小領主が、敷地内で殺害されたのだ。幸いなことに、作品の制作のために村に滞在していた[target_artist.GetName]が捜査に協力してくれた。芸術の才能と、物事を探る鋭い知性が融合したこのような人物は、わが国にとって素晴らしい人材となるに違いない。"
  flavor_bav.24.a: "いますぐ[target_artist.GetNameWithNoTooltip]をここへ！"
  flavor_bav.24.a.entry: "いますぐ彼をここへ！"
- flavor_bav.24.b: "[target_artist.GetSheHe|U]は放っておいても大成するだろう。"
+ flavor_bav.24.b: "彼は放っておいても大成するだろう。"
  flavor_bav.25.title: "[GetCurrentYear]年のビール純粋令"
  flavor_bav.25.entry: "今年のビール純粋令"
  flavor_bav.25.desc: "[GetCurrentYear]年、[target_country.GetName]の[target_ruler.GetName]が[target_country.GetFlavorRank]全体の[ShowGoodsName('beer')]の醸造を規定する新たな法律、「ビール純水令」を制定した。[target_country.GetGovernment.GetRulerTitle]は[target_country.GetAdjectiveWithNoTooltip]ビールの品質を保証し、有害な添加物から国民を守ることを目的として、原料を大麦、ホップ、水に限定した。この法律は、より美味な[ShowGoodsNameWithNoTooltip('beer')]を確実に製造するだけでなく、価格を安定させ、[GetInternationalOrganization('hre').GetName]全体における[target_country.GetAdjectiveWithNoTooltip]ビールの評判を高めることにもなるはずだ。"

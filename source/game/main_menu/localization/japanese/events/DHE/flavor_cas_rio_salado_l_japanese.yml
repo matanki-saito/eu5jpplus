@@ -26,6 +26,7 @@
  flavor_cas_rio_salado.6.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_cas_rio_salado.6.a.entry: "$common_string_brilliant$"
  flavor_cas_rio_salado.6.b: "資金に余裕がない。"
+ variable_won_battle_of_rio_salado_tt: "リオ・サラドの戦いで勝利した"
  flavor_cas_rio_salado.7.title: "記念すべき勝利"
  flavor_cas_rio_salado.7.entry: "$flavor_cas_rio_salado.7.title$"
  flavor_cas_rio_salado.7.desc: "戦利品を手に入れた我々は、[GetCountry('MOR').GetAdjective]軍に対する勝利を記念して、[ShowLocationName('valladolid')]の地域に立派な[ShowBuildingTypeName('monastery')]を建てる機会を得た。クララ会に捧げられるこの修道院は、我々の輝かしい勝利の記憶として完璧なものになるはずだ。"

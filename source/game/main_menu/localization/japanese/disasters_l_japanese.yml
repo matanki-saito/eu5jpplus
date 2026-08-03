@@ -145,7 +145,7 @@
  #Monthly Pulse
  fire_event_4_tt: "[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]が納税を拒否する[event|e]が発生する可能性がある"
  fire_event_5_tt: "わが国の各[provinces|e]の[prosperity|e]が低下する[event|e]が発生する可能性がある"
- # Decline of Majapahit
+ #Decline of Majapahit
  #Disaster
  decline_of_majapahit: "$MAJ$の衰退"
  decline_of_majapahit_desc: "わが[GetCountry('MAJ').GetFlavorRank]の繁栄が、かつての面影を失いつつある。王朝内の抗争に悩まされるこの弱体の時期は、侵略の好機を待ち望む多くの隣国によって待ち望まれていたものだ。そしていま、[ShowRegionName('indonesia_region')]における[ShowReligionGroupName('muslim')]国家の台頭によりわが国の地位は容易に失墜しかねず、そうなれば忘れ去られた帝国のための奈落に落ちるだけである……"
@@ -275,3 +275,6 @@
  robber_barons_spread_tt: "泥棒男爵は影響力を拡大している"
  robber_barons_stay_put_tt: "泥棒男爵は鳴りを潜めている"
  TURMOIL_IN_BRANDENBURG_DISASTERS_MODIFIERS_TT_LIST: "[disaster|e]の発生中、この国家は以下を得る："
+ #Twilight of the Tsardom
+ twilight_of_the_tsardom: "[ShowGovernmentReformNameWithNoTooltip('tsardom')]の衰退"
+ twilight_of_the_tsardom_desc: "イヴァン・アセン2世の逝去以来、[GetCountry('BUL').GetName]はその統治力が弱まるなか、貴族の内部抗争に悩まされながら外国の侵略に抗ってきた。国内の分断と外部の脅威という二つの問題を抱える[GetCountry('BUL').GetFlavorRank]はいま、非常に危険な衰退期にあり、生まれ変わるか、過去の遺物として崩壊するかの二択を迫られている。"

@@ -36,7 +36,7 @@
  succession_crisis.8.title: "魅力的なわが王朝の歴史"
  succession_crisis.8.desc: "昼夜を問わずに働きつづけた[target_character2.GetName]が、[target_dynasty.GetName]王朝の多くの輝かしい瞬間を描いた素晴らしい文学作品を生み出した。これは我々の偉大さ、栄光、そして芸術を尊ぶ心を反映した作品であり、わが国の優れた文化の新たな証でもある。それと同時に、わが国の歴史を記憶にとどめ、[target_character1.GetName]の王位を奪おうとするすべての者から未来を守る力もあるだろう。"
  succession_crisis.8.a: "この作品が権力を維持してくれることを期待しよう。"
- scales_with_art_quality_tt: "増加する[legitimacy|e]は、[target_characterGetNameWithNoTooltip]によるこの[work_of_art|e]の品質で大きく変動する"
+ scales_with_art_quality_tt: "増加する[legitimacy|e]は、[target_character.GetNameWithNoTooltip]によるこの[work_of_art|e]の品質で大きく変動する"
  succession_crisis.9.title: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]からの支援"
  succession_crisis.9.desc: "わが[ROOT.GetCountry.GetFlavorRank]内で[succession_crisis_pretender_scope.GetName]の動きが勢いを増しており、国は崩壊の瀬戸際に立たされている。かつて我らの王位を支持していた[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]も、勢いを増すこの反乱がもたらす危険に覚悟せざるを得なくなった。[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]の多くは、自らの土地と特権が[ROOT.GetCountry.GetGovernment.GetAdjective]の王朝の存続にかかっていることを理解しており、それゆえに一部の派閥が我々を守るために立ち上がった。彼らは従者や忠実な私兵とともに、僭称者の軍勢に対抗するための支援を申し出ている。しかし見返りとして、我々の統治に対するより大きな影響力を望んでいる。"
  succession_crisis.9.a: "わが国には彼らが必要だ。"

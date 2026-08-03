@@ -60,6 +60,7 @@
  flavor_teu.12.b: "彼らにも参入させよう。"
  flavor_teu.12.c: "代わりに独占権を[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]に与える。"
  flavor_teu.12.c.entry: "代わりに独占権を$peasants_estate$に与える。"
+ governmental_monopoly_renewed: "政府による専売の復活"
  flavor_teu.13.title: "[target_character.GetNameWithNoTooltip]"
  flavor_teu.13.entry: "隠遁者、モンタウのドロテーア"
  flavor_teu.13.desc: "[target_character.GetName]という隠遁者が、その幻視により国中で名を知られるようになったとの報せが届いた。[target_character.GetShortNameWithNoTooltip]は生涯のうちに数多くの啓示を体験し、それが[ROOT.GetCountry.GetLongName]全土の注目を集めているそうだ。しかし、その幻視を偽りとみなす者もいれば、真実だと信じる者、果ては彼女を魔女として火刑に処すことを望む者すらいる。\n\n[target_character.GetNameWithNoTooltip]はすでに一度の魔女裁判を生き延びているが、それでもなお彼女を敵視する者たちは新たな裁判を求めつづけている。"

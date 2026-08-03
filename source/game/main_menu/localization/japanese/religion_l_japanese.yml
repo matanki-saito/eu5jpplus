@@ -41,6 +41,7 @@
  convert_religion_select_religion: "改宗後の[religion|e]を選択"
  convert_religion_tt: "対象の[religion|e]は[SCOPE.sCountry('actor').GetReligion.GetGroup.GetName]に属しているか、わが国での信者人口が#Y 40.0%#!を超えている"
  no_convert_religion_tt: "@trigger_fail![SCOPE.sCountry('actor').GetReligion.GetGroup.GetName]に属しているか、あるいはわが国での信者人口が#Y 40.0%#!を超えていて、選択可能である[religion|e]が存在しない"
+ theocracy_subject_cannot_convert_tt: "@trigger_fail!わが国は神権国家の神権制従属国である"
  change_liturgical_language: "典礼言語を変更"
  change_liturgical_language_desc: "わが国の[liturgical_language|e]を変更する"
  change_liturgical_language_select_dailect: "新しい[dialect|e]を選択"
@@ -49,7 +50,7 @@
  orthodox_synod: "正教会のシノド"
  orthodox_synod_desc: "聖シノドを招集する。聖シノドは教会の最高権威であり、教会の組織、信仰、礼拝手順に関する規則や規律を制定する。"
  periphora: "ペリフォラ"
- periphora_desc: "ペリフォラ（ギリシャ語で「行列」の意）を実施する。ペリフォラではイコン『[work_of_art|e]』を運び出し、別の[location|e]に移動させる。イコンは道中の各ロケーションに約1ヵ月間滞在し、移動中はそれらのロケーションに芸術品質ボーナスをもたらす。進行状況は、「芸術作品」マップモードで確認できる。"
+ periphora_desc: "ペリフォラ（ギリシャ語で「行列」の意）を実施する。ペリフォラではイコン『[work_of_art|e]』を運び出し、別の[location|e]に移動させる。イコンは最終的な安置場所に到着するまでの道中、すべての通過ロケーションに恩恵をもたらす。"
  periphora_select_icon: "ペリフォラを開始するイコンを選択"
  periphora_select_destination: "ペリフォラの最終目的地を選択"
  PERIPHORA_NAME: "[LOCATION.GetName]から[TARGET_LOCATION.GetName]までの『[WORK_OF_ART.GetName]』のペリフォラ"
@@ -543,7 +544,7 @@
  adopt_ometeotl_desc: "わが国の宗教は多神教だが、上流階級では「オメテオトル」と呼ばれる唯一無二の全能の神を崇拝する習慣が一般化している。この神は、あらゆる神々の性質を併せ持っており、ほかの神々はこれらの性質をそれぞれ具象化した存在にすぎない。我々は「オメテオトル」を唯一の神として採用する。"
  elevate_patron_god: "守護神を昇格"
  elevate_patron_god_desc: "[ShowCultureName('nahua_culture')]諸国は通常、一柱の神をほかの神々より重んじ、自国の守護神として崇めている。我々は自国の守護神を信仰の中心に据えるだけでなく、その地位を我々の宗教の主神に高めることとする。"
- ruler_or_regent_total_abilities: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName] [total_ability|e]"
+ ruler_or_regent_total_abilities: "[ROOT.GetCountry.GetGovernment.GetRulerOrRegent.GetName]の[total_ability|e]"
  establish_cihuacoatl: "シワコアトルの役職を設置"
  establish_cihuacoatl_desc: "「シワコアトル（「蛇の女」の意）」の役職を設置する。この役職は宰相のような役割を果たし、統治者は「シワコアトル」に都市の統治を任せることで、より重要なほかの問題に専念できる。"
  expand_cuahpipiltin: "クアーピピルティンの拡大"
@@ -705,6 +706,7 @@
  reform_society_action_desc: "わが国の敵から民を守るため、わが国の社会を大きく改革する時が来た。時代遅れとなった過去の信仰や統治手法は捨て、これから訪れる激動の時代を超えて、未来を迎え入れるのだ。"
  commence_reform_society_disaster_tt: "[disaster|e]「[ShowDisasterName('reform_society')]」を#R 開始する#!#Y 成功すると以下が起こる可能性がある：#!"
  eligible_for_reform_society_disaster_tt: "わが国は[action|e]「[ShowGenericActionName('reform_society_action')]」を実施した"
+ reform_society_already_triggered_tt: "わが国は[action|e]「[ShowGenericActionName('reform_society_action')]」を実施済み"
  #Inti
  inti_ceremonial_festivals: "儀式を開催"
  inti_ceremonial_festivals_desc: "儀式的な祝祭が毎月執りおこなわれる。祝祭のテーマは毎回異なる。今回、わが国は政府の力を投じ、通常よりも盛大に開催する。"
@@ -939,9 +941,9 @@
  god_monarch_power_desc_adm: "この[GOD.GetGodOrGoddessWithNoTooltip]は、[adm_short_with_icon|e][ability|e]に関連している。"
  god_monarch_power_desc_dip: "この[GOD.GetGodOrGoddessWithNoTooltip]は、[dip_short_with_icon|e][ability|e]に関連している。"
  god_monarch_power_desc_mil: "この[GOD.GetGodOrGoddessWithNoTooltip]は、[mil_short_with_icon|e][ability|e]に関連している。"
- OMEN_POWER_MODIFIER_RULER_adm: "[RULER.GetShortName]の[adm_short_with_icon|e][ability|e]：$VAL|%+=2$"
- OMEN_POWER_MODIFIER_RULER_dip: "[RULER.GetShortName]の[dip_short_with_icon|e][ability|e]：$VAL|%+=2$"
- OMEN_POWER_MODIFIER_RULER_mil: "[RULER.GetShortName]の[mil_short_with_icon|e][ability|e]：$VAL|%+=2$"
+ OMEN_POWER_MODIFIER_RULER_adm: "[RULER.GetShortName]の[adm_short_with_icon|e][ability|e]：$VAL|%2Y$"
+ OMEN_POWER_MODIFIER_RULER_dip: "[RULER.GetShortName]の[dip_short_with_icon|e][ability|e]：$VAL|%2Y$"
+ OMEN_POWER_MODIFIER_RULER_mil: "[RULER.GetShortName]の[mil_short_with_icon|e][ability|e]：$VAL|%2Y$"
  OMEN_POWER_SCALE_BREAKDOWN_RULER_adm: "$RULER_NAME$の[adm_short_with_icon|e][ability|e]：$VAL|%+=2$"
  OMEN_POWER_SCALE_BREAKDOWN_RULER_dip: "$RULER_NAME$の[dip_short_with_icon|e][ability|e]：$VAL|%+=2$"
  OMEN_POWER_SCALE_BREAKDOWN_RULER_mil: "$RULER_NAME$の[mil_short_with_icon|e][ability|e]：$VAL|%+=2$"
@@ -985,7 +987,7 @@
  mama_cocha_desc: "[ShowGodName('mama_cocha')]は[ShowRegionName('andes_region')]の人々の海の女神である。"
  urpihuachac_god: "ウルパイ・ワチャック"
  urpihuachac_god_desc: "[ShowGodName('urpihuachac_god')]は[ShowRegionName('andes_region')]の人々の鳥と魚の母である。"
- # Hellenistic
+ #Hellenistic
  zeus_god: "ゼウス"
  zeus_god.latin_language: "ユーピテル"
  zeus_god_desc: "[ShowGodNameWithNoTooltip('zeus_god')]はオリンポスの神々の王であり、天空、雷、法、宇宙の秩序を司る。"
@@ -1010,7 +1012,7 @@
  athena_god.latin_language: "ミネルウァ"
  athena_god_desc: "[ShowGodNameWithNoTooltip('athena_god')]は知恵、戦略、そして規律ある戦いを司る女神である。"
  athena_god_omen: "まるで知恵そのものが席に着いたかのごとく、評議会と指揮官たちに、突如として明晰さが訪れる。計画は一致し、争いは鎮まり、フクロウの鳴き声が不気味なほどの確信を帯びて夜を貫く。[ShowGodName('athena_god')]が我らに御加護を与えているに違いない。"
- # Norse
+ #Norse
  #aesirs
  odin_god: "オーディン"
  odin_god_desc: "$odin_god$はアース神族の主である。知恵の代償として片目を差し出し、ルーン文字を創るために世界樹に九日九夜吊るされた。"
