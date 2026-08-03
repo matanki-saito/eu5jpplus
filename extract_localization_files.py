@@ -254,8 +254,8 @@ def git_commit_and_push(repo_dir, commit_message, token):
 
 def read_branch_values(base_dir):
     # 読み込むファイル名
-    caesar_file = os.path.join(base_dir, "caesar_branch.txt")
-    clausewitz_file = os.path.join(base_dir, "clausewitz_branch.txt")
+    caesar_file = os.path.join(base_dir, "game\\loading_screen\\caesar_branch.txt")
+    clausewitz_file = os.path.join(base_dir, "game\\loading_screen\\clausewitz_branch.txt")
 
     # ファイル読み込み
     def read_file(path):
@@ -341,7 +341,11 @@ def main():
         "caesar_branch.txt",
         "caesar_rev.txt",
         "clausewitz_branch.txt",
-        "clausewitz_rev.txt"
+        "clausewitz_rev.txt",
+        "game\\loading_screen\\caesar_branch.txt",
+        "game\\loading_screen\\caesar_rev.txt",
+        "game\\loading_screen\\clausewitz_branch.txt",
+        "game\\loading_screen\\clausewitz_rev.txt"
     ]
 
     copy_items_from_base(STEAM_GAME_DIR, items_to_copy, SOURCE_DIR)
