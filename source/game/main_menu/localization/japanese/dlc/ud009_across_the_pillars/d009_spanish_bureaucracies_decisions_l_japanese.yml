@@ -1,0 +1,13 @@
+﻿l_japanese:
+ spa_seize_control_of_the_orders.title: "諸修道会の所領を接収せよ"
+ spa_seize_control_of_the_orders.desc: "[ShowRegionName('iberia_region')]の宗教騎士修道会は、ムスリムの脅威を押し返し、半島における我らの支配を再確立する上で重要な役割を果たしてきた。しかし、#italicレコンキスタ#!が今や成し遂げられた以上、これらの修道会を我が政府の直接統治下に置き、戦士や騎士としてではなく、政治家や統治者としての新たな使命へと導かねばならない。"
+ spa_seize_control_of_the_orders.a: "彼らの所領をすべて接収する！"
+ spa_seize_control_of_the_orders.b: "大半の土地はそのまま彼らに保持させる。"
+ establish_council_of_military_orders_tt: "[ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')]の創設"
+ established_council_of_military_orders_tt: "決断「$spa_seize_control_of_the_orders.title$」により、[ShowBureaucracyTypeName('spa_council_of_military_orders_bureaucracy')] を創設した。"
+ spa_council_of_crusade_decision.title: "$spa_council_of_crusade_bureaucracy$の創設"
+ spa_council_of_crusade_decision.desc: "異国の地であろうとも、我らが信仰の防衛は最高権威の祝福を受けねばならない。[pope]の承認を得て、我らは[ShowReligionAdjective('catholic')]信仰の最初の砦となるのだ！"
+ spa_council_of_crusade_decision.a: "教皇の承認を求める。"
+ establish_council_of_crusade_tt: "[ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')]の創設"
+ established_council_of_crusade_tt: "決断「$spa_council_of_crusade_decision.title$」により、[ShowBureaucracyTypeName('spa_council_of_crusade_bureaucracy')] を創設した。"
+ spa_seize_control_of_the_orders_tt: "Every [location|e] we own in the [ShowRegionName('iberia_region')] will stop being a holding of an Iberian Military [religious_order|e]"

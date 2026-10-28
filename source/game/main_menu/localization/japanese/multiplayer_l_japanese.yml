@@ -1,4 +1,6 @@
 ﻿l_japanese:
+ HOST_SP_SAVE_WARNING_TITLE: "マルチプレイをホスト"
+ HOST_SP_SAVE_WARNING_DESC: "このセーブでマルチプレイのセッションをホストすると、以降はマルチプレイ用のセーブとして扱われ、元に戻すことはできません。\n\nこのセーブでは実績を獲得できなくなります。シングルプレイでゲームを続行しても実績は獲得できません。\n\n本当によろしいですか？"
  RANDOM_COUNT: "ランダムカウント"
  RANDOM_SEED: "ランダムシード値"
  GAMESTATE_CHECKSUM: "Gamestateのチェックサム"

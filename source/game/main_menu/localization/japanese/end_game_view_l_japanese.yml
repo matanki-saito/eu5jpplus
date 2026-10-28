@@ -8,5 +8,8 @@
  CONTINUE_PAST_END_DATE: "プレイを続行"
  CONTINUE_PAST_END_DATE_TOOLTIP: "プレイを続行\nこの先は実績が無効になります"
  END_GAME_VIEW_QUIT_TOOLTIP: "ゲームを終了し、メインメニューに戻る"
+ END_GAME_VIEW_PLAY_TIMELINE: "キャンペーンタイムラインをプレイ"
  END_GAME_VIEW_OBSERVE: "観察"
  END_GAME_VIEW_OBSERVE_TOOLTIP: "観察モードで続行"
+ TOGGLE_LEFT_PANEL: "パネル表示を切り替え"
+ TOGGLE_LEFT_PANEL_DESC: "サイドパネルの表示 / 非表示を切り替える"

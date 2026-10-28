@@ -266,6 +266,7 @@
  lesson_admin_open_goods: "「交易品」タブを開く"
  lesson_admin_open_food: "「食糧」タブを開く"
  lesson_admin_open_buildings: "「建造物」タブを開く"
+ lesson_admin_open_content: "「コンテンツ」パネルを開く"
  lesson_admin_open_missions: "「ミッション」タブを開く"
  lesson_admin_has_mission_active: "経済ミッションを開始"
  ############ DIPLOMACY ############

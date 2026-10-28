@@ -1,0 +1,13 @@
+﻿l_japanese:
+ shurat: "シュラー"
+ ibadi_events.1.title: "$legacy_of_rustamids$"
+ ibadi_events.1.desc: "$legacy_of_rustamids_desc$\n\nかつてのイマーム制の精神を受け継ぎ、[target_character.GetName]が[ShowRegionName('maghreb_region')]を治める初の[ShowPolicyName('ibadi_zuhur_imam_policy')]として推戴された。これにより、信徒たちはもはや[ShowPolicyNameWithNoTooltip('ibadi_kitman_imam_policy')]のもとに置かれることはない。"
+ ibadi_events.1.a: "新たな時代の幕開けだ。"
+ ibadi_events.1.b: "まさに、[ROOT.GetCountry.GetReligion.GetGodName]はわが国に微笑んでいる。"
+ may_adopt_a_different_color: "国家カラーとして「#Y 濃青色#!」を採用できる"
+ rustamids_adopt_different_color: "国家カラーとして「#Y 濃青色#!」を採用する"
+ ibadi_events.2.title: "弱きイマーム"
+ ibadi_events.2.desc: "[target_estate.GetName]において、[ShowPolicyName('ibadi_daif_imam_policy')]として統治する[target_character.GetName]への不満が日に日に高まっている。弱いイマームの統治が認められるのは、共同体が危機にあるあいだだけである。だが[ROOT.GetCountry.GetName]の[ShowReligionAdjective('ibadi')]信徒たちは、もはや脅威にさらされてはいない。"
+ ibadi_events.2.a: "よりふさわしい者をイマームに立てねばならない。"
+ ibadi_weak_imam_penalty_tt: "「[ShowGenericActionName('return_to_zuhur_imamate')]」で[ruler|e]を交代させるまで、[ShowPolicyName('ibadi_daif_imam_policy')]によるペナルティが徐々に増大する"
+ has_penalty_for_weak_imam: "必要な条件を満たさなくなったため、「#Y $ibadi_events.2.title$#!」が発生"

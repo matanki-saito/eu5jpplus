@@ -18,7 +18,7 @@
  freeze_greenland_tt: "[ShowAreaNameWithNoTooltip('greenland_area')]周辺の[seazones|e]は、減衰[modifier|e]「[ShowModifier('encroaching_cold_modifier')]」の影響を受ける"
  winter_events.7.title: "[ShowAreaNameWithNoTooltip('greenland_area')]の枯れた牧草地"
  winter_events.7.desc: "何世紀も前、[ShowAreaName('greenland_area')]に最初に足を踏み入れた勇敢な船乗りや入植者たちは、羊やヤギを持ち込んだ。寒冷な気候ではあったもののまだ牧畜が可能だったため、これらの家畜は島南岸の牧草地で草を食んだ。入植者たちは[ShowGoodsName('wool')]で衣服や毛布などを作り、厳しい環境を生き抜いた。\n\nしかし、この数年はかつてないほどの厳冬に見舞われ、家畜をまともに育てることは難しくなった。田畑は凍りつき、これまで維持してきた家畜の生産ももはや立ち行かない。同時に、かつては堤防を埋め尽くしていた魚の群れも、季節を追うごとに減っている。極寒の[ShowAreaNameWithNoTooltip('greenland_area')]の冬……そこでは色を失ったような陰鬱な暮らしが続くのだ。"
- winter_events.7.historical_info: "#italic 小氷期#!の気温低下、生育期の短縮、そして厳しい冬によって、家畜の維持は困難になった。かつて羊やヤギを養っていた牧草地は、氷と永久凍土の侵食によって縮小しはじめ、それが[ShowGoodsNameWithNoTooltip('wool')]生産量の減少を招いた。同時に、氷の影響で地元での漁獲量が保てなくなり、飢餓が拡大して食料の備蓄も激減した。"
+ winter_events.7.historical_info: "小氷期の気温低下、生育期の短縮、そして厳しい冬によって、家畜の維持は困難になった。かつて羊やヤギを養っていた牧草地は、氷と永久凍土の侵食によって縮小しはじめ、それが[ShowGoodsNameWithNoTooltip('wool')]生産量の減少を招いた。同時に、氷の影響で地元での漁獲量が保てなくなり、飢餓が拡大して食料の備蓄も激減した。"
  winter_events.7.a: "悲劇としか言いようがない。"
  winter_events.8.title: "[target_province_1.GetNameWithNoTooltip]の干ばつ"
  winter_events.8.desc: "最近の気候変動はわが国民にとって好ましいものではない。雨不足と絶え間ない霜によって[target_province_1.GetName]の生態系全体が不安定になり、干ばつが発生している。これは数十年におよぶ厳しい冬に加わった新たな困難であり、多くの作物が育たず飢饉が頻発した。\n\n当然のことながら地元住民は取り乱しており、飢えや早すぎる死から自分と家族を守るために、多くが補償金を要求している。"

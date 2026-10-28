@@ -88,8 +88,8 @@
  ockelbo: "オッケルボ"
  linde: "リンデ"
  grythyttan: "グリッティタン"
- konghalla: "コンガハーラ"
- uddevalla: "ウッデバラ"
+ konghalla: "コンガヘーラ"
+ uddevalla: "オッデバラ"
  stromstad: "ストレムスタード"
  dalaborg: "ダーラボリ"
  amal: "オーモール"
@@ -1188,10 +1188,10 @@
  morgex: "モルジェックス"
  voghera: "ヴォゲーラ"
  lomello: "ロメロ"
- pavia: "パヴィーア"
+ pavia: "パヴィア"
  milano: "ミラノ"
  rho: "ロー"
- legnano: "レグナーノ"
+ legnano: "レニャーノ"
  varese: "ヴァレーゼ"
  monza: "モンツァ"
  treviglio: "トレビリオ"
@@ -1235,7 +1235,7 @@
  rovigo: "ロヴィーゴ"
  este: "エステ"
  monselice: "モンセリーチェ"
- padova: "パドゥア"
+ padova: "パドヴァ"
  vicenza: "ヴィチェンツァ"
  bassano: "バッサーノ"
  schio: "スキオ"
@@ -2717,7 +2717,7 @@
  povazska_bystrica: "ポヴァシュスカー・ビストリツァ"
  trnava: "トルナヴァ"
  prievidza: "プリエヴィッツァ"
- kremnica: "クレムニカ"
+ kremnica: "クレムニツァ"
  zvolen: "ズボレン"
  krupina: "クルピナ"
  salgotarjan: "サルゴタルジャン"
@@ -2784,7 +2784,7 @@
  batchingou: "バッチョウ"
  bauchi: "バウチ"
  begho: "ベゴ"
- benin: "ベナン"
+ benin: "ベニン"
  beyla: "ベイラ"
  bida: "ビーダ"
  bimbia: "ビンビア"
@@ -3655,7 +3655,7 @@
  nizhny_novgorod: "ニジニ・ノヴゴロド"
  rastyapino: "ラスチャピノ" #Dzerzhinsk
  vasilyeva_sloboda: "ワシリエワ・スロボダ" #Chkalovsk
- gorodets: "ゴロジェッツ"
+ gorodets: "ゴロデツ"
  bolshoye_murashkino: "ボリショエ・ムラシュキノ"
  perevoz: "ペレヴォス"
  dalneye_konstantinovo: "ダルネイ・コンスタンチノヴォ"
@@ -4248,207 +4248,207 @@
  caspian_sea38: "カスピ海"
  caspian_sea39: "カスピ海"
  #Arabia
- mecca: "メッカ"
- jeddah: "ジッダ"
- medina: "マディーナ"
- masqat: "マスカット"
- rustaq: "アル＝ルスターク"
- nakhal: "ナウル"
- as_sib: "アッ＝シーブ"
- qalhat: "カルハート"
- sur: "スール"
- masirah: "マーラー"
- ibra: "イブラー"
- nizwa: "ニズワ"
- ibri: "イブリー"
- suhar: "スハール"
- saham: "サハム"
- al_khaburah: "アル＝アブラ"
- shinas: "シナース"
- khor_fakkan: "カー・ファッカーン"
- al_kamil_wal_wafi: "アル＝カーミル"
- bahla: "バーラー"
- sinaw: "シナウ"
- izki: "イズキー"
+ mecca: "メッカ" #مكة
+ jeddah: "ジッダ" #جدة
+ medina: "マディーナ" #المدينة
+ masqat: "マスカット" #مسقط
+ rustaq: "アル＝ルスターク" #الرستاق
+ nakhal: "ナウル" #نخل
+ as_sib: "アッ＝シーブ" #السيب
+ qalhat: "カルハート" #قلهات
+ sur: "スール" #صور
+ masirah: "マーラー" #مصيرة
+ ibra: "イブラー" #إبراء
+ nizwa: "ニズワ" #نزوى
+ ibri: "イブリー" #عبري
+ suhar: "スハール" #صحار
+ saham: "サハム" #صحم
+ al_khaburah: "アル＝アブラ" #الخابورة
+ shinas: "シナース" #شناص
+ khor_fakkan: "カー・ファッカーン" #خورفكان
+ al_kamil_wal_wafi: "アル＝カーミル" #الكامل
+ bahla: "バーラー" #بهلاء
+ sinaw: "シナウ" #سناو
+ izki: "イズキー" #إزكي
  yanqul: "ヤンクル"
- jalan_buani_buali: "ジャアラン・バニー・ブー・アリー"
- julfar: "ジュルファール"
- al_ayn: "アル＝アイン"
- liwa: "リーワー"
- al_dhaid: "アッ＝ザイド"
- sharjah: "アシュ＝シャルジャ"
- abu_dhabi: "アブダビ"
- marawah: "マラワハ"
- sir_bani_yas: "シール・バニー・ヤーズ"
- dubai: "ドゥバイ"
- al_sirrayn: "アッ＝シルライン"
- turbah: "トゥルバー"
+ jalan_buani_buali: "ジャアラン・バニー・ブー・アリー" #جعلان بني بو علي
+ julfar: "ジュルファール" #جلفار
+ al_ayn: "アル＝アイン" #العين
+ liwa: "リーワー" #ليوا
+ al_dhaid: "アッ＝ザイド" #الذيد
+ sharjah: "アシュ＝シャルジャ" #الشارقة
+ abu_dhabi: "アブダビ" #أبو ظبي
+ marawah: "マラワハ" #مروح
+ sir_bani_yas: "シール・バニー・ヤーズ" #صير بني ياس
+ dubai: "ドゥバイ" #دبي
+ al_sirrayn: "アッ＝シルライン" #السرين
+ turbah: "トゥルバー" #تربة
  raghdan: "ラグダン"
- ranyah: "ラニヤ"
- al_qunfudhah: "アル＝クンフダ"
- tabalah: "タバーラ"
- qalat_bishah: "カラー・ビーシャ"
- tanomah: "タノマー"
- bariq: "バーリク"
- hali: "ハリー"
- al_shuqayq: "アル＝シュカイック"
- abha: "アブハー"
- tathlith: "タトリース"
+ ranyah: "ラニヤ" #رنية
+ al_qunfudhah: "アル＝クンフダ" #القنفذة
+ tabalah: "タバーラ" #تبالة
+ qalat_bishah: "カラー・ビーシャ" #قلعة بيشة
+ tanomah: "タノマー" #تنومة
+ bariq: "バーリク" #بارق
+ hali: "ハリー" #حلي
+ al_shuqayq: "アル＝シュカイック" #الشقيق
+ abha: "アブハー" #أبها
+ tathlith: "タトリース" #تثليث
  barahrah: "バラーフラ"
- muhayil: "ムハイル"
+ muhayil: "ムハイル" #محايل
  abil: "アビル"
- khaybar_janoub: "ハイバル・アル＝ジャヌーブ"
- rijal_almaa: "リジャル・アルマア"
- dhi_ain: "ディー・アイン"
- al_amwah: "アル＝アムワ"
+ khaybar_janoub: "ハイバル・アル＝ジャヌーブ" #خيبر الجنوب
+ rijal_almaa: "リジャル・アルマア" #رجال ألمع
+ dhi_ain: "ディー・アイン" #ذي عين
+ al_amwah: "アル＝アムワ" #الأمواه
  yadamah: "ヤダマー"
- al_harjah: "アル＝ハルジャ"
+ al_harjah: "アル＝ハルジャ" #الحرجة
  al_maddah: "アル＝マッダ"
  samakh: "サマフ"
  al_abala: "アル＝アバラ"
  al_amlah: "アル＝アムラー"
- ad_dughmiyah: "アド＝ドゥミヤ"
- abu_rakah: "アブ・ラカ"
- adham: "アダム"
+ ad_dughmiyah: "アド＝ドゥミヤ" #الدغمية
+ abu_rakah: "アブ・ラカ" #أبو راكة
+ adham: "アダム" #أدهم
  ghumayqah: "グメイカ"
- khulays: "フライス"
+ khulays: "フライス" #خليص
  al_muthainiyah: "アル＝ムタイニヤ"
- sabya: "サビヤ"
- dhahran: "ダーラン"
- jazan: "ジャザーン"
- sadah: "サアダ"
- najran: "ナジュラーン"
- shaharah: "シャハーラー"
- huth: "フース"
- harad_asir: "ハラド"
- main: "マアイン"
- baraqish: "バラキシュ"
- sana_yemen: "サナア"
- thula: "トゥラー"
- khamir: "カミール"
- hajjah: "ハッジャ"
+ sabya: "サビヤ" #صبيا
+ dhahran: "ダーラン" #ظهران
+ jazan: "ジャザーン" #جازان
+ sadah: "サアダ" #صعدة
+ najran: "ナジュラーン" #نجران
+ shaharah: "シャハーラー" #شهارة
+ huth: "フース" #حوث
+ harad_asir: "ハラド" #حرض
+ main: "マアイン" #معين
+ baraqish: "バラキシュ" #براقش
+ sana_yemen: "サナア" #صنعاء
+ thula: "トゥラー" #ثلا
+ khamir: "カミール" #خمر
+ hajjah: "ハッジャ" #حجة
  al_hirda: "アル＝ヒルダ"
- farasan: "ファラサーン"
+ farasan: "ファラサーン" #فرسان
  sabt_bani_bishr: "サブト・バニー・ビシュル"
  al_khosuf: "アル＝ホスフ"
- al_haqu: "アル＝ハーク"
- al_husayniyah: "アル＝フサイニヤ"
+ al_haqu: "アル＝ハーク" #الحقو
+ al_husayniyah: "アル＝フサイニヤ" #الحصينية
  suq_al_ghinan: "スーク・アル＝ジュイナン"
  al_mahjal: "アル＝マハル"
- al_luhayyah: "アル＝ルアイヤ"
- as_salif: "アッ＝サリフ"
- al_ghulayfiqah: "アル＝グライフィカ"
- kawkaban: "カワバーン"
+ al_luhayyah: "アル＝ルアイヤ" #اللحية
+ as_salif: "アッ＝サリフ" #السليف
+ al_ghulayfiqah: "アル＝グライフィカ" #الغليفقة
+ kawkaban: "カワバーン" #كوكبان
  hutayb: "フタイブ"
  as_salafiyah: "アッ＝サラフィヤ"
- hudaida: "アル＝フダイダ"
- zabid: "ザビード"
- dhamar: "ダマール"
- ibb: "イブ"
- hays: "ハイス"
- taizz: "タイズ"
+ hudaida: "アル＝フダイダ" #الحديدة
+ zabid: "ザビード" #زبيد
+ dhamar: "ダマール" #ذمار
+ ibb: "イブ" #إب
+ hays: "ハイス" #حيس
+ taizz: "タイズ" #تعز
  mudhaykirah: "ムハイキラー"
- al_mukha: "アル＝ムカー"
- mawza: "マウザ"
- al_mandab: "アル＝マンダブ"
+ al_mukha: "アル＝ムカー" #المخا
+ mawza: "マウザ" #موزع
+ al_mandab: "アル＝マンダブ" #المندب
  mikhlaf_al_hubishiyah: "ミフラフ・アル＝フビシヤ"
- dhafar: "ダファール"
- al_qara: "アル＝カーラ"
+ dhafar: "ダファール" #ظفار
+ al_qara: "アル＝カーラ" #القارة
  juban: "ジュバン"
- musaymir: "アル＝ムサイミル"
- zinjibar: "ジンジバル"
- lahj: "ラハジ"
- adan: "アダン"
+ musaymir: "アル＝ムサイミル" #المسيمير
+ zinjibar: "ジンジバル" #زنجبار
+ lahj: "ラハジ" #لحج
+ adan: "アダン" #عدن
  al_mafalis: "アル＝マファリース"
  al_arah: "アル＝アラー"
- raysut: "ライスート"
+ raysut: "ライスート" #ريسوت
  yahr: "ヤール"
- marib: "マアリブ"
- harib: "ハリーブ"
- radaa: "ラダー"
- bayhan: "ベイハーン"
- al_bayda_yemen: "アル＝バイーア"
- lawdar: "ローダー"
- nisab: "ニャブ"
- habban: "ハバーン"
- azzan: "アッザーン"
- shabwa: "シャブワ"
- shibam: "シーバーム"
- al_khuraybah: "アル＝クライバ"
- sayun: "サユーン"
- tarim: "タリム"
- ahwar: "アハワル"
+ marib: "マアリブ" #مأرب
+ harib: "ハリーブ" #حريب
+ radaa: "ラダー" #رداع
+ bayhan: "ベイハーン" #بيحان
+ al_bayda_yemen: "アル＝バイーア" #البيضاء
+ lawdar: "ローダー" #لودر
+ nisab: "ニャブ" #نصاب
+ habban: "ハバーン" #حبان
+ azzan: "アッザーン" #عزان
+ shabwa: "シャブワ" #شبوة
+ shibam: "シーバーム" #شبام
+ al_khuraybah: "アル＝クライバ" #الخريبة
+ sayun: "サユーン" #سيئون
+ tarim: "タリム" #تريم
+ ahwar: "アハワル" #أحور
  balhaf: "バルハフ"
- birali: "ビール・アリー"
- al_mukalla: "アル・ムカッラー"
- al_shihr: "アッ＝シハル"
+ birali: "ビール・アリー" #بير علي
+ al_mukalla: "アル・ムカッラー" #المكلا
+ al_shihr: "アッ＝シハル" #الشحر
  khayrij: "カイリ"
  qishn: "キシュン"
  khalfut: "カルフート"
- dhufar: "ドファール"
- mirbat: "ミルバット"
+ dhufar: "ドファール" #ظفار
+ mirbat: "ミルバット" #مرباط
  hadibu: "ハディブ"
  qulensya: "クルエンシャ"
- huraydah: "フライダ"
- shuqra: "シュクラー"
+ huraydah: "フライダ" #هريضة
+ shuqra: "シュクラー" #شقرة
  rakhyah: "ラキア"
  arrayda: "アレイダ"
  dha_sohis: "ダ・ソヒ"
  markha: "マルハ"
  jurrah: "ジュラー"
  hajar: "ハジャール"
- haql: "ハクル"
- makna: "マクナ"
- aynuna: "アジュナ"
- tabuk_arabia: "タブーク"
- al_muwaylih: "アル＝ムウェイリ"
- duba: "ドゥバ"
- al_wajh: "アル＝ワー"
- al_hawra: "アル＝ハウラー"
- al_ula: "アル＝ウラ"
- al_marwa: "アル＝マルワー"
- khaybar: "ハイバル"
- umluj: "ウムルジ"
- yanbu: "ヤンブー"
- badr_hunayn: "バドル・フナイン"
- al_jar: "アル＝ジャール"
- al_abwa: "アル＝アブワー"
- al_juhfah: "アル＝ジュハファー"
- qudayd: "クダイド"
- asfan: "アスファーン"
+ haql: "ハクル" #حقل
+ makna: "マクナ" #مقنا
+ aynuna: "アジュナ" #عينونة
+ tabuk_arabia: "タブーク" #تبوك
+ al_muwaylih: "アル＝ムウェイリ" #المويلح
+ duba: "ドゥバ" #ضبا
+ al_wajh: "アル＝ワー" #الوجه
+ al_hawra: "アル＝ハウラー" #الحوراء
+ al_ula: "アル＝ウラ" #العلا
+ al_marwa: "アル＝マルワー" #المروة
+ khaybar: "ハイバル" #خيبر
+ umluj: "ウムルジ" #أملج
+ yanbu: "ヤンブー" #ينبع
+ badr_hunayn: "バドル・フナイン" #بدر حنين
+ al_jar: "アル＝ジャール" #الجار
+ al_abwa: "アル＝アブワー" #الأبواء
+ al_juhfah: "アル＝ジュハファー" #الجحفة
+ qudayd: "クダイド" #قديد
+ asfan: "アスファーン" #عسفان
  madin_bani_sulaym: "マディン・バニ・スレイム"
- al_jumum: "アル＝ジュマーム"
- al_lith: "アル＝リス"
- taif: "アッ＝ターイフ"
+ al_jumum: "アル＝ジュマーム" #الجموم
+ al_lith: "アル＝リス" #الليث
+ taif: "アッ＝ターイフ" #الطائف
  sufaynah: "スファイナ"
- al_ajfar: "アル＝アジャファル"
+ al_ajfar: "アル＝アジャファル" #الأجفر
  bada_yaqub: "バダ・ヤクブ"
- al_ukhaydir: "アル＝ウヘディール"
- dhat_al_hajj: "ダット・アル＝ハッジ"
- al_azlam: "アル＝アズラム"
- al_kharabah: "アル＝ハラバ"
- al_ais: "アル＝アイス"
- yanbu_an_nakhil: "ヤンブ・アン＝ナキル"
+ al_ukhaydir: "アル＝ウヘディール" #الأخيضر
+ dhat_al_hajj: "ダット・アル＝ハッジ" #ذات الحج
+ al_azlam: "アル＝アズラム" #الأزلم
+ al_kharabah: "アル＝ハラバ" #الخرابة
+ al_ais: "アル＝アイス" #العيص
+ yanbu_an_nakhil: "ヤンブ・アン＝ナキル" #ينبع النخل
  al_farah_ula: "アル＝ファラー"
  muwayh: "ムウェイ"
  al_mahani: "アル＝マハニ"
- bani_saad: "バニ・サード"
+ bani_saad: "バニ・サード" #بني سعد
  ar_rayyan: "アル＝ラヤン"
- al_furaish: "アル＝フルイシュ"
+ al_furaish: "アル＝フルイシュ" #الفريش
  khalis_medina: "カリス"
  as_suwayriqiyah: "アッ＝スワイリキヤ"
  umm_al_ghiran: "ウンム・アル＝ギラン"
- ad_disah: "アド＝ディサ"
- al_bad: "アル＝バド"
+ ad_disah: "アド＝ディサ" #الديسة
+ al_bad: "アル＝バド" #البدع
  bajdah: "バジュダ"
- al_muazzam: "アル＝ムアッザム"
+ al_muazzam: "アル＝ムアッザム" #المعظم
  al_khanbarah: "アル＝ハンバラー"
  bir_ibn_hermas: "ビル・イブン・ヘルマス"
- buwat: "ブワト"
+ buwat: "ブワト" #بواط
  al_hufayrah: "アル＝フファイラ"
- yalamlam: "ヤラムラム"
- al_hadhah: "アル＝ハダー"
- dhat_irq: "ダット・イルク"
+ yalamlam: "ヤラムラム" #يلملم
+ al_hadhah: "アル＝ハダー" #الهدا
+ dhat_irq: "ダット・イルク" #ذات عرق
  umm_ad_dawm: "ウム・アッ＝ダーム"
  dhalam: "ダラム"
  ar_ruwailiyyah: "アル＝ルワイリーヤ"
@@ -4462,133 +4462,133 @@
  shajwa: "シャジワ"
  al_maramiyah: "アル＝マラミヤ"
  az_zubayir: "アズ＝ズバイル"
- al_ayn_khaybar: "アル＝アイン"
- kaf: "カフ"
- dumat_al_jandal: "ドゥマット・アル＝ジャンダル"
- sakaka: "サカーカー"
+ al_ayn_khaybar: "アル＝アイン" #العين
+ kaf: "カフ" #كاف
+ dumat_al_jandal: "ドゥマット・アル＝ジャンダル" #دومة الجندل
+ sakaka: "サカーカー" #سكاكا
  zubala: "ズバーラ"
- tayma: "テイマー"
- jubbah: "ジュバ"
- hail: "ハイル"
- fadak: "ファダク"
- samira: "サミーラー"
- fayd: "フェイド"
- unaizah: "ウナイザ"
- az_zilfi: "アズ＝ジルフィー"
- saqra: "シャクラー"
- al_hajr: "アル＝ハジュル"
+ tayma: "テイマー" #تيماء
+ jubbah: "ジュバ" #جبة
+ hail: "ハイル" #حائل
+ fadak: "ファダク" #فدك
+ samira: "サミーラー" #سميراء
+ fayd: "フェイド" #فيد
+ unaizah: "ウナイザ" #عنيزة
+ az_zilfi: "アズ＝ジルフィー" #الزلفي
+ saqra: "シャクラー" #شقراء
+ al_hajr: "アル＝ハジュル" #الحجر
  al_quway: "アル＝クウェー"
- al_yamamah: "アル＝ヤママー"
- laila: "ライラー"
+ al_yamamah: "アル＝ヤママー" #اليمامة
+ laila: "ライラー" #ليلى
  aqiq_banu_uqayi: "アキック・バヌー・ウカイル"
- malham: "マラム"
- diriyah: "アッ＝ディリッヤー"
+ malham: "マラム" #ملهم
+ diriyah: "アッ＝ディリッヤー" #الدرعية
  naam: "ナーム"
- buraydah: "ブライダ"
- afif: "アフィーフ"
- al_hinakiyah: "アル＝ヒナキヤ"
- an_nuqrah: "アン＝ヌクラー"
+ buraydah: "ブライダ" #بريدة
+ afif: "アフィーフ" #عفيف
+ al_hinakiyah: "アル＝ヒナキヤ" #الحناكية
+ an_nuqrah: "アン＝ヌクラー" #النقرة
  udakh: "ウダク"
  bir_fajr: "ビル・ファジュル"
  al_burud: "アル＝ブルード"
  muzahmiyah: "ムザフミーヤ"
- al_majmaah: "アル＝マグマア"
+ al_majmaah: "アル＝マグマア" #المجمعة
  thadiq: "タディク"
  lowqah: "ローカ"
- baqa: "バッカ"
- al_ghazalah: "アル＝ガザラ"
+ baqa: "バッカ" #بقعاء
+ al_ghazalah: "アル＝ガザラ" #الغزالة
  mawqaq: "モーカク"
- as_sulaymi: "アッ＝スレイミ"
- al_mithnab: "アル＝ミトナブ"
+ as_sulaymi: "アッ＝スレイミ" #السليمي
+ al_mithnab: "アル＝ミトナブ" #المذنب
  uyun_al_jiwa: "ウユン・アル＝ジワ"
- ar_rass: "アル＝ラス"
- al_majazah: "アル＝マジャーザ"
- al_haddar: "アル＝ハダル"
- al_aflaj: "アル＝アフラージュ"
- dhurma: "ドゥルマ"
- ad_dilam: "アド＝ディラム"
+ ar_rass: "アル＝ラス" #الرس
+ al_majazah: "アル＝マジャーザ" #المجازة
+ al_haddar: "アル＝ハダル" #الحدار
+ al_aflaj: "アル＝アフラージュ" #الأفلاج
+ dhurma: "ドゥルマ" #ضرما
+ ad_dilam: "アド＝ディラム" #الدلم
  rumah: "ルマー"
  miskah: "ミスカー"
  tanumah: "タヌマー"
- an_nibaj: "アン＝ニバジ"
- an_nabhaniyah: "アン＝ナバニヤ"
+ an_nibaj: "アン＝ニバジ" #النباج
+ an_nabhaniyah: "アン＝ナバニヤ" #النبهانية
  al_mardamah: "アル＝マルダマ"
  al_hisu: "アル＝ヒス"
  al_hegrieah: "アル＝ヘグリア"
- al_thamad: "アル＝タマド"
+ al_thamad: "アル＝タマド" #الثمد
  as_suwaydirah: "アス＝スワイディラ"
  al_thulayma: "アル＝トゥライマ"
  an_nasifah: "アン＝ナシファ"
  ar_rawdah: "アル＝ラウダ"
  umm_al_qulban: "ウンム・アル＝カルバン"
- al_hufayr: "アル＝フハイル"
+ al_hufayr: "アル＝フハイル" #الحفير
  sara: "サラ"
  ash_shuaybah_hail: "アッ＝シュアイバー"
  ash_shamli: "アッ＝シャムリ"
- al_huwayyit: "アル＝フワヤイト"
+ al_huwayyit: "アル＝フワヤイト" #الحويط
  an_nuhaytiyyah: "アン＝ヌヘイティヤ"
  darghat: "ダルガット"
- al_bijadiyah: "アル＝ビジャディーヤ"
+ al_bijadiyah: "アル＝ビジャディーヤ" #البجادية
  ash_shuara: "アッ＝シュアラ"
  nifi: "ニフィ"
  at_tarfawi: "アッ＝タルファウィ"
  al_udhaim: "アル＝ウドハイム"
  thadij: "タディ"
- al_ghat: "アル＝ガート"
+ al_ghat: "アル＝ガート" #الغاط
  asila_arabia: "アシラ"
  dawbah: "ドーバ"
  al_aythamah: "アル＝アイサマ"
  bilghah: "ビルガ"
- an_nakhil: "アン＝ナキル"
- ar_rabadha: "アル＝ラバダ"
+ an_nakhil: "アン＝ナキル" #النخيل
+ ar_rabadha: "アル＝ラバダ" #الربذة
  al_laghfiyyah: "アル＝ラグフィヤー"
  ramah: "ラマ"
  al_maghib: "アル＝マリブ"
- al_fuqarah: "アル＝フカラー"
+ al_fuqarah: "アル＝フカラー" #الفقرة
  al_baharah: "アル＝バハラー"
  al_ghrabah: "アル＝グラバー"
  murayghan: "ムラヤン"
  al_mundassah: "アル＝ムンダサ"
  rawdat_al_ard: "ローダット・アル＝アード"
- ar_rayn: "アル＝ライン"
+ ar_rayn: "アル＝ライン" #الرين
  al_maslum: "アル＝マスラム"
  halaban: "ハラバン"
  basithah: "バシサ"
- al_harrah: "アル＝ハラー"
- arar: "アラル"
- al_hamad: "アル＝ハマド"
+ al_harrah: "アル＝ハラー" #الحرة
+ arar: "アラル" #عرعر
+ al_hamad: "アル＝ハマド" #الحماد
  al_labbah: "アル＝ラッバー"
- aba_al_qur: "アバ・アル＝クール"
+ aba_al_qur: "アバ・アル＝クール" #أبا القور
  qurayyat_al_milh: "クラーヤト・アル＝ミル"
- abu_qasr: "アブ・カスル"
+ abu_qasr: "アブ・カスル" #أبو قصر
  habiyah: "ハビーヤ"
- ad_dawasir: "アド＝ダワシル"
+ ad_dawasir: "アド＝ダワシル" #الدواسر
  qasr_himam: "カスル＝ヒマム"
  ash_shaqiqah: "アッ＝シャキカー"
  tamrah: "タムラー"
  al_qaiyah: "アル＝カイヤ"
- hafar_al_batin: "ハファール・アル＝バティン"
- al_jubayl: "アル・ジュバイル"
- al_qatif: "アル＝カティーフ"
- al_ahsa: "アル＝ハシャ"
- al_uqayr: "アル＝ウカイル"
- manama: "アル＝マナーマ"
- zubarah: "アズ＝ズバーラ"
- yabrin: "ヤブリン"
- al_mashqar: "アル＝マシュカル"
- linah: "リナ"
+ hafar_al_batin: "ハファール・アル＝バティン" #حفر الباطن
+ al_jubayl: "アル・ジュバイル" #الجبيل
+ al_qatif: "アル＝カティーフ" #القطيف
+ al_ahsa: "アル＝ハシャ" #الأحساء
+ al_uqayr: "アル＝ウカイル" #العقير
+ manama: "アル＝マナーマ" #المنامة
+ zubarah: "アズ＝ズバーラ" #الزبارة
+ yabrin: "ヤブリン" #يبرين
+ al_mashqar: "アル＝マシュカル" #المشقر
+ linah: "リナ" #لينة
  ar_rukai: "アル＝ルカイ"
- qurain: "アル＝クレイン"
- sayhat: "サイハート"
- al_huwaila: "アル＝ウワヤラー"
- al_bidda: "アル＝ビッダ"
+ qurain: "アル＝クレイン" #القرين
+ sayhat: "サイハート" #سيهات
+ al_huwaila: "アル＝ウワヤラー" #الحويلة
+ al_bidda: "アル＝ビッダ" #البدع
  eglat_faisal: "エグラット・ファイサル"
- al_udayd: "アル＝ウダイド"
+ al_udayd: "アル＝ウダイド" #العديد
  al_suman: "アル＝スマン"
- harad_al_ahsa: "ハラド"
+ harad_al_ahsa: "ハラド" #حرض
  jannah: "ヤンナ"
  nita_arabia: "ニータ"
- al_uyayna: "アル＝ウヤイナー"
+ al_uyayna: "アル＝ウヤイナー" #العيينة
  ash_shuaybah: "アッ＝シュアイバー"
  urayrah: "ウライラー"
  baqqa: "バッカ"
@@ -4597,7 +4597,7 @@
  al_hunayy: "アル＝フナィ"
  mashdhubah: "マシュルバー"
  jarrarah: "ジャラーラー"
- qaryat_ulya: "カリヤト・アル＝ウリヤ"
+ qaryat_ulya: "カリヤト・アル＝ウリヤ" #قرية العليا
  #Sea Locations
  marshaq_cape: "マルシャク岬"
  saylan_cape: "セイラン岬"
@@ -4791,7 +4791,7 @@
  anarak: "アナーラク"
  jondaq: "ジョンダク"
  yazdikhwast: "ヤズデ・クヴァースト"
- hoveyzeh: "ホヴェイゼ"
+ hoveyzeh: "ホヴェイゼ" #الحويزة
  ilam: "イーラーム"
  sonqor: "スーングール"
  bandar_deylam: "バンダレ・デイラム"
@@ -5023,7 +5023,7 @@
  arkvaz: "アルクヴァーズ"
  dehloran: "デヘラーン"
  hamidiyeh: "ハミーディーイェ"
- muhammerah: "アル＝ムハンメラ"
+ muhammerah: "アル＝ムハンメラ" #المحمرة
  yazduye: "ヤズドゥーイェ"
  quban: "クバン"
  divandarreh: "ディーヴァーンダレ"
@@ -8384,7 +8384,7 @@
  arzew: "アルジェヴ"
  ksar_ibn_senane: "クサール・イブン・セナネ"
  miliana: "ミリアナ"
- qal_at_ibn_salama: "カラット・イブン・サラマ"
+ qal_at_ibn_salama: "カラット・イブン・サラマ" #قلعة ابن سلامة
  tahert: "テヘルト" #Tiaret
  zenina: "エル・イドリシア"
  djelfa: "ジェルファ"
@@ -8480,7 +8480,7 @@
  volubilis: "ヴォルビリス"
  tefelfelt: "テフェルフェルト" #likely Tiflet
  baht: "バーツ"
- naama: "ナーマ"
+ naama: "ナーマ" #النعامة
  chlef: "クレフ"
  asir_ALG: "アシール"
  sidi_okba: "シディ・オクバ"
@@ -8499,14 +8499,14 @@
  el_ksour: "エル・クスール"
  sbikha: "スビカ"
  medjez_el_bab: "メジェズ・エル・バブ"
- tawurgha: "タウルガ"
- tarhuna: "タルフナ"
+ tawurgha: "タウルガ" #تاورغاء
+ tarhuna: "タルフナ" #ترهونة
  jadu: "ジャドゥ"
  zintan: "ジンタン"
  yafran: "ヤフラン"
- ras_lanuf: "ラスラヌフ"
+ ras_lanuf: "ラスラヌフ" #رأس لانوف
  al_kadwa: "アル＝カドワ" #ʽAziziya
- el_agheila: "エル・アゲイラ"
+ el_agheila: "エル・アゲイラ" #العقيلة
  tekouch: "テカッチ" #Chetaïbi
  berriane: "ベリアン"
  igli: "イグリ"
@@ -8522,7 +8522,7 @@
  tegeget: "テゲット"
  tissemsilt: "ティッセムシルト"
  ksar_el_boukhari: "クサール・エル・ブーカリ"
- ain_madhi: "アイン・マディ"
+ ain_madhi: "アイン・マディ" #عين ماضي
  el_abiodh_sidi_cheikh: "エル・アビオド・シディ・チェイク" #Boussemghoun could be an alternative
  brezina: "ブレジナ"
  medrissa: "メドリッサ"
@@ -8534,7 +8534,7 @@
  douz: "ドゥーズ"
  chenini: "チェニーニ"
  nefta: "ネフタ"
- bir_el_alter: "ビル・エル・アルター"
+ bir_el_alter: "ビル・エル・アルター" #بئر العاطر
  guettara: "ゲッタラ"
  echemmaia: "エケマイア"
  sidi_bennour: "シディ・ベンヌール"
@@ -9717,9 +9717,9 @@
  korti: "コルティ"
  al_jeblien: "アル＝ジェブリエン"
  shemkhiya: "シェムヒヤ"
- abu_hamed: "アブ・ハメド"
- berber: "ベルベル"
- atbara: "アットバラ"
+ abu_hamed: "アブ・ハメド" #أبو حمد
+ berber: "ベルベル" #بربر
+ atbara: "アットバラ" #عطبرة
  el_metemma: "エル・メテンマ"
  aydhab: "アイドゥハブ"
  suakin: "スアキン"
@@ -9741,14 +9741,14 @@
  singa: "シンガ"
  dabarqi: "ダバルキ"
  karkuj: "カルクジ"
- al_rusayrisi: "アル＝ルサイリシ"
+ al_rusayrisi: "アル＝ルサイリシ" #الرصيرص
  el_gadarif: "エル・ガダリフ"
  al_matamma: "アル・マタンマ"
  ed_damer: "エド・ダマー"
  quz_rajab: "グズ・ラジャブ"
- kassala: "カッサラ"
+ kassala: "カッサラ" #كسلا
  tesenei: "テセネイ"
- wadi_el_melik: "ワディ・エル・メリック"
+ wadi_el_melik: "ワディ・エル・メリック" #وادي الملك
  waylula: "ウェルラ"
  kosa: "コサ"
  barah: "バラ"
@@ -10092,19 +10092,19 @@
  tripoli: "トリポリ"
  al_khums: "クムス"
  mizda: "ミズダ"
- bani_walid: "バニ・ワリド"
- zliten: "ズリテン"
+ bani_walid: "バニ・ワリド" #بني وليد
+ zliten: "ズリテン" #زليتن
  misratah: "ミスラタ"
- sirte: "シルテ"
- ajdabiya: "アジュダビヤ"
+ sirte: "シルテ" #سرت
+ ajdabiya: "アジュダビヤ" #أجدابيا
  benghazi: "ベンガジ"
  barca: "バルカ"
- msus: "ムスス"
- mechili: "メチリ"
- al_bayda: "ベイダ"
- derna: "デルナ"
- tobruk: "トブルク"
- sallum: "サラム"
+ msus: "ムスス" #مسوس
+ mechili: "メチリ" #المخيلي
+ al_bayda: "ベイダ" #البيضاء
+ derna: "デルナ" #درنة
+ tobruk: "トブルク" #طبرق
+ sallum: "サラム" #السلوم
  matruh: "マトルー"
  in_amenas: "イン・アメナス"
  ghat: "ガット"
@@ -10120,76 +10120,76 @@
  al_jawf: "ジョウフ"
  tazirbu: "タジルブ"
  siwa: "シワ"
- bahariyya: "バハリヤ"
- qasr_farafra: "カスル・ファラフラ"
- el_qasr: "エル・カスル"
+ bahariyya: "バハリヤ" #البحرية
+ qasr_farafra: "カスル・ファラフラ" #قصر الفرافرة
+ el_qasr: "エル・カスル" #القصر
  kharga: "ハルガ"
- baris: "バリス"
+ baris: "バリス" #باريس
  selima: "セリマ"
  alexandria: "アレクサンドリア"
- rashid: "ラーシド"
- damanhur: "ダマンフール"
- fuwa: "フワ"
+ rashid: "ラーシド" #رشيد
+ damanhur: "ダマンフール" #دمنهور
+ fuwa: "フワ" #فوة
  ramsis: "ラムシス"
- kharibta: "カリブタ"
- el_burullus: "ブルルス"
- el_mahalla: "マハラ"
+ kharibta: "カリブタ" #خربتا
+ el_burullus: "ブルルス" #البرلس
+ el_mahalla: "マハラ" #المحلة
  tidah: "ティダ"
- menouf: "メヌフ"
- samanoud: "サマヌード"
- damietta: "ダミエッタ"
+ menouf: "メヌフ" #منوف
+ samanoud: "サマヌード" #سمنود
+ damietta: "ダミエッタ" #دمياط
  mansoura: "マンスーラ"
  ushmum_tannah: "ウシュムン＝タンナ" #Ashmun al-Rumman
- bilbeis: "ビルベイス"
- faqus: "ファカス"
- qalyub: "カリウブ"
+ bilbeis: "ビルベイス" #بلبيس
+ faqus: "ファカス" #فاقوس
+ qalyub: "カリウブ" #قليوب
  tinnis: "ティニス"
- qatya: "カティア"
+ qatya: "カティア" #قطيا
  warrada: "ワラダ"
  el_arish: "アリシュ"
- nekhel: "ネケル"
+ nekhel: "ネケル" #نخل
  suez: "スエズ"
- el_jundi: "ジュンディ"
- faran: "ファラン"
- el_tor: "トル"
+ el_jundi: "ジュンディ" #الجندي
+ faran: "ファラン" #فاران
+ el_tor: "トル" #الطور
  saint_katrine: "セント・カトリーヌ"
- nuweiba: "ヌウェイバ"
+ nuweiba: "ヌウェイバ" #نويبع
  cairo: "カイロ"
  giza: "ギザ"
- atfih: "アトフィース"
+ atfih: "アトフィース" #أطفيح
  beni_suef: "ベニ・スエフ"
- faiyum: "ファイム"
- el_bahnasa: "バナサ"
+ faiyum: "ファイム" #الفيوم
+ el_bahnasa: "バナサ" #البهنسا
  sharuna: "シャルナ"
- minya: "ミニヤー"
- tahna: "タフナ"
- manfalut: "マンファルート"
- ashmunayn: "アシュムネイン"
- asyut: "アシュート"
+ minya: "ミニヤー" #المنيا
+ tahna: "タフナ" #طحنا
+ manfalut: "マンファルート" #منفلوط
+ ashmunayn: "アシュムネイン" #الأشمونين
+ asyut: "アシュート" #أسيوط
  el_buwit: "ブウィト"
- akhmim: "アクミン"
- el_balyana: "バリヤーナ"
- hiw: "ヒウ"
- qena: "ケーナ"
- qus: "クス"
- esna: "エスナ"
- edfu: "エドフ"
+ akhmim: "アクミン" #أخميم
+ el_balyana: "バリヤーナ" #البلينا
+ hiw: "ヒウ" #هو
+ qena: "ケーナ" #قنا
+ qus: "クス" #قوص
+ esna: "エスナ" #إسنا
+ edfu: "エドフ" #إدفو
  aswan: "アスワン"
  saint_anthony: "サン・アンソニー"
  saint_paul_anchorite: "セント・ポール・ジ・アンカライト"
- ras_gharib: "ラース・ガーリブ"
- safaga: "サファガ"
- el_qoseir: "コセール"
- qaminis: "カミニス"
+ ras_gharib: "ラース・ガーリブ" #رأس غارب
+ safaga: "サファガ" #سفاجا
+ el_qoseir: "コセール" #القصير
+ qaminis: "カミニス" #قمينس
  tmimi: "トゥミミ"
  al_khuimat: "アル＝クイマット"
  suluntah: "スルンタ"
  el_alamein: "エル・アラメイン"
  kom_ombo: "コムオンボ"
- wadi_el_natrun: "ワディ・エル・ナトルン"
- kafr_saqr: "カフル・サクル"
+ wadi_el_natrun: "ワディ・エル・ナトルン" #وادي النطرون
+ kafr_saqr: "カフル・サクル" #كفر صقر
  al_mima: "アル＝ミマ" #Belqas
- tarrana: "タラナ"
+ tarrana: "タラナ" #طرانة
  dakahla: "ダカハラ"
  lake_qarun: "カルン湖"
  lake_maryut: "マリュート湖"
@@ -11432,75 +11432,75 @@
  aladag_mountains: "アラダ山脈"
  jerusalem: "エルサレム"
  aqaba: "アカバ"
- maan: "マアン"
- sughar: "スガル"
+ maan: "マアン" #معان
+ sughar: "スガル" #صغر
  beersheba: "ベエルシェバ"
  gaza: "ガザ"
- karak: "カラク"
+ karak: "カラク" #الكرك
  amman: "アンマン"
  nablus: "ナブルス"
  acre: "アクレ"
- irbid: "イルビド"
- dara: "ダルア"
- nawa: "ナワ"
- burraq: "ブッラク"
- suwayda: "アス・スウェイダ"
- bosra: "ボスラ"
- salkhad: "サルカド"
+ irbid: "イルビド" #إربد
+ dara: "ダルア" #درعا
+ nawa: "ナワ" #نوى
+ burraq: "ブッラク" #البراق
+ suwayda: "アス・スウェイダ" #السويداء
+ bosra: "ボスラ" #بصرى
+ salkhad: "サルカド" #صلخد
  sidon: "シドン"
  beirut: "ベイルート"
  deir_qamar: "ダール・アル＝カマール"
  tripoli_syria: "トリポリ"
- baalbek: "バールベック"
+ baalbek: "バールベック" #بعلبك
  damascus: "ダマスカス"
- qutayfah: "アル・クタイファ"
- jayrud: "ジェイルード"
+ qutayfah: "アル・クタイファ" #القطيفة
+ jayrud: "ジェイルード" #جيرود
  nabek: "アル・ナベック"
- qaryatayn: "アル・カリアタイン"
- huwwarin: "フーワリン"
- qusayr: "アル・クサイル"
+ qaryatayn: "アル・カリアタイン" #القريتين
+ huwwarin: "フーワリン" #حوارين
+ qusayr: "アル・クサイル" #القصير
  homs: "ホムス"
  hama: "ハマー"
- salamiyya: "サラミヤー"
+ salamiyya: "サラミヤー" #سلمية
  tartus: "タルトゥス"
  baniyas: "バニヤス"
  jableh: "ジャブロー"
  latakia: "ラタキア"
  idlib: "イドリブ"
- masyaf: "マシャフ"
- kafartab: "カファルタブ"
+ masyaf: "マシャフ" #مصياف
+ kafartab: "カファルタブ" #كفرطاب
  artah: "アルタ"
- afrin: "アフリン"
+ afrin: "アフリン" #عفرين
  dabiq: "ダビク"
  zardana: "ザルダナ"
- marrat: "マアラット・アル＝ヌマン"
+ marrat: "マアラット・アル＝ヌマン" #معرة النعمان
  aleppo: "アレッポ"
- manbij: "マンビジュ"
- al_bab: "アル＝バブ"
- jabbul: "アル＝ジャブール"
+ manbij: "マンビジュ" #منبج
+ al_bab: "アル＝バブ" #الباب
+ jabbul: "アル＝ジャブール" #الجبول
  maskanah: "マスカナ"
- qastal: "アル・カスタル"
- tabqah: "アル＝タブカ"
- ithriya: "イスリヤ"
- tadmur: "タドムール"
- arak: "アラック"
- sukhnah: "アル＝スクナ"
- taybah: "アル＝タイバ"
- deir_ez_zor: "ディル・エズ＝ゾール"
- jabar: "ジャバール"
+ qastal: "アル・カスタル" #القسطل
+ tabqah: "アル＝タブカ" #الطبقة
+ ithriya: "イスリヤ" #أثريا
+ tadmur: "タドムール" #تدمر
+ arak: "アラック" #أراك
+ sukhnah: "アル＝スクナ" #السخنة
+ taybah: "アル＝タイバ" #الطيبة
+ deir_ez_zor: "ディル・エズ＝ゾール" #دير الزور
+ jabar: "ジャバール" #جعبر
  raqqa: "ラッカ"
- madinat_far: "マディナト・アル＝ファル"
+ madinat_far: "マディナト・アル＝ファル" #مدينة الفار
  mardin: "マルディン"
  ras_ayn: "ラス・アル＝アイン"
- hasakah: "アル＝ハサカ"
- araban: "アラバン"
- busayrah: "アル＝ブサイラ"
- makisin: "マキシン"
+ hasakah: "アル＝ハサカ" #الحسكة
+ araban: "アラバン" #عربان
+ busayrah: "アル＝ブサイラ" #البصيرة
+ makisin: "マキシン" #ماكسين
  nusaybin: "ヌサイビン"
  barqaid: "バルカイド"
  bara_iraq: "バラ"
- tunanir: "アル＝トゥナニル"
- sinjar: "シンジャール"
+ tunanir: "アル＝トゥナニル" #تنينير
+ sinjar: "シンジャール" #سنجار
  duhok: "デュホック"
  balad: "バラド"
  tal_afar: "タル・アファル"
@@ -11508,20 +11508,20 @@
  akre: "アクレ"
  mosul: "モースル"
  erbil: "エルビル"
- al_sinn: "アル＝シン"
+ al_sinn: "アル＝シン" #السن
  kirkuk: "キルクーク"
  daquq: "ダクク"
  qaladiza: "カラディザ"
- rahba: "アル＝ラーバ"
- abu_kemal: "アブ・ケマル"
- anah: "アナ"
- haditha: "ハディーサ"
- hit: "ヒット"
+ rahba: "アル＝ラーバ" #الرحبة
+ abu_kemal: "アブ・ケマル" #أبو كمال
+ anah: "アナ" #عانة
+ haditha: "ハディーサ" #حديثة
+ hit: "ヒット" #هيت
  ar_rabb: "アル＝ラブ"
- al_anbar: "アル＝アンバー"
+ al_anbar: "アル＝アンバー" #الأنبار
  tikrit: "ティクリート"
  samarra: "サマッラー"
- khalis: "アル＝カリス"
+ khalis: "アル＝カリス" #الخالص
  khanaqin: "ハナキン"
  qasr_shirin: "カスル＝エ・シリン"
  mandali: "マンダリ"
@@ -11529,44 +11529,44 @@
  ukbara: "ウクバラ"
  baghdad: "バグダード"
  karbala: "カルバラー"
- ayn_tamr: "アイン・アル＝タムル"
+ ayn_tamr: "アイン・アル＝タムル" #عين التمر
  kufa: "クファ"
- hillah: "ヒッラ"
- al_udayb: "アル＝ウダイブ"
- qadisiyyah: "アル＝カディシヤ"
- badra: "バドラ"
- dayr_aqul: "ダイル・アル＝アクル"
- an_nil: "アン＝ニル"
+ hillah: "ヒッラ" #الحلة
+ al_udayb: "アル＝ウダイブ" #العذيب
+ qadisiyyah: "アル＝カディシヤ" #القادسية
+ badra: "バドラ" #بدرة
+ dayr_aqul: "ダイル・アル＝アクル" #دير العاقول
+ an_nil: "アン＝ニル" #النيل
  samawa: "サマワ"
  bakusaya: "ブクサヤ"
- al_tib: "アル＝ティブ"
- wasit: "ワーシト"
- rusafa: "アル＝ルサファ"
+ al_tib: "アル＝ティブ" #الطيب
+ wasit: "ワーシト" #واسط
+ rusafa: "アル＝ルサファ" #الرصافة
  al_qatr: "アル＝カトル"
  abdas: "アブダス"
- al_madar: "アル＝マダール"
+ al_madar: "アル＝マダール" #المذار
  basra: "バスラ"
- abadan: "アバダン"
- kazimah: "カジマ"
+ abadan: "アバダン" #عبادان
+ kazimah: "カジマ" #كاظمة
  hebron: "ヘブロン"
- majdal: "アル・マジャール"
+ majdal: "アル・マジャール" #المجدل
  safed: "サフェド"
  sulaymaniyah: "アス・スレイマニヤ"
  hawraman: "ホーラマン"
- numaniyyah: "アン＝ヌマニヤ"
+ numaniyyah: "アン＝ヌマニヤ" #النعمانية
  nasiriyah: "アン＝ナシリヤ"
- suq_al_shuyukh: "スーク・アル＝シュユク"
+ suq_al_shuyukh: "スーク・アル＝シュユク" #سوق الشيوخ
  zuwayr: "アズ＝ズワイアー"
  jazair: "アル・ジャザール"
- azraq: "アズラク"
- shoubak: "シュバク"
- madaba: "マダバ"
+ azraq: "アズラク" #الأزرق
+ shoubak: "シュバク" #الشوبك
+ madaba: "マダバ" #مادبا
  jaffa: "ヤッファ"
- al_quwayrah: "アル＝クワイヤ"
- balad_ruz: "バラッド・ルズ"
+ al_quwayrah: "アル＝クワイヤ" #القويرة
+ balad_ruz: "バラッド・ルズ" #بلدروز
  harran: "ハラン"
- khanaser: "カナザー"
- qayyarah: "カイヤラー"
+ khanaser: "カナザー" #خناصر
+ qayyarah: "カイヤラー" #القيارة
  mawet: "マウェット"
  altun_kupri: "アルトゥン・クプリ"
  chamchamal: "チャムチャマル"

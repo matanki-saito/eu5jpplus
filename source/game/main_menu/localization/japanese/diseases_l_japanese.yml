@@ -16,4 +16,7 @@
  smallpox_desc: "天然痘は感染者に発熱、嘔吐を引き起こし、最終的には大量の液体で満たされた水疱が全身を覆う恐ろしい病気。この疫病の発症は非常に致命的で、生き延びても生涯視力を失う場合が多い。"
  smallpox_location_modifier: "天然痘のロケーション補正"
  great_pestilence_location_modifier: "大疫病のロケーション補正"
+ egyptian_plague: "エジプト疫病"
+ egyptian_plague_desc: "ナイル川沿いの都市や村々を幾度となく襲う風土病。1348年の大疫病を生き延びた者たちにも安息はない。病はカイロの迷路のような街区や、その先に広がる灌漑農地に潜み、世代が変わるたびに備えのない人々を襲う。いくつもの地区が丸ごと放棄され、運河は荒廃し、流行の波が押し寄せるたびにマムルーク領の繁栄は衰えていく。"
+ egyptian_plague_location_modifier: "[location|e]におけるエジプト疫病"
  DISEASE_CHARACTER_TRAIT: "キャラクターに以下を付与する：[Trait.GetName]"

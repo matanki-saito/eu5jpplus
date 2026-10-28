@@ -8,7 +8,7 @@
  ## Area 'abruzzo_area' (Abruzzi) ##
  #Province 'abruzzo_citra_province' (Abruzzo Citra) #
  abruzzo_citra_province.greek_language: "南サミア" #regional — Samnium
- chieti.greek_language: "テアーテ"
+ chieti.greek_language: "テアーティ"
  lanciano.greek_language: "アンクサヌム" #latin/roman
  vasto.greek_language: "ヒストニウム" #roman/latin
  #Province 'abruzzo_ultra_province' (Abruzzo Ultra) #
@@ -46,7 +46,7 @@
  otranto_province.greek_language: "イドルス"
  lecce.greek_language: "ルピア"
  brindisi.greek_language: "ブレンテシオン"
- francavilla.greek_language: "ユリア"
+ francavilla.greek_language: "ハイリア"
  gallipoliita.greek_language: "カッリポリス・アプーリアス"
  martinafr.greek_language: "カイリア"
  taranto.greek_language: "タラス"
@@ -62,7 +62,7 @@
  santarcangelo.greek_language: "ヘラクレイア"
  #Province 'calabria_ultra_province' (Calabria Ultra) #
  calabria_ultra_province.greek_language: "上カラブリア"
- catanzaro.greek_language: "スキッレティオン"
+ catanzaro.greek_language: "スキッリティオン"
  cotrone.greek_language: "クロトン"
  gerace.greek_language: "ゲラキオン"
  monteleone.greek_language: "ヒッポニオン"
@@ -82,7 +82,7 @@
  lavoro_province.greek_language: "ネアポリス" #capital Naples
  naples.greek_language: "ネアポリス"
  caserta.greek_language: "カラティア"
- gaeta.greek_language: "カイエテ"
+ gaeta.greek_language: "カイーティ"
  nola.greek_language: "ノラ"
  piedimonte.greek_language: "アッリファ"
  sora.greek_language: "ソラ"
@@ -131,15 +131,15 @@
  fiorenzuola.greek_language: "フロレンティオラ"
  #Province 'reggioem_province' (Reggio di Lombardia) #
  reggioem_province.greek_language: "レピディ地方" #Regium Lepidi
- reggioem.greek_language: "レギオン・レピディオン"
+ reggioem.greek_language: "リーギオン・レピディオン"
  canossa.greek_language: "カノッサ"
  guastalla.greek_language: "ブリクセロン"
  #Province 'romagna_province' (Romagna) #
  romagna_province.greek_language: "ローマニア" #Exarchate land
  rimini.greek_language: "アリミノン"
- cesena.greek_language: "カイセナ"
+ cesena.greek_language: "カイシナ"
  faenza.greek_language: "ファウエンティア"
- imola.greek_language: "コルネリオン・アゴラ" #Hellenized the roman name Forum Cornelii
+ imola.greek_language: "コルニオン・アゴラ" #Hellenized the roman name Forum Cornelii
  modigliana.greek_language: "ムティリアナ"
  ravenna.greek_language: "ラヴェンナ"
  #Province 'urbino_province' (Urbino) #
@@ -157,7 +157,7 @@
  tivoli.greek_language: "ティブリス"
  #Province 'marittima_province' (Marittima) #
  marittima_province.greek_language: "ローメ" #capital Rome
- rome.greek_language: "ロメ"
+ rome.greek_language: "ロミ"
  terracina.greek_language: "タラキナ"
  velletri.greek_language: "ウェリトライ"
  #Province 'patrimonio_province' (San Pietro in Tuscia) #
@@ -195,7 +195,7 @@
  ventimiglia.greek_language: "アルビンティミリオン"
  ## Area 'lombardy_area' (Lombardy) ##
  #Province 'bergamo_province' (Bergamo) #
- bergamo_province.greek_language: "東インスブリア" #regional — Insubria
+ bergamo_province.greek_language: "東インスブリア" #regional — northern Insubria
  bergamo.greek_language: "ベルゴモン"
  cortenuova.greek_language: "コルテヌオバ" #hellenized
  clusone.greek_language: "クルーソネ" #hellenized
@@ -390,7 +390,7 @@
  sanlorenzo.greek_language: "アギオス・ラウレンティウ"
  pistoia.greek_language: "ピストーリア"
  #Province 'grosseto_province' (Grosseto) #
- grosseto_province.greek_language: "南エトルリア" #regional — Etruria south
+ grosseto_province.greek_language: "南エトルリア" #regional — coastal Etruria (Maremma)
  grosseto.greek_language: "ルセッライ" #latin/roman
  massamar.greek_language: "マッサ・ベテルネーンシア" #latin/roman
  pitigliano.greek_language: "ピティリアーノ" #hellenized
@@ -467,19 +467,19 @@
  #Province 'erzurum_province' (Erzurum) #
  erzurum.greek_language: "テオドシオポリス"
  bayburt.greek_language: "バイベルトン"
- erzincan.greek_language: "ケレゼネ"
+ erzincan.greek_language: "ケレジーニ"
  ilic.greek_language: "アナリバ"
  kelkit.greek_language: "サタラ"
  kemah.greek_language: "カマコン"
  sebinkarahisar.greek_language: "コロネイア"
- siran.greek_language: "ケリアナ"
- tercan.greek_language: "デルゼネ"
+ siran.greek_language: "キーリアナ"
+ tercan.greek_language: "デルジニ"
  #Province 'harput_province' (Harput) #
  harput.greek_language: "カルカティオケルタ"
  adakli.greek_language: "アルタレス"
  bingol.greek_language: "ロマヌーポリス"
  cemisgezek.greek_language: "ツィミスケース"
- keban.greek_language: "ソフェネ"
+ keban.greek_language: "ソフィニ"
  palu.greek_language: "パリオス"
  pertek.greek_language: "アンジタ"
  sivrice.greek_language: "コルキス"
@@ -498,14 +498,14 @@
  ### Region 'steppes_region' (Pontic Steppe) ###
  ## Area 'crimea_area' (Crimea) ##
  #Province 'gothia_province' (Gothia) #
- theodoro.greek_language: "ケルソネソス"
+ theodoro.greek_language: "ケルソニソス"
  ### Region 'balkan_region' (Balkans) ###
  ## Area 'slovenia_area' (Carniola) ##
  #Province 'gorizia_province' (Goriška) #
  gorizia_province.greek_language: "南ノリコン" #regional — Noricum
  gorizia.greek_language: "ゴリツィア" #hellenized
  tolmin.greek_language: "トゥルメーニオン" #latin/roman
- trieste.greek_language: "テルゲステ"
+ trieste.greek_language: "テルゲスティ"
  #Province 'lower_carniola_province' (Lower Carniola) #
  lower_carniola_province.greek_language: "中央ノリコン" #regional — Noricum
  novo_mesto.greek_language: "ネオ・メスト"
@@ -515,7 +515,7 @@
  postojna.greek_language: "ポストニア"
  #Province 'upper_carniola_province' (Upper Carniola) #
  upper_carniola_province.greek_language: "北ノリコン" #regional — Noricum
- ljubljana.greek_language: "エモナ"
+ ljubljana.greek_language: "イモナ"
  bled.greek_language: "ベルデース" #latin/roman
  kranj.greek_language: "クラニオ" #cranium
  skofja_loka.greek_language: "スコフィア・ロカ"
@@ -626,7 +626,7 @@
  kosovo_province.greek_language: "コッシピオン平原" #Field of Blackbirds
  peja.greek_language: "シパラントゥム" #latin/roman
  gjakova.greek_language: "ツァコビツァ"
- mitrovica.greek_language: "アギオス・デメトリオス"
+ mitrovica.greek_language: "ハギオス・ディムトリオス"
  novo_brdo.greek_language: "ダマスティオン"
  pristina.greek_language: "ウルピアナ" #latin/roman
  prizren.greek_language: "テランダ" #latin/roman
@@ -652,7 +652,7 @@
  sjenica.greek_language: "シアニツァ" #hellenized
  #Province 'sumadija_province' (Šumadija) #
  sumadija_province.greek_language: "スクラベニア・セルボーン" #regional — Serb Slavic lands
- belgrad.greek_language: "シッギドノン"
+ belgrad.greek_language: "シンギドノン"
  smederevo.greek_language: "セメンドリア"
  rudnik.greek_language: "ルデニコン" #hellenized
  #Province 'toplica_province' (Toplica) #
@@ -678,10 +678,10 @@
  ## Area 'bulgaria_area' (Bulgaria) ##
  #Province 'north_dobruja_province' (North Dobruja) #
  north_dobruja_province.greek_language: "上パリストリオン" #theme — Paradounavon
- babadag.greek_language: "オルガメ"
+ babadag.greek_language: "オルガミ"
  cernavoda.greek_language: "アクシウポリス"
  constanta.greek_language: "トミス"
- enisala.greek_language: "アルミュリス"
+ enisala.greek_language: "ハルミュリス"
  isaccea.greek_language: "ノヴィオドゥヌム" #roman/latin
  tulcea.greek_language: "アイギッソス"
  harsova.greek_language: "カルシウム" #roman/latin
@@ -709,7 +709,7 @@
  dupnitsa.greek_language: "トビニツァ"
  pirot.greek_language: "トゥッレス" #roman/latin
  tsaribrod.greek_language: "トランスリティス" #roman/latin
- velbuzd.greek_language: "オデッソス"
+ velbuzd.greek_language: "オディッソス"
  samokov.greek_language: "サーモコン" #hellenized
  svoge.greek_language: "スボゴン" #hellenized
  zemlungrad.greek_language: "ゼムラングラドン" #hellenized
@@ -717,7 +717,7 @@
  south_dobruja_province.greek_language: "下パリストリオン" #theme
  karvuna.greek_language: "ディオニュソポリス"
  drastar.greek_language: "ドゥロストロン"
- kaliakra.greek_language: "カレ・アクレ"
+ kaliakra.greek_language: "カリ・アクリ"
  kladentsi.greek_language: "クラデンツィオン" #hellenized
  pangalia.greek_language: "カッラティス"
  tutrakan.greek_language: "トランスマリスカ" #roman/latin
@@ -731,7 +731,7 @@
  tryavna.greek_language: "トリアブノン" #hellenized
  #Province 'vidin_province' (Vidin) #
  vidin_province.greek_language: "ビディネー"
- vidin.greek_language: "ヴィディネ"
+ vidin.greek_language: "ヴィディニ"
  archar.greek_language: "ラザリア"
  kozelj.greek_language: "コゼリオン" #hellenized
  kutlovitsa.greek_language: "カストラ・アド・モンタネシウム" #latin/roman
@@ -760,7 +760,7 @@
  rentina.greek_language: "レンティーナ"
  thasos.greek_language: "タソス"
  #Province 'pirin_province' (Pirin) #
- pirin_province.greek_language: "ロドペー" #region — Rhodope
+ pirin_province.greek_language: "ロドペー" #region — Pirin (ancient Orbelos)
  melnik.greek_language: "メラエニコ"
  bansko.greek_language: "ドバルスコン" #medieval Dobarsko
  krupnik.greek_language: "スカプトパラ"
@@ -785,7 +785,7 @@
  vardar_province.greek_language: "スコピア"
  skopje.greek_language: "スクピ"
  prosek.greek_language: "ステナイ"
- kocani.greek_language: "コツァネ"
+ kocani.greek_language: "コツァニ"
  kratovo.greek_language: "トラナトウラ"
  kumanovo.greek_language: "ヴィキアヌス"
  shtip.greek_language: "スティペオン"
@@ -799,7 +799,7 @@
  aytos.greek_language: "アエトス"
  lardeja.greek_language: "ラドレア"
  rusokastro.greek_language: "ロソカストロン"
- sozopol.greek_language: "アポッロニア・ポンティケ"
+ sozopol.greek_language: "アポッロニア・ポンティキ"
  #Province 'constantinople_province' (Byzantion) #
  constantinople_province.greek_language: "ビザンティオン"
  constantinople.greek_language: "コンスタンティヌーポリス"
@@ -821,7 +821,7 @@
  ahtopol.greek_language: "アガトゥポリス"
  luleburgaz.greek_language: "アルカディオウポリス"
  kiyikoy.greek_language: "ミデイア"
- kirklareli.greek_language: "サランタ・エクリシエス"
+ kirklareli.greek_language: "サランタ・エクリシアイ"
  #Province 'evros_province' (Evros) #
  evros_province.greek_language: "ヘブロス" #river region
  demotica.greek_language: "ディディモティホン"
@@ -839,8 +839,8 @@
  ustra.greek_language: "フストラ" #medieval
  #Province 'sliven_province' (Sliven) #
  sliven_province.greek_language: "北トラキア" #regional — northern Thrace
- sliven.greek_language: "セリムノス"
- boruy.greek_language: "イレヌーポリス"
+ sliven.greek_language: "シリムノス"
+ boruy.greek_language: "イリヌーポリス"
  bukelon.greek_language: "ブクリオン"
  constantia_bul.greek_language: "コンスタンティア"
  elhovo.greek_language: "トンソン" #ancient Tonzos
@@ -894,7 +894,7 @@
  atalanti.greek_language: "アタランテ"
  livadeia.greek_language: "リバディア"
  megara.greek_language: "メガラ"
- thebes.greek_language: "ティーヴァ"
+ thebes.greek_language: "ティーヴァイ"
  #Province 'ionian_islands_province' (Ionian Islands) #
  ionian_islands_province.greek_language: "ヘプタネソス" #Seven Islands
  corfu.greek_language: "ケルキラ"
@@ -1037,7 +1037,7 @@
  sungurlu.greek_language: "ヴェリヌーポリス"
  #Province 'divrigi_province' (Divrigi) #
  divrigi_province.greek_language: "テフリケー"
- divrigi.greek_language: "レントコメ"
+ divrigi.greek_language: "レントコミ"
  arapgir.greek_language: "アラブラーケス"
  arguvan.greek_language: "アルガウス"
  egin.greek_language: "ヴェレイソ"
@@ -1054,7 +1054,7 @@
  hacibektas.greek_language: "サランダ"
  nevsehir.greek_language: "ネアポリス・カッパドキアス"
  sariyahsi.greek_language: "ニュッサ"
- urgup.greek_language: "アギオス・プロコピオス"
+ urgup.greek_language: "ハギオス・プロコピオス"
  #Province 'nigde_province' (Niğde) #
  nigde_province.greek_language: "ティアナ" #regional — Tyana lay here
  nigde.greek_language: "ニグディ"
@@ -1079,7 +1079,7 @@
  koyulhisar.greek_language: "ニコポリス・アルメニアス"
  niksar.greek_language: "ネオカイサレイア"
  sulusaray.greek_language: "ヘラクレイウーポリス"
- zile.greek_language: "ゼラ"
+ zile.greek_language: "ジラ"
  ## Area 'central_anatolia_area' (Central Anatolia) ##
  #Province 'aksaray_province' (Aksaray) #
  aksaray_province.greek_language: "コロネイア"
@@ -1098,7 +1098,7 @@
  #Province 'beysehir_province' (Beysehir) #
  beysehir_province.greek_language: "ミスタイア" #Lykaonian region
  beysehir.greek_language: "ミスタイア"
- aksehir.greek_language: "フィロメリオン"
+ aksehir.greek_language: "フィロミリオン"
  bolvadin.greek_language: "ポリュボトン"
  ilgin.greek_language: "テュライオン"
  sarkikaraagac.greek_language: "アドリアノウポリス・ピシディアス"
@@ -1144,7 +1144,7 @@
  beypazari.greek_language: "ラガニア"
  bozan.greek_language: "ポタモス"
  kaymaz.greek_language: "トロンカ"
- kibrus.greek_language: "キュベレ"
+ kibrus.greek_language: "キュベリ"
  kizilca.greek_language: "コッキノテルマイ"
  mihaliccik.greek_language: "ミハリツァ"
  ## Area 'cilicia_area' (Cilicia) ##
@@ -1171,7 +1171,7 @@
  mut.greek_language: "クラウディオポリス・キリキアス"
  #Province 'malatya_province' (Malatya) #
  malatya_province.greek_language: "メリテネー"
- malatya.greek_language: "メリテネ"
+ malatya.greek_language: "メリティニ"
  besni.greek_language: "ビュッソン"
  gerger.greek_language: "アルサメイア"
  kahta.greek_language: "カラクス"
@@ -1202,7 +1202,7 @@
  ## Area 'marmara_area' (Marmara Area) ##
  #Province 'biga_province' (Biga) #
  biga_province.greek_language: "ペガイ"
- biga.greek_language: "ペガイ"
+ biga.greek_language: "ピガイ"
  ayvacik.greek_language: "アッソス"
  bandirma.greek_language: "バンデルマ"
  bayramic.greek_language: "スケプシス"
@@ -1224,16 +1224,16 @@
  bergama.greek_language: "ペルガモン"
  bigadic.greek_language: "ピガディア"
  edremit.greek_language: "アドラミュッティオン"
- manyas.greek_language: "ポイマネノン"
+ manyas.greek_language: "ポイマニノン"
  mihalic.greek_language: "ミリトポリス"
  soma.greek_language: "アポッロニア"
  susurluk.greek_language: "メケストス"
  #Province 'kocaeli_province' (Kocaeli) #
  kocaeli_province.greek_language: "ニコメデイア"
- izmit.greek_language: "ニコメデイア"
+ izmit.greek_language: "ニコミデイア"
  atpazari.greek_language: "アグリリオン"
- uskudar.greek_language: "ハルケドナ"
- silli.greek_language: "ケライタ"
+ uskudar.greek_language: "ハルキドナ"
+ silli.greek_language: "キライタ"
  #Province 'kutahya_province' (Kütahya) #
  kutahya_province.greek_language: "コテュアイオン"
  kutahya.greek_language: "コテュアイオン"
@@ -1245,19 +1245,19 @@
  #Province 'sultanonu_province' (Sultanönü) #
  sultanonu_province.greek_language: "ドリライオン"
  sultanonu.greek_language: "ドリライオン"
- bilecik.greek_language: "ベロコメ"
+ bilecik.greek_language: "ビロコミ"
  goynuk.greek_language: "コイノン・ガッリカノン"
  eynegol.greek_language: "アンゲロコミス"
  inonu.greek_language: "バシリカ"
  nalli.greek_language: "ミリア"
- sogut.greek_language: "テバシオン"
+ sogut.greek_language: "ティバシオン"
  ## Area 'pontus_area' (Pontus) ##
  #Province 'bolu_province' (Bolu) #
  bolu_province.greek_language: "クラウディオポリス"
  bolu.greek_language: "ビテュニオン" #alt. Klavdioúpolis, even Hadriana or Hadrianopolis all 4 names were used to refer to it
  akcasehir.greek_language: "ディオスポリス"
- akyazi.greek_language: "デメトリオン"
- eregli.greek_language: "ヘラクレイア・ポンティケ"
+ akyazi.greek_language: "ディミトリオン"
+ eregli.greek_language: "ヘラクレイア・ポンティキ"
  konrapa.greek_language: "プロウサ・プロス・ト・イッピオ" #alt. Prusias, Proúsa Yppíou
  mudurnu.greek_language: "モドラ"
  #Province 'canik_province' (Canik) #
@@ -1265,9 +1265,9 @@
  giresun.greek_language: "ケラスース"
  akkus.greek_language: "ケノン・ホリオン"
  bayramlu.greek_language: "コティオラ"
- mesudiye.greek_language: "メラス"
+ mesudiye.greek_language: "ミラス"
  terme.greek_language: "テミスキラ"
- unye.greek_language: "オイノエ"
+ unye.greek_language: "オイノイ"
  #Province 'kastamonu_province' (Kastamonu) #
  kastamonu_province.greek_language: "パフラゴニア" #region
  kastamonu.greek_language: "カスタモン"
@@ -1303,9 +1303,9 @@
  ## Area 'west_anatolia_area' (West Anatolia) ##
  #Province 'alaiye_province' (Alaiye) #
  alaiye_province.greek_language: "コラキシオン"
- alaiye.greek_language: "コラケシオン"
+ alaiye.greek_language: "コラキシオン"
  karahisar_i_teke.greek_language: "アスペンドス"
- manavgat.greek_language: "シデ"
+ manavgat.greek_language: "シディ"
  selinti.greek_language: "セリヌス"
  #Province 'antalya_province' (Antalya) #
  antalya_province.greek_language: "アッタレイア"
@@ -1335,16 +1335,16 @@
  #Province 'mugla_province' (Muğla) #
  mugla_province.greek_language: "カリア" #region
  mugla.greek_language: "ムーラ"
- bodrum.greek_language: "アリカルナソス"
+ bodrum.greek_language: "ハリカルナソス"
  gokabat.greek_language: "イディマ"
  golhisar.greek_language: "キビュラ"
  marmaris.greek_language: "マルマリダ"
- megri.greek_language: "マクレ"
+ megri.greek_language: "マクリ"
  tavas.greek_language: "タワイ"
  yuksekkum.greek_language: "カウノス"
  #Province 'saruhan_province' (Saruhan) #
  saruhan_province.greek_language: "リディア" #region; alt: Magnēsía
- manisa.greek_language: "マグネシア"
+ manisa.greek_language: "マグニシア"
  akhisar.greek_language: "ティアテイラ"
  demirci.greek_language: "アリアンドス"
  foca.greek_language: "フォカイア"
@@ -1352,8 +1352,8 @@
  kula.greek_language: "オプシキオン"
  #Province 'smyrna_province' (Smyrna) #
  smyrna_province.greek_language: "スミルニ"
- smyrna.greek_language: "スミュルニ"
- ayasuluk.greek_language: "アギオス・テオロゴス"
+ smyrna.greek_language: "スミルニ"
+ ayasuluk.greek_language: "ハギオス・テオロゴス"
  cesme.greek_language: "エリュトライ"
  menemen.greek_language: "マイネメニ"
  urla.greek_language: "クラゾメナイ"
@@ -1382,9 +1382,9 @@
  idlib.greek_language: "セレミュン" #couldn't find any more info than this name could be wrong about it
  #Province 'ayntab_province' (Ayntab) #
  ayntab.greek_language: "アンティオヒア・タウロウ"
- dluk.greek_language: "ドリクセ・シュリアス"
+ dluk.greek_language: "ドリキ・シュリアス"
  kilis.greek_language: "キリザ" #don't know where to put the accent
- trapessac.greek_language: "クサラクス・メレアグルー" #Meleagrum
+ trapessac.greek_language: "カラクス・メレアグルー" #Meleagrum
  #Province 'deir_province' (Deir ez-Zor) #
  deir_ez_zor.greek_language: "ディヴラ"
  ithriya.greek_language: "セリアナ"
@@ -1396,7 +1396,7 @@
  acre.greek_language: "アンティオヒア・プトレマイス"
  beersheba.greek_language: "ビロサバ"
  gaza.greek_language: "セレウケイア" #Gaza, kadytis, Seleucia
- hebron.greek_language: "クセブロナス"
+ hebron.greek_language: "ケブロナス"
  majdal.greek_language: "アスカロン"
  nablus.greek_language: "フラヴィア・ネアポリス"
  safed.greek_language: "セップ"
@@ -1405,14 +1405,14 @@
  al_bab.greek_language: "バトナイ" #no idea about the accent or if it has a better name
  dabiq.greek_language: "ミニカ"
  jabbul.greek_language: "ガブラ"
- manbij.greek_language: "バンビュケ"
+ manbij.greek_language: "バンビュキ"
  marrat.greek_language: "アッラ"
  maskanah.greek_language: "バルバリッソス"
  zardana.greek_language: "ザルダニア" #hellenized it, not official
  #Province 'hawran_province' (Al-Hawran) #
  bosra.greek_language: "ヴォスラ"
  dara.greek_language: "アドラーア"
- irbid.greek_language: "アルベラ"
+ irbid.greek_language: "アルビラ"
  nawa.greek_language: "ナウアイ"
  suwayda.greek_language: "ディオニシアス"
  #Province 'hims_province' (Hims) #
@@ -1429,10 +1429,10 @@
  jableh.greek_language: "ガバラ"
  tartus.greek_language: "アンティアラドス"
  #Province 'lebanon_province' (Libnan) #
- beirut.greek_language: "ラオディケイア・エン・テ・フォイニケ"
+ beirut.greek_language: "ラオディケイア・エン・ティ・フォイニキ"
  baalbek.greek_language: "ヘリオウポリ・スィリアス"
  deir_qamar.greek_language: "バイスマレ"
- sidon.greek_language: "シドン"
+ sidon.greek_language: "シドナ"
  tripoli_syria.greek_language: "トリポリス"
  #Province 'shaam_province' (Shaam) #
  damascus.greek_language: "ダマスコス"
@@ -1462,13 +1462,13 @@
  ### Region 'egypt_region' (Egypt) ###
  ## Area 'lower_egypt_area' (Lower Egypt) ##
  #Province 'alexandria_province' (Alexandria) #
- alexandria.greek_language: "アレクサンドレイア・カット・アイギュプトン" #kat' Aígypton
+ alexandria.greek_language: "アレクサンドレイア" #kat' Aígypton
  matruh.greek_language: "アンモニア"
  sallum.greek_language: "テトラピュルギア"
  #Province 'buhayra_province' (Buhayra) #
- ramsis.greek_language: "ハイレオン"
+ ramsis.greek_language: "カイレオン"
  kharibta.greek_language: "アルカンドロポリス"
- rashid.greek_language: "ボルビティネ"
+ rashid.greek_language: "ボルビティニ"
  #Province 'dakahliyya_province' (Dakahliyya) #
  damietta.greek_language: "タミアティス"
  mansoura.greek_language: "フェルヌフィス"
@@ -1482,40 +1482,40 @@
  #Province 'cairo_province' (Cairo) #
  cairo.greek_language: "ヘリオウポリス"
  atfih.greek_language: "アプロディトポリス"
- giza.greek_language: "フィラケ"
+ giza.greek_language: "フィラキ"
  menouf.greek_language: "オヌフィス・カト"
- qalyub.greek_language: "カッリオペ"
+ qalyub.greek_language: "カッリオピ"
  #Province 'sharqiyya_province' (Sharqiyya) #
  bilbeis.greek_language: "フェルベス"
  faqus.greek_language: "ファクーサ"
- suez.greek_language: "アルシノエ"
+ suez.greek_language: "アルシノイ"
  ## Area 'upper_egypt_area' (Upper Egypt) ##
  #Province 'asyut_province' (Asyut) #
  asyut.greek_language: "リュコポリス"
  el_balyana.greek_language: "ポリュビオス"
- el_buwit.greek_language: "ヒエラコン・コメ"
+ el_buwit.greek_language: "ヒエラコン・コミ"
  akhmim.greek_language: "パノポリス"
  #Province 'bahnasa_province' (Bahnasawiya) #
  el_bahnasa.greek_language: "オクシュリュンコス"
  faiyum.greek_language: "クロコディロポリス"
  sharuna.greek_language: "ヒッポノン"
  #Province 'minya_province' (Minya) #
- minya.greek_language: "スケナイ・マンドライ"
- ashmunayn.greek_language: "ヘルムポリス・メガレ"
+ minya.greek_language: "スキナイ・マンドライ"
+ ashmunayn.greek_language: "ヘルムポリス・メガリ"
  manfalut.greek_language: "バロット"
  tahna.greek_language: "アコリス"
  #Province 'qusiyya_province' (Qusiyya) #
  qus.greek_language: "アポッロノス・ミクラ"
- aswan.greek_language: "シエネ"
- edfu.greek_language: "アポリノポリス・メガレ"
+ aswan.greek_language: "シエニ"
+ edfu.greek_language: "アポロノポリス・メガリ"
  esna.greek_language: "ラトポリス"
- qena.greek_language: "ケノボスキオン"
+ qena.greek_language: "キノボスキオン"
  hiw.greek_language: "ディオスポリス・ミクラ"
  #Province 'red_sea_coast_province' (Red Sea Coast) #
- el_qoseir.greek_language: "レウコス・リメン"
+ el_qoseir.greek_language: "レウコス・リミン"
  safaga.greek_language: "フィロテラ"
- saint_anthony.greek_language: "アギウ・アントニウ"
- saint_paul_anchorite.greek_language: "アギウ・パウロ・テバイウ"
+ saint_anthony.greek_language: "ハギウ・アントニウ"
+ saint_paul_anchorite.greek_language: "ハギウ・パウロ・ティバイウ"
  #Province 'oasis_province' (Western Oases) #
  kharga.greek_language: "オアシス・ヘ・エソテロ"
  bahariyya.greek_language: "オアシス・ミクラ"
@@ -1530,7 +1530,7 @@
  tobruk.greek_language: "アンティピルゴス"
  #Province 'barca_province' (Barca) #
  benghazi.greek_language: "ヘスペリス"
- ajdabiya.greek_language: "ケラトフィレ" #Corniclanum is the latin name of the place which translates to Horn tribe i hellenized it a bit
+ ajdabiya.greek_language: "ケラトフィリ" #Corniclanum is the latin name of the place which translates to Horn tribe i hellenized it a bit
  barca.greek_language: "バルケ"
  #Province 'jebel_akhdar_province' (Jebel Akhdar) #
  msus.greek_language: "マスス"
@@ -1544,4 +1544,4 @@
  el_jundi.greek_language: "ポセイデイオン"
  faran.greek_language: "ファラン"
  nuweiba.greek_language: "ヌベイムパ"
- saint_katrine.greek_language: "ハギアス・アイカテリネス"
+ saint_katrine.greek_language: "ハギアス・アイカテリニス"

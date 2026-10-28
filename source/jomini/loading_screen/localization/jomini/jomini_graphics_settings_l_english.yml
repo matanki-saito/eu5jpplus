@@ -6,3 +6,5 @@
  SETTING_DOF: "Depth of field"
  SETTING_LENS_FLARE: "Lens flare"
  SETTING_SECONDARY_LENS_FLARE: "Secondary lens flare"
+ SETTING_VOLUMETRIC_FOG: "Volumetric fog"
+ SETTING_VOLUMETRIC_FOG_TOOLTIP: "#T $SETTING_VOLUMETRIC_FOG$\n#!Enables volumetric fog effects in the game.\n\nTurning it off may increase performance."

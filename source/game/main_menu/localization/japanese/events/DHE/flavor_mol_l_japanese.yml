@@ -1,9 +1,9 @@
 ﻿l_japanese:
  flavor_mol.1000.title: "[target_character.GetNicknameWithNoTooltip][target_character.GetShortNameWithNoTooltip]"
  flavor_mol.1000.entry: "ドラゴシュ・ヴォダ、モルダヴィアの建国者"
- flavor_mol.1000.desc: "[target_country.GetLongName]の創設以来、[root_country.GetName]は[target_country.GetCulture.GetName]の侵略者と絶えず争ってきた。[target_location.GetName]の[target_character.GetShortName]は、[target_area.GetName]を[target_character.GetHerHis]と我らの旗のもとに統一するつもりである。[target_character.GetShortNameWithNoTooltip]は[root_character.GetName]に忠誠を誓い、忠実な[ShowSubjectTypeName('march')]として国境地帯を開拓し、[root_country.GetFlavorRank]に仕えることを約束している。"
+ flavor_mol.1000.desc: "[target_country.GetLongName]の創設以来、[root_country.GetName]は[target_country.GetCulture.GetName]の侵略者と絶えず争ってきた。[target_location.GetName]の[target_character.GetShortName]は、[target_area.GetName]を彼と我らの旗のもとに統一するつもりである。[target_character.GetShortNameWithNoTooltip]は[root_character.GetName]に忠誠を誓い、忠実な[ShowSubjectTypeName('march')]として国境地帯を開拓し、[root_country.GetFlavorRank]に仕えることを約束している。"
  flavor_mol.1000.historical_info: "建国者ドラゴシュとも呼ばれるドラゴシュ・ヴォダは、ハンガリー王室の臣下でもあった初代モルダヴィア公。1345年、キプチャクとの戦いに大勝したあと、ドラゴシュはマラムレシュからモルドバ川沿いに入植した。このモルドバ河畔での「下馬」は神話の域を出ないことから、モルダヴィア建国そのものが議論の的となっている。"
- flavor_mol.1000.a: "[target_character.GetHerHim]に[ShowSubjectTypeNameWithNoTooltip('march')]を創設させよう。"
+ flavor_mol.1000.a: "彼に[ShowSubjectTypeNameWithNoTooltip('march')]を創設させよう。"
  flavor_mol.1000.a.at: "[target_character.GetName]が$MOL_ADJ$[ShowSubjectTypeName('march')]を創設するために[target_area.GetName]へ赴く"
  flavor_mol.1000.a.bt: "#R これは[target_country.GetName]との衝突を引き起こす可能性がある#!"
  flavor_mol.1000.b: "[target_country.GetNameWithNoTooltip]の怒りを買う危険は冒せない。"

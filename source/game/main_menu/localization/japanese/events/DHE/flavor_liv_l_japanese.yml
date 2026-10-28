@@ -14,4 +14,4 @@
  flavor_liv.3.title: "『$chronica_provinz_lyfflandt$』の完成"
  flavor_liv.3.desc: "[target_character.GetName]の[ShowWorkOfArtTypeName('chronicle')]がついに出版された。『[target_work_of_art.GetName]』と題されたその書物は、[GetCountry('LIV').GetLongName]の勃興から、[ROOT.GetCountry.GetName]の影響下にある現在の地位に至るまでの[ShowAreaName('baltic_area')]の歴史を網羅している。しかし、この作品は[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の統治に関して客観的とはほど遠く、我々の正当性と、それらの領土を所有する[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の信用に大きな疑念を投げかけている。"
  flavor_liv.3.a: "その程度の批判なら許そう。"
- flavor_liv.3.b: "[target_character.GetHerHim]を追放し、書物も焼いてしまえ！"
+ flavor_liv.3.b: "彼を追放し、書物も焼いてしまえ！"

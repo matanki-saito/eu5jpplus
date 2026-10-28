@@ -1,0 +1,748 @@
+﻿l_japanese:
+ aba_al_qur.maghrebi_dialect: "アバ・エル＝クール" # أبا القور
+ abadan.maghrebi_dialect: "アバダン" # عبادان
+ abha.maghrebi_dialect: "アバ" # أبها
+ abu_dhabi.maghrebi_dialect: "アブ・ダビ" # أبو ظبي
+ abu_hamed.maghrebi_dialect: "アブ・ハマド" # أبو حمد
+ abu_kemal.maghrebi_dialect: "アブ・カマル" # أبو كمال
+ abu_qasr.maghrebi_dialect: "アブ・カスル" # أبو قصر
+ abu_rakah.maghrebi_dialect: "アブ・ラカ" # أبو راكة
+ acre.maghrebi_dialect: "アッカ" # عكا
+ ad_dawasir.maghrebi_dialect: "エド＝ダワシル" # الدواسر
+ ad_dilam.maghrebi_dialect: "エド＝ディラム" # الدلم
+ ad_disah.maghrebi_dialect: "エド＝ディサ" # الديسة
+ ad_dughmiyah.maghrebi_dialect: "エド＝ドゥグミッヤ" # الدغمية
+ adra.maghrebi_dialect: "ブダラ"
+ adrar.maghrebi_dialect: "アドラール" # أدرار
+ afif.maghrebi_dialect: "アフィフ" # عفيف
+ afrin.maghrebi_dialect: "アフリン" # عفرين
+ agadir.maghrebi_dialect: "アガディール" # أكادير
+ aghmat.maghrebi_dialect: "アガマート" # أغمات
+ agramunt.maghrebi_dialect: "グラマント"
+ agreda.maghrebi_dialect: "クラタ"
+ aguiar.maghrebi_dialect: "ギヤール"
+ aguilar_de_campoo.maghrebi_dialect: "ギラール・ドゥ＝カンブ"
+ aguz.maghrebi_dialect: "クズ"
+ ain_madhi.maghrebi_dialect: "アイン・マーディー" # عين ماضي
+ ajdabiya.maghrebi_dialect: "アジュダビヤ" # أجدابيا
+ akhmim.maghrebi_dialect: "アクミーム" # أخميم
+ al_abwa.maghrebi_dialect: "エル＝アブワ" # الأبواء
+ al_aflaj.maghrebi_dialect: "エル＝アフラージュ" # الأفلاج
+ al_ahsa.maghrebi_dialect: "エル＝アハサ" # الأحساء
+ al_ais.maghrebi_dialect: "エル＝イース" # العيص
+ al_ajfar.maghrebi_dialect: "エル＝アジャファル" # الأجفر
+ al_amwah.maghrebi_dialect: "エル＝アムワ" # الأمواه
+ al_anbar.maghrebi_dialect: "エル＝アンバー" # الأنبار
+ al_ayn.maghrebi_dialect: "エル＝アイン" # العين
+ al_ayn_khaybar.maghrebi_dialect: "エル＝アイン" # العين
+ al_azlam.maghrebi_dialect: "エル＝アズラム" # الأزلم
+ al_bab.maghrebi_dialect: "エル＝バブ" # الباب
+ al_bad.maghrebi_dialect: "エル＝バド" # البدع
+ al_bayda.maghrebi_dialect: "エル＝ベイダ" # البيضاء
+ al_bayda_yemen.maghrebi_dialect: "エル＝ベイダ" # البيضاء
+ al_bidda.maghrebi_dialect: "エル＝ビダ" # البدع
+ al_bijadiyah.maghrebi_dialect: "エル＝ビジャディーヤ" # البجادية
+ al_dhaid.maghrebi_dialect: "エド＝デイド" # الذيد
+ al_fuqarah.maghrebi_dialect: "エル＝ファクラ" # الفقرة
+ al_furaish.maghrebi_dialect: "エル＝フレイシュ" # الفريش
+ al_ghat.maghrebi_dialect: "エル＝ガト" # الغاط
+ al_ghazalah.maghrebi_dialect: "エル＝ガザラ" # الغزالة
+ al_ghulayfiqah.maghrebi_dialect: "エル＝グライフィカ" # الغليفقة
+ al_haddar.maghrebi_dialect: "エル＝ハッダール" # الحدار
+ al_hadhah.maghrebi_dialect: "エル＝ハダ" # الهدا
+ al_hajr.maghrebi_dialect: "エル＝ハジュル" # الحجر
+ al_hamad.maghrebi_dialect: "エル＝ハンマード" # الحماد
+ al_haqu.maghrebi_dialect: "エル＝ハクウ" # الحقو
+ al_harjah.maghrebi_dialect: "エル＝ハルジャ" # الحرجة
+ al_harrah.maghrebi_dialect: "エル＝ハッラ" # الحرة
+ al_hawra.maghrebi_dialect: "エル＝ハウラー" # الحوراء
+ al_hinakiyah.maghrebi_dialect: "エル＝ヒナキーヤ" # الحناكية
+ al_hufayr.maghrebi_dialect: "エル＝フファイ" # الحفير
+ al_husayniyah.maghrebi_dialect: "エル＝フサイニーヤ" # الحصينية
+ al_huwaila.maghrebi_dialect: "エル＝フワイラ" # الحويلة
+ al_huwayyit.maghrebi_dialect: "エル＝フワイイト" # الحويط
+ al_jar.maghrebi_dialect: "エル＝ジャール" # الجار
+ al_jawf.maghrebi_dialect: "エル＝ジャウフ" # الجوف
+ al_jubayl.maghrebi_dialect: "エル＝ジュバイル" # الجبيل
+ al_juhfah.maghrebi_dialect: "エル＝ジュハファー" # الجحفة
+ al_jumum.maghrebi_dialect: "エル＝ジュムム" # الجموم
+ al_kamil_wal_wafi.maghrebi_dialect: "エル＝カミル" # الكامل
+ al_khaburah.maghrebi_dialect: "エル＝ハブーラ" # الخابورة
+ al_khadra_ALG.maghrebi_dialect: "エル＝ハドラ" # الخضراء
+ al_kharabah.maghrebi_dialect: "エル＝ハラバ" # الخرابة
+ al_khums.maghrebi_dialect: "エル＝フムス" # الخمس
+ al_khuraybah.maghrebi_dialect: "エル＝クライバ" # الخريبة
+ al_kuwayra.maghrebi_dialect: "エル＝クワイラ"
+ al_lith.maghrebi_dialect: "エル＝リット" # الليث
+ al_luhayyah.maghrebi_dialect: "エル＝ルハイヤ" # اللحية
+ al_madar.maghrebi_dialect: "エル＝マダール" # المذار
+ al_majazah.maghrebi_dialect: "エル＝マジャザ" # المجازة
+ al_majmaah.maghrebi_dialect: "エル＝マジマア" # المجمعة
+ al_mandab.maghrebi_dialect: "エル＝マンダブ" # المندب
+ al_marwa.maghrebi_dialect: "エル＝マルワー" # المروة
+ al_mashqar.maghrebi_dialect: "エル＝マシュカル" # المشقر
+ al_mithnab.maghrebi_dialect: "エル＝ミズナブ" # المذنب
+ al_muazzam.maghrebi_dialect: "エル＝ムアッザム" # المعظم
+ al_mukalla.maghrebi_dialect: "エル＝ムカッラー" # المكلا
+ al_mukha.maghrebi_dialect: "エル＝ムハー" # المخا
+ al_muwaylih.maghrebi_dialect: "エル＝ムウェイリ" # المويلح
+ al_qara.maghrebi_dialect: "エル＝カラ" # القارة
+ al_qatif.maghrebi_dialect: "エル＝カティーフ" # القطيف
+ al_qunfudhah.maghrebi_dialect: "エル＝クンフダ" # القنفذة
+ al_quwayrah.maghrebi_dialect: "エル＝クワイヤ" # القويرة
+ al_rusayrisi.maghrebi_dialect: "エル＝ルサイリス" # الرصيرص
+ al_shihr.maghrebi_dialect: "アッ＝シハル" # الشحر
+ al_shuqayq.maghrebi_dialect: "アル＝シュカイック" # الشقيق
+ al_sinn.maghrebi_dialect: "エス＝シン" # السن
+ al_sirrayn.maghrebi_dialect: "アッ＝シルライン" # السرين
+ al_thamad.maghrebi_dialect: "エッ＝タマド" # الثمد
+ al_tib.maghrebi_dialect: "エッ＝ティッブ" # الطيب
+ al_udayb.maghrebi_dialect: "エル＝ウダイブ" # العذيب
+ al_udayd.maghrebi_dialect: "エル＝ウダイド" # العديد
+ al_ukhaydir.maghrebi_dialect: "エル＝ウハイディル" # الأخيضر
+ al_ula.maghrebi_dialect: "エル＝ウラ" # العلا
+ al_uqayr.maghrebi_dialect: "エル＝ウカイル" # العقير
+ al_uyayna.maghrebi_dialect: "エル＝ウヤイナー" # العيينة
+ al_wajh.maghrebi_dialect: "エル＝ワジュフ" # الوجه
+ al_yamamah.maghrebi_dialect: "エル＝ヤママ" # اليمامة
+ alba_de_aliste.maghrebi_dialect: "アルバ・ディ・リスタ"
+ alba_de_tormes.maghrebi_dialect: "アルバ・ディ・トゥルミス"
+ albacete.maghrebi_dialect: "エル＝バシト"
+ albarracin.maghrebi_dialect: "ブヌ・ラジーン"
+ albuquerque.maghrebi_dialect: "ブ・エル＝コルク"
+ alcacer_do_sal.maghrebi_dialect: "クスル・ビ・ダニス"
+ alcala_de_henares.maghrebi_dialect: "エル＝クラア"
+ alcantara.maghrebi_dialect: "エル＝カンタラ" # القنطرة
+ alcobaca.maghrebi_dialect: "エル＝クバサ"
+ alexandria.maghrebi_dialect: "エル＝イスカンダリヤ" # الإسكندرية
+ algeciras.maghrebi_dialect: "エル＝ジャズィーラ・エル＝ハドラー" # الجزيرة
+ algiers.maghrebi_dialect: "エル＝ジャザイル" # الجزائر
+ alhambra_location.maghrebi_dialect: "エル＝ハムラ" # الحمراء
+ almanzora.maghrebi_dialect: "エル＝マンスーラ" # المنصورة
+ almeria.maghrebi_dialect: "エル＝マリーヤー" # المرية
+ almodovar_del_campo.maghrebi_dialect: "エル＝ムダウワル"
+ almonaster_la_real.maghrebi_dialect: "エル＝ムナスティル" # المنستير
+ almudevar.maghrebi_dialect: "ムダワル"
+ almunecar.maghrebi_dialect: "ヒスン・エル＝ムナッカブ" # حصن
+ alvalade.maghrebi_dialect: "エル＝ブラート"
+ amman.maghrebi_dialect: "アンマン" # عمان
+ an_nabhaniyah.maghrebi_dialect: "アン＝ナバハーニーヤ" # النبهانية
+ an_nakhil.maghrebi_dialect: "アン＝ナヒール" # النخيل
+ an_nibaj.maghrebi_dialect: "アン＝ニバージュ" # النباج
+ an_nil.maghrebi_dialect: "アン＝ニル" # النيل
+ an_nuqrah.maghrebi_dialect: "アン＝ヌクラ" # النقرة
+ anah.maghrebi_dialect: "アナ" # عانة
+ anana.maghrebi_dialect: "ニャーナ"
+ andorra_la_vella.maghrebi_dialect: "ンドゥラ・エル＝バヤ"
+ andujar.maghrebi_dialect: "ンドゥイヤ"
+ annaba.maghrebi_dialect: "アンナバ" # عنابة
+ anso.maghrebi_dialect: "ヌス"
+ antequera.maghrebi_dialect: "ムディーナ・ニタキラ"
+ antioch.maghrebi_dialect: "アンタキヤ" # أنطاكية
+ aqaba.maghrebi_dialect: "エル＝アカバ" # العقبة
+ ar_rabadha.maghrebi_dialect: "エル＝ラバダ" # الربذة
+ ar_rass.maghrebi_dialect: "エル＝ラス" # الرس
+ ar_rayn.maghrebi_dialect: "エル＝ライン" # الرين
+ araban.maghrebi_dialect: "アラバン" # عربان
+ aracena.maghrebi_dialect: "エシュ＝シェルシュナ"
+ arak.maghrebi_dialect: "アラック" # أراك
+ aranda_de_duero.maghrebi_dialect: "ランダ・デ・ドゥエル"
+ arcos_de_la_frontera.maghrebi_dialect: "ルクシュ"
+ arevalo.maghrebi_dialect: "リバル"
+ ariza.maghrebi_dialect: "リサ"
+ arnedo.maghrebi_dialect: "ルニト"
+ aroche.maghrebi_dialect: "ウルス"
+ arroyo.maghrebi_dialect: "ルーユ・エル＝フラスヌ"
+ arzew.maghrebi_dialect: "アルゼウ"
+ as_salif.maghrebi_dialect: "エス＝サリフ" # السليف
+ as_sib.maghrebi_dialect: "エス・シーブ" # السيب
+ as_sulaymi.maghrebi_dialect: "エス＝スレイミ" # السليمي
+ asfan.maghrebi_dialect: "アスファーン" # عسفان
+ asfi.maghrebi_dialect: "アスフィ"
+ ashmunayn.maghrebi_dialect: "エル＝アシュムネイン" # الأشمونين
+ asilah.maghrebi_dialect: "アシラ"
+ asir_ALG.maghrebi_dialect: "アシル"
+ astorga.maghrebi_dialect: "シュトゥルカ"
+ aswan.maghrebi_dialect: "アスワン" # أسوان
+ asyut.maghrebi_dialect: "アシュート" # أسيوط
+ atfih.maghrebi_dialect: "アトフィーハ" # أطفيح
+ avila.maghrebi_dialect: "ビラ"
+ aviles.maghrebi_dialect: "ビリス"
+ avis.maghrebi_dialect: "ビス"
+ ayamonte.maghrebi_dialect: "ワド・アナ"
+ ayn_tamr.maghrebi_dialect: "アイン・アッ＝タムル" # عين التمر
+ aynuna.maghrebi_dialect: "アイヌーナ" # عينونة
+ az_zilfi.maghrebi_dialect: "エズ・ズルフィ" # الزلفي
+ azemmour.maghrebi_dialect: "アザムール" # أزمور
+ azraq.maghrebi_dialect: "エル＝アズラク" # الأزرق
+ azuaga.maghrebi_dialect: "ズワガ"
+ azzan.maghrebi_dialect: "アザーン" # عزان
+ badajoz.maghrebi_dialect: "バタリャウス" # بطليوس
+ bades.maghrebi_dialect: "バデス"
+ baena.maghrebi_dialect: "ビアナ"
+ baeza.maghrebi_dialect: "ビヤーサ"
+ baghdad.maghrebi_dialect: "バグダード" # بغداد
+ bahariyya.maghrebi_dialect: "エル＝バハレイヤ" # البحرية
+ bahla.maghrebi_dialect: "バハラ" # بهلاء
+ balad_ruz.maghrebi_dialect: "バラッド・ルズ" # بلدروز
+ balaguer.maghrebi_dialect: "ブラギ"
+ bani_saad.maghrebi_dialect: "バニ・サード" # بني سعد
+ bani_walid.maghrebi_dialect: "バニ・ワリド" # بني وليد
+ baqa.maghrebi_dialect: "バカア" # بقعاء
+ baraqish.maghrebi_dialect: "バラキシュ" # براقش
+ barcarrota.maghrebi_dialect: "バルクルータ"
+ barcelona.maghrebi_dialect: "バルシュルーナ" # برشلونة
+ barcelos.maghrebi_dialect: "バースルス"
+ barco_de_valdeorras.maghrebi_dialect: "エル＝バルク・デ・バルデュラス "
+ bariq.maghrebi_dialect: "バリク" # بارق
+ baris.maghrebi_dialect: "バリス" # باريس
+ basra.maghrebi_dialect: "エル＝バスラ" # البصرة
+ basra_al_hamra.maghrebi_dialect: "エル＝バスラ・アル＝ハムラ" # البصرة الحمراء
+ bayhan.maghrebi_dialect: "ベイハン" # بيحان
+ baza.maghrebi_dialect: "ムディーナ・ブスタ" # مدينة
+ beersheba.maghrebi_dialect: "ビイル・アッ＝サブ" # بئر السبع
+ beirut.maghrebi_dialect: "ベイルート" # بيروت
+ beja.maghrebi_dialect: "バハ" # باجة
+ beja_TUN.maghrebi_dialect: "バハ" # باجة
+ bejaia.maghrebi_dialect: "ビジャヤ" # بجاية
+ belalcazar.maghrebi_dialect: "ビン・エル＝カスル"
+ belchite.maghrebi_dialect: "ブルシット"
+ belmonte.maghrebi_dialect: "ベルムント"
+ benabarre.maghrebi_dialect: "ブヌ・アッバール"
+ benghazi.maghrebi_dialect: "バンガーズィ" # بنغازي
+ besalu.maghrebi_dialect: "ブサル"
+ besteiros.maghrebi_dialect: "ブスティルス"
+ betanzos.maghrebi_dialect: "ブタンスス"
+ beteta.maghrebi_dialect: "ブティータ"
+ bilbao.maghrebi_dialect: "ブルバオ"
+ bir_el_alter.maghrebi_dialect: "ビイル・アル＝アーティル" # بئر العاطر
+ birali.maghrebi_dialect: "ビル・アリ" # بير علي
+ bojador.maghrebi_dialect: "ブジャドゥール"
+ bordj_bou_arreridj.maghrebi_dialect: "ブルジュ・ブ・ウライリジュ"
+ bosra.maghrebi_dialect: "ブシュラ" # بصرى
+ bou_hajla.maghrebi_dialect: "ブ・ハジュラ"
+ bou_saada.maghrebi_dialect: "ブ・サアダ"
+ bouira.maghrebi_dialect: "エル＝ブイラ"
+ boulaouane.maghrebi_dialect: "ブラワン"
+ braga.maghrebi_dialect: "ブラガ"
+ braganca.maghrebi_dialect: "ブラガンサ"
+ brezina.maghrebi_dialect: "ブリズヤナ"
+ brihuega.maghrebi_dialect: "ブルジウィガ"
+ brozas.maghrebi_dialect: "ブルタス"
+ buitrago_de_lozoya.maghrebi_dialect: "ブトラグ"
+ bunol.maghrebi_dialect: "バンユール"
+ burgo_de_osma.maghrebi_dialect: "ブルグ・ド＝シュマ"
+ burgos.maghrebi_dialect: "ブルグシュ"
+ burraq.maghrebi_dialect: "エル＝ブラーク" # البراق
+ busayrah.maghrebi_dialect: "エル＝ブサイラ" # البصيرة
+ buwat.maghrebi_dialect: "ブワート" # بواط
+ caceres.maghrebi_dialect: "クジリス"
+ cadiz.maghrebi_dialect: "カーディズ" # قادس
+ cairo.maghrebi_dialect: "エル＝カヒーラ" # القاهرة
+ calahorra.maghrebi_dialect: "クラフラ"
+ calatanazor.maghrebi_dialect: "カルアト・アン＝ヌスール"
+ calatayud.maghrebi_dialect: "カラト・アイユーブ" # قلعة
+ calatrava.maghrebi_dialect: "カルアト・ラバーハ" # قلعة رباح
+ canete.maghrebi_dialect: "クニト"
+ cantavieja.maghrebi_dialect: "クンタブハ"
+ caravaca.maghrebi_dialect: "クラバカ"
+ cardona.maghrebi_dialect: "クルデュナ"
+ carinena.maghrebi_dialect: "クリンヤナ"
+ carmona.maghrebi_dialect: "クルムナ"
+ carpio.maghrebi_dialect: "エル＝クセイル"
+ carrion_de_los_condes.maghrebi_dialect: "カッリユーン・ドゥ＝ル・クンディス"
+ cartagena.maghrebi_dialect: "カルタジャンナ・エル＝ハルファ" # قرطاجنة
+ castellon_ampurias.maghrebi_dialect: "クスタリュン・ムブリヤス"
+ castelo_branco.maghrebi_dialect: "クシュティール・ブランク"
+ castrocalbon.maghrebi_dialect: "カストルカルブン"
+ castrojeriz.maghrebi_dialect: "カシュトルヒリス"
+ castropol.maghrebi_dialect: "カシュタルブル"
+ cazorla.maghrebi_dialect: "カイサラ"
+ cervera.maghrebi_dialect: "スルビラ"
+ chao_de_couce.maghrebi_dialect: "シャウ・ド・クーサ"
+ charef.maghrebi_dialect: "シャリフ"
+ chebba.maghrebi_dialect: "アッ＝シャッバ"
+ chinchilla.maghrebi_dialect: "ジンジャラ" # جنجالة
+ chlef.maghrebi_dialect: "エシュ・シャリフ" # الشلف
+ cieza.maghrebi_dialect: "シャサ"
+ ciudad_real.maghrebi_dialect: "ムディント・エル＝マリク" # مدينة
+ ciudad_rodrigo.maghrebi_dialect: "シュダッド・ルドリーグ"
+ ciudadela_de_menorca.maghrebi_dialect: "ムディント・ムヌルカ"
+ cobeta.maghrebi_dialect: "クバイタ"
+ coimbra.maghrebi_dialect: "クルムリヤ"
+ collo.maghrebi_dialect: "エル＝クル"
+ colmenar.maghrebi_dialect: "ケルムナー"
+ constantina.maghrebi_dialect: "クサンティーナ" # قسنطينة
+ constantine_ALG.maghrebi_dialect: "クセンティナ" # قسنطينة
+ constantinople.maghrebi_dialect: "クスタンティニーヤ" # قسطنطينية
+ consuegra.maghrebi_dialect: "スクビヤ"
+ cordoba.maghrebi_dialect: "クルトゥバ" # قرطبة
+ covilha.maghrebi_dialect: "クビーリャ"
+ crato.maghrebi_dialect: "エル＝クラトゥ"
+ cuellar.maghrebi_dialect: "クウィラル"
+ cuenca.maghrebi_dialect: "クンカ" # قونكة
+ dakhla.maghrebi_dialect: "エド＝ダキラ" # الداخلة
+ damanhur.maghrebi_dialect: "ダマンフール" # دمنهور
+ damascus.maghrebi_dialect: "ディマシュク・エッ・シャーム" # دمشق الشام
+ damietta.maghrebi_dialect: "ディムヤート" # دمياط
+ dara.maghrebi_dialect: "ダルア" # درعا
+ dayr_aqul.maghrebi_dialect: "ダイル・エル＝アクル" # دير العاقول
+ deir_ez_zor.maghrebi_dialect: "ダイル・アッ＝ザウル" # دير الزور
+ denia.maghrebi_dialect: "ダニーヤ" # دانية
+ dhafar.maghrebi_dialect: "ダファール" # ظفار
+ dhahran.maghrebi_dialect: "ダハラーン" # ظهران
+ dhamar.maghrebi_dialect: "ダマル" # ذمار
+ dhat_al_hajj.maghrebi_dialect: "ザート・エル＝ハッジ" # ذات الحج
+ dhat_irq.maghrebi_dialect: "ザート・イルク" # ذات عرق
+ dhi_ain.maghrebi_dialect: "ディ・アイン" # ذي عين
+ dhufar.maghrebi_dialect: "ダファール" # ظفار
+ diriyah.maghrebi_dialect: "アッ＝ディルイーヤ" # الدرعية
+ djelfa.maghrebi_dialect: "エル＝ジェルファ" # الجلفة
+ douz.maghrebi_dialect: "ドゥーズ"
+ duba.maghrebi_dialect: "ドゥバ" # ضبا
+ dumat_al_jandal.maghrebi_dialect: "ドゥマット・エル＝ジャンダル" # دومة الجندل
+ durango.maghrebi_dialect: "ドラング"
+ echemmaia.maghrebi_dialect: "エッ＝シャッマーイーヤ"
+ ecija.maghrebi_dialect: "スティッジャ" # إستجة
+ edfu.maghrebi_dialect: "イドフ" # إدفو
+ el_abiodh_sidi_cheikh.maghrebi_dialect: "エル＝アビャド・シーディー・シャイク"
+ el_agheila.maghrebi_dialect: "エル＝ウカイラ" # العقيلة
+ el_alamein.maghrebi_dialect: "エル＝アラメイン" # العلمين
+ el_arish.maghrebi_dialect: "エル＝アリシュ" # العريش
+ el_bahnasa.maghrebi_dialect: "エル＝バハナサ" # البهنسا
+ el_balyana.maghrebi_dialect: "エル＝バリヤーナ" # البلينا
+ el_bayadh.maghrebi_dialect: "エル＝バヤド"
+ el_burullus.maghrebi_dialect: "エル＝ブルルス" # البرلس
+ el_fahs.maghrebi_dialect: "エル＝ファフス"
+ el_jem.maghrebi_dialect: "エル＝ジェム" # الجم
+ el_jundi.maghrebi_dialect: "エル＝ジュンディ" # الجندي
+ el_kala.maghrebi_dialect: "エル＝カラー"
+ el_kantara.maghrebi_dialect: "エル＝カンタラ"
+ el_kef.maghrebi_dialect: "エル＝ケフ" # الكاف
+ el_ksour.maghrebi_dialect: "エル＝クスール"
+ el_mahalla.maghrebi_dialect: "エル＝マハッラ" # المحلة
+ el_milia.maghrebi_dialect: "エル＝ミリア"
+ el_qasr.maghrebi_dialect: "エル＝カスル" # القصر
+ el_qoseir.maghrebi_dialect: "エル＝クサイル" # القصير
+ el_tor.maghrebi_dialect: "エッ＝トゥール" # الطور
+ elche.maghrebi_dialect: "アルシュ" # ألش
+ elizondo.maghrebi_dialect: "ルスンドゥ"
+ escurial.maghrebi_dialect: "スクリャル"
+ esgueira.maghrebi_dialect: "スギラ"
+ esna.maghrebi_dialect: "イスナ" # إسنا
+ espiel.maghrebi_dialect: "スビハル"
+ estella.maghrebi_dialect: "スティラ"
+ estremoz.maghrebi_dialect: "シュタームス" # أشترموش
+ evora.maghrebi_dialect: "ヤブラ" # يابرة
+ faiyum.maghrebi_dialect: "エル＝ファイユーム" # الفيوم
+ faqus.maghrebi_dialect: "ファカス" # فاقوس
+ faran.maghrebi_dialect: "ファラン" # فاران
+ farasan.maghrebi_dialect: "ファラサン" # فرسان
+ faro.maghrebi_dialect: "シャンタ・マリヤト・エル＝ガルブ" # شنت
+ feriana.maghrebi_dialect: "ファリアナ"
+ fermoselle.maghrebi_dialect: "ファルムセリャ"
+ fez.maghrebi_dialect: "ファス" # فاس
+ figueira.maghrebi_dialect: "フギラ"
+ finisterre.maghrebi_dialect: "フニスティラ"
+ flix.maghrebi_dialect: "フリッシュ"
+ fraga.maghrebi_dialect: "フラガ" # إفراغة
+ fuenteovejuna.maghrebi_dialect: "ファント・ウブユナ"
+ fuentiduena.maghrebi_dialect: "フワンティドウィンヤ"
+ gabes.maghrebi_dialect: "カービス" # قابس
+ gandia.maghrebi_dialect: "カンディア" # قندية
+ gergal.maghrebi_dialect: "ジルガル"
+ ghadames.maghrebi_dialect: "ガダミス" # غدامس
+ ghardaia.maghrebi_dialect: "ガルダイヤ" # غرداية
+ ghat.maghrebi_dialect: "ガート" # غات
+ gibraltar.maghrebi_dialect: "ジュバル・ターリク" # جبل
+ ginzo_de_limia.maghrebi_dialect: "ギンス・ド・リミャ"
+ girona.maghrebi_dialect: "ジュルンダ" # جرندة
+ giza.maghrebi_dialect: "エル＝ギーザ" # الجيزة
+ granada.maghrebi_dialect: "ガルナータ" # غرناطة
+ granadilla.maghrebi_dialect: "ガルナーティラ"
+ guadalajara.maghrebi_dialect: "ワディ・エル＝ヒジャーラ" # وادي
+ guadalupe.maghrebi_dialect: "ワド・エル＝ルブ"
+ guadix.maghrebi_dialect: "ワジ・アッシュ" # وادي
+ guelma.maghrebi_dialect: "カリマ" # قالمة
+ habban.maghrebi_dialect: "ハッバーン" # حبان
+ haditha.maghrebi_dialect: "ハディタ" # حديثة
+ hafar_al_batin.maghrebi_dialect: "ハファール・エル＝バティン" # حفر الباطن
+ hail.maghrebi_dialect: "ハイル" # حائل
+ hali.maghrebi_dialect: "ハリ" # حلي
+ hama.maghrebi_dialect: "ハマー" # حماة
+ hammamet.maghrebi_dialect: "エル＝ハンママット" # الحمامات
+ harib.maghrebi_dialect: "ハライブ" # حريب
+ hasakah.maghrebi_dialect: "エル＝ハサカ" # الحسكة
+ hebron.maghrebi_dialect: "エル＝ハリル" # الخليل
+ hellin.maghrebi_dialect: "フラハ"
+ herrera.maghrebi_dialect: "フララ"
+ hillah.maghrebi_dialect: "エル＝ヒッラ" # الحلة
+ hit.maghrebi_dialect: "ヒット" # هيت
+ hiw.maghrebi_dialect: "フ" # هو
+ hoveyzeh.maghrebi_dialect: "エル＝ハウィザ" # الحويزة
+ hudaida.maghrebi_dialect: "エル＝フダイダ" # الحديدة
+ huescar.maghrebi_dialect: "ウシュカ" # وشقة
+ huth.maghrebi_dialect: "フース" # حوث
+ huwwarin.maghrebi_dialect: "フーワリン" # حوارين
+ ibiza.maghrebi_dialect: "ヤブサ" # يابسة
+ ibra.maghrebi_dialect: "イブラ" # إبراء
+ ibri.maghrebi_dialect: "イブリー" # عبري
+ idanha.maghrebi_dialect: "ダニャ"
+ illora.maghrebi_dialect: "ルーラ"
+ iniesta.maghrebi_dialect: "ニャシュタ"
+ iskenderun.maghrebi_dialect: "エル＝イスカンダルーン" # الإسكندرون
+ ithriya.maghrebi_dialect: "イトリヤ" # أثريا
+ izki.maghrebi_dialect: "イズキ" # إزكي
+ jabbul.maghrebi_dialect: "エル＝ジャブール" # الجبول
+ jaca.maghrebi_dialect: "カカ" # جاقة
+ jaen.maghrebi_dialect: "ジャイヤーン" # جيان
+ jaffa.maghrebi_dialect: "ヤファ" # يافا
+ jalan_buani_buali.maghrebi_dialect: "ジャラン・バニ・ブ・アリー" # جعلان بني بو علي
+ jama_TUN.maghrebi_dialect: "エル＝ジャーマ"
+ jaraicejo.maghrebi_dialect: "クリシク"
+ jativa.maghrebi_dialect: "シャトバ" # شاطبة
+ jayrud.maghrebi_dialect: "ジェイルード" # جيرود
+ jazan.maghrebi_dialect: "ジーザーン" # جازان
+ jerez_de_la_frontera.maghrebi_dialect: "シュリシュ" # شريش
+ jerez_de_los_caballeros.maghrebi_dialect: "シュリシュ" # شريش
+ jerusalem.maghrebi_dialect: "エル＝クドゥス" # القدس
+ jijel.maghrebi_dialect: "ジジャル" # جيجل
+ julfar.maghrebi_dialect: "ジュルファール" # جلفار
+ jumilla.maghrebi_dialect: "ジュマラ" # جملة
+ kaf.maghrebi_dialect: "カフ" # كاف
+ kafartab.maghrebi_dialect: "カファルターブ" # كفرطاب
+ kairouan.maghrebi_dialect: "エル＝カイラワーン" # القيروان
+ kalaat_sraghna.maghrebi_dialect: "カルアト・アッ＝スラーグナ"
+ karak.maghrebi_dialect: "エル＝カラク" # الكرك
+ karbala.maghrebi_dialect: "カルバラー" # كربلاء
+ kassala.maghrebi_dialect: "カッサラ" # كسلا
+ kasserine.maghrebi_dialect: "エル＝カスライン" # القصرين
+ kawkaban.maghrebi_dialect: "コーカバン" # كوكبان
+ kazimah.maghrebi_dialect: "カディマ" # كاظمة
+ kebili.maghrebi_dialect: "カビリ" # قبلي
+ khalis.maghrebi_dialect: "エル＝ハーリス" # الخالص
+ khanaser.maghrebi_dialect: "ハナーシル" # خناصر
+ kharga.maghrebi_dialect: "エル＝ハーリジャ" # الخارجة
+ kharibta.maghrebi_dialect: "カリブタ" # خربتا
+ khaybar_janoub.maghrebi_dialect: "カイバル・エル＝ジャヌーブ" # خيبر الجنوب
+ khor_fakkan.maghrebi_dialect: "ハウル・ファッカーン" # خورفكان
+ kirkuk.maghrebi_dialect: "キルクーク" # كركوك
+ kom_ombo.maghrebi_dialect: "カウム・ウンブー" # كوم أمبو
+ ksar_el_boukhari.maghrebi_dialect: "カスル・アル＝ブハリー"
+ ksar_el_kebir.maghrebi_dialect: "エル＝カスル・アル＝カビール"
+ ksar_ibn_senane.maghrebi_dialect: "カスル・イブン・シナーン"
+ kufa.maghrebi_dialect: "エル＝クーファ" # الكوفة
+ la_mamora.maghrebi_dialect: "エル＝マムーラ"
+ laayoune.maghrebi_dialect: "エル＝ウユン" # العيون
+ laghouat.maghrebi_dialect: "エル＝アグワート" # الأغواط
+ lagoon_of_salses.maghrebi_dialect: "ブヒルト・サルサス"
+ lagos.maghrebi_dialect: "ザーウィヤ" # زاوية
+ laila.maghrebi_dialect: "ライラ" # ليلى
+ larache.maghrebi_dialect: "エル＝アライシュ" # العرائش
+ laredo.maghrebi_dialect: "ルリドゥ"
+ ledesma.maghrebi_dialect: "ルデスマ"
+ lezuza.maghrebi_dialect: "ルクサ"
+ linah.maghrebi_dialect: "リナ" # لينة
+ lisbon.maghrebi_dialect: "エル＝ウシュブナ" # الأشبونة
+ liwa.maghrebi_dialect: "リワ" # ليوا
+ lleida.maghrebi_dialect: "ラリダ"
+ llerena.maghrebi_dialect: "ルリナ"
+ logrono.maghrebi_dialect: "ルグルニュ"
+ lucena.maghrebi_dialect: "エル＝イサナ"
+ maan.maghrebi_dialect: "マアン" # معان
+ macedo.maghrebi_dialect: "ムシドゥ"
+ madaba.maghrebi_dialect: "マダバ" # مادبا
+ madas.maghrebi_dialect: "マダス"
+ madinat_alawiyyin.maghrebi_dialect: "マディナト・アラウィッイン" # مدينة العلويين
+ madinat_far.maghrebi_dialect: "マディナト・エル＝ファル" # مدينة الفار
+ madrid.maghrebi_dialect: "マジュリト" # مجريط
+ mahdia.maghrebi_dialect: "エル＝マフディーヤ" # المهدية
+ mahres.maghrebi_dialect: "エル＝マハラス" # المحرس
+ main.maghrebi_dialect: "マイン" # معين
+ majdal.maghrebi_dialect: "エル＝マジュダル" # المجدل
+ makisin.maghrebi_dialect: "マキシン" # ماكسين
+ makna.maghrebi_dialect: "マクナ" # مقنا
+ malaga.maghrebi_dialect: "マラカ" # مالقة
+ malagon.maghrebi_dialect: "ムラクン"
+ manacor.maghrebi_dialect: "ムナクル"
+ manama.maghrebi_dialect: "エル＝マナマ" # المنامة
+ manfalut.maghrebi_dialect: "マンファルート" # منفلوط
+ mansoura.maghrebi_dialect: "エル＝マンスーラ" # المنصورة
+ mansouria.maghrebi_dialect: "エル＝マンスーリヤ" # المنصورية
+ manzanares.maghrebi_dialect: "ムヌザナリス"
+ marrakesh.maghrebi_dialect: "メラケシュ" # مراكش
+ marrat.maghrebi_dialect: "マアラット・アン＝ヌマン" # معرة النعمان
+ masirah.maghrebi_dialect: "マシラ" # مصيرة
+ masyaf.maghrebi_dialect: "マスヤーフ" # مصياف
+ mateur.maghrebi_dialect: "マティール"
+ matmata.maghrebi_dialect: "マットマタ" # مطماطة
+ matruh.maghrebi_dialect: "マトルーフ" # مطروح
+ mazaghan.maghrebi_dialect: "マズィゲン"
+ mazouna.maghrebi_dialect: "マズナー"
+ mechili.maghrebi_dialect: "エル＝マヒリ" # المخيلي
+ medea.maghrebi_dialect: "エル＝マディヤ" # المدية
+ medellin.maghrebi_dialect: "ムダリン"
+ medenine.maghrebi_dialect: "マダニン" # مدنين
+ medina.maghrebi_dialect: "マディナ" # المدينة
+ medina_de_rioseco.maghrebi_dialect: "ムディナット・リユシク"
+ medina_del_campo.maghrebi_dialect: "ムディナット・エル＝カンブ"
+ medina_sidonia.maghrebi_dialect: "ムディーナ・シャドゥーナ"
+ medinaceli.maghrebi_dialect: "ムディナット・サリーム"
+ medjez_el_bab.maghrebi_dialect: "メジェズ・エル＝バブ"
+ meknes.maghrebi_dialect: "ミクナス" # مكناس
+ melilla.maghrebi_dialect: "マリラ" # مليلة
+ menouf.maghrebi_dialect: "ミヌーフ" # منوف
+ merida.maghrebi_dialect: "マリダ" # ماردة
+ mertola.maghrebi_dialect: "マルトゥラー" # مرتلة
+ mila.maghrebi_dialect: "ミラ" # ميلة
+ miliana.maghrebi_dialect: "ミルヤナ" # مليانة
+ minya.maghrebi_dialect: "エル＝ミニヤ" # المنيا
+ miranda_de_ebro.maghrebi_dialect: "ムランダ・ド＝イブル"
+ miranda_de_i_douro.maghrebi_dialect: "ムランダ・ド＝ダウル"
+ mirbat.maghrebi_dialect: "ミルバト" # مرباط
+ misratah.maghrebi_dialect: "ミスラタ" # مصراتة
+ mogador.maghrebi_dialect: "ムガドゥル"
+ mojacar.maghrebi_dialect: "ミャカル"
+ monastir.maghrebi_dialect: "エル＝ムナスティル" # المنستير
+ monesterio.maghrebi_dialect: "ムナスティル"
+ monforte_de_lemos.maghrebi_dialect: "ムンフルティ・ド・リムス"
+ montalban.maghrebi_dialect: "ムヌト・ルバン"
+ montblanc.maghrebi_dialect: "ムヌト・ブランク"
+ montiel.maghrebi_dialect: "ムヌティル"
+ monzon.maghrebi_dialect: "ムヌト・サン"
+ monzon_campos.maghrebi_dialect: "ムンスン・ドゥ＝カンブ"
+ morella.maghrebi_dialect: "ムララ"
+ moron.maghrebi_dialect: "マウルール" # مورور
+ mostaganem.maghrebi_dialect: "ムスターガナム" # مستغانم
+ mrirah.maghrebi_dialect: "ミリラ"
+ msila.maghrebi_dialect: "エル＝マシラ" # المسيلة
+ msus.maghrebi_dialect: "ムスス" # مسوس
+ muhammerah.maghrebi_dialect: "エル＝ムハンマラ" # المحمرة
+ muhayil.maghrebi_dialect: "ムハイル" # محايل
+ musaymir.maghrebi_dialect: "エル＝ムサイミール" # المسيمير
+ naama.maghrebi_dialect: "エン＝ナアマ" # النعامة
+ nabeul.maghrebi_dialect: "ナブール" # نابل
+ nablus.maghrebi_dialect: "ナーブルス" # نابلس
+ najera.maghrebi_dialect: "ナジラ" # ناجرة
+ najran.maghrebi_dialect: "ナジュラーン" # نجران
+ namalata.maghrebi_dialect: "ナマラタ"
+ nasiriyah.maghrebi_dialect: "ナーシリーヤ" # الناصرية
+ navalucillos.maghrebi_dialect: "ンバルシリュシュ"
+ navia_de_suarna.maghrebi_dialect: "ナブヤ・デ・スワルナ"
+ nawa.maghrebi_dialect: "ナワ" # نوى
+ nisab.maghrebi_dialect: "ニサーブ" # نصاب
+ nizwa.maghrebi_dialect: "ニズワ" # نزوى
+ numaniyyah.maghrebi_dialect: "アン＝ヌウマーニーヤ" # النعمانية
+ ocana.maghrebi_dialect: "クァンヤ"
+ odemira.maghrebi_dialect: "ワド・ミラ"
+ olite.maghrebi_dialect: "リット"
+ olvera.maghrebi_dialect: "ウビラ"
+ onate.maghrebi_dialect: "ニャータ"
+ oran.maghrebi_dialect: "ワハラーン" # وهران
+ orihuela.maghrebi_dialect: "リューラ" # أوريولة
+ oropesa.maghrebi_dialect: "ルビサ"
+ osuna.maghrebi_dialect: "ウシュナ" # أشونة
+ ouarzazate.maghrebi_dialect: "ワルザザート" # ورزازات
+ ouezzane.maghrebi_dialect: "ワザーン"
+ ourense.maghrebi_dialect: "ウリンシ"
+ palencia.maghrebi_dialect: "フランシヤ"
+ palenzuela.maghrebi_dialect: "フランスウィラ"
+ palma.maghrebi_dialect: "ムディント・マユルカ" # مدينة
+ pamplona.maghrebi_dialect: "ブンバルーナ" # بنبلونة
+ pedraza.maghrebi_dialect: "ブドラサ"
+ pedroche.maghrebi_dialect: "ビトルーシュ"
+ peniscola.maghrebi_dialect: "ブニシュクラ"
+ perpignan.maghrebi_dialect: "ブルビンヤン"
+ piedrahita.maghrebi_dialect: "ビャドラヒタ"
+ pinar.maghrebi_dialect: "ブナール"
+ pinhel.maghrebi_dialect: "ブニール"
+ plasencia.maghrebi_dialect: "ブラシンシャ"
+ ponte_sor.maghrebi_dialect: "カンタラト・スール"
+ pontevedra.maghrebi_dialect: "ブンタビドラ"
+ portalegre.maghrebi_dialect: "ブルト・エル＝ガディール"
+ portel.maghrebi_dialect: "バルティール"
+ puebla_de_montalban.maghrebi_dialect: "ムンタルバン"
+ puebla_de_sanabria.maghrebi_dialect: "ブウィブラ・ディ・サナブリヤ"
+ puente_arzobispo.maghrebi_dialect: "カンタラト・エル＝アスクフ"
+ puertollano.maghrebi_dialect: "ブルト・エル＝ラーヌ"
+ puigcerda.maghrebi_dialect: "ブジュ・スルダ"
+ qadisiyyah.maghrebi_dialect: "エル＝カディシヤ" # القادسية
+ qal_at_ibn_salama.maghrebi_dialect: "カルアト・イブン・サラマ" # قلعة ابن سلامة
+ qalat_bishah.maghrebi_dialect: "カルアト・ビーシャ" # قلعة بيشة
+ qalhat.maghrebi_dialect: "カルハット" # قلهات
+ qalyub.maghrebi_dialect: "カリウブ" # قليوب
+ qaminis.maghrebi_dialect: "カミニス" # قمينس
+ qaryat_ulya.maghrebi_dialect: "カリヤト・エル＝ウリヤ" # قرية العليا
+ qaryatayn.maghrebi_dialect: "エル・カリアタイン" # القريتين
+ qasr_farafra.maghrebi_dialect: "カスル・エル＝ファラーフィラ" # قصر الفرافرة
+ qastal.maghrebi_dialect: "エル＝カスタル" # القسطل
+ qatya.maghrebi_dialect: "カトヤ" # قطيا
+ qayyarah.maghrebi_dialect: "エル＝カイヤラ" # القيارة
+ qena.maghrebi_dialect: "キナ" # قنا
+ qurain.maghrebi_dialect: "エル＝クライン" # القرين
+ qus.maghrebi_dialect: "クース" # قوص
+ qusayr.maghrebi_dialect: "エル＝クサイル" # القصير
+ qutayfah.maghrebi_dialect: "エル＝クタイファ" # القطيفة
+ rabat.maghrebi_dialect: "エッ＝ラバト" # الرباط
+ radaa.maghrebi_dialect: "ラダ" # رداع
+ rahba.maghrebi_dialect: "エッ＝ラフバ" # الرحبة
+ raqqa.maghrebi_dialect: "エッ＝ラッカ" # الرقة
+ ras_al_ain.maghrebi_dialect: "ラアス・エル＝アイン" # رأس العين
+ ras_gharib.maghrebi_dialect: "ラアス・ガリブ" # رأس غارب
+ ras_lanuf.maghrebi_dialect: "ラアス・ラヌフ" # رأس لانوف
+ rashid.maghrebi_dialect: "ラシド" # رشيد
+ raysut.maghrebi_dialect: "レイシュット" # ريسوت
+ requena.maghrebi_dialect: "ルカナ"
+ ribadavia.maghrebi_dialect: "ルバダビア"
+ rijal_almaa.maghrebi_dialect: "リジャル・アルマ" # رجال ألمع
+ roncesvalles.maghrebi_dialect: "ルンシスバリス"
+ ronda.maghrebi_dialect: "ヒスン・エル＝ルンダ" # حصن
+ rusafa.maghrebi_dialect: "エッ＝ルサーファ" # الرصافة
+ rustaq.maghrebi_dialect: "エッ＝ルスタク" # الرستاق
+ sabha.maghrebi_dialect: "セブハ" # سبها
+ sabya.maghrebi_dialect: "サブヤー" # صبيا
+ safaga.maghrebi_dialect: "サファジャ" # سفاجا
+ saida.maghrebi_dialect: "サイダ" # سعيدة
+ sakaka.maghrebi_dialect: "サカカ" # سكاكا
+ salamanca.maghrebi_dialect: "シュラマンカ" # شلمنقة
+ sale.maghrebi_dialect: "サラ" # سلا
+ sallum.maghrebi_dialect: "エス＝サルーム" # السلوم
+ salvaterra.maghrebi_dialect: "スルバティラ"
+ salvatierra.maghrebi_dialect: "スルブティアッラ"
+ samanoud.maghrebi_dialect: "サマンヌード" # سمنود
+ samarra.maghrebi_dialect: "サマッラー" # سامراء
+ samira.maghrebi_dialect: "サミーラ" # سميراء
+ san_sebastian.maghrebi_dialect: "サン・スバスティヤン"
+ san_vicente_barquera.maghrebi_dialect: "サン・ビサンティ・ダ・ル＝バルキーラ"
+ sana_yemen.maghrebi_dialect: "サナア" # صنعاء
+ sanguesa.maghrebi_dialect: "スングウィサ"
+ sanlucar.maghrebi_dialect: "シャルカ" # شلوقة
+ sanlucar_la_mayor.maghrebi_dialect: "シャルカ・エル＝クブラ"
+ santa_eufemia.maghrebi_dialect: "クンヤ"
+ santarem.maghrebi_dialect: "シュンタリン" # شنترين
+ santiago_compostela.maghrebi_dialect: "シャント・ヤクブ・ダ・クンブスティーラ"
+ saqra.maghrebi_dialect: "シャクラー" # شقراء
+ sarinena.maghrebi_dialect: "スリンヤナ"
+ sayhat.maghrebi_dialect: "サイハト" # سيهات
+ sayun.maghrebi_dialect: "サユーン" # سيئون
+ sbiba.maghrebi_dialect: "スビバ"
+ sbikha.maghrebi_dialect: "エス＝サビハ"
+ sefrou.maghrebi_dialect: "サフル" # صفرو
+ segovia.maghrebi_dialect: "シュクビーヤ" # شقوبية
+ segura_de_la_sierra.maghrebi_dialect: "シュクラ"
+ sejnane.maghrebi_dialect: "サジナン"
+ settat.maghrebi_dialect: "サタット"
+ setubal.maghrebi_dialect: "シュトゥバル" # شطوبر
+ seu_durgell.maghrebi_dialect: "エス＝シー・ドゥ＝ルジャル"
+ sevilla.maghrebi_dialect: "シュビーリャ" # إشبيلية
+ sfaqes.maghrebi_dialect: "サファカス" # صفاقس
+ shaharah.maghrebi_dialect: "シャハラ" # شهارة
+ sharjah.maghrebi_dialect: "アッシュ＝シャーリカ" # الشارقة
+ shibam.maghrebi_dialect: "シバーム" # شبام
+ shinas.maghrebi_dialect: "シナース" # شناص
+ shoubak.maghrebi_dialect: "アッ＝シャウバク" # الشوبك
+ sidi_bennour.maghrebi_dialect: "シディ・ビンヌール" # سيدي بنور
+ sidi_okba.maghrebi_dialect: "シディ・ウクバ" # سيدي عقبة
+ sidon.maghrebi_dialect: "サイダ" # صيدا
+ siguenza.maghrebi_dialect: "スグンサ"
+ sijilmasa.maghrebi_dialect: "シジルマサ" # سجلماسة
+ sinjar.maghrebi_dialect: "シンジャール" # سنجار
+ sir_bani_yas.maghrebi_dialect: "シル・バニ・ヤス" # صير بني ياس
+ smara.maghrebi_dialect: "エス＝サマラ" # السمارة
+ souk_el_arba.maghrebi_dialect: "スーク・アル＝アルバアー" # سوق الأربعاء
+ sousse.maghrebi_dialect: "スーサ" # سوسة
+ sto_domingo_silos.maghrebi_dialect: "サント・ドゥミング・デ＝シルス"
+ suez.maghrebi_dialect: "エッ＝スウェース" # السويس
+ suhar.maghrebi_dialect: "スハール" # صحار
+ sukhnah.maghrebi_dialect: "エス＝スフナ" # السخنة
+ suq_al_shuyukh.maghrebi_dialect: "スーク・アッシュ＝シュユーフ" # سوق الشيوخ
+ sur.maghrebi_dialect: "スュール" # صور
+ suwayda.maghrebi_dialect: "アッ＝スワイダー" # السويداء
+ tabalah.maghrebi_dialect: "タバラ" # تبالة
+ tabqah.maghrebi_dialect: "エッ＝タブカ" # الطبقة
+ tabuk_arabia.maghrebi_dialect: "タブーク" # تبوك
+ tahert.maghrebi_dialect: "タハルト" # تاهرت
+ tahna.maghrebi_dialect: "タハナ" # طحنا
+ taif.maghrebi_dialect: "エッ＝タイーフ" # الطائف
+ talarn.maghrebi_dialect: "トゥラルン"
+ talavera_de_la_reina.maghrebi_dialect: "トゥラバイラ"
+ tanomah.maghrebi_dialect: "タヌマ" # تنومة
+ tantan.maghrebi_dialect: "タンタン"
+ tarazona.maghrebi_dialect: "トラスナ" # طرسونة
+ tarhuna.maghrebi_dialect: "タルフナ" # ترهونة
+ tarifa.maghrebi_dialect: "トリファ" # طريفة
+ tarim.maghrebi_dialect: "タリム" # تريم
+ taroudant.maghrebi_dialect: "タルダント" # تارودانت
+ tarragona.maghrebi_dialect: "トラクナ" # طركونة
+ tarrana.maghrebi_dialect: "タッラーナ" # طرانة
+ tataouine.maghrebi_dialect: "タタウィン" # تطاوين
+ tathlith.maghrebi_dialect: "タトリット" # تثليث
+ taunat.maghrebi_dialect: "タウナト"
+ tavira.maghrebi_dialect: "トゥビラ"
+ tawurgha.maghrebi_dialect: "タワルガー" # تاورغاء
+ taybah.maghrebi_dialect: "エッ＝タイバ" # الطيبة
+ tayma.maghrebi_dialect: "タイマー" # تيماء
+ taza.maghrebi_dialect: "ターザ"
+ terrassa.maghrebi_dialect: "トゥッラーサ"
+ tetouan.maghrebi_dialect: "ティトゥワン" # تطوان
+ thala.maghrebi_dialect: "タラ"
+ thula.maghrebi_dialect: "トゥラ" # ثلا
+ tikrit.maghrebi_dialect: "ティクリート" # تكريت
+ timimoun.maghrebi_dialect: "ティミムン" # تيميمون
+ tindouf.maghrebi_dialect: "ティンドゥフ" # تندوف
+ tissemsilt.maghrebi_dialect: "ティサムシラット"
+ tit.maghrebi_dialect: "ティット"
+ tlemcen.maghrebi_dialect: "トレムセン" # تلمسان
+ toledo.maghrebi_dialect: "トゥライトゥラ" # طليطلة
+ tolga.maghrebi_dialect: "トゥルジャ"
+ tomar.maghrebi_dialect: "トゥマール"
+ tomelloso.maghrebi_dialect: "トマルス"
+ torres_novas.maghrebi_dialect: "トラシュ・エン＝ヌーバ"
+ torres_vedras.maghrebi_dialect: "トラシュ・ビドラシュ"
+ tortosa.maghrebi_dialect: "タルトゥーシャ" # طرطوشة
+ tozeur.maghrebi_dialect: "トゥジル" # توزر
+ tripoli.maghrebi_dialect: "トラブルス" # طرابلس الغرب
+ tripoli_syria.maghrebi_dialect: "タラブルス・エッ＝シャーム" # طرابلس الشام
+ trujillo.maghrebi_dialect: "トルジャラ"
+ tudela.maghrebi_dialect: "トティラ" # تطيلة
+ tunis.maghrebi_dialect: "トゥンズ" # تونس
+ ubeda.maghrebi_dialect: "ウッバーダ・エル＝アラブ"
+ ucles.maghrebi_dialect: "クリシュ"
+ ukbara.maghrebi_dialect: "ウクバラ" # عكبراء
+ valderrobres.maghrebi_dialect: "バル・エル＝ルブラシュ"
+ valenca.maghrebi_dialect: "ブランサ"
+ valencia.maghrebi_dialect: "ブランシヤ" # بلنسية
+ valencia_de_alcantara.maghrebi_dialect: "ブランシヤト・エル＝カンタラ"
+ valladolid.maghrebi_dialect: "ブルド・エル＝ワリード" # بلد
+ valmaseda.maghrebi_dialect: "ブルムシダ"
+ valverde.maghrebi_dialect: "ブルビルディ"
+ velez_rubio.maghrebi_dialect: "ブッリシュ・エル＝アフマル"
+ viana.maghrebi_dialect: "ビアナ"
+ viana_bolo.maghrebi_dialect: "ビアナ・エル＝ブッル"
+ viana_do_castelo.maghrebi_dialect: "ビアナ・エル＝カシュティル"
+ vielha.maghrebi_dialect: "ビャーリャ"
+ villafranca_bierzo.maghrebi_dialect: "ビルヤフランカ・エル＝ビヤルス"
+ villafranca_del_penedes.maghrebi_dialect: "ビラフランカ・エル＝ブナディス"
+ villalba.maghrebi_dialect: "ブリャルバ"
+ villanueva_de_la_serena.maghrebi_dialect: "ブランウィーバ・エス＝スリーナ"
+ villanueva_del_fresno.maghrebi_dialect: "ブランウィーバ・エル＝フラスヌ"
+ villena.maghrebi_dialect: "ブリアーナ"
+ vitoria.maghrebi_dialect: "ブトゥリヤ"
+ vivero.maghrebi_dialect: "ブビル"
+ volubilis.maghrebi_dialect: "ワリリ" # وليلي
+ wadi_el_melik.maghrebi_dialect: "ワディ・エル＝マリク" # وادي الملك
+ wadi_el_natrun.maghrebi_dialect: "ワディ・エン＝ナトルン" # وادي النطرون
+ wasit.maghrebi_dialect: "ワシット" # واسط
+ yabrin.maghrebi_dialect: "ヤブリン" # يبرين
+ yanbu_an_nakhil.maghrebi_dialect: "ヤンブ・アン＝ナキル" # ينبع النخل
+ zabid.maghrebi_dialect: "ザビード" # زبيد
+ zaghouan.maghrebi_dialect: "ザグワン" # زغوان
+ zalamea.maghrebi_dialect: "スラミヤ"
+ zamora.maghrebi_dialect: "スッムラ" # سمورة
+ zaragoza.maghrebi_dialect: "サラクスタ" # سرقسطة
+ zarzis.maghrebi_dialect: "ジャルジス" # جرجيس
+ zawiya.maghrebi_dialect: "アッ＝ザーウィヤ" # الزاوية
+ zinjibar.maghrebi_dialect: "ジンジバール" # زنجبار
+ zliten.maghrebi_dialect: "ズリテン" # زليتن
+ zubarah.maghrebi_dialect: "エズ＝ズバラ" # الزبارة
+ zuera.maghrebi_dialect: "スワラ"

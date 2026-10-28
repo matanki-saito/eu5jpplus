@@ -46,6 +46,7 @@
  flavor_zmw.1101.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_zmw.1101.a.entry: "$common_string_brilliant$"
  flavor_zmw.1101.b: "関心がない。"
+ flavor_zmw.1101.c: "この地を知る者こそ、我が[ROOT.GetCountry.GetGovernment.GetCourtTitle]にふさわしい。"
  flavor_zmw.1200.title: "[target_character.GetNameWithNoTooltip]の布教活動"
  flavor_zmw.1200.entry: "ジンバブエのキリスト教の宣教師たち"
  flavor_zmw.1200.desc: "[target_country.GetName]出身の[target_character.GetName]は、これまで外交官および総督として自国に仕えてきたが、[ShowReligionAdjective('catholic')]の宣教師としての人生を志すようになり、わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]を訪れた。彼は、布教拠点の設立許可を求めるとともに、[target_ruler.GetName]が個人的に[ShowReligionNameWithNoTooltip('catholic')]に改宗する意志があるかどうかを尋ねている。"

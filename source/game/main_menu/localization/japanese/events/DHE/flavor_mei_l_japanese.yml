@@ -11,7 +11,7 @@
  flavor_mei.2.desc: "才能ある劇作家で詩人の[target_character.GetName]が、わが国に移住し執筆活動を続けることになった。彼はすでに熟練の書き手だが、今後も意欲的に創作するつもりのようだ。"
  flavor_mei.2.a: "[ROOT.GetCountry.Custom('common_string_positive')]"
  flavor_mei.2.a.entry: "$common_string_brilliant$"
- flavor_mei.2.b: "彼は[target_banish_country.GetNameWithNoTooltip]を去るべきだ。"
+ flavor_mei.2.b: "彼は[target_banish_country.GetNameWithNoTooltip]へ去るべきだ。"
  flavor_mei.2.b.entry: "彼は他国へ去るべきだ。"
  flavor_mei.10.title: "[target_character.GetNameWithNoTooltip]"
  flavor_mei.10.entry: "ヨハン・ゼバスティアン・バッハ"

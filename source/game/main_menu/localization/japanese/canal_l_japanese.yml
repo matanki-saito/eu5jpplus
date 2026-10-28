@@ -1,0 +1,17 @@
+﻿l_japanese:
+ # Decision category
+ DECISION_CATEGORY_INFRASTRUCTURE: "インフラ"
+ # CConstruction name/tooltip strings used by CConstruction::GetNameWithNoTooltip
+ # and CConstruction::GetTooltip when _IsCanal is set.
+ CANAL_CONSTRUCTING: "[LOCATION.GetNameWithNoTooltip]に運河を建設中"
+ CANAL_CONST_DETAILS_TIP: "[LOCATION.GetNameWithNoTooltip]を横断する航行可能な運河が掘削され、運河によって結ばれる海域のあいだに新たな航路が開かれる。"
+ # Advances
+ suez_canal_advance: "スエズ運河計画"
+ suez_canal_advance_desc: "スエズ地峡を調査し、地中海と紅海を直接結ぶ運河の建設を開始する。"
+ panama_canal_advance: "パナマ運河計画"
+ panama_canal_advance_desc: "パナマ地峡を調査し、大西洋と太平洋を結ぶ運河の建設を開始する。"
+ CANAL_LOCATION: "運河"
+ CANAL_LOCATION_DESC: "この地を横断する航行可能な運河が掘削され、2つの海域を結ぶ航路が開かれている。"
+ CANAL_LOCATION_RESTRICTED: "現在、通航できるのは運河の所有国の同盟国および従属国に限られる。"
+ CANAL_LOCATION_RESTRICTED_FOR_US: "我が国は資格を満たしておらず、現在この運河を通過することはできません。"
+ CANAL_LOCATION_NOT_RESTRICTED: "我が国は現在、この運河を通過することができます。"

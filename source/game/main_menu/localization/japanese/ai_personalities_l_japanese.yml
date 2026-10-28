@@ -74,6 +74,7 @@
  AI_DISPOSITION_RIVALS_MAPMODE_TITLE: "[COUNTRY.GetName]はわが国をライバルとみなしている"
  AI_DISPOSITION_INDIFFERENT_MAPMODE_TITLE: "[COUNTRY.GetName]はわが国に無関心である"
  AI_DISPOSITION_FRIENDLY_MAPMODE_TITLE: "[COUNTRY.GetName]はわが国に友好的である"
+ AI_DISPOSITION_NO_PLAYER_COUNTRY: "国家としてプレイしていないため、わが国に対する各国の態度は存在しない。"
  # Disposition reason text (dynamic "why" lines appended to _DESC in GetDispositionToPlayerDesc)
  AI_DISPOSITION_REASON_ECO: "わが国の経済規模は対象国を大きく上回っている。"
  AI_DISPOSITION_REASON_MILITARY: "わが国の軍事力は対象国を大きく上回っている。"
@@ -139,6 +140,7 @@
  AI_CONQUER_DESIRE_LOCATION_OWNED: "このロケーションはすでに[COUNTRY.GetLongName]が領有している。"
  AI_CONQUER_DESIRE_LOCATION_NONE: "[COUNTRY.GetLongName]はこのロケーションを征服するつもりがない。"
  AI_CONQUER_DESIRE_LOCATION_SCORE: "[COUNTRY.GetLongName]がこのロケーションを強く求めている！（征服欲求$SCORE|2/%G$）"
+ AI_CONQUER_DESIRE_LOCATION_PLAYER: "[COUNTRY.GetLongName]はプレイヤーが操作しているため、AIの征服欲求はない。"
  # Conquer desire score breakdown — per-term labels with embedded $VAL$ placeholder shown on hover
  AI_CONQUER_DESIRE_BREAKDOWN_RANK_HEADER: "[COUNTRY.GetRank.GetName]としてのスコア"
  AI_CONQUER_DESIRE_BREAKDOWN_SAME_CULTURE: "[dominant_culture|e]がわが国の[primary_culture|e]である：$VAL|2+=/%$"

@@ -86,5 +86,7 @@
  genghis_khan_name_no_tooltip: "$name_genghis$・$rank_kingdom_horde_ruler_suffix_male$"
  AREA_PREFERENCES_INFO_TITLE: "AIの地域的嗜好："
  AREA_PREFERENCE_TYPE_EXPLORATION: "$SCOPE$の[explore|e]と[colonize|e]を好む。"
+ AREA_PREFERENCE_TYPE_EXPLORATION_AVOID: "$SCOPE$の[explore|e]と[colonize|e]を好まない。"
  AREA_PREFERENCE_TYPE_CONQUEST: "$SCOPE$の[conquer|e]を好む。"
+ AREA_PREFERENCE_TYPE_CONQUEST_AVOID: "$SCOPE$の[conquer|e]を好まない。"
  AREA_PREFERENCE_HOME_REGION: "ゆかりの地域"

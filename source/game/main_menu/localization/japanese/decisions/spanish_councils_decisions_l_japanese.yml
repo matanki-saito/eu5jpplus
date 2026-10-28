@@ -1,0 +1,9 @@
+﻿l_japanese:
+ spa_establish_the_council_of_castile_decision.title: "$royal_council_of_castile$の創設"
+ spa_establish_the_council_of_castile_decision.desc: "[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]はあまりにも長く、取るに足らない[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の気まぐれや、地方司法権の寄せ集めの非効率性に縛られてきた。[target_character.GetName]によって提案され、改革派や王党派にも支持される「[ShowGovernmentReformName('royal_council_of_castile')]」は、より中央集権的かつ専門的に統治された国家のビジョンを示すものだ。評議会に徴税の監督、司法、任命権を与えることで、[ROOT.GetCountry.GetFlavorRank]の資源を地方総督のきまぐれではなく、国家の利益のためにより効果的に活用できるだろう。"
+ spa_establish_the_council_of_castile_decision.desc.entry: "地方ごとの管轄権が寄せ集められた体制で統治していては、$crown_estate$は各地でその時々に権力を握る者に依存せざるを得ない。わが国に直属する訓練された官僚からなる常設機関「[ShowGovernmentReformName('royal_council_of_castile')]」を設ければ、徴税、司法、人事を地方の利害から切り離せるだろう。"
+ spa_establish_the_council_of_castile_decision.a: "評議会に[ROOT.GetCountry.GetFlavorRank]を監督させよう。"
+ spa_establish_the_council_of_castile_decision.a.entry: "評議会に国を監督させよう。"
+ establish_the_council_of_castile_tt: "[ShowBureaucracyTypeName('spa_council_of_castile_bureaucracy')]の創設"
+ established_the_council_of_castile_tt: "決断「$spa_establish_the_council_of_castile_decision.title$」により、[ShowBureaucracyTypeName('spa_council_of_castile_bureaucracy')]を創設した"
+ spa_establish_the_council_of_castile_decision.historical_info: "カスティーリャ王立最高評議会は、15世紀後半、カトリックの君主だったアラゴン王フェルナンド2世とカスティーリャ女王イサベル1世のもとで設立された。この評議会は当初は中世的な諮問機関だったが、やがて王権の中枢機関へと変貌を遂げた。高位貴族の権力を抑制し、地方特権を回避し、大学で教育を受けた法学者や官僚を任命することで統治を専門化し、国家の利益に奉仕する役割を果たした。"

@@ -54,3 +54,7 @@
  cultural_event.14.desc: "[target_location.GetName][ShowBuildingTypeName('university')]においてますます深まる知的環境には、多額の資金が必要である。スコラ哲学、ヒューマニズム、そして忘れ去られた古典文学への新たな渇望の高まりは、国庫からの支出を必要としているのだ！\n\n資産に乏しい[ShowBuildingTypeNameWithNoTooltip('university')]は、多額の金と引き換えに、最も優秀な教師のひとりを国家に派遣することを申し出た。彼らは、その金でさらなる学問の追求をおこなうのだろう。対価は高いが知識は貴重であり、優れた教師は優れた[ROOT.GetCountry.GetGovernment.GetCabinetMemberTitle]にもなれる……"
  cultural_event.14.a: "知識への渇望は満たされるべきだ！"
  cultural_event.14.b: "大学への出資は拒否しなくては。"
+ cultural_event.15.title: "[scope:new_merged_culture.GetName]の民の統一"
+ cultural_event.15.desc: "[scope:unifying_country.GetLongName]は[scope:merged_group.GetName]の民を一つの[scope:new_merged_culture.GetName]にまとめあげた。今、彼らの使者が目の前に立っている。彼らは、これまでの対立はさておき、[scope:new_merged_culture.GetName]の名を受け入れるよう我々に求めている。そうすれば、我々も一つの民、一つの運命を共有できるという。先祖代々受け継いできたアイデンティティを捨てるのは、決して容易なことではない。"
+ cultural_event.15.a: "我々の民は[scope:new_merged_culture.GetName]となる。"
+ cultural_event.15.b: "我々はこれまでどおり、我々でありつづける。"

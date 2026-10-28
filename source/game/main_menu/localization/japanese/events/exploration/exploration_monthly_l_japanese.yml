@@ -1,4 +1,5 @@
 ﻿l_japanese:
+ exploration_unfunded_penalty_tt: "探索のための資金が確保されていないため、探検家たちは行動を起こすことができず、我が国の威信が損なわれる"
  exploration_monthly.1.title: "[ROOT.GetExploration.GetArea.GetNameWithNoTooltip]でのひと騒ぎ"
  exploration_monthly.1.desc: "植民地化できる州を探す任務の最中、我々は[ROOT.GetExploration.GetLocation.GetName]を発見した。原住民はおおむね敵対的だが、土地自体はとても豊かで、この州との交易で得られる物は多いだろう。ただし、族長の1人や2人に賄賂を送る必要があるだろうが……"
  exploration_monthly.1.a: "彼らに公正な取引を持ちかけよう。"

@@ -154,7 +154,7 @@
  ## Marche and Umbria ##
  ascolipiceno.latin_language: "アスカラム・ピケナム"
  fermo.latin_language: "フィルマム・ピケナム"
- camerino.latin_language: "カメリニム"
+ camerino.latin_language: "カメリヌム"
  fabriano.latin_language: "ファブリアヌス"
  matelica.latin_language: "マティリカ"
  ancona.latin_language: "アンコーナ"
@@ -273,7 +273,7 @@
  bormio.latin_language: "ボルミ"
  zogno.latin_language: "トゥグニウム"
  clusone.latin_language: "クロソヌム"
- bergamo.latin_language: "ベルゴマム"
+ bergamo.latin_language: "ベルゴムム"
  cortenuova.latin_language: "クルテノヴァ"
  lodi.latin_language: "ラウス・ポンペイア"
  soncino.latin_language: "ソンキヌム"
@@ -622,7 +622,7 @@
  grancey.latin_language: "グランケイウム"
  montbozon.latin_language: "モンス・ボゾニス"
  ## Languedoc and Roussillon ##
- toulouse.latin_language: "$toulouse_occitan_language$"
+ toulouse.latin_language: "トロサ"
  foix.latin_language: "フクスム"
  pamiers.latin_language: "アパメア・フォイクス"
  limoux.latin_language: "リモシウム"

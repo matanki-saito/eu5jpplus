@@ -29,7 +29,7 @@
  flavor_mor.5.a: "An interesting development."
  wattasids_appear_at_court_tt: "Members of the [ShowDynastyName('wattasid_dynasty')] dynasty will appear in our [ROOT.GetCountry.GetGovernment.GetCourtTitle]"
  flavor_mor.6.title: "A [ShowDynastyNameWithNoTooltip('wattasid_dynasty')] Conspiracy?"
- flavor_mor.6.entry: "CONSPIRATION"
+ flavor_mor.6.entry: "$flavor_mor.6.title$"
  flavor_mor.6.desc: "It is clear to us now that the [ShowDynastyName('wattasid_dynasty')] family has been allowed to grow too strong and influential in our [ROOT.GetCountry.GetFlavorRank]. Unless we move to curb their power now, we might not be able to further down the line. The [target_country.Custom('GetRulerOrRegentTitle')] is convinced there is a conspiracy against the throne and the other advisors urge us to act swiftly."
  flavor_mor.6.a: "Remove them from power!"
  flavor_mor.6.b: "They remain our trusted advisors."
@@ -126,7 +126,7 @@
  flavor_mor.24.b: "We have no need for more clerics."
 
  flavor_mor.25.title: "The Passing of [target_character.GetNameWithNoTooltip]"
- flavor_mor.25.entry: "GRAVEYARD"
+ flavor_mor.25.entry: "The Passing of Sidi Ahmad ou Moussa"
  flavor_mor.25.desc: "With tears in their eyes and great pain, the followers of [target_character.GetName] have visited [target_location.GetName] to hail their great teacher shortly after [target_character.GetSheHe] passed away. [target_character.GetHerHis|U] resting place has attracted so many pilgrims that locals have decided to petition for the establishment of a proper holy site to honor [target_character.GetHerHis] memory."
  flavor_mor.25.a: "[ROOT.GetCountry.Custom('common_string_ok')]"
  flavor_mor.25.a.entry: "$common_string_alright$"
@@ -142,8 +142,11 @@
 
  flavor_mor.27.title: "The Just Defense of the [GetCountry('TUN').GetLongNameWithNoTooltip]"
  flavor_mor.27.entry: "The Just Defense of the Tun"
- flavor_mor.27.desc: "Since the marriage of our dear ruler [ruler_scope.GetName] to the [ShowDynastyName('hafsid_dynasty')] princess [GetCharacter('tun_fatimah').GetName], an alliance was formed between the two dynasties.\n\nDisregarding that alliance, in 1335 the despicable [GetCountry('TLE').GetLongName] dared to harass our [GetCountry('TUN').GetAdjective] allies. As a response, our brave soldiers answered the call for war and attacked [GetCountry('TLE').GetNameWithNoTooltip] from the West, forcing them to retreat and defend their capital [tle_capital_scope.GetName] as our forces raised a siege around it.\n\nNow, two years later, the siege was suspended while [ruler_scope.GetNameWithNoTooltip] stomped a rebellion enticed by his rebellious brother.\n\nIt is time now to return to the front and finish the threat of [GetCountry('TLE').GetNameWithNoTooltip]."
+ flavor_mor.27.desc: "Since the marriage of our dear ruler [ruler_scope.GetName] to the [ShowDynastyName('hafsid_dynasty')] princess [GetCharacter('tun_fatimah').GetName], an alliance was formed between the two dynasties.\n\nDisregarding that alliance, in 1335 the despicable [tlemcen_country_scope.GetLongName] dared to harass our [GetCountry('TUN').GetAdjective] allies. As a response, our brave soldiers answered the call for war and attacked [tlemcen_country_scope.GetNameWithNoTooltip] from the West, forcing them to retreat and defend their capital [tle_capital_scope.GetName] as our forces raised a siege around it.\n\nNow, two years later, the siege was suspended while [ruler_scope.GetNameWithNoTooltip] stomped a rebellion enticed by his rebellious brother.\n\nIt is time now to return to the front and finish the threat of [tlemcen_country_scope.GetNameWithNoTooltip]."
  flavor_mor.27.a: "To arms!"
+ flavor_mor.27.b: "Our oath to [GetCountry('TUN').GetNameWithNoTooltip] must be kept, whatever the cost."
+ flavor_mor.27.b.entry: "Our oath to Tunis must be kept, whatever the cost."
+ flavor_mor.27.c: "Two years of siege is enough; bring our soldiers home."
 
  flavor_mor.28.title: "The Rebellious Son"
  flavor_mor.28.entry: "$flavor_mor.28.title$"
@@ -207,7 +210,7 @@
  flavor_mor.37.desc: "With the help of [prev_country.GetName] in fending off our enemies in [ShowRegionName('iberia_region')], they are now reminding us of our debt. Requesting that we become their subject, it appears that they will not back down unless we meet those demands."
  flavor_mor.37.a: "We have made a promise."
  flavor_mor.37.b: "Our independence shall be maintained!"
- mor_demand_granada_submission_tt: "We will demand the annexation of [target_country.GetName]"
+ mor_demand_granada_submission_tt: "We will demand the submission of [target_country.GetName]"
 
  flavor_mor.38.title: "[target_country.GetNameWithNoTooltip] Defiant"
  flavor_mor.38.entry: "Granada Defiant"
@@ -249,7 +252,7 @@
  flavor_mor.1200.a: "Let us get [target_country.GetNameWithNoTooltip] to support us."
  flavor_mor.1200.a.entry: "Let us get them to support us."
  flavor_mor.1200.b: "This expedition is not worth it."
- mor_reclaiming_corduba_and_most_of_andalucia_will_allow_us_to_request_vassalization_of_granada_tt: "Should we manage to own [ShowLocationName('cordoba')] and #Y 80%#! of [ShowAreaName('andalusia_area')] after we win the [war|e], we will be able to become $ADU$ and demand the annexation of [target_country.GetName]"
+ mor_reclaiming_corduba_and_most_of_andalucia_will_allow_us_to_request_vassalization_of_granada_tt: "Should we manage to own [ShowLocationName('cordoba')] and #Y 80%#! of [ShowAreaName('andalusia_area')] after we win the [war|e], we will be able to demand the submission of [target_country.GetName]"
  mor_send_offer_to_granada_for_war_against_castile: "We will send an [alliance|e] offer to [target_country.GetName]"
 
  flavor_mor.1201.title: "$flavor_mor.1200.title$"

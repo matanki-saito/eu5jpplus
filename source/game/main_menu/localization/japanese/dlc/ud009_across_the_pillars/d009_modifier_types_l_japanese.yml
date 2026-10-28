@@ -1,0 +1,9 @@
+﻿l_japanese:
+ MODIFIER_TYPE_DESC_mozabite_azzaba_bureaucracy_impact_modifier: "この[bureaucracy|e]が[country|e]に与える影響の大きさ。"
+ MODIFIER_TYPE_DESC_nav_diputacion_navarra_bureaucracy_impact_modifier: "この[bureaucracy|e]が[country|e]に与える影響の大きさ。"
+ MODIFIER_TYPE_DESC_por_desembargo_do_paco_bureaucracy_impact_modifier: "この[bureaucracy|e]が[country|e]に与える影響の大きさ。"
+ MODIFIER_TYPE_DESC_por_mesa_da_consciencia_e_ordens_bureaucracy_impact_modifier: "この[bureaucracy|e]が[country|e]に与える影響の大きさ。"
+ MODIFIER_TYPE_NAME_mozabite_azzaba_bureaucracy_impact_modifier: "$mozabite_azzaba_bureaucracy$の影響"
+ MODIFIER_TYPE_NAME_nav_diputacion_navarra_bureaucracy_impact_modifier: "$nav_diputacion_navarra_bureaucracy$の影響"
+ MODIFIER_TYPE_NAME_por_desembargo_do_paco_bureaucracy_impact_modifier: "$por_desembargo_do_paco_bureaucracy$の影響"
+ MODIFIER_TYPE_NAME_por_mesa_da_consciencia_e_ordens_bureaucracy_impact_modifier: "$por_mesa_da_consciencia_e_ordens_bureaucracy$の影響"

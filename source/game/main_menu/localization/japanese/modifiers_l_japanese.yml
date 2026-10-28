@@ -9,6 +9,7 @@
  no_less_left_than_right: "$RIGHT|Y$に劣らず$LEFT|Y$である"
  potential_modifier_desc: "わが国に$REQUIREMENTS$があれば、以下を得る：\n$MODIFIER|Y$：\n$EFFECTS$"
  potential_modifier_scale: "（$FACTORS$で変動）"
+ auto_modifier_current_scale: "効果は現在 $VALUE|2Y$ 倍されています。これは $FACTORS$ によるものです"
  crown_estate_satisfaction: "王族[estate_satisfaction|e]"
  nobles_estate_satisfaction: "[ShowEstateTypeName('nobles_estate')][estate_satisfaction|e]"
  clergy_estate_satisfaction: "[ShowEstateTypeName('clergy_estate')][estate_satisfaction|e]"

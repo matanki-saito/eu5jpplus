@@ -3,7 +3,7 @@
  DAI_NGU_ADJ: "$DAI_NGU$"
  flavor_chi_dai.1.title: "[target_character.GetNameWithNoTooltip]"
  flavor_chi_dai.1.entry: "宮廷のホー・クイ・リー"
- flavor_chi_dai.1.desc: "巧みな政治工作と幅広い人脈を駆使し、[target_character.GetName]という人物が[ROOT.GetCountry.GetName][ROOT.GetCountry.GetGovernment.GetCourtTitle]に食い込むことに成功した。[target_character.GetHeShe|U]は有能な将軍と目されているが、その野心には注意が必要だ。[target_character.GetSheHe]が[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の安定を脅かす存在になりうると考える者も多い。それがただの噂話であることを祈ろう。"
+ flavor_chi_dai.1.desc: "巧みな政治工作と幅広い人脈を駆使し、[target_character.GetName]という人物が[ROOT.GetCountry.GetName][ROOT.GetCountry.GetGovernment.GetCourtTitle]に食い込むことに成功した。彼は有能な将軍と目されているが、その野心には注意が必要だ。彼が[ROOT.GetCountry.GetAdjectiveWithNoTooltip]の安定を脅かす存在になりうると考える者も多い。それがただの噂話であることを祈ろう。"
  flavor_chi_dai.ho_quy_ly_historical_info: "$tran_dynasty$は15世紀直前、大臣のひとりである$ho_dynasty$$name_quy$$name_ly$によって滅ぼされ、$ho_dynasty$朝が成立した。この反乱のあと$ho_dynasty$は$MNG$との戦争状態に陥り、結果として現在のベトナムの一部にあたる$ho_dynasty$の領地は、$jiaozhi_province$州として明に支配されることとなった。この占領は長年に渡る現地での反明闘争のすえに、1428年に明軍を撤退させるまで続いた。"
  flavor_chi_dai.1.a: "興味深い話だ。"
  flavor_chi_dai.2.title: "予期せぬクーデター"

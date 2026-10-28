@@ -1,0 +1,7 @@
+﻿l_japanese:
+ thalassocracy_events.1.title: "努力の結実"
+ thalassocracy_events.1.desc_success: "わが国の急速な海軍拡張は、目覚ましい成功を収めた。新造・近代化された数多くの艦船には熟練の水兵が乗り組み、敵対国や競争相手にとって大きな脅威となることだろう。もはや海賊や敵国の艦隊が、わが国の海上支配を妨げることはない。航路の安全が確保されたことで、遠方の領土の統治も、海を越えてわが国の力を及ぼすことも、これまで以上に容易になる。"
+ thalassocracy_events.1.desc_failure: "海軍の予算を確保するため、長年にわたり議論を重ねてきたが、いまや海洋支配の夢を断念せざるを得ない。海洋覇権を掲げても、それを支える強力な海軍がなければ、競争相手や私掠船からわが国の海域を守ることはできない。"
+ thalassocracy_events.1.a: "わが海洋帝国は繁栄する！"
+ unlock_thalassocracy_reform_tt: "[government_reform|e]「[ShowGovernmentReformName('thalassocracy_reform')]」がアンロックされる"
+ thalassocracy_events.1.b: "自らの失敗を受け入れるしかない。"

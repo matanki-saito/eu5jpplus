@@ -2,7 +2,10 @@
  revoke_town_rights: "都市特権を剥奪する"
  revoke_town_rights_desc: ""
  REVOKE_TOWN_RIGHTS_FROM: "[TownRightsItem.GetFirstLocationName]から[town_rights|E]らを剥奪"
- REVOKE_LOCATION_TOWN_RIGHT: "[Location.GetName]から[town_rights|E]らを剥奪"
+ REVOKE_LOCATION_TOWN_RIGHT: "[Location.GetName]から[town_rights|E]を剥奪"
+ upgrade_town_rights: "都市特権をアップグレード"
+ UPGRADE_TOWN_RIGHTS_TO: "[TownRightsItem.GetFirstLocationName]で[TownRightsItem.GetType.GetUpgradesTo.GetName]にアップグレード"
+ UPGRADE_LOCATION_TOWN_RIGHT: "[TownRights.GetLocation.GetName]で[TownRights.GetType.GetUpgradesTo.GetName]にアップグレード"
  #######################################
  #   Non-production Rights    ##########
  #######################################
@@ -14,11 +17,16 @@
  market_charter_desc: "この[location|e]には定期市を開催する権利が与えられており、商人や交易者を引き寄せ、地元の[ShowBuildingTypeName('marketplace')]の規模を拡大させている。"
  free_town_charter: "自由都市特許状"
  free_town_charter_desc: "この[location|e]には自治権が与えられており、入植者の誘致や交易をおこなうためのより大きな自由と引き換えに、[ShowEstateTypeName('crown_estate')]の直接的な権威は縮小している。"
- fortress_town: "要塞都市"
+ fortress_town: "軍事要塞都市"
  fortress_town_desc: "この[location|e]は軍事駐屯地に指定され、その要塞化と[manpower|e]への投資を受けている。常駐する軍隊の存在により、民間商業は圧迫されている。"
  mining_charter: "採掘特許状"
  mining_charter_desc: "この[location|e]には採掘事業を運営・拡大する正式な権利が与えられており、採掘の規模を拡大させている。その結果、[ShowEstateTypeName('peasants_estate')]はより厳しい義務を負うことになる。"
  mining_charter_rgo_tt: "採掘可能な[raw_material|e]がある、または内陸で[ShowGoodsName('salt')]を生産している"
+ plantation_charter: "大規模農園の特許状"
+ plantation_charter_desc: "この[location|e]には生産の規模を上げるために、大規模農園を拡大する正式な権利が与えられている。その結果、[ShowEstateTypeName('peasants_estate')]はより厳しい義務を負うことになる。"
+ plantation_charter_rgo_tt: "大規模農園または[raw_material|e]「香辛料」がある"
+ novo_brdo_charter: "ノヴォ・ブルドの採掘権"
+ novo_brdo_charter_desc: "この[location|e]は、かつてこの丘陵地帯に入植したサクソンの探鉱作業員（サシ）たちによって最初に作成された、鉱業の安全、財産、および労働に関する法体系であるノヴォ・ブルド法の下に運営されている。運営の行き届いた採掘場はいずれも堅実な成長を見せており、[ShowEstateTypeName('peasants_estate')]も同法に基づいたより厳格な監督下での労働に従事しているが、国全体で執行されることによって法律化たちは負担を強いられている。"
  studium_privileges: "学術特権"
  studium_privileges_desc: "この[location|e]は学問の中心地として認められており、学校を維持し学者を誘致する権利が与えられている。こうした活動は[literacy|e]の向上や[institution|e]の普及を促進するが、国庫を直接的に潤すことはほとんどない。"
  studium_privileges_rank_tt: "ロケーションが[ShowLocationRankName('city')]または[ShowLocationRankName('megalopolis')]である"
@@ -44,6 +52,28 @@
  not_forcefully_revoked_last_10_years_tt: "過去10年間、都市特権が強制的に取り消されたことがない。"
  royal_masonry_rights: "石工特権"
  royal_masonry_rights_desc: "この[location|e]には、[ShowGoodsName('masonry')]と[ShowGoodsName('glass')]の生産と流通に関する法的特権が与えられており、競争上大きく優位な立場にある。"
+ royal_market_rights: "大市場特権"
+ royal_market_rights_desc: "この[location|e]には大規模な統制市場を開催する権利が与えられており、それがゆえに国中から商人や交易者を引き寄せている。また、あらゆる開発段階において[trade|e]施設の収容能力も拡張される。"
+ royal_staple_rights: "指定大商港"
+ royal_staple_rights_desc: "この[location|e]には、指定商港としての包括的な法的特権が与えられており、[ShowEstateTypeName('burghers_estate')]は当地の[trade|e]に対し、遥かに大きな権利が与えられている。また、あらゆる開発段階において[trade|e]施設の収容能力も拡張される。"
+ tooling_charter: "工具特許状"
+ tooling_charter_desc: "この[location|e]には[ShowGoodsName('tools')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ jewelry_charter: "宝飾品特許状"
+ jewelry_charter_desc: "この[location|e]には[ShowGoodsName('jewelry')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ naval_charter: "海軍用品特許状"
+ naval_charter_desc: "この[location|e]には[ShowGoodsName('naval_supplies')]と[ShowGoodsName('tar')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ textile_charter: "織物特許状"
+ textile_charter_desc: "この[location|e]には[ShowGoodsName('cloth')]と[ShowGoodsName('fine_cloth')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ weaponry_charter: "武器特許状"
+ weaponry_charter_desc: "この[location|e]には[ShowGoodsName('weaponry')]、[ShowGoodsName('firearms')]、[ShowGoodsName('cannons')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ book_charter: "印刷特許状"
+ book_charter_desc: "この[location|e]には[ShowGoodsName('paper')]、[ShowGoodsName('books')]、[ShowGoodsName('dyes')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ artisan_charter: "職人特許状"
+ artisan_charter_desc: "この[location|e]には[ShowGoodsName('leather')]、[ShowGoodsName('pottery')]、[ShowGoodsName('furniture')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ brewing_charter: "酒類特許状"
+ brewing_charter_desc: "この[location|e]には[ShowGoodsName('liquor')]、[ShowGoodsName('beer')]、[ShowGoodsName('wine')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
+ masonry_charter: "石工特許状"
+ masonry_charter_desc: "この[location|e]には[ShowGoodsName('masonry')]と[ShowGoodsName('glass')]の生産と流通に関する特許状が与えられている。国王がより広範な特権を正式に認めれば、完全な都市特権が与えられる可能性がある。"
  #######################################
  #   Historic Rights    ################
  #######################################
@@ -103,6 +133,9 @@
  unlock_ville_franche_town_rights_tt: "[town_rights]「[ShowTownRightsName('ville_franche_town_rights')]」をアンロックする"
  borgo_franco_town_rights: "ボルゴ・フランコ権"
  borgo_franco_town_rights_desc: "$italy_region$全体にコムーネが広がっていることは事実であり、それが地域の基盤を形成している。これらはしばしば「ボルゴ・フランコ」（自由都市）とみなされ、農村部よりも多くの特権を享受している。"
+ ara_consulate_sea_town_rights: "海事領事館"
+ ara_consulate_sea_town_rights_desc: "商人が公正に取引できるよう、国家はこの地に自治権を与え、商取引に関する法律を独自に定められるようにしている。そのため、商取引に関する問題を国王に解決してもらう必要はない。"
+ consulate_sea_no_province_has_the_town_right: "[region|e]内に[ShowTownRightsName('ara_consulate_sea_town_rights')]の[town_rights|e]を持つ[location|e]がない"
  #######################################
  #   Scandinavian Rights    ############
  #######################################

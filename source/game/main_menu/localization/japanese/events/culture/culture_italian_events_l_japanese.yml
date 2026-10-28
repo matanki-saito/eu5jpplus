@@ -9,7 +9,7 @@
  italian_renaissance_culture.2.a: "[target_location.GetNameWithNoTooltip]への移住をさらに奨励する。"
  italian_renaissance_culture.2.b: "移住を遅らせるため、地方へ援助を分散させる。"
  italian_renaissance_culture.3.title: "古代[ShowCultureNameWithNoTooltip('greek_culture')]思想の再発見"
- italian_renaissance_culture.3.desc: "[ShowAgeName('age_2_renaissance')]の理想が[ShowRegionName('italy_region')]全域に伝播して以来、[ShowCultureGroupName('italian_group')]の学者のあいだでは、古代[ShowCultureName('greek_culture')]文学の収集や翻訳への関心が高まっている。を[ShowRegionNameWithNoTooltip('italy_region')]における[ROOT.GetCountry.GetNameWithNoTooltip]の地位を押し上げるすべく、宮廷の多くの顧問たちは[target_character.GetName]に対し、これら古代の著作の復興を支援するよう促している。"
+ italian_renaissance_culture.3.desc: "[ShowAgeName('age_2_renaissance')]の理想が[ShowRegionName('italy_region')]全域に伝播して以来、[ShowCultureGroupName('italian_group')]の学者のあいだでは、古代[ShowCultureName('greek_culture')]文学の収集や翻訳への関心が高まっている。[ShowRegionNameWithNoTooltip('italy_region')]における[ROOT.GetCountry.GetNameWithNoTooltip]の地位を押し上げるべく、[ROOT.GetCountry.GetGovernment.GetCourtTitle]の多くの顧問たちは[target_character.GetName]に対し、これら古代の著作の復興を支援するよう促している。"
  italian_renaissance_culture.3.a: "これらの芸術の再発見を奨励せよ！"
  italian_renaissance_culture.3.b: "国家による全面的な後援を申し出よ。"
  italian_renaissance_culture.3.c: "わが国の伝統を堅持せよ。"

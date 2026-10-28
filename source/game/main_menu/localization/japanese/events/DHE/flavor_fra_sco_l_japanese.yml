@@ -8,7 +8,7 @@
  flavor_fra_sco.101.a.entry: "我々は$name_david$・$Bruce$とその大義を支持する。"
  flavor_fra_sco.101.c: "[GetCountry('SCO').GetAdjectiveWithNoTooltip]の大義は失われた。[GetCharacter('sco_david_ii').GetNameWithNoTooltip]を帰国させよ。"
  flavor_fra_sco.101.c.entry: "$SCO_ADJ$の大義は失われた。$name_david$・$Bruce$を帰国させよ。"
- flavor_fra_sco.101.d: "[GetCharacter('sco_david_ii').GetNameWithNoTooltip]に[GetCharacter('sco_edward_balliol').GetShortNameWithNoTooltip]の支持を提案する。"
+ flavor_fra_sco.101.d: "支持を得るため、[GetCharacter('sco_david_ii').GetNameWithNoTooltip]に[GetCharacter('sco_edward_balliol').GetShortNameWithNoTooltip]を差し出そう。"
  flavor_fra_sco.101.d.entry: "$name_edward$の支持を得るため、$name_david$・$Bruce$を差し出そう。"
  flavor_fra_sco.102.title: "[GetCharacter('sco_david_ii').GetNameWithNoTooltip]の成人"
  flavor_fra_sco.102.entry: "デイヴィッド2世の成人"

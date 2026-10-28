@@ -41,7 +41,7 @@
  flavor_vol.1000.d.entry: "統治者はいずれ後継者をもうけるだろう。"
  flavor_vol.1001.title: "[target_country.GetNameWithNoTooltip]の後継者"
  flavor_vol.1001.entry: "ポーランド・リトアニア情勢報告"
- flavor_vol.1001.desc: "[target_country.GetName]の[target_country.GetGovernment.GetEstateName('nobles_estate')]が[target_ruler.GetName]を説得し、[target_heir.GetName]を後継者候補として宣言させた。[target_ruler.GetShortNameWithNoTooltip]と血縁関係にある我々としては、[target_ruler.GetHerHis]の死によって[target_country.GetFlavorRank]で大きな影響力を発揮できるものと期待していたが、この展開によりその夢は打ち砕かれた。[target_country.GetNameWithNoTooltip]が我々の継承権を拒むというのなら、力ずくで奪うまでだ。"
+ flavor_vol.1001.desc: "[target_country.GetName]の[target_country.GetGovernment.GetEstateName('nobles_estate')]が[target_ruler.GetName]を説得し、[target_heir.GetName]を後継者候補として宣言させた。[target_ruler.GetShortNameWithNoTooltip]と血縁関係にある我々としては、彼の死によって[target_country.GetFlavorRank]で大きな影響力を発揮できるものと期待していたが、この展開によりその夢は打ち砕かれた。[target_country.GetNameWithNoTooltip]が我々の継承権を拒むというのなら、力ずくで奪うまでだ。"
  flavor_vol.1001.a: "軍の準備を！"
  flavor_vol.1002.title: "[target_ruler.GetNameWithNoTooltip]の宗教"
  flavor_vol.1002.entry: "貴族の要求——統治者の宗教"

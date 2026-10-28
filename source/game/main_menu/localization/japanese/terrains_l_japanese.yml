@@ -22,6 +22,9 @@
  cold_arid: "寒冷乾燥帯"
  oceanic: "大洋州地域"
  subtropical: "亜熱帯"
+ hot_semi_arid: "高温半乾燥帯"
+ cold_semi_arid: "寒冷半乾燥帯"
+ subpolar: "亜極帯"
  #Water & Wastelands
  ocean: "海"
  deep_ocean: "遠洋"
@@ -44,6 +47,7 @@
  #Misc
  TERRAIN_MOVEMENT_COST: "[units|e]の移動コスト：$VALUE|-=%V$"
  TERRAIN_PROXIMITY_COST: "近接性効率への影響：$VALUE|+=%$"
+ TERRAIN_PROXIMITY_COST_SPECIFIC: "ここから[TOPOGRAPHY.GetName]への近接性効率への影響：$VALUE|+=%$"
  TERRAIN_ATTACKER_PENALTY: "[combat|e]の攻撃側ペナルティ：$VALUE|-=$"
  TERRAIN_ATTACKER_PENALTY_TT: "この[location|e]は、[combat|e]時に[attacker|e]に[Location.GetAttackerPenalty|-=]のペナルティを与える。"
  TERRAIN_CAN_FREEZE_OVER: "冬になると凍結する可能性がある。凍結すると[ships|e]の移動、および[armies|e]の横断を妨げる。"
@@ -81,6 +85,9 @@
  cold_arid_desc: "$cold_arid$とは、利用可能な水が著しく不足しており、冬がある地域のこと。"
  oceanic_desc: "$oceanic$とは、冬は温暖だが湿度が高い地域のこと。"
  subtropical_desc: "$subtropical$とは、平均気温が高く冬が温暖な地域のこと。"
+ hot_semi_arid_desc: "$hot_semi_arid$とは、安定した農耕ができるほどの降水量はないが、完全な砂漠ほどは乾燥していない、暑い草原やステップのこと。"
+ cold_semi_arid_desc: "$cold_semi_arid$とは、夏は乾燥し、冬は寒く、寒冷砂漠よりは雨が降る寒冷な草原やステップのこと。"
+ subpolar_desc: "$subpolar$とは、冬が長く厳しく、夏が短い地域のこと。極北の北方林などがこれにあたる。"
  desert_desc: "砂漠とは、降水量が少なく、植物や動物がほとんど生息していない不毛の地のこと。"
  sparse_desc: "平原とは、樹木がほとんどない、または一切ない広大な平地のこと。"
  grasslands_desc: "草原とは、木や低木がほとんどなく、大部分が草に覆われた地形のこと。"

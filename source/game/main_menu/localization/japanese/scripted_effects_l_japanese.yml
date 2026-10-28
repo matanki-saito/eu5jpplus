@@ -831,6 +831,11 @@
  iw_increase_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName]の[situation_tension|e]が$VALUE|+$上昇する"
  iw_decrease_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName]の[situation_tension|e]が$VALUE|-$低下する"
  iw_reset_tension_effect_tt: "[GetSituationByKey('italian_wars').GetName]の[situation_tension|e]が#Y 0#!にリセットされる"
+ #Battle for the Strait — influence_over_granada signed axis
+ change_influence_over_granada_effect_tt: "$influence_over_granada$が[GetCountry('MOR').GetName]側に$VALUE|+$傾く"
+ pull_granada_toward_castile_effect_tt: "$influence_over_granada$が[GetCountry('CAS').GetName]側に$VALUE|-$傾く"
+ reset_influence_over_granada_effect_tt: "$influence_over_granada$は中立に戻り、[GetCountry('CAS').GetName]が得たすべての利得が失われる"
+ #Battle for the Strait — granadan_sovereignty [0..100]
  challenge_action_locked_for_everyone_for_10_years_tt: "我々の連盟の[members|e]は#Y 10#!年のあいだ、[action|e]「[ShowGenericActionName('challenge_league_leadership')]」を実行できなくなる"
  historical_rival_key: "#Y $opinion_historical_rival$#!"
  ADD_HISTORICAL_RIVAL_EFFECT: "[TARGET_COUNTRY.GetName]を$historical_rival_key$とみなす"
@@ -879,5 +884,6 @@
  ####
  add_random_dip_ruler_trait_tt: "わが国の[ruler|e]が、[diplomacy|e]に関連するランダムな[trait|e]を得る"
  add_random_dip_regent_trait_tt: "わが国の[regent|e]が、[diplomacy|e]に関連するランダムな[trait|e]を得る"
+ gain_random_positive_trait_for_cabinet_tt: "わが国の[cabinet|e]の職務に適したプラスの[trait|e]をランダムに獲得する"
  new_child_for_ruler: "[ROOT.GetCountry.GetGovernment.GetRulerTitle]に新たな子が生まれる"
- reset_complacency_tt: "わが国の[complacency|e]が#Y 0#!にリセットされる"
+ holy_war_scaled_gold_transfer_fallback_tt: "相手国の要求通りにダカットを支払う"

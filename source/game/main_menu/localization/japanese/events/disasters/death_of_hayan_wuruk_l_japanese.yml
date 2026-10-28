@@ -2,6 +2,7 @@
  death_of_hayan_wuruk.1.title: "[target_hayan.GetNameWithNoTooltip]の死"
  death_of_hayan_wuruk.1.desc: "[target_country.GetLongName]の歴史上、最も偉大な統治者のひとりである[target_hayan.GetName]が亡くなった。暗闇や臣民のあいだで囁かれていた言葉は、衰退する権威に面と向かって自治権を要求する言葉に変わった。このような重要な瞬間に、我々は力を振るい、隣国、そして我々の国民を従わせなければならない！"
  death_of_hayan_wuruk.1.a: "我々は大いなる指導者を失った……"
+ death_of_hayan_wuruk_deadline_tt: "#Y 20#!年以内に[disaster|e]を終わらせなければ、すべての[subjects|e]が独立する"
  death_of_hayan_wuruk.1.historical_info: "1350年から1389年までマジャパヒト帝国の支配者だったハヤム・ウルクは、宰相ガジャ・マダの助けを借りて東南アジア全域に影響力を拡大し、帝国を権力の絶頂に導いた。1389年の彼の死が引き起こした後継者をめぐる権力闘争はパルグルグ戦争につながり、帝国を内部から弱体化させた。この内紛とイスラム教スルタン国の台頭により、マジャパヒト王国はその後数世紀にわたり徐々に衰退していった。"
  death_of_hayan_wuruk.2.title: "自治権の要求"
  death_of_hayan_wuruk.2.desc: "[target_location.GetName]の臣民から、我々の権威に反発する独立運動発生の報せが届いた。[target_hayan.GetName]の逝去を聞きつけ、自治への熱望が再燃しているようだ。これらの報告の信憑性や、[target_subject.GetAdjective]の人々が我々に対してどの程度の武力で抗するつもりなのかは不明だが、我々は秩序を維持するための手段を講じなければならない！"

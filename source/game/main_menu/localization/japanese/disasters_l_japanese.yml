@@ -3,6 +3,20 @@
  DISASTER_BREAKDOWN: "国難の概要"
  no_event_occurs_tt: "[event|e]は発生しない"
  an_event_occurs_tt: "この[disaster|e]に関連する[event|e]が発生する可能性がある"
+ #Oligarchic Capture
+ #Disaster
+ oligarchic_capture: "寡頭派による国家掌握"
+ oligarchic_capture_desc: "わが共和国における王権の支配力が弱まり、いまや強大な派閥が国家権力の中枢を掌握しようとしている。法改革は停滞し、反対派の声は封じられている。このまま手を打たなければ、寡頭派は民意を踏みにじり、その支配を盤石にするだろう……"
+ oligarchic_faction_name: "寡頭派"
+ oligarchic_capture_faction_won_civil_war_tt: "内戦で#Y 寡頭派#!が勝利し、国家を掌握した"
+ oligarchic_faction_not_active_tt: "#Y 寡頭派#!の[rebels|e]で、現在活動中の組織はない"
+ #Crisis of Faith
+ #Disaster
+ crisis_of_faith: "信仰の危機"
+ crisis_of_faith_desc: "国教への信仰は失われ、教会分裂と改革を説く説教師たちが競ってその空白を埋めている。聖職者たちは、異端者を粛清しようとする者と、異端者との妥協を図る者に分裂している。神に認められた国家としてのわが国の正統性は、いまや危機に瀕している……"
+ schismatic_clergy_name: "分離派の聖職者"
+ crisis_of_faith_schismatic_clergy_won_civil_war_tt: "#Y 分離派の聖職者#!が内戦で勝利した"
+ schismatic_clergy_not_active_tt: "#Y 分離派の聖職者#!の[rebels|e]で、現在活動中の組織はない"
  #Succession Crisis
  #Disaster
  succession_crisis: "継承危機"
@@ -190,6 +204,13 @@
  #Disaster
  rise_of_the_szlachta: "$nobles_estate_szlachta$の台頭"
  rise_of_the_szlachta_desc: "我々は$nobles_estate_szlachta$の権力欲の強さをよく知っている。力が増大するにつれて、より多くの特権を求める彼らの声が宮廷にあふれ返るのだ。飢えた$nobles_estate_szlachta$どものこうした政治的駆け引きは、さながら獲物を狙うジャングルの獣のようであり、いずれ必ず我々の権威に咬みつくことだろう！"
+ rise_of_the_szlachta_crown_triumphant: "王の勝利"
+ rise_of_the_szlachta_crown_triumphant_desc: "我が国の[crown_power|e]に応じて、#Y$STATIC_MODIFIER_NAME_pol_supremacy_over_the_nobles_modifier$#!を20年間付与します。$nobles_estate_szlachta$が保有する[estate_privilege|e]を最大3つ剥奪し、我が国の[stability|e]を大きく高めます。"
+ rise_of_the_szlachta_nobles_ascendant: "台頭する貴族たち"
+ rise_of_the_szlachta_nobles_ascendant_desc: "我が国の主要な[government_reform|e]を[ShowGovernmentReformName('rule_of_the_sejm')]に置き換え、まだ[ShowGovernmentTypeName('monarchy')]でなければそれに移行させます。$nobles_estate_szlachta$は[ShowEstatePrivilegeName('golden_liberty')]を得て、以後我が国の王位は[ShowHeirSelectionName('elective_succession')]によって継承されます。"
+ rise_of_the_szlachta_burghers_empowered: "力を得た市民"
+ rise_of_the_szlachta_burghers_empowered_desc: "我が国を大きく [ShowSocietyDirectionName('plutocracy')] へ、そして [ShowAgeName('age_4_reformation')] が始まれば [ShowSocietyDirectionName('mercantilism')] へと傾けます。[ShowEstateTypeName('burghers_estate')] は最大3種類の異なる [estate_privilege|e] を得ます。それ以降、[ShowGovernmentTypeName('republic')] になるために必要な [societal_value|e]、[legitimacy|e]、そして [ShowEstateTypeName('burghers_estate')] の [estate_power|e] は大幅に少なくなります。"
+ variable_rise_of_szlachta_burghers_outcome_variable_tt: "[ShowEstateTypeName('burghers_estate')]が権力を掌握した"
  #Actions
  pw_push_for_aristocracy: "[ShowSocietyDirectionNameWithNoTooltip('aristocracy')]を推進"
  pw_push_for_aristocracy_desc: "我々の方針は、ますます[SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]の特権と伝統的な階級制度を重視するようになっている。剣と血筋が個人の地位を定める社会では、由緒ある家系は権力の掌握を強化しなければならないのだ。しかし、こうした権力の集中は、[SCOPE.sCountry('actor').GetGovernment.GetEstateName('burghers_estate')]などの有力階級の反発を招くおそれがある……"
@@ -204,6 +225,7 @@
  death_of_hayan_wuruk: "[GetCharacter('maj_hayam_wuruk').GetNameWithNoTooltip]の死"
  death_of_hayan_wuruk_desc: "偉大なる指導者[GetCharacter('maj_hayam_wuruk').GetName]の逝去により、[GetCountry('MAJ').GetFlavorRank]は大混乱に陥った。これにより、かつて忠実だった者たちが我々の権威に反旗を翻し、この混乱を長引かせるおそれがある。後継者争いと[GetCountry('MAJ').GetAdjective]の権力の衰退は、我々がこの危機を乗り切るために直ちに解決すべき課題である。"
  hayan_wuruk_has_passed_tt: "[GetCharacter('maj_hayam_wuruk').GetName]が過去#Y 10#!年以内に死亡している"
+ death_of_hayan_wuruk_time_limit_tt: "この[disaster|e]が#Y 20#!年以上続いた場合、終結時にすべての[subjects|e]が独立する（#Y [THIS.GetVariable('maj_death_of_hayan_wuruk_timer').GetValue]#!/#Y 240#!ヵ月）"
  #Curse of Stefan Uros III
  #Disaster
  curse_of_stefan_uros_iii: "[GetCharacter('ser_stefan_decanski').GetNameWithNoTooltip]の呪い"
@@ -230,14 +252,14 @@
  #Time of Troubles Disaster
  #Disaster
  time_of_troubles: "動乱の時代"
- time_of_troubles_desc: "社会的・経済的混乱の暗黒期が訪れた。わが国は飢饉と戦争、さらには[SCOPE.sCountry('actor').GetGovernment.GetEstateName('clergy_estate')]や[SCOPE.sCountry('actor').GetGovernment.GetEstateName('nobles_estate')]に対する反発にも耐えなければならない。四方八方から争いの牙に襲われ、わが[Country.GetFlavorRank]はいまにも引き裂かれ、喰い尽くされようとしている……"
+ time_of_troubles_desc: "社会的・経済的混乱の暗黒期が訪れた。わが国は飢饉と戦争、さらには聖職者や貴族に対する反発にも耐えなければならない。四方八方から争いの牙に襲われ、わが国はいまにも引き裂かれ、喰い尽くされようとしている……"
  #Decline of the Empire
  #Disaster
  decline_of_empire: "慢心による衰退"
  decline_of_empire_desc: "かつては強大で揺るぎなかったわが領土が、いまや崩壊の危機に瀕している。腐敗が体制内に蔓延し、地方は見捨てられて不満を募らせ、外国勢力がハゲタカのように栄光の残骸を狙っている。我々を象徴した黄金時代は記憶の彼方に消え去り、わが領土の基盤は亀裂が日増しに広がっている。内なる腐敗をすみやかに一掃し、支配力を取り戻さなければ、わが帝国は崩壊し、廃墟と後悔、かつての栄光の影しか残らないだろう……"
  has_not_had_decline_of_empire_last_25_years: "過去#Y 25#!年間、[disaster|e]は発生していない"
  not_recently_become_empire_tt: "#Y 15#!年以上[country_rank|e]「[ShowCountryRankName('rank_empire')]」を保持している"
- complacent_decline_actions_price: "「$decline_of_empire$」のアクションコスト"
+ decline_of_empire_actions_price: "「$decline_of_empire$」のアクションコスト"
  cd_inspect_area: "地域を視察"
  cd_inspect_area_desc: "わが[actor.GetFlavorRank]はあまりにも長く過去の栄光に安住してきた。今こそ、国境内の諸地域に我々が支配者であることを思い知らせ、あらゆる野心をすべて打ち砕く時である。"
  selected_area_inspected_tt: "選択された[area|e]が視察され、[pop_satisfaction|e]と[complacency|e]が低下するが、その内部にある主な[provinces|e]の[control|e]が上昇する。\nこの視察の効果は、[area|e]の[population|e]に加え、わが国の[ShowModifierTypeName('legislative_efficiency')]に大きく左右される"
@@ -253,7 +275,7 @@
  coup_attempt: "クーデターの試み"
  coup_attempt_desc: "影に潜むハゲタカどもが我々の周囲を飛び回り、引き裂く機会を狙っている。連中のなかで最も恐ろしいのは、わが統治者を早すぎる死に追いやろうとする者どもだ！ さらに悪いことに、そのあとは傀儡が玉座に据えられ、ハゲタカどもに影から操られてしまうだろう。"
  recently_had_coup_attempt_inconclusive_tt: "過去#Y 5#!年間に未決着または成功したクーデターの試みはない"
- conspirators_murdered_ruler_tt: "陰謀者たちが我々の統治者の暗殺に成功した"
+ conspirators_murdered_ruler_tt: "陰謀者たちが我々の[ruler|e]の暗殺に成功した"
  any_conspirator_became_ruler_tt: "陰謀者のひとりが[ruler|e]として戴冠した"
  #Byzantine Civil War
  #Disaster

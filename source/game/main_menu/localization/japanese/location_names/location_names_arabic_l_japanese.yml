@@ -1,80 +1,139 @@
 ﻿l_japanese:
- acre.arabic_language: "アッカー"
- adrar.arabic_language: "アドラール"
+ acre.arabic_language: "アッカー" #عكا
+ adra.arabic_language: "アブダラ"
+ adrada.arabic_language: "アル＝アドラーダ"
+ adrar.arabic_language: "アドラール" #أدرار
  afso.arabic_language: "アフス"
- agadir.arabic_language: "アガーディール"
+ agadir.arabic_language: "アガーディール" #أكادير
  agdez.arabic_language: "アグズ"
- aghmat.arabic_language: "アガマート"
+ aghmat.arabic_language: "アガマート" #أغمات
+ agramunt.arabic_language: "アグラームーント"
+ agreda.arabic_language: "アクラタ"
+ aguiar.arabic_language: "アギヤール"
+ aguilar_de_campoo.arabic_language: "アギーラール・ダ・カンブー"
  aguz.arabic_language: "クーズ"
  ain_salah.arabic_language: "アイン・サーリフ"
  ain_sefra.arabic_language: "アイン・サフラー"
+ ainsa.arabic_language: "アイーンサ"
  ait_benhaddou.arabic_language: "アイット・ベン・ハドゥ"
  ait_daoud.arabic_language: "アイト・ダーワッド"
  ajim.arabic_language: "アジーム"
- al_jawf.arabic_language: "アル・ジャウフ"
- al_khadra_ALG.arabic_language: "アル＝ハドラー"
- al_khums.arabic_language: "アル＝ハムス"
+ al_jawf.arabic_language: "アル・ジャウフ" #الجوف
+ al_khadra_ALG.arabic_language: "アル＝ハドラー" #الخضراء
+ al_khums.arabic_language: "アル＝ハムス" #الخمس
  al_kuwayra.arabic_language: "アル＝クーワイラ"
  alarcon.arabic_language: "アル＝アルクン"
+ alba_de_aliste.arabic_language: "アルバ・ディー・アリースタ"
+ alba_de_tormes.arabic_language: "アルバ・ディー・トゥルミス"
  albacete.arabic_language: "アル＝バシート"
+ albarracin.arabic_language: "バヌー・ラジーン"
+ albuquerque.arabic_language: "アブー・アル＝クルク"
  alcacer_do_sal.arabic_language: "カスル・アビ・ダーニス"
  alcala_de_henares.arabic_language: "アル＝カラ"
- aleppo.arabic_language: "ハラブ"
- alexandria.arabic_language: "アル＝イスカンダリヤ"
- algeciras.arabic_language: "アル＝ジャジーラ・アル＝ハドラー"
- algiers.arabic_language: "アル＝ジャザーイル"
+ alcanices.arabic_language: "アルカニーシス"
+ alcaniz.arabic_language: "アル＝カンニーシュ"
+ alcantara.arabic_language: "アル＝カンタラ" #القنطرة
+ alcaraz.arabic_language: "アル＝カラシュ"
+ alcazar_de_san_juan.arabic_language: "アル＝カスル"
+ alcobaca.arabic_language: "アル＝クバーサ"
+ alcoy.arabic_language: "アル＝クイ"
+ aleppo.arabic_language: "ハラブ" #حلب
+ alexandria.arabic_language: "アル＝イスカンダリヤ" #الإسكندرية
+ alfambra.arabic_language: "アル＝ハムラ"
+ algeciras.arabic_language: "アル＝ジャジーラ・アル＝ハドラー" #الجزيرة الخضراء
+ algiers.arabic_language: "アル＝ジャザーイル" #الجزائر
+ alhambra_location.arabic_language: "アルハンブラ宮殿" #الحمراء
  alicante.arabic_language: "アル＝カント"
- almanzora.arabic_language: "アル・マンスーラ"
- almeria.arabic_language: "アル＝マリーヤー"
+ almaden.arabic_language: "アル＝マディン"
+ almanzora.arabic_language: "アル・マンスーラ" #المنصورة
+ almazan.arabic_language: "アル＝マフサン"
+ almeria.arabic_language: "アル＝マリーヤー" #المرية
  almodovar_del_campo.arabic_language: "アル＝ムダウワル"
- almonaster_la_real.arabic_language: "アル＝ムナスティール"
+ almonaster_la_real.arabic_language: "アル＝ムナスティール" #المنستير
  almudevar.arabic_language: "アル・ムダワール"
- almunecar.arabic_language: "ヒスン・アル＝ムナッカブ"
+ almunecar.arabic_language: "ヒスン・アル＝ムナッカブ" #حصن المنكب
+ alvalade.arabic_language: "アル＝バラート"
+ alvito.arabic_language: "アル＝ビート"
  amdoukal.arabic_language: "ムドゥケル"
  ameskour.arabic_language: "アメスクール"
- amman.arabic_language: "アンマーン"
+ amman.arabic_language: "アンマーン" #عمان
+ anana.arabic_language: "アニャーナ"
+ andorra_la_vella.arabic_language: "アンドゥーラ・アル＝バーヤ"
  andujar.arabic_language: "アンドゥヤル"
- anfa.arabic_language: "アンファ"
- annaba.arabic_language: "アンナーバー"
+ annaba.arabic_language: "アンナーバー" #عنابة
+ anso.arabic_language: "アンスー"
  antequera.arabic_language: "マディーナ・アンタキラ"
- antioch.arabic_language: "アンターキヤー"
+ antioch.arabic_language: "アンターキヤー" #أنطاكية
  aouint_yghomane.arabic_language: "アウィント・イグマーン"
- aousserd.arabic_language: "アウサルド"
- aqaba.arabic_language: "アル＝アカバー"
+ aqaba.arabic_language: "アル＝アカバー" #العقبة
+ aracena.arabic_language: "アッ＝シャルシャナ"
+ aranda_de_duero.arabic_language: "アラーンダ・ダ・ドゥーイール"
  arcos_de_la_frontera.arabic_language: "アルコース"
+ ares_del_maestre.arabic_language: "アーリシュ"
+ arevalo.arabic_language: "アリーバル"
+ ariza.arabic_language: "アリーサ"
  arnedo.arabic_language: "アルニート"
  aroche.arabic_language: "アウルス"
+ arroyo.arabic_language: "アルーユ・アル＝フラスヌ"
  arzew.arabic_language: "アルジーウ"
  asfi.arabic_language: "アースフィー"
  asilah.arabic_language: "アシーラ"
  asir_ALG.arabic_language: "アシール"
  assa.arabic_language: "アーサ"
+ astorga.arabic_language: "アシュトゥルカ"
  asuf.arabic_language: "アスーフ"
- aswan.arabic_language: "アスワーン"
+ aswan.arabic_language: "アスワーン" #أسوان
+ avila.arabic_language: "アービラ"
+ aviles.arabic_language: "アビーリス"
+ avis.arabic_language: "アビース"
+ ayamonte.arabic_language: "ワーディー・アーナ"
+ ayora.arabic_language: "アユーラ"
  azeffoun.arabic_language: "アズフーン"
- azemmour.arabic_language: "アザムール"
+ azemmour.arabic_language: "アザムール" #أزمور
  azilal.arabic_language: "アジラール"
  azrou.arabic_language: "アズルー"
- badajoz.arabic_language: "バタリャウス"
+ azuaga.arabic_language: "ザワーガ"
+ badajoz.arabic_language: "バタリャウス" #بطليوس
  bades.arabic_language: "バーデス"
+ baena.arabic_language: "バイヤーナ"
  baeza.arabic_language: "バイヤサ"
- baghdad.arabic_language: "バグダード"
+ baghdad.arabic_language: "バグダード" #بغداد
+ balaguer.arabic_language: "バラギー"
  baqubah.arabic_language: "バクーバ"
- barca.arabic_language: "バルカ"
- basra_al_hamra.arabic_language: "アル＝バスラ・アル＝ハムラ"
- basra.arabic_language: "アル＝バスラ"
- baza.arabic_language: "メディーナ・バサ"
+ barbastro.arabic_language: "バルバシュタル" #بربشتر
+ barca.arabic_language: "バルカ" #برقة
+ barcarrota.arabic_language: "バルカルータ"
+ barcelona.arabic_language: "バルシルーナ" #برشلونة
+ barcelos.arabic_language: "バルサルース"
+ barco_de_valdeorras.arabic_language: "アル＝バールク・ダ・バールディユーラース"
+ basra.arabic_language: "アル＝バスラ" #البصرة
+ basra_al_hamra.arabic_language: "アル＝バスラ・アル＝ハムラ" #البصرة الحمراء
+ baza.arabic_language: "メディーナ・バサ" #مدينة بسطة
  bechar.arabic_language: "バッシュシャール"
- beersheba.arabic_language: "ビイル・アッ＝サブ"
- beirut.arabic_language: "ベイルート"
- beja_TUN.arabic_language: "バージャ"
+ beersheba.arabic_language: "ビイル・アッ＝サブ" #بئر السبع
+ beirut.arabic_language: "ベイルート" #بيروت
+ beja.arabic_language: "バージャ" #باجة
+ beja_TUN.arabic_language: "バージャ" #باجة
  bejaad.arabic_language: "ブジャド"
- bejaia.arabic_language: "ビジャーヤ"
- benghazi.arabic_language: "ベンガージ"
+ bejaia.arabic_language: "ビジャーヤ" #بجاية
+ bejar.arabic_language: "バーハル"
+ belalcazar.arabic_language: "ビン・アル＝カスル"
+ belchite.arabic_language: "バルシート"
+ belmonte.arabic_language: "バルムント"
+ benabarre.arabic_language: "バヌー・アッバール"
+ benavente.arabic_language: "バナーバンティ"
+ benghazi.arabic_language: "ベンガージ" #بنغازي
  beni_suef.arabic_language: "バニ・スワイフ"
+ berga.arabic_language: "バルガ"
+ berlanga.arabic_language: "バルラーンジャ"
  berriane.arabic_language: "ビリヤーン"
+ besalu.arabic_language: "バサールー"
+ besteiros.arabic_language: "ビスティールース"
+ betanzos.arabic_language: "ビターンサス"
+ beteta.arabic_language: "バティータ"
+ bilbao.arabic_language: "ビルバーウ"
  biskra.arabic_language: "ビスクラ"
- bizerte.arabic_language: "ビンザルト"
+ bizerte.arabic_language: "ビンザルト" #بنزرت
  bojador.arabic_language: "ブージュドゥール"
  bordj_bou_arreridj.arabic_language: "ブルジュ・ブ・ウライリージュ"
  bou_hajla.arabic_language: "ブ・ハジュラ"
@@ -82,271 +141,502 @@
  bouira.arabic_language: "アル＝ブイーラ"
  boulaouane.arabic_language: "ブーラワーン"
  boumalne_dades.arabic_language: "ブーマルーン・ダーディス"
+ braga.arabic_language: "バラーガ"
+ braganca.arabic_language: "バラーガーンサ"
  brak.arabic_language: "ビラク"
  brashk.arabic_language: "バルシャク"
  brezina.arabic_language: "ブリズヤーナ"
+ brihuega.arabic_language: "ブリジュウィーガ"
+ briviesca.arabic_language: "ブリビーシュカ"
+ brozas.arabic_language: "ブルーサス"
+ buitrago_de_lozoya.arabic_language: "ブトラーグ"
+ bunol.arabic_language: "ブニュル"
+ burgo_de_osma.arabic_language: "ブルグ・ダ・ウーシュマ"
  burgos.arabic_language: "ブルグシュ"
  bzou.arabic_language: "ブズ"
- cadiz.arabic_language: "カーディス"
- cairo.arabic_language: "アル＝カーヒラ"
+ caceres.arabic_language: "カジーリス"
+ cadiz.arabic_language: "カーディス" #قادس
+ cairo.arabic_language: "アル＝カーヒラ" #القاهرة
  calahorra.arabic_language: "カラフラ"
- calatayud.arabic_language: "カルアト・アユーブ"
+ calatanazor.arabic_language: "カルアト・アン＝ヌスール"
+ calatayud.arabic_language: "カルアト・アユーブ" #قلعة أيوب
+ calatrava.arabic_language: "カルアト・ラバーフ" #قلعة رباح
  caltanisetta.arabic_language: "カルアト・アン・ニサ"
+ canete.arabic_language: "カニート"
+ cangas.arabic_language: "カンガス"
+ cantavieja.arabic_language: "カンタビーハ"
+ caravaca.arabic_language: "カラバーカ"
+ cardona.arabic_language: "カルドゥーナ"
+ carinena.arabic_language: "カリニャーナ"
  carmona.arabic_language: "カルムーナ"
  carpio.arabic_language: "アル＝クサイル"
- cartagena.arabic_language: "カルターハンナ・アル＝ハルファ"
+ carrion_de_los_condes.arabic_language: "カリユーン・ダ・ルース・クーンディス"
+ cartagena.arabic_language: "カルターハンナ・アル＝ハルファ" #قرطاجنة الحلفاء
+ caspe.arabic_language: "カシュブ"
+ castellon_ampurias.arabic_language: "カスタルユーン・アンブーリヤス"
+ castellon_de_la_plana.arabic_language: "アル＝カスタルユーン"
+ castelo_branco.arabic_language: "カシュティール・ブランク"
+ castrocalbon.arabic_language: "カシュトルカルブーン"
+ castrojeriz.arabic_language: "カシュトルヒーリス"
+ castropol.arabic_language: "カシュトルブール"
  catania.arabic_language: "カターニーヤ"
- ceuta.arabic_language: "サブタ"
+ cazorla.arabic_language: "カイサーラ"
+ cervera.arabic_language: "サルビーラ"
+ ceuta.arabic_language: "サブタ" #سبتة
+ chao_de_couce.arabic_language: "シャウ・ダ・クーサ"
  charef.arabic_language: "シャーリフ"
  charouine.arabic_language: "シャルウィーン"
+ chaves.arabic_language: "シャービシュ"
  chebba.arabic_language: "アッ・シャーッバ"
  cheffia.arabic_language: "シェフィア"
+ chelva.arabic_language: "シャルバ"
  chenini.arabic_language: "シャニニ"
  cherchell.arabic_language: "シャルシャール"
  chichaoua.arabic_language: "シーシャワ"
- chlef.arabic_language: "アッ・シャリフ"
+ chinchilla.arabic_language: "ジンジャーラ" #جنجالة
+ chinchon.arabic_language: "シンシューン"
+ chlef.arabic_language: "アッ・シャリフ" #الشلف
+ cieza.arabic_language: "シヤーサ"
+ ciudad_real.arabic_language: "マディーナト・アル＝マリク" #مدينة الملك
+ ciudad_rodrigo.arabic_language: "シユーダード・ルドリーグ"
+ ciudadela_de_menorca.arabic_language: "マディーナト・ミヌールカ"
+ cobeta.arabic_language: "クバイタ"
+ coimbra.arabic_language: "クルムリヤ"
  collo.arabic_language: "アル＝クル"
- constantina.arabic_language: "クサンティーナ"
- constantine_ALG.arabic_language: "クサンティーナ"
- constantinople.arabic_language: "クスタンティニーヤ"
- cordoba.arabic_language: "クルトゥバ"
+ colmenar.arabic_language: "クルミナール"
+ constantina.arabic_language: "クサンティーナ" #قسنطينة
+ constantine_ALG.arabic_language: "クサンティーナ" #قسنطينة
+ constantinople.arabic_language: "クスタンティニーヤ" #قسطنطينية
+ consuegra.arabic_language: "シュクービヤ"
+ cordoba.arabic_language: "クルトゥバ" #قرطبة
+ coria.arabic_language: "クーリヤ"
  coria_del_rio.arabic_language: "カウラ"
- cuenca.arabic_language: "クーンカ"
- dakhla.arabic_language: "アッ＝ダーヒラ"
- damascus.arabic_language: "ディマシュク・アッ・シャーム"
+ coruna.arabic_language: "アル＝クルニャ"
+ covilha.arabic_language: "クビルヤー"
+ crato.arabic_language: "アル＝カラートゥ"
+ cuellar.arabic_language: "クウィーラール"
+ cuenca.arabic_language: "クーンカ" #قونكة
+ dakhla.arabic_language: "アッ＝ダーヒラ" #الداخلة
+ damascus.arabic_language: "ディマシュク・アッ・シャーム" #دمشق الشام
+ daroca.arabic_language: "ダールーカ"
  debdou.arabic_language: "ドゥブドゥ"
  debila.arabic_language: "ダビラ"
  demnate.arabic_language: "ダムナート"
- denia.arabic_language: "ダーニーヤ"
- diyarbekir.arabic_language: "ディヤル・バクル"
+ denia.arabic_language: "ダーニーヤ" #دانية
+ diyarbekir.arabic_language: "ディヤル・バクル" #ديار بكر
  djanet.arabic_language: "ジャーナト"
- djelfa.arabic_language: "アル＝ジルファ"
+ djelfa.arabic_language: "アル＝ジルファ" #الجلفة
  douz.arabic_language: "ドゥーズ"
  dufanat.arabic_language: "ドゥファーナト"
+ durango.arabic_language: "ドゥーラングー"
  echemmaia.arabic_language: "アッ・シャンマーイヤ"
- ecija.arabic_language: "イスティッジャ"
+ ecija.arabic_language: "イスティッジャ" #إستجة
+ ejea_de_los_caballeros.arabic_language: "シーハ"
  el_abiodh_sidi_cheikh.arabic_language: "アル＝アビャド・シーディー・シャイフ"
- el_alamein.arabic_language: "エル・アラメイン"
- el_arish.arabic_language: "アル＝アリーシュ"
+ el_alamein.arabic_language: "エル・アラメイン" #العلمين
+ el_arish.arabic_language: "アル＝アリーシュ" #العريش
  el_bayadh.arabic_language: "アル＝バヤド"
+ el_escorial.arabic_language: "アル＝イスクリヤール"
  el_fahs.arabic_language: "アル＝ファフス"
  el_golea.arabic_language: "アル＝クライア"
  el_guerrara.arabic_language: "アル＝カラーラ"
- el_jem.arabic_language: "アル＝ジャンム"
+ el_jem.arabic_language: "アル＝ジャンム" #الجم
  el_kala.arabic_language: "アル＝カーラ"
  el_kantara.arabic_language: "アル＝カンタラ"
- el_kef.arabic_language: "アル＝カーフ"
+ el_kef.arabic_language: "アル＝カーフ" #الكاف
  el_kseur.arabic_language: "アル＝カスル"
  el_ksour.arabic_language: "アル＝クスール"
  el_milia.arabic_language: "アル＝ミーリーヤ"
- elche.arabic_language: "アルシュ"
+ elche.arabic_language: "アルシュ" #ألش
+ elizondo.arabic_language: "リースーンドゥー"
+ elvas.arabic_language: "アルバシュ" #ألبش
  er_rich.arabic_language: "アル＝アリーシュ"
+ escurial.arabic_language: "イスクリヤール"
+ esgueira.arabic_language: "イスギーラ"
+ espiel.arabic_language: "イスビーハル"
+ estella.arabic_language: "イスティーラ"
+ estremoz.arabic_language: "アシュタルムーシュ" #أشترموش
+ evora.arabic_language: "ヤーブラ" #يابرة
+ faro.arabic_language: "シャンタ・マリヤト・アル＝ガルブ" #شنت مارية الغرب
+ feira.arabic_language: "フィーラ"
  feriana.arabic_language: "ファリヤーナ"
- fez.arabic_language: "フェス"
+ fermoselle.arabic_language: "ファルムサルヤ"
+ ferrol.arabic_language: "ファルール"
+ fez.arabic_language: "フェス" #فاس
+ figueira.arabic_language: "フィギーラ"
  figuig.arabic_language: "フィギーグ"
+ finisterre.arabic_language: "フィニスティーラ"
+ flix.arabic_language: "フリーシュ"
  foum_zguid.arabic_language: "フム・ズギード"
- gabes.arabic_language: "カービス"
- gafsa.arabic_language: "カフサ"
- gaza.arabic_language: "ガザ"
- ghadames.arabic_language: "ガダーミス"
- ghardaia.arabic_language: "ガルダーヤ"
+ fraga.arabic_language: "イフラーガ" #إفراغة
+ fuenteovejuna.arabic_language: "ファント・ウービユーナ"
+ fuentiduena.arabic_language: "フワンティドゥウィーニャ"
+ gabes.arabic_language: "カービス" #قابس
+ gafsa.arabic_language: "カフサ" #قفصة
+ galisteo.arabic_language: "ガリストゥ"
+ gandia.arabic_language: "カンディーア" #قندية
+ gaza.arabic_language: "ガザ" #غزة
+ gergal.arabic_language: "ジャルガール"
+ ghadames.arabic_language: "ガダーミス" #غدامس
+ ghardaia.arabic_language: "ガルダーヤ" #غرداية
  ghassasa.arabic_language: "ガーサーサ"
- ghat.arabic_language: "ガート"
- gibraltar.arabic_language: "ジャバル・ターリク"
- girona.arabic_language: "ジャルンダ"
- giza.arabic_language: "アル＝ジーザ"
- granada.arabic_language: "ガルナータ"
- guadalajara.arabic_language: "ワーディー・アル＝ヒジャーラ"
- guadix.arabic_language: "ワーディー・アッシュ"
- guelma.arabic_language: "カーリマ"
+ ghat.arabic_language: "ガート" #غات
+ gibraltar.arabic_language: "ジャバル・ターリク" #جبل طارق
+ ginzo_de_limia.arabic_language: "ギンス・ダ・リーミヤ"
+ girona.arabic_language: "ジャルンダ" #جرندة
+ giza.arabic_language: "アル＝ジーザ" #الجيزة
+ granada.arabic_language: "ガルナータ" #غرناطة
+ granadilla.arabic_language: "ガルナーティーラ"
+ guadalajara.arabic_language: "ワーディー・アル＝ヒジャーラ" #وادي الحجارة
+ guadalupe.arabic_language: "ワーディー・アル＝ルブ"
+ guadix.arabic_language: "ワーディー・アッシュ" #وادي آش
+ guarda.arabic_language: "アル＝ガールダ"
+ guelma.arabic_language: "カーリマ" #قالمة
  guercif.arabic_language: "ジャルシーフ"
- hama.arabic_language: "ハマー"
- hammamet.arabic_language: "アル＝ハンマーマート"
- hebron.arabic_language: "アル＝ハリール"
- homs.arabic_language: "ヒムス"
- huelva.arabic_language: "ワルバ"
- huesca.arabic_language: "ワシュカ"
+ guimaraes.arabic_language: "ギマラーシュ"
+ hama.arabic_language: "ハマー" #حماة
+ hammamet.arabic_language: "アル＝ハンマーマート" #الحمامات
+ hebron.arabic_language: "アル＝ハリール" #الخليل
+ hellin.arabic_language: "ファラーフ"
+ herrera.arabic_language: "ヒラーラ"
+ homs.arabic_language: "ヒムス" #حمص
+ huelva.arabic_language: "ワルバ" #ولبة
+ huesca.arabic_language: "ワシュカ" #وشقة
+ huescar.arabic_language: "ワシュカ" #وشقة
+ huete.arabic_language: "ワブダ"
+ ibiza.arabic_language: "ヤービサ" #يابسة
+ idanha.arabic_language: "イダーニャ"
  ifni.arabic_language: "イフニ"
  ifrane.arabic_language: "イフラーン・アル＝アトラス・アッ＝サギール"
  igli.arabic_language: "イクリー"
- ikjan.arabic_language: "イクガン"
+ illescas.arabic_language: "イリーシュカ"
+ illora.arabic_language: "イルーラ"
  in_amenas.arabic_language: "アイン・アミナース"
- iskenderun.arabic_language: "アル＝イスカンダルーン"
- jaen.arabic_language: "ジャイヤーン"
- jaffa.arabic_language: "ヤーファー"
+ iniesta.arabic_language: "アニャシュタ"
+ iskenderun.arabic_language: "アル＝イスカンダルーン" #الإسكندرون
+ jaca.arabic_language: "ハーカ" #جاقة
+ jaen.arabic_language: "ジャイヤーン" #جيان
+ jaffa.arabic_language: "ヤーファー" #يافا
  jama_TUN.arabic_language: "アル＝ジャマ"
+ jaraicejo.arabic_language: "ハリーシーフ"
  jarawah_abu_al_aysh.arabic_language: "ヤラーワ・アブー・アル＝アイシュ"
+ jativa.arabic_language: "シャーティバ" #شاطبة
  jerada.arabic_language: "ヤラーダ"
- jerez_de_la_frontera.arabic_language: "シャリーシュ"
- jerusalem.arabic_language: "アル＝クドゥス"
- jijel.arabic_language: "ジジェル"
+ jerez_de_la_frontera.arabic_language: "シャリーシュ" #شريش
+ jerez_de_los_caballeros.arabic_language: "シャリーシュ" #شريش
+ jerusalem.arabic_language: "アル＝クドゥス" #القدس
+ jijel.arabic_language: "ジジェル" #جيجل
  jodar.arabic_language: "サウダル"
- kairouan.arabic_language: "アル＝カイラワーン"
+ jorquera.arabic_language: "シュルキーラ"
+ jumilla.arabic_language: "ジュマラ" #جملة
+ kairouan.arabic_language: "アル＝カイラワーン" #القيروان
  kalaa_of_ait_abbas.arabic_language: "カルアト・バニ・アッバース"
  kalaat_sraghna.arabic_language: "カルアト・アッ＝スラーグナ"
- karbala.arabic_language: "カルバラー"
- kasserine.arabic_language: "アル＝カスライン"
- kebili.arabic_language: "カービリー"
- kelibia.arabic_language: "カリビーヤ"
+ karbala.arabic_language: "カルバラー" #كربلاء
+ kasserine.arabic_language: "アル＝カスライン" #القصرين
+ kebili.arabic_language: "カービリー" #قبلي
+ kelibia.arabic_language: "カリビーヤ" #قليبية
  kesra.arabic_language: "キスラ"
- kharga.arabic_language: "アル＝ハーリジャ"
+ kharga.arabic_language: "アル＝ハーリジャ" #الخارجة
  khenifra.arabic_language: "フナイフィラ"
- kirkuk.arabic_language: "キルクーク"
- kom_ombo.arabic_language: "カウム・ウンブー"
+ kirkuk.arabic_language: "キルクーク" #كركوك
+ kom_ombo.arabic_language: "カウム・ウンブー" #كوم أمبو
  ksar_el_boukhari.arabic_language: "カスル・アル＝ブハリー"
  ksar_el_kaoua.arabic_language: "カスル・アル＝クア"
  ksar_el_kebir.arabic_language: "アル＝カスル・アル＝カビール"
  ksar_es_souk.arabic_language: "カスル・アッ＝スーク"
  ksar_ibn_senane.arabic_language: "カスル・イブン・シナーン"
- kufa.arabic_language: "アル＝クーファ"
+ kufa.arabic_language: "アル＝クーファ" #الكوفة
  la_mamora.arabic_language: "アル＝マームーラ"
- laayoune.arabic_language: "アル＝ウユーン"
- laghouat.arabic_language: "アル＝アグワート"
- larache.arabic_language: "アル＝アラーイシュ"
+ laayoune.arabic_language: "アル＝ウユーン" #العيون
+ laghouat.arabic_language: "アル＝アグワート" #الأغواط
+ lagoon_of_salses.arabic_language: "ブハイラト・サルサス"
+ lagos.arabic_language: "ザーウィヤ" #زاوية
+ laguardia.arabic_language: "アル＝グワールディヤ"
+ lalin.arabic_language: "ラリーン"
+ lamego.arabic_language: "ラマーガ"
+ larache.arabic_language: "アル＝アラーイシュ" #العرائش
+ laredo.arabic_language: "ラリードゥ"
+ las_navas.arabic_language: "ラース・ナーバース"
  latakia.arabic_language: "アル＝ラーディキーヤ"
+ ledesma.arabic_language: "リダスマ"
+ leiria.arabic_language: "ライリヤ"
  leon.arabic_language: "リユーン"
+ lerma.arabic_language: "ラルマ"
+ lezuza.arabic_language: "ラクーサ"
+ lisbon.arabic_language: "アル＝ウシュブーナ" #الأشبونة
+ llanes.arabic_language: "ルヤーニス"
  lleida.arabic_language: "ラーリダ"
- loja.arabic_language: "ラウシャ"
- lorca.arabic_language: "ラウラカ"
+ llerena.arabic_language: "リリーナ"
+ lliria.arabic_language: "リーリヤ"
+ llucena.arabic_language: "アル＝ユッサーナ"
+ logrono.arabic_language: "ルグルーニュ"
+ loja.arabic_language: "ラウシャ" #لوشة
+ lorca.arabic_language: "ラウラカ" #لورقة
+ los_yebenes.arabic_language: "アル＝ヤバーニス"
  lucena.arabic_language: "アル＝ユサーナ"
+ lugo.arabic_language: "ルーグ"
+ macedo.arabic_language: "マシードゥ"
  madas.arabic_language: "マーダース"
- madinat_alawiyyin.arabic_language: "マディーナ・アラウィユーン"
- madrid.arabic_language: "マジュリート"
- mahdia.arabic_language: "アル＝マフディーヤ"
- mahres.arabic_language: "アル＝マハラス"
- malaga.arabic_language: "マーラカ"
- mansoura.arabic_language: "アル＝マンスーラ"
- mansouria.arabic_language: "アル＝マンスーリヤ"
- marbella.arabic_language: "マルバラ"
- marrakesh.arabic_language: "ムラークシュ"
+ madinat_alawiyyin.arabic_language: "マディーナ・アラウィユーン" #مدينة العلويين
+ madrid.arabic_language: "マジュリート" #مجريط
+ mahdia.arabic_language: "アル＝マフディーヤ" #المهدية
+ mahres.arabic_language: "アル＝マハラス" #المحرس
+ malaga.arabic_language: "マーラカ" #مالقة
+ malagon.arabic_language: "マラクーン"
+ manacor.arabic_language: "マナクール"
+ manresa.arabic_language: "マンリーサ"
+ mansilla.arabic_language: "マンシールヤ"
+ mansoura.arabic_language: "アル＝マンスーラ" #المنصورة
+ mansouria.arabic_language: "アル＝マンスーリヤ" #المنصورية
+ manzanares.arabic_language: "マンザナーリシュ"
+ maqueda.arabic_language: "マーキダ"
+ marbella.arabic_language: "マルバラ" #مربلة
+ marrakesh.arabic_language: "ムラークシュ" #مراكش
  martos.arabic_language: "マルトゥシュ"
- mascara.arabic_language: "ムアスカル"
+ mascara.arabic_language: "ムアスカル" #معسكر
  massa_MOR.arabic_language: "マーサ"
  mateur.arabic_language: "マーティル"
- matmata.arabic_language: "マトマータ"
- matruh.arabic_language: "マトルーフ"
+ matilla_de_canos.arabic_language: "マティールヤ・ディー・カーニュス"
+ matmata.arabic_language: "マトマータ" #مطماطة
+ matruh.arabic_language: "マトルーフ" #مطروح
  mazaghan.arabic_language: "マージジェン"
  mazouna.arabic_language: "マズーナ"
- mecca.arabic_language: "マッカ"
- medea.arabic_language: "アル＝マディヤ"
- medenine.arabic_language: "マダニーン"
+ mecca.arabic_language: "マッカ" #مكة
+ meda.arabic_language: "ミーダ"
+ medea.arabic_language: "アル＝マディヤ" #المدية
+ medellin.arabic_language: "マダリーン"
+ medenine.arabic_language: "マダニーン" #مدنين
+ medina_de_rioseco.arabic_language: "マディーナト・リユーシーク"
+ medina_del_campo.arabic_language: "マディーナト・アル＝カンブ"
  medina_sidonia.arabic_language: "マディーナト・シャドゥーナ"
+ medinaceli.arabic_language: "マディーナト・サリーム"
  medjez_el_bab.arabic_language: "マジャーズ・アル＝バーブ"
- meknes.arabic_language: "ミクナース"
- melilla.arabic_language: "マリーラ"
- merida.arabic_language: "マーリダ"
+ meknes.arabic_language: "ミクナース" #مكناس
+ melilla.arabic_language: "マリーラ" #مليلة
+ mellid.arabic_language: "マリード"
+ merida.arabic_language: "マーリダ" #ماردة
+ mertola.arabic_language: "マールトゥラ" #مرتلة
  messaad.arabic_language: "マスアド"
  midelt.arabic_language: "ミーダルト"
- mila.arabic_language: "ミーラ"
- miliana.arabic_language: "ミルヤーナ"
- misratah.arabic_language: "ミスラータ"
+ mieres.arabic_language: "ミイーリス"
+ mila.arabic_language: "ミーラ" #ميلة
+ miliana.arabic_language: "ミルヤーナ" #مليانة
+ miranda_de_ebro.arabic_language: "ミラーンダ・ダ・イーブル"
+ miranda_de_i_douro.arabic_language: "ミラーンダ・アッ＝ダウル"
+ mirandela.arabic_language: "ミランディーラ"
+ misratah.arabic_language: "ミスラータ" #مصراتة
  mogador.arabic_language: "ムーガドール"
  mojacar.arabic_language: "ムヤカル"
- monastir.arabic_language: "アル＝ムナスティール"
- moron.arabic_language: "マウルール"
- mostaganem.arabic_language: "ムスタガーナム"
- mosul.arabic_language: "マウシル"
+ molina_de_aragon.arabic_language: "ムーリーナ"
+ monastir.arabic_language: "アル＝ムナスティール" #المنستير
+ moncorvo.arabic_language: "ムンクルブ"
+ mondonedo.arabic_language: "ムンドゥニードゥ"
+ monesterio.arabic_language: "ムナスティール"
+ monforte_de_lemos.arabic_language: "ムンフールティ・ダ・リームス"
+ montalban.arabic_language: "ムント・アルバーン"
+ montalegre.arabic_language: "ムンタリーグラ"
+ montanchez.arabic_language: "ムント・シャーキル"
+ montblanc.arabic_language: "ムント・ブラーンク"
+ montemor.arabic_language: "ムント・マユール"
+ monterrey.arabic_language: "ムンタラーイ"
+ montiel.arabic_language: "ムンティール"
+ monzon.arabic_language: "ムント・スーン"
+ monzon_campos.arabic_language: "ムンスーン・ダ・カンブー"
+ mora_de_rubielos.arabic_language: "ムーラ"
+ mora_portugal.arabic_language: "ムーラ"
+ morella.arabic_language: "ムーララ"
+ moron.arabic_language: "マウルール" #مورور
+ mostaganem.arabic_language: "ムスタガーナム" #مستغانم
+ mosul.arabic_language: "マウシル" #الموصل
+ moura.arabic_language: "ムーラ"
+ moya.arabic_language: "ムーヤ"
  mrirah.arabic_language: "ムリーラ"
- msila.arabic_language: "アル＝マシーラ"
- murcia.arabic_language: "ムルシヤッハ"
- murzuk.arabic_language: "ムルズク"
- nabeul.arabic_language: "ナーブル"
- nablus.arabic_language: "ナーブルス"
- najera.arabic_language: "ナージラ"
+ msila.arabic_language: "アル＝マシーラ" #المسيلة
+ mula.arabic_language: "ムーラ"
+ murcia.arabic_language: "ムルシヤッハ" #مرسية
+ murzuk.arabic_language: "ムルズク" #مرزق
+ nabeul.arabic_language: "ナーブル" #نابل
+ nablus.arabic_language: "ナーブルス" #نابلس
+ najera.arabic_language: "ナージラ" #ناجرة
  namalata.arabic_language: "ナマーラタ"
- nasiriyah.arabic_language: "ナーシリーヤ"
- nedroma.arabic_language: "ナドルマ"
- nefta.arabic_language: "ナフタ"
+ nasiriyah.arabic_language: "ナーシリーヤ" #الناصرية
+ navalucillos.arabic_language: "ナバルシールユシュ"
+ navia_de_suarna.arabic_language: "ナービヤ・ダ・スワールナ"
+ nedroma.arabic_language: "ナドルマ" #ندرومة
+ nefta.arabic_language: "ナフタ" #نفطة
  ngaous.arabic_language: "ナグハーウス"
- niebla.arabic_language: "レブラ"
+ niebla.arabic_language: "レブラ" #لبلة
  noul_lamta.arabic_language: "ヌール・ラムタ"
+ noya.arabic_language: "ヌーヤ"
+ ocana.arabic_language: "ウカニャ"
+ odemira.arabic_language: "ワーディー・ミーラ"
+ olite.arabic_language: "ウーリート"
  olvera.arabic_language: "ウビラ"
- oran.arabic_language: "ワハラーン"
+ onate.arabic_language: "ウニャータ"
+ oran.arabic_language: "ワハラーン" #وهران
  orgiva.arabic_language: "ユズ・アルユバ"
- orihuela.arabic_language: "ウリユーラ"
- ouargla.arabic_language: "ワルカラ"
- ouarzazate.arabic_language: "ワルザザート"
+ orihuela.arabic_language: "ウリユーラ" #أوريولة
+ oropesa.arabic_language: "ウールビーサ"
+ osuna.arabic_language: "ウーシューナ" #أشونة
+ ouargla.arabic_language: "ワルカラ" #ورقلة
+ ouarzazate.arabic_language: "ワルザザート" #ورزازات
  ouezzane.arabic_language: "ワッザーン"
- oujda.arabic_language: "ウジュダ"
+ oujda.arabic_language: "ウジュダ" #وجدة
  ouled_djellal.arabic_language: "アウラード・ジャッラール"
- palermo.arabic_language: "バラルム"
+ ourense.arabic_language: "アウリーンシ"
+ ourique.arabic_language: "ウーリーク"
+ oviedo.arabic_language: "ウッビートゥ"
+ palencia.arabic_language: "ファランシヤ"
+ palenzuela.arabic_language: "ファランスウィーラ"
+ palermo.arabic_language: "バラルム" #بلرم
+ palma.arabic_language: "マディーナト・マユールカ" #مدينة ميورقة
  palma_del_rio.arabic_language: "バルマ"
- pamplona.arabic_language: "バンバルーナー"
- rabat.arabic_language: "アル＝ラバート"
- raqqa.arabic_language: "アル＝ラッカ"
- ras_al_ain.arabic_language: "ラアス・アル＝アイン"
+ pamplona.arabic_language: "バンバルーナー" #بنبلونة
+ pareja.arabic_language: "バーラハ"
+ pedraza.arabic_language: "ビドラーサ"
+ pedroche.arabic_language: "ビトラウシュ"
+ penafiel.arabic_language: "バニャーフィイール"
+ peniscola.arabic_language: "バニシュクラ"
+ perpignan.arabic_language: "バルビニャーン"
+ piedrahita.arabic_language: "ビヤドラーヒータ"
+ pina_de_ebro.arabic_language: "ビーナ"
+ pinar.arabic_language: "ビーナール"
+ pinhel.arabic_language: "ビニール"
+ plasencia.arabic_language: "バラシンシヤ"
+ pollensa.arabic_language: "ブーランサ"
+ ponferrada.arabic_language: "ブンファラーダ"
+ ponte_sor.arabic_language: "カンタラト・スール"
+ pontevedra.arabic_language: "ブンタビードラ"
+ portalegre.arabic_language: "ブルト・アル＝ガディール"
+ portel.arabic_language: "ブルティール"
+ porto.arabic_language: "ブルトゥ"
+ potes.arabic_language: "ブーティス"
+ prades.arabic_language: "ブラーダス"
+ proenca_nova.arabic_language: "ブルーワンサ・ヌバ"
+ puebla_de_alcocer.arabic_language: "アル＝クサイル"
+ puebla_de_guzman.arabic_language: "ブブラ・クーズマーン"
+ puebla_de_montalban.arabic_language: "ムンタルバーン"
+ puebla_de_sanabria.arabic_language: "ブウィブラ・ディー・サナーブリヤ"
+ puente_arzobispo.arabic_language: "カンタラト・アル＝アスクフ"
+ puertollano.arabic_language: "ブルト・アル＝ラーヌ"
+ puigcerda.arabic_language: "ブージュ・サルダー"
+ rabat.arabic_language: "アル＝ラバート" #الرباط
+ raqqa.arabic_language: "アル＝ラッカ" #الرقة
+ ras_al_ain.arabic_language: "ラアス・アル＝アイン" #رأس العين
  ras_kebdana.arabic_language: "ラアス・ケブダナ"
- ronda.arabic_language: "ヒスン・アル＝ルンダ"
- sabha.arabic_language: "サブハー"
- safed.arabic_language: "サファド"
- saida.arabic_language: "サイーダ"
- salamanca.arabic_language: "サラマンカ"
- sale.arabic_language: "サラー"
- samarra.arabic_language: "サーマルラー"
+ reinosa.arabic_language: "ライヌーサ"
+ requena.arabic_language: "ラカナ"
+ riano.arabic_language: "リヤーニュ"
+ ribadavia.arabic_language: "リバーダービヤ"
+ ripoll.arabic_language: "リーブール"
+ roncesvalles.arabic_language: "ルンシスバーリス"
+ ronda.arabic_language: "ヒスン・アル＝ルンダ" #حصن الرندة
+ sabha.arabic_language: "サブハー" #سبها
+ sabugal.arabic_language: "サブーガール"
+ safed.arabic_language: "サファド" #صفد
+ sahagun.arabic_language: "サハグーン"
+ saida.arabic_language: "サイーダ" #سعيدة
+ salamanca.arabic_language: "サラマンカ" #شلمنقة
+ saldana.arabic_language: "シャルダーニャ"
+ sale.arabic_language: "サラー" #سلا
+ salvaterra.arabic_language: "サルバティーラ"
+ salvatierra.arabic_language: "サルバティヤラ"
+ samarra.arabic_language: "サーマルラー" #سامراء
  samawa.arabic_language: "アッ＝サマーワ"
+ san_clemente.arabic_language: "シャント・カラミント"
+ san_felices.arabic_language: "サーン・ファリーシス"
+ san_sebastian.arabic_language: "サーン・サバスティヤーン"
+ san_vicente_barquera.arabic_language: "サーン・ビサンティ・ダ・ル＝バルキーラ"
+ sanguesa.arabic_language: "サングウィーサ"
+ sanlucar.arabic_language: "シャルーカ" #شلوقة
+ sanlucar_la_mayor.arabic_language: "シャルーカ・アル＝クブラー"
+ sant_feliu.arabic_language: "サーント・ファリーウ"
  santa_eufemia.arabic_language: "クンヤ"
+ santander.arabic_language: "シャンタンディール"
+ santarem.arabic_language: "シャンタリーン" #شنترين
+ santiago_compostela.arabic_language: "シャント・ヤークブ・ダ・クンブスティーラ"
+ sarinena.arabic_language: "サリニャーナ"
+ sarria.arabic_language: "サーリヤ"
  sbiba.arabic_language: "スビーバ"
  sbikha.arabic_language: "アッ＝サビーハ"
- sefrou.arabic_language: "サフルー"
- segovia.arabic_language: "シクビーヤ"
+ sefrou.arabic_language: "サフルー" #صفرو
+ segovia.arabic_language: "シクビーヤ" #شقوبية
+ segura_de_la_sierra.arabic_language: "シャクーラ"
+ seia.arabic_language: "サーヤ"
  sejnane.arabic_language: "サジュナーン"
- setif.arabic_language: "スティフ"
+ sepulveda.arabic_language: "シャブールバダ"
+ serpa.arabic_language: "シャルバ"
+ setif.arabic_language: "スティフ" #سطيف
  settat.arabic_language: "サッタート"
- sevilla.arabic_language: "イシュビリーヤ"
- sfaqes.arabic_language: "サファークス"
- sidi_bennour.arabic_language: "シーディー・ビンヌール"
- sidi_okba.arabic_language: "シーディー・ウクバ"
- sidon.arabic_language: "サイダー"
- sijilmasa.arabic_language: "シジルマーサ"
- silves.arabic_language: "シルブ"
- skikda.arabic_language: "スカイキダ"
+ setubal.arabic_language: "シャトゥーバル" #شطوبر
+ seu_durgell.arabic_language: "アッ＝シー・ドゥルジャル"
+ sevilla.arabic_language: "イシュビリーヤ" #إشبيلية
+ sfaqes.arabic_language: "サファークス" #صفاقس
+ sidi_bennour.arabic_language: "シーディー・ビンヌール" #سيدي بنور
+ sidi_okba.arabic_language: "シーディー・ウクバ" #سيدي عقبة
+ sidon.arabic_language: "サイダー" #صيدا
+ siguenza.arabic_language: "サグンサ"
+ sijilmasa.arabic_language: "シジルマーサ" #سجلماسة
+ silves.arabic_language: "シルブ" #شلب
+ sines.arabic_language: "シーナシュ"
+ sitges.arabic_language: "シージャス"
+ skikda.arabic_language: "スカイキダ" #سكيكدة
  skoura.arabic_language: "スクーラ"
- smara.arabic_language: "アッ＝サマーラ"
+ smara.arabic_language: "アッ＝サマーラ" #السمارة
  sokna.arabic_language: "サウクナ"
- souk_el_arba.arabic_language: "スーク・アル＝アルバ"
- sousse.arabic_language: "スーサ"
+ soria.arabic_language: "シューリヤ"
+ sos.arabic_language: "スース"
+ souk_el_arba.arabic_language: "スーク・アル＝アルバ" #سوق الأربعاء
+ sousse.arabic_language: "スーサ" #سوسة
+ sto_domingo_silos.arabic_language: "サーント・ドゥーミーング・ダ・シールス"
  subaytila.arabic_language: "スバイティラ"
- suez.arabic_language: "アッ＝スワイス"
+ suez.arabic_language: "アッ＝スワイス" #السويس
  tabarida.arabic_language: "ターバリーダ"
- tabarka.arabic_language: "タバルカ"
+ tabarka.arabic_language: "タバルカ" #طبرقة
  tabelbala.arabic_language: "タバルバーラ"
  tadla.arabic_language: "ターディラ"
  tafraout.arabic_language: "ターフラーウト"
  taghjijt.arabic_language: "タグジージュト"
- tahert.arabic_language: "ターハルト"
+ tahert.arabic_language: "ターハルト" #تاهرت
+ talarn.arabic_language: "タラールン"
  talavera_de_la_reina.arabic_language: "タラバイラ"
  tamacine.arabic_language: "タマーシーン"
  tamdoult.arabic_language: "タムドゥールト"
- tangier.arabic_language: "タンジャ"
+ tangier.arabic_language: "タンジャ" #طنجة
  tantan.arabic_language: "ターンターン"
  taourirt.arabic_language: "ターウリールト"
- tarazona.arabic_language: "タラスーナ"
- tarifa.arabic_language: "タリーファ"
- taroudant.arabic_language: "タールーダーント"
- tarragona.arabic_language: "タッラークーナ"
+ tarazona.arabic_language: "タラスーナ" #طرسونة
+ tarifa.arabic_language: "タリーファ" #طريفة
+ taroudant.arabic_language: "タールーダーント" #تارودانت
+ tarragona.arabic_language: "タッラークーナ" #طركونة
+ tarrega.arabic_language: "ターラガ"
  tata_MOR.arabic_language: "ターター"
- tataouine.arabic_language: "タターウィーン"
+ tataouine.arabic_language: "タターウィーン" #تطاوين
  taunat.arabic_language: "ターウナート"
+ tavira.arabic_language: "タビーラ"
  taza.arabic_language: "ターザ"
  tazirbu.arabic_language: "タゼルブ"
  taznakht.arabic_language: "ターズナーフト"
  tazzarine.arabic_language: "ターザーリーン"
- tebessa.arabic_language: "ティビサ"
+ tebessa.arabic_language: "ティビサ" #تبسة
  tebourba.arabic_language: "トゥブルバ"
  tedelles.arabic_language: "タダリス"
  tekouch.arabic_language: "テッククシュ"
  temsamane.arabic_language: "タムサマーン"
- tenes.arabic_language: "タナス"
+ tenes.arabic_language: "タナス" #تنس
+ terrassa.arabic_language: "タラーサ"
  teruel.arabic_language: "ティールワール"
- tetouan.arabic_language: "ティトワーン"
+ tetouan.arabic_language: "ティトワーン" #تطوان
  thagaste.arabic_language: "スーク・アハラース"
  thala.arabic_language: "ターラ"
  tidsi.arabic_language: "ティドシー"
  tiffech.arabic_language: "ティファーュ"
  tijis.arabic_language: "ティージュス"
- tikrit.arabic_language: "ティクリート"
- timimoun.arabic_language: "ティミームーン"
- tindouf.arabic_language: "ティンドゥーフ"
+ tikrit.arabic_language: "ティクリート" #تكريت
+ timimoun.arabic_language: "ティミームーン" #تيميمون
+ tindouf.arabic_language: "ティンドゥーフ" #تندوف
+ tineo.arabic_language: "ティニーウ"
  tinmel.arabic_language: "ティーンマル"
  tinnis.arabic_language: "ティンニース"
  tiout.arabic_language: "ティウート"
@@ -356,29 +646,76 @@
  tizgane.arabic_language: "ティズガーン"
  tiznit.arabic_language: "ティズニート"
  tizounine.arabic_language: "ティーズーニーン"
- tlemcen.arabic_language: "ティリムサーン"
+ tlemcen.arabic_language: "ティリムサーン" #تلمسان
  todgha.arabic_language: "トゥードガ"
- toledo.arabic_language: "トゥライトゥラ"
+ toledo.arabic_language: "トゥライトゥラ" #طليطلة
  tolga.arabic_language: "トゥールジャー"
- tortosa.arabic_language: "トゥルトゥーシャ"
- touggourt.arabic_language: "トゥグルト"
- tozeur.arabic_language: "トゥージル"
- tripoli.arabic_language: "タラーブルス・アル＝ガルブ"
- tripoli_syria.arabic_language: "タラーブルス・アル＝シャーム"
- tudela.arabic_language: "トゥティーラ"
- tunis.arabic_language: "トゥーニス"
+ tolosa.arabic_language: "トゥルーサ"
+ tomar.arabic_language: "トゥマール"
+ tomelloso.arabic_language: "トゥマルース"
+ tordesillas.arabic_language: "トゥルダシールヤース"
+ toro.arabic_language: "トゥール"
+ torralba.arabic_language: "トゥラルバ"
+ torres_novas.arabic_language: "トゥラシュ・アン＝ヌーバ"
+ torres_vedras.arabic_language: "トゥラシュ・ビドラーシュ"
+ tortosa.arabic_language: "トゥルトゥーシャ" #طرطوشة
+ touggourt.arabic_language: "トゥグルト" #تقرت
+ tozeur.arabic_language: "トゥージル" #توزر
+ trancoso.arabic_language: "トランクース"
+ tripoli.arabic_language: "タラーブルス・アル＝ガルブ" #طرابلس الغرب
+ tripoli_syria.arabic_language: "タラーブルス・アル＝シャーム" #طرابلس الشام
+ trujillo.arabic_language: "トゥルジャーラ"
+ tudela.arabic_language: "トゥティーラ" #تطيلة
+ tunis.arabic_language: "トゥーニス" #تونس
+ tuy.arabic_language: "トゥーイ"
  ubari.arabic_language: "アウバーリー"
  ubeda.arabic_language: "ウッバダ・アル＝アラブ"
- ukbara.arabic_language: "ウクバラー"
- valencia.arabic_language: "バランシーヤ"
- valladolid.arabic_language: "バルド・アル＝ワリード"
+ ucles.arabic_language: "ウクリーシュ"
+ ukbara.arabic_language: "ウクバラー" #عكبراء
+ valderrobres.arabic_language: "バール・アル＝ルーブラシュ"
+ valenca.arabic_language: "バランサ"
+ valencia.arabic_language: "バランシーヤ" #بلنسية
+ valencia_de_alcantara.arabic_language: "バランシヤト・アル＝カンタラ"
+ valladolid.arabic_language: "バルド・アル＝ワリード" #بلد الوليد
+ valmaseda.arabic_language: "バルマシーダ"
+ valverde.arabic_language: "バルビルディー"
  velez_malaga.arabic_language: "バッラフ"
- volubilis.arabic_language: "ワリーリー"
- zaghouan.arabic_language: "ザグワーン"
- zamora.arabic_language: "サンムーラ"
- zaragoza.arabic_language: "サラクスタ"
- zarzis.arabic_language: "ジャルジース"
+ velez_rubio.arabic_language: "バリシュ・アル＝アフマル"
+ viana.arabic_language: "ビヤーナ"
+ viana_bolo.arabic_language: "ビヤーナ・アル＝ブール"
+ viana_do_castelo.arabic_language: "ビヤーナ・アル＝カシュティール"
+ vic.arabic_language: "ビーク"
+ vielha.arabic_language: "ビヤールヤ"
+ vila_real.arabic_language: "ビーラ・リヤール"
+ vila_vicosa.arabic_language: "ビーラ・ビースーサ"
+ villablino.arabic_language: "ビルヤブリーヌ"
+ villadiego.arabic_language: "ビルヤーディイーグ"
+ villafranca_bierzo.arabic_language: "ビルヤフランカ・アル＝ビヤルス"
+ villafranca_del_penedes.arabic_language: "ビラーフランカ・アル＝バナーディス"
+ villalba.arabic_language: "ビラールバ"
+ villalpando.arabic_language: "ビルヤルバンドゥ"
+ villanueva_de_la_serena.arabic_language: "ビランウィーバ・アル＝シリーナ"
+ villanueva_del_fresno.arabic_language: "ビランウィーバ・アル＝フラスヌ"
+ villapalacios.arabic_language: "ビラ・バラースユシュ"
+ villarcayo.arabic_language: "ビルヤールカーユ"
+ villarobledo.arabic_language: "ビラ・ルブルドゥ"
+ villatoro.arabic_language: "ビルヤートゥール"
+ villaviciosa.arabic_language: "ビルヤビスユーサ"
+ villena.arabic_language: "ビルヤーナ"
+ viseu.arabic_language: "ビシュイ"
+ vitoria.arabic_language: "ビートゥーリヤ"
+ vivero.arabic_language: "ビビール"
+ volubilis.arabic_language: "ワリーリー" #وليلي
+ yecla_de_yeltes.arabic_language: "ヤクラ・ディー・ヤルティス"
+ zafra.arabic_language: "サフラ"
+ zaghouan.arabic_language: "ザグワーン" #زغوان
+ zalamea.arabic_language: "サラミーヤ"
+ zamora.arabic_language: "サンムーラ" #سمورة
+ zaragoza.arabic_language: "サラクスタ" #سرقسطة
+ zarzis.arabic_language: "ジャルジース" #جرجيس
  zawila.arabic_language: "ザウィーラ"
- zawiya.arabic_language: "アッ＝ザーウィヤ"
+ zawiya.arabic_language: "アッ＝ザーウィヤ" #الزاوية
  zella.arabic_language: "アッ＝ザッラ"
+ zorita.arabic_language: "シューリータ"
+ zuera.arabic_language: "スワーラ"
  zuwarah.arabic_language: "ズワーラ"

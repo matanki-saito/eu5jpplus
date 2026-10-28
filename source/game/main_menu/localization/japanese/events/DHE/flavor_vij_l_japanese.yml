@@ -265,4 +265,4 @@
  flavor_vij.1204.b: "$flavor_vij.1202.b$"
  flavor_vij.1205.title: "$flavor_vij_1200_shared_title$"
  flavor_vij.1205.desc: "$flavor_vij_1200_response_shared_desc$"
- flavor_vij.1205.a: "[ROOT.GetCountry.Custom('common_string_negative')]"
+ flavor_vij.1205.a: "$common_string_curses$"

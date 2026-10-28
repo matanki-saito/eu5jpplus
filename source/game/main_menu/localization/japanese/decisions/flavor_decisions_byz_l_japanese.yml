@@ -1,0 +1,10 @@
+﻿l_japanese:
+ byz_army_reform_decision.title: "[ROOT.GetCountry.GetAdjectiveWithNoTooltip]軍の改革"
+ byz_army_reform_decision.title.entry: "ビザンツ軍の改革"
+ byz_army_reform_decision.desc: "かつてわが軍は、テマ制とそこから供給される多数の召集軍を活用して優位に立っていたが、富の増大と国家の中央集権化に伴い、軍務は専業化しつつある。[target_character.GetName]とその評議会は、兵力の[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]への依存を減らすため、新たな軍隊組織の草案作りに取り組んでいる。"
+ byz_army_reform_decision.desc.entry: "かつてわが軍は、テマ制とそこから供給される多数の召集軍を活用して優位に立っていたが、富の増大と国家の中央集権化に伴い、軍務は専業化しつつある。わが国の内閣ならば、軍制改革案を策定し、[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]の支援への依存を減らすことができる。"
+ byz_army_reform_decision.a: "新たな軍は[target_character.GetNameWithNoTooltip]によく仕えるだろう。"
+ byz_army_reform_decision.a.entry: "新たな軍が王に仕える"
+ byz_army_reform_decision.b: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('nobles_estate')]の役割を奪ってはならない。"
+ byz_army_reform_decision.b.entry: "$nobles_estate$の役割を奪ってはならない。"
+ BYZ_ALL_THEMATA_PROVINCES_GAIN_NOBLE_LOYALTY: "[ShowBuildingTypeName('thema_headquarters')]がある[locations|e]のすべての[ShowPopTypeName('nobles')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_ultimate_bonus')|+=2%]増加する"

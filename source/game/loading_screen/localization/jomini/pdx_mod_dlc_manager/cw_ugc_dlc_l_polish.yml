@@ -1,0 +1,9 @@
+﻿l_polish:
+ MOD_BACKEND_NOT_AVAILABLE_STEAM: "Steam Workshop jest niedostępny. Nie można przesyłać ani aktualizować modów. Upewnij się, że klient Steam jest uruchomiony i masz dostęp do internetu, a następnie uruchom grę ponownie."
+ MOD_NAME_INVALID_SIZE: "Nazwa musi zawierać od 3 do 60 znaków."
+ MOD_PATH_EMPTY: "Podaj ścieżkę, w której zostanie utworzony szkic moda lub z której mod zostanie przesłany."
+ MOD_PATH_INVALID: "Ścieżka moda zawiera niedozwolone znaki."
+ MOD_DESCRIPTION_EMPTY: "Podaj krótki opis."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_ENABLED: "Mody w tym zestawie są automatycznie porządkowane na podstawie zależności między nimi."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_DISABLED: "Kolejność wczytywania modów w tym zestawie jest zarządzana ręcznie i nie będzie automatycznie zmieniana."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_BUTTON: "Automatyczna kolejność wczytywania"

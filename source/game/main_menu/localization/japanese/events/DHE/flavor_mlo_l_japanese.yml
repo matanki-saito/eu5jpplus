@@ -195,7 +195,7 @@
  flavor_mlo.41.title: "ナビリアッチョ"
  flavor_mlo.41.entry: "$flavor_mlo.41.title$"
  flavor_mlo.41.desc: "[ShowAreaName('lombardy_area')]の二大都市、[target_location.GetName]と[target_location2.GetName]を結ぶ新たな計画が提案された。この構想では、両都市のあいだに人工運河を建設し、その脇に道路を整備する。これにより、州全体の結束が一層強まるだろう。"
- flavor_mlo.41.historical_info: "「ナビリアッチョ」は、ミラノとパヴィーアを結びつける運河。パヴィーア北部の「ヴィスコンティ公園」の灌漑の役割も果たしていた。"
+ flavor_mlo.41.historical_info: "「ナビリアッチョ」は、ミラノとパヴィアを結びつける運河。パヴィア北部の「ヴィスコンティ公園」の灌漑の役割も果たしていた。"
  flavor_mlo.41.a: "計画を進めよ。"
  flavor_mlo.41.b: "このような計画に資金は出せない。"
  STATIC_MODIFIER_NAME_mlo_naviglaccio: "運河のつながり"

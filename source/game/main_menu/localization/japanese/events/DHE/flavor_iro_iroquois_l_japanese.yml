@@ -1,9 +1,4 @@
 ﻿l_japanese:
- flavor_iro.1.title: "グレート・ピースメーカーの遺産"
- flavor_iro.1.entry: "$flavor_iro.1.title$"
- flavor_iro.1.desc: "かつてその地の人々は分裂し、互いに反目していた。だが、“グレート・ピースメーカー”として知られるデガナウィダの尽力により、互いに争っていた部族の数々は、血縁のような結びつきをもつ「[ShowCultureGroupName('haudenosaunee_group')]連邦」へと統一された。この連邦の創設以来、[ShowCultureGroupNameWithNoTooltip('haudenosaunee_group')]の部族たちは団結を保ち共存してきたが、ここへ来てある部族が台頭し、主導権を握るべきだという声が囁かれはじめている。しかしそのような試みは、デガナウィダが[ShowCultureGroupNameWithNoTooltip('haudenosaunee_group')]連邦を築くにあたって掲げた根本原則を揺るがすおそれがある。"
- flavor_iro.1.a: "時代は移りゆくものだ。"
- may_unify_haudenosaunee_confederation: "[ShowCultureGroupName('haudenosaunee_group')]に属する国家に対して、アクション「[ShowCountryInteractionName('form_closer_bond_iroquois')]」と「[ShowCountryInteractionName('merge_tribe_iroquois')]」がアンロックされる。[ShowCultureGroupNameWithNoTooltip('haudenosaunee_group')]の領土を統一すれば、わが国を「[ShowCultureGroupNameWithNoTooltip('haudenosaunee_group')]連邦」として再編することが可能になる。"
  flavor_iro.2.title: "指導権の正当性"
  flavor_iro.2.entry: "$flavor_iro.2.title$"
  flavor_iro.2.desc: "[ShowCultureGroupName('haudenosaunee_group')]連邦は協調的な部族連邦として運営されてきたが、それぞれの部族は自らの自治と戦士団を維持してきた。しかし、敵対部族の勢力拡大を受けて[our_ruler.GetName]の周囲からは、[our_ruler.GetTitle]が中央指導者として[ShowCultureGroupNameWithNoTooltip('haudenosaunee_group')]の地を率いるための行動を起こすべきだという声が上がっている。\n\nこれはグレート・ピースメーカーが掲げた連合の理想への裏切りとみなされるかもしれないが、外部の部族の脅威から連邦を守るには、強力な指導者が必要になると考えられる。"

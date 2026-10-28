@@ -1,0 +1,7 @@
+﻿l_japanese:
+ ara_coronate_ruler.title: "$flavor_ara.22.title$"
+ ara_coronate_ruler.title.entry: "$flavor_ara.22.entry$"
+ ara_coronate_ruler.desc: "[target_character.GetName]の即位に伴い、[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')]も[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')]もその戴冠式を見届けるべく、[target_location.GetName]の名高い[ShowLocationName('zaragoza')]の地に集まった。その場で[ROOT.GetCountry.GetGovernment.GetRulerTitle]は、[ROOT.GetCountry.GetRank.GetName]の法律、民の自由、そして各階級の特権を堅持することを誓う。"
+ ara_coronate_ruler.desc.entry: "新たな統治者は、然るべき戴冠式を執りおこなわないかぎり、[ShowEstateTypeName('nobles_estate')]と[ShowEstateTypeName('peasants_estate')]から十分な忠誠を得ることはできない。正式に戴冠しなければ、その地位も認められないのだ。"
+ ara_coronate_ruler.a: "$flavor_ara.23.a$"
+ ara_coronate_ruler.b: "この伝統は廃止せよ。"

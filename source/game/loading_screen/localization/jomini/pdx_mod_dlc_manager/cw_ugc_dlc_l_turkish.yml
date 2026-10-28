@@ -1,0 +1,9 @@
+﻿l_turkish:
+ MOD_BACKEND_NOT_AVAILABLE_STEAM: "Steam Workshop kullanılamıyor. Modlar yüklenemez veya güncellenemez. Lütfen Steam istemcisinin çalıştığından ve internet bağlantınızın olduğundan emin olun, ardından oyunu yeniden başlatın."
+ MOD_NAME_INVALID_SIZE: "Ad 3 ile 60 karakter arasında olmalıdır."
+ MOD_PATH_EMPTY: "Lütfen mod taslağınızın oluşturulacağı veya modunuzun yükleneceği yolu girin."
+ MOD_PATH_INVALID: "Mod yolu geçersiz karakterler içeriyor."
+ MOD_DESCRIPTION_EMPTY: "Lütfen kısa bir açıklama girin."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_ENABLED: "Bu oyun setindeki modlar, mod bağımlılıklarına göre otomatik olarak yeniden sıralanır."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_DISABLED: "Bu oyun setindeki modların yükleme sırası manuel olarak yönetiliyor ve otomatik olarak yeniden sıralanmayacak."
+ MOD_PLAYSET_IS_AUTOMATICALLY_SORTED_BUTTON: "Otomatik yükleme sırası"

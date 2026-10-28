@@ -15,6 +15,7 @@
  flavor_cas_rio_salado_response.34.a: "我らが友、[target_ally.GetNameWithNoTooltip]を支援しよう。"
  flavor_cas_rio_salado_response.34.a.entry: "我らが友を支援しよう。"
  flavor_cas_rio_salado_response.34.b: "要請を断れ。"
+ castile_less_likely_to_conquer_portugal_tt: "[target_ally.GetName]は[ShowAreaName('north_portugal_area')]や[ShowAreaName('south_portugal_area')]を[conquer|e]する可能性が大きく下がる"
  flavor_cas_rio_salado.5.title: "[ShowRegionNameWithNoTooltip('iberia_region')]から[GetCountry('MOR').GetNameWithNoTooltip]を撃退"
  flavor_cas_rio_salado.5.entry: "リオ・サラドの戦いでモロッコがイベリアより撃退される"
  flavor_cas_rio_salado.5.desc: "苦しい戦いのすえ、我々は[GetCountry('MOR').GetName]軍に勝利を収め、ついに[GetCountry('MOR').GetAdjective]による[ShowLocationName('strait_of_gibraltar')]の支配を打ち破るとともに、[ShowLocationName('algeciras')]を完全に掌握した。和平条約で得た戦利品とこの勝利の栄光に、我々は何世紀も浸ることができるだろう！"

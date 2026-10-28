@@ -405,4 +405,8 @@
  qa_debug.101.g: "Decolonize Europe"
  qa_debug_decolonize_europe_tt: "All countries in Europe will be completely decolonized"
  qa_debug.close: "Close Menu"
+ ###LOCATION BACKDROP SMOKE TEST### (engine: event location backdrop feature -- fire from console; fire as a north german country (Brandenburg, Hamburg, etc.) to also validate the overlay placeholder)
+ qa_debug_backdrop.1.title: "ロケーション背景のスモークテスト"
+ qa_debug_backdrop.1.desc: "背景のデフォルトプリセットが適用され、カメラが再調整される。プリセット内のhide_layers/show_only_layersが反映される。北ドイツの国家でプレイ中に実行すると、overlay1のプレースホルダー（北ドイツ兵）も表示される。"
+ qa_debug_backdrop.1.a: "OK"
  qa_debug.back: "Go back to the previous Menu"

@@ -65,7 +65,7 @@
  flavor_usa.15.b: "旧来のやり方で十分だ。"
  flavor_usa.16.title: "[ShowBuildingTypeNameWithNoTooltip('usa_national_mint')]"
  flavor_usa.16.desc: "残念なことにわが国の通貨は、外国勢力が設定した基準に達していない。なぜなら、わが国の政府内に鋳造所がないためである。$flavor_usa.14.desc_generic$"
- flavor_usa.16.a: "[ShowBuildingTypeNameWithNoTooltip('usa_national_mint')]の創設"
+ flavor_usa.16.a: "[ShowBuildingTypeNameWithNoTooltip('usa_national_mint')]を設立せよ。"
  flavor_usa.16.b: "この件はあとでいい。"
  flavor_usa.17.title: "原住民との緊張"
  flavor_usa.17.desc: "[ShowContinentName('america')]における[ROOT.GetCountry.GetAdjective]人入植者たちの緩やかだが着実な拡張は、現地の原住民との新たな衝突を引き起こしている。彼らが故郷とみなす土地での我々の存在により、多くの原住民が団結し、我々に対する抵抗を組織するようになった。"

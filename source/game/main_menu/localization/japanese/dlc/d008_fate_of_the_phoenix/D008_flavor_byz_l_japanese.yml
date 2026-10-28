@@ -21,6 +21,7 @@
  d008_flavor_byz.5.a.entry: "タグマタをローマの前衛部隊に作り変えよう。"
  d008_flavor_byz.5.b: "かの連隊はすでに試練のなかで自らの力を示してみせた。"
  variable_won_fate_of_the_phoenix_disaster_variable_tt: "「[ShowDisasterName('fate_of_the_phoenix')]」を乗り越えた"
+ variable_not_won_fate_of_the_phoenix_disaster_variable_tt: "[ShowDisasterName('fate_of_the_phoenix')] はまだ克服されていない"
  d008_flavor_byz.4.title: "[target.GetNameWithNoTooltip]による研究の終焉"
  d008_flavor_byz.4.desc: "[target.GetName]の早すぎる死により、ギリシャの火の製法探求は不運にも未完に終わってしまった。[target.GetHerHis]の弟子やほかの高名な錬金術師たちが、研究をなんとか継続できないかを確認するため[target.GetHerHis]の手記を調べたが、残念ながら実験は堂々めぐりだったようで、具体的な手がかりを掴むことはできなかった。こうしてギリシャの火は、歴史のなかに封印された謎のままとなり、永久に解き明かされることはなくなったのであった。"
  d008_flavor_byz.4.a: "そうか…… それは残念だ……"

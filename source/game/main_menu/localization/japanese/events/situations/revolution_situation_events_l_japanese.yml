@@ -20,7 +20,7 @@
  the_revolution.3.b: "この闘争を分かち合い、積極的に彼らを守ろう。"
  the_revolution.4.title: "[target_province.GetNameWithNoTooltip]での不安の高まり"
  the_revolution.4.desc: "[ROOT.GetCountry.GetGovernment.GetCourtTitle]の廷臣のひとりが、立場を利用してわが国の一地方で不安を煽っているようだ。現時点で、その意図がどのようなものであるかは不明だ。[target_character.GetSheHe]が現在の状況に怒りを抱いているという者もいるが、それが革命思想の蔓延によるものであれ、国民の苦闘によるものであれ、[target_character.GetHerHis]の熱意が行き過ぎたものであることは明白だ！"
- the_revolution.4.a: "我々にできることはない。"
+ the_revolution.4.a: "[ROOT.GetCountry.Custom('common_string_nothing_we_can_do')]"
  the_revolution.4.b: "[target_character.GetHerHim]を牢にぶちこめ。"
  nobles_lose_10_pop_satisfaction_tt: "[target_province.GetNameWithNoTooltip]に居住する[ROOT.GetCountry.GetGovernment.GetEstateName('nobles_estate')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]減少する"
  peasants_lose_10_pop_satisfaction_tt: "[target_province.GetNameWithNoTooltip]に居住する[ROOT.GetCountry.GetGovernment.GetEstateName('peasants_estate')][pops|e]の[pop_satisfaction|e]が[ShowNamedValue('pop_satisfaction_mild_penalty')|+=2%]減少する"

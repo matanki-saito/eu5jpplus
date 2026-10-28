@@ -1,0 +1,13 @@
+﻿l_japanese:
+ expedition_succession_events.new_leader_tt: "[target_leader.GetName]が遠征隊の指揮官になる"
+ expedition_succession_events.morale_down_tt: "指揮官の死により乗組員の士気が低下（乗組員の士気#R -20#!）"
+ expedition_succession_events.1.title: "受け継がれる海図"
+ expedition_succession_events.1.desc: "[ROOT.GetCountry.GetCapital.GetName]に、遠征隊の指揮官が死亡したとの報せが届いた。幸い、隊に残っている士官のなかには海図を読む知識と、船員たちをまとめ上げられる胆力を備えた人物がいた。指揮官を失って以来、ほかの乗組員たちは彼に従っている。\n\n乗組員は彼を指揮官と認め、その指揮のもとで遠征を続ける。"
+ expedition_succession_events.1.a: "仕方のないことだ。航海を続けよう。"
+ expedition_succession_events.2.title: "新たな最高指揮官"
+ expedition_succession_events.2.desc: "[ROOT.GetCountry.GetCapital.GetName]に、艦隊を率いる提督が死亡したとの報せが届いた。あのような海域を指揮官なしで航行することは不可能だが、幸い、士官の1人がほかの船員たちをしっかりと統率できるだけの階級と能力を持っていた。実際、すでに後甲板で指揮を執っている。\n\n士官たちは彼を艦隊の新たな指揮官と認め、その指揮のもとで航海を続ける。"
+ expedition_succession_events.2.a: "仕方のないことだ。艦隊、前進せよ。"
+ expedition_succession_events.generic_new_leader_tt: "[target.GetName]が遠征隊の指揮官になる"
+ expedition_succession_events.3.title: "指揮権の継承"
+ expedition_succession_events.3.desc: "最近帰還した船により、訃報が届けられた。遠征隊を率いていた[former_leader.GetName]が現地で命を落としたのだという。残った者たちは本国からの指示を待たなかった。宮廷から遠い場所では往々にしてあることだが、彼らは書簡に封をするまでに自分たちで問題を解決していたのだ。\n\n[target.GetName]が指揮を引き継ぎ、遠征隊は先へと進んだ。"
+ expedition_succession_events.3.a: "誰が欠けようと、この事業を投げ出すわけにはいかない。"

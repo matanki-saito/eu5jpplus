@@ -1,7 +1,7 @@
 ﻿l_japanese:
  flavor_kor.1.title: "モンゴルによる支配"
  flavor_kor.1.entry: "$flavor_kor.1.title$"
- flavor_kor.1.desc: "1231年という恐ろしい年に、モンゴルは[ROOT.GetCountry.GetAdjective]国民との39年にわたる戦いを始めた。年を追うごとに、[ROOT.GetCountry.GetNameWithNoTooltip]の資源と人員は侵略者を抑えきれなくなり、わが愛する[ROOT.GetCountry.GetFlavorRank]は滅び、[GetCountry('CHI').GetLongName]朝の従属国となった。\n\nそれ以来、わが政府の要職には[GetCountry('MGE').GetAdjective]人貴族が就くようになり、彼らに政治や政策を操られ、「[ShowGovernmentReformName('son_in_law_rule')]」を強いられている。\n\nしかし、どんな帝国も永遠に続くことはない。時は[GetCountry('CHI').GetNameWithNoTooltip]にも厳しく、避けようのない滅亡が迫っている。とはいえ、我々の内側から糸を引く者たちを排除しないかぎり、[GetCountry('MGE').GetAdjectiveWithNoTooltip]のくびきから解放されることはないだろう。"
+ flavor_kor.1.desc: "1231年という恐ろしい年に、モンゴルは[ROOT.GetCountry.GetAdjective]国民との39年にわたる戦いを始めた。年を追うごとに、[ROOT.GetCountry.GetNameWithNoTooltip]の資源と人員は侵略者を抑えきれなくなり、わが愛する[ROOT.GetCountry.GetFlavorRank]は滅び、[GetCountry('CHI').GetLongName]朝の属国となった。\n\nそれ以来、わが政府の要職には[GetCountry('MGE').GetAdjective]人貴族が就くようになり、彼らに政治や政策を操られ、「[ShowGovernmentReformName('son_in_law_rule')]」を強いられている。\n\nしかし、どんな帝国も永遠に続くことはない。時は[GetCountry('CHI').GetNameWithNoTooltip]にも厳しく、避けようのない滅亡が迫っている。とはいえ、我々の内側から糸を引く者たちを排除しないかぎり、[GetCountry('MGE').GetAdjectiveWithNoTooltip]のくびきから解放されることはないだろう。"
  flavor_kor.1.a: "やつらの野蛮な支配から自由になってみせる！"
  kor_hostile_attitude: "相互敵対姿勢"
  flavor_kor.1.b: "モンゴルの導きを失ってしまったらどうなる？"
@@ -150,6 +150,7 @@
  flavor_kor.23.b: "[current_capital.GetNameWithNoTooltip]に留まる。"
  flavor_kor.23.b.entry: "Remain in the capital."
  flavor_kor.24.title: "[target_country.GetNameWithNoTooltip]に対する軍事作戦"
+ flavor_kor.24.entry: "$jurchen_group$に対する軍事作戦"
  flavor_kor.24.desc: "渤海が滅亡して以来、旧[ShowCultureName('korean_culture')]北部の大部分は[ShowCultureGroupName('mongolian_group')]と[ShowCultureGroupName('jurchen_group')]の部族に蹂躙された。わが国はいまや枷を解かれ、領地拡大の新たな意志を抱いている。そのなかで、北方の山脈へ我々が進軍するうえで通過する[target_province.GetName]に領地をもつ、[target_country.GetName]との衝突は避けられないだろう。"
  flavor_kor.24.a: "ならば、やつらを駆逐しなくては！"
  flavor_kor.24.b: "そのような戦争は[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('peasants_estate')]の不幸につながるだけだ。"

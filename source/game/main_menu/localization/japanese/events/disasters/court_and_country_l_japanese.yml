@@ -1,7 +1,7 @@
 ﻿l_japanese:
  #Events for the disaster
  court_and_country.1.title: "宮廷と国家の衝突"
- court_and_country.1.desc: "[ROOT.GetCountry.GetAdjective]国家が、伝統的に地域貴族や宮廷、その他の利益集団によって支配されてきた領域に侵入したことで、[ROOT.GetCountry.GetGovernment.GetRulerTitle]や[target_location.GetName][ROOT.GetCountry.GetGovernment.GetCourtTitle]に対する恨みが広まっている。\n\nこれらの集団は現在、中央権力に対抗するために団結し、同盟を結んでいる。現在、我々の最新の税制に対して、古くからの権利や、これらの反乱分子の代表による道義に反した行為を理由とする異議が多数寄せられている。我々の権力を強めようとする継続的な取り組みが、度重なる妨害に見舞われることは間違いないだろう。"
+ court_and_country.1.desc: "[ROOT.GetCountry.GetAdjective]国家が、伝統的に地域貴族や宮廷、その他の利益集団によって支配されてきた領域に侵入したことで、[ROOT.GetCountry.GetGovernment.GetRulerTitle]や[target_location.GetName][ROOT.GetCountry.GetGovernment.GetCourtTitle]に対する恨みが広まっている。\n\nこれらの集団は現在、中央権力に対抗するために団結し、同盟を結んでいる。現在、我々の最新の税制に対して、古くからの権利や、こうした新興勢力の代表による道義に反した行為を理由とする異議が多数寄せられている。我々の権力を強めようとする継続的な取り組みが、度重なる妨害に見舞われることは間違いないだろう。"
  court_and_country.1.a: "彼らは中央権力に屈することになる！"
  court_and_country.1.b: "この反抗者たちと交渉を試みよう。"
  court_and_country.2.title: "宮廷と国との対立の終結"

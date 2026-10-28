@@ -4,7 +4,7 @@
  flavor_fra_dau.100.desc: "[target_country.GetLongName]は数世紀にわたり独立を保っているものの、[GetInternationalOrganizationType('hre').GetName]と[ShowRegionName('italy_region')]に近いことから、[ROOT.GetCountry.GetLongName]が大きな関心を寄せてきた地域でもある。しかし、現在の統治者[scope_rule_dau.GetName]が、[ROOT.GetCountry.GetAdjectiveWithNoTooltip][ROOT.GetCountry.GetGovernment.GetCourtTitle]にとある提案を持ちかけてきた。[scope_rule_dau.GetShortNameWithNoTooltip]は1333年に兄の死により[target_country.GetNameWithNoTooltip]を相続して以来財政難に悩まされており、それは時とともに悪化の一途を辿っていたのだ。\n\n当初は[GetCountry('PAP').GetLongName]に土地と爵位を売却するつもりだった[scope_rule_dau.GetShortNameWithNoTooltip]だが、代わりに条件つきで[ROOT.GetCountry.GetNameWithNoTooltip]に売却を申し出た。その条件とは、[target_country.GetNameWithNoTooltip]の土地と引き換えに、課税と国家からの特定の命令を免除されるというものだった。さらに$country_flavor_france_dauphin$の称号は、[ROOT.GetCountry.GetNameWithNoTooltip]の君主たちが保持する称号のなかでも、別個で独自の称号として扱われなければならない。"
  flavor_fra_dau.100.a: "[scope_rule_dau.GetHerHis]の提案を受け入れ、$country_flavor_france_dauphin$を別個の[ROOT.GetCountry.GetGovernment.GetAdjective]の称号としよう。"
  flavor_fra_dau.100.a.entry: "彼の提案を受け入れ、$country_flavor_france_dauphin$を別個の王室の称号としよう。"
- flavor_fra_dau.100.b: "[scope_rule_dau.GetHerHis]彼の提案は受け入れるが、称号は[ROOT.GetCountry.GetGovernment.GetAdjective]のものと統合しよう。"
+ flavor_fra_dau.100.b: "[scope_rule_dau.GetHerHis]の提案は受け入れるが、称号は[ROOT.GetCountry.GetGovernment.GetAdjective]のものと統合しよう。"
  flavor_fra_dau.100.b.entry: "彼の提案は受け入れるが、称号は王室のものと統合しよう。"
  flavor_fra_dau.100.c: "[ROOT.GetCountry.GetGovernment.GetEstateNameWithNoTooltip('crown_estate')]は何があろうと[scope_rule_dau.GetHimHer]の提案を呑むことはない。"
  flavor_fra_dau.100.c.entry: "$crown_estate$は何があろうと彼の提案を呑むことはない。"

@@ -115,7 +115,7 @@
  rise_of_timur.1022.desc: "[target_country.GetLongName]は極めて賢明だ。わが国の提案を受け入れ、我々に忠誠を誓うことを決めたのだ。その結果、[ShowRegionName('anatolia_region')]における我々の支配力が強まり、地域に対する我々の正当な権利が強化された。"
  rise_of_timur.1022.a: "賢明な判断だ。"
  rise_of_timur.1023.title: "[target_country.GetNameWithNoTooltip]が従属を拒否"
- rise_of_timur.1023.desc: "道理のわからない[target_country.GetName]の愚か者どもが、従属国にしてやろうという我々の寛大な申し出を拒否した。これは我々への敵対宣言であり、もはや戦場で決着をつけるほかない。"
+ rise_of_timur.1023.desc: "道理のわからない[target_country.GetName]の愚か者どもが、属国にしてやろうという我々の寛大な申し出を拒否した。これは我々への敵対宣言であり、もはや戦場で決着をつけるほかない。"
  rise_of_timur.1023.a: "彼らは選択を誤った。"
  rise_of_timur.1030.title: "[target_country.GetAdjectiveWithNoTooltip]の対立"
  rise_of_timur.1030.title.generic: "アナトリアにおける対立"

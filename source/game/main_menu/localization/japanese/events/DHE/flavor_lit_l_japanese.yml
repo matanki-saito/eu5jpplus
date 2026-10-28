@@ -37,6 +37,7 @@
  flavor_lit.5.b: "[ROOT.GetCountry.GetLongNameWithNoTooltip]は他国の王族など必要ない。"
  flavor_lit.5.b.entry: "わが国は他国の王族など必要ない。"
  lit_should_poland_accept_tt: "[GetCountry('POL').GetName]が申し出を受け入れれば、我々は[institutions|e]の普及と繁栄を享受できるかもしれない。"
+ lit_offer_hand_to_poland_tt: "[GetCountry('POL').GetNameWithNoTooltip]が受け入れて平和的な同君連合への道を開くか、拒絶してわが国の王位に対する請求権を主張する[casus_belli|e]を得るかが決まる"
  flavor_lit.5.historical_info: "正式には「クレヴォ合同」と呼ばれる、リトアニア大公ヨガイラとポーランド女王ヤドヴィガの婚姻は、大公の数十年にわたるカトリック化（カトリック教の影響拡大）と外交努力の集大成だった。この出来事は、リトアニアが異教国家としての立場を改める契機となった。"
  flavor_lit.6.title: "東西間の揺れ動き"
  flavor_lit.6.entry: "$flavor_lit.6.title$"

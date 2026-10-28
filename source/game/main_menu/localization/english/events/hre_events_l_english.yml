@@ -84,8 +84,8 @@
 
  hre.910.title: "A Prince in the Grip of the Infidel"
  hre.910.desc: "[enslaved_hre_member.GetName], a Prince of the [GetUniqueInternationalOrganization('hre').GetName], has been subjugated by [foreign_overlord.GetName] — a foreign power outside the Empire and outside the Christian faith.\n\nAs [GetUniqueInternationalOrganization('hre').GetLeaderTitle], it is within your right and your duty to challenge this. The [GetUniqueInternationalOrganization('hre').GetName] stands ready."
- hre.910.a: "This insult to the Empire shall not go unanswered. Rally the princes."
- hre.910.b: "We lack the strength to challenge [foreign_overlord.GetName] at this moment. Prudence demands patience."
+ hre.910.a: "This insult to the [GetUniqueInternationalOrganization('hre').GetNameWithNoTooltip] cannot be left unanswered."
+ hre.910.a.tt: "Every [ShowReligionGroupAdjective('christian')] member of the [GetUniqueInternationalOrganization('hre').GetName] gains [ShowBiasValue('antagonism_hre_member_under_infidel_domination')|+=0] [antagonism|e] toward [foreign_overlord.GetName]"
 
  hre.911.title: "A Prince Falls to Foreign Dominion"
  hre.911.desc: "[enslaved_hre_member.GetName], a Prince of the [GetUniqueInternationalOrganization('hre').GetName], has been forced to submit to [foreign_overlord.GetName], a power of a foreign faith. The [GetUniqueInternationalOrganization('hre').GetLeaderTitle] has been informed of this affront to the Empire."
@@ -106,6 +106,11 @@
  hre.15.title: "The End of the [GetInternationalOrganizationType('hre').GetNameWithNoTooltip]"
  hre.15.desc: "With the fall of the [old_emperor.GetCapital.GetName], [old_emperor_ruler.GetName] had to accept [old_emperor_ruler.GetHerHis] ultimate defeat at the hands of the [hre_destroyer.GetAdjective] forces. In the year [GetCurrentYear], the once prestigious [old_emperor.GetGovernment.GetRulerTitle] signed [old_emperor_ruler.GetHerHis] abdication from the throne of the [GetInternationalOrganizationType('hre').GetName] and released all imperial states and officials from their oaths and obligations to the empire.\n\nThe [GetInternationalOrganizationType('hre').GetNameWithNoTooltip] is no more and [hre_destroyer_ruler.GetName] shall forever be remembered as its destroyer."
  hre.15.a: "An empire finally put to its overdue rest."
+
+ hre.700.title: "$secularized_electors_law$"
+ hre.700.desc: "The Imperial Diet has convened and agreed upon a monumental change to the legislation of the [GetInternationalOrganizationType('hre').GetName]. From now on, the Electorate of the [GetInternationalOrganizationType('hre').GetNameWithNoTooltip] shall be fully secularized, with no theocratic ruler holding sway over the the election the next Emperor.\n\nThis is an existential threat to our position within the Empire and we will have to decide between two options. We could secularize our country by decree and retain the position of [ShowSpecialStatusName('elector')], now as a prince of the [GetInternationalOrganizationType('hre').GetNameWithNoTooltip], or we could retain our theocratic rule and become a mere [ShowSpecialStatusName('imperial_prelate')]."
+ hre.700.a: "Let us follow the Zeitgeist and reform."
+ hre.700.b: "We refuse to adapt our government!"
 
  hre.800.title: "The Imperial Coronation"
  hre.800.desc: "We have ascended to the throne of the [GetInternationalOrganization('hre').GetName]! With our coronation we have also come into the possession of the Imperial Regalia, which will be sign of our legitimate rulership."

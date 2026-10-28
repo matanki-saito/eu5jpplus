@@ -193,3 +193,4 @@
  devotion_events.219.desc: "$sharia$に従って判決を下す裁判官、カーディーを各地方に任命してから数ヵ月も経たないうちに、彼らの多くは眉間にしわを寄せ、目に緊張の色を浮かべて我々を訪ねてきた。彼らは退廃と罪にまみれた国民の信仰心が衰退していると訴え、険しい顔つきで「ヒスバ」、すなわち民に介入して善悪を裁定するという、神から与えられた義務を我々に思い出させた。[ROOT.GetCountry.GetReligion.GetGodName]の法律を厳守しなければならない。わが国民には$sharia$を執行するムタウィーン、つまり宗教警察が必要なのだ。"
  devotion_events.219.a: "志願者を募り、ムタウィーンとして訓練しろ。"
  devotion_events.219.b: "もっと正しいやり方があるはずだ。"
+ devotion_events.219.c: "代わりに[ShowBureaucracyTypeNameWithNoTooltip('mazalim_court_bureaucracy')]にこれらの訴えを聞かせろ。"

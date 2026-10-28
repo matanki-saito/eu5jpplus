@@ -1,4 +1,6 @@
 ﻿l_japanese:
+ HIDE_OUTDATED_SAVES_IS_OFF: "#T 互換性のあるセーブデータのみ表示#!\n現在のゲームバージョンと互換性のないセーブデータを非表示にします。"
+ HIDE_OUTDATED_SAVES_IS_ON: "#T すべてのセーブデータを表示#!\n現在のゲームバージョンと互換性のないセーブデータも表示します。"
  SAVE_BUTTON_DISABLED: "@trigger_no! オートセーブは鉄人モードでのみ有効"
  SAVE_BUTTON_DISABLED_BY_TUTORIAL: "@trigger_no! チュートリアル中はセーブできない。"
  LOAD_INGAME_BUTTON_DISABLED: "@trigger_no! マルチプレイでゲームデータのロードはできません"

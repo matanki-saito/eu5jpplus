@@ -1,3 +1,3 @@
 ﻿l_japanese:
- game_dynasty_name_struct_notooltip: "$PREFIX$$NAME$$SUFFIX$"
+ game_dynasty_name_struct_notooltip: "$NAME$$SUFFIX$"
  game_patronym_loc_struct_notooltip: "$PATRONYM_PREFIX$$PATRONYM_KEY$$PATRONYM_SUFFIX$"

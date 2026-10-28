@@ -28,7 +28,7 @@
  join_an_imperial_circle_desc: "形成期間中に帝国クライスに加盟する。"
  join_an_imperial_circle_act: "[SCOPE.sImperialCircle('target').GetName]に加盟する"
  join_an_imperial_circle_effect_text: "[SCOPE.sCountry('actor').GetName]が[SCOPE.sImperialCircle('target').GetName]に加わる。"
- join_an_imperial_circle_effect_text_past: "[SCOPE.sCountry('actor').GetName]は[SCOPE.sImperialCircle('target').GetName]に加盟した。"
+ join_an_imperial_circle_effect_text_past: "[SCOPE.sCountry('actor').GetName]が[SCOPE.sImperialCircle('target').GetName]に加盟した。"
  bribe_imperial_circle: "帝国クライスを買収する"
  bribe_imperial_circle_desc: "帝国議会で我々の提案に賛成票を投じるよう、帝国クライスのリーダーおよびすべてのメンバーに金銭を支払う。クライスリーダーには基本となる賄賂の全額を、それ以外のメンバーにはその額の25%を支払う。すべてのメンバーの投票は、決議が終了するまで、皇帝が選択したものに固定される。"
  bribe_imperial_circle_act: "議会への提案に賛成するよう[SCOPE.sCountry('target').GetName]を買収する。"

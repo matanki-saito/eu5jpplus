@@ -30,3 +30,5 @@
  CANT_BREAK_COBELLIGERENT_TRUCE: "敵国と[truce|e]中の[country|e]には参戦要請できない"
  WILL_ACCEPT_PROMISE_LAND: "[peace_treaty|e]で領土の割譲を約束した場合、[Country.GetName]は[call_to_arms]を受け入れる。"
  PRICE_ON_WAR_TRUST: "宣戦布告をおこなうと、防衛側との[trust|e]は即座に[GetDefine('NDiplomacy', 'TRUST_CHANGE_DECLARE_WAR')|R]低下し、さらに相手国との[truce|e]を破る場合は追加で[GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_DEFENDER')|R]低下する。停戦を破ると、範囲内のすべての国家からの信頼度も[GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_IN_RANGE')|R]低下する。"
+ PRICE_ON_WAR_TRUST_JOIN: "この戦争への参戦は $PRICE_ON_WAR_TRUST_COMMON$"
+ PRICE_ON_WAR_TRUST_COMMON: "防衛側との [trust|e] を即座に [GetDefine('NDiplomacy', 'TRUST_CHANGE_DECLARE_WAR')|R] 低下させ、もし彼らとの [truce|e] を破るのであれば、さらに [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_DEFENDER')|R] 低下させます。休戦を破ると、範囲内の他のすべての国家との信頼も [GetDefine('NDiplomacy', 'TRUST_CHANGE_BREAK_TRUCE_IN_RANGE')|R] 低下します。"
