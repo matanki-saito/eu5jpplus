@@ -31,7 +31,7 @@
  hab_geheime_kabinettskanzlei_decision.b: "諜報機関など無用の長物だ。"
  hab_geheimer_rat_decision.title: "[ShowAdvanceNameWithNoTooltip('geheimrat')]の制度化"
  hab_geheimer_rat_decision.desc: "最近の[ShowAdvanceName('geheimrat')]の設置は広く歓迎されたものの、[ROOT.GetCountry.GetGovernment.GetCourtTitle]の一部では、この機関が非公式なままでよいのか疑問の声がある。彼らが主張するには、この機関を[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]の政策に不可欠な一部として制度化し、最も信頼される有能な人物だけが[ROOT.GetCountry.GetFlavorRank]の運営に影響を与えられるようにすべきだという。"
- hab_geheimer_rat_decision.desc.entry: "非公式な顧問団は、それを組織した統治者の代限りで終わる。だが、[ShowAdvanceName('geheimrat')]を$crown_estate$の正式な機関として定めれば、統治者が代替わりしても存続し、国政を限られた適任者の手に委ねつづけることができる。"
+ hab_geheimer_rat_decision.desc.entry: "非公式な顧問団は、それを組織した統治者の代かぎりで終わる。だが、[ShowAdvanceName('geheimrat')]を$crown_estate$の正式な機関として定めれば、統治者が代替わりしても存続し、国政を限られた適任者の手に委ねつづけることができる。"
  hab_geheimer_rat_decision.a: "制度化せよ！"
  hab_geheimer_rat_decision.a.tt: "[ShowGovernmentReformName('hab_geheimer_rat')]に属する重要人物に関するイベントをアンロックする"
  hab_geheimer_rat_decision.b: "現状で目的を十分に果たしている。"

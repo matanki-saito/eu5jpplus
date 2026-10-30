@@ -1,4 +1,4 @@
 ﻿l_japanese:
- gra_expand_seda_de_granada.title: "[ShowLocationNameWithNoTooltip('granada')]の[ShowGoodsNameWithNoTooltip('silk')]を広く知らしめる"
- gra_expand_seda_de_granada.desc: "[ShowLocationName('murcia')]を征服したことで、わが国の名高い[ShowGoodsName('silk')]製品を広く知らしめ、[ShowContinentName('europe')]各所へのさらなる輸出を促進する機会に恵まれた。"
- gra_expand_seda_de_granada.a: "わが国の製品を広めるとしよう。"
+ gra_expand_seda_de_granada.title: "[ShowLocationNameWithNoTooltip('granada')]の[ShowGoodsNameWithNoTooltip('silk')]の普及"
+ gra_expand_seda_de_granada.desc: "[ShowLocationName('murcia')]を征服したことで、我々は名高い[ShowGoodsName('silk')]の生産量を増やし、[ShowContinentName('europe')]各地へさらに輸出する機会を得た。"
+ gra_expand_seda_de_granada.a: "生産を拡大するとしよう。"

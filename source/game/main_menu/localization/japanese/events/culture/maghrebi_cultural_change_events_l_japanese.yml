@@ -8,7 +8,7 @@
  maghrebi_cultural_change_events.1002.title: ""
  maghrebi_cultural_change_events.1002.desc: ""
  maghrebi_cultural_change_events.1002.a: ""
- maghrebi_cultural_change_events.1004.title: "[ShowCultureNameWithNoTooltip('andalusi')] の入植者たちの厚かましさ"
+ maghrebi_cultural_change_events.1004.title: "厚かましい[ShowCultureNameWithNoTooltip('andalusi')]の入植者"
  maghrebi_cultural_change_events.1004.desc: "近年、[ShowRegionName('iberia_region')]で我らが[ShowReligionGroupAdjective('muslim')]の同胞が激しい迫害にさらされ、大量の[ShowCultureName('andalusi')]が流入している。[ROOT.GetCountry.GetReligion.GetGodName]から新たな故郷を授かったにもかかわらず、この新参者たちは図々しくも[ShowRegionName('maghreb_region')]での生活水準に公然と不満を漏らし、卑劣な[ShowReligionGroupAdjective('christian')]諸国に留まった者たちを称賛する厚かましさを見せている！\n\n[target_pop2.GetName]出身の[ROOT.GetCountry.GetGovernment.GetEstateName('clergy_estate')]の名の知れた一員は、こうした態度を「信仰をほぼ棄てたようなもの」と評した。"
  maghrebi_cultural_change_events.1004.a: "[ShowRegionNameWithNoTooltip('iberia_region')]がそんなにいいというのなら、そこへ帰ればいい。"
  maghrebi_cultural_change_events.1004.b: "双方を落ち着かせる。"
