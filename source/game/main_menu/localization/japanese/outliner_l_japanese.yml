@@ -220,7 +220,7 @@
  EXPLORATION_CREATING: "[LOCATION.GetNameWithNoTooltip]の[AREA.GetNameWithNoTooltip]への[exploration|e]の準備中"
  CONQUISTADOR_CREATING: "@location![LOCATION.GetName]の@area![AREA.GetName]への[ShowSubjectTypeName('conquistador')]の開始を準備中"
  EXPEDITION_WAIT_CONSTRUCTION: "[EXPEDITION.GetNameWithNoTooltip]が[LOCATION.GetNameWithNoTooltip]で待機中"
- EXPEDITION_WAIT_CONSTRUCTION_DETAILS_TIP: "建設作業が完了するまで[EXPEDITION.GetNameWithNoTooltip]はここで止まり、作業終了後に旅を続行する。"
+ EXPEDITION_WAIT_CONSTRUCTION_DETAILS_TIP: "建設作業が完了するまで[EXPEDITION.GetNameWithNoTooltip]はここで待機し、作業終了後に旅を続行する。"
  EXPEDITION_WAIT_CONSTRUCTION_GOODS_TIP: "$GOODS_DEMAND$を消費中"
  ROAD_TO: "$TO$までの[ROAD_TYPE.GetName]"
  ARMY_NAVY_LEVY_IN_SHORT: "動員"

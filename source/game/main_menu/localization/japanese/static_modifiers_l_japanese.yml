@@ -1831,9 +1831,9 @@
  STATIC_MODIFIER_NAME_cas_colonial_reputation_slandered: "植民地での評判の失墜"
  STATIC_MODIFIER_DESC_cas_colonial_reputation_slandered: "植民地をめぐる競争相手からの非難を無視した結果、多くの者が彼らのプロパガンダに惑わされ、わが国が残虐だという嘘を信じるようになった。"
  STATIC_MODIFIER_NAME_cas_naples_crackdown: "スペインの守備隊強化"
- STATIC_MODIFIER_DESC_cas_naples_crackdown: "スペイン軍の存在感を高めることで、一時的に不穏度を軽減させることができる。"
- STATIC_MODIFIER_NAME_cas_catalan_crackdown: "軍隊統合計画の執行"
- STATIC_MODIFIER_DESC_cas_catalan_crackdown: "軍隊統合計画を執行することで、スペイン軍が一時的にカタルーニャ人の間の不穏度を軽減させることができる"
+ STATIC_MODIFIER_DESC_cas_naples_crackdown: "スペイン軍の存在感を高めることで、一時的に不穏度を低減させることができる。"
+ STATIC_MODIFIER_NAME_cas_catalan_crackdown: "軍隊統合計画の実行"
+ STATIC_MODIFIER_DESC_cas_catalan_crackdown: "軍隊統合計画を実行することで、スペイン軍は一時的にカタルーニャ人のあいだの不穏度を低減させることができる"
  #HRE
  STATIC_MODIFIER_NAME_rome_reborn: "ローマ再誕"
  STATIC_MODIFIER_NAME_cas_spanish_dollar: "スペインドルの導入"
@@ -2740,7 +2740,7 @@
  STATIC_MODIFIER_NAME_hajj_pious_return: "ハッジの祝福"
  STATIC_MODIFIER_DESC_hajj_pious_return: "統治者がメッカから帰還したことで、信徒たちの信仰心が再び高まり、宮廷における聖職者の地位も向上した。"
  STATIC_MODIFIER_NAME_pilgrim_ruler: "巡礼した統治者"
- STATIC_MODIFIER_DESC_pilgrim_ruler: "カトリック系キリスト教世界の聖地を巡り、最後にエルサレムの聖墳墓教会を訪れる大巡礼を済ませた統治者で、生涯にわたって信徒たちから敬われる。この偉業によって得た威信と正統性は、旅そのものが終わったあとも長く保たれる。"
+ STATIC_MODIFIER_DESC_pilgrim_ruler: "カトリック系キリスト教世界の聖地をめぐり、最後にエルサレムの聖墳墓教会を訪れる大巡礼を済ませたこの統治者は、生涯にわたって信徒たちから敬われる。この偉業によって得た威信と正統性は、旅が終わった後も長く保たれる。"
  # Survey expeditions
  STATIC_MODIFIER_NAME_accurate_charts: "精確な海図"
  STATIC_MODIFIER_DESC_accurate_charts: "わが国の沿岸では詳細な測量がおこなわれ、水深が測られ、港の位置と航行上の危険箇所が海図に記された。新しい海図は一世代にわたって有用であり、今後のあらゆる遠征の準備費用を抑え、その出発を早める。"

@@ -5,5 +5,5 @@
  spa_establish_the_council_of_castile_decision.a: "評議会に[ROOT.GetCountry.GetFlavorRank]を監督させよう。"
  spa_establish_the_council_of_castile_decision.a.entry: "評議会に国を監督させよう。"
  establish_the_council_of_castile_tt: "[ShowBureaucracyTypeName('spa_council_of_castile_bureaucracy')]の創設"
- established_the_council_of_castile_tt: "決断「$spa_establish_the_council_of_castile_decision.title$」により、[ShowBureaucracyTypeName('spa_council_of_castile_bureaucracy')]を創設した"
+ established_the_council_of_castile_tt: "決断「$spa_establish_the_council_of_castile_decision$」により、[ShowBureaucracyTypeName('spa_council_of_castile_bureaucracy')]を創設した"
  spa_establish_the_council_of_castile_decision.historical_info: "カスティーリャ王立最高評議会は、15世紀後半、カトリックの君主だったアラゴン王フェルナンド2世とカスティーリャ女王イサベル1世のもとで設立された。この評議会は当初は中世的な諮問機関だったが、やがて王権の中枢機関へと変貌を遂げた。高位貴族の権力を抑制し、地方特権を回避し、大学で教育を受けた法学者や官僚を任命することで統治を専門化し、国家の利益に奉仕する役割を果たした。"

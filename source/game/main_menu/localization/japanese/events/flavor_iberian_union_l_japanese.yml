@@ -9,7 +9,7 @@
  flavor_iberian_union.2.a: "両国ともに栄えよう。"
  flavor_iberian_union.3.title: "イベリアの結婚"
  flavor_iberian_union.3.desc: "[initiator_candidate.GetName]が未婚であることから、[ROOT.GetCountry.GetName]では王位継承をめぐる不安が高まっている。これを受け、わが[ROOT.GetCountry.GetGovernment.GetCourtTitle]は[ROOT.GetCountry.GetGovernment.GetEstateName('crown_estate')]に縁談を進めるよう強く求めており、その相手として、[ShowRegionName('iberia_region')]にあるほかの[ShowReligionGroupAdjective('christian')]王家との縁組が提案されている。確かな後継者を得られなければ、わが[ROOT.GetCountry.GetFlavorRank]は混乱に陥り、王位をめぐる争いや、さらには外国勢力の干渉を招きかねない。"
- flavor_iberian_union.3.historical_info: "いわゆる「イベリアの結婚」は、カスティーリャ王エンリケ4世の死後に起きた王位継承争いを指す。エンリケ4世の死後、夫であるアラゴンのフェルナンドを後ろ盾とするカスティーリャ女王イサベルと、ポルトガルの支持を受けたイサベルの姪フアナが王位を争った。この争いはイサベルとフェルナンドの勝利に終わり、イサベルの統治体制が確立され、名高いカトリック両王の治世が幕を開けた。カスティーリャとアラゴンのこの連合は、やがてスペイン統一へとつながっていく。"
+ flavor_iberian_union.3.historical_info: "いわゆる「イベリアの結婚」は、カスティーリャ王エンリケ4世の死後に起こった王位継承争いを指す。エンリケ4世の死後、夫であるアラゴンのフェルナンドを後ろ盾とするカスティーリャ女王イサベルと、ポルトガルの支持を受けたイサベルの姪フアナが王位を争った。この争いはイサベルとフェルナンドの勝利に終わり、イサベルの統治体制が確立され、名高いカトリック両王の治世が幕を開けた。カスティーリャとアラゴンのこの連合は、やがてスペイン統一へとつながっていく。"
  flavor_iberian_union.3.a: "[iu_partner_a.GetNameWithNoTooltip]に縁談を申し込もう。"
  flavor_iberian_union.3.b: "代わりに[iu_partner_b.GetNameWithNoTooltip]へ話を持ちかけよう。"
  flavor_iberian_union.3.c: "ほかの道を探そう。"

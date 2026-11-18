@@ -696,7 +696,7 @@
  game_concept_produced_goods_desc: "[building|e]で働く[pops|e]によって生産される[goods|e]の一種です。多くの場合、これらの建造物が機能するには[raw_materials|e]、または別の加工品が必要です。"
  game_concept_rgo: "RGO"
  game_concept_resource_gathering_operations: "資源採取"
- game_concept_rgo_desc: "game_concept_rgo_desc: &quot;$game_concept_resource_gathering_operations$ の頭文字。各[location|e]には、$rgo_mining$、$rgo_farming$、$rgo_gathering$、$rgo_forestry$、そして$rgo_hunting$から生産される[raw_material|e]があります。\n\n$game_concept_rgo$の各レベルでは最大#V  1,000#![rgo_pops|e]まで[employ|e]できますが、最大レベルは[development|e]、[advances|e]などの要素によって異なります。&quot;"
+ game_concept_rgo_desc: "game_concept_rgo_desc: \"$game_concept_resource_gathering_operations$ の頭文字。各[location|e]には、$rgo_mining$、$rgo_farming$、$rgo_gathering$、$rgo_forestry$、そして$rgo_hunting$から生産される[raw_material|e]があります。\n\n$game_concept_rgo$の各レベルでは最大#V  1,000#![rgo_pops|e]まで[employ|e]できますが、最大レベルは[development|e]、[advances|e]などの要素によって異なります。\""
  game_concept_prosperity: "繁栄度"
  game_concept_prosperity_desc: "繁栄度とは、その[location|e]がどれほど栄え、資源が豊富にあるかを示す尺度です。繁栄度がプラスの場合、時間の経過とともに[location|e]の[development|e]が増加し、[migration|e]先として選ばれやすくなります。\n\n繁栄度は時間とともに自然に上昇しますが、低い[pop_satisfaction|e]、[diseases|e]、[sieges|e]、[occupation|e]、[blockades|e]により低下し、[location]が敵の[army|e]に[looted|e]されても低下します。繁栄度がマイナスの場合、その[location]の[population|e]に壊滅的な影響を与える可能性があります。"
  game_concept_development: "開発度"

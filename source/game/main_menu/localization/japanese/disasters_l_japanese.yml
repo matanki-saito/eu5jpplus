@@ -9,14 +9,14 @@
  oligarchic_capture_desc: "わが共和国における王権の支配力が弱まり、いまや強大な派閥が国家権力の中枢を掌握しようとしている。法改革は停滞し、反対派の声は封じられている。このまま手を打たなければ、寡頭派は民意を踏みにじり、その支配を盤石にするだろう……"
  oligarchic_faction_name: "寡頭派"
  oligarchic_capture_faction_won_civil_war_tt: "内戦で#Y 寡頭派#!が勝利し、国家を掌握した"
- oligarchic_faction_not_active_tt: "#Y 寡頭派#!の[rebels|e]で、現在活動中の組織はない"
+ oligarchic_faction_not_active_tt: "活動している#Y 寡頭派#!の[rebels|e]が存在しない"
  #Crisis of Faith
  #Disaster
  crisis_of_faith: "信仰の危機"
  crisis_of_faith_desc: "国教への信仰は失われ、教会分裂と改革を説く説教師たちが競ってその空白を埋めている。聖職者たちは、異端者を粛清しようとする者と、異端者との妥協を図る者に分裂している。神に認められた国家としてのわが国の正統性は、いまや危機に瀕している……"
  schismatic_clergy_name: "分離派の聖職者"
  crisis_of_faith_schismatic_clergy_won_civil_war_tt: "#Y 分離派の聖職者#!が内戦で勝利した"
- schismatic_clergy_not_active_tt: "#Y 分離派の聖職者#!の[rebels|e]で、現在活動中の組織はない"
+ schismatic_clergy_not_active_tt: "活動している#Y 分離派の聖職者#!の[rebels|e]が存在しない"
  #Succession Crisis
  #Disaster
  succession_crisis: "継承危機"

@@ -1,8 +1,8 @@
 ﻿l_japanese:
  test_decision_simple.title: "試験的ディシジョン（マルチオプション）"
- test_decision_simple.desc: "3つのオプション付きの試験的ディシジョン。ディシジョンのデータモデル解析が問題なく行われることを確認するため、また各オプションの効果がエンドツーエンドで適用されるかを確認するために用いる。"
- test_decision_simple.a: "ダカットを受け取る（+10ダカット）"
- test_decision_simple.b: "ダカットを支払う（-10ダカット）"
+ test_decision_simple.desc: "3つのオプション付きの試験的ディシジョン。ディシジョンのデータモデル解析が問題なくおこなわれることを確認するため、また各オプションの効果がエンドツーエンドで適用されるかを確認するために用いる。"
+ test_decision_simple.a: "ダカットを受け取る（+10）"
+ test_decision_simple.b: "ダカットを支払う（-10）"
  test_decision_simple.c: "何もしない"
  test_decision_only_once.title: "試験的ディシジョン（1ゲームにつき1回）"
  test_decision_only_once.desc: "一度のキャンペーンで1回だけ実行できる試験的ディシジョン。セーブやロード時に毎回「only_once」フラグが保持されていることを確認し、ディシジョンの再実行を防ぐために用いる。"
